@@ -1261,11 +1261,40 @@
   filters: *67
   metadata: *68
   generator: *69
+- neko_id: satoshi_kon
+  level: 1
+  algo: count
+  threshold: 100%
+  filters: &70
+    anime_ids:
+    - 2832
+    - 1943
+    - 323
+    - 759
+    - 1033
+    - 437
+    - 1462
+    - 2000
+  metadata: &71
+    title_ru: Сатоси Кон
+    title_en: Satoshi Kon
+    image: "/assets/achievements/anime/author/satoshi_kon.png"
+    border_color: "#FF0000"
+    topic_id: 276032
+  generator: &72
+    person_id: 4580
+- neko_id: satoshi_kon
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *70
+  metadata: *71
+  generator: *72
 - neko_id: mamoru_oshii
   level: 1
   algo: count
   threshold: 68%
-  filters: &70
+  filters: &73
     anime_ids:
     - 5386
     - 405
@@ -1295,44 +1324,15 @@
     - 39990
     - 2151
     - 49351
-  metadata: &71
+  metadata: &74
     title_ru: Мамору Оси
     title_en: Mamoru Oshii
     image: "/assets/achievements/anime/author/mamoru_oshii.png"
     border_color: "#B22222"
     topic_id: 276032
-  generator: &72
+  generator: &75
     person_id: 4097
 - neko_id: mamoru_oshii
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *70
-  metadata: *71
-  generator: *72
-- neko_id: satoshi_kon
-  level: 1
-  algo: count
-  threshold: 100%
-  filters: &73
-    anime_ids:
-    - 2832
-    - 1943
-    - 323
-    - 759
-    - 1033
-    - 437
-    - 1462
-    - 2000
-  metadata: &74
-    title_ru: Сатоси Кон
-    title_en: Satoshi Kon
-    image: "/assets/achievements/anime/author/satoshi_kon.png"
-    border_color: "#FF0000"
-    topic_id: 276032
-  generator: &75
-    person_id: 4580
-- neko_id: satoshi_kon
   level: 0
   algo: count
   threshold: 0.01
