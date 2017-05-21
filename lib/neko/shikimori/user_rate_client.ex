@@ -1,5 +1,3 @@
-require IEx
-
 defmodule Shikimori.UserRateClient do
   use HTTPoison.Base
   alias Shikimori.UserRate
