@@ -1,5 +1,6 @@
 defmodule Shikimori.UserRate do
-  @derive Poison.Decoder
+  # currently structs are created directly by Kernel.struct/2
+  #@derive Poison.Decoder
   defstruct ~w(
     id
     user_id
