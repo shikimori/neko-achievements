@@ -1,5 +1,6 @@
-# user_rates = Shikimori.UserRateClient.get!("user_rates", [], params: %{user_id: 1}).body
-defmodule Shikimori.UserRateClient do
+# user_rates = Neko.Shikimori.UserRateClient.get!
+#   ("user_rates", [], params: %{user_id: 1}).body
+defmodule Neko.Shikimori.UserRateClient do
   use HTTPoison.Base
   alias Shikimori.UserRate
 

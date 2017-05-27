@@ -1,4 +1,4 @@
-defmodule Shikimori.UserRate do
+defmodule Neko.Shikimori.UserRate do
   # currently structs are created directly by Kernel.struct/2
   #@derive Poison.Decoder
   defstruct ~w(
