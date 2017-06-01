@@ -1,4 +1,8 @@
 defmodule Neko.Achievement.Store do
+  @moduledoc """
+  Stores achievements by their ids for single user.
+  """
+
   def start_link do
     Agent.start_link(fn -> %{} end)
   end
