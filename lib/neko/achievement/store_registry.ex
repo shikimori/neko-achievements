@@ -41,7 +41,7 @@ defmodule Neko.Achievement.StoreRegistry do
   end
 
   # for messages that are not sent via GenServer.call/2 or GenServer.cast/2
-  # (uncludes messages sent via send/2)
+  # (includes messages sent via send/2)
   def handle_info {:DOWN, ref, :process, _pid, _reason}, {user_ids, refs} do
     {user_id, refs} = Map.pop(refs, ref)
     user_ids = Map.delete(user_ids, user_id)
