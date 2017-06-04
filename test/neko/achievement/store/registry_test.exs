@@ -33,7 +33,6 @@ defmodule Neko.Achievement.Store.RegistryTest do
     assert StoreRegistry.lookup(registry, user_id) == :error
   end
 
-  @tag :wip
   test "removes store on crash", %{registry: registry} do
     user_id = 1
 
