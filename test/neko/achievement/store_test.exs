@@ -1,5 +1,6 @@
 defmodule Neko.Achievement.StoreTest do
   use ExUnit.Case, async: true
+
   alias Neko.Achievement.Store
 
   # runs before each test

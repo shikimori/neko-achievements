@@ -1,16 +1,17 @@
-defmodule Neko.Achievement.StoreRegistry do
+defmodule Neko.Achievement.Store.Registry do
   @moduledoc """
   Registry of achievements stores by user id:
   maps one achievement store to one user.
   """
 
   use GenServer
-  alias Neko.Achievement.Store
+
+  alias Neko.Achievement.Store.Supervisor, as: StoreSupervisor
 
   # Client API
 
-  def start_link do
-    GenServer.start_link(__MODULE__, :ok, [])
+  def start_link name do
+    GenServer.start_link(__MODULE__, :ok, name: name)
   end
 
   def create server, user_id do
@@ -61,7 +62,7 @@ defmodule Neko.Achievement.StoreRegistry do
       state
     else
       # create store and start monitoring it
-      {:ok, store} = Store.start_link
+      {:ok, store} = StoreSupervisor.start_store
       ref = Process.monitor(store)
 
       user_ids = Map.put(user_ids, user_id, store)
