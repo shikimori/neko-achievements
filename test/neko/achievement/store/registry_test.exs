@@ -7,8 +7,9 @@ defmodule Neko.Achievement.Store.RegistryTest do
   setup context do
     # context.test - name of specific test
     # (say, 'creates store by user_id')
-    {:ok, registry} = StoreRegistry.start_link(context.test)
-    {:ok, registry: registry}
+    {:ok, _} = StoreRegistry.start_link(context.test)
+    # use registry by its name, not pid
+    {:ok, registry: context.test}
   end
 
   test "creates store by user_id", %{registry: registry} do
@@ -30,6 +31,9 @@ defmodule Neko.Achievement.Store.RegistryTest do
     {:ok, store} = StoreRegistry.lookup(registry, user_id)
     # synchronous operation
     Agent.stop(store)
+
+    # ensure registry has processed DOWN message
+    _ = StoreRegistry.create(registry, "fake")
     assert StoreRegistry.lookup(registry, user_id) == :error
   end
 
@@ -47,6 +51,8 @@ defmodule Neko.Achievement.Store.RegistryTest do
     # wait till store is dead
     assert_receive {:DOWN, ^ref, _, _, _}
 
+    # ensure registry has processed DOWN message
+    _ = StoreRegistry.create(registry, "fake")
     assert StoreRegistry.lookup(registry, user_id) == :error
   end
 end
