@@ -1,6 +1,7 @@
 defmodule Neko.Achievement.StoreTest do
   use ExUnit.Case, async: true
 
+  alias Neko.Achievement
   alias Neko.Achievement.Store
 
   # runs before each test
@@ -10,16 +11,16 @@ defmodule Neko.Achievement.StoreTest do
   end
 
   # pass store to each test using 'test context'
-  test "stores achievement by its id", %{store: store} do
-    achievement_id = 1
-    achievement = %{neko_id: 2, level: 2, progress: 20}
+  test "stores achievement by its neko id", %{store: store} do
+    neko_id = 1
+    achievement = %Achievement{neko_id: neko_id}
 
-    assert Store.get(store, achievement_id) == nil
+    assert Store.get(store, neko_id) == nil
 
-    Store.put(store, achievement_id, achievement)
-    assert Store.get(store, achievement_id) == achievement
+    Store.put(store, neko_id, achievement)
+    assert Store.get(store, neko_id) == achievement
 
-    Store.delete(store, achievement_id)
-    assert Store.get(store, achievement_id) == nil
+    Store.delete(store, neko_id)
+    assert Store.get(store, neko_id) == nil
   end
 end
