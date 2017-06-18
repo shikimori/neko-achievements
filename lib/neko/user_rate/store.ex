@@ -8,7 +8,7 @@ defmodule Neko.UserRate.Store do
     Agent.start_link(fn -> %{} end)
   end
 
-  # TODO: convert list of values to set
+  # TODO: convert list of values to MapSet
   #       for the sake of performance?
   def all(store) do
     Agent.get(store, &Map.values(&1))

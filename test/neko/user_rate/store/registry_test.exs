@@ -13,9 +13,9 @@ defmodule Neko.UserRate.Store.RegistryTest do
     {:ok, registry: context.test}
   end
 
-  # NOTE: make sure test descriptions are unique across all
-  #       tests since they are used as registry names -
-  #       otherwise you'll get this error when trying to registry:
+  # NOTE: make sure test descriptions are unique across all tests since they
+  #       are used as registry names - otherwise you'll get this error when
+  #       trying to start registry with the same name in another test file:
   #
   #       no match of right hand side value: {:error, {:already_started, ...}}
   test "creates user rate store by user id", %{registry: registry} do
