@@ -4,23 +4,20 @@ defmodule Neko.Achievement.StoreTest do
   alias Neko.Achievement
   alias Neko.Achievement.Store
 
-  # runs before each test
   setup do
     {:ok, store} = Store.start_link
     {:ok, store: store}
   end
 
-  # pass store to each test using 'test context'
-  test "stores achievement by its neko id", %{store: store} do
-    neko_id = 1
-    achievement = %Achievement{neko_id: neko_id}
+  test "stores achievement", %{store: store} do
+    achievement = %Achievement{neko_id: 1}
 
-    assert Store.get(store, neko_id) == nil
+    assert Store.all(store) == %MapSet{}
 
-    Store.put(store, neko_id, achievement)
-    assert Store.get(store, neko_id) == achievement
+    Store.put(store, achievement)
+    assert Store.all(store) == MapSet.new([achievement])
 
-    Store.delete(store, neko_id)
-    assert Store.get(store, neko_id) == nil
+    Store.delete(store, achievement)
+    assert Store.all(store) == %MapSet{}
   end
 end

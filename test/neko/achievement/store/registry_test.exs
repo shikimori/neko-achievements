@@ -1,58 +1,54 @@
 defmodule Neko.Achievement.Store.RegistryTest do
   use ExUnit.Case, async: true
 
+  alias Neko.Achievement
   alias Neko.Achievement.Store
   alias Neko.Achievement.Store.Registry, as: StoreRegistry
 
   setup context do
-    # context.test - name of specific test
-    # (say, 'creates store by user_id')
     {:ok, _} = StoreRegistry.start_link(context.test)
-    # use registry by its name, not pid
     {:ok, registry: context.test}
   end
 
-  test "creates store by user_id", %{registry: registry} do
+  test "creates achievement store by user id", %{registry: registry} do
     user_id = 1
-    achievement_id = 2
-    achievement = %{neko_id: 2, level: 2, progress: 20}
+    achievement = %Achievement{neko_id: 2, level: 3}
 
     StoreRegistry.create(registry, user_id)
     assert {:ok, store} = StoreRegistry.lookup(registry, user_id)
 
-    Store.put(store, achievement_id, achievement)
-    assert Store.get(store, achievement_id) == achievement
+    Store.put(store, achievement)
+    assert Store.all(store) == MapSet.new([achievement])
   end
 
-  test "removes stores on exit", %{registry: registry} do
+  test "removes achievement stores on exit", %{registry: registry} do
     user_id = 1
 
     StoreRegistry.create(registry, user_id)
     {:ok, store} = StoreRegistry.lookup(registry, user_id)
-    # synchronous operation
     Agent.stop(store)
 
-    # ensure registry has processed DOWN message
-    _ = StoreRegistry.create(registry, "fake")
+    ensure_store_removed_from_registry(registry)
     assert StoreRegistry.lookup(registry, user_id) == :error
   end
 
-  test "removes store on crash", %{registry: registry} do
+  test "removes achievement store on crash", %{registry: registry} do
     user_id = 1
 
     StoreRegistry.create(registry, user_id)
     {:ok, store} = StoreRegistry.lookup(registry, user_id)
 
-    # crash store
     ref = Process.monitor(store)
-    # asynchronous operation unlike Agent.stop
     Process.exit(store, :shutdown)
 
-    # wait till store is dead
     assert_receive {:DOWN, ^ref, _, _, _}
 
-    # ensure registry has processed DOWN message
-    _ = StoreRegistry.create(registry, "fake")
+    ensure_store_removed_from_registry(registry)
     assert StoreRegistry.lookup(registry, user_id) == :error
+  end
+
+  defp ensure_store_removed_from_registry(registry) do
+    fake_user_id = 123
+    StoreRegistry.create(registry, fake_user_id)
   end
 end

@@ -1,12 +1,12 @@
-defmodule Neko.Achievement.Store.Supervisor do
+defmodule Neko.UserRate.Store.Supervisor do
   @moduledoc """
   Used to group stores.
   """
 
   use Supervisor
 
-  alias Neko.Achievement.Store
-  alias Neko.Achievement.Store.Supervisor, as: StoreSupervisor
+  alias Neko.UserRate.Store
+  alias Neko.UserRate.Store.Supervisor, as: StoreSupervisor
 
   @name StoreSupervisor
 
@@ -20,6 +20,7 @@ defmodule Neko.Achievement.Store.Supervisor do
 
   def init(:ok) do
     children = [
+      # store won't be restarted if it crashes
       worker(Store, [], restart: :temporary)
     ]
 

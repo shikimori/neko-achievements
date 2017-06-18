@@ -1,21 +1,22 @@
 defmodule Neko.Achievement.Store do
   @moduledoc """
-  Stores achievements by their neko ids for single user.
+  Stores achievements for one user.
+  User rates are stored in MapSet.
   """
 
   def start_link do
-    Agent.start_link(fn -> %{} end)
+    Agent.start_link(fn -> %MapSet{} end)
   end
 
-  def get store, neko_id do
-    Agent.get(store, &Map.get(&1, neko_id))
+  def all(store) do
+    Agent.get(store, fn set -> set end)
   end
 
-  def put store, neko_id, achievement do
-    Agent.update(store, &Map.put(&1, neko_id, achievement))
+  def put(store, achievement) do
+    Agent.update(store, &MapSet.put(&1, achievement))
   end
 
-  def delete store, neko_id do
-    Agent.get_and_update(store, &Map.pop(&1, neko_id))
+  def delete(store, achievement) do
+    Agent.update(store, &MapSet.delete(&1, achievement))
   end
 end

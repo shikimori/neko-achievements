@@ -5,8 +5,10 @@ defmodule Neko.Application do
 
   use Application
 
-  alias Neko.Achievement.Store.Registry, as: StoreRegistry
-  alias Neko.Achievement.Store.Supervisor, as: StoreSupervisor
+  alias Neko.UserRate.Store.Registry, as: UserRateRegistry
+  alias Neko.Achievement.Store.Registry, as: AchievementRegistry
+  alias Neko.UserRate.Store.Supervisor, as: UserRateSupervisor
+  alias Neko.Achievement.Store.Supervisor, as: AchievementSupervisor
 
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
@@ -15,8 +17,10 @@ defmodule Neko.Application do
     children = [
       # Starts a worker by calling: Neko.Worker.start_link(arg1, arg2, arg3)
       # worker(Neko.Worker, [arg1, arg2, arg3]),
-      worker(StoreRegistry, [StoreRegistry]),
-      supervisor(StoreSupervisor, [])
+      worker(UserRateRegistry, [UserRateRegistry]),
+      worker(AchievementRegistry, [AchievementRegistry]),
+      supervisor(UserRateSupervisor, []),
+      supervisor(AchievementSupervisor, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
