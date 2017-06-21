@@ -17,6 +17,8 @@ defmodule Neko.Router do
     {:ok, body, _conn} = read_body(conn)
     # TODO: create struct to store user rate action
     # TODO: parse body into that struct using Poison
+    # TODO: add router test (https://github.com/elixir-lang/plug#testing-plugs)
+    #
     # https://hexdocs.pm/plug/Plug.Router.html#module-parameter-parsing
     # https://stackoverflow.com/questions/34476915
     result = "result"
