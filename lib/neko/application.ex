@@ -20,7 +20,8 @@ defmodule Neko.Application do
       worker(UserRateRegistry, [UserRateRegistry]),
       worker(AchievementRegistry, [AchievementRegistry]),
       supervisor(UserRateSupervisor, []),
-      supervisor(AchievementSupervisor, [])
+      supervisor(AchievementSupervisor, []),
+      Plug.Adapters.Cowboy.child_spec(:http, Neko.Router, [], [port: 4001])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

@@ -35,6 +35,8 @@ defmodule Neko.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
+      {:cowboy, "~> 1.1"},
+      {:plug, "~> 1.3"},
       {:poison, "~> 3.0"},
       {:httpoison, "~> 0.11.1"}
     ]
