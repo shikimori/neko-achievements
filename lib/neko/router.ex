@@ -18,6 +18,7 @@ defmodule Neko.Router do
     # TODO: create struct to store user rate action
     # TODO: parse body into that struct using Poison
     # TODO: add router test (https://github.com/elixir-lang/plug#testing-plugs)
+    # TODO: call service to calculate achievements
     #
     # https://hexdocs.pm/plug/Plug.Router.html#module-parameter-parsing
     # https://stackoverflow.com/questions/34476915

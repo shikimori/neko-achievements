@@ -4,9 +4,7 @@ defmodule Neko.Plug.Authenticate do
   def init(opts), do: opts
 
   def call(conn, opts) do
-    conn
-    |> get_auth_header
-    |> authenticate(opts[:token])
+    conn |> get_auth_header |> authenticate(opts[:token])
   end
 
   defp get_auth_header(conn) do
