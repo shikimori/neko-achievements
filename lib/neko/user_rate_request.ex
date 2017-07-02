@@ -8,4 +8,13 @@ defmodule Neko.UserRateRequest do
     episodes
     action
   )a
+
+  # only atoms and strings are allowed as keys,
+  # string keys are converted to atom keys
+  use ExConstructor,
+    atoms: true,
+    strings: true,
+    camelcase: false,
+    uppercamelcase: false,
+    underscore: false
 end

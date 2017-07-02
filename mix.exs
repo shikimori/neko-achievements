@@ -36,6 +36,7 @@ defmodule Neko.Mixfile do
   defp deps do
     [
       {:cowboy, "~> 1.1"},
+      {:exconstructor, "~> 1.1.0"},
       {:plug, "~> 1.3"},
       {:poison, "~> 3.0"},
       {:httpoison, "~> 0.11.1"}
