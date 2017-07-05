@@ -1,4 +1,4 @@
-defmodule Neko.Shikimori do
+defmodule Neko.Shikimori.Base do
   use HTTPoison.Base
 
   @base_url "https://shikimori.org/api/"

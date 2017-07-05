@@ -9,8 +9,8 @@ defmodule Neko.UserRateRequest do
     action
   )a
 
-  # only atoms and strings are allowed as keys,
-  # string keys are converted to atom keys
+  # options deteremine what type of keys are
+  # attempted to be converted to struct keys
   use ExConstructor,
     atoms: true,
     strings: true,

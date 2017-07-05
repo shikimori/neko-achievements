@@ -19,6 +19,7 @@ defmodule Neko.Router do
   # (saved it in conn private field `plug_route`)
   plug :dispatch
 
+  # each route must return connection
   get "/ping" do
     conn |> send_resp(200, "pong")
   end
@@ -27,12 +28,14 @@ defmodule Neko.Router do
     # without using Plug.Parsers plug:
     #{:ok, body, _conn} = read_body(conn)
     #request = Poison.decode!(body, as: %Neko.UserRateRequest{})
-    request = Neko.UserRateRequest.new(conn.body_params)
 
-    # TODO: call service to calculate achievements
+    Neko.UserRateRequest.new(conn.body_params)
+    |> Neko.Achievement.Calculator.call()
+
     conn |> send_resp(201, Poison.encode!(request))
   end
 
+  # catch-all route
   match _ do
     conn |> send_resp(404, "oops")
   end

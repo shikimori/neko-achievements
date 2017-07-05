@@ -1,5 +1,5 @@
 defmodule Neko.Shikimori.Achievement do
-  import Neko.Shikimori, only: [make_request!: 3]
+  import Neko.Shikimori.Base, only: [make_request!: 3]
 
   def get_by_user!(user_id) do
     make_request!(:get, "achievements", %{user_id: user_id})
