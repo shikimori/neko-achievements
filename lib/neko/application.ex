@@ -5,8 +5,8 @@ defmodule Neko.Application do
 
   use Application
 
-  alias Neko.Achievement.Store.Registry, as: AchievementRegistry
   alias Neko.UserRate.Store.Registry, as: UserRateRegistry
+  alias Neko.Achievement.Store.Registry, as: AchievementRegistry
 
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
@@ -15,10 +15,10 @@ defmodule Neko.Application do
     children = [
       # Starts a worker by calling: Neko.Worker.start_link(arg1, arg2, arg3)
       # worker(Neko.Worker, [arg1, arg2, arg3]),
-      worker(AchievementRegistry, [AchievementRegistry]),
       worker(UserRateRegistry, [UserRateRegistry]),
-      supervisor(Neko.Achievement.Store.Supervisor, []),
+      worker(AchievementRegistry, [AchievementRegistry]),
       supervisor(Neko.UserRate.Store.Supervisor, []),
+      supervisor(Neko.Achievement.Store.Supervisor, []),
       Plug.Adapters.Cowboy.child_spec(:http, Neko.Router, [], [port: 4001])
     ]
 

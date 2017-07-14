@@ -15,7 +15,7 @@ defmodule Neko.UserRate.StoreTest do
 
     assert Store.get(store, id) == nil
 
-    Store.put(store, user_rate)
+    Store.put(store, user_rate.id, user_rate)
     assert Store.get(store, id) == user_rate
   end
 
@@ -23,8 +23,8 @@ defmodule Neko.UserRate.StoreTest do
     user_rate_1 = %UserRate{id: 1, score: 8}
     user_rate_2 = %UserRate{id: 2, score: 10}
 
-    Store.put(store, user_rate_1)
-    Store.put(store, user_rate_2)
+    Store.put(store, user_rate_1.id, user_rate_1)
+    Store.put(store, user_rate_2.id, user_rate_2)
 
     assert Store.all(store) == [user_rate_1, user_rate_2]
   end
@@ -40,7 +40,7 @@ defmodule Neko.UserRate.StoreTest do
     id = 1
     user_rate = %UserRate{id: id}
 
-    Store.put(store, user_rate)
+    Store.put(store, user_rate.id, user_rate)
     assert Store.get(store, id) == user_rate
 
     Store.delete(store, user_rate.id)

@@ -9,7 +9,7 @@ defmodule Neko.RouterTest do
   @opts Router.init([])
 
   setup do
-    user_rate_request = %Neko.UserRateRequest{
+    request = %Neko.Request{
       id: 1,
       user_id: 2,
       target_id: 3,
@@ -20,17 +20,17 @@ defmodule Neko.RouterTest do
     }
 
     # all custom options will be merged into context which is
-    # a map containing all information about current test:
+    # a map containing all the information about current test, e.g.:
     #
     # %{async: true, case: Neko.RouterTest, describe: "/user_rate",
-    #  file: <filename> line: 25, registered: %{}, test: <testname>,
-    #  type: :test, user_rate_request: <user_rate_request>}
-    {:ok, user_rate_request: user_rate_request}
+    #  file: <filename>, line: 25, registered: %{}, test: <testname>,
+    #  type: :test, request: <request>}
+    {:ok, request: request}
   end
 
   describe "/user_rate" do
     test "returns new achievements", context do
-      json = Poison.encode!(context.user_rate_request)
+      json = Poison.encode!(context.request)
       conn = json_post_conn("/user_rate", json) |> Router.call(@opts)
 
       assert conn.state == :sent
@@ -39,7 +39,7 @@ defmodule Neko.RouterTest do
     end
 
     test "returns 401 without authorization token", context do
-      json = Poison.encode!(context.user_rate_request)
+      json = Poison.encode!(context.request)
       conn = json_post_conn("/user_rate", json)
             |> put_req_header("authorization", "bar")
             |> Router.call(@opts)
@@ -50,7 +50,7 @@ defmodule Neko.RouterTest do
     end
 
     test "returns 404 for missing page", context do
-      json = Poison.encode!(context.user_rate_request)
+      json = Poison.encode!(context.request)
       conn = json_post_conn("/missing", json) |> Router.call(@opts)
 
       assert conn.state == :sent

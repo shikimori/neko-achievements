@@ -5,10 +5,7 @@ defmodule Neko.UserRate.Store.Supervisor do
 
   use Supervisor
 
-  alias Neko.UserRate.Store
-  alias Neko.UserRate.Store.Supervisor, as: StoreSupervisor
-
-  @name StoreSupervisor
+  @name Neko.UserRate.Store.Supervisor
 
   def start_link do
     Supervisor.start_link(__MODULE__, :ok, name: @name)
@@ -21,7 +18,7 @@ defmodule Neko.UserRate.Store.Supervisor do
   def init(:ok) do
     children = [
       # store won't be restarted if it crashes
-      worker(Store, [], restart: :temporary)
+      worker(Neko.UserRate.Store, [], restart: :temporary)
     ]
 
     supervise(children, strategy: :simple_one_for_one)

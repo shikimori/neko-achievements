@@ -1,7 +1,6 @@
 defmodule Neko.UserRate.Store.RegistryTest do
   use ExUnit.Case, async: true
 
-  alias Neko.UserRate
   alias Neko.UserRate.Store
   alias Neko.UserRate.Store.Registry, as: StoreRegistry
 
@@ -13,14 +12,14 @@ defmodule Neko.UserRate.Store.RegistryTest do
   test "creates user rate store by user id", %{registry: registry} do
     user_id = 1
     id = 2
-    user_rate = %UserRate{id: id, score: 10}
+    user_rate = %Neko.UserRate{id: id, score: 10}
 
     assert StoreRegistry.lookup(registry, user_id) == :error
 
     StoreRegistry.create(registry, user_id)
     assert {:ok, store} = StoreRegistry.lookup(registry, user_id)
 
-    Store.put(store, id, user_rate)
+    Store.put(store, user_rate.id, user_rate)
     assert Store.get(store, id) == user_rate
   end
 

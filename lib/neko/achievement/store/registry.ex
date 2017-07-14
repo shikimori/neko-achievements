@@ -6,9 +6,9 @@ defmodule Neko.Achievement.Store.Registry do
 
   use GenServer
 
-  alias Neko.Achievement.Store.Supervisor, as: StoreSupervisor
-
+  #------------------------------------------------------------------
   # Client API
+  #------------------------------------------------------------------
 
   def start_link(name) do
     GenServer.start_link(__MODULE__, name, name: name)
@@ -37,7 +37,9 @@ defmodule Neko.Achievement.Store.Registry do
     GenServer.stop(server)
   end
 
+  #------------------------------------------------------------------
   # Server API
+  #------------------------------------------------------------------
 
   def init(table) do
     user_ids = :ets.new(table, [:named_table, read_concurrency: true])
@@ -65,7 +67,7 @@ defmodule Neko.Achievement.Store.Registry do
     case lookup(user_ids, user_id) do
       {:ok, store} -> {store, state}
       :error ->
-        {:ok, store} = StoreSupervisor.start_store
+        {:ok, store} = Neko.Achievement.Store.Supervisor.start_store
         ref = Process.monitor(store)
 
         :ets.insert(user_ids, {user_id, store})

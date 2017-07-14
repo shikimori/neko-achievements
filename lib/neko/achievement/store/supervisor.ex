@@ -5,10 +5,7 @@ defmodule Neko.Achievement.Store.Supervisor do
 
   use Supervisor
 
-  alias Neko.Achievement.Store
-  alias Neko.Achievement.Store.Supervisor, as: StoreSupervisor
-
-  @name StoreSupervisor
+  @name Neko.Achievement.Store.Supervisor
 
   def start_link do
     Supervisor.start_link(__MODULE__, :ok, name: @name)
@@ -20,7 +17,7 @@ defmodule Neko.Achievement.Store.Supervisor do
 
   def init(:ok) do
     children = [
-      worker(Store, [], restart: :temporary)
+      worker(Neko.Achievement.Store, [], restart: :temporary)
     ]
 
     supervise(children, strategy: :simple_one_for_one)

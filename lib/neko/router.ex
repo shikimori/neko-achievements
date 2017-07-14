@@ -16,7 +16,7 @@ defmodule Neko.Router do
     pass: ["application/json"],
     json_decoder: Poison
   # dispatches to function body of matching route
-  # (saved it in conn private field `plug_route`)
+  # (saved in conn private field `plug_route`)
   plug :dispatch
 
   # each route must return connection
@@ -27,11 +27,14 @@ defmodule Neko.Router do
   post "/user_rate" do
     # without using Plug.Parsers plug:
     #{:ok, body, _conn} = read_body(conn)
-    #request = Poison.decode!(body, as: %Neko.UserRateRequest{})
+    #request = Poison.decode!(body, as: %Neko.Request{})
 
-    Neko.UserRateRequest.new(conn.body_params)
-    |> Neko.Achievement.Calculator.call()
+    request = Neko.Request.new(conn.body_params)
+    request |> Neko.Request.process
+    Neko.Achievement.Calculator.call(request.user_id)
 
+    # TODO: remove this line when Calculator is ready
+    request = Neko.Request.new(conn.body_params)
     conn |> send_resp(201, Poison.encode!(request))
   end
 

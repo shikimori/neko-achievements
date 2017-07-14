@@ -1,7 +1,8 @@
 defmodule Neko.UserRate.Store do
   @moduledoc """
   Stores user rates for one user.
-  User rates are stored in Map with their ids as keys.
+  User rates are stored in Map with their ids as keys
+  (so called keyed-by-id store).
   """
 
   def start_link do
@@ -17,8 +18,15 @@ defmodule Neko.UserRate.Store do
     Agent.get(store, &Map.values(&1))
   end
 
-  def put(store, user_rate) do
-    Agent.update(store, &Map.put(&1, user_rate.id, user_rate))
+  def put(store, id, user_rate) do
+    Agent.update(store, &Map.put(&1, id, user_rate))
+  end
+
+  # TODO: test
+  def update(store, id, fields) do
+    Agent.update(store, fn state ->
+      Map.update!(state, id, &(struct(&1, fields)))
+    end)
   end
 
   def set(store, user_rates) do

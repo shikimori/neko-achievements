@@ -6,9 +6,9 @@ defmodule Neko.UserRate.Store.Registry do
 
   use GenServer
 
-  alias Neko.UserRate.Store.Supervisor, as: StoreSupervisor
-
+  #------------------------------------------------------------------
   # Client API
+  #------------------------------------------------------------------
 
   def start_link(name) do
     GenServer.start_link(__MODULE__, name, name: name)
@@ -37,7 +37,9 @@ defmodule Neko.UserRate.Store.Registry do
     GenServer.stop(server)
   end
 
+  #------------------------------------------------------------------
   # Server API
+  #------------------------------------------------------------------
 
   def init(table) do
     user_ids = :ets.new(table, [:named_table, read_concurrency: true])
@@ -72,7 +74,7 @@ defmodule Neko.UserRate.Store.Registry do
       {:ok, store} -> {store, state}
       :error ->
         # create store and start monitoring it
-        {:ok, store} = StoreSupervisor.start_store
+        {:ok, store} = Neko.UserRate.Store.Supervisor.start_store
         ref = Process.monitor(store)
 
         :ets.insert(user_ids, {user_id, store})
