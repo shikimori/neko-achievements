@@ -21,12 +21,8 @@ defmodule Neko.UserRate do
   end
 
   def load(user_id) do
-    case Registry.lookup(Registry, user_id) do
-      {:ok, _store} -> :ok
-      :error ->
-        Registry.create(Registry, user_id)
-        |> Neko.UserRate.Store.set(user_rates(user_id))
-    end
+    Registry.fetch(Registry, user_id)
+    |> Neko.UserRate.Store.set(user_rates(user_id))
   end
 
   defp user_rates(user_id) do

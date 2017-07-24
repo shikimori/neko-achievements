@@ -9,7 +9,7 @@ defmodule Neko.Achievement.Store do
   end
 
   def all(store) do
-    Agent.get(store, fn set -> set end)
+    Agent.get(store, &(&1))
   end
 
   def put(store, achievement) do
@@ -17,8 +17,7 @@ defmodule Neko.Achievement.Store do
   end
 
   def set(store, achievements) do
-    new_state = MapSet.new(achievements)
-    Agent.update(store, fn _ -> new_state end)
+    Agent.update(store, fn _ -> MapSet.new(achievements) end)
   end
 
   def delete(store, achievement) do

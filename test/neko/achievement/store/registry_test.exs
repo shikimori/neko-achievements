@@ -7,7 +7,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
 
   setup context do
     # context.test - name of specific test
-    # (say, :"creates store by user_id")
+    # (say, :"fetches store by user_id")
     {:ok, _} = StoreRegistry.start_link(context.test)
     # use registry by its name, not pid
     {:ok, registry: context.test}
@@ -18,13 +18,13 @@ defmodule Neko.Achievement.Store.RegistryTest do
   #       trying to start registry with the same name in another test file:
   #
   #       no match of right hand side value: {:error, {:already_started, ...}}
-  test "creates achievement store by user id", %{registry: registry} do
+  test "fetches achievement store by user id", %{registry: registry} do
     user_id = 1
     achievement = %Achievement{neko_id: 2, level: 3}
 
     assert StoreRegistry.lookup(registry, user_id) == :error
 
-    StoreRegistry.create(registry, user_id)
+    StoreRegistry.fetch(registry, user_id)
     assert {:ok, store} = StoreRegistry.lookup(registry, user_id)
 
     Store.put(store, achievement)
@@ -34,7 +34,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
   test "removes achievement stores on exit", %{registry: registry} do
     user_id = 1
 
-    store = StoreRegistry.create(registry, user_id)
+    store = StoreRegistry.fetch(registry, user_id)
     # synchronous operation -
     # no need to wait till agent process is terminated
     Agent.stop(store)
@@ -46,7 +46,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
   test "removes achievement store on crash", %{registry: registry} do
     user_id = 1
 
-    store = StoreRegistry.create(registry, user_id)
+    store = StoreRegistry.fetch(registry, user_id)
     # crash store
     ref = Process.monitor(store)
     # asynchronous operation unlike Agent.stop
@@ -63,6 +63,6 @@ defmodule Neko.Achievement.Store.RegistryTest do
   # has removed user store after stopping agent
   defp ensure_store_removed_from_registry(registry) do
     fake_user_id = 123
-    StoreRegistry.create(registry, fake_user_id)
+    StoreRegistry.fetch(registry, fake_user_id)
   end
 end

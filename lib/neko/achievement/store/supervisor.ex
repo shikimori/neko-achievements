@@ -5,18 +5,17 @@ defmodule Neko.Achievement.Store.Supervisor do
 
   use Supervisor
 
-  @name Neko.Achievement.Store.Supervisor
-
   def start_link do
-    Supervisor.start_link(__MODULE__, :ok, name: @name)
+    Supervisor.start_link(__MODULE__, :ok, name: __MODULE__)
   end
 
   def start_store do
-    Supervisor.start_child(@name, [])
+    Supervisor.start_child(__MODULE__, [])
   end
 
   def init(:ok) do
     children = [
+      # store won't be restarted if it crashes
       worker(Neko.Achievement.Store, [], restart: :temporary)
     ]
 

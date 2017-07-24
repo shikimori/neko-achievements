@@ -36,14 +36,22 @@ defmodule Neko.UserRate.StoreTest do
     assert Store.all(store) == user_rates
   end
 
-  test "deletes user rate by id", %{store: store} do
-    id = 1
-    user_rate = %UserRate{id: id}
+  test "updates user rate", %{store: store} do
+    user_rate = %UserRate{id: 1, score: 8}
 
     Store.put(store, user_rate.id, user_rate)
-    assert Store.get(store, id) == user_rate
+    Store.update(store, user_rate.id, %{score: 9})
+
+    assert Store.all(store) == [%UserRate{id: 1, score: 9}]
+  end
+
+  test "deletes user rate by id", %{store: store} do
+    user_rate = %UserRate{id: 1}
+
+    Store.put(store, user_rate.id, user_rate)
+    assert Store.get(store, user_rate.id) == user_rate
 
     Store.delete(store, user_rate.id)
-    assert Store.get(store, id) == nil
+    assert Store.get(store, user_rate.id) == nil
   end
 end

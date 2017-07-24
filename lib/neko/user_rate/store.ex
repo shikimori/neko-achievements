@@ -22,18 +22,18 @@ defmodule Neko.UserRate.Store do
     Agent.update(store, &Map.put(&1, id, user_rate))
   end
 
-  # TODO: test
+  def set(store, user_rates) do
+    Agent.update(store, fn _ ->
+      Enum.reduce(user_rates, %{}, fn(x, acc) ->
+        Map.put(acc, x.id, x)
+      end)
+    end)
+  end
+
   def update(store, id, fields) do
     Agent.update(store, fn state ->
       Map.update!(state, id, &(struct(&1, fields)))
     end)
-  end
-
-  def set(store, user_rates) do
-    new_state = Enum.reduce(user_rates, %{}, fn(x, acc) ->
-      Map.put(acc, x.id, x)
-    end)
-    Agent.update(store, fn _ -> new_state end)
   end
 
   def delete(store, id) do

@@ -11,12 +11,8 @@ defmodule Neko.Achievement do
   @shikimori_api Application.get_env(:neko, :shikimori_api)
 
   def load(user_id) do
-    case Registry.lookup(Registry, user_id) do
-      {:ok, _store} -> :ok
-      :error ->
-        Registry.create(Registry, user_id)
-        |> Neko.Achievement.Store.set(achievements(user_id))
-    end
+    Registry.fetch(Registry, user_id)
+    |> Neko.Achievement.Store.set(achievements(user_id))
   end
 
   defp achievements(user_id) do
