@@ -37,9 +37,9 @@ defmodule Neko.Mixfile do
     [
       {:cowboy, "~> 1.1"},
       {:exconstructor, "~> 1.1.0"},
-      {:plug, "~> 1.3"},
-      {:poison, "~> 3.0"},
-      {:httpoison, "~> 0.11.1"}
+      {:plug, "~> 1.4"},
+      {:poison, "~> 3.1"},
+      {:httpoison, "~> 0.12"}
     ]
   end
 end
