@@ -17,12 +17,16 @@ defmodule Neko.UserRate do
   @shikimori_api Application.get_env(:neko, :shikimori_api)
 
   def from_request(request) do
-    struct(Neko.UserRate, Map.from_struct(request))
+    struct(__MODULE__, Map.from_struct(request))
   end
 
   def load(user_id) do
-    Registry.fetch(Registry, user_id)
-    |> Neko.UserRate.Store.set(user_rates(user_id))
+    case Registry.lookup(user_id) do
+      {:ok, _store} -> :ok
+      :error ->
+        Registry.fetch(user_id)
+        |> Neko.UserRate.Store.set(user_rates(user_id))
+    end
   end
 
   defp user_rates(user_id) do

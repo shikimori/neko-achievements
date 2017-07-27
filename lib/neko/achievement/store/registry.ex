@@ -21,19 +21,19 @@ defmodule Neko.Achievement.Store.Registry do
 
   Returns `store`.
   """
-  def fetch(server, user_id) do
-    GenServer.call(server, {:fetch, user_id})
+  def fetch(name \\ __MODULE__, user_id) do
+    GenServer.call(name, {:fetch, user_id})
   end
 
   @doc """
   Lookups achievement store using supplied `user_id` -
   doesn't try to create one.
 
-  Returns `{:ok, store}` if store exists, `:error` otherwise.
+  Returns `{:ok, store_pid}` if store exists, `:error` otherwise.
   """
-  def lookup(server, user_id) do
-    case :ets.lookup(server, user_id) do
-      [{^user_id, store}] -> {:ok, store}
+  def lookup(name \\ __MODULE__, user_id) do
+    case :ets.lookup(name, user_id) do
+      [{^user_id, store_pid}] -> {:ok, store_pid}
       [] -> :error
     end
   end
@@ -41,8 +41,8 @@ defmodule Neko.Achievement.Store.Registry do
   @doc """
   Stops the registry.
   """
-  def stop(server) do
-    GenServer.stop(server)
+  def stop(name \\ __MODULE__) do
+    GenServer.stop(name)
   end
 
   #------------------------------------------------------------------
@@ -55,8 +55,8 @@ defmodule Neko.Achievement.Store.Registry do
   end
 
   def handle_call({:fetch, user_id}, _from, state) do
-    {store, state} = fetch_store(state, user_id)
-    {:reply, store, state}
+    {store_pid, state} = fetch_store(state, user_id)
+    {:reply, store_pid, state}
   end
 
   # for messages that are not sent via GenServer.call/2 or GenServer.cast/2
@@ -77,14 +77,14 @@ defmodule Neko.Achievement.Store.Registry do
 
   defp fetch_store({ets_table, refs} = state, user_id) do
     case lookup(ets_table, user_id) do
-      {:ok, store} -> {store, state}
+      {:ok, store_pid} -> {store_pid, state}
       :error ->
         # create store and start monitoring it
-        {:ok, store} = Neko.Achievement.Store.Supervisor.start_store
-        ref = Process.monitor(store)
+        {:ok, store_pid} = Neko.Achievement.Store.Supervisor.start_store
+        ref = Process.monitor(store_pid)
 
-        :ets.insert(ets_table, {user_id, store})
-        {store, {ets_table, Map.put(refs, ref, user_id)}}
+        :ets.insert(ets_table, {user_id, store_pid})
+        {store_pid, {ets_table, Map.put(refs, ref, user_id)}}
     end
   end
 end

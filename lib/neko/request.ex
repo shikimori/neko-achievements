@@ -35,17 +35,17 @@ defmodule Neko.Request do
   end
 
   defp process_action(request) do
-    {:ok, store} = Registry.lookup(Registry, request.user_id)
-    process_action(store, request)
+    {:ok, store_pid} = Registry.lookup(request.user_id)
+    process_action(store_pid, request)
   end
 
-  defp process_action(store, %{action: "create"} = request) do
-    Store.put(store, request.id, Neko.UserRate.from_request(request))
+  defp process_action(store_pid, %{action: "create"} = request) do
+    Store.put(store_pid, request.id, Neko.UserRate.from_request(request))
   end
-  defp process_action(store, %{action: "update"} = request) do
-    Store.update(store, request.id, Map.from_struct(request))
+  defp process_action(store_pid, %{action: "update"} = request) do
+    Store.update(store_pid, request.id, Map.from_struct(request))
   end
-  defp process_action(store, %{action: "destroy"} = request) do
-    Store.delete(store, request.id)
+  defp process_action(store_pid, %{action: "destroy"} = request) do
+    Store.delete(store_pid, request.id)
   end
 end

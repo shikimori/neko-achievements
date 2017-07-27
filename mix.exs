@@ -39,7 +39,8 @@ defmodule Neko.Mixfile do
       {:exconstructor, "~> 1.1.0"},
       {:plug, "~> 1.4"},
       {:poison, "~> 3.1"},
-      {:httpoison, "~> 0.12"}
+      {:httpoison, "~> 0.12"},
+      {:yaml_elixir, "~> 1.1"}
     ]
   end
 end

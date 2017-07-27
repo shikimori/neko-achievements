@@ -1,0 +1,11 @@
+- neko_id: 1
+  level: 1
+  type: basic
+  threshold: 10
+  status: completed
+
+- neko_id: 2
+  level: 2
+  type: basic
+  threshold: 20
+  status: completed

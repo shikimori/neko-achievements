@@ -8,19 +8,19 @@ defmodule Neko.Achievement.Store do
     Agent.start_link(fn -> %MapSet{} end)
   end
 
-  def all(store) do
-    Agent.get(store, &(&1))
+  def all(pid) do
+    Agent.get(pid, &(&1))
   end
 
-  def put(store, achievement) do
-    Agent.update(store, &MapSet.put(&1, achievement))
+  def put(pid, achievement) do
+    Agent.update(pid, &MapSet.put(&1, achievement))
   end
 
-  def set(store, achievements) do
-    Agent.update(store, fn _ -> MapSet.new(achievements) end)
+  def set(pid, achievements) do
+    Agent.update(pid, fn _ -> MapSet.new(achievements) end)
   end
 
-  def delete(store, achievement) do
-    Agent.update(store, &MapSet.delete(&1, achievement))
+  def delete(pid, achievement) do
+    Agent.update(pid, &MapSet.delete(&1, achievement))
   end
 end
