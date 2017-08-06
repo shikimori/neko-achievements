@@ -3,6 +3,7 @@ defmodule Neko.Shikimori.HTTPClient do
   use HTTPoison.Base
 
   @base_url "https://shikimori.org/api/"
+  @recv_timeout 90_000
 
   def get_user_rates!(user_id) do
     params = %{user_id: user_id, status: :completed}
@@ -16,8 +17,12 @@ defmodule Neko.Shikimori.HTTPClient do
     |> Poison.decode!(as: [%Neko.Achievement{}])
   end
 
-  defp make_request!(:get, path, params \\ %{}) do
+  defp make_request!(:get, path, params) do
     get!(path, [], params: params).body
+  end
+
+  defp process_request_options(options) do
+    Keyword.merge(options, recv_timeout: @recv_timeout)
   end
 
   defp process_url("/" <> path), do: process_url(path)

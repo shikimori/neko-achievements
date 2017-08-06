@@ -4,7 +4,7 @@ defmodule Neko.Plug.Authenticate do
   def init(opts), do: opts
 
   def call(conn, opts) do
-    conn |> get_auth_header |> authenticate(opts[:token])
+    conn |> get_auth_header() |> authenticate(opts[:token])
   end
 
   defp get_auth_header(conn) do
@@ -13,6 +13,6 @@ defmodule Neko.Plug.Authenticate do
 
   defp authenticate({conn, [token]}, token), do: conn
   defp authenticate({conn, _}, _token) do
-    conn |> send_resp(401, "Not Authorized") |> halt
+    conn |> send_resp(401, "Not Authorized") |> halt()
   end
 end

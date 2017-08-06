@@ -30,7 +30,7 @@ defmodule Neko.Router do
     #request = Poison.decode!(body, as: %Neko.Request{})
 
     request = Neko.Request.new(conn.body_params)
-    request |> Neko.Request.process
+    request |> Neko.Request.process()
     Neko.Achievement.Calculator.call(request.user_id)
 
     # TODO: remove this line when Calculator is ready

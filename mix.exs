@@ -40,7 +40,8 @@ defmodule Neko.Mixfile do
       {:plug, "~> 1.4"},
       {:poison, "~> 3.1"},
       {:httpoison, "~> 0.12"},
-      {:yaml_elixir, "~> 1.1"}
+      {:yaml_elixir, "~> 1.1"},
+      {:distillery, "~> 1.4", runtime: false}
     ]
   end
 end

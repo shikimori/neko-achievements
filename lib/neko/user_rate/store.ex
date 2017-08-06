@@ -13,9 +13,10 @@ defmodule Neko.UserRate.Store do
     Agent.get(pid, &Map.get(&1, id))
   end
 
-  # TODO: convert list of values to MapSet?
   def all(pid) do
-    Agent.get(pid, &Map.values(&1))
+    Agent.get(pid, fn(state) ->
+      state |> Map.values() |> MapSet.new()
+    end)
   end
 
   def put(pid, id, user_rate) do
