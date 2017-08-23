@@ -1,8 +1,8 @@
 defmodule Neko.Achievement.Calculator do
-  # TODO: store list of rule modules in config - fetch it into module attribute
-  #       here (like shikimori_api) and iterate over it getting achievements
-  #       for each rule in the list
+  @active_rules Application.get_env(:neko, :active_rules)
 
   def call(user_id) do
+    @active_rules
+    |> Enum.flat_map(fn(x) -> apply(x, :achievements, [user_id]) end)
   end
 end

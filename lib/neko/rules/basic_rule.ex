@@ -43,8 +43,15 @@ defmodule Neko.Rules.BasicRule do
     }
   end
 
-  # TODO
   defp progress(%{next_threshold: nil}, _value) do
+    100
+  end
+  defp progress(%{threshold: threshold}, value)
+  when value == threshold do
+    0
+  end
+  defp progress(%{next_threshold: next_threshold}, value)
+  when value >= next_threshold do
     100
   end
   defp progress(rule, value) do

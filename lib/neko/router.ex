@@ -31,11 +31,12 @@ defmodule Neko.Router do
 
     request = Neko.Request.new(conn.body_params)
     request |> Neko.Request.process()
-    Neko.Achievement.Calculator.call(request.user_id)
+    achievements = Neko.Achievement.Calculator.call(request.user_id)
 
-    # TODO: remove this line when Calculator is ready
-    request = Neko.Request.new(conn.body_params)
-    conn |> send_resp(201, Poison.encode!(request))
+    # TODO: create 2 implementations of calculator -
+    # for test and other envs (just like for shikimori api client)
+    # see https://medium.com/@lasseebert/mocks-in-elixir-7204f8cc9d0f
+    conn |> send_resp(201, Poison.encode!(achievements))
   end
 
   # catch-all route

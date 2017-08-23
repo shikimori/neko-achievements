@@ -11,7 +11,7 @@ defmodule Neko.RouterTest do
   setup do
     request = %Neko.Request{
       id: 1,
-      user_id: 2,
+      user_id: 1,
       target_id: 3,
       score: 10,
       status: "completed",
@@ -31,11 +31,13 @@ defmodule Neko.RouterTest do
   describe "/user_rate" do
     test "returns new achievements", context do
       json = Poison.encode!(context.request)
-      conn = json_post_conn("/user_rate", json) |> Router.call(@opts)
+      conn =
+        json_post_conn("/user_rate", json)
+        |> Router.call(@opts)
 
       assert conn.state == :sent
       assert conn.status == 201
-      assert conn.resp_body == json
+      assert conn.resp_body == "[]"
     end
 
     test "returns 401 without authorization token", context do

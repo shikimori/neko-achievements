@@ -1,4 +1,8 @@
 defmodule Neko.Achievement do
+  # "For maximum performance, make sure you
+  # @derive [Poison.Encoder] for any struct you plan on encoding."
+  @derive [Poison.Encoder]
+
   defstruct ~w(
     user_id
     neko_id

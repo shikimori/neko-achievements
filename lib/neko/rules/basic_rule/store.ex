@@ -21,7 +21,8 @@ defmodule Neko.Rules.BasicRule.Store do
   end
 
   defp calc_next_thresholds(rules) do
-    rules |> Enum.map(fn(x) ->
+    rules
+    |> Enum.map(fn(x) ->
       %{x | next_threshold: next_threshold(rules, x)}
     end)
   end

@@ -15,7 +15,9 @@ defmodule Neko.UserRate.Store do
 
   def all(pid) do
     Agent.get(pid, fn(state) ->
-      state |> Map.values() |> MapSet.new()
+      state
+      |> Map.values()
+      |> MapSet.new()
     end)
   end
 
