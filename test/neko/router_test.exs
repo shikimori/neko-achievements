@@ -37,7 +37,9 @@ defmodule Neko.RouterTest do
 
       assert conn.state == :sent
       assert conn.status == 201
-      assert conn.resp_body == "[{\"user_id\":1,\"progress\":100,\"neko_id\":1,\"level\":1}]"
+      assert conn.resp_body == "
+      [{\"user_id\":1,\"progress\":100,\"neko_id\":1,\"level\":1}]
+      " |> String.trim()
     end
 
     test "returns 401 without authorization token", context do
