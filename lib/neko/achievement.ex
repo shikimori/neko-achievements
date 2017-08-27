@@ -21,6 +21,11 @@ defmodule Neko.Achievement do
     end
   end
 
+  def all(user_id) do
+    store(user_id)
+    |> Neko.Achievement.Store.all()
+  end
+
   def set(user_id, achievements) do
     store(user_id)
     |> Neko.Achievement.Store.set(achievements)

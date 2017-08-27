@@ -41,6 +41,6 @@ defmodule Neko.Achievement.StoreTest do
     assert Store.all(pid) == MapSet.new([achievement_2])
 
     Store.delete(pid, achievement_2)
-    assert Store.all(pid) == %MapSet{}
+    assert Store.all(pid) == MapSet.new()
   end
 end

@@ -5,5 +5,6 @@ defmodule Neko.Achievement.Calculator.Real do
   def call(user_id) do
     @active_rules
     |> Enum.flat_map(fn(x) -> apply(x, :achievements, [user_id]) end)
+    |> MapSet.new()
   end
 end

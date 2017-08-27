@@ -25,10 +25,11 @@ defmodule Neko.Request do
     load_user_data(user_id)
     process_action(request)
 
-    achievements = calculate_achievements(user_id)
-    save_achievements(user_id, achievements)
+    new_achievements = calculate_achievements(user_id)
+    deltas = calculate_deltas(new_achievements, user_id)
+    save_new_achievements(user_id, new_achievements)
 
-    achievements
+    deltas
   end
 
   defp load_user_data(user_id) do
@@ -57,7 +58,44 @@ defmodule Neko.Request do
     Neko.Achievement.Calculator.call(user_id)
   end
 
-  defp save_achievements(user_id, achievements) do
+  # TODO: optimize calculating deltas!
+  defp calculate_deltas(new_achievements, user_id) do
+    old_achievements = Neko.Achievement.all(user_id)
+
+    %{
+      added: added_achievements(new_achievements, old_achievements),
+      removed: removed_achievements(new_achievements, old_achievements),
+      updated: updated_achievements(new_achievements, old_achievements)
+    }
+  end
+
+  defp added_achievements(new_achievements, old_achievements) do
+    Enum.reduce(old_achievements, new_achievements, fn(x, acc) ->
+      Enum.reject(acc, fn(v) ->
+        v.neko_id == x.neko_id and v.level == x.level
+      end)
+    end)
+  end
+
+  defp removed_achievements(new_achievements, old_achievements) do
+    Enum.reduce(new_achievements, old_achievements, fn(x, acc) ->
+      Enum.reject(acc, fn(v) ->
+        v.neko_id == x.neko_id and v.level == x.level
+      end)
+    end)
+  end
+
+  defp updated_achievements(new_achievements, old_achievements) do
+    Enum.reduce(old_achievements, new_achievements, fn(x, acc) ->
+      Enum.reject(acc, fn(v) ->
+        v.neko_id == x.neko_id and
+          v.level == x.level and
+          v.progress == x.progress
+      end)
+    end)
+  end
+
+  defp save_new_achievements(user_id, achievements) do
     Neko.Achievement.set(user_id, achievements)
   end
 end

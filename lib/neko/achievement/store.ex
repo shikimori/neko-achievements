@@ -5,7 +5,7 @@ defmodule Neko.Achievement.Store do
   """
 
   def start_link do
-    Agent.start_link(fn -> %MapSet{} end)
+    Agent.start_link(fn -> MapSet.new() end)
   end
 
   def all(pid) do
