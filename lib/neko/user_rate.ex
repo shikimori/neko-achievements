@@ -14,8 +14,6 @@ defmodule Neko.UserRate do
 
   alias Neko.UserRate.Store.Registry
 
-  @shikimori_api Application.get_env(:neko, :shikimori_api)
-
   def from_request(request) do
     struct(__MODULE__, Map.from_struct(request))
   end
@@ -30,6 +28,6 @@ defmodule Neko.UserRate do
   end
 
   defp user_rates(user_id) do
-    @shikimori_api.get_user_rates!(user_id)
+    Neko.Shikimori.Client.get_user_rates!(user_id)
   end
 end

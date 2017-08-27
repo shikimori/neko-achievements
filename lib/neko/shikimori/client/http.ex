@@ -1,6 +1,7 @@
 # http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
-# TODO: https://medium.com/@lasseebert/mocks-in-elixir-7204f8cc9d0f
-defmodule Neko.Shikimori.HTTPClient do
+defmodule Neko.Shikimori.Client.HTTP do
+  @behaviour Neko.Shikimori.Client
+
   use HTTPoison.Base
 
   @base_url "https://shikimori.org/api/"

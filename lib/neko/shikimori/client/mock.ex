@@ -1,5 +1,7 @@
 # http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
-defmodule Neko.Shikimori.InMemory do
+defmodule Neko.Shikimori.Client.Mock do
+  @behaviour Neko.Shikimori.Client
+
   def get_user_rates!(user_id) do
     [
       %Neko.UserRate{id: 1, user_id: user_id, target_id: 1,
@@ -13,10 +15,8 @@ defmodule Neko.Shikimori.InMemory do
 
   def get_achievements!(user_id) do
     [
-      %Neko.Achievement{user_id: user_id, neko_id: 1,
-        level: 1, progress: 80},
-      %Neko.Achievement{user_id: user_id, neko_id: 2,
-        level: 2, progress: 30}
+      %Neko.Achievement{user_id: user_id, neko_id: 1, level: 1, progress: 100},
+      %Neko.Achievement{user_id: user_id, neko_id: 1, level: 2, progress: 30}
     ]
   end
 end

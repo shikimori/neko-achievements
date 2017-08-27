@@ -12,8 +12,6 @@ defmodule Neko.Achievement do
 
   alias Neko.Achievement.Store.Registry
 
-  @shikimori_api Application.get_env(:neko, :shikimori_api)
-
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> :ok
@@ -24,6 +22,6 @@ defmodule Neko.Achievement do
   end
 
   defp achievements(user_id) do
-    @shikimori_api.get_achievements!(user_id)
+    Neko.Shikimori.Client.get_achievements!(user_id)
   end
 end
