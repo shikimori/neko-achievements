@@ -31,8 +31,7 @@ defmodule Neko.Router do
     #request = Poison.decode!(body, as: %Neko.Request{})
 
     request = Neko.Request.new(conn.body_params)
-    request |> Neko.Request.process()
-    achievements = Neko.Achievement.Calculator.call(request.user_id)
+    achievements = request |> Neko.Request.process()
 
     conn |> send_resp(201, Poison.encode!(achievements))
   end

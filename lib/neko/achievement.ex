@@ -16,9 +16,18 @@ defmodule Neko.Achievement do
     case Registry.lookup(user_id) do
       {:ok, _store} -> :ok
       :error ->
-        Registry.fetch(user_id)
+        store(user_id)
         |> Neko.Achievement.Store.set(achievements(user_id))
     end
+  end
+
+  def set(user_id, achievements) do
+    store(user_id)
+    |> Neko.Achievement.Store.set(achievements)
+  end
+
+  defp store(user_id) do
+    Registry.fetch(user_id)
   end
 
   defp achievements(user_id) do
