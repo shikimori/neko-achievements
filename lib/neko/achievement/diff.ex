@@ -17,6 +17,7 @@ defmodule Neko.Achievement.Diff do
     end)
   end
 
+  # TODO: remove List.to_tuple()?
   defp comparison_key(achievement) do
     achievement
     |> Map.take([:neko_id, :level])
