@@ -10,7 +10,7 @@ defmodule Neko.RouterTest do
 
   setup do
     request = %Neko.Request{
-      id: 1,
+      id: 3,
       user_id: 1,
       target_id: 3,
       score: 10,
@@ -39,10 +39,12 @@ defmodule Neko.RouterTest do
       assert conn.status == 201
       assert conn.resp_body == Poison.encode!(
         %{
-          added: [],
+          added: [
+            %Neko.Achievement{user_id: 1, neko_id: 1, level: 1, progress: 0}
+          ],
           removed: [],
           updated: [
-            %Neko.Achievement{user_id: 1, progress: 40, neko_id: 1, level: 2}
+            %Neko.Achievement{user_id: 1, neko_id: 1, level: 0, progress: 100}
           ]
         }
       )

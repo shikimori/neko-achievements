@@ -18,18 +18,15 @@ defmodule Neko.Request do
     uppercamelcase: false,
     underscore: false
 
-  alias Neko.UserRate.Store
-  alias Neko.UserRate.Store.Registry
-
   def process(%{user_id: user_id} = request) do
     load_user_data(user_id)
     process_action(request)
 
     new_achievements = calculate_achievements(user_id)
-    deltas = calculate_deltas(new_achievements, user_id)
+    diff = calculate_diff(user_id, new_achievements)
     save_new_achievements(user_id, new_achievements)
 
-    deltas
+    diff
   end
 
   defp load_user_data(user_id) do
@@ -40,59 +37,26 @@ defmodule Neko.Request do
     |> Enum.map(&Task.await/1)
   end
 
-  defp process_action(request) do
-    {:ok, store_pid} = Registry.lookup(request.user_id)
-    process_action(store_pid, request)
+  defp process_action(%{id: id, user_id: user_id, action: "create"} = request) do
+    Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))
   end
-  defp process_action(store_pid, %{action: "create"} = request) do
-    Store.put(store_pid, request.id, Neko.UserRate.from_request(request))
+  defp process_action(%{id: id, user_id: user_id, action: "update"} = request) do
+    Neko.UserRate.update(user_id, id, Map.from_struct(request))
   end
-  defp process_action(store_pid, %{action: "update"} = request) do
-    Store.update(store_pid, request.id, Map.from_struct(request))
-  end
-  defp process_action(store_pid, %{action: "destroy"} = request) do
-    Store.delete(store_pid, request.id)
+  defp process_action(%{id: id, user_id: user_id, action: "destroy"}) do
+    Neko.UserRate.delete(user_id, id)
   end
 
   defp calculate_achievements(user_id) do
-    Neko.Achievement.Calculator.call(user_id)
+    user_id
+    |> Neko.UserRate.all()
+    |> Neko.Achievement.Calculator.call(user_id)
   end
 
-  # TODO: optimize calculating deltas!
-  defp calculate_deltas(new_achievements, user_id) do
-    old_achievements = Neko.Achievement.all(user_id)
-
-    %{
-      added: added_achievements(new_achievements, old_achievements),
-      removed: removed_achievements(new_achievements, old_achievements),
-      updated: updated_achievements(new_achievements, old_achievements)
-    }
-  end
-
-  defp added_achievements(new_achievements, old_achievements) do
-    Enum.reduce(old_achievements, new_achievements, fn(x, acc) ->
-      Enum.reject(acc, fn(v) ->
-        v.neko_id == x.neko_id and v.level == x.level
-      end)
-    end)
-  end
-
-  defp removed_achievements(new_achievements, old_achievements) do
-    Enum.reduce(new_achievements, old_achievements, fn(x, acc) ->
-      Enum.reject(acc, fn(v) ->
-        v.neko_id == x.neko_id and v.level == x.level
-      end)
-    end)
-  end
-
-  defp updated_achievements(new_achievements, old_achievements) do
-    Enum.reduce(old_achievements, new_achievements, fn(x, acc) ->
-      Enum.reject(acc, fn(v) ->
-        v.neko_id == x.neko_id and
-          v.level == x.level and
-          v.progress == x.progress
-      end)
-    end)
+  defp calculate_diff(user_id, new_achievements) do
+    user_id
+    |> Neko.Achievement.all()
+    |> Neko.Achievement.Diff.call(new_achievements)
   end
 
   defp save_new_achievements(user_id, achievements) do

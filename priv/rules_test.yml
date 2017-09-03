@@ -1,0 +1,17 @@
+- neko_id: 1
+  level: 0
+  type: basic
+  threshold: 1
+  status: completed
+
+- neko_id: 1
+  level: 1
+  type: basic
+  threshold: 3
+  status: completed
+
+- neko_id: 1
+  level: 2
+  type: basic
+  threshold: 5
+  status: completed

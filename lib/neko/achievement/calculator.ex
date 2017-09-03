@@ -1,6 +1,11 @@
 defmodule Neko.Achievement.Calculator do
-  @adapter Application.get_env(:neko, :calculator)
-  @callback call(pos_integer()) :: [%Neko.Achievement{}]
+  @active_rules Application.get_env(:neko, :rules)[:active_rules]
 
-  defdelegate call(user_id), to: @adapter
+  # return MapSet because achievements are stored
+  # as MapSet in Neko.Achievement.Store
+  def call(user_rates, user_id) do
+    @active_rules
+    |> Enum.flat_map(&(apply(&1, :achievements, [user_rates, user_id])))
+    |> MapSet.new()
+  end
 end

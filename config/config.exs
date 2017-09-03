@@ -28,7 +28,9 @@ use Mix.Config
 # here (which is why it is important to import them last).
 
 config :neko, :shikimori_client, Neko.Shikimori.Client.HTTP
-config :neko, :calculator, Neko.Achievement.Calculator.Real
-config :neko, :active_rules, [Neko.Rules.BasicRule]
+
+config :neko, :rules,
+  yml: "priv/rules.yml",
+  active_rules: [Neko.Rules.BasicRule]
 
 import_config "#{Mix.env}.exs"

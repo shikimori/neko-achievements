@@ -1,3 +1,3 @@
 defmodule Neko.Rules.Rule do
-  @callback achievements(integer) :: [%Neko.Achievement{}]
+  @callback achievements([%Neko.UserRate{}], pos_integer()) :: [%Neko.Achievement{}]
 end

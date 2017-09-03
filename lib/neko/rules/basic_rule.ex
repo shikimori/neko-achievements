@@ -10,20 +10,16 @@ defmodule Neko.Rules.BasicRule do
 
   use ExConstructor, atoms: true, strings: true
 
-  def achievements(user_id) do
-    value = value(user_id)
+  def achievements(user_rates, user_id) do
+    value = value(user_rates)
 
     rules()
     |> Enum.filter(&rule_applies?(&1, value))
     |> Enum.map(&build_achievement(&1, user_id, value))
   end
 
-  defp value(user_id) do
-    {:ok, store_pid} = Neko.UserRate.Store.Registry.lookup(user_id)
-
-    store_pid
-    |> Neko.UserRate.Store.all()
-    |> MapSet.size()
+  defp value(user_rates) do
+    user_rates |> MapSet.size()
   end
 
   defp rules do

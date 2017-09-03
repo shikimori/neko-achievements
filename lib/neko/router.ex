@@ -31,9 +31,9 @@ defmodule Neko.Router do
     #request = Poison.decode!(body, as: %Neko.Request{})
 
     request = Neko.Request.new(conn.body_params)
-    achievements = request |> Neko.Request.process()
+    diff = request |> Neko.Request.process()
 
-    conn |> send_resp(201, Poison.encode!(achievements))
+    conn |> send_resp(201, Poison.encode!(diff))
   end
 
   # catch-all route
