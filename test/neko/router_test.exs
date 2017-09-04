@@ -39,13 +39,13 @@ defmodule Neko.RouterTest do
       assert conn.status == 201
       assert conn.resp_body == Poison.encode!(
         %{
-          added: [
+          added: MapSet.new([
             %Neko.Achievement{user_id: 1, neko_id: 1, level: 1, progress: 0}
-          ],
+          ]),
           removed: [],
-          updated: [
+          updated: MapSet.new([
             %Neko.Achievement{user_id: 1, neko_id: 1, level: 0, progress: 100}
-          ]
+          ])
         }
       )
     end
