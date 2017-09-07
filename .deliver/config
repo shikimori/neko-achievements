@@ -1,0 +1,9 @@
+APP="neko"
+
+BUILD_HOST="neko"
+BUILD_USER="neko"
+BUILD_AT="/tmp/edeliver/neko/builds"
+
+PRODUCTION_HOSTS="neko"
+PRODUCTION_USER="neko"
+DELIVER_TO="/home/neko/prod"
