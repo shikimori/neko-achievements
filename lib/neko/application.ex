@@ -8,6 +8,13 @@ defmodule Neko.Application do
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
 
+    # https://hexdocs.pm/plug/Plug.Adapters.Cowboy.html#child_spec/1
+    cowboy_child = {Plug.Adapters.Cowboy, [
+      scheme: :http,
+      plug: Neko.Router,
+      options: [ip: {127, 0, 0, 1}, port: 4000]
+    ]}
+
     # Define workers and child supervisors to be supervised
     children = [
       # Starts a worker by calling: Neko.Worker.start_link(arg1, arg2, arg3)
@@ -17,10 +24,10 @@ defmodule Neko.Application do
       worker(Neko.Achievement.Store.Registry, []),
       supervisor(Neko.UserRate.Store.Supervisor, []),
       supervisor(Neko.Achievement.Store.Supervisor, []),
-      Plug.Adapters.Cowboy.child_spec(:http, Neko.Router, [], [port: 4000])
+      cowboy_child
     ]
 
-    # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
+    # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     #
     # one_for_one: only crashed child will be restarted
