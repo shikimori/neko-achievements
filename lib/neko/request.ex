@@ -37,6 +37,8 @@ defmodule Neko.Request do
     |> Enum.map(&Task.await/1)
   end
 
+  defp process_action(%{id: id, user_id: user_id, action: "noop"}) do
+  end
   defp process_action(%{id: id, user_id: user_id, action: "create"} = request) do
     Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))
   end
