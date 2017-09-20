@@ -4,7 +4,7 @@ defmodule Neko.Shikimori.Client.HTTP do
 
   use HTTPoison.Base
 
-  @base_url "https://shikimori.org/api/"
+  @base_url Application.get_env(:neko, :shikimori_url)
   @recv_timeout 90_000
 
   def get_user_rates!(user_id) do

@@ -28,6 +28,7 @@ use Mix.Config
 # here (which is why it is important to import them last).
 
 config :neko, :shikimori_client, Neko.Shikimori.Client.HTTP
+config :neko, :shikimori_url, "https://shikimori.org/api/"
 
 config :neko, :rules,
   yml: "priv/rules.yml",
