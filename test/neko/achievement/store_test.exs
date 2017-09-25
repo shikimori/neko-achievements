@@ -12,8 +12,8 @@ defmodule Neko.Achievement.StoreTest do
 
   # pass store pid to each test using test context
   test "adds achievements to store using put", %{pid: pid} do
-    achievement_1 = %Achievement{neko_id: 1}
-    achievement_2 = %Achievement{neko_id: 2}
+    achievement_1 = %Achievement{neko_id: "foo"}
+    achievement_2 = %Achievement{neko_id: "bar"}
 
     Store.put(pid, achievement_1)
     Store.put(pid, achievement_2)
@@ -24,15 +24,18 @@ defmodule Neko.Achievement.StoreTest do
   end
 
   test "adds achievements to store using set", %{pid: pid} do
-    achievements = [%Achievement{neko_id: 1}, %Achievement{neko_id: 2}]
+    achievements = [
+      %Achievement{neko_id: "foo"},
+      %Achievement{neko_id: "bar"}
+    ]
 
     Store.set(pid, achievements)
     assert Store.all(pid) == MapSet.new(achievements)
   end
 
   test "deletes achievement from store", %{pid: pid} do
-    achievement_1 = %Achievement{neko_id: 1}
-    achievement_2 = %Achievement{neko_id: 2}
+    achievement_1 = %Achievement{neko_id: "foo"}
+    achievement_2 = %Achievement{neko_id: "bar"}
 
     Store.put(pid, achievement_1)
     Store.put(pid, achievement_2)

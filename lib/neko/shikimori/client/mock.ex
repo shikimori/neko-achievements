@@ -15,7 +15,8 @@ defmodule Neko.Shikimori.Client.Mock do
 
   def get_achievements!(user_id) do
     [
-      %Neko.Achievement{user_id: user_id, neko_id: 1, level: 0, progress: 50}
+      %Neko.Achievement{user_id: user_id, neko_id: "animelist",
+        level: 0, progress: 50}
     ]
   end
 end

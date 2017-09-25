@@ -19,7 +19,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
   #       no match of right hand side value: {:error, {:already_started, ...}}
   test "fetches achievement store by user id", %{name: name} do
     user_id = 1
-    achievement = %Neko.Achievement{neko_id: 2, level: 3}
+    achievement = %Neko.Achievement{neko_id: "foo", level: 3}
 
     assert StoreRegistry.lookup(name, user_id) == :error
 
