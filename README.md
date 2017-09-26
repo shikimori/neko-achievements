@@ -7,7 +7,7 @@
 # with REPL
 iex -S mix
 # without REPL
-mix run —no-halt
+mix run -—no-halt
 ```
 
 ## deploy
