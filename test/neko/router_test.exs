@@ -16,7 +16,7 @@ defmodule Neko.RouterTest do
       score: 10,
       status: "completed",
       episodes: 24,
-      action: "create"
+      action: "put"
     }
 
     # all custom options will be merged into context which is

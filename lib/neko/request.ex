@@ -48,13 +48,10 @@ defmodule Neko.Request do
   defp process_action(%{action: "reset"}) do
     # user rates are reset in preprocess_action and loaded in process_action
   end
-  defp process_action(%{id: id, user_id: user_id, action: "create"} = request) do
+  defp process_action(%{id: id, user_id: user_id, action: "put"} = request) do
     Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))
   end
-  defp process_action(%{id: id, user_id: user_id, action: "update"} = request) do
-    Neko.UserRate.update(user_id, id, Map.from_struct(request))
-  end
-  defp process_action(%{id: id, user_id: user_id, action: "destroy"}) do
+  defp process_action(%{id: id, user_id: user_id, action: "delete"}) do
     Neko.UserRate.delete(user_id, id)
   end
 
