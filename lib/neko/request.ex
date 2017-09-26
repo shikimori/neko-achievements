@@ -19,6 +19,7 @@ defmodule Neko.Request do
     underscore: false
 
   def process(%{user_id: user_id} = request) do
+    preprocess_action(request)
     load_user_data(user_id)
     process_action(request)
 
@@ -29,15 +30,23 @@ defmodule Neko.Request do
     diff
   end
 
+  defp preprocess_action(%{user_id: user_id, action: "reset"}) do
+    Neko.UserRate.reset(user_id)
+  end
+  defp preprocess_action(%{action: _action}) do
+    # nothing to do for other actions
+  end
+
   defp load_user_data(user_id) do
-    [
-      Task.async(fn -> Neko.Achievement.load(user_id) end),
-      Task.async(fn -> Neko.UserRate.load(user_id) end)
-    ]
+    [Neko.Achievement, Neko.UserRate]
+    |> Enum.map(&Task.async(fn -> apply(&1, :load, [user_id]) end))
     |> Enum.map(&Task.await/1)
   end
 
   defp process_action(%{action: "noop"}) do
+  end
+  defp process_action(%{action: "reset"}) do
+    # user rates are reset in preprocess_action and loaded in process_action
   end
   defp process_action(%{id: id, user_id: user_id, action: "create"} = request) do
     Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))

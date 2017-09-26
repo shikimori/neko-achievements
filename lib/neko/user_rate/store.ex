@@ -9,6 +9,10 @@ defmodule Neko.UserRate.Store do
     Agent.start_link(fn -> %{} end)
   end
 
+  def stop(pid) do
+    Agent.stop(pid)
+  end
+
   def get(pid, id) do
     Agent.get(pid, &Map.get(&1, id))
   end

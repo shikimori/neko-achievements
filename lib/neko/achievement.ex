@@ -10,23 +10,23 @@ defmodule Neko.Achievement do
     progress
   )a
 
+  alias Neko.Achievement.Store
   alias Neko.Achievement.Store.Registry
 
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> :ok
       :error ->
-        store(user_id)
-        |> Neko.Achievement.Store.set(achievements(user_id))
+        store(user_id) |> Store.set(achievements(user_id))
     end
   end
 
   def all(user_id) do
-    store(user_id) |> Neko.Achievement.Store.all()
+    store(user_id) |> Store.all()
   end
 
   def set(user_id, achievements) do
-    store(user_id) |> Neko.Achievement.Store.set(achievements)
+    store(user_id) |> Store.set(achievements)
   end
 
   defp store(user_id) do

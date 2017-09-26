@@ -6,7 +6,7 @@ defmodule Neko.Achievement.StoreTest do
 
   # runs before each test
   setup do
-    {:ok, pid} = Store.start_link
+    {:ok, pid} = Store.start_link()
     {:ok, pid: pid}
   end
 
