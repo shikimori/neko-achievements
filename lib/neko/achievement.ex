@@ -16,8 +16,7 @@ defmodule Neko.Achievement do
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> :ok
-      :error ->
-        store(user_id) |> Store.set(achievements(user_id))
+      :error -> store(user_id) |> Store.set(achievements(user_id))
     end
   end
 
