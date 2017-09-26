@@ -1,77 +1,77 @@
 - neko_id: animelist
   level: 0
-  type: basic
+  algo: simple
   threshold: 50
   status: completed
 
 - neko_id: animelist
   level: 1
-  type: basic
+  algo: simple
   threshold: 100
   status: completed
 
 - neko_id: animelist
   level: 2
-  type: basic
+  algo: simple
   threshold: 200
   status: completed
 
 - neko_id: animelist
   level: 3
-  type: basic
+  algo: simple
   threshold: 300
   status: completed
 
 - neko_id: animelist
   level: 4
-  type: basic
+  algo: simple
   threshold: 400
   status: completed
 
 - neko_id: animelist
   level: 5
-  type: basic
+  algo: simple
   threshold: 500
   status: completed
 
 - neko_id: animelist
   level: 6
-  type: basic
+  algo: simple
   threshold: 666
   status: completed
 
 - neko_id: animelist
   level: 7
-  type: basic
+  algo: simple
   threshold: 800
   status: completed
 
 - neko_id: animelist
   level: 8
-  type: basic
+  algo: simple
   threshold: 1000
   status: completed
 
 - neko_id: animelist
   level: 9
-  type: basic
+  algo: simple
   threshold: 2000
   status: completed
 
 - neko_id: animelist
   level: 10
-  type: basic
+  algo: simple
   threshold: 3500
   status: completed
 
 - neko_id: animelist
   level: 11
-  type: basic
+  algo: simple
   threshold: 5000
   status: completed
 
 - neko_id: animelist
   level: 12
-  type: basic
+  algo: simple
   threshold: 7500
   status: completed

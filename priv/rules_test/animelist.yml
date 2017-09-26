@@ -1,17 +1,17 @@
 - neko_id: animelist
   level: 0
-  type: basic
+  algo: simple
   threshold: 1
   status: completed
 
 - neko_id: animelist
   level: 1
-  type: basic
+  algo: simple
   threshold: 3
   status: completed
 
 - neko_id: animelist
   level: 2
-  type: basic
+  algo: simple
   threshold: 5
   status: completed

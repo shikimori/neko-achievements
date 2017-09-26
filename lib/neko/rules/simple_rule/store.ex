@@ -1,10 +1,5 @@
-# TODO: neko_id == type in rules.yml?
-defmodule Neko.Rules.BasicRule.Store do
-  @moduledoc """
-  Stores rules.
-  """
-
-  @rule_type "basic"
+defmodule Neko.Rules.SimpleRule.Store do
+  @algo "simple"
 
   def start_link(name \\ __MODULE__) do
     Agent.start_link(fn -> load() end, name: name)
@@ -15,8 +10,8 @@ defmodule Neko.Rules.BasicRule.Store do
   end
 
   def load do
-    Neko.Rules.Reader.read_from_file(@rule_type)
-    |> Enum.map(&(Neko.Rules.BasicRule.new(&1)))
+    Neko.Rules.Reader.read_from_files(@algo)
+    |> Enum.map(&(Neko.Rules.SimpleRule.new(&1)))
     |> calc_next_thresholds()
   end
 

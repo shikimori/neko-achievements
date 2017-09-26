@@ -1,0 +1,5 @@
+- neko_id: comedy
+  level: 0
+  algo: simple
+  threshold: 50
+  status: completed

@@ -1,4 +1,4 @@
-defmodule Neko.Rules.BasicRule do
+defmodule Neko.Rules.SimpleRule do
   @behaviour Neko.Rules.Rule
 
   defstruct ~w(
@@ -13,17 +13,13 @@ defmodule Neko.Rules.BasicRule do
   def achievements(user_rates, user_id) do
     value = value(user_rates)
 
-    rules()
+    Neko.Rules.SimpleRule.Store.all()
     |> Enum.filter(&rule_applies?(&1, value))
     |> Enum.map(&build_achievement(&1, user_id, value))
   end
 
   defp value(user_rates) do
     user_rates |> MapSet.size()
-  end
-
-  defp rules do
-    Neko.Rules.BasicRule.Store.all()
   end
 
   defp rule_applies?(rule, value) do

@@ -29,9 +29,6 @@ use Mix.Config
 
 config :neko, :shikimori_client, Neko.Shikimori.Client.HTTP
 config :neko, :shikimori_url, "https://shikimori.org/api/"
-
-config :neko, :rules,
-  yml: "priv/rules.yml",
-  active_rules: [Neko.Rules.BasicRule]
+config :neko, :rules, dir: "priv/rules"
 
 import_config "#{Mix.env}.exs"

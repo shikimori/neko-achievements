@@ -19,7 +19,7 @@ defmodule Neko.Application do
     children = [
       # Starts a worker by calling: Neko.Worker.start_link(arg1, arg2, arg3)
       # worker(Neko.Worker, [arg1, arg2, arg3]),
-      worker(Neko.Rules.BasicRule.Store, []),
+      worker(Neko.Rules.SimpleRule.Store, []),
       worker(Neko.UserRate.Store.Registry, []),
       worker(Neko.Achievement.Store.Registry, []),
       supervisor(Neko.UserRate.Store.Supervisor, []),
