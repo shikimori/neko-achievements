@@ -46,7 +46,8 @@ defmodule Neko.Request do
   defp process_action(%{action: "noop"}) do
   end
   defp process_action(%{action: "reset"}) do
-    # user rates are reset in preprocess_action and loaded in process_action
+    # user rates are reset in preprocess_action
+    # and loaded in process_action
   end
   defp process_action(%{id: id, user_id: user_id, action: "put"} = request) do
     Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))
