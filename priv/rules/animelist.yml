@@ -2,76 +2,128 @@
   level: 0
   algo: simple
   threshold: 50
-  status: completed
+  shikimori:
+    image: http://i.imgur.com/v7x2w7p.png
+    border: "#E52B50"
+    title_ru: Добро пожаловать!
+    text_ru: Даже путь в тысячу ли начинается с первого шага.
 
 - neko_id: animelist
   level: 1
   algo: simple
   threshold: 100
-  status: completed
+  shikimori:
+    image: https://kawai.shikimori.org/system/user_images/original/50587/459471.jpg
+    border: "#ff0000"
+    title_ru: Это всего лишь начало.
+    text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
 
 - neko_id: animelist
   level: 2
   algo: simple
   threshold: 200
-  status: completed
+  shikimori:
+    image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
+    border: "#6A5ACD"
+    title_ru: Мои силы растут!
+    text_ru: 
 
 - neko_id: animelist
   level: 3
   algo: simple
   threshold: 300
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: 
+    text_ru: 
 
 - neko_id: animelist
   level: 4
   algo: simple
   threshold: 400
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: 
+    text_ru: 
 
 - neko_id: animelist
   level: 5
   algo: simple
   threshold: 500
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: Знаток
+    text_ru: 
 
 - neko_id: animelist
   level: 6
   algo: simple
   threshold: 666
-  status: completed
+  shikimori:
+    image: http://i.imgur.com/8dY1YdU.jpg
+    border: "#071746"
+    title_ru: Сатанинский предел?
+    text_ru: Вами движет поистине дьявольское упорство.
 
 - neko_id: animelist
   level: 7
   algo: simple
   threshold: 800
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: This is not even my final form!
+    text_ru: 
 
 - neko_id: animelist
   level: 8
   algo: simple
   threshold: 1000
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: Коллекционер
+    text_ru: Аниме много не бывает.
 
 - neko_id: animelist
   level: 9
   algo: simple
   threshold: 2000
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: Маньяк
+    text_ru: Может все же стоит взять передышку и заняться чем-нибудь другим?
 
 - neko_id: animelist
   level: 10
   algo: simple
   threshold: 3500
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: Легенда
+    text_ru: 
 
 - neko_id: animelist
   level: 11
   algo: simple
   threshold: 5000
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: Ками-сама
+    text_ru: 
 
 - neko_id: animelist
   level: 12
   algo: simple
   threshold: 7500
-  status: completed
+  shikimori:
+    image: 
+    border: 
+    title_ru: Недосягаемый
+    text_ru: Такое не под силу живому человеку. Вы уверены в том, что посмотрели все это?
