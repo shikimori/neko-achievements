@@ -1,0 +1,55 @@
+- neko_id: otaku
+  level: 1
+  algo: simple
+  threshold: 30
+  filters:
+    genre_id:
+      - 9
+      - 12
+  shikimori:
+    image: http://i.yapx.ru/JEvZ.jpg
+    border: "#FF496C"
+    title_ru: Эскапизм
+    text_ru: Иллюзии захватывают ваш разум.
+
+- neko_id: otaku
+  level: 2
+  algo: simple
+  threshold: 50
+  filters:
+    genre_id:
+      - 9
+      - 12
+  shikimori:
+    image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
+    border: "#474A51"
+    title_ru: Фетишизм
+    text_ru: Как рыба в воде.
+
+- neko_id: otaku
+  level: 3
+  algo: simple
+  threshold: 70
+  filters:
+    genre_id:
+      - 9
+      - 12
+  shikimori:
+    image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
+    border: "#2F4F4F"
+    title_ru: NEET
+    text_ru: Увлечение эротическим контентом начинает сказываться на вашей реальной жизни.
+
+- neko_id: otaku
+  level: 4
+  algo: simple
+  threshold: 80
+  filters:
+    genre_id:
+      - 9
+      - 12
+  shikimori:
+    image: https://i.yapx.ru/JMeO.gif
+    border: "#CD9575"
+    title_ru: Хикикомори
+    text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.
