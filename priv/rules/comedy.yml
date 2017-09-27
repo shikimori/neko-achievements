@@ -1,5 +1,11 @@
 - neko_id: comedy
-  level: 0
+  level: 1
   algo: simple
-  threshold: 50
-  status: completed
+  threshold: 30
+  filters:
+    genre_id: 4
+  shikimori:
+    image: https://kawai.shikimori.org/system/user_images/original/50587/458876.jpg
+    border: "#5dbdd9"
+    title_ru: But then i lol'd
+    text_ru: Неужели вам понравился японский юмор?
