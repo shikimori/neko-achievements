@@ -4,7 +4,7 @@
   threshold: 30
   filters:
     genre_ids:
-      - "4"
+      - 4
   metadata:
     image: https://kawai.shikimori.org/system/user_images/original/50587/458876.jpg
     border_color: "#5dbdd9"
