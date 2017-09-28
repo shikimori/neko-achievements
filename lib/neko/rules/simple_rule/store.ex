@@ -39,8 +39,6 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   # TODO:
   #
-  # - Neko.Shikimori.Client.get_animes!() returns:
-  #   %Neko.Anime{genre_ids: '\f', id: 36254},
   # - add clause to ignore genre ids when it's missing or empty list
   # - implement this function
   defp anime_ids(rule) do
