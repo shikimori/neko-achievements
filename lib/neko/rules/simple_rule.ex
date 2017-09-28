@@ -18,7 +18,7 @@ defmodule Neko.Rules.SimpleRule do
 
   def achievements(user_rates, user_id) do
     all()
-    |> Enum.map(fn(x) -> {&1, count(&1, user_rates)} end)
+    |> Enum.map(fn(x) -> {x, count(x, user_rates)} end)
     |> Enum.filter(&rule_applies?(&1))
     |> Enum.map(&build_achievement(&1, user_id))
   end

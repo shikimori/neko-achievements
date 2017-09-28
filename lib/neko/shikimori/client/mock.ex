@@ -20,9 +20,9 @@ defmodule Neko.Shikimori.Client.Mock do
     ]
   end
 
-  def get_animes(user_id) do
+  def get_animes! do
     [
-      %Neko.Anime{user_id: user_id, id: 5411, genre_ids: [8, 10, 12, 22]}
+      %Neko.Anime{id: 5411, genre_ids: [8, 10, 12, 22]}
     ]
   end
 end

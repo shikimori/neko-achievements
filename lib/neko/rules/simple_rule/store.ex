@@ -37,9 +37,17 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> Enum.map(fn(x) -> %{x | anime_ids: anime_ids(x)} end)
   end
 
+  # TODO:
+  #
+  # - Neko.Shikimori.Client.get_animes!() returns:
+  #   %Neko.Anime{genre_ids: '\f', id: 36254},
+  # - add clause to ignore genre ids when it's missing or empty list
+  # - implement this function
   defp anime_ids(rule) do
-    # rule.filters["genre_ids"]
-    # TODO: return MapSet
     MapSet.new()
+
+    #genre_ids = rule.filters["genre_ids"]
+    #Neko.Anime.all()
+    #|> filter(fn(x) ->  end)
   end
 end

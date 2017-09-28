@@ -8,7 +8,6 @@ defmodule Neko.Anime.Store do
   end
 
   def load do
-    Neko.Shikimori.Client.get_animes!()
-    |> Enum.reduce(%{}, fn(x, acc) -> Map.put(acc, x.id, x) end)
+    Neko.Shikimori.Client.get_animes!() |> MapSet.new()
   end
 end
