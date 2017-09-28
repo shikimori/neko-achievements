@@ -19,6 +19,13 @@ defmodule Neko.Application do
     children = [
       # Starts a worker by calling: Neko.Worker.start_link(arg1, arg2, arg3)
       # worker(Neko.Worker, [arg1, arg2, arg3]),
+      #
+      # use supervisor with simple_one_for_one strategy when it's
+      # necessary to dynamically start and stop supervised children
+      # (as is the case with user rate or achievement stores since
+      # they are created on the fly for each new user unlike anime
+      # or simple rule stores)
+      worker(Neko.Anime.Store, []),
       worker(Neko.Rules.SimpleRule.Store, []),
       worker(Neko.UserRate.Store.Registry, []),
       worker(Neko.Achievement.Store.Registry, []),

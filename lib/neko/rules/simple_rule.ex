@@ -12,9 +12,13 @@ defmodule Neko.Rules.SimpleRule do
 
   use ExConstructor, atoms: true, strings: true
 
-  def achievements(user_rates, user_id) do
+  def all do
     Neko.Rules.SimpleRule.Store.all()
-    |> Enum.map(&({&1, count(&1, user_rates)}))
+  end
+
+  def achievements(user_rates, user_id) do
+    all()
+    |> Enum.map(fn(x) -> {&1, count(&1, user_rates)} end)
     |> Enum.filter(&rule_applies?(&1))
     |> Enum.map(&build_achievement(&1, user_id))
   end

@@ -34,12 +34,12 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   defp calc_anime_ids(rules) do
     rules
-    |> Enum.map(fn(x) ->
-      %{x | anime_ids: anime_ids(rules, x)}
-    end)
+    |> Enum.map(fn(x) -> %{x | anime_ids: anime_ids(x)} end)
   end
 
   defp anime_ids(rule) do
+    # rule.filters["genre_ids"]
     # TODO: return MapSet
+    MapSet.new()
   end
 end

@@ -19,9 +19,9 @@ defmodule Neko.Shikimori.Client.HTTP do
     |> Poison.decode!(as: [%Neko.Achievement{}])
   end
 
-  def get_genres!(user_id) do
-    make_request!(:get, "achievements", %{user_id: user_id})
-    |> Poison.decode!(as: [%Neko.Achievement{}])
+  def get_animes!(user_id) do
+    make_request!(:get, "animes/neko", %{user_id: user_id})
+    |> Poison.decode!(as: [%Neko.Anime{}])
   end
 
   defp make_request!(:get, path, params) do
