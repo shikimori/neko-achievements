@@ -2,7 +2,7 @@
   level: 1
   algo: simple
   threshold: 50
-  shikimori:
+  metadata:
     image: http://i.imgur.com/v7x2w7p.png
     border: "#E52B50"
     title_ru: Добро пожаловать!
@@ -12,7 +12,7 @@
   level: 2
   algo: simple
   threshold: 100
-  shikimori:
+  metadata:
     image: https://kawai.shikimori.org/system/user_images/original/50587/459471.jpg
     border: "#ff0000"
     title_ru: Это всего лишь начало.
@@ -22,7 +22,7 @@
   level: 3
   algo: simple
   threshold: 200
-  shikimori:
+  metadata:
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
     border: "#6A5ACD"
     title_ru: Мои силы растут!
@@ -32,7 +32,7 @@
   level: 4
   algo: simple
   threshold: 300
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: 
@@ -42,7 +42,7 @@
   level: 5
   algo: simple
   threshold: 400
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: 
@@ -52,7 +52,7 @@
   level: 6
   algo: simple
   threshold: 500
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: Знаток
@@ -62,7 +62,7 @@
   level: 7
   algo: simple
   threshold: 666
-  shikimori:
+  metadata:
     image: http://i.imgur.com/8dY1YdU.jpg
     border: "#071746"
     title_ru: Сатанинский предел?
@@ -72,7 +72,7 @@
   level: 8
   algo: simple
   threshold: 800
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: This is not even my final form!
@@ -82,7 +82,7 @@
   level: 9
   algo: simple
   threshold: 1000
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: Коллекционер
@@ -92,7 +92,7 @@
   level: 10
   algo: simple
   threshold: 2000
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: Маньяк
@@ -102,7 +102,7 @@
   level: 11
   algo: simple
   threshold: 3500
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: Легенда
@@ -112,7 +112,7 @@
   level: 12
   algo: simple
   threshold: 5000
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: Ками-сама
@@ -122,7 +122,7 @@
   level: 13
   algo: simple
   threshold: 7500
-  shikimori:
+  metadata:
     image: 
     border: 
     title_ru: Недосягаемый

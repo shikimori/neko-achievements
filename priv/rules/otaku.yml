@@ -6,7 +6,7 @@
     genre_id:
       - 9
       - 12
-  shikimori:
+  metadata:
     image: http://i.yapx.ru/JEvZ.jpg
     border: "#FF496C"
     title_ru: Эскапизм
@@ -20,7 +20,7 @@
     genre_id:
       - 9
       - 12
-  shikimori:
+  metadata:
     image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
     border: "#474A51"
     title_ru: Фетишизм
@@ -34,7 +34,7 @@
     genre_id:
       - 9
       - 12
-  shikimori:
+  metadata:
     image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
     border: "#2F4F4F"
     title_ru: NEET
@@ -48,7 +48,7 @@
     genre_id:
       - 9
       - 12
-  shikimori:
+  metadata:
     image: https://i.yapx.ru/JMeO.gif
     border: "#CD9575"
     title_ru: Хикикомори
