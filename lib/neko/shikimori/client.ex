@@ -6,6 +6,7 @@ defmodule Neko.Shikimori.Client do
 
   defdelegate get_user_rates!(user_id), to: @adapter
   defdelegate get_achievements!(user_id), to: @adapter
+  defdelegate get_genres!(user_id), to: @adapter
 
   # it's possible to inject shikimori client implementations
   # (adapters) into the modules where client is used -

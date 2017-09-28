@@ -13,6 +13,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     Neko.Rules.Reader.read_from_files(@algo)
     |> Enum.map(&(Neko.Rules.SimpleRule.new(&1)))
     |> calc_next_thresholds()
+    |> calc_anime_ids()
   end
 
   defp calc_next_thresholds(rules) do
@@ -29,5 +30,16 @@ defmodule Neko.Rules.SimpleRule.Store do
     end)
     |> Enum.map(&(&1.threshold))
     |> List.first()
+  end
+
+  defp calc_anime_ids(rules) do
+    rules
+    |> Enum.map(fn(x) ->
+      %{x | anime_ids: anime_ids(rules, x)}
+    end)
+  end
+
+  defp anime_ids(rule) do
+    # TODO: return MapSet
   end
 end

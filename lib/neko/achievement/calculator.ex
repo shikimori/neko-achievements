@@ -1,6 +1,5 @@
 defmodule Neko.Achievement.Calculator do
-  # return MapSet because achievements are stored
-  # as MapSet in Neko.Achievement.Store
+  # achievements are stored as MapSet in Neko.Achievement.Store
   def call(user_rates, user_id) do
     rules()
     |> Enum.flat_map(&(apply(&1, :achievements, [user_rates, user_id])))

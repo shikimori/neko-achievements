@@ -5,49 +5,52 @@ defmodule Neko.Rules.SimpleRule do
     neko_id
     level
     threshold
+    filters
     next_threshold
+    anime_ids
   )a
 
   use ExConstructor, atoms: true, strings: true
 
   def achievements(user_rates, user_id) do
-    value = value(user_rates)
-
     Neko.Rules.SimpleRule.Store.all()
-    |> Enum.filter(&rule_applies?(&1, value))
-    |> Enum.map(&build_achievement(&1, user_id, value))
+    |> Enum.map(&({&1, count(&1, user_rates)}))
+    |> Enum.filter(&rule_applies?(&1))
+    |> Enum.map(&build_achievement(&1, user_id))
   end
 
-  defp value(user_rates) do
-    user_rates |> MapSet.size()
+  defp count(rule, user_rates) do
+    user_rates
+    |> Enum.filter(&(MapSet.member?(rule.anime_ids, &1.target_id)))
+    |> MapSet.size()
   end
 
-  defp rule_applies?(rule, value) do
-    value >= rule.threshold
+  defp rule_applies?({rule, count}) do
+    count >= rule.threshold
   end
 
-  defp build_achievement(rule, user_id, value) do
+  defp build_achievement({rule, count}, user_id) do
     %Neko.Achievement{
       user_id: user_id,
       neko_id: rule.neko_id,
       level: rule.level,
-      progress: progress(rule, value)
+      progress: progress(rule, count)
     }
   end
 
-  defp progress(%{next_threshold: nil}, _value) do
+  defp progress(%{next_threshold: nil}, _count) do
     100
   end
-  defp progress(%{threshold: threshold}, value)
-  when value == threshold do
+  defp progress(%{threshold: threshold}, count)
+  when count == threshold do
     0
   end
-  defp progress(%{next_threshold: next_threshold}, value)
-  when value >= next_threshold do
+  defp progress(%{next_threshold: next_threshold}, count)
+  when count >= next_threshold do
     100
   end
-  defp progress(rule, value) do
+  defp progress(rule, count) do
     %{threshold: threshold, next_threshold: next_threshold} = rule
-    ((value - threshold) / (next_threshold - threshold)) * 100 |> round()
+    ((count - threshold) / (next_threshold - threshold)) * 100 |> round()
   end
 end
