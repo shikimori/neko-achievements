@@ -26,37 +26,37 @@
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
     border: "#6A5ACD"
     title_ru: Мои силы растут!
-    text_ru: 
+    text_ru:
 
 - neko_id: animelist
   level: 4
   algo: simple
   threshold: 300
   metadata:
-    image: 
-    border: 
-    title_ru: 
-    text_ru: 
+    image:
+    border:
+    title_ru:
+    text_ru:
 
 - neko_id: animelist
   level: 5
   algo: simple
   threshold: 400
   metadata:
-    image: 
-    border: 
-    title_ru: 
-    text_ru: 
+    image:
+    border:
+    title_ru:
+    text_ru:
 
 - neko_id: animelist
   level: 6
   algo: simple
   threshold: 500
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: Знаток
-    text_ru: 
+    text_ru:
 
 - neko_id: animelist
   level: 7
@@ -73,18 +73,18 @@
   algo: simple
   threshold: 800
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: This is not even my final form!
-    text_ru: 
+    text_ru:
 
 - neko_id: animelist
   level: 9
   algo: simple
   threshold: 1000
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: Коллекционер
     text_ru: Аниме много не бывает.
 
@@ -93,8 +93,8 @@
   algo: simple
   threshold: 2000
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: Маньяк
     text_ru: Может все же стоит взять передышку и заняться чем-нибудь другим?
 
@@ -103,27 +103,27 @@
   algo: simple
   threshold: 3500
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: Легенда
-    text_ru: 
+    text_ru:
 
 - neko_id: animelist
   level: 12
   algo: simple
   threshold: 5000
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: Ками-сама
-    text_ru: 
+    text_ru:
 
 - neko_id: animelist
   level: 13
   algo: simple
   threshold: 7500
   metadata:
-    image: 
-    border: 
+    image:
+    border:
     title_ru: Недосягаемый
     text_ru: Такое не под силу живому человеку. Вы уверены в том, что посмотрели все это?
