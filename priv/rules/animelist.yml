@@ -1,7 +1,7 @@
 - neko_id: animelist
   level: 1
   algo: simple
-  threshold: 50
+  threshold: 15
   metadata:
     image: http://i.imgur.com/v7x2w7p.png
     border_color: "#E52B50"
@@ -11,27 +11,27 @@
 - neko_id: animelist
   level: 2
   algo: simple
-  threshold: 100
+  threshold: 50
   metadata:
     image: https://kawai.shikimori.org/system/user_images/original/50587/459471.jpg
     border_color: "#ff0000"
     title_ru: Это всего лишь начало.
-    text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
+    text_ru:
 
 - neko_id: animelist
   level: 3
   algo: simple
-  threshold: 200
+  threshold: 100
   metadata:
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
     border_color: "#6A5ACD"
     title_ru: Мои силы растут!
-    text_ru:
+    text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
 
 - neko_id: animelist
   level: 4
   algo: simple
-  threshold: 300
+  threshold: 150
   metadata:
     image:
     border_color:
@@ -41,7 +41,7 @@
 - neko_id: animelist
   level: 5
   algo: simple
-  threshold: 400
+  threshold: 200
   metadata:
     image:
     border_color:
@@ -51,7 +51,7 @@
 - neko_id: animelist
   level: 6
   algo: simple
-  threshold: 500
+  threshold: 300
   metadata:
     image:
     border_color:
@@ -61,6 +61,26 @@
 - neko_id: animelist
   level: 7
   algo: simple
+  threshold: 400
+  metadata:
+    image:
+    border_color:
+    title_ru:
+    text_ru:
+
+- neko_id: animelist
+  level: 8
+  algo: simple
+  threshold: 500
+  metadata:
+    image:
+    border_color:
+    title_ru:
+    text_ru:
+
+- neko_id: animelist
+  level: 9
+  algo: simple
   threshold: 666
   metadata:
     image: http://i.imgur.com/8dY1YdU.jpg
@@ -69,19 +89,19 @@
     text_ru: Вами движет поистине дьявольское упорство.
 
 - neko_id: animelist
-  level: 8
+  level: 10
   algo: simple
-  threshold: 800
+  threshold: 750
   metadata:
     image:
     border_color:
-    title_ru: This is not even my final form!
+    title_ru:
     text_ru:
 
 - neko_id: animelist
-  level: 9
+  level: 11
   algo: simple
-  threshold: 1000
+  threshold: 888
   metadata:
     image:
     border_color:
@@ -89,9 +109,9 @@
     text_ru: Аниме много не бывает.
 
 - neko_id: animelist
-  level: 10
+  level: 12
   algo: simple
-  threshold: 2000
+  threshold: 1000
   metadata:
     image:
     border_color:
@@ -99,9 +119,9 @@
     text_ru: Может все же стоит взять передышку и заняться чем-нибудь другим?
 
 - neko_id: animelist
-  level: 11
+  level: 13
   algo: simple
-  threshold: 3500
+  threshold: 1500
   metadata:
     image:
     border_color:
@@ -109,9 +129,9 @@
     text_ru:
 
 - neko_id: animelist
-  level: 12
+  level: 14
   algo: simple
-  threshold: 5000
+  threshold: 2500
   metadata:
     image:
     border_color:
@@ -119,9 +139,9 @@
     text_ru:
 
 - neko_id: animelist
-  level: 13
+  level: 15
   algo: simple
-  threshold: 7500
+  threshold: 5000
   metadata:
     image:
     border_color:
