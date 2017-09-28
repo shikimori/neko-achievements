@@ -8,7 +8,7 @@
       - 12
   metadata:
     image: http://i.yapx.ru/JEvZ.jpg
-    border: "#FF496C"
+    border_color: "#FF496C"
     title_ru: Эскапизм
     text_ru: Иллюзии захватывают ваш разум.
 
@@ -22,7 +22,7 @@
       - 12
   metadata:
     image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
-    border: "#474A51"
+    border_color: "#474A51"
     title_ru: Фетишизм
     text_ru: Как рыба в воде.
 
@@ -36,7 +36,7 @@
       - 12
   metadata:
     image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
-    border: "#2F4F4F"
+    border_color: "#2F4F4F"
     title_ru: NEET
     text_ru: Увлечение эротическим контентом начинает сказываться на вашей реальной жизни.
 
@@ -50,6 +50,6 @@
       - 12
   metadata:
     image: https://i.yapx.ru/JMeO.gif
-    border: "#CD9575"
+    border_color: "#CD9575"
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.

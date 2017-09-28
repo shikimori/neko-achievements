@@ -4,7 +4,7 @@
   threshold: 50
   metadata:
     image: http://i.imgur.com/v7x2w7p.png
-    border: "#E52B50"
+    border_color: "#E52B50"
     title_ru: Добро пожаловать!
     text_ru: Даже путь в тысячу ли начинается с первого шага.
 
@@ -14,7 +14,7 @@
   threshold: 100
   metadata:
     image: https://kawai.shikimori.org/system/user_images/original/50587/459471.jpg
-    border: "#ff0000"
+    border_color: "#ff0000"
     title_ru: Это всего лишь начало.
     text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
 
@@ -24,7 +24,7 @@
   threshold: 200
   metadata:
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
-    border: "#6A5ACD"
+    border_color: "#6A5ACD"
     title_ru: Мои силы растут!
     text_ru:
 
@@ -34,7 +34,7 @@
   threshold: 300
   metadata:
     image:
-    border:
+    border_color:
     title_ru:
     text_ru:
 
@@ -44,7 +44,7 @@
   threshold: 400
   metadata:
     image:
-    border:
+    border_color:
     title_ru:
     text_ru:
 
@@ -54,7 +54,7 @@
   threshold: 500
   metadata:
     image:
-    border:
+    border_color:
     title_ru: Знаток
     text_ru:
 
@@ -64,7 +64,7 @@
   threshold: 666
   metadata:
     image: http://i.imgur.com/8dY1YdU.jpg
-    border: "#071746"
+    border_color: "#071746"
     title_ru: Сатанинский предел?
     text_ru: Вами движет поистине дьявольское упорство.
 
@@ -74,7 +74,7 @@
   threshold: 800
   metadata:
     image:
-    border:
+    border_color:
     title_ru: This is not even my final form!
     text_ru:
 
@@ -84,7 +84,7 @@
   threshold: 1000
   metadata:
     image:
-    border:
+    border_color:
     title_ru: Коллекционер
     text_ru: Аниме много не бывает.
 
@@ -94,7 +94,7 @@
   threshold: 2000
   metadata:
     image:
-    border:
+    border_color:
     title_ru: Маньяк
     text_ru: Может все же стоит взять передышку и заняться чем-нибудь другим?
 
@@ -104,7 +104,7 @@
   threshold: 3500
   metadata:
     image:
-    border:
+    border_color:
     title_ru: Легенда
     text_ru:
 
@@ -114,7 +114,7 @@
   threshold: 5000
   metadata:
     image:
-    border:
+    border_color:
     title_ru: Ками-сама
     text_ru:
 
@@ -124,6 +124,6 @@
   threshold: 7500
   metadata:
     image:
-    border:
+    border_color:
     title_ru: Недосягаемый
     text_ru: Такое не под силу живому человеку. Вы уверены в том, что посмотрели все это?
