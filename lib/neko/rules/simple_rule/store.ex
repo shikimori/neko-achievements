@@ -37,10 +37,13 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> Enum.map(fn(x) -> %{x | anime_ids: anime_ids(x)} end)
   end
 
-  # TODO:
-  #
-  # - add clause to ignore genre ids when it's missing or empty list
-  # - implement this function
+  defp anime_ids(%{filters: nil}) do
+    MapSet.new()
+  end
+  defp anime_ids(%{filters: %{"genre_ids" => genre_ids}})
+  when is_nil(genre_ids) or map_size(genre_ids) == 0 do
+    MapSet.new()
+  end
   defp anime_ids(rule) do
     MapSet.new()
 
