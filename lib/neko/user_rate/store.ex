@@ -1,10 +1,4 @@
 defmodule Neko.UserRate.Store do
-  @moduledoc """
-  Stores user rates for one user.
-  User rates are stored in Map with their ids as keys
-  (so called keyed-by-id store).
-  """
-
   def start_link do
     Agent.start_link(fn -> %{} end)
   end

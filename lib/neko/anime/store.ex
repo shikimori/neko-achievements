@@ -8,6 +8,6 @@ defmodule Neko.Anime.Store do
   end
 
   def load do
-    Neko.Shikimori.Client.get_animes!() |> MapSet.new()
+    Neko.Shikimori.Client.get_animes!()
   end
 end

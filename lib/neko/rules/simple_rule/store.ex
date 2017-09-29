@@ -38,11 +38,15 @@ defmodule Neko.Rules.SimpleRule.Store do
   end
 
   defp anime_ids(%{filters: nil}) do
-    MapSet.new()
+    Neko.Anime.all()
+    |> Enum.map(&(&1.id))
+    |> MapSet.new()
   end
   defp anime_ids(%{filters: %{"genre_ids" => genre_ids}})
   when is_nil(genre_ids) or map_size(genre_ids) == 0 do
-    MapSet.new()
+    Neko.Anime.all()
+    |> Enum.map(&(&1.id))
+    |> MapSet.new()
   end
   defp anime_ids(%{filters: %{"genre_ids" => genre_ids}}) do
     Neko.Anime.all()

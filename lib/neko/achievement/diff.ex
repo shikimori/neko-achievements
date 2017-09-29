@@ -29,14 +29,12 @@ defmodule Neko.Achievement.Diff do
     keyed_new_set
     |> Map.drop(Map.keys(keyed_old_set))
     |> Map.values()
-    |> MapSet.new()
   end
 
   defp removed_achievements(keyed_old_set, keyed_new_set) do
     keyed_old_set
     |> Map.drop(Map.keys(keyed_new_set))
     |> Map.values()
-    |> MapSet.new()
   end
 
   defp updated_achievements(keyed_old_set, keyed_new_set) do
@@ -52,9 +50,7 @@ defmodule Neko.Achievement.Diff do
       |> Map.values()
       |> MapSet.new()
 
-    MapSet.difference(
-      not_added_new_achievements,
-      not_removed_old_achievements
-    )
+    MapSet.difference(not_added_new_achievements, not_removed_old_achievements)
+    |> MapSet.to_list()
   end
 end

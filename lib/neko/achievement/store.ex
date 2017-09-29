@@ -1,9 +1,5 @@
 defmodule Neko.Achievement.Store do
-  @moduledoc """
-  Stores achievements for one user.
-  User rates are stored in MapSet.
-  """
-
+  # store achievements in MapSet because they are dynamically updated
   def start_link do
     Agent.start_link(fn -> MapSet.new() end)
   end
