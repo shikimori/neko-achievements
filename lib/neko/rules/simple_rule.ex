@@ -26,7 +26,7 @@ defmodule Neko.Rules.SimpleRule do
   defp count(rule, user_rates) do
     user_rates
     |> Enum.filter(&(MapSet.member?(rule.anime_ids, &1.target_id)))
-    |> MapSet.size()
+    |> length()
   end
 
   defp rule_applies?({rule, count}) do

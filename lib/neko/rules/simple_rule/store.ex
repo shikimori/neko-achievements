@@ -44,11 +44,14 @@ defmodule Neko.Rules.SimpleRule.Store do
   when is_nil(genre_ids) or map_size(genre_ids) == 0 do
     MapSet.new()
   end
-  defp anime_ids(rule) do
-    MapSet.new()
+  defp anime_ids(%{filters: %{"genre_ids" => genre_ids}}) do
+    Neko.Anime.all()
+    |> Enum.filter(&lists_overlap?(&1.genre_ids, genre_ids))
+    |> Enum.map(&(&1.id))
+    |> MapSet.new()
+  end
 
-    #genre_ids = rule.filters["genre_ids"]
-    #Neko.Anime.all()
-    #|> filter(fn(x) ->  end)
+  defp lists_overlap? list_1, list_2 do
+    !Enum.empty?(list_1 -- (list_1 -- list_2))
   end
 end

@@ -26,14 +26,14 @@ defmodule Neko.UserRate.StoreTest do
     Store.put(pid, user_rate_1.id, user_rate_1)
     Store.put(pid, user_rate_2.id, user_rate_2)
 
-    assert Store.all(pid) == MapSet.new([user_rate_1, user_rate_2])
+    assert Store.all(pid) == [user_rate_1, user_rate_2]
   end
 
   test "adds user rates to store using set", %{pid: pid} do
     user_rates = [%UserRate{id: 1}, %UserRate{id: 2}]
 
     Store.set(pid, user_rates)
-    assert Store.all(pid) == MapSet.new(user_rates)
+    assert Store.all(pid) == user_rates
   end
 
   test "updates user rate", %{pid: pid} do
@@ -42,7 +42,7 @@ defmodule Neko.UserRate.StoreTest do
     Store.put(pid, user_rate.id, user_rate)
     Store.update(pid, user_rate.id, %{score: 9})
 
-    assert Store.all(pid) == MapSet.new([%UserRate{id: 1, score: 9}])
+    assert Store.all(pid) == [%UserRate{id: 1, score: 9}]
   end
 
   test "deletes user rate by id", %{pid: pid} do

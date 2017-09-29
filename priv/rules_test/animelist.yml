@@ -1,14 +1,14 @@
 - neko_id: animelist
-  level: 0
+  level: 1
   algo: simple
   threshold: 1
 
 - neko_id: animelist
-  level: 1
+  level: 2
   algo: simple
   threshold: 3
 
 - neko_id: animelist
-  level: 2
+  level: 3
   algo: simple
   threshold: 5
