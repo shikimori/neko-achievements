@@ -55,7 +55,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> MapSet.new()
   end
 
-  defp lists_overlap? list_1, list_2 do
+  defp lists_overlap?(list_1, list_2) do
     !Enum.empty?(list_1 -- (list_1 -- list_2))
   end
 end
