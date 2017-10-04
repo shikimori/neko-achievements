@@ -11,6 +11,7 @@
     border_color: "#e82a8d"
     title_ru: Вуайерист-любитель
     text_ru: Поздравляем! В тебе проснулась внутренняя фудзёси!
+
 - neko_id: fujoshi
   level: 2
   algo: simple
@@ -24,6 +25,7 @@
     border_color: "#e82a8d"
     title_ru: Голубок
     text_ru: 'Поворачивать назад уже слишком поздно. Пора совершить каминг-аут и наконец-то признать свою любовь к "не очень традиционным" историям.'
+
 - neko_id: fujoshi
   level: 3
   algo: simple
@@ -37,6 +39,7 @@
     border_color: "#e82a8d"
     title_ru: Шиппер
     text_ru: Мужская дружба? Не, не слышали.
+
 - neko_id: fujoshi
   level: 4
   algo: simple
