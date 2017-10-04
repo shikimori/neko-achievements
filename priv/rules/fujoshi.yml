@@ -1,0 +1,52 @@
+- neko_id: fujoshi
+  level: 1
+  algo: simple
+  threshold: 30
+  filters:
+    genre_ids:
+      - 28
+      - 33
+  metadata:
+    image: http://i.imgur.com/R6PqIoT.png
+    border_color: "#e82a8d"
+    title_ru: Вуайерист-любитель
+    text_ru: Поздравляем! В тебе проснулась внутренняя фудзёси!
+- neko_id: fujoshi
+  level: 2
+  algo: simple
+  threshold: 50
+  filters:
+    genre_ids:
+      - 28
+      - 33
+  metadata:
+    image: http://i.imgur.com/TLvZb0E.png
+    border_color: "#e82a8d"
+    title_ru: Голубок
+    text_ru: 'Поворачивать назад уже слишком поздно. Пора совершить каминг-аут и наконец-то признать свою любовь к "не очень традиционным" историям.'
+- neko_id: fujoshi
+  level: 3
+  algo: simple
+  threshold: 70
+  filters:
+    genre_ids:
+      - 28
+      - 33
+  metadata:
+    image: http://i.imgur.com/DKfMKBR.png
+    border_color: "#e82a8d"
+    title_ru: Шиппер
+    text_ru: Мужская дружба? Не, не слышали.
+- neko_id: fujoshi
+  level: 4
+  algo: simple
+  threshold: 90
+  filters:
+    genre_ids:
+      - 28
+      - 33
+  metadata:
+    image: http://nyaa.shikimori.org/images/user_image/original/22828/107095.jpg
+    border_color: "#e82a8d"
+    title_ru: Яойный бог
+    text_ru: Яой - не жанр. Яой — это стиль жизни.

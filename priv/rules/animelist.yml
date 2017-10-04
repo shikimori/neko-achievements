@@ -4,7 +4,7 @@
   threshold: 15
   metadata:
     image: http://i.imgur.com/v7x2w7p.png
-    border_color: "#E52B50"
+    border_color: "#e52b50"
     title_ru: Добро пожаловать!
     text_ru: Даже путь в тысячу ли начинается с первого шага.
 
@@ -24,7 +24,7 @@
   threshold: 100
   metadata:
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
-    border_color: "#6A5ACD"
+    border_color: "#6a5acd"
     title_ru: Мои силы растут!
     text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
 
