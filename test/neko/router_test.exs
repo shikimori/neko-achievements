@@ -4,11 +4,30 @@ defmodule Neko.RouterTest do
   use ExUnit.Case, async: true
   use Plug.Test
 
+  import Mox
+
   alias Neko.Router
 
   @opts Router.init([])
 
+  # TODO: can we async: true here - it's okay with anime store
+  #       since it's read-only but achievements and user rates
+  #       are changed in store (stores are accessed by user_id
+  #       so it's a problem if user_ids are the same) =>
+  #       use `async: false`
+  #
+  #       this can be fixed by starting store registries with
+  #       unique names in application.exs - that is don't start
+  #       registries as part of supervision tree but do it here
+  #       providing unique names (just like in registry tests)
+  #
+  # TODO: think of how to provide a lot of seed data
   setup do
+    Neko.Shikimori.Client.Mock
+    |> Mox.stub(:get_user_rates!, fn(_user_id) -> [] end)
+    |> Mox.stub(:get_achievements!, fn(_user_id) -> [] end)
+    |> Mox.stub(:get_animes!, fn -> [] end)
+
     request = %Neko.Request{
       id: 3,
       user_id: 1,

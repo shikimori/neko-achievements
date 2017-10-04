@@ -50,7 +50,10 @@ defmodule Neko.Mixfile do
       {:httpoison, "~> 0.12"},
       {:yaml_elixir, "~> 1.1"},
       {:edeliver, "~> 1.4.4"},
-      {:distillery, "~> 1.4", runtime: false}
+      {:distillery, "~> 1.4", runtime: false},
+      # remove when new version (> v0.1.0) is released
+      # (Mox.stub/3 is in master now)
+      {:mox, git: "https://github.com/plataformatec/mox", only: :test}
     ]
   end
 end
