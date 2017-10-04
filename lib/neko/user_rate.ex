@@ -1,4 +1,7 @@
 defmodule Neko.UserRate do
+  alias Neko.UserRate.Store
+  alias Neko.UserRate.Store.Registry
+
   defstruct ~w(
     id
     user_id
@@ -11,9 +14,6 @@ defmodule Neko.UserRate do
     volumes
     chapters
   )a
-
-  alias Neko.UserRate.Store
-  alias Neko.UserRate.Store.Registry
 
   def from_request(request) do
     struct(__MODULE__, Map.from_struct(request))
@@ -43,10 +43,6 @@ defmodule Neko.UserRate do
 
   def put(user_id, id, user_rate) do
     store(user_id) |> Store.put(id, user_rate)
-  end
-
-  def update(user_id, id, map) do
-    store(user_id) |> Store.update(id, map)
   end
 
   def delete(user_id, id) do

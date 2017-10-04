@@ -31,7 +31,7 @@ defmodule Neko.UserRate.Store do
 
   def update(pid, id, fields) do
     Agent.update(pid, fn state ->
-      Map.update!(state, id, &(struct(&1, fields)))
+      Map.update!(state, id, &struct(&1, fields))
     end)
   end
 

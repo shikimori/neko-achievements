@@ -3,15 +3,15 @@ defmodule Neko.Achievement do
   # @derive [Poison.Encoder] for any struct you plan on encoding."
   @derive [Poison.Encoder]
 
+  alias Neko.Achievement.Store
+  alias Neko.Achievement.Store.Registry
+
   defstruct ~w(
     user_id
     neko_id
     level
     progress
   )a
-
-  alias Neko.Achievement.Store
-  alias Neko.Achievement.Store.Registry
 
   def load(user_id) do
     case Registry.lookup(user_id) do

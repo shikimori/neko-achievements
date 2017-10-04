@@ -11,15 +11,14 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   def load do
     Neko.Rules.Reader.read_from_files(@algo)
-    |> Enum.map(&(Neko.Rules.SimpleRule.new(&1)))
-    |> calc_anime_ids()
-    |> calc_thresholds()
+    |> Enum.map(&Neko.Rules.SimpleRule.new(&1))
+    |> Enum.map(&calc_anime_ids(&1))
+    |> Enum.map(&calc_threshold(&1))
     |> calc_next_thresholds()
   end
 
-  defp calc_anime_ids(rules) do
-    rules
-    |> Enum.map(fn(x) -> %{x | anime_ids: anime_ids(x)} end)
+  defp calc_anime_ids(rule) do
+    %{rule | anime_ids: anime_ids(rule)}
   end
 
   defp anime_ids(%{filters: nil}) do
@@ -27,42 +26,53 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> Enum.map(&(&1.id))
     |> MapSet.new()
   end
-  defp anime_ids(%{filters: %{"genre_ids" => genre_ids}})
-  when is_nil(genre_ids) or map_size(genre_ids) == 0 do
+  defp anime_ids(%{filters: filters}) do
     Neko.Anime.all()
+    |> filter_by_genre_ids(filters["genre_ids"])
+    |> filter_by_anime_ids(filters["anime_ids"])
     |> Enum.map(&(&1.id))
     |> MapSet.new()
   end
-  defp anime_ids(%{filters: %{"genre_ids" => genre_ids}}) do
-    Neko.Anime.all()
+
+  defp filter_by_genre_ids(animes, nil) do
+    animes
+  end
+  defp filter_by_genre_ids(animes, genre_ids) do
+    animes
     |> Enum.filter(&lists_overlap?(&1.genre_ids, genre_ids))
-    |> Enum.map(&(&1.id))
-    |> MapSet.new()
   end
 
   defp lists_overlap?(list_1, list_2) do
     !Enum.empty?(list_1 -- (list_1 -- list_2))
   end
 
-  defp calc_thresholds(rules) do
-    rules
-    |> Enum.map(fn
-      %{threshold: threshold} = rule when is_integer(threshold) ->
-        rule
-      %{threshold: threshold} = rule when is_binary(threshold) ->
-        %{rule | threshold: parse_threshold(rule)}
-    end)
+  defp filter_by_anime_ids(animes, nil) do
+    animes
+  end
+  defp filter_by_anime_ids(animes, anime_ids) do
+    animes
+    |> Enum.filter(&(Enum.member?(anime_ids, &1.id)))
+  end
+
+  defp calc_threshold(%{threshold: threshold} = rule)
+  when is_integer(threshold) do
+    rule
+  end
+  defp calc_threshold(%{threshold: threshold} = rule)
+  when is_binary(threshold) do
+    %{rule | threshold: parse_threshold(rule)}
   end
 
   # when threshold is a string value, percent is implied
   defp parse_threshold(rule) do
     percent = rule.threshold |> Integer.parse() |> elem(0)
-    MapSet.size(rule.anime_ids) * percent / 100
+    MapSet.size(rule.anime_ids) * percent / 100 |> round()
   end
 
+  # access to all rules is required to calculate
+  # next threshold so iterate over rules here
   defp calc_next_thresholds(rules) do
-    rules
-    |> Enum.map(fn(x) ->
+    rules |> Enum.map(fn(x) ->
       %{x | next_threshold: next_threshold(rules, x)}
     end)
   end
