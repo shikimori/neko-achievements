@@ -1,0 +1,60 @@
+- neko_id: drama
+  level: 1
+  algo: simple
+  threshold: 40
+  filters: &filters
+    genre_ids:
+      - 8
+  metadata:
+    title_ru: Скупая слеза
+    text_ru: Я не плачу, мне что-то в глаз попало!
+    image:
+      - https://desu.shikimori.org/system/user_images/original/50587/459398.jpg
+      - http://i.imgur.com/2Wk4l1j.png
+    border_color:
+      - "#f46c2d"
+      - "#868479"
+
+- neko_id: drama
+  level: 2
+  algo: simple
+  threshold: 90
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Эмпатия среднего уровня
+    text_ru: Ну давай, расскажи, как ты плакал над Хатико
+    image:
+      - https://dere.shikimori.org/system/user_images/original/50587/459409.jpg
+      - https://moe.shikimori.org/system/user_images/original/50587/459402.jpg
+    border_color:
+      - "#031427"
+      - "#feea4a"
+
+- neko_id: drama
+  level: 3
+  algo: simple
+  threshold: 140
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Идеальная грусть
+    text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
+    image:
+      - https://moe.shikimori.org/system/user_images/original/50587/459427.jpg
+      - https://kawai.shikimori.org/system/user_images/original/50587/459426.jpg
+    border_color:
+      - "#100200"
+      - "#fefc9f"
+
+- neko_id: drama
+  level: 4
+  algo: simple
+  threshold: 200
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Максимальная эмоциональная отзывчивость
+    text_ru: Шрамы на сердце других становятся твоими.
+    image: http://25.media.tumblr.com/18bb07caa91763ef6c93e1f8f91dfc55/tumblr_mg8r7yi1i51qh8z5mo1_500.gif
+    border_color: "#606fde"

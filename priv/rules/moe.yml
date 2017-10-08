@@ -183,10 +183,10 @@
       - 9888
       - 9989
   metadata:
-    image: http://i944.photobucket.com/albums/ad284/dzh2011/02/yuruyuri22.jpg
-    border_color: "#f0d698"
     title_ru: Начинающий моэфаг
     text_ru: Позволь проводить тебя в удивительный 2д-мир.
+    image: http://i944.photobucket.com/albums/ad284/dzh2011/02/yuruyuri22.jpg
+    border_color: "#f0d698"
 
 - neko_id: moe
   level: 2
@@ -195,10 +195,10 @@
   filters:
     <<: *filters
   metadata:
-    image: http://i.imgur.com/ao63S07.png
-    border_color: "#fdbdba"
     title_ru: Лучи кавая
     text_ru: Поражают в самое сердце.
+    image: http://i.imgur.com/ao63S07.png
+    border_color: "#fdbdba"
 
 - neko_id: moe
   level: 3
@@ -207,7 +207,7 @@
   filters:
     <<: *filters
   metadata:
-    image: http://i.imgur.com/Arxun3R.gif
-    border_color: "#ff0000"
     title_ru: Первоклассная моэта
     text_ru: Вы приняли слишком большую дозу тортиков и сами стали моэ.
+    image: http://i.imgur.com/Arxun3R.gif
+    border_color: "#ff0000"

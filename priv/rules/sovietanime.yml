@@ -222,9 +222,9 @@
       - 9941
       - 9957
   metadata:
-    image: http://i.imgur.com/Edt5PrL.png
-    border_color: "#daa520"
     title_ru: MIWKA, VODKA, BALALAIKA
     text_ru: Из России с любовью <3
     title_en: MIWKA, VODKA, BALALAIKA
     text_en: From Russia with love <3
+    image: http://i.imgur.com/Edt5PrL.png
+    border_color: "#daa520"

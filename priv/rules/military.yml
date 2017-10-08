@@ -1,0 +1,50 @@
+- neko_id: military
+  level: 1
+  algo: simple
+  threshold: 25
+  filters: &filters
+    genre_ids:
+      - 38
+  metadata:
+    title_ru: Новобранец
+    text_ru: Зачислены на военную службу в очередной призыв.
+    image: http://i.imgur.com/MJI5DLT.png
+    border_color: "#635757"
+
+- neko_id: 
+  level: 2
+  algo: simple
+  threshold: 40
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Сержант
+    text_ru: Толковый сержант необыкновенно полезен в армии, так ведь?
+    image: http://i.imgur.com/pJbZJxd.png
+    border_color: "#5f665a"
+
+- neko_id: 
+  level: 3
+  algo: simple
+  threshold: 60
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Майор
+    text_ru: Забыли о человеческих чувствах ради долга.
+    image: http://i.imgur.com/NgRm8Nd.png
+    border_color: "#101011"
+
+- neko_id: 
+  level: 4
+  algo: simple
+  threshold: 100
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Генерал
+    text_ru: |>
+      Не стоит связываться с кадровым офицером, прошедшим горячие точки.
+      Жизни тысяч в руках одного.
+    image: http://i7.5cm.ru/i/nzrc.gif
+    border_color: "#2a456e"

@@ -1,0 +1,48 @@
+- neko_id: supernatural
+  level: 1
+  algo: simple
+  threshold: 40
+  filters: &filters
+    genre_ids:
+      - 37
+  metadata:
+    title_ru: Первая встреча с духами
+    text_ru: Слабое сердце манит демонов. Хотите жить — никогда не расслабляйтесь.
+    image: http://i.imgur.com/po7mAFJ.png
+    border_color: "#091102"
+
+- neko_id: supernatural
+  level: 2
+  algo: simple
+  threshold: 90
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Обнаружили у себя странные силы?
+    text_ru: Сила есть в каждом из нас. Но, когда она пробуждается, важно решить, как её использовать. Иногда мы совсем не готовы к этому.
+    image: http://imgur.com/oJNnKMJ
+    border_color: "#070c0e"
+
+- neko_id: supernatural
+  level: 3
+  algo: simple
+  threshold: 140
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: В поисках Ёкаев
+    text_ru: Если услышите колокольный звон в горах и, пойдя на звук, увидите дичь, значит, это был рев бога гор.
+    image: http://i.imgur.com/u0N3HG8.png
+    border_color: "#62182b"
+
+- neko_id: supernatural
+  level: 4
+  algo: simple
+  threshold: 200
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Унесённые призраками
+    text_ru: Если забудешь своё имя, то не сможешь вернуться домой.
+    image: http://i7.5cm.ru/i/fLMV.gif
+    border_color: "#071a09"

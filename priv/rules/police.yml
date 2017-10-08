@@ -1,0 +1,52 @@
+- neko_id: police
+  level: 1
+  algo: simple
+  threshold: 25
+  filters: &filters
+    genre_ids:
+      - 39
+  metadata:
+    title_ru: Народный дружинник
+    text_ru: Любой может оказаться предателем. Нельзя терять бдительности.
+    image: https://i.yapx.ru/JP01.jpg
+    border_color: "#2F353B"
+
+- neko_id: police
+  level: 2
+  algo: simple
+  threshold: 40
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Гражданин, пройдёмте
+    text_ru: У каждого полицейского есть дело, которое не даёт ему покоя.
+    image: https://i.yapx.ru/JP2j.jpg
+    border_color: "#c34d0a"
+
+- neko_id: police
+  level: 3
+  algo: simple
+  threshold: 60
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Отдел особого назначения
+    text_ru: О скольких способах противостояния преступникам вы осведомлены?
+    image:
+      - http://i.imgur.com/uTrpGUm.png
+      - https://i.yapx.ru/JP00.jpg
+    border_color:
+      - "#f4a900"
+      - "#1c1c1c"
+
+- neko_id: police
+  level: 4
+  algo: simple
+  threshold: 100
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Вершина иерархии? Высший начальствующий состав?
+    text_ru: Как вы себя чувствуете, забравшись так далеко?
+    image: https://i.yapx.ru/JP03.jpg
+    border_color: "#c7d0cc"

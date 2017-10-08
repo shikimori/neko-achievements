@@ -1,0 +1,29 @@
+- neko_id: josei
+  level: 1
+  algo: simple
+  threshold: 25
+  filters: &filters
+    genre_ids:
+      - 43
+
+- neko_id: josei
+  level: 2
+  algo: simple
+  threshold: 40
+  filters:
+    <<: *filters
+
+- neko_id: josei
+  level: 3
+  algo: simple
+  threshold: 60
+  filters:
+    <<: *filters
+
+- neko_id: josei
+  level: 4
+  algo: simple
+  threshold: 100
+  filters:
+    <<: *filters
+

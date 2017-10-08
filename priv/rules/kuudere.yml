@@ -6,10 +6,10 @@
     anime_ids:
       - 9999999999
   metadata:
-    image: http://gifok.net/images/2015/06/23/KUDERE1LVL.jpg
-    border_color: "#9ad1ee"
     title_ru: Тишина
     text_ru: Кудере молчит только потому, что того хочет.
+    image: http://gifok.net/images/2015/06/23/KUDERE1LVL.jpg
+    border_color: "#9ad1ee"
 
 - neko_id: kuudere
   level: 2
@@ -18,10 +18,10 @@
   filters:
     <<: *filters
   metadata:
-    image: http://gifok.net/images/2015/06/23/KUDERE2LVL.jpg
-    border_color: "#4a4a40"
     title_ru: Мудрость
     text_ru: Умный менее всего одинок тогда, когда он находится в одиночестве.
+    image: http://gifok.net/images/2015/06/23/KUDERE2LVL.jpg
+    border_color: "#4a4a40"
 
 - neko_id: kuudere
   level: 3
@@ -30,9 +30,9 @@
   filters:
     <<: *filters
   metadata:
-    image: http://gifok.net/images/2015/06/23/KUDERE3LVL.jpg
-    border_color: "#533e41"
     title_ru: Хладнокровие
     text_ru: |-
       - Как вы можете оставаться таким холодным?
       - Практика.
+    image: http://gifok.net/images/2015/06/23/KUDERE3LVL.jpg
+    border_color: "#533e41"

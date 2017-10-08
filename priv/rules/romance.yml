@@ -1,0 +1,68 @@
+- neko_id: romance
+  level: 1
+  algo: simple
+  threshold: 40
+  filters: &filters
+    genre_ids:
+      - 22
+  metadata:
+    title_ru: Сталкер
+    text_ru: Сталкер 24/7. Почему ты меня не замечаешь?
+    image:
+      - http://s5.postimg.org/89ob3jazb/Rom_3_00000.jpg
+      - http://s5.postimg.org/ykjbfqyqf/Rom_1_00000.jpg
+    border_color:
+      - "#79a02a"
+      - "#e2b801"
+
+- neko_id: romance
+  level: 2
+  algo: simple
+  threshold: 90
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Неразделенная любовь / Первое признание в любви.
+    text_ru: Если ты не признаешься, он никогда не узнает о твоих чувствах.
+    image:
+      - http://s5.postimg.org/j0bxp7olz/Rom_6_00000.jpg
+      - http://s5.postimg.org/qb7g1c507/Rom_7_00000.jpg
+    border_color:
+      - "#fc8e59"
+      - "#533a64"
+
+- neko_id: romance
+  level: 3
+  algo: simple
+  threshold: 140
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Салат / Конфетно-букетный период
+    text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
+    image:
+      - http://s5.postimg.org/exkwq4uhj/Rom_4_00000.jpg
+      - http://s5.postimg.org/fqxiir0if/Rom_5_00000.jpg
+    border_color:
+      - "#f16251"
+      - "#9e9cb2"
+
+- neko_id: romance
+  level: 4
+  algo: simple
+  threshold: 200
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Сердце полное любви
+    text_ru: Эксперт в отношениях.
+    image:
+      - http://media.giphy.com/media/26BkNbAY61vlv4XUk/giphy.gif
+      - http://media.giphy.com/media/3oEdv7Z9NDQFcTzMha/giphy.gif
+      - https://s-media-cache-ak0.pinimg.com/originals/78/47/1d/78471de23b90e7f4ea23a7878ee40d5d.jpg
+      - https://68.media.tumblr.com/2cc0ba9f421198e84867095d97c1706c/tumblr_oco095Mm4j1riqn3no2_500.gif
+    border_color:
+      - "#001831"
+      - "#001a6e"
+      - "#3d2b1f"
+      - "#89ac76"

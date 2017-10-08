@@ -1,7 +1,8 @@
+# https://github.com/anime-plus/graph/blob/master/data/achievement/anime-gar.json
 - neko_id: gar
   level: 1
   algo: simple
-  threshold: 30%
+  threshold: 10%
   filters: &filters
     anime_ids:
       - 1
@@ -465,31 +466,31 @@
       - 986
       - 987
   metadata:
-    image:
-    border_color:
     title_ru:
     text_ru: Ваши первые шаги в жанре а борода уже не сбривается.
+    image:
+    border_color:
 
 - neko_id: gar
   level: 2
   algo: simple
-  threshold: 55%
+  threshold: 25%
   filters:
     <<: *filters
   metadata:
-    image:
-    border_color:
     title_ru:
     text_ru: Вы больше не помещаетесь в зеркалах.
+    image:
+    border_color:
 
 - neko_id: gar
   level: 3
   algo: simple
-  threshold: 80%
+  threshold: 40%
   filters:
     <<: *filters
   metadata:
-    image:
-    border_color:
     title_ru:
     text_ru: Физика играет по вашим правилам.
+    image:
+    border_color:

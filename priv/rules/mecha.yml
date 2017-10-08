@@ -1,0 +1,58 @@
+- neko_id: mecha
+  level: 1
+  algo: simple
+  threshold: 40
+  filters: &filters
+    genre_ids:
+      - 18
+  metadata:
+    title_ru: Пилот Евы
+    text_ru: ОЯШ, залезай в робота
+    image:
+      - http://i.imgur.com/dd0fC8Z.png
+      - http://68.media.tumblr.com/8cf1278fd22114a55608e9b09a5db1b4/tumblr_inline_nczxqyUFjI1rywm8k.png
+    border_color:
+      - "#ffffff"
+      - "#1a153f"
+
+- neko_id: mecha
+  level: 2
+  algo: simple
+  threshold: 90
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Hassin!
+    text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
+    image: http://i.imgur.com/djvEhwN.png
+    border_color: "#5d634d"
+
+- neko_id: mecha
+  level: 3
+  algo: simple
+  threshold: 140
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Ньютайп
+    text_ru: Ore Wa Gundam / I am a mecha
+    image: http://i.imgur.com/XrJCBwN.png
+    border_color: "#66cdaa"
+
+- neko_id: mecha
+  level: 4
+  algo: simple
+  threshold: 200
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: DO THE IMPOSSIBLE, SEE THE INVISIBLE!
+    text_ru: |>
+      Мы снесем любую стену вставшую на пути! Если нет пути ,мы его проложим!
+      Магма течет в наших венах, раскаляя сердца!
+    image:
+      - http://i.imgur.com/YTDucCf.gif
+      - http://i.imgur.com/poc59of.png
+    border_color:
+      - "#da4968"
+      - "#ff000f"

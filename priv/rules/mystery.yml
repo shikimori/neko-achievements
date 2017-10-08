@@ -1,0 +1,52 @@
+- neko_id: mystery
+  level: 1
+  algo: simple
+  threshold: 25
+  filters: &filters
+    genre_ids:
+      - 7
+  metadata:
+    title_ru: Первое дело
+    text_ru: Было не просто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
+    image: https://pp.userapi.com/c638321/v638321323/3997e/EGJ6gOU1aSA.jpg
+    border_color: "#4c514a"
+
+- neko_id: mystery
+  level: 2
+  algo: simple
+  threshold: 40
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Убийца - дворецкий!
+    text_ru: Вы не понаслышке знакомы с дедукцией. Вам нет равных среди юных детективов.
+    image: http://i.imgur.com/DFrq5pY.jpg
+    border_color: "#3a59a8"
+
+- neko_id: mystery
+  level: 3
+  algo: simple
+  threshold: 60
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: За семью печатями
+    text_ru: Мэтры детективного дела обращаются к вам за советами.
+    image:
+      - https://38.media.tumblr.com/f2d2b5eaa71f9126d9037f6ddf77e8fb/tumblr_inline_ng25icmDJl1t1h0ms.jpg
+      - https://i.yapx.ru/JK6g.jpg
+    border_color:
+      - "#919192"
+      - "#919192"
+
+- neko_id: mystery
+  level: 4
+  algo: simple
+  threshold: 100
+  filters:
+    <<: *filters
+  metadata:
+    title_ru: Великий детектив
+    text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
+    image: https://i.imgur.com/oPp3SWS.gif
+    border_color: "#919192"

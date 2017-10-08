@@ -62,12 +62,12 @@
       - 849
       - 934
   metadata:
-    image: https://lh3.googleusercontent.com/5GlJJYYzodzjTuR5IiDN9Fj2KR_X-CYZtTEqPN6iUHAOHfKr3QvI_jElrRwEg7rNR-Jctcvq89-jliPlLA8sI7ZNHAOWZp3EEZhQcDmogawgqs9mIklOkHUxDQ89MbyN-nEYU9rGwtTa63p0og
-    border_color: "#821d60"
     title_ru: Бездна
     text_ru: Если долго всматриваться в бездну — бездна начнет всматриваться в тебя.
     title_en: Abyss
     text_en: When you look into the abyss, the abyss stares back at you.
+    image: https://lh3.googleusercontent.com/5GlJJYYzodzjTuR5IiDN9Fj2KR_X-CYZtTEqPN6iUHAOHfKr3QvI_jElrRwEg7rNR-Jctcvq89-jliPlLA8sI7ZNHAOWZp3EEZhQcDmogawgqs9mIklOkHUxDQ89MbyN-nEYU9rGwtTa63p0og
+    border_color: "#821d60"
 
 - neko_id: yandere
   level: 2
@@ -76,11 +76,11 @@
   filters:
     <<: *filters
   metadata:
-    image: http://i.imgur.com/5Dk8pth.png?1
-    border_color: "#9a4cb7"
     title_ru: Ураган
     text_ru: Ураганы имеют одну интересную особенность — в их центре всегда спокойно.
     title_en: Hurricane
+    image: http://i.imgur.com/5Dk8pth.png?1
+    border_color: "#9a4cb7"
 
 - neko_id: yandere
   level: 3
@@ -89,8 +89,8 @@
   filters:
     <<: *filters
   metadata:
-    image: http://i.imgur.com/hcBxX2e.png
-    border_color: "#d54956"
     title_ru: Безумие
     text_ru: Умри, пожалуйста!
     title_en: Insanity
+    image: http://i.imgur.com/hcBxX2e.png
+    border_color: "#d54956"

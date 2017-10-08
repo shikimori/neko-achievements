@@ -7,10 +7,10 @@
       - 9
       - 12
   metadata:
-    image: http://i.yapx.ru/JEvZ.jpg
-    border_color: "#ff496c"
     title_ru: Эскапизм
     text_ru: Иллюзии захватывают ваш разум.
+    image: http://i.yapx.ru/JEvZ.jpg
+    border_color: "#ff496c"
 
 - neko_id: otaku
   level: 2
@@ -19,10 +19,10 @@
   filters:
     <<: *filters
   metadata:
-    image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
-    border_color: "#474a51"
     title_ru: Фетишизм
     text_ru: Как рыба в воде.
+    image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
+    border_color: "#474a51"
 
 - neko_id: otaku
   level: 3
@@ -31,10 +31,10 @@
   filters:
     <<: *filters
   metadata:
-    image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
-    border_color: "#2f4f4f"
     title_ru: NEET
     text_ru: Увлечение эротическим контентом начинает сказываться на вашей реальной жизни.
+    image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
+    border_color: "#2f4f4f"
 
 - neko_id: otaku
   level: 4
@@ -43,7 +43,7 @@
   filters:
     <<: *filters
   metadata:
-    image: https://i.yapx.ru/JMeO.gif
-    border_color: "#cd9575"
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.
+    image: https://i.yapx.ru/JMeO.gif
+    border_color: "#cd9575"
