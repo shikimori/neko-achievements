@@ -6,6 +6,7 @@ defmodule Neko.Anime do
   defstruct ~w(
     id
     genre_ids
+    year
   )a
 
   defdelegate all, to: Store

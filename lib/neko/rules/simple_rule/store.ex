@@ -30,6 +30,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     Neko.Anime.all()
     |> filter_by_genre_ids(filters["genre_ids"])
     |> filter_by_anime_ids(filters["anime_ids"])
+    |> filter_by_year_lte(filters["year_lte"])
     |> Enum.map(&(&1.id))
     |> MapSet.new()
   end
@@ -51,7 +52,15 @@ defmodule Neko.Rules.SimpleRule.Store do
   end
   defp filter_by_anime_ids(animes, anime_ids) do
     animes
-    |> Enum.filter(&(Enum.member?(anime_ids, &1.id)))
+    |> Enum.filter(&Enum.member?(anime_ids, &1.id))
+  end
+
+  defp filter_by_year_lte(animes, nil) do
+    animes
+  end
+  defp filter_by_year_lte(animes, year_lte) do
+    animes
+    |> Enum.filter(&(&1.year && &1.year <= year_lte))
   end
 
   defp calc_threshold(%{threshold: threshold} = rule)
