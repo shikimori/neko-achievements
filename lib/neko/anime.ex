@@ -13,6 +13,7 @@ defmodule Neko.Anime do
   def set(animes) do
     Store.set(animes)
     # TODO: reload all rules using their reload method
+    #       to recalculate anime_ids
     # TODO: get all rules from config
     # TODO: move all load functions from UserRate, Achievement and
     #       Anime to corresponding stores?
