@@ -1,5 +1,5 @@
 # https://github.com/anime-plus/graph/blob/master/data/achievement/anime-mahou-shoujo.jsoт
-- neko_id: Махо-сёдзё
+- neko_id: mahou_shoujo
   level: 1
   algo: simple
   threshold: 20
@@ -514,7 +514,8 @@
     text_ru: My master, положено начало вашего становления юной волшебницой.
     image: https://i.yapx.ru/JECZ.png
     border_color: "#1E1112"
-- neko_id: 'Список: https://github.com/anime-plus/graph/blob/master/data/achievement/anime-mahou-shoujo.json'
+
+- neko_id: mahou_shoujo
   level: 2
   algo: simple
   threshold: 35
@@ -529,7 +530,9 @@
     border_color:
       - "#49678d"
       - "#f28598"
-- level: 3
+
+- neko_id: mahou_shoujo
+  level: 3
   algo: simple
   threshold: 55
   filters:
@@ -543,7 +546,9 @@
     border_color:
       - "#009b76"
       - "#d8b1bf"
-- level: 4
+
+- neko_id: mahou_shoujo
+  level: 4
   algo: simple
   threshold: 85
   filters:

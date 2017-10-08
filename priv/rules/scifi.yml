@@ -21,7 +21,7 @@
     title_ru: Изобретатель
     text_ru: Вероятно, вы способны сделать пригодным для использования даже то, что является кучей мусора в глазах других.
     image:
-       - http://i7.5cm.ru/i/oqce.png
+      - http://i7.5cm.ru/i/oqce.png
       - http://i.imgur.com/uhI7k2t.png?1
     border_color:
       - "#256d7b"

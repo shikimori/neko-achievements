@@ -11,7 +11,7 @@
     image: http://i.imgur.com/MJI5DLT.png
     border_color: "#635757"
 
-- neko_id: 
+- neko_id: military
   level: 2
   algo: simple
   threshold: 40
@@ -23,7 +23,7 @@
     image: http://i.imgur.com/pJbZJxd.png
     border_color: "#5f665a"
 
-- neko_id: 
+- neko_id: military
   level: 3
   algo: simple
   threshold: 60
@@ -35,7 +35,7 @@
     image: http://i.imgur.com/NgRm8Nd.png
     border_color: "#101011"
 
-- neko_id: 
+- neko_id: military
   level: 4
   algo: simple
   threshold: 100
@@ -43,7 +43,7 @@
     <<: *filters
   metadata:
     title_ru: Генерал
-    text_ru: |>
+    text_ru: |-
       Не стоит связываться с кадровым офицером, прошедшим горячие точки.
       Жизни тысяч в руках одного.
     image: http://i7.5cm.ru/i/nzrc.gif
