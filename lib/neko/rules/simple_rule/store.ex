@@ -88,9 +88,9 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   defp rules do
     Neko.Rules.Reader.read_from_files(@algo)
-    |> Enum.map(&Neko.Rules.SimpleRule.new(&1))
-    |> Enum.map(&calc_anime_ids(&1))
-    |> Enum.map(&calc_threshold(&1))
+    |> Enum.map(&Neko.Rules.SimpleRule.new/1)
+    |> Enum.map(&calc_anime_ids/1)
+    |> Enum.map(&calc_threshold/1)
     |> calc_next_thresholds()
   end
 end

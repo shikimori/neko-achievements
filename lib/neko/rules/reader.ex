@@ -5,7 +5,7 @@ defmodule Neko.Rules.Reader do
     Application.app_dir(:neko, @rules_dir)
     |> Path.join("*.yml")
     |> Path.wildcard()
-    |> Enum.map(&read_from_file_async(&1))
+    |> Enum.map(&read_from_file_async/1)
     |> Enum.flat_map(&Task.await/1)
     |> Enum.filter(&(&1["algo"] == algo))
   end
