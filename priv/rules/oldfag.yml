@@ -1,8 +1,9 @@
-- neko_id: oldfag
+- &defaults
+  neko_id: oldfag
   level: 1
   algo: simple
   threshold: 70
-  filters: &filters
+  filters:
     year_lte: 2000
   metadata:
     title_ru: Ценитель классики
@@ -10,36 +11,27 @@
     image: http://i.imgur.com/I3DvFcX.png
     border_color: "#c5d0e6"
 
-- neko_id: oldfag
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 150
-  filters:
-    <<: *filters
   metadata:
     title_ru: Золотая коллекция
     text_ru: Видеосалоны, запись на VHS... Вы помните все так, будто это было вчера.
     image: https://i.yapx.ru/JK17.jpg
     border_color: "#b5b8b1"
 
-- neko_id: oldfag
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 350
-  filters:
-    <<: *filters
   metadata:
     title_ru: Ветер ностальгии
     text_ru: Серьезно, сколько вам лет?
     image: https://i.yapx.ru/JK3F.jpg
     border_color: "#1c1c1c"
 
-- neko_id: oldfag
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 500
-  filters:
-    year_lte: 2000
   metadata:
     title_ru: Здоровался за руку с Осаму Тэдзукой
     text_ru: Вы — часть минувшей эпохи. Живая легенда.

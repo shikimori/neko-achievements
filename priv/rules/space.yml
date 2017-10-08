@@ -1,8 +1,9 @@
-- neko_id: space
+- &defaults
+  neko_id: space
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 29
   metadata:
@@ -15,12 +16,9 @@
       - "#fa8072"
       - "#172d91"
 
-- neko_id: space
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     title_ru: |-
       Земля отсюда совсем крошечная
@@ -33,12 +31,9 @@
       - "#0000cd"
       - "#0000cd"
 
-- neko_id: space
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     title_ru: Межзвездный скиталец.
     text_ru: Космос. Он так пуст, но в то же время полон жизни.
@@ -49,12 +44,9 @@
       - "#fa8072"
       - "#6699cc"
 
-- neko_id: space
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Император галактики
     text_ru: |-

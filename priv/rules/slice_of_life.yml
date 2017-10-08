@@ -1,8 +1,9 @@
-- neko_id: slice_of_life
+- &defaults
+  neko_id: slice_of_life
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 36
   metadata:
@@ -11,12 +12,9 @@
     image: http://i.imgur.com/XPesMmd.png
     border_color: "#1a5369"
 
-- neko_id: slice_of_life
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Чай с тортиком
     text_ru: Полностью погрязли в повседневных делах и симпатичных вещах.
@@ -27,12 +25,9 @@
       - "#cb4842"
       - "#f4a460"
 
-- neko_id: slice_of_life
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Дзэн
     text_ru: Предельная концентрация на будничной жизни. Когда вы перестали задумыватсья о прошлом, будущем и начали жить этим моментом?
@@ -43,12 +38,9 @@
       - "#ddada5"
       - "#604b3e"
 
-- neko_id: slice_of_life
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Прима ундина
     text_ru: Вы способны на чудо. Продлить незабываемые мгновения навечно для вас ничего не стоит.

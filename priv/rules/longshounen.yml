@@ -1,8 +1,9 @@
-- neko_id: longshounen
+- &defaults
+  neko_id: longshounen
   level: 1
   algo: simple
   threshold: 30%
-  filters: &filters
+  filters:
     anime_ids:
       - 10033
       - 11061
@@ -45,12 +46,9 @@
       - "#da7f51"
       - "#1c1c1c"
 
-- neko_id: longshounen
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 55%
-  filters:
-    <<: *filters
   metadata:
     title_ru: Король пиратов
     text_ru: Качество работы пропорционально количеству серий. Чем длиннее — тем выше потенциал! В длинном аниме персонажи раскрыты лучше всего! Нужно больше длинносёненов!

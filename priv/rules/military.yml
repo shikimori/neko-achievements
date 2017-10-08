@@ -1,8 +1,9 @@
-- neko_id: military
+- &defaults
+  neko_id: military
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 38
   metadata:
@@ -11,36 +12,27 @@
     image: http://i.imgur.com/MJI5DLT.png
     border_color: "#635757"
 
-- neko_id: military
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     title_ru: Сержант
     text_ru: Толковый сержант необыкновенно полезен в армии, так ведь?
     image: http://i.imgur.com/pJbZJxd.png
     border_color: "#5f665a"
 
-- neko_id: military
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     title_ru: Майор
     text_ru: Забыли о человеческих чувствах ради долга.
     image: http://i.imgur.com/NgRm8Nd.png
     border_color: "#101011"
 
-- neko_id: military
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Генерал
     text_ru: |-

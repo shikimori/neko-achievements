@@ -1,8 +1,9 @@
-- neko_id: horror_thriller
+- &defaults
+  neko_id: horror_thriller
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 14
       - 41
@@ -12,36 +13,27 @@
     image: http://i.imgur.com/NEaqM1P.png?1
     border_color: "#ddc49c"
 
-- neko_id: horror_thriller
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     title_ru: Ночной кошмар
     text_ru: Птицей Гермеса меня называют, крылья свои пожирая, сам я себя укрощаю.
     image: http://i.imgur.com/GHJ7R6m.png?1
     border_color: "#510a0b"
 
-- neko_id: horror_thriller
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     title_ru: All monsters are human./Все чудовища — это люди.
     text_ru: Только люди могут смотреть на убийство себе подобных ради развлечения.
     image: http://i.imgur.com/hWxL0YZ.png?1
     border_color: "#d7adb1"
 
-- neko_id: horror_thriller
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Hell
     text_ru: Смотри! Внутри меня ничего нет — там пустота, я даже боль не чувствую.

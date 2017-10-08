@@ -1,8 +1,9 @@
-- neko_id: scifi
+- &defaults
+  neko_id: scifi
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 24
   metadata:
@@ -11,12 +12,9 @@
     image: http://unrealitymag.com/wp-content/uploads/2014/04/dandy-title-500x250.jpg
     border_color: "#923a6c"
 
-- neko_id: scifi
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Изобретатель
     text_ru: Вероятно, вы способны сделать пригодным для использования даже то, что является кучей мусора в глазах других.
@@ -27,27 +25,20 @@
       - "#256d7b"
       - "#b5b8b1"
 
-- neko_id: scifi
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Безумный ученый
     text_ru: В ваших руках рождается гармония между фантастикой, научными фактами и мистикой.
     image: https://pp.userapi.com/c836632/v836632323/42c47/Dc6XXlnzWCA.jpg
     border_color: "#423c63"
 
-- neko_id: scifi
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Великий Разум/Разумный Океан/Повелитель времени
     text_ru: Фантастика — это реальность. Всё, о чём вы подумали, осуществляется.
     image: http://25.media.tumblr.com/tumblr_m880tlaKLy1qdfvslo1_500.gif
     border_color: "#2f353b"
-

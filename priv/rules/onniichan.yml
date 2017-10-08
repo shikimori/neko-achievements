@@ -3,7 +3,7 @@
   algo: simple
   threshold: 80%
   filters:
-    anime_ids: &anime_ids
+    anime_ids:
       - 10020
       - 10219
       - 11757

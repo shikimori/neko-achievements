@@ -1,8 +1,9 @@
-- neko_id: action
+- &defaults
+  neko_id: action
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 1
   metadata:
@@ -17,36 +18,27 @@
       - "#6a8364"
       - "#ecbcf4"
 
-- neko_id: action
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Первая миссия
     text_ru: Тихо... Медленно... Осторожно...
     image: http://i.imgur.com/j6UzfjL.png
     border_color: "#4d4a57"
 
-- neko_id: action
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: BOOM! Headshot!
     text_ru: Один выстрел — один труп. Вы — множитель боевой силы.
     image: https://desu.shikimori.org/system/user_images/original/40201/108423.jpg
     border_color: "#142300"
 
-- neko_id: action
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Элитный наемник
     text_ru: Армия из одного человека.

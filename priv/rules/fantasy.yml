@@ -1,8 +1,9 @@
-- neko_id: fantasy
+- &defaults
+  neko_id: fantasy
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 10
   metadata:
@@ -11,34 +12,25 @@
     image: http://i.imgur.com/Go4cIYp.png
     border_color: "#de3c20"
 
-- neko_id: fantasy
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Искатель приключений
     text_ru: Диковинные вещицы, верные друзья и великие свершения ждут тебя!
     image: http://i.imgur.com/2JKk27J.png
     border_color: "#472a18"
 
-- neko_id: fantasy
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Обыватель / Герой
     text_ru: Магия не вызывает удивления. / Ваши подвиги войдут в историю.
 
-- neko_id: fantasy
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Коренной житель фентези-миров. / Владыка / Король королей / Завоеватель миров
     text_ru: Чудеса для кого-то есть реальность для вас. / Вы видели, как зарождались легенды. / Этот мир покорен. Самое время приниматься за следующий!

@@ -1,8 +1,9 @@
-- neko_id: otaku
+- &defaults
+  neko_id: otaku
   level: 1
   algo: simple
   threshold: 30
-  filters: &filters
+  filters:
     genre_ids:
       - 9
       - 12
@@ -12,36 +13,26 @@
     image: http://i.yapx.ru/JEvZ.jpg
     border_color: "#ff496c"
 
-- neko_id: otaku
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 50
-  filters:
-    <<: *filters
   metadata:
     title_ru: Фетишизм
     text_ru: Как рыба в воде.
     image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
     border_color: "#474a51"
 
-- neko_id: otaku
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 70
-  filters:
-    <<: *filters
   metadata:
     title_ru: NEET
     text_ru: Увлечение эротическим контентом начинает сказываться на вашей реальной жизни.
     image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
     border_color: "#2f4f4f"
 
-- neko_id: otaku
+- <<: *defaults
   level: 4
-  algo: simple
-  threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.

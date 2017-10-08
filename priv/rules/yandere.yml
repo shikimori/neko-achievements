@@ -1,8 +1,9 @@
-- neko_id: yandere
+- &defaults
+  neko_id: yandere
   level: 1
   algo: simple
   threshold: 30%
-  filters: &filters
+  filters:
     anime_ids:
       - 10620
       - 11285
@@ -69,12 +70,9 @@
     image: https://lh3.googleusercontent.com/5GlJJYYzodzjTuR5IiDN9Fj2KR_X-CYZtTEqPN6iUHAOHfKr3QvI_jElrRwEg7rNR-Jctcvq89-jliPlLA8sI7ZNHAOWZp3EEZhQcDmogawgqs9mIklOkHUxDQ89MbyN-nEYU9rGwtTa63p0og
     border_color: "#821d60"
 
-- neko_id: yandere
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 55%
-  filters:
-    <<: *filters
   metadata:
     title_ru: Ураган
     text_ru: Ураганы имеют одну интересную особенность — в их центре всегда спокойно.
@@ -82,12 +80,9 @@
     image: http://i.imgur.com/5Dk8pth.png?1
     border_color: "#9a4cb7"
 
-- neko_id: yandere
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 80%
-  filters:
-    <<: *filters
   metadata:
     title_ru: Безумие
     text_ru: Умри, пожалуйста!

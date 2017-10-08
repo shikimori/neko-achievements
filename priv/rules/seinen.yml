@@ -1,8 +1,9 @@
-- neko_id: seinen
+- &defaults
+  neko_id: seinen
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 42
   metadata:
@@ -12,33 +13,24 @@
     image: https://moe.shikimori.org/system/user_images/original/50587/459007.jpg
     border_color: "#9c521c"
 
-- neko_id: seinen
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     text_ru: Дождь не может смыть страх, злобу, печаль. Обычно в жизни всё получается наоборот, становится только хуже...
     image: https://desu.shikimori.org/system/user_images/original/50587/459288.jpg
     border_color: "#595348"
 
-- neko_id: seinen
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     image: https://i.yapx.ru/JZNL.png
     border_color: "#d76e00"
 
-- neko_id: seinen
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Вы же пострадаете!
     text_ru: Если у вас нет ста пушек в руках и одной в сердце, то дальнейший просмотр становиться рискованным.

@@ -1,8 +1,9 @@
-- neko_id: comedy
+- &defaults
+  neko_id: comedy
   algo: simple
   threshold: 40
   level: 1
-  filters: &filters
+  filters:
     genre_ids:
       - 4
   metadata:
@@ -11,36 +12,27 @@
     image: https://kawai.shikimori.org/system/user_images/original/50587/458876.jpg
     border_color: "#5dbdd9"
 
-- neko_id: comedy
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Комедиант
     text_ru: Теперь вам известны основы комедии.
     image: http://i761.photobucket.com/albums/xx252/star-san/kaskus/tsukkomi-boke.jpg
     border_color: "#f4a460"
 
-- neko_id: comedy
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Вечный смех
     text_ru: В психушке вам будут рады. Для вас открыты двери каждой психбольницы.
     image: https://moe.shikimori.org/system/user_images/original/50587/458972.jpg
     border_color: "#02142d"
 
-- neko_id: comedy
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Why so serious?
     text_ru: Юмор пронизывает вашу сущность, не оставляя места ничему другому.

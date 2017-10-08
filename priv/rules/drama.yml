@@ -1,8 +1,9 @@
-- neko_id: drama
+- &defaults
+  neko_id: drama
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 8
   metadata:
@@ -15,12 +16,9 @@
       - "#f46c2d"
       - "#868479"
 
-- neko_id: drama
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Эмпатия среднего уровня
     text_ru: Ну давай, расскажи, как ты плакал над Хатико
@@ -31,12 +29,9 @@
       - "#031427"
       - "#feea4a"
 
-- neko_id: drama
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Идеальная грусть
     text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
@@ -47,12 +42,9 @@
       - "#100200"
       - "#fefc9f"
 
-- neko_id: drama
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Максимальная эмоциональная отзывчивость
     text_ru: Шрамы на сердце других становятся твоими.

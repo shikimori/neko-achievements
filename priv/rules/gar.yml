@@ -1,9 +1,10 @@
 # https://github.com/anime-plus/graph/blob/master/data/achievement/anime-gar.json
-- neko_id: gar
+- &defaults
+  neko_id: gar
   level: 1
   algo: simple
   threshold: 10%
-  filters: &filters
+  filters:
     anime_ids:
       - 1
       - 1000
@@ -471,24 +472,18 @@
     image:
     border_color:
 
-- neko_id: gar
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 25%
-  filters:
-    <<: *filters
   metadata:
     title_ru:
     text_ru: Вы больше не помещаетесь в зеркалах.
     image:
     border_color:
 
-- neko_id: gar
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 40%
-  filters:
-    <<: *filters
   metadata:
     title_ru:
     text_ru: Физика играет по вашим правилам.

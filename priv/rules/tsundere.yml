@@ -1,8 +1,9 @@
-- neko_id: tsundere
+- &defaults
+  neko_id: tsundere
   level: 1
   algo: simple
   threshold: 30%
-  filters: &filters
+  filters:
     anime_ids:
       - 1010
       - 10165
@@ -131,12 +132,9 @@
     image: http://4.downloader.disk.yandex.ru/preview/5eac620f443f2af84a5c53a0be61e12eb674dab2f29021fd67d88c398a890ee8/inf/Ulc4l6Nw6Zl9PBaWaDlZYRPYq3rOstOLpJUfGvZu19XShMYPQViaEYZ0V3sfrDiY_Az5g_fyC-WAg7wGwBuGuw%3D%3D?uid=0&filename=0_10a1fd_b2db1e85_XL.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL
     border_color: "#c5d0e6"
 
-- neko_id: tsundere
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 55%
-  filters:
-    <<: *filters
   metadata:
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
@@ -147,12 +145,9 @@
       - "#f0d698"
       - "#423189"
 
-- neko_id: tsundere
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 80%
-  filters:
-    <<: *filters
   metadata:
     title_ru: Цундере мне вовсе не интересны!
     text_ru: Ну, если только совсем чуть-чуть...

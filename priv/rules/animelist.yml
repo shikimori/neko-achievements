@@ -1,4 +1,5 @@
-- neko_id: animelist
+- &defaults
+  neko_id: animelist
   level: 1
   algo: simple
   threshold: 15
@@ -8,19 +9,16 @@
     image: http://i.imgur.com/v7x2w7p.png
     border_color: "#e52b50"
 
-- neko_id: animelist
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 50
   metadata:
     title_ru: Это всего лишь начало.
-    text_ru:
     image: https://kawai.shikimori.org/system/user_images/original/50587/459471.jpg
     border_color: "#ff0000"
 
-- neko_id: animelist
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 100
   metadata:
     title_ru: Мои силы растут!
@@ -28,59 +26,35 @@
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
     border_color: "#6a5acd"
 
-- neko_id: animelist
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 150
-  metadata:
-    title_ru:
-    text_ru:
-    image:
-    border_color:
+  metadata: {}
 
-- neko_id: animelist
+- <<: *defaults
   level: 5
-  algo: simple
   threshold: 200
-  metadata:
-    title_ru:
-    text_ru:
-    image:
-    border_color:
+  metadata: {}
 
-- neko_id: animelist
+- <<: *defaults
   level: 6
-  algo: simple
   threshold: 300
   metadata:
     title_ru: Знаток
-    text_ru:
-    image:
-    border_color:
 
 - neko_id: animelist
   level: 7
   algo: simple
   threshold: 400
-  metadata:
-    title_ru:
-    text_ru:
-    image:
-    border_color:
+  metadata: {}
 
-- neko_id: animelist
+- <<: *defaults
   level: 8
-  algo: simple
   threshold: 500
-  metadata:
-    title_ru:
-    text_ru:
-    image:
-    border_color:
+  metadata: {}
 
-- neko_id: animelist
+- <<: *defaults
   level: 9
-  algo: simple
   threshold: 666
   metadata:
     title_ru: Сатанинский предел?
@@ -88,62 +62,40 @@
     image: http://i.imgur.com/8dY1YdU.jpg
     border_color: "#071746"
 
-- neko_id: animelist
+- <<: *defaults
   level: 10
-  algo: simple
   threshold: 750
-  metadata:
-    title_ru:
-    text_ru:
-    image:
-    border_color:
+  metadata: {}
 
-- neko_id: animelist
+- <<: *defaults
   level: 11
-  algo: simple
   threshold: 888
   metadata:
     title_ru: Коллекционер
     text_ru: Аниме много не бывает.
-    image:
-    border_color:
 
-- neko_id: animelist
+- <<: *defaults
   level: 12
-  algo: simple
   threshold: 1000
   metadata:
     title_ru: Маньяк
     text_ru: Может все же стоит взять передышку и заняться чем-нибудь другим?
-    image:
-    border_color:
 
-- neko_id: animelist
+- <<: *defaults
   level: 13
-  algo: simple
   threshold: 1500
   metadata:
     title_ru: Легенда
-    text_ru:
-    image:
-    border_color:
 
-- neko_id: animelist
+- <<: *defaults
   level: 14
-  algo: simple
   threshold: 2500
   metadata:
     title_ru: Ками-сама
-    text_ru:
-    image:
-    border_color:
 
-- neko_id: animelist
+- <<: *defaults
   level: 15
-  algo: simple
   threshold: 5000
   metadata:
     title_ru: Недосягаемый
     text_ru: Такое не под силу живому человеку. Вы уверены в том, что посмотрели все это?
-    image:
-    border_color:

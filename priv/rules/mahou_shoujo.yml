@@ -1,9 +1,10 @@
 # https://github.com/anime-plus/graph/blob/master/data/achievement/anime-mahou-shoujo.jsoт
-- neko_id: mahou_shoujo
+- &defaults
+  neko_id: mahou_shoujo
   level: 1
   algo: simple
   threshold: 20
-  filters: &filters
+  filters:
     anime_ids:
       - 100
       - 10000
@@ -515,12 +516,9 @@
     image: https://i.yapx.ru/JECZ.png
     border_color: "#1E1112"
 
-- neko_id: mahou_shoujo
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 35
-  filters:
-    <<: *filters
   metadata:
     title_ru: Магия - второе имя
     text_ru: Не важно, каков ваш пол, вы можете превращаться в девушку с двумя хвостиками и нести возмездие во имя луны.
@@ -531,12 +529,9 @@
       - "#49678d"
       - "#f28598"
 
-- neko_id: mahou_shoujo
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 55
-  filters:
-    <<: *filters
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала, жителям Волшебной страны остаётся только жить-поживать да добра наживать.
@@ -547,12 +542,9 @@
       - "#009b76"
       - "#d8b1bf"
 
-- neko_id: mahou_shoujo
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 85
-  filters:
-    <<: *filters
   metadata:
     title_ru: Настоящее волшебство?
     text_ru: Вашим силам теперь подвластно само мироздание.

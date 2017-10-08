@@ -1,32 +1,24 @@
-- neko_id: josei
+- &defaults
+  neko_id: josei
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 43
   metadata: {}
 
-- neko_id: josei
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata: {}
 
-- neko_id: josei
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata: {}
 
-- neko_id: josei
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata: {}

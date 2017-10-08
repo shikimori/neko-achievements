@@ -1,8 +1,9 @@
-- neko_id: romance
+- &defaults
+  neko_id: romance
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 22
   metadata:
@@ -15,12 +16,9 @@
       - "#79a02a"
       - "#e2b801"
 
-- neko_id: romance
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Неразделенная любовь / Первое признание в любви.
     text_ru: Если ты не признаешься, он никогда не узнает о твоих чувствах.
@@ -31,12 +29,9 @@
       - "#fc8e59"
       - "#533a64"
 
-- neko_id: romance
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Салат / Конфетно-букетный период
     text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
@@ -47,12 +42,9 @@
       - "#f16251"
       - "#9e9cb2"
 
-- neko_id: romance
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: Сердце полное любви
     text_ru: Эксперт в отношениях.

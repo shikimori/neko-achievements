@@ -1,8 +1,9 @@
-- neko_id: sports
+- &defaults
+  neko_id: sports
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 30
   metadata:
@@ -15,12 +16,9 @@
       - "#dc143c"
       - "#975916"
 
-- neko_id: sports
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     title_ru: С головой ушел в игру.
     text_ru: Борьба в самом разгаре, пора войти в Зону.
@@ -31,12 +29,9 @@
       - "#ff0000"
       - "#dc143c"
 
-- neko_id: sports
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     title_ru: Добро пожаловать в Высшую Лигу.
     text_ru: Остался последний рывок до победы.
@@ -47,12 +42,9 @@
       - "#dfe2e7"
       - "#fdfdfd"
 
-- neko_id: sports
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Олимпийский чемпион
     text_ru: Первый на пъедестале. Отличная работа!

@@ -1,8 +1,9 @@
-- neko_id: mecha
+- &defaults
+  neko_id: mecha
   level: 1
   algo: simple
   threshold: 40
-  filters: &filters
+  filters:
     genre_ids:
       - 18
   metadata:
@@ -15,36 +16,27 @@
       - "#ffffff"
       - "#1a153f"
 
-- neko_id: mecha
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 90
-  filters:
-    <<: *filters
   metadata:
     title_ru: Hassin!
     text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
     image: http://i.imgur.com/djvEhwN.png
     border_color: "#5d634d"
 
-- neko_id: mecha
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 140
-  filters:
-    <<: *filters
   metadata:
     title_ru: Ньютайп
     text_ru: Ore Wa Gundam / I am a mecha
     image: http://i.imgur.com/XrJCBwN.png
     border_color: "#66cdaa"
 
-- neko_id: mecha
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 200
-  filters:
-    <<: *filters
   metadata:
     title_ru: DO THE IMPOSSIBLE, SEE THE INVISIBLE!
     text_ru: |-

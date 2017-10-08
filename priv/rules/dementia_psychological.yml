@@ -1,8 +1,9 @@
-- neko_id: dementia_psychological
+- &defaults
+  neko_id: dementia_psychological
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 5
       - 40
@@ -12,12 +13,9 @@
     image: http://s5.postimg.org/kzx4ud8bb/Psiho_3_2.jpg
     border_color: "#c71585"
 
-- neko_id: dementia_psychological
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     title_ru: Это вообще реально?
     text_ru: Стало трудно отличить реальность и вымысел. Ориентация в пространстве нарушена.
@@ -28,24 +26,18 @@
       - "#000000"
       - "#000000"
 
-- neko_id: dementia_psychological
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     title_ru: Вынос мозга.
     text_ru: "*fatal error."
     image: http://i.imgur.com/IRo6Vbl.png
     border_color: "#DC143C"
 
-- neko_id: dementia_psychological
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Вы видели слишком много.
     text_ru: Вы превзошли человечество и находитесь совсем на другом уровне.
@@ -55,4 +47,3 @@
     border_color:
       - "#4169E1"
       - "#20B2AA"
-

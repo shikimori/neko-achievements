@@ -1,8 +1,9 @@
-- neko_id: mystery
+- &defaults
+  neko_id: mystery
   level: 1
   algo: simple
   threshold: 25
-  filters: &filters
+  filters:
     genre_ids:
       - 7
   metadata:
@@ -11,24 +12,18 @@
     image: https://pp.userapi.com/c638321/v638321323/3997e/EGJ6gOU1aSA.jpg
     border_color: "#4c514a"
 
-- neko_id: mystery
+- <<: *defaults
   level: 2
-  algo: simple
   threshold: 40
-  filters:
-    <<: *filters
   metadata:
     title_ru: Убийца - дворецкий!
     text_ru: Вы не понаслышке знакомы с дедукцией. Вам нет равных среди юных детективов.
     image: http://i.imgur.com/DFrq5pY.jpg
     border_color: "#3a59a8"
 
-- neko_id: mystery
+- <<: *defaults
   level: 3
-  algo: simple
   threshold: 60
-  filters:
-    <<: *filters
   metadata:
     title_ru: За семью печатями
     text_ru: Мэтры детективного дела обращаются к вам за советами.
@@ -39,12 +34,9 @@
       - "#919192"
       - "#919192"
 
-- neko_id: mystery
+- <<: *defaults
   level: 4
-  algo: simple
   threshold: 100
-  filters:
-    <<: *filters
   metadata:
     title_ru: Великий детектив
     text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
