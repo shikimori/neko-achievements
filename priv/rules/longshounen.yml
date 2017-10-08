@@ -2,8 +2,8 @@
   level: 1
   algo: simple
   threshold: 30%
-  filters:
-    anime_ids: &anime_ids
+  filters: &filters
+    anime_ids:
       - 10033
       - 11061
       - 1254
@@ -50,7 +50,7 @@
   algo: simple
   threshold: 55%
   filters:
-    anime_ids: *anime_ids
+    <<: *filters
   metadata:
     image:
       - http://i.imgur.com/1UP6Bxk.png

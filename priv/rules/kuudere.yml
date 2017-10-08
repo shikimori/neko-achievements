@@ -2,8 +2,8 @@
   level: 1
   algo: simple
   threshold: 30%
-  filters:
-    anime_ids: &anime_ids
+  filters: &filters
+    anime_ids:
       - 9999999999
   metadata:
     image: http://gifok.net/images/2015/06/23/KUDERE1LVL.jpg
@@ -16,7 +16,7 @@
   algo: simple
   threshold: 55%
   filters:
-    anime_ids: *anime_ids
+    <<: *filters
   metadata:
     image: http://gifok.net/images/2015/06/23/KUDERE2LVL.jpg
     border_color: "#4a4a40"
@@ -28,7 +28,7 @@
   algo: simple
   threshold: 80%
   filters:
-    anime_ids: *anime_ids
+    <<: *filters
   metadata:
     image: http://gifok.net/images/2015/06/23/KUDERE3LVL.jpg
     border_color: "#533e41"

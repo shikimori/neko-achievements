@@ -2,7 +2,7 @@
   level: 1
   algo: simple
   threshold: 30
-  filters:
+  filters: &filters
     genre_ids:
       - 9
       - 12
@@ -17,9 +17,7 @@
   algo: simple
   threshold: 50
   filters:
-    genre_ids:
-      - 9
-      - 12
+    <<: *filters
   metadata:
     image: https://shikimori.org/assets/achievements/anime/otaku_4-381b895909dc0141f22bd836188fc43bd64f06f655c3c708d41a2ce56018fc13.jpg
     border_color: "#474a51"
@@ -31,9 +29,7 @@
   algo: simple
   threshold: 70
   filters:
-    genre_ids:
-      - 9
-      - 12
+    <<: *filters
   metadata:
     image: https://yapcdn.net/se3/1/tSDzHDAI3i0.jpg
     border_color: "#2f4f4f"
@@ -45,9 +41,7 @@
   algo: simple
   threshold: 90
   filters:
-    genre_ids:
-      - 9
-      - 12
+    <<: *filters
   metadata:
     image: https://i.yapx.ru/JMeO.gif
     border_color: "#cd9575"

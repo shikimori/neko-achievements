@@ -2,7 +2,7 @@
   level: 1
   algo: simple
   threshold: 30
-  filters:
+  filters: &filters
     genre_ids:
       - 28
       - 33
@@ -17,9 +17,7 @@
   algo: simple
   threshold: 50
   filters:
-    genre_ids:
-      - 28
-      - 33
+    <<: *filters
   metadata:
     image: http://i.imgur.com/TLvZb0E.png
     border_color: "#e82a8d"
@@ -31,9 +29,7 @@
   algo: simple
   threshold: 70
   filters:
-    genre_ids:
-      - 28
-      - 33
+    <<: *filters
   metadata:
     image: http://i.imgur.com/DKfMKBR.png
     border_color: "#e82a8d"

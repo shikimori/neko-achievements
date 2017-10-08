@@ -2,8 +2,8 @@
   level: 1
   algo: simple
   threshold: 30%
-  filters:
-    anime_ids: &anime_ids
+  filters: &filters
+    anime_ids:
       - 1010
       - 10165
       - 10719
@@ -136,7 +136,7 @@
   algo: simple
   threshold: 55%
   filters:
-    anime_ids: *anime_ids
+    <<: *filters
   metadata:
     image:
       - http://1.downloader.disk.yandex.ru/preview/6abb7cdad4a4e9bcbe6d7d1b52180c3153b83338dc2c25b2cc35448d74786fe4/inf/Ulc4l6Nw6Zl9PBaWaDlZYas_zL30hhAMoNSEx-4FEwSdgKKeqy0Dxd0MIshL0EghqCLhu2E1FRq6wZXHvNLFyA%3D%3D?uid=0&filename=x_b269fbe6.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
@@ -152,7 +152,7 @@
   algo: simple
   threshold: 80%
   filters:
-    anime_ids: *anime_ids
+    <<: *filters
   metadata:
     image: http://i.imgur.com/Gy4zW05.gif
     border_color: "#cd7f32"

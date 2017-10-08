@@ -2,7 +2,7 @@
   level: 1
   algo: simple
   threshold: 70
-  filters:
+  filters: &filters
     year_lte: 2000
   metadata:
     image: http://i.imgur.com/I3DvFcX.png
@@ -15,7 +15,7 @@
   algo: simple
   threshold: 150
   filters:
-    year_lte: 2000
+    <<: *filters
   metadata:
     image: https://i.yapx.ru/JK17.jpg
     border_color: "#b5b8b1"
@@ -27,7 +27,7 @@
   algo: simple
   threshold: 350
   filters:
-    year_lte: 2000
+    <<: *filters
   metadata:
     image: https://i.yapx.ru/JK3F.jpg
     border_color: "#1c1c1c"
