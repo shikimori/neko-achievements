@@ -64,6 +64,6 @@ defmodule Neko.Rules.SimpleRule do
   end
   defp progress(rule, count) do
     %{threshold: threshold, next_threshold: next_threshold} = rule
-    ((count - threshold) / (next_threshold - threshold)) * 100 |> round()
+    ((count - threshold) / (next_threshold - threshold)) * 100 |> Float.floor()
   end
 end
