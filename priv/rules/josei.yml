@@ -5,6 +5,7 @@
   filters: &filters
     genre_ids:
       - 43
+  metadata: {}
 
 - neko_id: josei
   level: 2
@@ -12,6 +13,7 @@
   threshold: 40
   filters:
     <<: *filters
+  metadata: {}
 
 - neko_id: josei
   level: 3
@@ -19,6 +21,7 @@
   threshold: 60
   filters:
     <<: *filters
+  metadata: {}
 
 - neko_id: josei
   level: 4
@@ -26,4 +29,4 @@
   threshold: 100
   filters:
     <<: *filters
-
+  metadata: {}
