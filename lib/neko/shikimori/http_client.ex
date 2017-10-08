@@ -1,5 +1,5 @@
 # http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
-defmodule Neko.Shikimori.Client.HTTP do
+defmodule Neko.Shikimori.HTTPClient do
   @behaviour Neko.Shikimori.Client
 
   use HTTPoison.Base

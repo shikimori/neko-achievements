@@ -1,40 +1,50 @@
 # https://elixirschool.com/lessons/specifics/plug/#testing-a-plug
 # https://github.com/elixir-lang/plug/blob/master/test/plug/parsers/json_test.exs
 defmodule Neko.RouterTest do
-  use ExUnit.Case, async: true
+  use ExUnit.Case, async: false
   use Plug.Test
-
-  import Mox
 
   alias Neko.Router
 
   @opts Router.init([])
 
-  # TODO: can we async: true here - it's okay with anime store
-  #       since it's read-only but achievements and user rates
-  #       are changed in store (stores are accessed by user_id
-  #       so it's a problem if user_ids are the same) =>
-  #       use `async: false`
+  # the problem with registering gen servers of store registries
+  # using their module names:
   #
-  #       this can be fixed by starting store registries with
-  #       unique names in application.exs - that is don't start
-  #       registries as part of supervision tree but do it here
-  #       providing unique names (just like in registry tests)
+  # can we use `async: true` here? it's okay with anime store
+  # since it's read-only but achievements and user rates are
+  # changed in store (stores are accessed by user_id so it's
+  # a problem if user_ids are the same) => use `async: false`
   #
-  # TODO: think of how to provide a lot of seed data
+  # this can be fixed by starting store registries with unique
+  # names in application.exs - that is don't start registries
+  # as part of supervision tree but do it here providing unique
+  # names (just like in registry tests)
   setup do
-    Neko.Shikimori.Client.Mock
-    |> Mox.stub(:get_user_rates!, fn(_user_id) -> [] end)
-    |> Mox.stub(:get_achievements!, fn(_user_id) -> [] end)
-    |> Mox.stub(:get_animes!, fn -> [] end)
+    user_id = 1
+
+    Neko.Anime.set(
+      [%Neko.Anime{id: 1},
+       %Neko.Anime{id: 2},
+       %Neko.Anime{id: 3}]
+    )
+    Neko.UserRate.set(
+      user_id,
+      [%Neko.UserRate{id: 1, user_id: user_id, target_id: 1},
+       %Neko.UserRate{id: 2, user_id: user_id, target_id: 2}]
+    )
+    Neko.Achievement.set(
+      user_id,
+      [%Neko.Achievement{user_id: user_id, neko_id: "animelist",
+        level: 1, progress: 50}]
+    )
 
     request = %Neko.Request{
       id: 3,
-      user_id: 1,
+      user_id: user_id,
       target_id: 3,
       score: 10,
       status: "completed",
-      episodes: 24,
       action: "put"
     }
 
@@ -44,11 +54,11 @@ defmodule Neko.RouterTest do
     # %{async: true, case: Neko.RouterTest, describe: "/user_rate",
     #  file: <filename>, line: 25, registered: %{}, test: <testname>,
     #  type: :test, request: <request>}
-    {:ok, request: request}
+    {:ok, request: request, user_id: user_id}
   end
 
   describe "/user_rate" do
-    test "returns new achievements", context do
+    test "returns new achievements", %{user_id: user_id} = context do
       json = Poison.encode!(context.request)
       conn =
         json_post_conn("/user_rate", json)
@@ -59,11 +69,13 @@ defmodule Neko.RouterTest do
       assert conn.resp_body == Poison.encode!(
         %{
           added: MapSet.new([
-            %Neko.Achievement{user_id: 1, neko_id: "animelist", level: 2, progress: 0}
+            %Neko.Achievement{user_id: user_id, neko_id: "animelist",
+              level: 2, progress: 0}
           ]),
           removed: MapSet.new(),
           updated: MapSet.new([
-            %Neko.Achievement{user_id: 1, neko_id: "animelist", level: 1, progress: 100}
+            %Neko.Achievement{user_id: user_id, neko_id: "animelist",
+              level: 1, progress: 100}
           ])
         }
       )

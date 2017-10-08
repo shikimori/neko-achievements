@@ -2,14 +2,14 @@ defmodule Neko.Rules.SimpleRule.Store do
   @algo "simple"
 
   def start_link(name \\ __MODULE__) do
-    Agent.start_link(fn -> load() end, name: name)
+    Agent.start_link(fn -> reload() end, name: name)
   end
 
   def all(name \\ __MODULE__) do
     Agent.get(name, &(&1))
   end
 
-  def load do
+  def reload do
     Neko.Rules.Reader.read_from_files(@algo)
     |> Enum.map(&Neko.Rules.SimpleRule.new(&1))
     |> Enum.map(&calc_anime_ids(&1))

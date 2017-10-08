@@ -7,7 +7,11 @@ defmodule Neko.Anime.Store do
     Agent.get(name, &(&1))
   end
 
-  def load do
+  def set(name \\ __MODULE__, animes) do
+    Agent.update(name, fn _ -> MapSet.new(animes) end)
+  end
+
+  defp load do
     Neko.Shikimori.Client.get_animes!()
   end
 end

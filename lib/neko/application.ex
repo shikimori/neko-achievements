@@ -25,7 +25,7 @@ defmodule Neko.Application do
       # (as is the case with user rate or achievement stores since
       # they are created on the fly for each new user unlike anime
       # or simple rule stores)
-      #worker(Neko.Anime.Store, []),
+      worker(Neko.Anime.Store, []),
       worker(Neko.Rules.SimpleRule.Store, []),
       worker(Neko.UserRate.Store.Registry, []),
       worker(Neko.Achievement.Store.Registry, []),

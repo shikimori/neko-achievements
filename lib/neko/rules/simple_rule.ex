@@ -1,6 +1,8 @@
 defmodule Neko.Rules.SimpleRule do
   @behaviour Neko.Rules.Rule
 
+  alias Neko.SimpleRule.Store
+
   defstruct ~w(
     neko_id
     level
@@ -13,7 +15,12 @@ defmodule Neko.Rules.SimpleRule do
   use ExConstructor, atoms: true, strings: true
 
   def all do
-    Neko.Rules.SimpleRule.Store.all()
+    Store.all()
+  end
+
+  # reload simple rules after manually setting new animes in store
+  def reload do
+    Store.reload()
   end
 
   def achievements(user_rates, user_id) do

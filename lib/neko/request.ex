@@ -5,7 +5,6 @@ defmodule Neko.Request do
     target_id
     score
     status
-    episodes
     action
   )a
 

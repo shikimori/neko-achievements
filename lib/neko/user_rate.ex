@@ -9,10 +9,6 @@ defmodule Neko.UserRate do
     target_type
     score
     status
-    rewatches
-    episodes
-    volumes
-    chapters
   )a
 
   def from_request(request) do
@@ -39,6 +35,10 @@ defmodule Neko.UserRate do
 
   def all(user_id) do
     store(user_id) |> Store.all()
+  end
+
+  def set(user_id, user_rates) do
+    store(user_id) |> Store.set(user_rates)
   end
 
   def put(user_id, id, user_rate) do

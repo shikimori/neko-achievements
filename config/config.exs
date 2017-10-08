@@ -27,7 +27,7 @@ use Mix.Config
 # Configuration from the imported file will override the ones defined
 # here (which is why it is important to import them last).
 
-config :neko, :shikimori_client, Neko.Shikimori.Client.HTTP
+config :neko, :shikimori_client, Neko.Shikimori.HTTPClient
 config :neko, :shikimori_url, "https://shikimori.org/api/"
 config :neko, :rules, dir: "priv/rules"
 

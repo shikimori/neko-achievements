@@ -6,6 +6,8 @@ defmodule Neko.Achievement.Calculator do
     |> MapSet.new()
   end
 
+  # TODO: extract list of rules to config -
+  #       so that it can be used in Neko.Anime to reload all rules
   defp rules do
     [Neko.Rules.SimpleRule]
   end
