@@ -1,7 +1,8 @@
 defmodule Neko.Rules.SimpleRule do
   @behaviour Neko.Rules.Rule
 
-  alias Neko.SimpleRule.Store
+  import Float
+  alias Neko.Rules.SimpleRule.Store
 
   defstruct ~w(
     neko_id
@@ -18,7 +19,6 @@ defmodule Neko.Rules.SimpleRule do
     Store.all()
   end
 
-  # reload simple rules after manually setting new animes in store
   def reload do
     Store.reload()
   end
@@ -64,6 +64,6 @@ defmodule Neko.Rules.SimpleRule do
   end
   defp progress(rule, count) do
     %{threshold: threshold, next_threshold: next_threshold} = rule
-    ((count - threshold) / (next_threshold - threshold)) * 100 |> Float.floor()
+    ((count - threshold) / (next_threshold - threshold)) * 100 |> floor()
   end
 end

@@ -18,7 +18,7 @@ defmodule Neko.UserRate do
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> :ok
-      :error -> store(user_id) |> Store.set(user_rates(user_id))
+      :error -> store(user_id) |> Store.reload(user_id)
     end
   end
 
@@ -37,12 +37,12 @@ defmodule Neko.UserRate do
     store(user_id) |> Store.all()
   end
 
-  def set(user_id, user_rates) do
-    store(user_id) |> Store.set(user_rates)
-  end
-
   def put(user_id, id, user_rate) do
     store(user_id) |> Store.put(id, user_rate)
+  end
+
+  def set(user_id, user_rates) do
+    store(user_id) |> Store.set(user_rates)
   end
 
   def delete(user_id, id) do
@@ -51,9 +51,5 @@ defmodule Neko.UserRate do
 
   defp store(user_id) do
     Registry.fetch(user_id)
-  end
-
-  defp user_rates(user_id) do
-    Neko.Shikimori.Client.get_user_rates!(user_id)
   end
 end

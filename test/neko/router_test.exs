@@ -23,15 +23,19 @@ defmodule Neko.RouterTest do
   setup do
     user_id = 1
 
+    anime_1_id = 1
+    anime_2_id = 2
+    anime_3_id = 3
+
     Neko.Anime.set(
-      [%Neko.Anime{id: 1},
-       %Neko.Anime{id: 2},
-       %Neko.Anime{id: 3}]
+      [%Neko.Anime{id: anime_1_id},
+       %Neko.Anime{id: anime_2_id},
+       %Neko.Anime{id: anime_3_id}]
     )
     Neko.UserRate.set(
       user_id,
-      [%Neko.UserRate{id: 1, user_id: user_id, target_id: 1},
-       %Neko.UserRate{id: 2, user_id: user_id, target_id: 2}]
+      [%Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
+       %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
     )
     Neko.Achievement.set(
       user_id,
@@ -42,7 +46,7 @@ defmodule Neko.RouterTest do
     request = %Neko.Request{
       id: 3,
       user_id: user_id,
-      target_id: 3,
+      target_id: anime_3_id,
       score: 10,
       status: "completed",
       action: "put"
@@ -83,9 +87,10 @@ defmodule Neko.RouterTest do
 
     test "returns 401 without authorization token", context do
       json = Poison.encode!(context.request)
-      conn = json_post_conn("/user_rate", json)
-            |> put_req_header("authorization", "bar")
-            |> Router.call(@opts)
+      conn =
+        json_post_conn("/user_rate", json)
+        |> put_req_header("authorization", "bar")
+        |> Router.call(@opts)
 
       assert conn.state == :sent
       assert conn.status == 401

@@ -7,6 +7,10 @@ defmodule Neko.UserRate.Store do
     Agent.stop(pid)
   end
 
+  def reload(pid, user_id) do
+    set(pid, user_rates(user_id))
+  end
+
   def get(pid, id) do
     Agent.get(pid, &Map.get(&1, id))
   end
@@ -37,5 +41,9 @@ defmodule Neko.UserRate.Store do
 
   def delete(pid, id) do
     Agent.get_and_update(pid, &Map.pop(&1, id))
+  end
+
+  defp user_rates(user_id) do
+    Neko.Shikimori.Client.get_user_rates!(user_id)
   end
 end

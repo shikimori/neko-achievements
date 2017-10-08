@@ -2,19 +2,19 @@ defmodule Neko.Rules.SimpleRule.Store do
   @algo "simple"
 
   def start_link(name \\ __MODULE__) do
-    Agent.start_link(fn -> reload() end, name: name)
+    Agent.start_link(fn -> rules() end, name: name)
+  end
+
+  def reload(name \\ __MODULE__) do
+    set(name, rules())
   end
 
   def all(name \\ __MODULE__) do
     Agent.get(name, &(&1))
   end
 
-  def reload do
-    Neko.Rules.Reader.read_from_files(@algo)
-    |> Enum.map(&Neko.Rules.SimpleRule.new(&1))
-    |> Enum.map(&calc_anime_ids(&1))
-    |> Enum.map(&calc_threshold(&1))
-    |> calc_next_thresholds()
+  def set(name \\ __MODULE__, rules) do
+    Agent.update(name, fn _ -> rules end)
   end
 
   defp calc_anime_ids(rule) do
@@ -84,5 +84,13 @@ defmodule Neko.Rules.SimpleRule.Store do
     end)
     |> Enum.map(&(&1.threshold))
     |> List.first()
+  end
+
+  defp rules do
+    Neko.Rules.Reader.read_from_files(@algo)
+    |> Enum.map(&Neko.Rules.SimpleRule.new(&1))
+    |> Enum.map(&calc_anime_ids(&1))
+    |> Enum.map(&calc_threshold(&1))
+    |> calc_next_thresholds()
   end
 end

@@ -1,7 +1,10 @@
 defmodule Neko.Achievement.Store do
-  # store achievements in MapSet because they are dynamically updated
   def start_link do
     Agent.start_link(fn -> MapSet.new() end)
+  end
+
+  def reload(pid, user_id) do
+    set(pid, achievements(user_id))
   end
 
   def all(pid) do
@@ -18,5 +21,9 @@ defmodule Neko.Achievement.Store do
 
   def delete(pid, achievement) do
     Agent.update(pid, &MapSet.delete(&1, achievement))
+  end
+
+  defp achievements(user_id) do
+    Neko.Shikimori.Client.get_achievements!(user_id)
   end
 end

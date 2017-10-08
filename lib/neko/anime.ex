@@ -1,22 +1,18 @@
 defmodule Neko.Anime do
   alias Neko.Anime.Store
 
+  @rules_list Application.get_env(:neko, :rules)[:list]
+
   defstruct ~w(
     id
     genre_ids
   )a
 
-  def all do
-    Store.all()
-  end
+  defdelegate all, to: Store
 
   def set(animes) do
     Store.set(animes)
-    # TODO: reload all rules using their reload method
-    #       to recalculate anime_ids
-    # TODO: get all rules from config
-    # TODO: move all load functions from UserRate, Achievement and
-    #       Anime to corresponding stores?
-    #       think of load() vs. reload()
+    # recalculate anime_ids for all rules
+    @rules_list |> Enum.each(&(&1.reload()))
   end
 end
