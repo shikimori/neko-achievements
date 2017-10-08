@@ -1,0 +1,34 @@
+- neko_id: onniichan
+  level: 1
+  algo: simple
+  threshold: 80%
+  filters:
+    anime_ids: &anime_ids
+      - 10020
+      - 10219
+      - 11757
+      - 13659
+      - 14199
+      - 14515
+      - 15881
+      - 18857
+      - 19815
+      - 20785
+      - 24991
+      - 3456
+      - 5042
+      - 5116
+      - 535
+      - 634
+      - 6479
+      - 6987
+      - 7593
+      - 8577
+      - 8769
+      - 8861
+      - 9587
+  metadata:
+    image: http://i.imgur.com/BQDF1Dq.png
+    border_color: "#f0d698"
+    title_ru: Братик
+    text_ru: Вы знаете как счастливо жить с сестрёнкой вечно.
