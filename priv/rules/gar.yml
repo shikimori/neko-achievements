@@ -469,23 +469,16 @@
   metadata:
     title_ru:
     text_ru: Ваши первые шаги в жанре а борода уже не сбривается.
-    image:
-    border_color:
+    topic_id: 227419
 
 - <<: *defaults
   level: 2
   threshold: 25%
   metadata:
-    title_ru:
     text_ru: Вы больше не помещаетесь в зеркалах.
-    image:
-    border_color:
 
 - <<: *defaults
   level: 3
   threshold: 40%
   metadata:
-    title_ru:
     text_ru: Физика играет по вашим правилам.
-    image:
-    border_color:

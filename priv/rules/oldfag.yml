@@ -10,6 +10,7 @@
     text_ru: "Раньше было лучше: деревья — выше, трава — зеленее, а аниме — интереснее."
     image: http://i.imgur.com/I3DvFcX.png
     border_color: "#c5d0e6"
+    topic_id: 227424
 
 - <<: *defaults
   level: 2

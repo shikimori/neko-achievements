@@ -131,6 +131,7 @@
     text_ru: Н-не то, что я бы волновалась о тебе, я-ясно?
     image: http://4.downloader.disk.yandex.ru/preview/5eac620f443f2af84a5c53a0be61e12eb674dab2f29021fd67d88c398a890ee8/inf/Ulc4l6Nw6Zl9PBaWaDlZYRPYq3rOstOLpJUfGvZu19XShMYPQViaEYZ0V3sfrDiY_Az5g_fyC-WAg7wGwBuGuw%3D%3D?uid=0&filename=0_10a1fd_b2db1e85_XL.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL
     border_color: "#c5d0e6"
+    topic_id: 227430
 
 - <<: *defaults
   level: 2

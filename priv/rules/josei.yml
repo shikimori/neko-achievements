@@ -6,7 +6,8 @@
   filters:
     genre_ids:
       - 43
-  metadata: {}
+  metadata:
+    topic_id: 222645
 
 - <<: *defaults
   level: 2

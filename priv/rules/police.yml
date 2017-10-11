@@ -11,6 +11,7 @@
     text_ru: Любой может оказаться предателем. Нельзя терять бдительности.
     image: https://i.yapx.ru/JP01.jpg
     border_color: "#2F353B"
+    topic_id: 222038
 
 - <<: *defaults
   level: 2

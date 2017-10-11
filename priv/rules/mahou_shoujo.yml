@@ -515,6 +515,7 @@
     text_ru: My master, положено начало вашего становления юной волшебницой.
     image: https://i.yapx.ru/JECZ.png
     border_color: "#1E1112"
+    topic_id: 222067
 
 - <<: *defaults
   level: 2

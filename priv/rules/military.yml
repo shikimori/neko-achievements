@@ -11,6 +11,7 @@
     text_ru: Зачислены на военную службу в очередной призыв.
     image: http://i.imgur.com/MJI5DLT.png
     border_color: "#635757"
+    topic_id: 222037
 
 - <<: *defaults
   level: 2

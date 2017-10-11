@@ -11,6 +11,7 @@
     text_ru: Довольно заурядно.
     image: http://i.imgur.com/XPesMmd.png
     border_color: "#1a5369"
+    topic_id: 222056
 
 - <<: *defaults
   level: 2

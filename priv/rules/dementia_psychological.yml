@@ -12,6 +12,7 @@
     text_ru: Вы открыли новый и странный мир. Продолжайте смотреть дальше.
     image: http://s5.postimg.org/kzx4ud8bb/Psiho_3_2.jpg
     border_color: "#c71585"
+    topic_id: 227417
 
 - <<: *defaults
   level: 2

@@ -12,6 +12,7 @@
       — Наверное. Я ещё только учусь.
     image: https://moe.shikimori.org/system/user_images/original/50587/459007.jpg
     border_color: "#9c521c"
+    topic_id: 222063
 
 - <<: *defaults
   level: 2

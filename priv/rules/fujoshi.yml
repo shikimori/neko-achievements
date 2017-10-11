@@ -12,6 +12,7 @@
     text_ru: Поздравляем! В тебе проснулась внутренняя фудзёси!
     image: http://i.imgur.com/R6PqIoT.png
     border_color: "#e82a8d"
+    topic_id: 227418
 
 - <<: *defaults
   level: 2

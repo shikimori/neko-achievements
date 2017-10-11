@@ -188,6 +188,7 @@
     text_ru: Позволь проводить тебя в удивительный 2д-мир.
     image: http://i944.photobucket.com/albums/ad284/dzh2011/02/yuruyuri22.jpg
     border_color: "#f0d698"
+    topic_id: 227423
 
 - <<: *defaults
   level: 2

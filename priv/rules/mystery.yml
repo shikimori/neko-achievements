@@ -11,6 +11,7 @@
     text_ru: Было не просто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
     image: https://pp.userapi.com/c638321/v638321323/3997e/EGJ6gOU1aSA.jpg
     border_color: "#4c514a"
+    topic_id: 222047
 
 - <<: *defaults
   level: 2

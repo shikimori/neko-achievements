@@ -11,6 +11,7 @@
     text_ru: Кудере молчит только потому, что того хочет.
     image: http://gifok.net/images/2015/06/23/KUDERE1LVL.jpg
     border_color: "#9ad1ee"
+    topic_id: 227421
 
 - <<: *defaults
   level: 2

@@ -11,6 +11,7 @@
     text_ru: История может быть захватывающей... Вот только не стоит учить ее по аниме.
     image: http://i.imgur.com/PxbRfzj.png
     border_color: "#3c3949"
+    topic_id: 222065
 
 - <<: *defaults
   level: 2

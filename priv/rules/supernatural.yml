@@ -11,6 +11,7 @@
     text_ru: Слабое сердце манит демонов. Хотите жить — никогда не расслабляйтесь.
     image: http://i.imgur.com/po7mAFJ.png
     border_color: "#091102"
+    topic_id: 222068
 
 - <<: *defaults
   level: 2

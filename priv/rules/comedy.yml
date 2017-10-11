@@ -11,6 +11,7 @@
     text_ru: Неужели вам понравился японский юмор?
     image: https://kawai.shikimori.org/system/user_images/original/50587/458876.jpg
     border_color: "#5dbdd9"
+    topic_id: 222035
 
 - <<: *defaults
   level: 2

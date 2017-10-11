@@ -11,6 +11,7 @@
     text_ru: Первый шаг в новом мире.
     image: http://i.imgur.com/Go4cIYp.png
     border_color: "#de3c20"
+    topic_id: 222041
 
 - <<: *defaults
   level: 2

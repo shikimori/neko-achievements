@@ -11,6 +11,7 @@
     text_ru: Весьма посредственное отношение к музыке.
     image: http://i.imgur.com/juINaek.png
     border_color: "#8fa9dc"
+    topic_id: 222061
 
 - <<: *defaults
   level: 2

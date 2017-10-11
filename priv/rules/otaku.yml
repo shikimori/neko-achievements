@@ -12,6 +12,7 @@
     text_ru: Иллюзии захватывают ваш разум.
     image: http://i.yapx.ru/JEvZ.jpg
     border_color: "#ff496c"
+    topic_id: 227426
 
 - <<: *defaults
   level: 2
