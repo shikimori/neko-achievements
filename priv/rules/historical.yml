@@ -38,11 +38,5 @@
     title_ru: Путешественник во времени
     text_ru: |-
       Машина времени есть у каждого. Для путешествия в прошлое есть воспоминания, а для путешествия в будущее — мечты.
-    image:
-      - http://i.imgur.com/jpu502R.gif
-      - http://i.imgur.com/mA1Rc5I.mp4
-      - http://static.tumblr.com/0ac9f5d5a3a0a028355a46e3910a5fab/nzckboo/4bhni4w7q/tumblr_static_30o5xtxjuog0w0ssswsw40gco.gif
-    border_color:
-      - "#391e19"
-      - "#6a5177"
-      - "#008000"
+    image: http://static.tumblr.com/0ac9f5d5a3a0a028355a46e3910a5fab/nzckboo/4bhni4w7q/tumblr_static_30o5xtxjuog0w0ssswsw40gco.gif
+    border_color: #9da2a8
