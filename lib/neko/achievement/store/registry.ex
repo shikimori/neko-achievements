@@ -68,7 +68,7 @@ defmodule Neko.Achievement.Store.Registry do
   end
 
   # catch-all clause - discard any unknown messages:
-  # there is no such clase for handle_cast/2 or handle_call/2
+  # there is no such clause for handle_cast/2 or handle_call/2
   # because they deal with messages sent via GenServer API only
   # (unknown message in that case indicates developer mistake)
   def handle_info(_msg, state) do
