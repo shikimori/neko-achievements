@@ -31,6 +31,9 @@ defmodule Neko.Application do
       worker(Neko.Achievement.Store.Registry, []),
       supervisor(Neko.UserRate.Store.Supervisor, []),
       supervisor(Neko.Achievement.Store.Supervisor, []),
+      # default value of :restart option is :temporary
+      # (it's required when using Task.Supervisor.async_nolink/2)
+      supervisor(Task.Supervisor, [[name: Neko.TaskSupervisor]]),
       cowboy_child
     ]
 

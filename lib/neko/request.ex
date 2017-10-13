@@ -8,7 +8,7 @@ defmodule Neko.Request do
     action
   )a
 
-  # options deteremine what type of keys are
+  # options determine what type of keys are
   # attempted to be converted to struct keys
   use ExConstructor,
     atoms: true,
@@ -36,10 +36,21 @@ defmodule Neko.Request do
     # nothing to do for other actions
   end
 
+  # https://gist.github.com/moklett/d30fc2dbaf71f3b978da115f8a5f8387
+  # unlike Task.await/2, Task.yield/2 doesn't crash the caller
+  # if the task crashes (task must be not linked to the caller)
   defp load_user_data(user_id) do
     [Neko.Achievement, Neko.UserRate]
-    |> Enum.map(&Task.async(fn -> apply(&1, :load, [user_id]) end))
-    |> Enum.map(&Task.await/1)
+    |> Enum.map(fn x ->
+      sup = Neko.TaskSupervisor
+      Task.Supervisor.async_nolink(sup, x, :load, [user_id])
+    end)
+    |> Enum.map(&Task.yield/1)
+    |> Enum.each(fn
+      {:ok, _result} -> :ok
+      {:exit, {error, _stack}} -> raise error
+      nil -> raise "timeout loading user data"
+    end)
   end
 
   defp process_action(%{action: "noop"}) do

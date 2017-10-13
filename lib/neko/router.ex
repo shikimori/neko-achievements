@@ -1,6 +1,7 @@
 defmodule Neko.Router do
   # router is a plug that contains its own plug pipeline
   use Plug.Router
+  use Plug.ErrorHandler
 
   # TODO: extract it to something like secrets.yml
   @token "foo"
@@ -26,10 +27,6 @@ defmodule Neko.Router do
   end
 
   post "/user_rate" do
-    # without using Plug.Parsers plug:
-    #{:ok, body, _conn} = read_body(conn)
-    #request = Poison.decode!(body, as: %Neko.Request{})
-
     request = Neko.Request.new(conn.body_params)
     diff = request |> Neko.Request.process()
 
@@ -39,5 +36,17 @@ defmodule Neko.Router do
   # catch-all route
   match _ do
     conn |> send_resp(404, "oops")
+  end
+
+  # encode response since it can be atom while send_resp/3
+  # expects it to be string
+  defp handle_errors(conn, %{reason: %{message: message}}) do
+    conn |> send_resp(conn.status, Poison.encode!(message))
+  end
+  defp handle_errors(conn, %{reason: %{reason: reason}}) do
+    conn |> send_resp(conn.status, Poison.encode!(reason))
+  end
+  defp handle_errors(conn, %{reason: _reason}) do
+    conn |> send_resp(conn.status, "Application error")
   end
 end
