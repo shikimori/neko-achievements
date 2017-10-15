@@ -12,7 +12,7 @@ defmodule Neko.Rules.Reader do
 
   defp read_from_file_async(file) do
     Task.async(fn ->
-      {:ok, [yml]} = Yomel.decode_file(file)
+      {:ok, [yml]} = :yaml.load_file(file)
       yml
     end)
   end

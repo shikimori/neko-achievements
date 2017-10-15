@@ -29,6 +29,7 @@ defmodule Neko.Mixfile do
   defp aliases do
     [
       "deps.clean": ["deps.clean --unused --unlock"],
+      "deps.install": ["deps.clean", "deps.get"],
       "test": "test --no-start"
     ]
   end
@@ -54,7 +55,7 @@ defmodule Neko.Mixfile do
       # remove when new version (> v0.1.0) is released
       # (Mox.stub/3 is in master now)
       {:mox, git: "https://github.com/plataformatec/mox", only: :test},
-      {:yomel, "~> 0.5.0"}
+      {:yamler, git: "https://github.com/lukyanov/yamler"}
     ]
   end
 
