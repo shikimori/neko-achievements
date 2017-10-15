@@ -42,8 +42,8 @@ defmodule Neko.Request do
   defp load_user_data(user_id) do
     [Neko.Achievement, Neko.UserRate]
     |> Enum.map(fn x ->
-      sup = Neko.TaskSupervisor
-      Task.Supervisor.async_nolink(sup, x, :load, [user_id])
+      sup_pid = Neko.TaskSupervisor
+      Task.Supervisor.async_nolink(sup_pid, x, :load, [user_id])
     end)
     |> Enum.map(&Task.yield/1)
     |> Enum.each(fn
