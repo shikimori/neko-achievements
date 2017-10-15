@@ -59,6 +59,8 @@ defmodule Neko.Mixfile do
       # remove when new version (> v0.1.0) is released
       # (Mox.stub/3 is in master now)
       {:mox, git: "https://github.com/plataformatec/mox", only: :test},
+      # other yaml parsers don't support merging maps
+      # (except for Yomel but it fails to start in production)
       {:yamler, git: "https://github.com/lukyanov/yamler", branch: "mapping_as_map"}
     ]
   end
