@@ -45,7 +45,6 @@
 
 - neko_id: animelist
   level: 7
-  algo: simple
   threshold: 400
   metadata: {}
 
