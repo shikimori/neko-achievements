@@ -28,13 +28,13 @@ defmodule Neko.Mixfile do
 
   defp aliases do
     [
+      "deps.install": ["deps.clean", "deps.get"],
+      "deps.clean": ["deps.clean --unused --unlock"],
+      "test": "test --no-start",
       "deploy": [
         "edeliver update production",
         "cmd ssh shiki sudo systemctl restart neko"
-      ],
-      "deps.clean": ["deps.clean --unused --unlock"],
-      "deps.install": ["deps.clean", "deps.get"],
-      "test": "test --no-start"
+      ]
     ]
   end
 
