@@ -12,6 +12,6 @@ mix run -—no-halt
 
 ## deploy
 ```sh
-mix edeliver update production && ssh shiki sudo systemctl restart neko
+mix deploy && ssh shiki sudo systemctl restart neko
 mix edeliver ping production
 ```
