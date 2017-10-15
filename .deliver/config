@@ -1,5 +1,8 @@
 APP="neko"
 
+# https://github.com/edeliver/edeliver/wiki/Auto-Versioning
+AUTO_VERSION=build-date+git-branch+git-revision
+
 BUILD_HOST="neko"
 BUILD_USER="neko"
 BUILD_AT="/tmp/edeliver/neko/builds"
