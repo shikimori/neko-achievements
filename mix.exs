@@ -61,7 +61,7 @@ defmodule Neko.Mixfile do
       {:mox, git: "https://github.com/plataformatec/mox", only: :test},
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
-      {:yamler, git: "https://github.com/lukyanov/yamler", branch: "mapping_as_map"}
+      {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"}
     ]
   end
 
