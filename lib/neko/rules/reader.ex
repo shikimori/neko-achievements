@@ -11,6 +11,9 @@ defmodule Neko.Rules.Reader do
   end
 
   defp read_from_file_async(file) do
-    Task.async(fn -> YamlElixir.read_from_file(file) end)
+    Task.async(fn ->
+      {:ok, [yml]} = Yomel.decode_file(file)
+      yml
+    end)
   end
 end

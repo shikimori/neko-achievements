@@ -49,12 +49,12 @@ defmodule Neko.Mixfile do
       {:plug, "~> 1.4"},
       {:poison, "~> 3.1"},
       {:httpoison, "~> 0.12"},
-      {:yaml_elixir, "~> 1.1"},
       {:edeliver, "~> 1.4.4"},
       {:distillery, "~> 1.4", runtime: false},
       # remove when new version (> v0.1.0) is released
       # (Mox.stub/3 is in master now)
-      {:mox, git: "https://github.com/plataformatec/mox", only: :test}
+      {:mox, git: "https://github.com/plataformatec/mox", only: :test},
+      {:yomel, "~> 0.5.0"}
     ]
   end
 
