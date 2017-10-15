@@ -139,12 +139,6 @@
   metadata:
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
-    image:
-      - http://1.downloader.disk.yandex.ru/preview/6abb7cdad4a4e9bcbe6d7d1b52180c3153b83338dc2c25b2cc35448d74786fe4/inf/Ulc4l6Nw6Zl9PBaWaDlZYas_zL30hhAMoNSEx-4FEwSdgKKeqy0Dxd0MIshL0EghqCLhu2E1FRq6wZXHvNLFyA%3D%3D?uid=0&filename=x_b269fbe6.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
-      - http://i.imgur.com/P0S1kjy.jpg
-    border_color:
-      - "#f0d698"
-      - "#423189"
 
 - <<: *defaults
   level: 3

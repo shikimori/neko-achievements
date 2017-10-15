@@ -19,8 +19,6 @@
   metadata:
     title_ru: Комедиант
     text_ru: Теперь вам известны основы комедии.
-    image: http://i761.photobucket.com/albums/xx252/star-san/kaskus/tsukkomi-boke.jpg
-    border_color: "#f4a460"
 
 - <<: *defaults
   level: 3
@@ -28,8 +26,8 @@
   metadata:
     title_ru: Вечный смех
     text_ru: В психушке вам будут рады. Для вас открыты двери каждой психбольницы.
-    image: https://moe.shikimori.org/system/user_images/original/50587/458972.jpg
-    border_color: "#02142d"
+    image: https://s-media-cache-ak0.pinimg.com/originals/1f/9a/ff/1f9affe62feff2a1b3ecc16ea9268469.gif
+    border_color: "#7f8f18"
 
 - <<: *defaults
   level: 4
@@ -37,5 +35,3 @@
   metadata:
     title_ru: Why so serious?
     text_ru: Юмор пронизывает вашу сущность, не оставляя места ничему другому.
-    image: https://s-media-cache-ak0.pinimg.com/originals/1f/9a/ff/1f9affe62feff2a1b3ecc16ea9268469.gif
-    border_color: "#7f8f18"

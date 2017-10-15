@@ -10,12 +10,8 @@
   metadata:
     title_ru: Женская дружба
     text_ru: Лишь невинные заигрывания, только и всего.
-    image:
-      - http://i.imgur.com/MXx0Dzc.png
-      - http://i.imgur.com/6BJW72n.png
-    border_color:
-      - "#d5a471"
-      - "#656b5e"
+    image: http://i.imgur.com/MXx0Dzc.png
+    border_color: "#d5a471"
     topic_id: 227432
 
 - <<: *defaults
@@ -35,12 +31,8 @@
     text_ru: ... и мне понравилось!
     title_en: I kissed a girl...
     text_en: ...and I liked it!
-    image:
-      - /assets/achievements/anime/yuuri_3.jpg
-      - http://i.imgur.com/c5My2Mg.png
-    border_color:
-      - "#b99f9e"
-      - "#935c49"
+    image: http://i.imgur.com/c5My2Mg.png
+    border_color: "#935c49"
 
 - <<: *defaults
   level: 4
@@ -50,7 +42,5 @@
     text_ru: Лилии цветут в вашем доме.
     image:
       - https://media.giphy.com/media/JynbO9pnGxPrO/giphy.gif
-      - https://i1.wp.com/deusexmagnifica.com/wp-content/uploads/2017/05/cd2f2b82ce28aa4885996abd364a116fb13b1e82_hq.gif
     border_color:
       - "#e73a95"
-      - "#434b4d"

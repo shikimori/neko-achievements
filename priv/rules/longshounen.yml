@@ -39,12 +39,8 @@
   metadata:
     title_ru: Хокаге
     text_ru: 100 эпизодов для вас не проблема.
-    image:
-      - http://i.imgur.com/ktKNeQO.png
-      - http://img01.deviantart.net/b26e/i/2013/313/7/e/__fave_shounen_animes___by_erichankun-d6tku83.png
-    border_color:
-      - "#da7f51"
-      - "#1c1c1c"
+    image: http://i.imgur.com/ktKNeQO.png
+    border_color: "#da7f51"
     topic_id: 227422
 
 - <<: *defaults
@@ -53,9 +49,3 @@
   metadata:
     title_ru: Король пиратов
     text_ru: Качество работы пропорционально количеству серий. Чем длиннее — тем выше потенциал! В длинном аниме персонажи раскрыты лучше всего! Нужно больше длинносёненов!
-    image:
-      - http://i.imgur.com/1UP6Bxk.png
-      - https://i.yapx.ru/JK7W.jpg
-    border_color:
-      - "#373b3e"
-      - "#1c1c1c"

@@ -27,8 +27,9 @@
   level: 3
   threshold: 60
   metadata:
-    title_ru: All monsters are human./Все чудовища — это люди.
+    title_ru: Все чудовища — это люди
     text_ru: Только люди могут смотреть на убийство себе подобных ради развлечения.
+    title_en: All monsters are human
     image: http://i.imgur.com/hWxL0YZ.png?1
     border_color: "#d7adb1"
 

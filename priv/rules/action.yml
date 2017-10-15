@@ -9,14 +9,6 @@
   metadata:
     title_ru: Курс молодого бойца
     text_ru: Вы обучены искусству уничтожения.
-    image:
-      - https://kawai.shikimori.org/system/user_images/original/50587/459326.jpg
-      - https://moe.shikimori.org/system/user_images/original/50587/459327.jpg
-      - https://desu.shikimori.org/system/user_images/original/50587/459328.jpg
-    border_color:
-      - "#86b3c5"
-      - "#6a8364"
-      - "#ecbcf4"
     topic_id: 222051
 
 - <<: *defaults

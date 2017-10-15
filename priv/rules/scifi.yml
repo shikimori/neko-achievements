@@ -19,12 +19,8 @@
   metadata:
     title_ru: Изобретатель
     text_ru: Вероятно, вы способны сделать пригодным для использования даже то, что является кучей мусора в глазах других.
-    image:
-      - http://i7.5cm.ru/i/oqce.png
-      - http://i.imgur.com/uhI7k2t.png?1
-    border_color:
-      - "#256d7b"
-      - "#b5b8b1"
+    image: http://i.imgur.com/uhI7k2t.png?1
+    border_color: "#256d7b"
 
 - <<: *defaults
   level: 3
@@ -39,7 +35,7 @@
   level: 4
   threshold: 200
   metadata:
-    title_ru: Великий Разум/Разумный Океан/Повелитель времени
+    title_ru: Великий Разум
     text_ru: Фантастика — это реальность. Всё, о чём вы подумали, осуществляется.
     image: http://25.media.tumblr.com/tumblr_m880tlaKLy1qdfvslo1_500.gif
     border_color: "#2f353b"

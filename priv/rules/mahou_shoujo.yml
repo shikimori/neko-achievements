@@ -523,12 +523,8 @@
   metadata:
     title_ru: Магия - второе имя
     text_ru: Не важно, каков ваш пол, вы можете превращаться в девушку с двумя хвостиками и нести возмездие во имя луны.
-    image:
-      - https://blackgirlnerds.com/wp-content/uploads/2015/08/sailormoonteam.jpg
-      - http://i.imgur.com/eHeAOHy.png
-    border_color:
-      - "#49678d"
-      - "#f28598"
+    image: https://blackgirlnerds.com/wp-content/uploads/2015/08/sailormoonteam.jpg
+    border_color: "#49678d"
 
 - <<: *defaults
   level: 3
@@ -536,12 +532,6 @@
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала, жителям Волшебной страны остаётся только жить-поживать да добра наживать.
-    image:
-      - https://yapcdn.net/se3/1/HA5wAVVK.jpg
-      - https://shikimori.org/assets/achievements/anime/mahou_shoujo_1-7d4cc46a600abd8e3b4fd4408ff52ea6134ac57d02f383c4d14d4399f2ba870a.jpg
-    border_color:
-      - "#009b76"
-      - "#d8b1bf"
 
 - <<: *defaults
   level: 4

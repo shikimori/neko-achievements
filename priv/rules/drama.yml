@@ -9,12 +9,8 @@
   metadata:
     title_ru: Скупая слеза
     text_ru: Я не плачу, мне что-то в глаз попало!
-    image:
-      - https://desu.shikimori.org/system/user_images/original/50587/459398.jpg
-      - http://i.imgur.com/2Wk4l1j.png
-    border_color:
-      - "#f46c2d"
-      - "#868479"
+    image: https://desu.shikimori.org/system/user_images/original/50587/459398.jpg
+    border_color: "#f46c2d"
     topic_id: 222044
 
 - <<: *defaults
@@ -23,12 +19,8 @@
   metadata:
     title_ru: Эмпатия среднего уровня
     text_ru: Ну давай, расскажи, как ты плакал над Хатико
-    image:
-      - https://dere.shikimori.org/system/user_images/original/50587/459409.jpg
-      - https://moe.shikimori.org/system/user_images/original/50587/459402.jpg
-    border_color:
-      - "#031427"
-      - "#feea4a"
+    image: https://moe.shikimori.org/system/user_images/original/50587/459402.jpg
+    border_color: "#031427"
 
 - <<: *defaults
   level: 3
@@ -36,12 +28,8 @@
   metadata:
     title_ru: Идеальная грусть
     text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
-    image:
-      - https://moe.shikimori.org/system/user_images/original/50587/459427.jpg
-      - https://kawai.shikimori.org/system/user_images/original/50587/459426.jpg
-    border_color:
-      - "#100200"
-      - "#fefc9f"
+    image: https://kawai.shikimori.org/system/user_images/original/50587/459426.jpg
+    border_color: "#fefc9f"
 
 - <<: *defaults
   level: 4

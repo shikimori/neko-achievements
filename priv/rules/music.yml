@@ -28,12 +28,8 @@
   metadata:
     title_ru: Это не айдол
     text_ru: Вы ведь знаете, неважно что они поют, но они должны вкладывать в это своё сердце.
-    image:
-      - http://i.imgur.com/JztS9XN.png
-      - https://pp.userapi.com/c836632/v836632323/4248b/mWRXNkQqv5g.jpg
-    border_color:
-      - "#fb607f"
-      - "#cd5c5c"
+    image: https://pp.userapi.com/c836632/v836632323/4248b/mWRXNkQqv5g.jpg
+    border_color: "#cd5c5c"
 
 - <<: *defaults
   level: 4

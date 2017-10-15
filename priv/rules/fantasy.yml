@@ -26,17 +26,16 @@
   level: 3
   threshold: 140
   metadata:
-    title_ru: Обыватель / Герой
-    text_ru: Магия не вызывает удивления. / Ваши подвиги войдут в историю.
+    title_ru: Герой
+    text_ru: Ваши подвиги войдут в историю.
+    image: http://i.imgur.com/LIoCMIo.gif
+    border_color: #f00
 
 - <<: *defaults
   level: 4
   threshold: 200
   metadata:
-    title_ru: Коренной житель фентези-миров. / Владыка / Король королей / Завоеватель миров
-    text_ru: Чудеса для кого-то есть реальность для вас. / Вы видели, как зарождались легенды. / Этот мир покорен. Самое время приниматься за следующий!
-    image:
-      - https://media.giphy.com/media/OHQD6K0hmSctW/giphy.gif
-      - https://media.giphy.com/media/xUPGcKy6ccPcv8fTLq/source.gif
-      - http://i.imgur.com/LIoCMIo.gif
-      - http://i.imgur.com/8jrEVob.gif
+    title_ru: Король королей
+    text_ru: Вы видели, как зарождались легенды.
+    image: https://media.giphy.com/media/OHQD6K0hmSctW/giphy.gif
+    border_color: #ffdc00

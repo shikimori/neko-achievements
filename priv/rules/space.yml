@@ -9,28 +9,18 @@
   metadata:
     title_ru: 3-2-1... Пуск!
     text_ru: Маленький шаг для одного человека, но гигантский скачок для всего человечества.
-    image:
-      - http://i.imgur.com/HdTeaD0.png
-      - http://i.imgur.com/TxxXm8H.png
-    border_color:
-      - "#fa8072"
-      - "#172d91"
+    image: http://i.imgur.com/TxxXm8H.png
+    border_color: "#172d91"
     topic_id: 227428
 
 - <<: *defaults
   level: 2
   threshold: 40
   metadata:
-    title_ru: |-
-      Земля отсюда совсем крошечная
-      Астронавт на земной орбите
+    title_ru: Земля отсюда совсем крошечная
     text_ru: До чего же прекрасна Земля, если глядеть на неё сверху! Однако, не слишком ли тесно? Вашему миру пора расширяться — от маленькой Земли до целой вселенной.
-    image:
-      - http://i.imgur.com/HZL23tN.png
-      - http://i.imgur.com/2OFphyH.png
-    border_color:
-      - "#0000cd"
-      - "#0000cd"
+    image: http://i.imgur.com/HZL23tN.png
+    border_color: "#0000cd"
 
 - <<: *defaults
   level: 3
@@ -38,27 +28,11 @@
   metadata:
     title_ru: Межзвездный скиталец.
     text_ru: Космос. Он так пуст, но в то же время полон жизни.
-    image:
-      - http://i.imgur.com/DgyTji6.png
-      - https://pp.userapi.com/c837536/v837536323/396a5/nxsMrmV_sFU.jpg
-    border_color:
-      - "#fa8072"
-      - "#6699cc"
 
 - <<: *defaults
   level: 4
   threshold: 100
   metadata:
     title_ru: Император галактики
-    text_ru: |-
-      На завтрак я сегодня ел темную энергию, укутавшись в незримую материю вселенной.
-      И запивая молоком гравитационных волн, разлитых звездами которых давно нет, я перевариваю боль вселенной.
-      Я здесь живу веками во тьме построенной из сгустков атомов рожденных смертью света и сотканных в агонии случайных встреч.
-    image:
-      - http://media.giphy.com/media/3o85xFSeZ71u8PUxgI/giphy.gif
-      - http://i.imgur.com/YcZihC4.gif
-      - http://media.giphy.com/media/3oEduKAVC0tbbE6NBm/giphy.gif
-    border_color:
-      - "#000000"
-      - "#ffd700"
-      - "#001831"
+    image: http://i.imgur.com/YcZihC4.gif
+    border_color: "#ffd700"

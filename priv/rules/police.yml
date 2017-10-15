@@ -28,18 +28,14 @@
   metadata:
     title_ru: Отдел особого назначения
     text_ru: О скольких способах противостояния преступникам вы осведомлены?
-    image:
-      - http://i.imgur.com/uTrpGUm.png
-      - https://i.yapx.ru/JP00.jpg
-    border_color:
-      - "#f4a900"
-      - "#1c1c1c"
+    image: http://i.imgur.com/uTrpGUm.png
+    border_color: "#f4a900"
 
 - <<: *defaults
   level: 4
   threshold: 100
   metadata:
-    title_ru: Вершина иерархии? Высший начальствующий состав?
+    title_ru: Вершина иерархии, высший начальствующий состав
     text_ru: Как вы себя чувствуете, забравшись так далеко?
     image: https://i.yapx.ru/JP03.jpg
     border_color: "#c7d0cc"

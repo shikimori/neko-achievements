@@ -7,7 +7,7 @@
     genre_ids:
       - 36
   metadata:
-    title_ru: Обычный Японский Школьник
+    title_ru: Обычный японский школьник
     text_ru: Довольно заурядно.
     image: http://i.imgur.com/XPesMmd.png
     border_color: "#1a5369"
@@ -19,12 +19,8 @@
   metadata:
     title_ru: Чай с тортиком
     text_ru: Полностью погрязли в повседневных делах и симпатичных вещах.
-    image:
-      - http://i.imgur.com/kUfjaIt.png
-      - https://shikimori.org/assets/achievements/anime/slice_of_life_1-c407071e1c1c445316fc133e21c11c928d1442cd5a939a87a352c3536d435aaa.jpg
-    border_color:
-      - "#cb4842"
-      - "#f4a460"
+    image: http://i.imgur.com/kUfjaIt.png
+    border_color: "#cb4842"
 
 - <<: *defaults
   level: 3
@@ -32,12 +28,8 @@
   metadata:
     title_ru: Дзэн
     text_ru: Предельная концентрация на будничной жизни. Когда вы перестали задумыватсья о прошлом, будущем и начали жить этим моментом?
-    image:
-      - http://i.imgur.com/o1OQB4k.png
-      - http://i.imgur.com/1HQY56T.png
-    border_color:
-      - "#ddada5"
-      - "#604b3e"
+    image: http://i.imgur.com/o1OQB4k.png
+    border_color: "#ddada5"
 
 - <<: *defaults
   level: 4
@@ -45,9 +37,5 @@
   metadata:
     title_ru: Прима ундина
     text_ru: Вы способны на чудо. Продлить незабываемые мгновения навечно для вас ничего не стоит.
-    image:
-      - http://imgur.com/nqVieNU
-      - https://i.yapx.ru/JDDR.gif
-    border_color:
-      - "#597fb9"
-      - "#597fb9"
+    image: https://i.yapx.ru/JDDR.gif
+    border_color: "#597fb9"

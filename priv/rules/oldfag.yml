@@ -18,8 +18,6 @@
   metadata:
     title_ru: Золотая коллекция
     text_ru: Видеосалоны, запись на VHS... Вы помните все так, будто это было вчера.
-    image: https://i.yapx.ru/JK17.jpg
-    border_color: "#b5b8b1"
 
 - <<: *defaults
   level: 3

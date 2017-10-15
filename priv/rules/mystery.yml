@@ -28,12 +28,8 @@
   metadata:
     title_ru: За семью печатями
     text_ru: Мэтры детективного дела обращаются к вам за советами.
-    image:
-      - https://38.media.tumblr.com/f2d2b5eaa71f9126d9037f6ddf77e8fb/tumblr_inline_ng25icmDJl1t1h0ms.jpg
-      - https://i.yapx.ru/JK6g.jpg
-    border_color:
-      - "#919192"
-      - "#919192"
+    image: https://i.yapx.ru/JK6g.jpg
+    border_color: "#919192"
 
 - <<: *defaults
   level: 4
