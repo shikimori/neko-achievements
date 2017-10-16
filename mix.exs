@@ -62,8 +62,8 @@ defmodule Neko.Mixfile do
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
       #
-      # in my fork I just cherry-picked commit with Makefile and new
-      # rebar.config from lukyanov/yamler into mapping_as_map branch
+      # in my fork I just cherry-picked commit with Makefile and
+      # new rebar.config from master into mapping_as_map branch
       # (without Makefile compiled libyaml.so library is not placed into
       # _build/<env>/lib/yamler/priv/ and consequently not found both in
       # production and on CircleCI)
