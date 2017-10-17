@@ -69,9 +69,12 @@ defmodule Neko.Mixfile do
   end
 
   defp deploy(_) do
-    Mix.shell.info("[neko production]")
     Mix.Task.run(:edeliver, ["update", "production"])
+    Mix.shell.info("[neko updated]")
+
     Mix.Task.run(:cmd, ["ssh shiki sudo systemctl restart neko"])
+    Mix.shell.info("[neko restarted]")
+
     Mix.Task.rerun(:edeliver, ["ping", "production"])
   end
 
