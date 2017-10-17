@@ -8,8 +8,8 @@ defmodule Neko.Mixfile do
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
-      aliases: aliases(),
       deps: deps(),
+      aliases: aliases(),
       elixirc_paths: elixirc_paths(Mix.env)
     ]
   end
@@ -23,18 +23,6 @@ defmodule Neko.Mixfile do
     [
       extra_applications: [:logger],
       mod: {Neko.Application, []}
-    ]
-  end
-
-  defp aliases do
-    [
-      "deps.install": ["deps.clean", "deps.get"],
-      "deps.clean": ["deps.clean --unused --unlock"],
-      "test": "test --no-start",
-      "deploy": [
-        "edeliver update production",
-        "cmd ssh shiki sudo systemctl restart neko"
-      ]
     ]
   end
 
@@ -69,6 +57,22 @@ defmodule Neko.Mixfile do
       # production and on CircleCI)
       {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"}
     ]
+  end
+
+  defp aliases do
+    [
+      "deps.install": ["deps.clean", "deps.get"],
+      "deps.clean": ["deps.clean --unused --unlock"],
+      "test": "test --no-start",
+      "deploy": &deploy/1
+    ]
+  end
+
+  defp deploy(_) do
+    Mix.shell.info("[neko production]")
+    Mix.Task.run(:edeliver, ["update", "production"])
+    Mix.Task.run(:cmd, ["ssh shiki sudo systemctl restart neko"])
+    Mix.Task.rerun(:edeliver, ["ping", "production"])
   end
 
   defp elixirc_paths(:test), do: ["lib", "test/support"]
