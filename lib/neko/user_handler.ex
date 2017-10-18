@@ -42,7 +42,7 @@ defmodule Neko.UserHandler do
     Logger.info("process for user_id #{user_id} started...")
 
     # use GenServer only as a backpressure mechanism to throttle
-    # processing of shikimori requests per user_id - so GenServer
+    # processing of shikimori requests per user_id -> GenServer
     # process doesn't have to persist any state
     {:ok, user_id}
   end
