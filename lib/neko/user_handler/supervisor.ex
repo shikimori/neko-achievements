@@ -14,14 +14,14 @@ defmodule Neko.UserHandler.Supervisor do
 
   def create_missing_handler(user_id) do
     case Registry.lookup(@registry_name, user_id) do
-      [] -> user_id |> create_user_handler()
+      [] -> user_id |> create_handler()
       _ -> {:ok, user_id}
     end
   end
 
   # well, generally speaking we don't care about the result of
   # starting child here - it can be useful for debugging only
-  defp create_user_handler(user_id) do
+  defp create_handler(user_id) do
     case Supervisor.start_child(__MODULE__, [user_id]) do
       {:ok, _pid} -> {:ok, user_id}
       {:error, {:already_started, _pid}} -> {:error, :already_started}
