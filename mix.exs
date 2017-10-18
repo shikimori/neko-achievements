@@ -75,7 +75,7 @@ defmodule Neko.Mixfile do
     Mix.Task.run(:cmd, ["ssh shiki sudo systemctl restart neko"])
     Mix.shell.info("[neko restarted]")
 
-    Mix.Task.rerun(:edeliver, ["ping", "production"])
+    #Mix.Task.rerun(:edeliver, ["ping", "production"])
   end
 
   defp elixirc_paths(:test), do: ["lib", "test/support"]
