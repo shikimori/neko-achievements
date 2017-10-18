@@ -1,9 +1,8 @@
 defmodule Neko.Application do
-  # See http://elixir-lang.org/docs/stable/elixir/Application.html
-  # for more information on OTP Applications
   @moduledoc false
-
   use Application
+
+  @registry_name :user_handler_registry
 
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
@@ -31,16 +30,14 @@ defmodule Neko.Application do
       worker(Neko.Achievement.Store.Registry, []),
       supervisor(Neko.UserRate.Store.Supervisor, []),
       supervisor(Neko.Achievement.Store.Supervisor, []),
+      supervisor(Registry, [:unique, @registry_name]),
+      supervisor(Neko.UserHandler.Supervisor, []),
       # default value of :restart option is :temporary
       # (it's required when using Task.Supervisor.async_nolink/2)
       supervisor(Task.Supervisor, [[name: Neko.TaskSupervisor]]),
       cowboy_child
     ]
 
-    # See https://hexdocs.pm/elixir/Supervisor.html
-    # for other strategies and supported options
-    #
-    # one_for_one: only crashed child will be restarted
     opts = [strategy: :rest_for_one, name: Neko.Supervisor]
     Supervisor.start_link(children, opts)
   end

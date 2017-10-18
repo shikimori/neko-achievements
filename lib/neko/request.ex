@@ -8,6 +8,8 @@ defmodule Neko.Request do
     action
   )a
 
+  # NOTE: use ExConstructor after defstruct
+  #
   # options determine what type of keys are
   # attempted to be converted to struct keys
   use ExConstructor,

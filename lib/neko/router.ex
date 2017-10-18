@@ -28,8 +28,11 @@ defmodule Neko.Router do
 
   post "/user_rate" do
     request = Neko.Request.new(conn.body_params)
-    diff = request |> Neko.Request.process()
 
+    request.user_id
+    |> Neko.UserHandler.Supervisor.create_missing_handler()
+
+    diff = request |> Neko.UserHandler.process()
     conn |> send_resp(201, Poison.encode!(diff))
   end
 
