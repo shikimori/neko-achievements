@@ -6,7 +6,7 @@ defmodule Neko.UserHandler do
 
   @registry_name :user_handler_registry
   # how long request can wait in the queue to be processed
-  @timeout 20_000
+  @timeout 60_000
 
   #------------------------------------------------------------------
   # Client API
