@@ -5,7 +5,7 @@
   threshold: 30%
   filters:
     anime_ids:
-      - 9999999999
+      - 99999999
   metadata:
     title_ru: Тишина
     text_ru: Кудере молчит только потому, что того хочет.
