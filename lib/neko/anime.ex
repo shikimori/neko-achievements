@@ -7,6 +7,7 @@ defmodule Neko.Anime do
     id
     genre_ids
     year
+    episodes
   )a
 
   defdelegate all, to: Store
