@@ -17,6 +17,14 @@ defmodule Neko.Rules.SimpleRule.Store do
     Agent.update(name, fn _ -> rules end)
   end
 
+  defp rules do
+    Neko.Rules.Reader.read_from_files(@algo)
+    |> Enum.map(&Neko.Rules.SimpleRule.new/1)
+    |> Enum.map(&calc_anime_ids/1)
+    |> Enum.map(&calc_threshold/1)
+    |> calc_next_thresholds()
+  end
+
   defp calc_anime_ids(rule) do
     %{rule | anime_ids: anime_ids(rule)}
   end
@@ -73,7 +81,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   end
 
   defp calc_threshold(%{threshold: threshold} = rule)
-  when is_integer(threshold) do
+  when is_number(threshold) do
     rule
   end
   defp calc_threshold(%{threshold: threshold} = rule)
@@ -102,13 +110,5 @@ defmodule Neko.Rules.SimpleRule.Store do
     end)
     |> Enum.map(&(&1.threshold))
     |> List.first()
-  end
-
-  defp rules do
-    Neko.Rules.Reader.read_from_files(@algo)
-    |> Enum.map(&Neko.Rules.SimpleRule.new/1)
-    |> Enum.map(&calc_anime_ids/1)
-    |> Enum.map(&calc_threshold/1)
-    |> calc_next_thresholds()
   end
 end
