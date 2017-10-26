@@ -61,10 +61,16 @@ defmodule Neko.Request do
     # user rates are reset in preprocess_action
     # and then loaded in load_user_data
   end
-  defp process_action(%{id: id, user_id: user_id, action: "put"} = request) do
+  defp process_action(%{action: "put", status: "completed"} = request) do
+    %{id: id, user_id: user_id} = request
     Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))
   end
-  defp process_action(%{id: id, user_id: user_id, action: "delete"}) do
+  defp process_action(%{action: "put"} = request) do
+    %{id: id, user_id: user_id} = request
+    Neko.UserRate.delete(user_id, id)
+  end
+  defp process_action(%{action: "delete"} = request) do
+    %{id: id, user_id: user_id} = request
     Neko.UserRate.delete(user_id, id)
   end
 
