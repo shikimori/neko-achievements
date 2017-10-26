@@ -26,6 +26,10 @@ defmodule Neko.Router do
     conn |> send_resp(200, "pong")
   end
 
+  get "/error" do
+    raise("test error")
+  end
+
   post "/user_rate" do
     request = Neko.Request.new(conn.body_params)
 
