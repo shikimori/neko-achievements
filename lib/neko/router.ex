@@ -56,4 +56,7 @@ defmodule Neko.Router do
   defp handle_errors(conn, %{reason: _reason}) do
     conn |> send_resp(conn.status, "Application error")
   end
+
+  # https://docs.appsignal.com/elixir/integrations/plug.html#incoming-http-requests
+  use Appsignal.Plug
 end
