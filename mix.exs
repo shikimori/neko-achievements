@@ -20,8 +20,11 @@ defmodule Neko.Mixfile do
   def application do
     # dependencies are added to `applications` by default -
     # specify only extra applications from Erlang/Elixir
+    #
+    # appsignal must be started before application
+    # (extra_applications are started before applications)
     [
-      extra_applications: [:logger],
+      extra_applications: [:logger, :appsignal],
       mod: {Neko.Application, []}
     ]
   end
@@ -55,7 +58,8 @@ defmodule Neko.Mixfile do
       # (without Makefile compiled libyaml.so library is not placed into
       # _build/<env>/lib/yamler/priv/ and consequently not found both in
       # production and on CircleCI)
-      {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"}
+      {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"},
+      {:appsignal, "~> 1.0"}
     ]
   end
 

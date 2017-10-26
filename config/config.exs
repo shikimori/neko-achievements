@@ -43,4 +43,6 @@ config :neko, :rules,
   dir: "priv/rules",
   list: [Neko.Rules.SimpleRule]
 
+import_config "appsignal.exs"
+
 import_config "#{Mix.env}.exs"
