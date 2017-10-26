@@ -15,13 +15,8 @@ defmodule Neko.Rules.SimpleRule do
 
   use ExConstructor, atoms: true, strings: true
 
-  def all do
-    Store.all()
-  end
-
-  def reload do
-    Store.reload()
-  end
+  defdelegate reload, to: Store
+  defdelegate all, to: Store
 
   def achievements(user_rates, user_id) do
     all()

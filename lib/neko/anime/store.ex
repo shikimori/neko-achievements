@@ -3,6 +3,10 @@ defmodule Neko.Anime.Store do
     Agent.start_link(fn -> animes() end, name: name)
   end
 
+  def reload(name \\ __MODULE__) do
+    set(name, animes())
+  end
+
   def all(name \\ __MODULE__) do
     Agent.get(name, &(&1))
   end

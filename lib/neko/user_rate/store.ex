@@ -1,4 +1,6 @@
 defmodule Neko.UserRate.Store do
+  alias Neko.UserRate.Store.Registry
+
   def start_link do
     Agent.start_link(fn -> %{} end)
   end
@@ -7,8 +9,9 @@ defmodule Neko.UserRate.Store do
     Agent.stop(pid)
   end
 
-  def reload(pid, user_id) do
-    set(pid, user_rates(user_id))
+  def reload(user_id) do
+    user_rates = user_rates(user_id)
+    Registry.fetch(user_id) |> set(user_rates)
   end
 
   def get(pid, id) do

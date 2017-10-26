@@ -18,7 +18,7 @@ defmodule Neko.UserRate do
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> {:ok, :already_loaded}
-      :error -> store(user_id) |> Store.reload(user_id)
+      :error -> Store.reload(user_id)
     end
   end
 
@@ -29,7 +29,7 @@ defmodule Neko.UserRate do
   def reset(user_id) do
     case Registry.lookup(user_id) do
       {:ok, store} -> Store.stop(store)
-      :error -> :ok
+      :error -> {:ok, :not_found}
     end
   end
 
@@ -50,6 +50,9 @@ defmodule Neko.UserRate do
   end
 
   defp store(user_id) do
-    Registry.fetch(user_id)
+    case Registry.lookup(user_id) do
+      {:ok, store} -> store
+      :error -> raise("load user_rate store first")
+    end
   end
 end

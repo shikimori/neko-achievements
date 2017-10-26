@@ -10,10 +10,11 @@ defmodule Neko.Anime do
     episodes
   )a
 
+  defdelegate reload, to: Store
   defdelegate all, to: Store
 
   def set(animes) do
-    Store.set(animes)
+    animes |> Store.set()
     # recalculate anime_ids for all rules
     @rules_list |> Enum.each(&(&1.reload()))
   end

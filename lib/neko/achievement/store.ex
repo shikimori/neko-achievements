@@ -1,10 +1,18 @@
 defmodule Neko.Achievement.Store do
+  alias Neko.Achievement.Store.Registry
+
   def start_link do
     Agent.start_link(fn -> MapSet.new() end)
   end
 
-  def reload(pid, user_id) do
-    set(pid, achievements(user_id))
+  # for reload/1 store is identified not by pid but
+  # by user_id since we need it to fetch achievements
+  #
+  # it also creates store for user_id if it's missing
+  # (unlike reload/1 in, say, Neko.Anime.Store)
+  def reload(user_id) do
+    achievements = achievements(user_id)
+    Registry.fetch(user_id) |> set(achievements)
   end
 
   def all(pid) do
