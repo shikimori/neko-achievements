@@ -32,11 +32,15 @@ defmodule Neko.RouterTest do
        %Neko.Anime{id: anime_2_id},
        %Neko.Anime{id: anime_3_id}]
     )
+
+    Neko.UserRate.load(user_id)
     Neko.UserRate.set(
       user_id,
       [%Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
        %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
     )
+
+    Neko.Achievement.load(user_id)
     Neko.Achievement.set(
       user_id,
       [%Neko.Achievement{user_id: user_id, neko_id: "animelist",
