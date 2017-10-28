@@ -6,7 +6,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   end
 
   def reload(name \\ __MODULE__) do
-    set(name, rules())
+    Agent.update(name, fn _ -> rules() end)
   end
 
   def all(name \\ __MODULE__) do

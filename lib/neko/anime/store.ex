@@ -4,7 +4,7 @@ defmodule Neko.Anime.Store do
   end
 
   def reload(name \\ __MODULE__) do
-    set(name, animes())
+    Agent.update(name, fn _ -> animes() end)
   end
 
   def all(name \\ __MODULE__) do
