@@ -72,7 +72,7 @@ defmodule Neko.UserRate.Store.Registry do
     case lookup(ets_table, user_id) do
       {:ok, store_pid} -> {store_pid, state}
       :error ->
-        {:ok, store_pid} = Neko.UserRate.Store.Supervisor.create_store()
+        {:ok, store_pid} = Neko.UserRate.Store.Supervisor.start_store()
         ref = Process.monitor(store_pid)
 
         :ets.insert(ets_table, {user_id, store_pid})

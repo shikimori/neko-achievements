@@ -9,7 +9,7 @@ defmodule Neko.UserRate.Store.Supervisor do
     Supervisor.start_link(__MODULE__, :ok, name: __MODULE__)
   end
 
-  def create_store do
+  def start_store do
     Supervisor.start_child(__MODULE__, [])
   end
 
