@@ -9,7 +9,8 @@ defmodule Neko.UserRate.Store do
 
   def reload(pid, user_id) do
     Agent.update(pid, fn _ ->
-      user_rates(user_id) |> MapSet.new()
+      user_rates(user_id)
+      |> Enum.reduce(%{}, fn(x, acc) -> Map.put(acc, x.id, x) end)
     end)
   end
 
@@ -18,9 +19,7 @@ defmodule Neko.UserRate.Store do
   end
 
   def all(pid) do
-    Agent.get(pid, fn(state) ->
-      state |> Map.values()
-    end)
+    Agent.get(pid, fn(state) -> state |> Map.values() end)
   end
 
   def put(pid, id, user_rate) do
@@ -29,9 +28,8 @@ defmodule Neko.UserRate.Store do
 
   def set(pid, user_rates) do
     Agent.update(pid, fn _ ->
-      Enum.reduce(user_rates, %{}, fn(x, acc) ->
-        Map.put(acc, x.id, x)
-      end)
+      user_rates
+      |> Enum.reduce(%{}, fn(x, acc) -> Map.put(acc, x.id, x) end)
     end)
   end
 
