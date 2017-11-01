@@ -47,9 +47,7 @@ defmodule Neko.Mixfile do
       {:httpoison, "~> 0.12"},
       {:edeliver, "~> 1.4.4"},
       {:distillery, "~> 1.4", runtime: false},
-      # remove when new version (> v0.1.0) is released
-      # (Mox.stub/3 is in master now)
-      {:mox, git: "https://github.com/plataformatec/mox", only: :test},
+      {:mox, "~> 0.2.0", only: :test},
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
       #
