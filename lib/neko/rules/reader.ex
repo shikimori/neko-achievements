@@ -1,7 +1,17 @@
 defmodule Neko.Rules.Reader do
+  defmodule Behaviour do
+    @callback read_rules(String.t()) :: list(%Neko.Rules.SimpleRule{})
+  end
+
+  @behaviour Behaviour
   @rules_dir Application.get_env(:neko, :rules)[:dir]
 
-  def read_from_files(algo) do
+  def read_rules(algo) do
+    read_from_file(algo)
+    |> Enum.map(&Neko.Rules.SimpleRule.new/1)
+  end
+
+  defp read_from_file(algo) do
     Application.app_dir(:neko, @rules_dir)
     |> Path.join("*.yml")
     |> Path.wildcard()

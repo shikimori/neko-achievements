@@ -17,6 +17,7 @@ defmodule Neko.Rules.SimpleRule do
 
   defdelegate reload, to: Store
   defdelegate all, to: Store
+  defdelegate set(rules), to: Store
 
   def achievements(user_rates, user_id) do
     all()

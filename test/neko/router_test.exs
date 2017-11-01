@@ -46,14 +46,21 @@ defmodule Neko.RouterTest do
 
       Neko.Anime.set(
         [%Neko.Anime{id: anime_1_id},
-        %Neko.Anime{id: anime_2_id},
-        %Neko.Anime{id: anime_3_id}]
+         %Neko.Anime{id: anime_2_id},
+         %Neko.Anime{id: anime_3_id}]
+      )
+
+      alias Neko.Rules.SimpleRule
+      Neko.Rules.SimpleRule.set(
+        [%SimpleRule{neko_id: "animelist", level: 1, threshold: 1},
+         %SimpleRule{neko_id: "animelist", level: 2, threshold: 3},
+         %SimpleRule{neko_id: "animelist", level: 3, threshold: 5}]
       )
 
       Neko.UserRate.set(
         user_id,
         [%Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
-        %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
+         %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
       )
 
       Neko.Achievement.set(
@@ -119,45 +126,9 @@ defmodule Neko.RouterTest do
     end
   end
 
-  describe "load testing /user_rate" do
-    setup %{user_id: user_id} do
-      Neko.Anime.set(animes())
-      Neko.UserRate.set(user_id, user_rates())
-
-      request = %Neko.Request{
-        user_id: user_id,
-        action: "reset"
-      }
-
-      {:ok, request: request}
-    end
-
-    test "returns new achievements", context do
-      json = Poison.encode!(context.request)
-      conn =
-        json_post_conn("/user_rate", json)
-        |> Router.call(@opts)
-
-      assert conn.state == :sent
-      assert conn.status == 201
-    end
-  end
-
   defp json_post_conn(path, json) do
     conn(:post, path, json)
     |> put_req_header("content-type", "application/json")
     |> put_req_header("authorization", "foo")
-  end
-
-  defp animes do
-    "priv/dumps/animes.json"
-    |> File.read!()
-    |> Poison.decode!(as: [%Neko.Anime{}])
-  end
-
-  defp user_rates do
-    "priv/dumps/user_rates_1.json"
-    |> File.read!()
-    |> Poison.decode!(as: [%Neko.UserRate{}])
   end
 end

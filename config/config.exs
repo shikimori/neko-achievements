@@ -41,7 +41,8 @@ config :neko, :shikimori_client, Neko.Shikimori.HTTPClient
 config :neko, :shikimori_url, "https://shikimori.org/api/"
 config :neko, :rules,
   dir: "priv/rules",
-  list: [Neko.Rules.SimpleRule]
+  list: [Neko.Rules.SimpleRule],
+  reader: Neko.Rules.Reader
 
 import_config "appsignal.exs"
 
