@@ -1,7 +1,10 @@
 # mix run benchmarks/request_benchmark.exs
 #
+# TODO: blog post about elixir behaviour
 # TODO: https://elixir-lang.org/getting-started/meta/quote-and-unquote.html
 # TODO: https://medium.com/elixirlabs/implement-a-basic-block-yield-with-elixir-d00f313831f7
+# TODO: https://github.com/spscream/ex_banking/blob/master/lib/ex_banking/application.ex
+#       (declaration of Registry)
 defmodule RequestBenchmark do
   def run do
     user_id = 1
@@ -15,21 +18,6 @@ defmodule RequestBenchmark do
 
   defp setup(user_id) do
     Application.ensure_all_started(:neko)
-
-    # set application environment dynamically:
-    # use mock client but real rules
-    Application.put_env(
-      :neko,
-      :shikimori_client,
-      Neko.Shikimori.MockClient,
-      persistent: true
-    )
-    Application.put_env(
-      :neko,
-      :rules,
-      [dir: "priv/rules", list: [Neko.Rules.SimpleRule]],
-      persistent: true
-    )
 
     Neko.UserRate.load(user_id)
     Neko.Achievement.load(user_id)
