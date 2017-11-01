@@ -1,6 +1,5 @@
 # mix run benchmarks/request_benchmark.exs
 #
-# TODO: blog post about elixir behaviour
 # TODO: https://elixir-lang.org/getting-started/meta/quote-and-unquote.html
 # TODO: https://medium.com/elixirlabs/implement-a-basic-block-yield-with-elixir-d00f313831f7
 # TODO: https://github.com/spscream/ex_banking/blob/master/lib/ex_banking/application.ex

@@ -5,6 +5,7 @@ defmodule Neko.Shikimori.Client do
     @callback get_animes!() :: list(%Neko.Anime{})
   end
 
+  @behaviour Behaviour
   @adapter Application.get_env(:neko, :shikimori_client)
 
   defdelegate get_user_rates!(user_id), to: @adapter
