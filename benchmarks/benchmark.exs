@@ -1,4 +1,5 @@
 # https://stackoverflow.com/a/29674651/3632318
+# https://medium.com/elixirlabs/implement-a-basic-block-yield-with-elixir-d00f313831f7
 defmodule Benchmark do
   def measure(function) do
     function
