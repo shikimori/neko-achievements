@@ -1,18 +1,18 @@
 # neko
+
 [![CircleCI](https://circleci.com/gh/shikimori/neko-achievements.svg?style=svg)](https://circleci.com/gh/shikimori/neko-achievements)
 
 ## local start
-```sh
-# ~/.zshrc
-# alias iex='iex -S mix'
 
+```sh
 # with REPL
-iex -S mix
+$ iex -S mix
 # without REPL
-mix run -—no-halt
+$ mix run -—no-halt
 ```
 
 ## deploy
+
 ```sh
-mix deploy
+$ mix deploy
 ```
