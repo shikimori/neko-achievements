@@ -50,8 +50,8 @@ defmodule Neko.Request do
     |> Enum.map(&Task.yield/1)
     |> Enum.each(fn
       {:ok, _result} -> :ok
-      {:exit, {error, _stack}} -> raise error
-      nil -> raise "timeout loading user data"
+      {:exit, {error, _stack}} -> raise(error)
+      nil -> raise("timeout loading user data")
     end)
   end
 

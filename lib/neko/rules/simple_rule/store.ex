@@ -57,6 +57,9 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> MapSet.new()
   end
 
+  # TODO: replace animes and genre_ids with mapsets
+  #       and rewrite lists_overlap with genre_ids_overlap?
+  # TODO: don't store user rates in map?
   defp filter_by_genre_ids(animes, nil) do
     animes
   end

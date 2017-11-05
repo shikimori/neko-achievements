@@ -13,11 +13,10 @@ defmodule Neko.Achievement.Diff do
 
   defp keyed_set(set) do
     Enum.reduce(set, %{}, fn(x, acc) ->
-      Map.put_new(acc, comparison_key(x), x)
+      Map.put(acc, comparison_key(x), x)
     end)
   end
 
-  # TODO: remove List.to_tuple()?
   defp comparison_key(achievement) do
     achievement
     |> Map.take([:neko_id, :level])

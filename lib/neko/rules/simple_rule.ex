@@ -20,16 +20,20 @@ defmodule Neko.Rules.SimpleRule do
   defdelegate set(rules), to: Store
 
   def achievements(user_rates, user_id) do
+    user_anime_ids =
+      user_rates
+      |> Enum.map(&(&1.target_id))
+      |> MapSet.new()
+
     all()
-    |> Enum.map(fn(x) -> {x, count(x, user_rates)} end)
+    |> Enum.map(fn(x) -> {x, count(x, user_anime_ids)} end)
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))
+    |> MapSet.new()
   end
 
-  defp count(rule, user_rates) do
-    user_rates
-    |> Enum.map(&(&1.target_id))
-    |> MapSet.new()
+  defp count(rule, user_anime_ids) do
+    user_anime_ids
     |> MapSet.intersection(rule.anime_ids)
     |> MapSet.size()
   end

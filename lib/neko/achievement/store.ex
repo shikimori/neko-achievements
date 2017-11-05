@@ -7,7 +7,8 @@ defmodule Neko.Achievement.Store do
   # that agent dies in case of fetching error
   def reload(pid, user_id) do
     Agent.update(pid, fn _ ->
-      achievements(user_id) |> MapSet.new()
+      achievements(user_id)
+      |> MapSet.new()
     end)
   end
 
@@ -20,7 +21,7 @@ defmodule Neko.Achievement.Store do
   end
 
   def set(pid, achievements) do
-    Agent.update(pid, fn _ -> MapSet.new(achievements) end)
+    Agent.update(pid, fn _ -> achievements end)
   end
 
   def delete(pid, achievement) do
