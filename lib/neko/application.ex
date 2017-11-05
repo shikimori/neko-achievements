@@ -13,6 +13,12 @@ defmodule Neko.Application do
       plug: Neko.Router,
       options: [ip: {127, 0, 0, 1}, port: 4000]
     ]}
+    # https://github.com/spscream/ex_banking/blob/master/lib/ex_banking/application.ex
+    # https://hexdocs.pm/elixir/master/Registry.html#module-using-in-via
+    registry_child = {Registry, [
+      keys: :unique,
+      name: @registry_name
+    ]}
 
     # Define workers and child supervisors to be supervised
     children = [
@@ -30,7 +36,8 @@ defmodule Neko.Application do
       worker(Neko.Achievement.Store.Registry, []),
       supervisor(Neko.UserRate.Store.Supervisor, []),
       supervisor(Neko.Achievement.Store.Supervisor, []),
-      supervisor(Registry, [:unique, @registry_name]),
+      # supervisor(Registry, [:unique, @registry_name]),
+      registry_child,
       supervisor(Neko.UserHandler.Supervisor, []),
       # default value of :restart option is :temporary
       # (it's required when using Task.Supervisor.async_nolink/2)
