@@ -27,15 +27,18 @@ defmodule Benchmark do
     "priv/dumps/animes.json"
     |> File.read!()
     |> Poison.decode!(as: [%Neko.Anime{}])
+    |> MapSet.new()
   end
 
   defp simple_rules do
     Neko.Rules.Reader.read_rules("simple")
+    |> MapSet.new()
   end
 
   defp user_rates do
     "priv/dumps/user_rates_1.json"
     |> File.read!()
     |> Poison.decode!(as: [%Neko.UserRate{}])
+    |> MapSet.new()
   end
 end

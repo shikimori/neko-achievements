@@ -1,49 +1,45 @@
 defmodule Neko.UserRate.Store do
+  @type user_rate_t :: %Neko.UserRate{}
+  @type user_rates_t :: MapSet.t(user_rate_t)
+
+  @spec start_link() :: Agent.on_start
   def start_link do
-    Agent.start_link(fn -> %{} end)
+    Agent.start_link(fn -> MapSet.new() end)
   end
 
+  @spec stop(pid) :: :ok
   def stop(pid) do
     Agent.stop(pid)
   end
 
+  @spec reload(pid, pos_integer) :: :ok
   def reload(pid, user_id) do
-    Agent.update(pid, fn _ ->
-      user_rates(user_id)
-      |> Enum.reduce(%{}, fn(x, acc) -> Map.put(acc, x.id, x) end)
-    end)
+    Agent.update(pid, fn _ -> user_rates(user_id) end)
   end
 
-  def get(pid, id) do
-    Agent.get(pid, &Map.get(&1, id))
-  end
-
+  @spec all(pid) :: user_rates_t
   def all(pid) do
-    Agent.get(pid, fn(state) -> state |> Map.values() end)
+    Agent.get(pid, &(&1))
   end
 
-  def put(pid, id, user_rate) do
-    Agent.update(pid, &Map.put(&1, id, user_rate))
+  @spec put(pid, user_rate_t) :: :ok
+  def put(pid, user_rate) do
+    Agent.update(pid, &MapSet.put(&1, user_rate))
   end
 
+  @spec set(pid, user_rates_t) :: :ok
   def set(pid, user_rates) do
-    Agent.update(pid, fn _ ->
-      user_rates
-      |> Enum.reduce(%{}, fn(x, acc) -> Map.put(acc, x.id, x) end)
-    end)
+    Agent.update(pid, fn _ -> user_rates end)
   end
 
-  def update(pid, id, fields) do
-    Agent.update(pid, fn state ->
-      Map.update!(state, id, &struct(&1, fields))
-    end)
+  @spec delete(pid, user_rate_t) :: :ok
+  def delete(pid, user_rate) do
+    Agent.update(pid, &MapSet.delete(&1, user_rate))
   end
 
-  def delete(pid, id) do
-    Agent.get_and_update(pid, &Map.pop(&1, id))
-  end
-
+  @spec user_rates(pos_integer) :: user_rates_t
   defp user_rates(user_id) do
     Neko.Shikimori.Client.get_user_rates!(user_id)
+    |> MapSet.new()
   end
 end

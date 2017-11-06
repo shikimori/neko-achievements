@@ -37,16 +37,16 @@ defmodule Neko.UserRate do
     store(user_id) |> Store.all()
   end
 
-  def put(user_id, id, user_rate) do
-    store(user_id) |> Store.put(id, user_rate)
+  def put(user_id, user_rate) do
+    store(user_id) |> Store.put(user_rate)
   end
 
   def set(user_id, user_rates) do
     store(user_id) |> Store.set(user_rates)
   end
 
-  def delete(user_id, id) do
-    store(user_id) |> Store.delete(id)
+  def delete(user_id, user_rate) do
+    store(user_id) |> Store.delete(user_rate)
   end
 
   defp store(user_id) do

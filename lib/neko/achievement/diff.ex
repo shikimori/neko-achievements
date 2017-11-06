@@ -1,18 +1,27 @@
 # https://stackoverflow.com/questions/36345425
 defmodule Neko.Achievement.Diff do
   def call(old_achievements, new_achievements) do
-    keyed_old_set = keyed_set(old_achievements)
-    keyed_new_set = keyed_set(new_achievements)
+    keyed_old_achievements = keyed_achievements(old_achievements)
+    keyed_new_achievements = keyed_achievements(new_achievements)
 
     %{
-      added: added_achievements(keyed_old_set, keyed_new_set),
-      removed: removed_achievements(keyed_old_set, keyed_new_set),
-      updated: updated_achievements(keyed_old_set, keyed_new_set)
+      added: added_achievements(
+        keyed_old_achievements,
+        keyed_new_achievements
+      ),
+      removed: removed_achievements(
+        keyed_old_achievements,
+        keyed_new_achievements
+      ),
+      updated: updated_achievements(
+        keyed_old_achievements,
+        keyed_new_achievements
+      )
     }
   end
 
-  defp keyed_set(set) do
-    Enum.reduce(set, %{}, fn(x, acc) ->
+  defp keyed_achievements(achievements) do
+    Enum.reduce(achievements, %{}, fn(x, acc) ->
       Map.put(acc, comparison_key(x), x)
     end)
   end
@@ -24,32 +33,33 @@ defmodule Neko.Achievement.Diff do
     |> List.to_tuple()
   end
 
-  defp added_achievements(keyed_old_set, keyed_new_set) do
-    keyed_new_set
-    |> Map.drop(Map.keys(keyed_old_set))
+  defp added_achievements(keyed_old_achievements, keyed_new_achievements) do
+    keyed_new_achievements
+    |> Map.drop(Map.keys(keyed_old_achievements))
     |> Map.values()
+    |> MapSet.new()
   end
 
-  defp removed_achievements(keyed_old_set, keyed_new_set) do
-    keyed_old_set
-    |> Map.drop(Map.keys(keyed_new_set))
+  defp removed_achievements(keyed_old_achievements, keyed_new_achievements) do
+    keyed_old_achievements
+    |> Map.drop(Map.keys(keyed_new_achievements))
     |> Map.values()
+    |> MapSet.new()
   end
 
-  defp updated_achievements(keyed_old_set, keyed_new_set) do
+  defp updated_achievements(keyed_old_achievements, keyed_new_achievements) do
     not_removed_old_achievements =
-      keyed_old_set
-      |> Map.take(Map.keys(keyed_new_set))
+      keyed_old_achievements
+      |> Map.take(Map.keys(keyed_new_achievements))
       |> Map.values()
       |> MapSet.new()
 
     not_added_new_achievements =
-      keyed_new_set
-      |> Map.take(Map.keys(keyed_old_set))
+      keyed_new_achievements
+      |> Map.take(Map.keys(keyed_old_achievements))
       |> Map.values()
       |> MapSet.new()
 
     MapSet.difference(not_added_new_achievements, not_removed_old_achievements)
-    |> MapSet.to_list()
   end
 end

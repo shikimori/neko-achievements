@@ -24,8 +24,8 @@ defmodule Neko.Request do
     load_user_data(user_id)
     process_action(request)
 
-    new_achievements = calculate_achievements(user_id)
-    diff = calculate_diff(user_id, new_achievements)
+    new_achievements = calc_new_achievements(user_id)
+    diff = calc_diff(user_id, new_achievements)
     save_new_achievements(user_id, new_achievements)
 
     diff
@@ -62,25 +62,25 @@ defmodule Neko.Request do
     # and then loaded in load_user_data
   end
   defp process_action(%{action: "put", status: "completed"} = request) do
-    %{id: id, user_id: user_id} = request
-    Neko.UserRate.put(user_id, id, Neko.UserRate.from_request(request))
+    request.user_id
+    |> Neko.UserRate.put(Neko.UserRate.from_request(request))
   end
   defp process_action(%{action: "put"} = request) do
-    %{id: id, user_id: user_id} = request
-    Neko.UserRate.delete(user_id, id)
+    request.user_id
+    |> Neko.UserRate.delete(Neko.UserRate.from_request(request))
   end
   defp process_action(%{action: "delete"} = request) do
-    %{id: id, user_id: user_id} = request
-    Neko.UserRate.delete(user_id, id)
+    request.user_id
+    |> Neko.UserRate.delete(Neko.UserRate.from_request(request))
   end
 
-  defp calculate_achievements(user_id) do
+  defp calc_new_achievements(user_id) do
     user_id
     |> Neko.UserRate.all()
     |> Neko.Achievement.Calculator.call(user_id)
   end
 
-  defp calculate_diff(user_id, new_achievements) do
+  defp calc_diff(user_id, new_achievements) do
     user_id
     |> Neko.Achievement.all()
     |> Neko.Achievement.Diff.call(new_achievements)

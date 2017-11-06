@@ -1,7 +1,11 @@
 defmodule Neko.Rules.SimpleRule.Store do
+  @type rule_t :: %Neko.Rules.SimpleRule{}
+  @type rules_t :: MapSet.t(rule_t)
+
   @algo "simple"
   @rules_reader Application.get_env(:neko, :rules)[:reader]
 
+  @spec start_link(String.t) :: Agent.on_start
   def start_link(name \\ __MODULE__) do
     Agent.start_link(
       fn -> rules() |> calc() end,
@@ -9,6 +13,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     )
   end
 
+  @spec reload(String.t) :: :ok
   def reload(name \\ __MODULE__) do
     Agent.update(
       name,
@@ -16,10 +21,12 @@ defmodule Neko.Rules.SimpleRule.Store do
     )
   end
 
+  @spec all(String.t) :: rules_t
   def all(name \\ __MODULE__) do
     Agent.get(name, &(&1))
   end
 
+  @spec set(String.t, rules_t) :: :ok
   def set(name \\ __MODULE__, rules) do
     Agent.update(
       name,
@@ -27,39 +34,39 @@ defmodule Neko.Rules.SimpleRule.Store do
     )
   end
 
+  @spec calc(rules_t) :: rules_t
   defp calc(rules) do
     rules
     |> Enum.map(&calc_anime_ids/1)
     |> Enum.map(&calc_threshold/1)
     |> calc_next_thresholds()
+    |> MapSet.new()
   end
 
+  @spec calc_anime_ids(rule_t) :: rule_t
   defp calc_anime_ids(rule) do
-    anime_ids = Neko.Anime.all() |> anime_ids(rule)
+    anime_ids =
+      Neko.Anime.all()
+      |> filter_animes(rule)
+      |> Enum.map(&(&1.id))
+      |> MapSet.new()
+
     %{rule | anime_ids: anime_ids}
   end
 
-  defp anime_ids([], _rule) do
-    MapSet.new()
+  defp filter_animes(animes, %{filters: nil} = _rule) do
+    animes
   end
-  defp anime_ids(all_animes, %{filters: nil}) do
-    all_animes
-    |> Enum.map(&(&1.id))
-    |> MapSet.new()
-  end
-  defp anime_ids(all_animes, %{filters: filters}) do
-    all_animes
+  defp filter_animes(animes, %{filters: filters} = _rule) do
+    animes
     |> filter_by_genre_ids(filters["genre_ids"])
     |> filter_by_anime_ids(filters["anime_ids"])
     |> filter_by_year_lte(filters["year_lte"])
     |> filter_by_episodes_gte(filters["episodes_gte"])
-    |> Enum.map(&(&1.id))
-    |> MapSet.new()
   end
 
-  # TODO: replace animes and genre_ids with mapsets
-  #       and rewrite lists_overlap with genre_ids_overlap?
-  # TODO: don't store user rates in map?
+  # TODO: store user anime ids separately as mapset
+  #       (just like anime_ids in simple rule)?
   defp filter_by_genre_ids(animes, nil) do
     animes
   end
@@ -69,8 +76,13 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> Enum.filter(&lists_overlap?(&1.genre_ids, genre_ids))
   end
 
+  # it's faster than !Enum.empty?(list_1 -- (list_1 -- list_2)),
+  # using Kernel.!() is a little bit faster than Kernel.not()
   defp lists_overlap?(list_1, list_2) do
-    !Enum.empty?(list_1 -- (list_1 -- list_2))
+    MapSet.new(list_1)
+    |> MapSet.intersection(MapSet.new(list_2))
+    |> Enum.empty?()
+    |> Kernel.!()
   end
 
   defp filter_by_anime_ids(animes, nil) do
@@ -99,10 +111,12 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> Enum.filter(&(&1.episodes >= episodes_gte))
   end
 
+  @spec calc_threshold(rule_t) :: rule_t
   defp calc_threshold(%{threshold: threshold} = rule)
   when is_number(threshold) do
     rule
   end
+  @spec calc_threshold(rule_t) :: rule_t
   defp calc_threshold(%{threshold: threshold} = rule)
   when is_binary(threshold) do
     %{rule | threshold: parse_threshold(rule)}
@@ -116,6 +130,7 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   # access to all rules is required to calculate
   # next threshold so iterate over rules here
+  @spec calc_next_thresholds(rules_t) :: rules_t
   defp calc_next_thresholds(rules) do
     rules |> Enum.map(fn(x) ->
       %{x | next_threshold: next_threshold(rules, x)}
@@ -131,7 +146,9 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> List.first()
   end
 
+  @spec rules() :: rules_t
   defp rules do
     @rules_reader.read_rules(@algo)
+    |> MapSet.new()
   end
 end
