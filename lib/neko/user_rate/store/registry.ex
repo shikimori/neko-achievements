@@ -49,6 +49,7 @@ defmodule Neko.UserRate.Store.Registry do
   #------------------------------------------------------------------
 
   def init(name) do
+    # ets_table == name
     ets_table = :ets.new(name, [:named_table, read_concurrency: true])
     {:ok, {ets_table, %{}}}
   end

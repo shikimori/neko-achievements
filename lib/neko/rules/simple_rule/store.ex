@@ -65,8 +65,6 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> filter_by_episodes_gte(filters["episodes_gte"])
   end
 
-  # TODO: store user anime ids separately as mapset
-  #       (just like anime_ids in simple rule)?
   defp filter_by_genre_ids(animes, nil) do
     animes
   end
