@@ -45,28 +45,36 @@ defmodule Neko.RouterTest do
       anime_3_id = 3
 
       Neko.Anime.set(
-        [%Neko.Anime{id: anime_1_id},
-         %Neko.Anime{id: anime_2_id},
-         %Neko.Anime{id: anime_3_id}]
+        MapSet.new(
+          [%Neko.Anime{id: anime_1_id},
+           %Neko.Anime{id: anime_2_id},
+           %Neko.Anime{id: anime_3_id}]
+        )
       )
 
       alias Neko.Rules.SimpleRule
       Neko.Rules.SimpleRule.set(
-        [%SimpleRule{neko_id: "animelist", level: 1, threshold: 1},
-         %SimpleRule{neko_id: "animelist", level: 2, threshold: 3},
-         %SimpleRule{neko_id: "animelist", level: 3, threshold: 5}]
+        MapSet.new(
+          [%SimpleRule{neko_id: "animelist", level: 1, threshold: 1},
+           %SimpleRule{neko_id: "animelist", level: 2, threshold: 3},
+           %SimpleRule{neko_id: "animelist", level: 3, threshold: 5}]
+        )
       )
 
       Neko.UserRate.set(
         user_id,
-        [%Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
-         %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
+        MapSet.new(
+          [%Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
+           %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
+        )
       )
 
       Neko.Achievement.set(
         user_id,
-        [%Neko.Achievement{user_id: user_id, neko_id: "animelist",
-          level: 1, progress: 50}]
+        MapSet.new(
+          [%Neko.Achievement{user_id: user_id, neko_id: "animelist",
+            level: 1, progress: 50}]
+        )
       )
 
       request = %Neko.Request{

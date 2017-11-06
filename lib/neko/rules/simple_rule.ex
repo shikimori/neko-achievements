@@ -20,6 +20,8 @@ defmodule Neko.Rules.SimpleRule do
   defdelegate set(rules), to: Store
 
   def achievements(user_rates, user_id) do
+    # precalculate user_anime_ids before passing them to count/2:
+    # processing is ~10ms longer when creating MapSet in count/2
     user_anime_ids =
       user_rates
       |> Enum.map(&(&1.target_id))

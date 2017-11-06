@@ -17,17 +17,13 @@ defmodule Neko.Achievement.Store.RegistryTest do
   #       trying to start registry with the same name in another test file:
   #
   #       no match of right hand side value: {:error, {:already_started, ...}}
-  test "fetches achievement store by user id", %{name: name} do
+  test "fetches achievement store by user_id", %{name: name} do
     user_id = 1
-    achievement = %Neko.Achievement{neko_id: "foo", level: 3}
-
     assert StoreRegistry.lookup(name, user_id) == :error
 
     StoreRegistry.fetch(name, user_id)
     assert {:ok, store_pid} = StoreRegistry.lookup(name, user_id)
-
-    Store.put(store_pid, achievement)
-    assert Store.all(store_pid) == MapSet.new([achievement])
+    assert Store.all(store_pid) == MapSet.new()
   end
 
   test "removes achievement stores on exit", %{name: name} do
