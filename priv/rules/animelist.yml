@@ -92,7 +92,10 @@
   threshold: 2500
   metadata:
     title_ru: Ками-сама
-
+    text_ru: Вы причислены к лику святых.
+    image: https://pa1.narvii.com/6439/888457b92449f6d630881c2ea00acf5ab0325b58_hq.gif
+    border_color: "#FBE893"
+    
 - <<: *defaults
   level: 15
   threshold: 5000
