@@ -532,7 +532,9 @@
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала, жителям Волшебной страны остаётся только жить-поживать да добра наживать.
-
+    image: https://pa1.narvii.com/6578/3311238ad7ec1b88296a003d615d1f6ebf635717_hq.gif
+    border_color: "#FFD6DB"
+    
 - <<: *defaults
   level: 4
   threshold: 85
