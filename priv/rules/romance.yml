@@ -28,6 +28,8 @@
   metadata:
     title_ru: Конфетно-букетный период
     text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
+    image: http://24.media.tumblr.com/c1b3a3869b68001656b07a49c02a8324/tumblr_muleo6ItG01skzv6ro1_500.gif
+    border_color: "#EBE5E5"
 
 - <<: *defaults
   level: 4
