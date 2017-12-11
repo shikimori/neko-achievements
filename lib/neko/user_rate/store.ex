@@ -14,7 +14,7 @@ defmodule Neko.UserRate.Store do
 
   @spec reload(pid, pos_integer) :: :ok
   def reload(pid, user_id) do
-    Agent.update(pid, fn _ -> user_rates(user_id) end)
+    Agent.update(pid, fn(_) -> user_rates(user_id) end)
   end
 
   @spec all(pid) :: user_rates_t
@@ -29,7 +29,7 @@ defmodule Neko.UserRate.Store do
 
   @spec set(pid, user_rates_t) :: :ok
   def set(pid, user_rates) do
-    Agent.update(pid, fn _ -> user_rates end)
+    Agent.update(pid, fn(_) -> user_rates end)
   end
 
   @spec delete(pid, user_rate_t) :: :ok

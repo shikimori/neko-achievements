@@ -9,7 +9,7 @@ defmodule Neko.Anime.Store do
 
   @spec reload(String.t) :: :ok
   def reload(name \\ __MODULE__) do
-    Agent.update(name, fn _ -> animes() end)
+    Agent.update(name, fn(_) -> animes() end)
   end
 
   @spec all(String.t) :: animes_t
@@ -19,7 +19,7 @@ defmodule Neko.Anime.Store do
 
   @spec set(String.t, animes_t) :: :ok
   def set(name \\ __MODULE__, animes) do
-    Agent.update(name, fn _ -> animes end)
+    Agent.update(name, fn(_) -> animes end)
   end
 
   @spec animes() :: animes_t

@@ -11,7 +11,7 @@ defmodule Neko.Achievement.Store do
   # that agent dies in case of fetching error
   @spec reload(pid, pos_integer) :: :ok
   def reload(pid, user_id) do
-    Agent.update(pid, fn _ -> achievements(user_id) end)
+    Agent.update(pid, fn(_) -> achievements(user_id) end)
   end
 
   @spec all(pid) :: achievements_t
@@ -21,7 +21,7 @@ defmodule Neko.Achievement.Store do
 
   @spec set(pid, achievements_t) :: :ok
   def set(pid, achievements) do
-    Agent.update(pid, fn _ -> achievements end)
+    Agent.update(pid, fn(_) -> achievements end)
   end
 
   @spec achievements(pos_integer) :: achievements_t

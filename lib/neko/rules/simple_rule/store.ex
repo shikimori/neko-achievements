@@ -17,7 +17,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   def reload(name \\ __MODULE__) do
     Agent.update(
       name,
-      fn _ -> rules() |> calc() end
+      fn(_) -> rules() |> calc() end
     )
   end
 
@@ -30,7 +30,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   def set(name \\ __MODULE__, rules) do
     Agent.update(
       name,
-      fn _ -> rules |> calc() end
+      fn(_) -> rules |> calc() end
     )
   end
 

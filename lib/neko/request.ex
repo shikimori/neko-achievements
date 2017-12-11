@@ -43,7 +43,7 @@ defmodule Neko.Request do
   # if the task crashes (task must be not linked to the caller)
   defp load_user_data(user_id) do
     [Neko.Achievement, Neko.UserRate]
-    |> Enum.map(fn x ->
+    |> Enum.map(fn(x) ->
       sup_pid = Neko.TaskSupervisor
       Task.Supervisor.async_nolink(sup_pid, x, :load, [user_id])
     end)
