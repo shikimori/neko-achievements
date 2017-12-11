@@ -2,7 +2,7 @@ defmodule Neko.UserRate.Store do
   @type user_rate_t :: %Neko.UserRate{}
   @type user_rates_t :: MapSet.t(user_rate_t)
 
-  @spec start_link() :: Agent.on_start
+  @spec start_link :: Agent.on_start
   def start_link do
     Agent.start_link(fn -> MapSet.new() end)
   end

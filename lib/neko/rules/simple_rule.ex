@@ -19,15 +19,25 @@ defmodule Neko.Rules.SimpleRule do
   defdelegate all, to: Store
   defdelegate set(rules), to: Store
 
-  def achievements(user_rates, user_id) do
+  # TODO: failed to start application: maybe pass dummy argument to
+  #       Neko.Rules.SimpleRule.Worker.start_link? (it can't have 0 arity?)
+  # TODO: remove appsignal? (maybe it can't start because trial period is over)
+  # TODO: what will :poolboy.transaction return? (we need achievements)
+  def worker_pool_config do
+    Application.get_env(:neko, :simple_rule_worker_pool)
+  end
+
+  # rules are taken from worker state to avoid excessive copying
+  def achievements(rules, user_id) do
     # precalculate user_anime_ids before passing them to count/2:
     # processing is ~10ms longer when creating MapSet in count/2
     user_anime_ids =
-      user_rates
+      user_id
+      |> Neko.UserRate.all()
       |> Enum.map(&(&1.target_id))
       |> MapSet.new()
 
-    all()
+    rules
     |> Enum.map(fn(x) -> {x, count(x, user_anime_ids)} end)
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))

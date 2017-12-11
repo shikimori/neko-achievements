@@ -4,9 +4,9 @@ defmodule Neko.UserHandler do
   use GenServer
   require Logger
 
-  @registry_name :user_handler_registry
+  @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
   # how long request can wait in the queue to be processed
-  @timeout 120_000
+  @timeout Application.get_env(:neko, :user_handler_registry)[:timeout]
 
   #------------------------------------------------------------------
   # Client API

@@ -57,7 +57,8 @@ defmodule Neko.Mixfile do
       # _build/<env>/lib/yamler/priv/ and consequently not found both in
       # production and on CircleCI)
       {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"},
-      {:appsignal, "~> 1.0"}
+      {:appsignal, "~> 1.0"},
+      {:poolboy, "~> 1.5.1"}
     ]
   end
 

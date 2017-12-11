@@ -2,7 +2,7 @@ defmodule Neko.Achievement.Store do
   @type achievement_t :: %Neko.Achievement{}
   @type achievements_t :: MapSet.t(achievement_t)
 
-  @spec start_link() :: Agent.on_start
+  @spec start_link :: Agent.on_start
   def start_link do
     Agent.start_link(fn -> MapSet.new() end)
   end

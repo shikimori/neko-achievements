@@ -2,23 +2,8 @@ defmodule Neko.Application do
   @moduledoc false
   use Application
 
-  @registry_name :user_handler_registry
-
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
-
-    # https://hexdocs.pm/plug/Plug.Adapters.Cowboy.html#child_spec/1
-    cowboy_child = {Plug.Adapters.Cowboy, [
-      scheme: :http,
-      plug: Neko.Router,
-      options: [ip: {127, 0, 0, 1}, port: 4000]
-    ]}
-    # https://github.com/spscream/ex_banking/blob/master/lib/ex_banking/application.ex
-    # https://hexdocs.pm/elixir/master/Registry.html#module-using-in-via
-    registry_child = {Registry, [
-      keys: :unique,
-      name: @registry_name
-    ]}
 
     # Define workers and child supervisors to be supervised
     children = [
@@ -32,20 +17,52 @@ defmodule Neko.Application do
       # or simple rule stores)
       worker(Neko.Anime.Store, []),
       worker(Neko.Rules.SimpleRule.Store, []),
+      simple_rule_worker_pool_child(),
       worker(Neko.UserRate.Store.Registry, []),
       worker(Neko.Achievement.Store.Registry, []),
+      user_handler_registry_child(),
       supervisor(Neko.UserRate.Store.Supervisor, []),
       supervisor(Neko.Achievement.Store.Supervisor, []),
-      # supervisor(Registry, [:unique, @registry_name]),
-      registry_child,
       supervisor(Neko.UserHandler.Supervisor, []),
       # default value of :restart option is :temporary
       # (it's required when using Task.Supervisor.async_nolink/2)
       supervisor(Task.Supervisor, [[name: Neko.TaskSupervisor]]),
-      cowboy_child
+      cowboy_child()
     ]
 
     opts = [strategy: :rest_for_one, name: Neko.Supervisor]
     Supervisor.start_link(children, opts)
+  end
+
+  defp simple_rule_worker_pool_child do
+    config = Neko.Rules.SimpleRule.worker_pool_config()
+    IO.inspect(config)
+    :poolboy.child_spec(
+      config[:name],
+      [{:name, {:local, config[:name]}},
+       {:worker_module, config[:module]},
+       {:size, config[:size]},
+       {:max_overflow, 2}
+      ])
+  end
+
+  # https://github.com/spscream/ex_banking/blob/master/lib/ex_banking/application.ex
+  # https://hexdocs.pm/elixir/master/Registry.html#module-using-in-via
+  defp user_handler_registry_child do
+    config = Application.get_env(:neko, :user_handler_registry)
+    # same as: supervisor(Registry, [:unique, config[:name]])
+    {Registry, [
+      keys: :unique,
+      name: config[:name]
+    ]}
+  end
+
+  # https://hexdocs.pm/plug/Plug.Adapters.Cowboy.html#child_spec/1
+  defp cowboy_child do
+    {Plug.Adapters.Cowboy, [
+      scheme: :http,
+      plug: Neko.Router,
+      options: [ip: {127, 0, 0, 1}, port: 4000]
+    ]}
   end
 end

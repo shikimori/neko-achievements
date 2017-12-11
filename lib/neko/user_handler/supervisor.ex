@@ -1,8 +1,10 @@
+# it's used just like Neko.UserRate.Store.Supervisor
+# except that store registry is provided by Elixir's Registry
 defmodule Neko.UserHandler.Supervisor do
   use Supervisor
   require Logger
 
-  @registry_name :user_handler_registry
+  @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
 
   #------------------------------------------------------------------
   # Client API
@@ -46,7 +48,7 @@ defmodule Neko.UserHandler.Supervisor do
   #   from the registry
   # - new UserHandler process for that user_id is started
   #   when new request for that user_id arrives
-  def init(_) do
+  def init(:ok) do
     children = [worker(Neko.UserHandler, [], restart: :temporary)]
     supervise(children, strategy: :simple_one_for_one)
   end
