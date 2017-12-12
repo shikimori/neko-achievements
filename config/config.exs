@@ -45,7 +45,8 @@ config :neko, :rules,
   reader: Neko.Rules.Reader
 config :neko, :user_handler_registry,
   name: :user_handler_registry,
-  timeout: 120_000
+  call_timeout: 120_000,
+  recv_timeout: 3_600_000
 config :neko, :simple_rule_worker_pool,
   name: :simple_rule_worker_pool,
   module: Neko.Rules.SimpleRule.Worker,

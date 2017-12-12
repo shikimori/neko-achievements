@@ -6,7 +6,9 @@ defmodule Neko.UserHandler do
 
   @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
   # how long request can wait in the queue to be processed
-  @timeout Application.get_env(:neko, :user_handler_registry)[:timeout]
+  @call_timeout Application.get_env(:neko, :user_handler_registry)[:call_timeout]
+  # how long handler process can wait for new message to be received
+  @recv_timeout Application.get_env(:neko, :user_handler_registry)[:recv_timeout]
 
   #------------------------------------------------------------------
   # Client API
@@ -27,7 +29,7 @@ defmodule Neko.UserHandler do
   end
 
   def process(%{user_id: user_id} = request) do
-    GenServer.call(via_tuple(user_id), {:process, request}, @timeout)
+    GenServer.call(via_tuple(user_id), {:process, request}, @call_timeout)
   end
 
   defp via_tuple(user_id) do
@@ -49,6 +51,11 @@ defmodule Neko.UserHandler do
 
   def handle_call({:process, request}, _from, state) do
     diff = Neko.Request.process(request)
-    {:reply, diff, state}
+    {:reply, diff, state, @recv_timeout}
+  end
+
+  def handle_info(:timeout, state) do
+    Logger.info("process for user_id #{state} terminated because of timeout")
+    {:stop, :normal, state}
   end
 end
