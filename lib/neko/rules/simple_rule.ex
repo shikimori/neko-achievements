@@ -19,10 +19,6 @@ defmodule Neko.Rules.SimpleRule do
   defdelegate all, to: Store
   defdelegate set(rules), to: Store
 
-  # TODO: failed to start application: maybe pass dummy argument to
-  #       Neko.Rules.SimpleRule.Worker.start_link? (it can't have 0 arity?)
-  # TODO: remove appsignal? (maybe it can't start because trial period is over)
-  # TODO: what will :poolboy.transaction return? (we need achievements)
   def worker_pool_config do
     Application.get_env(:neko, :simple_rule_worker_pool)
   end

@@ -36,7 +36,6 @@ defmodule Neko.Application do
 
   defp simple_rule_worker_pool_child do
     config = Neko.Rules.SimpleRule.worker_pool_config()
-    IO.inspect(config)
     :poolboy.child_spec(
       config[:name],
       [{:name, {:local, config[:name]}},

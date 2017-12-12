@@ -1,12 +1,13 @@
 defmodule Neko.Rules.SimpleRule.Worker do
   use GenServer
+  require Logger
 
   #------------------------------------------------------------------
   # Client API
   #------------------------------------------------------------------
 
-  def start_link do
-    GenServer.start_link(__MODULE__, [])
+  def start_link(state \\ []) do
+    GenServer.start_link(__MODULE__, state)
   end
 
   def achievements(pid, user_id) do
@@ -18,7 +19,8 @@ defmodule Neko.Rules.SimpleRule.Worker do
   #------------------------------------------------------------------
 
   def init(_) do
-    {:ok, {Neko.Rules.SimpleRule.all()}}
+    Logger.info("simple rule worker started...")
+    {:ok, Neko.Rules.SimpleRule.all()}
   end
 
   def handle_call({:achievements, user_id}, _from, rules) do
