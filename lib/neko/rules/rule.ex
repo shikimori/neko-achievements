@@ -4,6 +4,7 @@ defmodule Neko.Rules.Rule do
   # (-> Rule and SimpleRule wait for each other to be compiled)
   @typep rule_t :: struct
 
+  @callback set([rule_t]) :: any
   @callback worker_pool_config() :: keyword
   @callback achievements([rule_t], pos_integer) :: [%Neko.Achievement{}]
   @callback reload() :: any

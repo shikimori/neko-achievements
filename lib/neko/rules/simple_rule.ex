@@ -1,7 +1,6 @@
 defmodule Neko.Rules.SimpleRule do
   @behaviour Neko.Rules.Rule
 
-  import Float
   alias Neko.Rules.SimpleRule.Store
 
   defstruct ~w(
@@ -17,7 +16,15 @@ defmodule Neko.Rules.SimpleRule do
 
   defdelegate reload, to: Store
   defdelegate all, to: Store
-  defdelegate set(rules), to: Store
+
+  # reload rules in all poolboy workers when new rules are set
+  def set(rules) do
+    Store.set(rules)
+
+    config = worker_pool_config()
+    GenServer.call(config[:name], :get_avail_workers)
+    |> Enum.each(fn(pid) -> apply(config[:module], :reload, [pid]) end)
+  end
 
   def worker_pool_config do
     Application.get_env(:neko, :simple_rule_worker_pool)
@@ -72,6 +79,6 @@ defmodule Neko.Rules.SimpleRule do
   end
   defp progress(rule, count) do
     %{threshold: threshold, next_threshold: next_threshold} = rule
-    ((count - threshold) / (next_threshold - threshold)) * 100 |> floor()
+    ((count - threshold) / (next_threshold - threshold)) * 100 |> Float.floor()
   end
 end
