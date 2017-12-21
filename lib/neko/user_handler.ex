@@ -55,7 +55,7 @@ defmodule Neko.UserHandler do
   end
 
   def handle_info(:timeout, state) do
-    Logger.info("process for user_id #{state} terminated because of timeout")
+    Logger.info("process for user_id #{state} terminated (timeout)")
     {:stop, :normal, state}
   end
 end
