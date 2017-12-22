@@ -38,21 +38,21 @@ defmodule Neko.Request do
     # nothing to do for other actions
   end
 
-  # https://gist.github.com/moklett/d30fc2dbaf71f3b978da115f8a5f8387
-  # unlike Task.await/2, Task.yield/2 doesn't crash the caller
-  # if the task crashes (task must be not linked to the caller)
+  # prior to processing requests inside user handler processes any
+  # error in a linked task to load achievements or user rates
+  # (spawned with Task.async) crashed the caller (request process)
+  # without invoking Plug.ErrorHandler callback (handler_errors/2).
+  #
+  # now requests are processed inside long-running user handler
+  # processes: any error inside linked task first crashes immediate
+  # caller (user handler process) and then request process itself
+  # (since they are also linked) but unlike before Plug.ErrorHandler
+  # callback is now invoked and proper response with status code 500
+  # and error message is sent to the client.
   defp load_user_data(user_id) do
     [Neko.Achievement, Neko.UserRate]
-    |> Enum.map(fn(x) ->
-      sup_pid = Neko.TaskSupervisor
-      Task.Supervisor.async_nolink(sup_pid, x, :load, [user_id])
-    end)
-    |> Enum.map(&Task.yield/1)
-    |> Enum.each(fn
-      {:ok, _result} -> :ok
-      {:exit, {error, _stack}} -> raise(error)
-      nil -> raise("timeout loading user data")
-    end)
+    |> Enum.map(&Task.async(&1, :load, [user_id]))
+    |> Enum.map(&Task.await(&1, 10_000))
   end
 
   defp process_action(%{action: "noop"}) do

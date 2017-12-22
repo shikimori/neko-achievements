@@ -22,6 +22,8 @@ defmodule Neko.UserRate do
     end
   end
 
+  # TODO: NatSet
+  #
   # stopping achievement store stops underlying agent ->
   # monitoring process (achievement store registry) is notified about
   # about terminated agent process and deletes ETS entry for specified

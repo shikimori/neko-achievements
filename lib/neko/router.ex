@@ -46,8 +46,13 @@ defmodule Neko.Router do
     conn |> send_resp(404, "oops")
   end
 
-  # encode response since it can be atom while send_resp/3
-  # expects it to be string
+  # always encode response:
+  #
+  # - send_resp/3 expects response to be a string
+  #   (while message or reason can be atoms)
+  # - even if response is already a string, still encode it
+  #   before sending since a raw string is not correct json
+  #   (Poison.encode!("Application error") -> "\"Application error\"")
   defp handle_errors(conn, %{reason: %{message: message}}) do
     conn |> send_resp(conn.status, Poison.encode!(message))
   end
@@ -55,7 +60,7 @@ defmodule Neko.Router do
     conn |> send_resp(conn.status, Poison.encode!(reason))
   end
   defp handle_errors(conn, %{reason: _reason}) do
-    conn |> send_resp(conn.status, "Application error")
+    conn |> send_resp(conn.status, Poison.encode!("Application error"))
   end
 
   # https://docs.appsignal.com/elixir/integrations/plug.html#incoming-http-requests

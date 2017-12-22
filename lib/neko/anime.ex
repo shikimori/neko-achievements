@@ -1,14 +1,14 @@
 defmodule Neko.Anime do
   alias Neko.Anime.Store
 
-  @rules_list Application.get_env(:neko, :rules)[:list]
-
   defstruct ~w(
     id
     genre_ids
     year
     episodes
   )a
+
+  @rules_list Application.get_env(:neko, :rules)[:list]
 
   defdelegate reload, to: Store
   defdelegate all, to: Store
