@@ -64,8 +64,7 @@ defmodule Neko.Mixfile do
 
   defp aliases do
     [
-      "deps.install": ["deps.clean", "deps.get"],
-      "deps.clean": ["deps.clean --unused --unlock"],
+      "deps.install": ["deps.clean --unused --unlock", "deps.get"],
       "test": "test --no-start",
       "deploy": &deploy/1
     ]
