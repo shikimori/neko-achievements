@@ -47,7 +47,7 @@ defmodule Neko.Mixfile do
       {:httpoison, "~> 0.12"},
       {:edeliver, "~> 1.4.4"},
       {:distillery, "~> 1.4", runtime: false},
-      {:mox, "~> 0.2.0", only: :test},
+      {:mox, "~> 0.3.1", only: :test},
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
       #
