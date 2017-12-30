@@ -18,14 +18,14 @@ defmodule Neko.UserRate.Store.Registry do
   Fetches achievement store using supplied user_id -
   creates one if it's missing.
 
-  Returns `store`.
+  Returns store.
   """
   def fetch(name \\ __MODULE__, user_id) do
     GenServer.call(name, {:fetch, user_id})
   end
 
   @doc """
-  Lookups user rate store using supplied `user_id` -
+  Lookups user rate store using supplied user_id -
   doesn't try to create one.
 
   Returns `{:ok, store_pid}` if store exists, `:error` otherwise.

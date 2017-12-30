@@ -19,6 +19,8 @@ defmodule Neko.Request do
     uppercamelcase: false,
     underscore: false
 
+  @load_user_data_timeout 10_000
+
   def process(%{user_id: user_id} = request) do
     preprocess_action(request)
     load_user_data(user_id)
@@ -41,7 +43,8 @@ defmodule Neko.Request do
   # prior to processing requests inside user handler processes any
   # error in a linked task to load achievements or user rates
   # (spawned with Task.async) crashed the caller (request process)
-  # without invoking Plug.ErrorHandler callback (handler_errors/2).
+  # without invoking Plug.ErrorHandler callback (handler_errors/2)
+  # and sending proper response to the client.
   #
   # now requests are processed inside long-running user handler
   # processes: any error inside linked task first crashes immediate
@@ -52,7 +55,7 @@ defmodule Neko.Request do
   defp load_user_data(user_id) do
     [Neko.Achievement, Neko.UserRate]
     |> Enum.map(&Task.async(&1, :load, [user_id]))
-    |> Enum.map(&Task.await(&1, 10_000))
+    |> Enum.map(&Task.await(&1, @load_user_data_timeout))
   end
 
   defp process_action(%{action: "noop"}) do
