@@ -35,7 +35,7 @@
 - <<: *defaults
   level: 4
   threshold: 90
-  metadata:
+  metadata: 
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.
     image: https://i.yapx.ru/JMeO.gif
