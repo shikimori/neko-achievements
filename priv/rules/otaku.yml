@@ -4,9 +4,8 @@
   algo: simple
   threshold: 30
   filters:
-    genre_ids:
-      - 9
-      - 12
+    genre_ids: [9,12]
+    
   metadata:
     title_ru: Эскапизм
     text_ru: Иллюзии захватывают ваш разум.
