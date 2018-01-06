@@ -58,7 +58,7 @@ config :neko, :user_handler_registry,
 config :neko, :simple_rule_worker_pool,
   name: :simple_rule_worker_pool,
   module: Neko.Rules.SimpleRule.Worker,
-  size: 10,
+  size: 15,
   timeout: 10_000
 
 import_config "appsignal.exs"
