@@ -16,7 +16,17 @@ defmodule Neko.UserHandler.Supervisor do
 
   def create_missing_handler(user_id) do
     case Registry.lookup(@registry_name, user_id) do
-      [] -> user_id |> create_handler()
+      [] ->
+        handler = user_id |> create_handler()
+
+        # getting child count inside init/1 of user handler
+        # itself blocks execution
+        #
+        # %{active: 2, specs: 1, supervisors: 0, workers: 2}
+        total = Supervisor.count_children(__MODULE__).active
+        Logger.info("total count of user handlers - #{total}")
+
+        handler
       _ -> {:ok, user_id}
     end
   end
