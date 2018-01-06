@@ -34,7 +34,7 @@ defmodule Neko.Request do
   end
 
   defp preprocess_action(%{user_id: user_id, action: "reset"}) do
-    Neko.UserRate.reset(user_id)
+    Neko.UserRate.stop(user_id)
   end
   defp preprocess_action(%{action: _action}) do
     # nothing to do for other actions
@@ -49,11 +49,11 @@ defmodule Neko.Request do
   # now requests are processed inside long-running user handler
   # processes: any error inside linked task first crashes immediate
   # caller (user handler process) and then request process itself
-  # (since they are also linked) but unlike before Plug.ErrorHandler
+  # (since they are also linked) but, unlike before, Plug.ErrorHandler
   # callback is now invoked and proper response with status code 500
   # and error message is sent to the client.
   defp load_user_data(user_id) do
-    [Neko.Achievement, Neko.UserRate]
+    [Neko.UserRate, Neko.Achievement]
     |> Enum.map(&Task.async(&1, :load, [user_id]))
     |> Enum.map(&Task.await(&1, @load_user_data_timeout))
   end

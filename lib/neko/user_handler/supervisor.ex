@@ -44,8 +44,8 @@ defmodule Neko.UserHandler.Supervisor do
   #
   # there is no need to restart UserHandler process:
   #
-  # - if it crashes, associated key (user_id) is removed
-  #   from the registry
+  # - if it terminates (because of crash or receive timeout),
+  #   associated key (user_id) is removed from the registry
   # - new UserHandler process for that user_id is started
   #   when new request for that user_id arrives
   def init(:ok) do

@@ -21,6 +21,13 @@ defmodule Neko.Achievement do
     end
   end
 
+  def stop(user_id) do
+    case Registry.lookup(user_id) do
+      {:ok, store} -> Store.stop(store)
+      :error -> {:ok, :not_found}
+    end
+  end
+
   def all(user_id) do
     store(user_id) |> Store.all()
   end

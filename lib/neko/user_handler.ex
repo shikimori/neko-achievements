@@ -56,6 +56,13 @@ defmodule Neko.UserHandler do
 
   def handle_info(:timeout, state) do
     Logger.info("process for user_id #{state} terminated (timeout)")
+
+    # stop both achievement and user rate stores
+    # for this user_id to reduce memory consumption
+    # (they are both monitored by their registries)
+    Neko.UserRate.stop(state)
+    Neko.Achievement.stop(state)
+
     {:stop, :normal, state}
   end
 end

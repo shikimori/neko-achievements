@@ -7,6 +7,11 @@ defmodule Neko.Achievement.Store do
     Agent.start_link(fn -> MapSet.new() end)
   end
 
+  @spec stop(pid) :: :ok
+  def stop(pid) do
+    Agent.stop(pid)
+  end
+
   # fetch achievements in server callback so
   # that agent dies in case of fetching error
   @spec reload(pid, pos_integer) :: :ok

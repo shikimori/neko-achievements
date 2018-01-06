@@ -22,13 +22,11 @@ defmodule Neko.UserRate do
     end
   end
 
-  # TODO: NatSet
-  #
   # stopping achievement store stops underlying agent ->
   # monitoring process (achievement store registry) is notified about
   # about terminated agent process and deletes ETS entry for specified
   # user_id (no achievement store is mapped to that user_id any longer)
-  def reset(user_id) do
+  def stop(user_id) do
     case Registry.lookup(user_id) do
       {:ok, store} -> Store.stop(store)
       :error -> {:ok, :not_found}
