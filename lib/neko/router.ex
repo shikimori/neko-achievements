@@ -3,7 +3,6 @@ defmodule Neko.Router do
   use Plug.Router
   use Plug.ErrorHandler
 
-  # TODO: extract it to something like secrets.yml
   @token "foo"
 
   # log request information to stdout when running tests

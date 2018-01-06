@@ -4,8 +4,8 @@ defmodule Neko.Shikimori.HTTPClient do
 
   use HTTPoison.Base
 
-  @base_url Application.get_env(:neko, :shikimori_url)
-  @recv_timeout 90_000
+  @base_url Application.get_env(:neko, :shikimori)[:url]
+  @recv_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
 
   def get_user_rates!(user_id) do
     params = %{user_id: user_id, status: :completed}

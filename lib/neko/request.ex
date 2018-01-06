@@ -19,8 +19,6 @@ defmodule Neko.Request do
     uppercamelcase: false,
     underscore: false
 
-  @load_user_data_timeout 10_000
-
   def process(%{user_id: user_id} = request) do
     preprocess_action(request)
     load_user_data(user_id)
@@ -53,9 +51,11 @@ defmodule Neko.Request do
   # callback is now invoked and proper response with status code 500
   # and error message is sent to the client.
   defp load_user_data(user_id) do
+    await_timeout = Application.get_env(:neko, :shikimori)[:recv_timeout]
+
     [Neko.UserRate, Neko.Achievement]
     |> Enum.map(&Task.async(&1, :load, [user_id]))
-    |> Enum.map(&Task.await(&1, @load_user_data_timeout))
+    |> Enum.map(&Task.await(&1, await_timeout))
   end
 
   defp process_action(%{action: "noop"}) do

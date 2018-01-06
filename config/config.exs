@@ -37,8 +37,16 @@ config :logger, :console,
     error: :red
   ]
 
-config :neko, :shikimori_client, Neko.Shikimori.HTTPClient
-config :neko, :shikimori_url, "https://shikimori.org/api/"
+# request timeout (user_handler_registry/call_timeout)
+#   -> await timeout of tasks to load user data (shikimori/recv_timeout)
+#     -> store agent call timeout (shikimori/recv_timeout)
+#       -> http client receive timeout (shikimori/recv_timeout)
+#   -> poolboy timeout to calculate achievements (simple_rule_worker_pool/timeout)
+
+config :neko, :shikimori,
+  client: Neko.Shikimori.HTTPClient,
+  url: "https://shikimori.org/api/",
+  recv_timeout: 90_000
 config :neko, :rules,
   dir: "priv/rules",
   list: [Neko.Rules.SimpleRule],
