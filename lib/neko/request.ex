@@ -1,4 +1,6 @@
 defmodule Neko.Request do
+  @moduledoc false
+
   defstruct ~w(
     id
     user_id

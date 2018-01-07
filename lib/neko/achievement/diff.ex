@@ -1,5 +1,7 @@
 # https://stackoverflow.com/questions/36345425
 defmodule Neko.Achievement.Diff do
+  @moduledoc false
+
   def call(old_achievements, new_achievements) do
     keyed_old_achievements = keyed_achievements(old_achievements)
     keyed_new_achievements = keyed_achievements(new_achievements)

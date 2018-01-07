@@ -1,4 +1,6 @@
 defmodule Neko.Anime do
+  @moduledoc false
+
   alias Neko.Anime.Store
 
   defstruct ~w(

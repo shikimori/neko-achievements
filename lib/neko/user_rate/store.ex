@@ -1,4 +1,6 @@
 defmodule Neko.UserRate.Store do
+  @moduledoc false
+
   @type user_rate_t :: %Neko.UserRate{}
   @type user_rates_t :: MapSet.t(user_rate_t)
 
@@ -46,7 +48,8 @@ defmodule Neko.UserRate.Store do
 
   @spec user_rates(pos_integer) :: user_rates_t
   defp user_rates(user_id) do
-    Neko.Shikimori.Client.get_user_rates!(user_id)
+    user_id
+    |> Neko.Shikimori.Client.get_user_rates!()
     |> MapSet.new()
   end
 end

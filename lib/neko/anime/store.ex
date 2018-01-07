@@ -1,4 +1,6 @@
 defmodule Neko.Anime.Store do
+  @moduledoc false
+
   @type anime_t :: %Neko.Anime{}
   @type animes_t :: MapSet.t(anime_t)
 

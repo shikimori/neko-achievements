@@ -1,4 +1,6 @@
 defmodule Neko.Rules.SimpleRule.Store do
+  @moduledoc false
+
   @type rule_t :: %Neko.Rules.SimpleRule{}
   @type rules_t :: MapSet.t(rule_t)
 
@@ -77,6 +79,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   # it's faster than !Enum.empty?(list_1 -- (list_1 -- list_2)),
   # using Kernel.!() is a little bit faster than Kernel.not()
   defp lists_overlap?(list_1, list_2) do
+    # credo:disable-for-lines:2
     MapSet.new(list_1)
     |> MapSet.intersection(MapSet.new(list_2))
     |> Enum.empty?()
@@ -123,7 +126,8 @@ defmodule Neko.Rules.SimpleRule.Store do
   # when threshold is a string value, percent is implied
   defp parse_threshold(rule) do
     percent = rule.threshold |> Float.parse() |> elem(0)
-    MapSet.size(rule.anime_ids) * percent / 100 |> Float.round(2)
+    threshold = MapSet.size(rule.anime_ids) * percent / 100
+    threshold |> Float.round(2)
   end
 
   # access to all rules is required to calculate
@@ -146,7 +150,8 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   @spec rules() :: rules_t
   defp rules do
-    @rules_reader.read_rules(@algo)
+    @algo
+    |> @rules_reader.read_rules()
     |> MapSet.new()
   end
 end

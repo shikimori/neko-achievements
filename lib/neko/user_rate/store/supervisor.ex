@@ -1,4 +1,6 @@
 defmodule Neko.UserRate.Store.Supervisor do
+  @moduledoc false
+
   use Supervisor
 
   #------------------------------------------------------------------

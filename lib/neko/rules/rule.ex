@@ -1,4 +1,6 @@
 defmodule Neko.Rules.Rule do
+  @moduledoc false
+
   # can't specify all callback modules as union type - this would
   # result in 'deadlocked waiting on module Neko.Rules.SimpleRule'
   # (-> Rule and SimpleRule wait for each other to be compiled)

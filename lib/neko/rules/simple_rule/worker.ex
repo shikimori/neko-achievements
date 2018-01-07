@@ -1,4 +1,6 @@
 defmodule Neko.Rules.SimpleRule.Worker do
+  @moduledoc false
+
   use GenServer
   require Logger
 

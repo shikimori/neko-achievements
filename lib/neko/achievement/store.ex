@@ -1,4 +1,6 @@
 defmodule Neko.Achievement.Store do
+  @moduledoc false
+
   @type achievement_t :: %Neko.Achievement{}
   @type achievements_t :: MapSet.t(achievement_t)
 
@@ -38,7 +40,8 @@ defmodule Neko.Achievement.Store do
 
   @spec achievements(pos_integer) :: achievements_t
   defp achievements(user_id) do
-    Neko.Shikimori.Client.get_achievements!(user_id)
+    user_id
+    |> Neko.Shikimori.Client.get_achievements!()
     |> MapSet.new()
   end
 end

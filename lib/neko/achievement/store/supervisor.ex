@@ -1,4 +1,6 @@
 defmodule Neko.Achievement.Store.Supervisor do
+  @moduledoc false
+
   use Supervisor
 
   #------------------------------------------------------------------

@@ -1,6 +1,8 @@
 # it's used just like Neko.UserRate.Store.Supervisor
 # except that store registry is provided by Elixir's Registry
 defmodule Neko.UserHandler.Supervisor do
+  @moduledoc false
+
   use Supervisor
   require Logger
 

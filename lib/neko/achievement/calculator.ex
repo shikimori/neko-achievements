@@ -1,4 +1,6 @@
 defmodule Neko.Achievement.Calculator do
+  @moduledoc false
+
   @rules_list Application.get_env(:neko, :rules)[:list]
 
   def call(user_id) do

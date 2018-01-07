@@ -1,5 +1,9 @@
 # http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
+#
+# credo:disable-for-this-file Credo.Check.Refactor.PipeChainStart
 defmodule Neko.Shikimori.HTTPClient do
+  @moduledoc false
+
   @behaviour Neko.Shikimori.Client.Behaviour
 
   use HTTPoison.Base

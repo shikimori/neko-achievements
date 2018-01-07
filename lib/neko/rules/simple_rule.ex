@@ -1,4 +1,6 @@
 defmodule Neko.Rules.SimpleRule do
+  @moduledoc false
+
   @behaviour Neko.Rules.Rule
 
   alias Neko.Rules.SimpleRule.Store
@@ -22,8 +24,10 @@ defmodule Neko.Rules.SimpleRule do
     Store.set(rules)
 
     config = worker_pool_config()
-    GenServer.call(config[:name], :get_avail_workers)
-    |> Enum.each(fn(pid) -> apply(config[:module], :reload, [pid]) end)
+    all_workers = GenServer.call(config[:name], :get_avail_workers)
+    all_workers |> Enum.each(fn(pid) ->
+      apply(config[:module], :reload, [pid])
+    end)
   end
 
   def worker_pool_config do
@@ -79,6 +83,7 @@ defmodule Neko.Rules.SimpleRule do
   end
   defp progress(rule, count) do
     %{threshold: threshold, next_threshold: next_threshold} = rule
-    ((count - threshold) / (next_threshold - threshold)) * 100 |> Float.floor()
+    progress = ((count - threshold) / (next_threshold - threshold)) * 100
+    progress |> Float.floor()
   end
 end

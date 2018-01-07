@@ -1,5 +1,9 @@
 defmodule Neko.Rules.Reader do
+  @moduledoc false
+
   defmodule Behaviour do
+    @moduledoc false
+
     @callback read_rules(String.t) :: list(%Neko.Rules.SimpleRule{})
   end
 
@@ -7,11 +11,13 @@ defmodule Neko.Rules.Reader do
   @rules_dir Application.get_env(:neko, :rules)[:dir]
 
   def read_rules(algo) do
-    read_from_file(algo)
+    algo
+    |> read_from_file()
     |> Enum.map(&Neko.Rules.SimpleRule.new/1)
   end
 
   defp read_from_file(algo) do
+    # credo:disable-for-lines:2
     Application.app_dir(:neko, @rules_dir)
     |> Path.join("*.yml")
     |> Path.wildcard()

@@ -1,4 +1,6 @@
 defmodule Neko.Achievement do
+  @moduledoc false
+
   # > For maximum performance, make sure you
   # > @derive [Poison.Encoder] for any struct
   # > you plan on encoding.
@@ -17,7 +19,10 @@ defmodule Neko.Achievement do
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> {:ok, :already_loaded}
-      :error -> Registry.fetch(user_id) |> Store.reload(user_id)
+      :error ->
+        user_id
+        |> Registry.fetch()
+        |> Store.reload(user_id)
     end
   end
 
@@ -29,10 +34,12 @@ defmodule Neko.Achievement do
   end
 
   def all(user_id) do
+    # credo:disable-for-next-line Credo.Check.Refactor.PipeChainStart
     store(user_id) |> Store.all()
   end
 
   def set(user_id, achievements) do
+    # credo:disable-for-next-line Credo.Check.Refactor.PipeChainStart
     store(user_id) |> Store.set(achievements)
   end
 
