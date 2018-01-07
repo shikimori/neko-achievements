@@ -58,7 +58,8 @@ defmodule Neko.Mixfile do
       # production and on CircleCI)
       {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"},
       {:appsignal, "~> 1.0"},
-      {:poolboy, "~> 1.5.1"}
+      {:poolboy, "~> 1.5.1"},
+      {:credo, "~> 0.8", only: [:dev, :test], runtime: false}
     ]
   end
 
