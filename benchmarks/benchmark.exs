@@ -31,7 +31,8 @@ defmodule Benchmark do
   end
 
   defp simple_rules do
-    Neko.Rules.Reader.read_rules("simple")
+    "simple"
+    |> Neko.Rules.Reader.read_rules()
     |> MapSet.new()
   end
 
