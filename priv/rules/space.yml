@@ -9,7 +9,7 @@
   metadata:
     title_ru: 3-2-1... Пуск!
     text_ru: Маленький шаг для одного человека, но гигантский скачок для всего человечества.
-    image: http://i.imgur.com/TxxXm8H.png
+    image: /assets/achievements/anime/space_1.png
     border_color: "#172d91"
     topic_id: 227428
 
@@ -19,8 +19,8 @@
   metadata:
     title_ru: Земля отсюда совсем крошечная
     text_ru: До чего же прекрасна Земля, если глядеть на неё сверху! Однако, не слишком ли тесно? Вашему миру пора расширяться — от маленькой Земли до целой вселенной.
-    image: http://i.imgur.com/HZL23tN.png
-    border_color: "#0000cd"
+    image: /assets/achievements/anime/space_2.png
+    border_color: "#58a6e8"
 
 - <<: *defaults
   level: 3
@@ -28,11 +28,13 @@
   metadata:
     title_ru: Межзвездный скиталец.
     text_ru: Космос. Он так пуст, но в то же время полон жизни.
+    image: /assets/achievements/anime/space_3.png
+    border_color: "#bb7171"
 
 - <<: *defaults
   level: 4
   threshold: 100
   metadata:
     title_ru: Император галактики
-    image: http://i.imgur.com/YcZihC4.gif
-    border_color: "#ffd700"
+    image: /assets/achievements/anime/space_4.gif
+    border_color: "#e4bd3d"
