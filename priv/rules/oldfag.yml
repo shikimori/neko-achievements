@@ -23,7 +23,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 350
+  threshold: 300
   metadata:
     title_ru: Ветер ностальгии
     text_ru: Серьезно, сколько вам лет?
