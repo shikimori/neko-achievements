@@ -139,6 +139,8 @@
   metadata:
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
+    image: https://kawai.shikimori.org/system/user_images/original/87660/504206.jpg
+    border_color: "#89191C"
 
 - <<: *defaults
   level: 3
