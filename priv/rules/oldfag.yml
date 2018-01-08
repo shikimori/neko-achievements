@@ -18,8 +18,8 @@
   metadata:
     title_ru: Золотая коллекция
     text_ru: Видеосалоны, запись на VHS... Вы помните все так, будто это было вчера.
-    image: https://nyaa.shikimori.org/system/user_images/original/87660/504185.jpg
-    border_color: "#cedac7"
+    image: https://desu.shikimori.org/system/user_images/original/1/532888.jpg
+    border_color: "#887468"
 
 - <<: *defaults
   level: 3
