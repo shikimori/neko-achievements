@@ -470,15 +470,21 @@
     title_ru:
     text_ru: Ваши первые шаги в жанре а борода уже не сбривается.
     topic_id: 227419
+    image: /assets/achievements/anime/gar_1.jpg
+    border_color: "#333d2f"
 
 - <<: *defaults
   level: 2
   threshold: 25%
   metadata:
     text_ru: Вы больше не помещаетесь в зеркалах.
+    image: /assets/achievements/anime/gar_2.jpg
+    border_color: "#c79001"
 
 - <<: *defaults
   level: 3
   threshold: 40%
   metadata:
     text_ru: Физика играет по вашим правилам.
+    image: /assets/achievements/anime/gar_3.gif
+    border_color: "#c537a3"
