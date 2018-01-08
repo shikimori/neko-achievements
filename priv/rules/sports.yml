@@ -9,7 +9,7 @@
   metadata:
     title_ru: Первый раз на площадке
     text_ru: Стартовый свисток дан — пора в бой!
-    image: http://s5.postimg.org/p7elh9mjb/Run_1.jpg
+    image: /assets/achievements/anime/sports_1.png
     border_color: "#975916"
     topic_id: 227429
 
@@ -19,7 +19,7 @@
   metadata:
     title_ru: С головой ушел в игру
     text_ru: Борьба в самом разгаре, пора войти в Зону.
-    image: http://s5.postimg.org/6rypxlxsn/basketball_5.jpg
+    image: /assets/achievements/anime/sports_2.png
     border_color: "#cc1111"
 
 - <<: *defaults
@@ -28,7 +28,7 @@
   metadata:
     title_ru: Добро пожаловать в Высшую лигу
     text_ru: Остался последний рывок до победы.
-    image: http://s5.postimg.org/ljtse380n/image.jpg
+    image: /assets/achievements/anime/sports_3.png
     border_color: "#82c54f"
 
 - <<: *defaults
@@ -37,5 +37,5 @@
   metadata:
     title_ru: Олимпийский чемпион
     text_ru: Первый на пъедестале. Отличная работа!
-    image: http://i.imgur.com/9oBtlqF.gif
+    image: /assets/achievements/anime/sports_4.gif
     border_color: "#c45812"

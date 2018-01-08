@@ -9,8 +9,8 @@
   metadata:
     title_ru: Первая встреча с духами
     text_ru: Слабое сердце манит демонов. Хотите жить — никогда не расслабляйтесь.
-    image: http://i.imgur.com/po7mAFJ.png
-    border_color: "#091102"
+    image: /assets/achievements/anime/supernatural_1.png
+    border_color: "#93bc3c"
     topic_id: 222068
 
 - <<: *defaults
@@ -19,7 +19,7 @@
   metadata:
     title_ru: Обнаружили у себя странные силы?
     text_ru: Сила есть в каждом из нас. Но, когда она пробуждается, важно решить, как её использовать. Иногда мы совсем не готовы к этому.
-    image: http://imgur.com/oJNnKMJ
+    image: /assets/achievements/anime/supernatural_2.png
     border_color: "#070c0e"
 
 - <<: *defaults
@@ -28,8 +28,8 @@
   metadata:
     title_ru: В поисках Ёкаев
     text_ru: Если услышите колокольный звон в горах и, пойдя на звук, увидите дичь, значит, это был рев бога гор.
-    image: http://i.imgur.com/u0N3HG8.png
-    border_color: "#62182b"
+    image: /assets/achievements/anime/supernatural_3.png
+    border_color: "#b28ec0"
 
 - <<: *defaults
   level: 4
@@ -37,5 +37,5 @@
   metadata:
     title_ru: Унесённые призраками
     text_ru: Если забудешь своё имя, то не сможешь вернуться домой.
-    image: http://i7.5cm.ru/i/fLMV.gif
-    border_color: "#071a09"
+    image: /assets/achievements/anime/supernatural_4.gif
+    border_color: "#42a89a"
