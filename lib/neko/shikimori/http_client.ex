@@ -17,7 +17,7 @@ defmodule Neko.Shikimori.HTTPClient do
 
     json
     |> Poison.decode(as: [%Neko.UserRate{}])
-    |> handle_parse_json(json)
+    |> handle_parse_json!(json)
   end
 
   def get_achievements!(user_id) do
@@ -25,23 +25,23 @@ defmodule Neko.Shikimori.HTTPClient do
     json = make_request!(:get, "achievements", params)
 
     json
-    |> Poison.decode!(as: [%Neko.Achievement{}])
-    |> handle_parse_json(json)
+    |> Poison.decode(as: [%Neko.Achievement{}])
+    |> handle_parse_json!(json)
   end
 
   def get_animes! do
     json = make_request!(:get, "animes/neko")
 
     json
-    |> Poison.decode!(as: [%Neko.Anime{}])
-    |> handle_parse_json(json)
+    |> Poison.decode(as: [%Neko.Anime{}])
+    |> handle_parse_json!(json)
   end
 
   defp make_request!(:get, path, params \\ %{}) do
     get!(path, [], params: params).body
   end
 
-  defp handle_parse_json(result, json) do
+  defp handle_parse_json!(result, json) do
     case result do
       {:ok, value} -> value
       {:error, _} -> raise("error parsing shikimori response: #{json}")
