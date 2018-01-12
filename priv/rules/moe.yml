@@ -186,7 +186,7 @@
   metadata:
     title_ru: Начинающий моэфаг
     text_ru: Позволь проводить тебя в удивительный 2д-мир.
-    image: http://i944.photobucket.com/albums/ad284/dzh2011/02/yuruyuri22.jpg
+    image: /assets/achievements/anime/moe_1.jpg
     border_color: "#f0d698"
     topic_id: 227423
 
@@ -196,7 +196,7 @@
   metadata:
     title_ru: Лучи кавая
     text_ru: Поражают в самое сердце.
-    image: https://31.media.tumblr.com/9f3d1511d5e0025416ca04e5b55ee3fd/tumblr_n6rv1333lw1swb4xxo4_500.gif
+    image: /assets/achievements/anime/moe_2.gif
     border_color: "#fdbdba"
 
 - <<: *defaults
@@ -205,5 +205,5 @@
   metadata:
     title_ru: Первоклассная моэта
     text_ru: Вы приняли слишком большую дозу тортиков и сами стали моэ.
-    image: http://i.imgur.com/Arxun3R.gif
+    image: /assets/achievements/anime/moe_3.gif
     border_color: "#ff0000"
