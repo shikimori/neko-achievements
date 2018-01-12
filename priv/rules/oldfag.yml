@@ -8,7 +8,7 @@
   metadata:
     title_ru: Ценитель классики
     text_ru: "Раньше было лучше: деревья — выше, трава — зеленее, а аниме — интереснее."
-    image: http://i.imgur.com/I3DvFcX.png
+    image: /assets/achievements/anime/oldfag_1.png
     border_color: "#c5d0e6"
     topic_id: 227424
 
@@ -18,7 +18,7 @@
   metadata:
     title_ru: Золотая коллекция
     text_ru: Видеосалоны, запись на VHS... Вы помните все так, будто это было вчера.
-    image: https://desu.shikimori.org/system/user_images/original/1/532888.jpg
+    image: /assets/achievements/anime/oldfag_2.jpg
     border_color: "#887468"
 
 - <<: *defaults
@@ -27,7 +27,7 @@
   metadata:
     title_ru: Ветер ностальгии
     text_ru: Серьезно, сколько вам лет?
-    image: https://i.yapx.ru/JK3F.jpg
+    image: /assets/achievements/anime/oldfag_3.jpg
     border_color: "#1c1c1c"
 
 - <<: *defaults
@@ -36,5 +36,5 @@
   metadata:
     title_ru: Здоровался за руку с Осаму Тэдзукой
     text_ru: Вы — часть минувшей эпохи. Живая легенда.
-    image: https://i.yapx.ru/JK3J.jpg
+    image: /assets/achievements/anime/oldfag_4.jpg
     border_color: "#a5a5a5"

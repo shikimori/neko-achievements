@@ -9,7 +9,7 @@
   metadata:
     title_ru: Первое дело
     text_ru: Было не просто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
-    image: https://pp.userapi.com/c638321/v638321323/3997e/EGJ6gOU1aSA.jpg
+    image: /assets/achievements/anime/mystery_1.jpg
     border_color: "#4c514a"
     topic_id: 222047
 
@@ -19,7 +19,7 @@
   metadata:
     title_ru: Убийца - дворецкий!
     text_ru: Вы не понаслышке знакомы с дедукцией. Вам нет равных среди юных детективов.
-    image: http://i.imgur.com/DFrq5pY.jpg
+    image: /assets/achievements/anime/mystery_2.jpg
     border_color: "#3a59a8"
 
 - <<: *defaults
@@ -28,7 +28,7 @@
   metadata:
     title_ru: За семью печатями
     text_ru: Мэтры детективного дела обращаются к вам за советами.
-    image: https://i.yapx.ru/JK6g.jpg
+    image: /assets/achievements/anime/mystery_3.jpg
     border_color: "#919192"
 
 - <<: *defaults
@@ -37,5 +37,5 @@
   metadata:
     title_ru: Великий детектив
     text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
-    image: https://i.imgur.com/oPp3SWS.gif
+    image: /assets/achievements/anime/mystery_4.gif
     border_color: "#919192"

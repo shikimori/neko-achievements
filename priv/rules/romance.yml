@@ -9,7 +9,7 @@
   metadata:
     title_ru: Сталкер
     text_ru: Сталкер 24/7. Почему ты меня не замечаешь?
-    image: http://s5.postimg.org/ykjbfqyqf/Rom_1_00000.jpg
+    image: /assets/achievements/anime/romance_1.jpg
     border_color: "#e2b801"
     topic_id: 222064
 
@@ -19,7 +19,7 @@
   metadata:
     title_ru: Первое признание в любви.
     text_ru: Если ты не признаешься, он никогда не узнает о твоих чувствах.
-    image: http://s5.postimg.org/fqxiir0if/Rom_5_00000.jpg
+    image: /assets/achievements/anime/romance_2.jpg
     border_color: "#9e9cb2"
 
 - <<: *defaults
@@ -28,7 +28,7 @@
   metadata:
     title_ru: Конфетно-букетный период
     text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
-    image: http://24.media.tumblr.com/c1b3a3869b68001656b07a49c02a8324/tumblr_muleo6ItG01skzv6ro1_500.gif
+    image: /assets/achievements/anime/romance_3.gif
     border_color: "#EBE5E5"
 
 - <<: *defaults
@@ -37,5 +37,5 @@
   metadata:
     title_ru: Сердце, полное любви
     text_ru: Эксперт в отношениях.
-    image: http://media.giphy.com/media/3oEdv7Z9NDQFcTzMha/giphy.gif
+    image: /assets/achievements/anime/romance_4.gif
     border_color: "#001a6e"

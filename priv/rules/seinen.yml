@@ -10,7 +10,7 @@
     text_ru: |-
       — Ты похож на нормального.
       — Наверное. Я ещё только учусь.
-    image: https://moe.shikimori.org/system/user_images/original/50587/459007.jpg
+    image: /assets/achievements/anime/seinen_1.jpg
     border_color: "#9c521c"
     topic_id: 222063
 
@@ -19,14 +19,14 @@
   threshold: 40
   metadata:
     text_ru: Дождь не может смыть страх, злобу, печаль. Обычно в жизни всё получается наоборот, становится только хуже...
-    image: https://desu.shikimori.org/system/user_images/original/50587/459288.jpg
+    image: /assets/achievements/anime/seinen_2.jpg
     border_color: "#595348"
 
 - <<: *defaults
   level: 3
   threshold: 60
   metadata:
-    image: https://i.yapx.ru/JZNL.png
+    image: /assets/achievements/anime/seinen_3.png
     border_color: "#d76e00"
 
 - <<: *defaults
