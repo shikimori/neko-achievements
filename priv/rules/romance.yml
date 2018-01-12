@@ -28,8 +28,8 @@
   metadata:
     title_ru: Конфетно-букетный период
     text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
-    image: /assets/achievements/anime/romance_3.gif
-    border_color: "#EBE5E5"
+    image: /assets/achievements/anime/romance_3.jpg
+    border_color: "#f16251"
 
 - <<: *defaults
   level: 4
