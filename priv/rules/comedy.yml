@@ -26,7 +26,7 @@
   metadata:
     title_ru: Вечный смех
     text_ru: В психушке вам будут рады. Для вас открыты двери каждой психбольницы.
-    image: /assets/achievements/anime/comedy_3.jpg
+    image: /assets/achievements/anime/comedy_3.gif
     border_color: "#7f8f18"
 
 - <<: *defaults

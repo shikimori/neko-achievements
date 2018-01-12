@@ -19,7 +19,7 @@
   metadata:
     title_ru: Первая миссия
     text_ru: Тихо... Медленно... Осторожно...
-    image: /assets/achievements/anime/action_2.jpg
+    image: /assets/achievements/anime/action_2.png
     border_color: "#4d4a57"
 
 - <<: *defaults
