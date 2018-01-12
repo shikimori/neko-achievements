@@ -10,7 +10,7 @@
   metadata:
     title_ru: Вуайерист-любитель
     text_ru: Поздравляем! В тебе проснулась внутренняя фудзёси!
-    image: http://i.imgur.com/R6PqIoT.png
+    image: /assets/achievements/anime/fujoshi_1.png
     border_color: "#e82a8d"
     topic_id: 227418
 
@@ -20,7 +20,7 @@
   metadata:
     title_ru: Голубок
     text_ru: 'Поворачивать назад уже слишком поздно. Пора совершить каминг-аут и наконец-то признать свою любовь к "не очень традиционным" историям.'
-    image: http://i.imgur.com/TLvZb0E.png
+    image: /assets/achievements/anime/fujoshi_2.png
     border_color: "#e82a8d"
 
 - <<: *defaults
@@ -29,7 +29,7 @@
   metadata:
     title_ru: Шиппер
     text_ru: Мужская дружба? Не, не слышали.
-    image: http://i.imgur.com/DKfMKBR.png
+    image: /assets/achievements/anime/fujoshi_3.png
     border_color: "#e82a8d"
 
 - <<: *defaults
@@ -38,5 +38,5 @@
   metadata:
     title_ru: Яойный бог
     text_ru: Яой - не жанр. Яой — это стиль жизни.
-    image: https://shikimori.org/assets/achievements/anime/fujoshi_3.jpg
+    image: /assets/achievements/anime/fujoshi_4.jpg
     border_color: "#e82a8d"
