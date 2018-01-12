@@ -9,7 +9,7 @@
   metadata:
     title_ru: Курс молодого бойца
     text_ru: Вы обучены искусству уничтожения.
-    image: https://nyaa.shikimori.org/system/user_images/original/1/532910.jpg
+    image: /assets/achievements/anime/action_1.jpg
     border_color: "#4d4a57"
     topic_id: 222051
 
@@ -19,7 +19,7 @@
   metadata:
     title_ru: Первая миссия
     text_ru: Тихо... Медленно... Осторожно...
-    image: http://i.imgur.com/j6UzfjL.png
+    image: /assets/achievements/anime/action_2.jpg
     border_color: "#4d4a57"
 
 - <<: *defaults
@@ -28,7 +28,7 @@
   metadata:
     title_ru: BOOM! Headshot!
     text_ru: Один выстрел — один труп. Вы — множитель боевой силы.
-    image: https://desu.shikimori.org/system/user_images/original/40201/108423.jpg
+    image: /assets/achievements/anime/action_3.jpg
     border_color: "#142300"
 
 - <<: *defaults
@@ -37,5 +37,5 @@
   metadata:
     title_ru: Элитный наемник
     text_ru: Армия из одного человека.
-    image: https://i.yapx.ru/JMqe.gif
+    image: /assets/achievements/anime/action_4.gif
     border_color: "#755d9a"
