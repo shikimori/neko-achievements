@@ -67,7 +67,7 @@
     text_ru: Если долго всматриваться в бездну — бездна начнет всматриваться в тебя.
     title_en: Abyss
     text_en: When you look into the abyss, the abyss stares back at you.
-    image: https://lh3.googleusercontent.com/5GlJJYYzodzjTuR5IiDN9Fj2KR_X-CYZtTEqPN6iUHAOHfKr3QvI_jElrRwEg7rNR-Jctcvq89-jliPlLA8sI7ZNHAOWZp3EEZhQcDmogawgqs9mIklOkHUxDQ89MbyN-nEYU9rGwtTa63p0og
+    image: /assets/achievements/anime/yandere_1.jpg
     border_color: "#821d60"
     topic_id: 227431
 
@@ -78,7 +78,7 @@
     title_ru: Ураган
     text_ru: Ураганы имеют одну интересную особенность — в их центре всегда спокойно.
     title_en: Hurricane
-    image: http://i.imgur.com/5Dk8pth.png?1
+    image: /assets/achievements/anime/yandere_2.png
     border_color: "#9a4cb7"
 
 - <<: *defaults
@@ -88,5 +88,5 @@
     title_ru: Безумие
     text_ru: Умри, пожалуйста!
     title_en: Insanity
-    image: http://31.media.tumblr.com/tumblr_mdfamrgrfH1rshzuyo1_500.gif
+    image: /assets/achievements/anime/yandere_3.gif
     border_color: "#2F2E2D"

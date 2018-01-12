@@ -10,7 +10,7 @@
   metadata:
     title_ru: Женская дружба
     text_ru: Лишь невинные заигрывания, только и всего.
-    image: http://i.imgur.com/MXx0Dzc.png
+    image: /assets/achievements/anime/yuuri_1.png
     border_color: "#d5a471"
     topic_id: 227432
 
@@ -20,7 +20,7 @@
   metadata:
     title_ru: Первые чувства
     text_ru: Быть может, это неправильно. Но кого это волнует?
-    image: http://i.imgur.com/75lnhMa.png
+    image: /assets/achievements/anime/yuuri_2.png
     border_color: "#d293a2"
 
 - <<: *defaults
@@ -31,7 +31,7 @@
     text_ru: ... и мне понравилось!
     title_en: I kissed a girl...
     text_en: ...and I liked it!
-    image: http://i.imgur.com/c5My2Mg.png
+    image: /assets/achievements/anime/yuuri_3.png
     border_color: "#935c49"
 
 - <<: *defaults
@@ -40,7 +40,5 @@
   metadata:
     title_ru: Счастливая семейная жизнь
     text_ru: Лилии цветут в вашем доме.
-    image:
-      - https://media.giphy.com/media/JynbO9pnGxPrO/giphy.gif
-    border_color:
-      - "#e73a95"
+    image: /assets/achievements/anime/yuuri_4.gif
+    border_color: "#e73a95"
