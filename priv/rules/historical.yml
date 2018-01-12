@@ -9,7 +9,7 @@
   metadata:
     title_ru: Уроки истории
     text_ru: История может быть захватывающей... Вот только не стоит учить ее по аниме.
-    image: http://i.imgur.com/PxbRfzj.png
+    image: /assets/achievements/anime/historical_1.png
     border_color: "#3c3949"
     topic_id: 222065
 
@@ -19,7 +19,7 @@
   metadata:
     title_ru: Оглянувшись назад
     text_ru: Не знающий своего прошлого, не имеет будущего.
-    image: http://i.imgur.com/B3b7MeQ.png
+    image: /assets/achievements/anime/historical_2.jpg
     border_color: "#4f3542"
 
 - <<: *defaults
@@ -28,7 +28,7 @@
   metadata:
     title_ru: Археолог
     text_ru: Разбитая посуда приносит счастье только археологам.
-    image: http://i.imgur.com/ZkXjMjT.jpg
+    image: /assets/achievements/anime/historical_3.jpg
     border_color: "#353a58"
 
 - <<: *defaults
