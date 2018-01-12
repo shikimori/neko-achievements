@@ -53,7 +53,7 @@
   metadata:
     title_ru: Тишина
     text_ru: Кудере молчит только потому, что того хочет.
-    image: http://gifok.net/images/2015/06/23/KUDERE1LVL.jpg
+    image: /assets/achievements/anime/kuudere_1.jpg
     border_color: "#9ad1ee"
     topic_id: 227421
 
@@ -63,7 +63,7 @@
   metadata:
     title_ru: Мудрость
     text_ru: Умный менее всего одинок тогда, когда он находится в одиночестве.
-    image: http://gifok.net/images/2015/06/23/KUDERE2LVL.jpg
+    image: /assets/achievements/anime/kuudere_2.jpg
     border_color: "#4a4a40"
 
 - <<: *defaults
@@ -74,5 +74,5 @@
     text_ru: |-
       - Как вы можете оставаться таким холодным?
       - Практика.
-    image: http://gifok.net/images/2015/06/23/KUDERE3LVL.jpg
+    image: /assets/achievements/anime/kuudere_3.jpg
     border_color: "#533e41"
