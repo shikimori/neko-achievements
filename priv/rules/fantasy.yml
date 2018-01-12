@@ -9,7 +9,7 @@
   metadata:
     title_ru: Попаданец
     text_ru: Первый шаг в новом мире.
-    image: http://i.imgur.com/Go4cIYp.png
+    image: /assets/achievements/anime/fantasy_1.png
     border_color: "#de3c20"
     topic_id: 222041
 
@@ -19,7 +19,7 @@
   metadata:
     title_ru: Искатель приключений
     text_ru: Диковинные вещицы, верные друзья и великие свершения ждут тебя!
-    image: http://i.imgur.com/2JKk27J.png
+    image: /assets/achievements/anime/fantasy_2.png
     border_color: "#472a18"
 
 - <<: *defaults
@@ -28,7 +28,7 @@
   metadata:
     title_ru: Герой
     text_ru: Ваши подвиги войдут в историю.
-    image: http://i.imgur.com/LIoCMIo.gif
+    image: /assets/achievements/anime/fantasy_3.gif
     border_color: #f00
 
 - <<: *defaults
@@ -37,5 +37,5 @@
   metadata:
     title_ru: Король королей
     text_ru: Вы видели, как зарождались легенды.
-    image: https://media.giphy.com/media/OHQD6K0hmSctW/giphy.gif
+    image: /assets/achievements/anime/fantasy_4.gif
     border_color: #ffdc00
