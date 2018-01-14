@@ -10,8 +10,7 @@
   metadata:
     title_ru: Смерть дышит в спину
     text_ru: Практически всё в этом мире умирает. В этом мире жизнь — всего лишь незначительная частичка, не более чем секундное явление. Смерть повсеместна.
-    image: /assets/achievements/anime/horror_thriller_1.jpg
-    image: http://i.imgur.com/NEaqM1P.png?1
+    image: /assets/achievements/anime/horror_thriller_1.png
     border_color: "#ddc49c"
     topic_id: 227420
 
@@ -22,7 +21,6 @@
     title_ru: Ночной кошмар
     text_ru: Птицей Гермеса меня называют, крылья свои пожирая, сам я себя укрощаю.
     image: /assets/achievements/anime/horror_thriller_2.png
-    image: http://i.imgur.com/GHJ7R6m.png?1
     border_color: "#510a0b"
 
 - <<: *defaults
@@ -33,7 +31,6 @@
     text_ru: Только люди могут смотреть на убийство себе подобных ради развлечения.
     title_en: All monsters are human
     image: /assets/achievements/anime/horror_thriller_3.png
-    image: http://i.imgur.com/hWxL0YZ.png?1
     border_color: "#d7adb1"
 
 - <<: *defaults
@@ -42,6 +39,5 @@
   metadata:
     title_ru: Hell
     text_ru: Смотри! Внутри меня ничего нет — там пустота, я даже боль не чувствую.
-    image: /assets/achievements/anime/horror_thriller_4.png
-    image: http://i.imgur.com/p5kn96D.gif?1
+    image: /assets/achievements/anime/horror_thriller_4.gif
     border_color: "#2a2a2a"

@@ -499,7 +499,7 @@
   metadata:
     title_ru: Контракт заключён
     text_ru: My master, положено начало вашего становления юной волшебницой.
-    image: https://i.yapx.ru/JECZ.png
+    image: /assets/achievements/anime/mahou_shoujo_1.jpg
     border_color: "#1E1112"
     topic_id: 222067
 
@@ -509,7 +509,7 @@
   metadata:
     title_ru: Магия - второе имя
     text_ru: Не важно, каков ваш пол, вы можете превращаться в девушку с двумя хвостиками и нести возмездие во имя луны.
-    image: https://blackgirlnerds.com/wp-content/uploads/2015/08/sailormoonteam.jpg
+    image: /assets/achievements/anime/mahou_shoujo_2.jpg
     border_color: "#49678d"
 
 - <<: *defaults
@@ -518,7 +518,7 @@
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала, жителям Волшебной страны остаётся только жить-поживать да добра наживать.
-    image: https://pa1.narvii.com/6578/3311238ad7ec1b88296a003d615d1f6ebf635717_hq.gif
+    image: /assets/achievements/anime/mahou_shoujo_3.gif
     border_color: "#FFD6DB"
 
 - <<: *defaults
@@ -527,5 +527,5 @@
   metadata:
     title_ru: Настоящее волшебство?
     text_ru: Вашим силам теперь подвластно само мироздание.
-    image: https://i.yapx.ru/JEvE.gif
+    image: /assets/achievements/anime/mahou_shoujo_4.gif
     border_color: "#FE28A2"
