@@ -19,11 +19,14 @@ defmodule Neko.Achievement do
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> {:ok, :already_loaded}
-      :error ->
-        user_id
-        |> Registry.fetch()
-        |> Store.reload(user_id)
+      :error -> reload(user_id)
     end
+  end
+
+  def reload(user_id) do
+    user_id
+    |> Registry.fetch()
+    |> Store.reload(user_id)
   end
 
   def stop(user_id) do

@@ -20,17 +20,20 @@ defmodule Neko.UserRate do
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> {:ok, :already_loaded}
-      :error ->
-        user_id
-        |> Registry.fetch()
-        |> Store.reload(user_id)
+      :error -> reload(user_id)
     end
   end
 
-  # stopping achievement store stops underlying agent ->
-  # monitoring process (achievement store registry) is notified about
+  def reload(user_id) do
+    user_id
+    |> Registry.fetch()
+    |> Store.reload(user_id)
+  end
+
+  # stopping user rate store stops underlying agent ->
+  # monitoring process (user rate store registry) is notified about
   # about terminated agent process and deletes ETS entry for specified
-  # user_id (no achievement store is mapped to that user_id any longer)
+  # user_id (no user rate store is mapped to that user_id any longer)
   def stop(user_id) do
     case Registry.lookup(user_id) do
       {:ok, store} -> Store.stop(store)

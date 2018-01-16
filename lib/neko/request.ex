@@ -6,8 +6,8 @@ defmodule Neko.Request do
     user_id
     target_id
     score
-    status
     action
+    status
   )a
 
   # NOTE: use ExConstructor after defstruct
@@ -21,9 +21,10 @@ defmodule Neko.Request do
     uppercamelcase: false,
     underscore: false
 
+  @await_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
+
   def process(%{user_id: user_id} = request) do
-    preprocess_action(request)
-    load_user_data(user_id)
+    load_user_data(request)
     process_action(request)
 
     new_achievements = calc_new_achievements(user_id)
@@ -33,11 +34,12 @@ defmodule Neko.Request do
     diff
   end
 
-  defp preprocess_action(%{user_id: user_id, action: "reset"}) do
-    Neko.UserRate.stop(user_id)
-  end
-  defp preprocess_action(%{action: _action}) do
-    # nothing to do for other actions
+  defp load_user_data(%{user_id: user_id, action: "reset"}) do
+    [
+      Task.async(Neko.UserRate, :reload, [user_id]),
+      Task.async(Neko.Achievement, :load, [user_id])
+    ]
+    |> Enum.map(&Task.await(&1, @await_timeout))
   end
 
   # prior to processing requests inside user handler processes any
@@ -52,19 +54,17 @@ defmodule Neko.Request do
   # (since they are also linked) but, unlike before, Plug.ErrorHandler
   # callback is now invoked and proper response with status code 500
   # and error message is sent to the client.
-  defp load_user_data(user_id) do
-    await_timeout = Application.get_env(:neko, :shikimori)[:recv_timeout]
-
+  defp load_user_data(%{user_id: user_id}) do
     [Neko.UserRate, Neko.Achievement]
     |> Enum.map(&Task.async(&1, :load, [user_id]))
-    |> Enum.map(&Task.await(&1, await_timeout))
+    |> Enum.map(&Task.await(&1, @await_timeout))
   end
 
   defp process_action(%{action: "noop"}) do
+    # nothing to do
   end
   defp process_action(%{action: "reset"}) do
-    # user rates are reset in preprocess_action
-    # and then loaded in load_user_data
+    # nothing to do
   end
   defp process_action(%{action: "put", status: "completed"} = request) do
     request.user_id
