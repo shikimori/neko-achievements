@@ -34,14 +34,6 @@ defmodule Neko.Request do
     diff
   end
 
-  defp load_user_data(%{user_id: user_id, action: "reset"}) do
-    [
-      Task.async(Neko.UserRate, :reload, [user_id]),
-      Task.async(Neko.Achievement, :load, [user_id])
-    ]
-    |> Enum.map(&Task.await(&1, @await_timeout))
-  end
-
   # prior to processing requests inside user handler processes any
   # error in a linked task to load achievements or user rates
   # (spawned with Task.async) crashed the caller (request process)
@@ -54,6 +46,13 @@ defmodule Neko.Request do
   # (since they are also linked) but, unlike before, Plug.ErrorHandler
   # callback is now invoked and proper response with status code 500
   # and error message is sent to the client.
+  defp load_user_data(%{user_id: user_id, action: "reset"}) do
+    [
+      Task.async(Neko.UserRate, :reload, [user_id]),
+      Task.async(Neko.Achievement, :load, [user_id])
+    ]
+    |> Enum.map(&Task.await(&1, @await_timeout))
+  end
   defp load_user_data(%{user_id: user_id}) do
     [Neko.UserRate, Neko.Achievement]
     |> Enum.map(&Task.async(&1, :load, [user_id]))
