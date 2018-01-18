@@ -38,7 +38,8 @@ defmodule Neko.Shikimori.HTTPClient do
   end
 
   defp make_request!(:get, path, params \\ %{}) do
-    get!(path, [], params: params).body
+    ssl = [versions: [:"tlsv1.2"]]
+    get!(path, [], params: params, ssl: ssl).body
   end
 
   defp handle_parse_json!(result, json) do
