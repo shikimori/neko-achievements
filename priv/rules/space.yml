@@ -36,5 +36,6 @@
   threshold: 100
   metadata:
     title_ru: Император галактики
+    text_ru: Вы правитель всей Вселенной. Неизменный и победоносный. Нет никого с большей силой, чем у вас.
     image: /assets/achievements/anime/space_4.gif
     border_color: "#e4bd3d"
