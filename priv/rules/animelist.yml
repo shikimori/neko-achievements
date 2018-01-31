@@ -35,8 +35,10 @@
 - <<: *defaults
   level: 5
   threshold: 200
-  metadata: {}
-
+  metadata:
+    title_ru: Беззаботный зритель.
+    text_ru: Просмотрено 200 аниме. Ничего серьёзного. Вы лишь успели привыкли к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
+    
 - <<: *defaults
   level: 6
   threshold: 300
@@ -46,13 +48,17 @@
 - neko_id: animelist
   level: 7
   threshold: 400
-  metadata: {}
+  metadata:
+    title_ru: Есть чем похвастаться.
+    text_ru: Просмотрено 400 аниме. Это... много. Вы можете гордиться собой, определённо.
 
 - <<: *defaults
   level: 8
   threshold: 500
-  metadata: {}
-
+  metadata:
+    title_ru: Много свободного времени?
+    text_ru: Просмотрели 500 аниме... А теперь сделайте паузу, займитесь дыхательной гимнастикой и разомнетесь. Помните, что нельзя сидеть слишком близко к экрану.
+    
 - <<: *defaults
   level: 9
   threshold: 666
@@ -65,8 +71,10 @@
 - <<: *defaults
   level: 10
   threshold: 750
-  metadata: {}
-
+  metadata:
+    title_ru: Это даже не финальная форма.
+    text_ru: Ваш единственный путь — вверх. Пора учиться доброй снисходительности.
+    
 - <<: *defaults
   level: 11
   threshold: 888
