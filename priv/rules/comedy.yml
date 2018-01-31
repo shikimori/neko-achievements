@@ -25,9 +25,9 @@
   threshold: 140
   metadata:
     title_ru: Вечный смех
-    text_ru: В психушке вам будут рады. Для вас открыты двери каждой психбольницы.
-    image: /assets/achievements/anime/comedy_3.gif
-    border_color: "#7f8f18"
+    text_ru: Сатира, пародия, каламбур, сарказм, ирония, гротеск — ни одна шутка не проскользнет мимо вас. Вы - мастер юмора, улавливающий самые тонкие его нотки и плавающий в самых темных его глубинах... но стоит ли продолжать смотреть в бездну?
+    image: https://moe.shikimori.org/system/user_images/original/50587/458972.jpg
+    border_color: "#008080"
 
 - <<: *defaults
   level: 4
@@ -35,3 +35,5 @@
   metadata:
     title_ru: Why so serious?
     text_ru: Юмор пронизывает вашу сущность, не оставляя места ничему другому.
+    image: /assets/achievements/anime/comedy_3.gif
+    border_color: "#7f8f18"
