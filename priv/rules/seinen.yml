@@ -7,6 +7,7 @@
     genre_ids:
       - 42
   metadata:
+    title_ru: Юнец.
     text_ru: |-
       — Ты похож на нормального.
       — Наверное. Я ещё только учусь.
@@ -16,22 +17,25 @@
 
 - <<: *defaults
   level: 2
-  threshold: 40
+  threshold: 60
   metadata:
+    title_ru: Жестокая жизнь.
     text_ru: Дождь не может смыть страх, злобу, печаль. Обычно в жизни всё получается наоборот, становится только хуже...
     image: /assets/achievements/anime/seinen_2.jpg
     border_color: "#595348"
 
 - <<: *defaults
   level: 3
-  threshold: 60
+  threshold: 80
   metadata:
+    title_ru: Великая мечта.
+    text_ru: Тот, кто смеётся с закрытыми глазами, точно знает, что выиграет.
     image: /assets/achievements/anime/seinen_3.png
     border_color: "#d76e00"
 
 - <<: *defaults
   level: 4
-  threshold: 100
+  threshold: 120
   metadata:
-    title_ru: Вы же пострадаете!
+    title_ru: Быть человеком.
     text_ru: Если у вас нет ста пушек в руках и одной в сердце, то дальнейший просмотр становиться рискованным.
