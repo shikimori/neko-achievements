@@ -467,6 +467,7 @@
       - 986
       - 987
   metadata:
+    title_ru: Так мужественно, что не вздохнуть 
     text_ru: Ваши первые шаги в жанре а борода уже не сбривается.
     topic_id: 227419
     image: /assets/achievements/anime/gar_1.jpg
@@ -476,6 +477,7 @@
   level: 2
   threshold: 25%
   metadata:
+    title_ru: Буря тестостерона 
     text_ru: Вы больше не помещаетесь в зеркалах.
     image: /assets/achievements/anime/gar_2.jpg
     border_color: "#c79001"
@@ -484,6 +486,7 @@
   level: 3
   threshold: 40%
   metadata:
+    title_ru: Альфа-самец
     text_ru: Физика играет по вашим правилам.
     image: /assets/achievements/anime/gar_3.gif
     border_color: "#c537a3"
