@@ -9,8 +9,8 @@
   metadata:
     title_ru: Уроки истории
     text_ru: История может быть захватывающей... Вот только не стоит учить ее по аниме.
-    image: /assets/achievements/anime/historical_1.jpg
-    border_color: "#3c3949"
+    image: https://desu.shikimori.org/system/user_images/original/16398/468413.jpg
+    border_color: "#C5D0E6"
     topic_id: 222065
 
 - <<: *defaults
@@ -38,3 +38,5 @@
     title_ru: Путешественник во времени
     text_ru: |-
       Машина времени есть у каждого. Для путешествия в прошлое есть воспоминания, а для путешествия в будущее — мечты.
+    image: https://68.media.tumblr.com/c8ce1e02c630baf93e93f35a0f740868/tumblr_od00k2bT0f1v62oblo4_400.gif
+    border_color: "#003153"
