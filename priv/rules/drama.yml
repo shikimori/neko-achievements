@@ -8,9 +8,9 @@
       - 8
   metadata:
     title_ru: Скупая слеза
-    text_ru: Я не плачу, мне что-то в глаз попало!
-    image: /assets/achievements/anime/drama_1.jpg
-    border_color: "#f46c2d"
+    text_ru: Это всего лишь дождь.
+    image: https://desu.shikimori.org/system/user_images/original/3824/544823.jpg
+    border_color: "#A2A2D0"
     topic_id: 222044
 
 - <<: *defaults
