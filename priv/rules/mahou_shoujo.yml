@@ -518,7 +518,7 @@
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала, жителям Волшебной страны остаётся только жить-поживать да добра наживать.
-    image: https://nyaa.shikimori.org/system/user_images/original/34807/477935.jpg
+    image: /assets/achievements/anime/mahou_shoujo_3.jpg
     border_color: "#D8B1BF"
 
 - <<: *defaults
