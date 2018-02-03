@@ -196,7 +196,7 @@
   metadata:
     title_ru: Лучи кавая
     text_ru: Поражают в самое сердце.
-    image: /assets/achievements/anime/moe_2.gif
+    image: https://moe.shikimori.org/system/user_images/original/7642/546007.jpg
     border_color: "#fdbdba"
 
 - <<: *defaults
