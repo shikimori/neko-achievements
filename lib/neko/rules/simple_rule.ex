@@ -25,9 +25,8 @@ defmodule Neko.Rules.SimpleRule do
 
     config = worker_pool_config()
     all_workers = GenServer.call(config[:name], :get_avail_workers)
-    all_workers |> Enum.each(fn(pid) ->
-      apply(config[:module], :reload, [pid])
-    end)
+    all_workers
+    |> Enum.each(fn(pid) -> apply(config[:module], :reload, [pid]) end)
   end
 
   def worker_pool_config do
