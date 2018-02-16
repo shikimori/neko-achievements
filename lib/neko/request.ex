@@ -53,6 +53,7 @@ defmodule Neko.Request do
     ]
     |> Enum.map(&Task.await(&1, @await_timeout))
   end
+
   defp load_user_data(%{user_id: user_id}) do
     [Neko.UserRate, Neko.Achievement]
     |> Enum.map(&Task.async(&1, :load, [user_id]))
@@ -62,17 +63,21 @@ defmodule Neko.Request do
   defp process_action(%{action: "noop"}) do
     # nothing to do
   end
+
   defp process_action(%{action: "reset"}) do
     # nothing to do
   end
+
   defp process_action(%{action: "put", status: "completed"} = request) do
     request.user_id
     |> Neko.UserRate.put(Neko.UserRate.from_request(request))
   end
+
   defp process_action(%{action: "put"} = request) do
     request.user_id
     |> Neko.UserRate.delete(Neko.UserRate.from_request(request))
   end
+
   defp process_action(%{action: "delete"} = request) do
     request.user_id
     |> Neko.UserRate.delete(Neko.UserRate.from_request(request))

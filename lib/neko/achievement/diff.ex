@@ -7,23 +7,26 @@ defmodule Neko.Achievement.Diff do
     keyed_new_achievements = keyed_achievements(new_achievements)
 
     %{
-      added: added_achievements(
-        keyed_old_achievements,
-        keyed_new_achievements
-      ),
-      removed: removed_achievements(
-        keyed_old_achievements,
-        keyed_new_achievements
-      ),
-      updated: updated_achievements(
-        keyed_old_achievements,
-        keyed_new_achievements
-      )
+      added:
+        added_achievements(
+          keyed_old_achievements,
+          keyed_new_achievements
+        ),
+      removed:
+        removed_achievements(
+          keyed_old_achievements,
+          keyed_new_achievements
+        ),
+      updated:
+        updated_achievements(
+          keyed_old_achievements,
+          keyed_new_achievements
+        )
     }
   end
 
   defp keyed_achievements(achievements) do
-    Enum.reduce(achievements, %{}, fn(x, acc) ->
+    Enum.reduce(achievements, %{}, fn x, acc ->
       Map.put(acc, comparison_key(x), x)
     end)
   end

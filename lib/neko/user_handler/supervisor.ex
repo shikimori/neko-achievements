@@ -8,9 +8,9 @@ defmodule Neko.UserHandler.Supervisor do
 
   @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Client API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   def start_link do
     Supervisor.start_link(__MODULE__, :ok, name: __MODULE__)
@@ -29,7 +29,9 @@ defmodule Neko.UserHandler.Supervisor do
         Logger.info("total count of user handlers - #{total}")
 
         handler
-      _ -> {:ok, user_id}
+
+      _ ->
+        {:ok, user_id}
     end
   end
 
@@ -37,17 +39,21 @@ defmodule Neko.UserHandler.Supervisor do
   # starting child here - it can be useful for debugging only
   defp create_handler(user_id) do
     case Supervisor.start_child(__MODULE__, [user_id]) do
-      {:ok, _pid} -> {:ok, user_id}
-      {:error, {:already_started, _pid}} -> {:error, :already_started}
+      {:ok, _pid} ->
+        {:ok, user_id}
+
+      {:error, {:already_started, _pid}} ->
+        {:error, :already_started}
+
       other ->
         Logger.error("unknown error: #{inspect(other)}")
         {:error, other}
     end
   end
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Server API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   # https://stackoverflow.com/a/6882456/3632318
   #

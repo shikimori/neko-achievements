@@ -6,11 +6,11 @@ defmodule Neko.Mixfile do
       app: :neko,
       version: "0.1.0",
       elixir: "~> 1.4",
-      build_embedded: Mix.env == :prod,
-      start_permanent: Mix.env == :prod,
+      build_embedded: Mix.env() == :prod,
+      start_permanent: Mix.env() == :prod,
       deps: deps(),
       aliases: aliases(),
-      elixirc_paths: elixirc_paths(Mix.env)
+      elixirc_paths: elixirc_paths(Mix.env())
     ]
   end
 
@@ -66,19 +66,19 @@ defmodule Neko.Mixfile do
   defp aliases do
     [
       "deps.install": ["deps.clean --unused --unlock", "deps.get"],
-      "test": "test --no-start",
-      "deploy": &deploy/1
+      test: "test --no-start",
+      deploy: &deploy/1
     ]
   end
 
   defp deploy(_) do
     Mix.Task.run(:edeliver, ["update", "production"])
-    Mix.shell.info("[neko updated]")
+    Mix.shell().info("[neko updated]")
 
     Mix.Task.run(:cmd, ["ssh shiki sudo systemctl restart neko"])
-    Mix.shell.info("[neko restarted]")
+    Mix.shell().info("[neko restarted]")
 
-    #Mix.Task.rerun(:edeliver, ["ping", "production"])
+    # Mix.Task.rerun(:edeliver, ["ping", "production"])
   end
 
   defp elixirc_paths(:test), do: ["lib", "test/support"]

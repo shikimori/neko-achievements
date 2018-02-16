@@ -12,10 +12,12 @@ defmodule Neko.Router do
   # finds matching route and forwards it to dispatch plug
   # (saves it in conn private field `plug_route`)
   plug :match
+
   plug Plug.Parsers,
     parsers: [:json],
     pass: ["application/json"],
     json_decoder: Poison
+
   # dispatches to function body of matching route
   # (saved in conn private field `plug_route`)
   plug :dispatch
@@ -55,9 +57,11 @@ defmodule Neko.Router do
   defp handle_errors(conn, %{reason: %{message: message}}) do
     conn |> send_resp(conn.status, Poison.encode!(message))
   end
+
   defp handle_errors(conn, %{reason: %{reason: reason}}) do
     conn |> send_resp(conn.status, Poison.encode!(reason))
   end
+
   defp handle_errors(conn, %{reason: _reason}) do
     conn |> send_resp(conn.status, Poison.encode!("Application error"))
   end

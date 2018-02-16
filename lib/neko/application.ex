@@ -33,13 +33,13 @@ defmodule Neko.Application do
 
   defp simple_rule_worker_pool_child do
     config = Neko.Rules.SimpleRule.worker_pool_config()
-    :poolboy.child_spec(
-      config[:name],
-      [{:name, {:local, config[:name]}},
-       {:worker_module, config[:module]},
-       {:size, config[:size]},
-       {:max_overflow, 2}
-      ])
+
+    :poolboy.child_spec(config[:name], [
+      {:name, {:local, config[:name]}},
+      {:worker_module, config[:module]},
+      {:size, config[:size]},
+      {:max_overflow, 2}
+    ])
   end
 
   # https://github.com/spscream/ex_banking/blob/master/lib/ex_banking/application.ex
@@ -47,18 +47,20 @@ defmodule Neko.Application do
   defp user_handler_registry_child do
     config = Application.get_env(:neko, :user_handler_registry)
     # same as: supervisor(Registry, [:unique, config[:name]])
-    {Registry, [
-      keys: :unique,
-      name: config[:name]
-    ]}
+    {Registry,
+     [
+       keys: :unique,
+       name: config[:name]
+     ]}
   end
 
   # https://hexdocs.pm/plug/Plug.Adapters.Cowboy.html#child_spec/1
   defp cowboy_child do
-    {Plug.Adapters.Cowboy, [
-      scheme: :http,
-      plug: Neko.Router,
-      options: [ip: {127, 0, 0, 1}, port: 4000]
-    ]}
+    {Plug.Adapters.Cowboy,
+     [
+       scheme: :http,
+       plug: Neko.Router,
+       options: [ip: {127, 0, 0, 1}, port: 4000]
+     ]}
   end
 end

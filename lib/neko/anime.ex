@@ -18,6 +18,6 @@ defmodule Neko.Anime do
   def set(animes) do
     animes |> Store.set()
     # recalculate anime_ids for all rules
-    @rules_list |> Enum.each(&(&1.reload()))
+    @rules_list |> Enum.each(& &1.reload())
   end
 end

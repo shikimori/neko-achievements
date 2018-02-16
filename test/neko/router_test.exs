@@ -1,3 +1,5 @@
+# credo:disable-for-this-file Credo.Check.Refactor.PipeChainStart
+
 # https://elixirschool.com/lessons/specifics/plug/#testing-a-plug
 # https://github.com/elixir-lang/plug/blob/master/test/plug/parsers/json_test.exs
 defmodule Neko.RouterTest do
@@ -45,36 +47,41 @@ defmodule Neko.RouterTest do
       anime_3_id = 3
 
       Neko.Anime.set(
-        MapSet.new(
-          [%Neko.Anime{id: anime_1_id},
-           %Neko.Anime{id: anime_2_id},
-           %Neko.Anime{id: anime_3_id}]
-        )
+        MapSet.new([
+          %Neko.Anime{id: anime_1_id},
+          %Neko.Anime{id: anime_2_id},
+          %Neko.Anime{id: anime_3_id}
+        ])
       )
 
       alias Neko.Rules.SimpleRule
+
       Neko.Rules.SimpleRule.set(
-        MapSet.new(
-          [%SimpleRule{neko_id: "animelist", level: 1, threshold: 1},
-           %SimpleRule{neko_id: "animelist", level: 2, threshold: 3},
-           %SimpleRule{neko_id: "animelist", level: 3, threshold: 5}]
-        )
+        MapSet.new([
+          %SimpleRule{neko_id: "animelist", level: 1, threshold: 1},
+          %SimpleRule{neko_id: "animelist", level: 2, threshold: 3},
+          %SimpleRule{neko_id: "animelist", level: 3, threshold: 5}
+        ])
       )
 
       Neko.UserRate.set(
         user_id,
-        MapSet.new(
-          [%Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
-           %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}]
-        )
+        MapSet.new([
+          %Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
+          %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}
+        ])
       )
 
       Neko.Achievement.set(
         user_id,
-        MapSet.new(
-          [%Neko.Achievement{user_id: user_id, neko_id: "animelist",
-            level: 1, progress: 50}]
-        )
+        MapSet.new([
+          %Neko.Achievement{
+            user_id: user_id,
+            neko_id: "animelist",
+            level: 1,
+            progress: 50
+          }
+        ])
       )
 
       request = %Neko.Request{
@@ -91,29 +98,41 @@ defmodule Neko.RouterTest do
 
     test "returns new achievements", context do
       json = Poison.encode!(context.request)
+
       conn =
         json_post_conn("/user_rate", json)
         |> Router.call(@opts)
 
       assert conn.state == :sent
       assert conn.status == 201
-      assert conn.resp_body == Poison.encode!(
-        %{
-          added: MapSet.new([
-            %Neko.Achievement{user_id: context.user_id,
-              neko_id: "animelist", level: 2, progress: 0}
-          ]),
-          removed: MapSet.new(),
-          updated: MapSet.new([
-            %Neko.Achievement{user_id: context.user_id,
-              neko_id: "animelist", level: 1, progress: 100}
-          ])
-        }
-      )
+
+      assert conn.resp_body ==
+               Poison.encode!(%{
+                 added:
+                   MapSet.new([
+                     %Neko.Achievement{
+                       user_id: context.user_id,
+                       neko_id: "animelist",
+                       level: 2,
+                       progress: 0
+                     }
+                   ]),
+                 removed: MapSet.new(),
+                 updated:
+                   MapSet.new([
+                     %Neko.Achievement{
+                       user_id: context.user_id,
+                       neko_id: "animelist",
+                       level: 1,
+                       progress: 100
+                     }
+                   ])
+               })
     end
 
     test "returns 401 without authorization token", context do
       json = Poison.encode!(context.request)
+
       conn =
         json_post_conn("/user_rate", json)
         |> put_req_header("authorization", "bar")

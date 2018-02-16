@@ -10,10 +10,11 @@ defmodule Neko.Achievement.StoreTest do
   end
 
   test "sets achievements", %{pid: pid} do
-    achievements = MapSet.new([
-      %Achievement{neko_id: "foo"},
-      %Achievement{neko_id: "bar"}
-    ])
+    achievements =
+      MapSet.new([
+        %Achievement{neko_id: "foo"},
+        %Achievement{neko_id: "bar"}
+      ])
 
     Store.set(pid, achievements)
     assert Store.all(pid) == achievements

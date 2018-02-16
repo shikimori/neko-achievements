@@ -47,14 +47,17 @@ config :neko, :shikimori,
   client: Neko.Shikimori.HTTPClient,
   url: "https://shikimori.org/api/",
   recv_timeout: 90_000
+
 config :neko, :rules,
   dir: "priv/rules",
   list: [Neko.Rules.SimpleRule],
   reader: Neko.Rules.Reader
+
 config :neko, :user_handler_registry,
   name: :user_handler_registry,
   call_timeout: 120_000,
   recv_timeout: 4 * 3_600_000
+
 config :neko, :simple_rule_worker_pool,
   name: :simple_rule_worker_pool,
   module: Neko.Rules.SimpleRule.Worker,
@@ -63,4 +66,4 @@ config :neko, :simple_rule_worker_pool,
 
 import_config "appsignal.exs"
 
-import_config "#{Mix.env}.exs"
+import_config "#{Mix.env()}.exs"

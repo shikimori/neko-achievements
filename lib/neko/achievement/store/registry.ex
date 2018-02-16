@@ -6,9 +6,9 @@ defmodule Neko.Achievement.Store.Registry do
 
   use GenServer
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Client API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   # different names are specified in tests
   def start_link(name \\ __MODULE__) do
@@ -45,9 +45,9 @@ defmodule Neko.Achievement.Store.Registry do
     GenServer.stop(name)
   end
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Server API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   def init(name) do
     # ets_table == name
@@ -78,7 +78,9 @@ defmodule Neko.Achievement.Store.Registry do
 
   defp fetch_store({ets_table, refs} = state, user_id) do
     case lookup(ets_table, user_id) do
-      {:ok, store_pid} -> {store_pid, state}
+      {:ok, store_pid} ->
+        {store_pid, state}
+
       :error ->
         # create store and start monitoring it
         {:ok, store_pid} = Neko.Achievement.Store.Supervisor.start_store()

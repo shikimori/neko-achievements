@@ -12,9 +12,9 @@ defmodule Neko.UserHandler do
   # how long handler process can wait for new message to be received
   @recv_timeout Application.get_env(:neko, :user_handler_registry)[:recv_timeout]
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Client API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   # registry with a name `@registry_name` is started as part
   # of a supervision tree (it's a supervisor itself).
@@ -38,9 +38,9 @@ defmodule Neko.UserHandler do
     {:via, Registry, {@registry_name, user_id}}
   end
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Server API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   def init(user_id) do
     Logger.info("process for user_id #{user_id} started...")

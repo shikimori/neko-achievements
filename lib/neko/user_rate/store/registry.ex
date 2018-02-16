@@ -6,9 +6,9 @@ defmodule Neko.UserRate.Store.Registry do
 
   use GenServer
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Client API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   def start_link(name \\ __MODULE__) do
     GenServer.start_link(__MODULE__, name, name: name)
@@ -44,9 +44,9 @@ defmodule Neko.UserRate.Store.Registry do
     GenServer.stop(name)
   end
 
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
   # Server API
-  #------------------------------------------------------------------
+  # ------------------------------------------------------------------
 
   def init(name) do
     # ets_table == name
@@ -71,7 +71,9 @@ defmodule Neko.UserRate.Store.Registry do
 
   defp fetch_store({ets_table, refs} = state, user_id) do
     case lookup(ets_table, user_id) do
-      {:ok, store_pid} -> {store_pid, state}
+      {:ok, store_pid} ->
+        {store_pid, state}
+
       :error ->
         {:ok, store_pid} = Neko.UserRate.Store.Supervisor.start_store()
         ref = Process.monitor(store_pid)

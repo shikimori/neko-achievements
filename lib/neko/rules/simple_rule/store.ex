@@ -7,7 +7,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   @algo "simple"
   @rules_reader Application.get_env(:neko, :rules)[:reader]
 
-  @spec start_link(String.t) :: Agent.on_start
+  @spec start_link(String.t()) :: Agent.on_start()
   def start_link(name \\ __MODULE__) do
     Agent.start_link(
       fn -> rules() |> calc() end,
@@ -15,25 +15,19 @@ defmodule Neko.Rules.SimpleRule.Store do
     )
   end
 
-  @spec reload(String.t) :: :ok
+  @spec reload(String.t()) :: :ok
   def reload(name \\ __MODULE__) do
-    Agent.update(
-      name,
-      fn(_) -> rules() |> calc() end
-    )
+    Agent.update(name, fn _ -> rules() |> calc() end)
   end
 
-  @spec all(String.t) :: rules_t
+  @spec all(String.t()) :: rules_t
   def all(name \\ __MODULE__) do
-    Agent.get(name, &(&1))
+    Agent.get(name, & &1)
   end
 
-  @spec set(String.t, rules_t) :: :ok
+  @spec set(String.t(), rules_t) :: :ok
   def set(name \\ __MODULE__, rules) do
-    Agent.update(
-      name,
-      fn(_) -> rules |> calc() end
-    )
+    Agent.update(name, fn _ -> rules |> calc() end)
   end
 
   @spec calc(rules_t) :: rules_t
@@ -50,7 +44,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     anime_ids =
       Neko.Anime.all()
       |> filter_animes(rule)
-      |> Enum.map(&(&1.id))
+      |> Enum.map(& &1.id)
       |> MapSet.new()
 
     %{rule | anime_ids: anime_ids}
@@ -59,6 +53,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_animes(animes, %{filters: nil} = _rule) do
     animes
   end
+
   defp filter_animes(animes, %{filters: filters} = _rule) do
     animes
     |> filter_by_genre_ids(filters["genre_ids"])
@@ -70,6 +65,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_by_genre_ids(animes, nil) do
     animes
   end
+
   defp filter_by_genre_ids(animes, genre_ids) do
     animes
     |> Enum.reject(&is_nil(&1.genre_ids))
@@ -89,6 +85,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_by_anime_ids(animes, nil) do
     animes
   end
+
   defp filter_by_anime_ids(animes, anime_ids) do
     animes
     |> Enum.filter(&Enum.member?(anime_ids, &1.id))
@@ -97,6 +94,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_by_year_lte(animes, nil) do
     animes
   end
+
   defp filter_by_year_lte(animes, year_lte) do
     animes
     |> Enum.reject(&is_nil(&1.year))
@@ -106,6 +104,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_by_episodes_gte(animes, nil) do
     animes
   end
+
   defp filter_by_episodes_gte(animes, episodes_gte) do
     animes
     |> Enum.reject(&is_nil(&1.episodes))
@@ -114,12 +113,13 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   @spec calc_threshold(rule_t) :: rule_t
   defp calc_threshold(%{threshold: threshold} = rule)
-  when is_number(threshold) do
+       when is_number(threshold) do
     rule
   end
+
   @spec calc_threshold(rule_t) :: rule_t
   defp calc_threshold(%{threshold: threshold} = rule)
-  when is_binary(threshold) do
+       when is_binary(threshold) do
     %{rule | threshold: parse_threshold(rule)}
   end
 
@@ -134,17 +134,18 @@ defmodule Neko.Rules.SimpleRule.Store do
   # next threshold so iterate over rules here
   @spec calc_next_thresholds(rules_t) :: rules_t
   defp calc_next_thresholds(rules) do
-    rules |> Enum.map(fn(x) ->
+    rules
+    |> Enum.map(fn x ->
       %{x | next_threshold: next_threshold(rules, x)}
     end)
   end
 
   defp next_threshold(rules, rule) do
     rules
-    |> Enum.filter(fn(x) ->
+    |> Enum.filter(fn x ->
       x.neko_id == rule.neko_id and x.level == rule.level + 1
     end)
-    |> Enum.map(&(&1.threshold))
+    |> Enum.map(& &1.threshold)
     |> List.first()
   end
 
