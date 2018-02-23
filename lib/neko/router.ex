@@ -28,7 +28,7 @@ defmodule Neko.Router do
   end
 
   get "/error" do
-    raise("test error")
+    raise "test error"
     conn |> send_resp(200, "never reached")
   end
 

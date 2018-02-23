@@ -49,7 +49,7 @@ defmodule Neko.Achievement do
   defp store(user_id) do
     case Registry.lookup(user_id) do
       {:ok, store} -> store
-      :error -> raise("load achievement store first")
+      :error -> raise "load achievement store first"
     end
   end
 end

@@ -73,6 +73,7 @@ defmodule Neko.Request do
     |> Neko.UserRate.put(Neko.UserRate.from_request(request))
   end
 
+  # if user rate becomes not completed, it's removed
   defp process_action(%{action: "put"} = request) do
     request.user_id
     |> Neko.UserRate.delete(Neko.UserRate.from_request(request))

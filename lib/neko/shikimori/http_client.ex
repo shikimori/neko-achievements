@@ -46,7 +46,7 @@ defmodule Neko.Shikimori.HTTPClient do
   defp handle_parse_json!(result, json) do
     case result do
       {:ok, value} -> value
-      {:error, _} -> raise("error parsing shikimori response: #{json}")
+      {:error, _} -> raise "error parsing shikimori response: #{json}"
     end
   end
 
