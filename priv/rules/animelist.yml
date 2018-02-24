@@ -14,10 +14,10 @@
   level: 2
   threshold: 50
   metadata:
-    title_ru: Это всего лишь начало.
+    title_ru: Это всего лишь начало
     text_ru: Слишком мало де гесо.
     image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
-    border_color: "#ff0000"
+    border_color: "#ED3CCA"
 
 - <<: *defaults
   level: 3
@@ -37,7 +37,7 @@
   level: 5
   threshold: 200
   metadata:
-    title_ru: Беззаботный зритель.
+    title_ru: Беззаботный зритель
     text_ru: Просмотрено 200 аниме. Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
 
 - <<: *defaults
@@ -51,7 +51,7 @@
   level: 7
   threshold: 400
   metadata:
-    title_ru: Есть чем похвастаться.
+    title_ru: Есть чем похвастаться
     text_ru: Просмотрено 400 аниме. Это... много. Вы можете гордиться собой, определённо.
 
 - <<: *defaults
@@ -74,7 +74,7 @@
   level: 10
   threshold: 750
   metadata:
-    title_ru: Это даже не финальная форма.
+    title_ru: Это даже не финальная форма
     text_ru: Просмотрено 750 аниме. Ваш единственный путь — вверх. Пора учиться доброй снисходительности.
 
 - <<: *defaults
@@ -88,21 +88,25 @@
   level: 12
   threshold: 1000
   metadata:
-    title_ru: Последний рубеж.
+    title_ru: Последний рубеж
     text_ru: Вы достигли четырёхзначного числа. Довольны?
+    image: https://dere.shikimori.org/system/user_images/original/7642/546759.jpg
+    border_color: "#A2A2D0"
 
 - <<: *defaults
   level: 13
   threshold: 1500
   metadata:
-    title_ru: Маньяк.
+    title_ru: Маньяк
     text_ru: Просмотрено 1500 аниме. Это так круто? Возможно вам следует обратиться к врачу.
+    image: https://desu.shikimori.org/system/user_images/original/7642/546833.jpg
+    border_color: "#C5D0E6"
 
 - <<: *defaults
   level: 14
   threshold: 2500
   metadata:
-    title_ru: Легенда.
+    title_ru: Легенда
     text_ru: Просмотрено 2500 аниме. Вы один из избранных. Вам уже даже не нужно хвастаться, потому что все и так слышали о вас.
 
 - <<: *defaults
