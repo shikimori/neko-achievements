@@ -6,7 +6,7 @@
   metadata:
     title_ru: Добро пожаловать!
     text_ru: Даже путь в тысячу ли начинается с первого шага.
-    image: http://i.imgur.com/v7x2w7p.png
+    image: /assets/achievements/anime/animelist_1.png
     border_color: "#e52b50"
     topic_id: 227416
 
@@ -16,8 +16,8 @@
   metadata:
     title_ru: Это всего лишь начало
     text_ru: Слишком мало де гесо.
-    image: https://shikimori.org/assets/achievements/anime/list_2-0d3f017394ff1743a05c4971ef759a3fe3c17c6520c3e0cb7a7d8e2eea23f576.jpg
-    border_color: "#ED3CCA"
+    image: /assets/achievements/anime/animelist_2.jpg
+    border_color: "#ff0000"
 
 - <<: *defaults
   level: 3
@@ -25,7 +25,7 @@
   metadata:
     title_ru: Мои силы растут!
     text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
-    image: https://kawai.shikimori.org/system/user_images/original/50587/459471.jpg
+    image: /assets/achievements/anime/animelist_3.jpg
     border_color: "#6a5acd"
 
 - <<: *defaults
@@ -67,7 +67,7 @@
   metadata:
     title_ru: Сатанинский предел?
     text_ru: Вами движет поистине дьявольское упорство.
-    image: http://i.imgur.com/8dY1YdU.jpg
+    image: /assets/achievements/anime/animelist_9.jpg
     border_color: "#071746"
 
 - <<: *defaults
@@ -90,7 +90,7 @@
   metadata:
     title_ru: Последний рубеж
     text_ru: Вы достигли четырёхзначного числа. Довольны?
-    image: https://dere.shikimori.org/system/user_images/original/7642/546759.jpg
+    image: /assets/achievements/anime/animelist_12.jpg
     border_color: "#A2A2D0"
 
 - <<: *defaults
@@ -99,7 +99,7 @@
   metadata:
     title_ru: Маньяк
     text_ru: Просмотрено 1500 аниме. Это так круто? Возможно вам следует обратиться к врачу.
-    image: https://desu.shikimori.org/system/user_images/original/7642/546833.jpg
+    image: /assets/achievements/anime/animelist_13.jpg
     border_color: "#C5D0E6"
 
 - <<: *defaults
