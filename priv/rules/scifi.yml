@@ -28,7 +28,7 @@
   metadata:
     title_ru: Безумный ученый
     text_ru: В ваших руках рождается гармония между фантастикой, научными фактами и мистикой.
-    image: /assets/achievements/anime/scifi_3.jog
+    image: /assets/achievements/anime/scifi_3.jpg
     border_color: "#423c63"
 
 - <<: *defaults
