@@ -5,7 +5,7 @@
   threshold: 15
   metadata:
     title_ru: Добро пожаловать!
-    text_ru: Даже путь в тысячу ли начинается с первого шага.
+    text_ru: Легкой поступью ты вошёл в этот мир.
     image: /assets/achievements/anime/animelist_1.png
     border_color: "#e52b50"
     topic_id: 227416
@@ -15,9 +15,9 @@
   threshold: 50
   metadata:
     title_ru: Это всего лишь начало
-    text_ru: Слишком мало де гесо.
-    image: /assets/achievements/anime/animelist_2.jpg
-    border_color: "#ff0000"
+    text_ru: Ставки начинают расти. Кто-то уже сдался, но вы... Вы ещё в строю.
+    image: https://c.radikal.ru/c28/1802/2e/05d9c7906389.png
+    border_color: "#A5260A"
 
 - <<: *defaults
   level: 3
@@ -38,14 +38,14 @@
   threshold: 200
   metadata:
     title_ru: Беззаботный зритель
-    text_ru: Просмотрено 200 аниме. Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
+    text_ru: Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
 
 - <<: *defaults
   level: 6
   threshold: 300
   metadata:
     title_ru: Знаток
-    text_ru: Просмотрено 300 аниме. Сидя в удобном кресле, задрав ноги, пьете вино и смотрите скачанное на днях аниме. Это блаженство, так ведь?
+    text_ru: Сидя в удобном кресле, задрав ноги, пьете вино и смотрите скачанное на днях аниме. Это блаженство, так ведь?
 
 - <<: *defaults
   level: 7
@@ -66,52 +66,87 @@
   threshold: 666
   metadata:
     title_ru: Сатанинский предел?
-    text_ru: Вами движет поистине дьявольское упорство.
-    image: /assets/achievements/anime/animelist_9.jpg
-    border_color: "#071746"
+    text_ru: Стремишься стать частью той силы, что вечно хочет зла и вечно совершает благо? Что ж, только внимательно читай те условия контракта, что мелким шрифтом.
+    image: https://moe.shikimori.org/system/user_images/original/34807/489472.jpg
+    border_color: "#AB274F"
 
 - <<: *defaults
   level: 10
   threshold: 750
   metadata:
     title_ru: Это даже не финальная форма
-    text_ru: Просмотрено 750 аниме. Ваш единственный путь — вверх. Пора учиться доброй снисходительности.
+    text_ru: Ваш единственный путь — вверх. Пора учиться доброй снисходительности.
+    image: http://www.gamingilluminaughty.com/wp-content/uploads/2016/10/maxresdefault-2-4.jpg
+    border_color: "#434B4D"
 
 - <<: *defaults
   level: 11
   threshold: 888
   metadata:
-    title_ru: Коллекционер
-    text_ru: Аниме много не бывает.
+    title_ru: Бесконечное путешествие
+    text_ru: У каждого человека свои звезды. Одним - тем, кто странствует, - они указывают путь. Для других это просто маленькие огоньки. Дорога вперед бесконечна. Хотите ли вы продолжать идти по ней?
+    image: https://kawai.shikimori.org/system/user_images/original/34807/484406.jpg
+    border_color: "#002F55"
 
 - <<: *defaults
   level: 12
   threshold: 1000
   metadata:
-    title_ru: Последний рубеж
+    title_ru: Точка невозврата
     text_ru: Вы достигли четырёхзначного числа. Довольны?
     image: /assets/achievements/anime/animelist_12.jpg
     border_color: "#A2A2D0"
 
 - <<: *defaults
   level: 13
+  threshold: 1234
+  metadata: {}
+  
+- <<: *defaults
+  level: 14
   threshold: 1500
   metadata:
     title_ru: Маньяк
-    text_ru: Просмотрено 1500 аниме. Это так круто? Возможно вам следует обратиться к врачу.
+    text_ru: Это так круто? Возможно вам следует обратиться к врачу.
     image: /assets/achievements/anime/animelist_13.jpg
     border_color: "#C5D0E6"
 
 - <<: *defaults
-  level: 14
+  level: 15
+  threshold: 2000
+  metadata: {}
+  
+- <<: *defaults
+  level: 16
   threshold: 2500
   metadata:
-    title_ru: Легенда
-    text_ru: Просмотрено 2500 аниме. Вы один из избранных. Вам уже даже не нужно хвастаться, потому что все и так слышали о вас.
+    title_ru: Знать
+    text_ru: Вы - вершина общества, сливки из сливок, объект зависти и восхищения. И пусть чернь склонится перед Вашим Величеством!
+    image: https://kawai.shikimori.org/system/user_images/original/34807/483211.jpg
+    border_color: "#FCE883"
 
 - <<: *defaults
-  level: 15
+  level: 17
+  threshold: 3500
+  metadata: {}
+
+- <<: *defaults
+  level: 18
   threshold: 5000
   metadata:
-    title_ru: Недосягаемый
-    text_ru: Просмотрено 5000 аниме. Такое не под силу живому человеку. Вы уверены в том, что посмотрели все это?
+    title_ru: Герой
+    text_ru: 
+    image: /assets/achievements/anime/animelist_13.jpg
+    border_color: "#C5D0E6"
+    
+    - <<: *defaults
+  level: 19
+  threshold: 7500
+  metadata: 
+    title_ru: Легенда
+    text_ru: Вы один из избранных. Вам уже даже не нужно хвастаться, потому что все и так слышали о вас.
+  
+  - <<: *defaults
+  level: 20
+  threshold: 10000
+  metadata: {}
