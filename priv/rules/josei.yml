@@ -6,20 +6,36 @@
   filters:
     genre_ids:
       - 43
-  metadata:
+  metadata:    
+    title_ru: Цветущая юность
+    text_ru: Уже не девочка, но еще не женщина. Да что со мной происходит-то?!
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/550740.jpg
+    border_color: "#F19CBB"
     topic_id: 222645
 
 - <<: *defaults
   level: 2
   threshold: 40
-  metadata: {}
+  metadata: 
+    title_ru: Я делаю то, что мне нравится!
+    text_ru: Мы не учимся быть артистами, художниками или писателями — мы учимся быть.
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/550740.jpg
+    border_color: "#FFE4C4"
 
 - <<: *defaults
   level: 3
   threshold: 60
-  metadata: {}
+  metadata: 
+    title_ru: Мы — это наши поступки
+    text_ru: Быть человеком — значит взять на себя какую-то ответственность, а не просто заполнять собой пространство.
+    image: https://desu.shikimori.org/system/user_images/original/34807/550763.jpg
+    border_color: "#89AC76"
 
 - <<: *defaults
   level: 4
   threshold: 100
-  metadata: {}
+  metadata: 
+    title_ru: Мемуары гейши
+    text_ru: Сколько бы ни существовало историй, лучшая — та, что написана вместе.
+    image: https://b.radikal.ru/b29/1802/a8/7bcd240b7dca.gif
+    border_color: "#464451"
