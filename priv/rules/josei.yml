@@ -19,6 +19,8 @@
   metadata:
     title_ru: Я делаю то, что мне нравится!
     text_ru: Мы не учимся быть артистами, художниками или писателями — мы учимся быть.
+    image: https://moe.shikimori.org/system/user_images/original/34807/550752.jpg
+    border_color: "#FFE4C4"
 
 - <<: *defaults
   level: 3
