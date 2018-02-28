@@ -5,7 +5,7 @@
   threshold: 15
   metadata:
     title_ru: Добро пожаловать!
-    text_ru: Легкой поступью ты вошёл в этот мир.
+    text_ru: Легкой поступью вы вошли в этот мир.
     image: /assets/achievements/anime/animelist_1.png
     border_color: "#e52b50"
     topic_id: 227416
@@ -67,7 +67,7 @@
   metadata:
     title_ru: Сатанинский предел?
     text_ru: Стремишься стать частью той силы, что вечно хочет зла и вечно совершает благо? Что ж, только внимательно читай те условия контракта, что мелким шрифтом.
-    image: /assets/achievements/anime/animelist_9.jpg
+    image: https://moe.shikimori.org/system/user_images/original/34807/489472.jpg
     border_color: "#AB274F"
 
 - <<: *defaults
@@ -136,6 +136,8 @@
   metadata:
     title_ru: Герой
     text_ru:
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/483225.jpg
+    border_color: "#FF4D00"
 
 - <<: *defaults
   level: 19
@@ -143,6 +145,7 @@
   metadata:
     title_ru: Легенда
     text_ru: Вы один из избранных. Вам уже даже не нужно хвастаться, потому что все и так слышали о вас.
+    
 
 - <<: *defaults
   level: 20
