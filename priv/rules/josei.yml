@@ -10,7 +10,7 @@
     title_ru: Цветущая юность
     text_ru: Уже не девочка, но еще не женщина. Да что со мной происходит-то?!
     image: /assets/achievements/anime/josei_1.jpg
-    border_color: "#F19CBB"
+    border_color: "#f19cbb"
     topic_id: 222645
 
 - <<: *defaults
@@ -19,8 +19,8 @@
   metadata:
     title_ru: Я делаю то, что мне нравится!
     text_ru: Мы не учимся быть артистами, художниками или писателями — мы учимся быть.
-    image: https://moe.shikimori.org/system/user_images/original/34807/550752.jpg
-    border_color: "#FFE4C4"
+    image: /assets/achievements/anime/josei_2.jpg
+    border_color: "#ffe4c4"
 
 - <<: *defaults
   level: 3
@@ -29,7 +29,7 @@
     title_ru: Мы — это наши поступки
     text_ru: Быть человеком — значит взять на себя какую-то ответственность, а не просто заполнять собой пространство.
     image: /assets/achievements/anime/josei_3.jpg
-    border_color: "#89AC76"
+    border_color: "#89ac76"
 
 - <<: *defaults
   level: 4

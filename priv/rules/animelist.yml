@@ -17,7 +17,7 @@
     title_ru: Это всего лишь начало
     text_ru: Ставки начинают расти. Кто-то уже сдался, но вы... Вы ещё в строю.
     image: /assets/achievements/anime/animelist_2.png
-    border_color: "#A5260A"
+    border_color: "#a5260a"
 
 - <<: *defaults
   level: 3
@@ -67,8 +67,8 @@
   metadata:
     title_ru: Сатанинский предел?
     text_ru: Стремишься стать частью той силы, что вечно хочет зла и вечно совершает благо? Что ж, только внимательно читай те условия контракта, что мелким шрифтом.
-    image: https://moe.shikimori.org/system/user_images/original/34807/489472.jpg
-    border_color: "#AB274F"
+    image: /assets/achievements/anime/animelist_9.jpg
+    border_color: "#ab274f"
 
 - <<: *defaults
   level: 10
@@ -77,7 +77,7 @@
     title_ru: Это даже не финальная форма
     text_ru: Ваш единственный путь — вверх. Пора учиться доброй снисходительности.
     image: /assets/achievements/anime/animelist_10.jpg
-    border_color: "#434B4D"
+    border_color: "#434b4d"
 
 - <<: *defaults
   level: 11
@@ -86,7 +86,7 @@
     title_ru: Бесконечное путешествие
     text_ru: У каждого человека свои звезды. Одним - тем, кто странствует, - они указывают путь. Для других это просто маленькие огоньки. Дорога вперед бесконечна. Хотите ли вы продолжать идти по ней?
     image: /assets/achievements/anime/animelist_11.jpg
-    border_color: "#002F55"
+    border_color: "#002f55"
 
 - <<: *defaults
   level: 12
@@ -95,7 +95,7 @@
     title_ru: Точка невозврата
     text_ru: Вы достигли четырёхзначного числа. Довольны?
     image: /assets/achievements/anime/animelist_12.jpg
-    border_color: "#A2A2D0"
+    border_color: "#a2a2d0"
 
 - <<: *defaults
   level: 13
@@ -109,7 +109,7 @@
     title_ru: Маньяк
     text_ru: Это так круто? Возможно вам следует обратиться к врачу.
     image: /assets/achievements/anime/animelist_14.jpg
-    border_color: "#C5D0E6"
+    border_color: "#c5d0e6"
 
 - <<: *defaults
   level: 15
@@ -123,7 +123,7 @@
     title_ru: Знать
     text_ru: Вы - вершина общества, сливки из сливок, объект зависти и восхищения. И пусть чернь склонится перед Вашим Величеством!
     image: /assets/achievements/anime/animelist_16.jpg
-    border_color: "#FCE883"
+    border_color: "#fce883"
 
 - <<: *defaults
   level: 17
@@ -136,8 +136,8 @@
   metadata:
     title_ru: Герой
     text_ru:
-    image: https://nyaa.shikimori.org/system/user_images/original/34807/483225.jpg
-    border_color: "#FF4D00"
+    image: /assets/achievements/anime/animelist_18.jpg
+    border_color: "#ff4d00"
 
 - <<: *defaults
   level: 19
