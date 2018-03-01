@@ -49,7 +49,9 @@ defmodule Neko.Achievement do
   defp store(user_id) do
     case Registry.lookup(user_id) do
       {:ok, store} -> store
-      :error -> raise "load achievement store first"
+      # it's not loaded or it crashed in previous request and :DOWN message
+      # was received only after loading user rates in current request
+      :error -> raise "achievement store is not found in registry"
     end
   end
 end

@@ -64,7 +64,7 @@ defmodule Neko.UserRate do
   defp store(user_id) do
     case Registry.lookup(user_id) do
       {:ok, store} -> store
-      :error -> raise "load user_rate store first"
+      :error -> raise "user_rate store is not found in registry"
     end
   end
 end

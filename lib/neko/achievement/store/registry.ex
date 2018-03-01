@@ -84,6 +84,7 @@ defmodule Neko.Achievement.Store.Registry do
       :error ->
         # create store and start monitoring it
         {:ok, store_pid} = Neko.Achievement.Store.Supervisor.start_store()
+        # store_pid is agent pid in fact
         ref = Process.monitor(store_pid)
 
         :ets.insert(ets_table, {user_id, store_pid})
