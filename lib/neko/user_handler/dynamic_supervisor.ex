@@ -1,19 +1,20 @@
-# it's used just like Neko.UserRate.Store.Supervisor
+# it's used just like Neko.UserRate.Store.DynamicSupervisor
 # except that store registry is provided by Elixir's Registry
-defmodule Neko.UserHandler.Supervisor do
+defmodule Neko.UserHandler.DynamicSupervisor do
   @moduledoc false
 
-  use Supervisor
+  use DynamicSupervisor
   require Logger
 
+  @name __MODULE__
   @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
 
   # ------------------------------------------------------------------
   # Client API
   # ------------------------------------------------------------------
 
-  def start_link do
-    Supervisor.start_link(__MODULE__, :ok, name: __MODULE__)
+  def start_link(arg) do
+    DynamicSupervisor.start_link(__MODULE__, arg, name: @name)
   end
 
   def create_missing_handler(user_id) do
@@ -25,7 +26,7 @@ defmodule Neko.UserHandler.Supervisor do
         # itself blocks execution
         #
         # %{active: 2, specs: 1, supervisors: 0, workers: 2}
-        total = Supervisor.count_children(__MODULE__).active
+        total = DynamicSupervisor.count_children(@name).active
         Logger.info("total count of user handlers - #{total}")
 
         handler
@@ -38,7 +39,9 @@ defmodule Neko.UserHandler.Supervisor do
   # well, generally speaking we don't care about the result of
   # starting child here - it can be useful for debugging only
   defp create_handler(user_id) do
-    case Supervisor.start_child(__MODULE__, [user_id]) do
+    child_spec = {Neko.UserHandler, user_id}
+
+    case DynamicSupervisor.start_child(@name, child_spec) do
       {:ok, _pid} ->
         {:ok, user_id}
 
@@ -57,17 +60,12 @@ defmodule Neko.UserHandler.Supervisor do
 
   # https://stackoverflow.com/a/6882456/3632318
   #
-  # NOTE: requests in the queue are not saved anywhere -
-  #       they are lost when UserHandler process crashes
+  # requests in the queue are not saved anywhere -
+  # they are lost when UserHandler process crashes
   #
-  # there is no need to restart UserHandler process:
-  #
-  # - if it terminates (because of crash or receive timeout),
-  #   associated key (user_id) is removed from the registry
-  # - new UserHandler process for that user_id is started
-  #   when new request for that user_id arrives
-  def init(:ok) do
-    children = [worker(Neko.UserHandler, [], restart: :temporary)]
-    supervise(children, strategy: :simple_one_for_one)
+  # if extra_arguments are specified they are prepended to
+  # the list of arguments for Neko.UserHandler.start_link
+  def init(_initial_arg) do
+    DynamicSupervisor.init(strategy: :one_for_one)
   end
 end

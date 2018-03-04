@@ -6,11 +6,13 @@ defmodule Neko.UserRate.Store.Registry do
 
   use GenServer
 
+  @name __MODULE__
+
   # ------------------------------------------------------------------
   # Client API
   # ------------------------------------------------------------------
 
-  def start_link(name \\ __MODULE__) do
+  def start_link(name \\ @name) do
     GenServer.start_link(__MODULE__, name, name: name)
   end
 
@@ -20,7 +22,7 @@ defmodule Neko.UserRate.Store.Registry do
 
   Returns store.
   """
-  def fetch(name \\ __MODULE__, user_id) do
+  def fetch(name \\ @name, user_id) do
     GenServer.call(name, {:fetch, user_id})
   end
 
@@ -30,7 +32,7 @@ defmodule Neko.UserRate.Store.Registry do
 
   Returns `{:ok, store_pid}` if store exists, `:error` otherwise.
   """
-  def lookup(name \\ __MODULE__, user_id) do
+  def lookup(name \\ @name, user_id) do
     case :ets.lookup(name, user_id) do
       [{^user_id, store_pid}] -> {:ok, store_pid}
       [] -> :error
@@ -40,7 +42,7 @@ defmodule Neko.UserRate.Store.Registry do
   @doc """
   Stops the registry.
   """
-  def stop(name \\ __MODULE__) do
+  def stop(name \\ @name) do
     GenServer.stop(name)
   end
 
@@ -75,7 +77,7 @@ defmodule Neko.UserRate.Store.Registry do
         {store_pid, state}
 
       :error ->
-        {:ok, store_pid} = Neko.UserRate.Store.Supervisor.start_store()
+        {:ok, store_pid} = Neko.UserRate.Store.DynamicSupervisor.start_store()
         ref = Process.monitor(store_pid)
 
         :ets.insert(ets_table, {user_id, store_pid})

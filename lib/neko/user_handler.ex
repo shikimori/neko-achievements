@@ -3,7 +3,13 @@
 defmodule Neko.UserHandler do
   @moduledoc false
 
-  use GenServer
+  # there is no need to restart UserHandler process:
+  #
+  # - if it terminates (because of crash or receive timeout),
+  #   associated key (user_id) is removed from the registry
+  # - new UserHandler process for that user_id is started
+  #   when new request for that user_id arrives
+  use GenServer, restart: :temporary
   require Logger
 
   @registry_name Application.get_env(:neko, :user_handler_registry)[:name]

@@ -1,27 +1,28 @@
-defmodule Neko.Achievement.Store.Supervisor do
+defmodule Neko.UserRate.Store.DynamicSupervisor do
   @moduledoc false
 
-  use Supervisor
+  use DynamicSupervisor
+
+  @name __MODULE__
 
   # ------------------------------------------------------------------
   # Client API
   # ------------------------------------------------------------------
 
-  def start_link do
-    Supervisor.start_link(__MODULE__, :ok, name: __MODULE__)
+  def start_link(arg) do
+    DynamicSupervisor.start_link(__MODULE__, arg, name: @name)
   end
 
   def start_store do
-    Supervisor.start_child(__MODULE__, [])
+    child_spec = Neko.UserRate.Store
+    DynamicSupervisor.start_child(@name, child_spec)
   end
 
   # ------------------------------------------------------------------
   # Server API
   # ------------------------------------------------------------------
 
-  def init(:ok) do
-    # store won't be restarted if it crashes
-    children = [worker(Neko.Achievement.Store, [], restart: :temporary)]
-    supervise(children, strategy: :simple_one_for_one)
+  def init(_initial_arg) do
+    DynamicSupervisor.init(strategy: :one_for_one)
   end
 end

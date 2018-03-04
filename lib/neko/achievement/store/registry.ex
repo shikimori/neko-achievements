@@ -6,12 +6,14 @@ defmodule Neko.Achievement.Store.Registry do
 
   use GenServer
 
+  @name __MODULE__
+
   # ------------------------------------------------------------------
   # Client API
   # ------------------------------------------------------------------
 
   # different names are specified in tests
-  def start_link(name \\ __MODULE__) do
+  def start_link(name \\ @name) do
     GenServer.start_link(__MODULE__, name, name: name)
   end
 
@@ -21,7 +23,7 @@ defmodule Neko.Achievement.Store.Registry do
 
   Returns store.
   """
-  def fetch(name \\ __MODULE__, user_id) do
+  def fetch(name \\ @name, user_id) do
     GenServer.call(name, {:fetch, user_id})
   end
 
@@ -31,7 +33,7 @@ defmodule Neko.Achievement.Store.Registry do
 
   Returns `{:ok, store_pid}` if store exists, `:error` otherwise.
   """
-  def lookup(name \\ __MODULE__, user_id) do
+  def lookup(name \\ @name, user_id) do
     case :ets.lookup(name, user_id) do
       [{^user_id, store_pid}] -> {:ok, store_pid}
       [] -> :error
@@ -41,7 +43,7 @@ defmodule Neko.Achievement.Store.Registry do
   @doc """
   Stops the registry.
   """
-  def stop(name \\ __MODULE__) do
+  def stop(name \\ @name) do
     GenServer.stop(name)
   end
 
@@ -83,7 +85,7 @@ defmodule Neko.Achievement.Store.Registry do
 
       :error ->
         # create store and start monitoring it
-        {:ok, store_pid} = Neko.Achievement.Store.Supervisor.start_store()
+        {:ok, store_pid} = Neko.Achievement.Store.DynamicSupervisor.start_store()
         # store_pid is agent pid in fact
         ref = Process.monitor(store_pid)
 

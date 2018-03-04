@@ -1,27 +1,31 @@
 defmodule Neko.Anime.Store do
   @moduledoc false
 
+  use Agent
+
   @type anime_t :: %Neko.Anime{}
   @type animes_t :: MapSet.t(anime_t)
 
-  @spec start_link(String.t()) :: Agent.on_start()
-  def start_link(name \\ __MODULE__) do
-    Agent.start_link(fn -> animes() end, name: name)
+  @name __MODULE__
+
+  @spec start_link(any) :: Agent.on_start()
+  def start_link(_) do
+    Agent.start_link(fn -> animes() end, name: @name)
   end
 
-  @spec reload(String.t()) :: :ok
-  def reload(name \\ __MODULE__) do
-    Agent.update(name, fn _ -> animes() end)
+  @spec reload() :: :ok
+  def reload do
+    Agent.update(@name, fn _ -> animes() end)
   end
 
-  @spec all(String.t()) :: animes_t
-  def all(name \\ __MODULE__) do
-    Agent.get(name, & &1)
+  @spec all() :: animes_t
+  def all do
+    Agent.get(@name, & &1)
   end
 
-  @spec set(String.t(), animes_t) :: :ok
-  def set(name \\ __MODULE__, animes) do
-    Agent.update(name, fn _ -> animes end)
+  @spec set(animes_t) :: :ok
+  def set(animes) do
+    Agent.update(@name, fn _ -> animes end)
   end
 
   @spec animes() :: animes_t

@@ -3,27 +3,16 @@ defmodule Neko.Application do
   use Application
 
   def start(_type, _args) do
-    import Supervisor.Spec, warn: false
-
-    # Define workers and child supervisors to be supervised
     children = [
-      # Starts a worker by calling: Neko.Worker.start_link(arg1, arg2, arg3)
-      # worker(Neko.Worker, [arg1, arg2, arg3]),
-      #
-      # use supervisor with simple_one_for_one strategy when it's
-      # necessary to dynamically start and stop supervised children
-      # (as is the case with user rate or achievement stores since
-      # they are created on the fly for each new user unlike anime
-      # or simple rule stores)
-      worker(Neko.Anime.Store, []),
-      worker(Neko.Rules.SimpleRule.Store, []),
+      Neko.Anime.Store,
+      Neko.Rules.SimpleRule.Store,
       simple_rule_worker_pool_child(),
-      worker(Neko.UserRate.Store.Registry, []),
-      worker(Neko.Achievement.Store.Registry, []),
+      {Neko.UserRate.Store.Registry, Neko.UserRate.Store.Registry},
+      {Neko.Achievement.Store.Registry, Neko.Achievement.Store.Registry},
       user_handler_registry_child(),
-      supervisor(Neko.UserRate.Store.Supervisor, []),
-      supervisor(Neko.Achievement.Store.Supervisor, []),
-      supervisor(Neko.UserHandler.Supervisor, []),
+      Neko.UserRate.Store.DynamicSupervisor,
+      Neko.Achievement.Store.DynamicSupervisor,
+      Neko.UserHandler.DynamicSupervisor,
       cowboy_child()
     ]
 
@@ -46,12 +35,7 @@ defmodule Neko.Application do
   # https://hexdocs.pm/elixir/master/Registry.html#module-using-in-via
   defp user_handler_registry_child do
     config = Application.get_env(:neko, :user_handler_registry)
-    # same as: supervisor(Registry, [:unique, config[:name]])
-    {Registry,
-     [
-       keys: :unique,
-       name: config[:name]
-     ]}
+    {Registry, keys: :unique, name: config[:name]}
   end
 
   # https://hexdocs.pm/plug/Plug.Adapters.Cowboy.html#child_spec/1

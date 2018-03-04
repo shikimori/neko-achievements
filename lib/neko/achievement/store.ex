@@ -1,14 +1,16 @@
 defmodule Neko.Achievement.Store do
   @moduledoc false
 
+  use Agent, restart: :temporary
+
   @type achievement_t :: %Neko.Achievement{}
   @type achievements_t :: MapSet.t(achievement_t)
 
   # add timeout to Agent calls that perform network requests only
   @call_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
 
-  @spec start_link :: Agent.on_start()
-  def start_link do
+  @spec start_link(any) :: Agent.on_start()
+  def start_link(_) do
     Agent.start_link(fn -> MapSet.new() end)
   end
 
@@ -38,7 +40,7 @@ defmodule Neko.Achievement.Store do
     Agent.update(pid, fn _ -> achievements end)
   end
 
-  @spec achievements(pos_integer) :: achievements_t
+  @spec achievements(pos_integer()) :: achievements_t
   defp achievements(user_id) do
     user_id
     |> Neko.Shikimori.Client.get_achievements!()

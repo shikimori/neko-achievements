@@ -1,33 +1,33 @@
 defmodule Neko.Rules.SimpleRule.Store do
   @moduledoc false
 
+  use Agent
+
   @type rule_t :: %Neko.Rules.SimpleRule{}
   @type rules_t :: MapSet.t(rule_t)
 
+  @name __MODULE__
   @algo "simple"
   @rules_reader Application.get_env(:neko, :rules)[:reader]
 
-  @spec start_link(String.t()) :: Agent.on_start()
-  def start_link(name \\ __MODULE__) do
-    Agent.start_link(
-      fn -> rules() |> calc() end,
-      name: name
-    )
+  @spec start_link(any) :: Agent.on_start()
+  def start_link(_) do
+    Agent.start_link(fn -> rules() |> calc() end, name: @name)
   end
 
-  @spec reload(String.t()) :: :ok
-  def reload(name \\ __MODULE__) do
-    Agent.update(name, fn _ -> rules() |> calc() end)
+  @spec reload() :: :ok
+  def reload do
+    Agent.update(@name, fn _ -> rules() |> calc() end)
   end
 
-  @spec all(String.t()) :: rules_t
-  def all(name \\ __MODULE__) do
-    Agent.get(name, & &1)
+  @spec all() :: rules_t
+  def all do
+    Agent.get(@name, & &1)
   end
 
-  @spec set(String.t(), rules_t) :: :ok
-  def set(name \\ __MODULE__, rules) do
-    Agent.update(name, fn _ -> rules |> calc() end)
+  @spec set(rules_t) :: :ok
+  def set(rules) do
+    Agent.update(@name, fn _ -> rules |> calc() end)
   end
 
   @spec calc(rules_t) :: rules_t

@@ -36,7 +36,7 @@ defmodule Neko.Router do
     request = Neko.Request.new(conn.body_params)
 
     request.user_id
-    |> Neko.UserHandler.Supervisor.create_missing_handler()
+    |> Neko.UserHandler.DynamicSupervisor.create_missing_handler()
 
     diff = request |> Neko.UserHandler.process()
     conn |> send_resp(201, Poison.encode!(diff))

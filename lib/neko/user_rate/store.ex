@@ -1,14 +1,16 @@
 defmodule Neko.UserRate.Store do
   @moduledoc false
 
+  use Agent, restart: :temporary
+
   @type user_rate_t :: %Neko.UserRate{}
   @type user_rates_t :: MapSet.t(user_rate_t)
 
   # add timeout to Agent calls that perform network requests only
   @call_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
 
-  @spec start_link :: Agent.on_start()
-  def start_link do
+  @spec start_link(any) :: Agent.on_start()
+  def start_link(_) do
     Agent.start_link(fn -> MapSet.new() end)
   end
 
