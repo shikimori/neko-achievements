@@ -52,7 +52,7 @@ defmodule Neko.Shikimori.HTTPClient do
   # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
   #
   # add static request options here,
-  # add dynamic ones in make_request!/2
+  # dynamic ones - in make_request!/2
   defp process_request_options(options) do
     Keyword.merge(
       options,
