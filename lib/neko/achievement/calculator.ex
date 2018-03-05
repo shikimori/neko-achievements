@@ -1,3 +1,4 @@
+# https://github.com/thestonefox/elixir_poolboy_example
 defmodule Neko.Achievement.Calculator do
   @moduledoc false
 
@@ -11,7 +12,7 @@ defmodule Neko.Achievement.Calculator do
       :poolboy.transaction(
         config[:name],
         fn pid -> apply(config[:module], :achievements, [pid, user_id]) end,
-        config[:timeout]
+        config[:wait_timeout]
       )
     end)
   end

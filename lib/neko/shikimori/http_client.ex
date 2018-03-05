@@ -9,6 +9,7 @@ defmodule Neko.Shikimori.HTTPClient do
   use HTTPoison.Base
 
   @base_url Application.get_env(:neko, :shikimori)[:url]
+  @conn_timeout Application.get_env(:neko, :shikimori)[:conn_timeout]
   @recv_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
 
   def get_user_rates!(user_id) do
@@ -38,9 +39,7 @@ defmodule Neko.Shikimori.HTTPClient do
   end
 
   defp make_request!(:get, path, params \\ %{}) do
-    ssl = [versions: [:"tlsv1.2"]]
-    hackney = [pool: :default]
-    get!(path, [], params: params, ssl: ssl, hackney: hackney).body
+    get!(path, [], params: params).body
   end
 
   defp handle_parse_json!(result, json) do
@@ -50,8 +49,18 @@ defmodule Neko.Shikimori.HTTPClient do
     end
   end
 
+  # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
+  #
+  # add static request options here,
+  # add dynamic ones in make_request!/2
   defp process_request_options(options) do
-    Keyword.merge(options, recv_timeout: @recv_timeout)
+    Keyword.merge(
+      options,
+      timeout: @conn_timeout,
+      recv_timeout: @recv_timeout,
+      ssl: [versions: [:"tlsv1.2"]],
+      hackney: [pool: :default]
+    )
   end
 
   defp process_url("/" <> path), do: process_url(path)

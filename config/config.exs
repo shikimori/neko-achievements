@@ -37,16 +37,20 @@ config :logger, :console,
     error: :red
   ]
 
-# request timeout (user_handler_registry/call_timeout)
-#   -> await timeout of tasks to load user data (shikimori/recv_timeout)
-#     -> store agent call timeout (shikimori/recv_timeout)
-#       -> http client receive timeout (shikimori/recv_timeout)
-#   -> poolboy timeout to calculate achievements (simple_rule_worker_pool/timeout)
+# [120] request timeout (user_handler_registry/call_timeout)
+#   -> [110] await timeout of tasks to load user data (shikimori/total_timeout)
+#     -> [110] store agent call timeout (shikimori/total_timeout)
+#       -> [20] http client connect timeout (shikimori/timeout)
+#       -> [90] http client receive timeout (shikimori/recv_timeout)
+#   -> [10] poolboy timeout to calculate achievements (simple_rule_worker_pool/timeout)
 
+# https://hexdocs.pm/httpoison/HTTPoison.html#request/5
 config :neko, :shikimori,
   client: Neko.Shikimori.HTTPClient,
   url: "https://shikimori.org/api/",
-  recv_timeout: 90_000
+  conn_timeout: 20_000, # connect timeout (8_000 by default)
+  recv_timeout: 90_000, # receive timeout (5_000 by default)
+  total_timeout: 110_000 # timeout + recv_timeout
 
 config :neko, :rules,
   dir: "priv/rules",
@@ -62,7 +66,8 @@ config :neko, :simple_rule_worker_pool,
   name: :simple_rule_worker_pool,
   module: Neko.Rules.SimpleRule.Worker,
   size: 15,
-  timeout: 10_000
+  # how long poolboy waits for a worker (5_000 by default)
+  wait_timeout: 10_000
 
 import_config "appsignal.exs"
 

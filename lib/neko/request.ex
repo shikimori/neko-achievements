@@ -21,7 +21,7 @@ defmodule Neko.Request do
     uppercamelcase: false,
     underscore: false
 
-  @await_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
+  @await_timeout Application.get_env(:neko, :shikimori)[:total_timeout]
 
   def process(%{user_id: user_id} = request) do
     load_user_data(request)
