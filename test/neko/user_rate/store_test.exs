@@ -5,7 +5,7 @@ defmodule Neko.UserRate.StoreTest do
   alias Neko.UserRate.Store
 
   setup do
-    {:ok, pid} = Store.start_link()
+    {:ok, pid} = Store.start_link([])
     {:ok, pid: pid}
   end
 

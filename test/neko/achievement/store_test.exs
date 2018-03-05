@@ -5,7 +5,7 @@ defmodule Neko.Achievement.StoreTest do
   alias Neko.Achievement.Store
 
   setup do
-    {:ok, pid} = Store.start_link()
+    {:ok, pid} = Store.start_link([])
     {:ok, pid: pid}
   end
 
