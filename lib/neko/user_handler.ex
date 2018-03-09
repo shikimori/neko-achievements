@@ -13,9 +13,7 @@ defmodule Neko.UserHandler do
   require Logger
 
   @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
-  # how long request can wait in the queue to be processed
   @call_timeout Application.get_env(:neko, :user_handler_registry)[:call_timeout]
-  # how long handler process can wait for new message to be received
   @recv_timeout Application.get_env(:neko, :user_handler_registry)[:recv_timeout]
 
   # ------------------------------------------------------------------

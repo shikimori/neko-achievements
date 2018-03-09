@@ -48,9 +48,17 @@ config :logger, :console,
 config :neko, :shikimori,
   client: Neko.Shikimori.HTTPClient,
   url: "https://shikimori.org/api/",
-  conn_timeout: 20_000, # connect timeout (8_000 by default)
-  recv_timeout: 90_000, # receive timeout (5_000 by default)
-  total_timeout: 110_000 # timeout + recv_timeout
+  # connect timeout (8_000 by default)
+  conn_timeout: 20_000,
+  # receive timeout (5_000 by default)
+  recv_timeout: 90_000,
+  # timeout + recv_timeout
+  total_timeout: 110_000,
+  hackney_pool: [
+    name: :shikimori_pool,
+    # number of connections maintained in pool (50 by default)
+    max_connections: 150
+  ]
 
 config :neko, :rules,
   dir: "priv/rules",
@@ -59,7 +67,9 @@ config :neko, :rules,
 
 config :neko, :user_handler_registry,
   name: :user_handler_registry,
+  # how long request can wait in the queue to be processed
   call_timeout: 120_000,
+  # how long handler process can wait for new message to be received
   recv_timeout: 4 * 3_600_000
 
 config :neko, :simple_rule_worker_pool,
