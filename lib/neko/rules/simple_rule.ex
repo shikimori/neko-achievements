@@ -1,6 +1,5 @@
 defmodule Neko.Rules.SimpleRule do
   @moduledoc false
-
   @behaviour Neko.Rules.Rule
 
   alias Neko.Rules.SimpleRule.Store

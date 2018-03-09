@@ -1,6 +1,5 @@
 defmodule Neko.Shikimori.MockClient do
   @moduledoc false
-
   @behaviour Neko.Shikimori.Client.Behaviour
 
   @impl true
