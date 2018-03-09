@@ -26,6 +26,7 @@ defmodule Neko.Application do
 
     :hackney_pool.child_spec(
       config[:name],
+      timeout: config[:timeout],
       max_connections: config[:max_connections]
     )
   end
