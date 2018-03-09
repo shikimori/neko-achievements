@@ -13,6 +13,7 @@ defmodule Neko.Shikimori.HTTPClient do
   @recv_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
   @hackney_pool_name Application.get_env(:neko, :shikimori)[:hackney_pool][:name]
 
+  @impl true
   def get_user_rates!(user_id) do
     params = %{user_id: user_id, status: :completed}
     json = make_request!(:get, "v2/user_rates", params)
@@ -22,6 +23,7 @@ defmodule Neko.Shikimori.HTTPClient do
     |> handle_parse_json!(json)
   end
 
+  @impl true
   def get_achievements!(user_id) do
     params = %{user_id: user_id}
     json = make_request!(:get, "achievements", params)
@@ -31,6 +33,7 @@ defmodule Neko.Shikimori.HTTPClient do
     |> handle_parse_json!(json)
   end
 
+  @impl true
   def get_animes! do
     json = make_request!(:get, "animes/neko")
 

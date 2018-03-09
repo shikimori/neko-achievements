@@ -16,10 +16,12 @@ defmodule Neko.Rules.SimpleRule do
 
   use ExConstructor, atoms: true, strings: true
 
+  @impl true
   defdelegate reload, to: Store
   defdelegate all, to: Store
 
   # reload rules in all poolboy workers when new rules are set
+  @impl true
   def set(rules) do
     Store.set(rules)
 
@@ -30,11 +32,13 @@ defmodule Neko.Rules.SimpleRule do
     |> Enum.each(fn pid -> apply(config[:module], :reload, [pid]) end)
   end
 
+  @impl true
   def worker_pool_config do
     Application.get_env(:neko, :simple_rule_worker_pool)
   end
 
   # rules are taken from worker state to avoid excessive copying
+  @impl true
   def achievements(rules, user_id) do
     # precalculate user_anime_ids before passing them to count/2:
     # processing is ~10ms longer when creating MapSet in count/2

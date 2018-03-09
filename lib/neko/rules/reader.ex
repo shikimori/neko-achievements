@@ -10,6 +10,7 @@ defmodule Neko.Rules.Reader do
   @behaviour Behaviour
   @rules_dir Application.get_env(:neko, :rules)[:dir]
 
+  @impl true
   def read_rules(algo) do
     algo
     |> read_from_file()

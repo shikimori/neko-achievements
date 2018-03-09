@@ -12,7 +12,10 @@ defmodule Neko.Shikimori.Client do
   @behaviour Behaviour
   @adapter Application.get_env(:neko, :shikimori)[:client]
 
+  @impl true
   defdelegate get_user_rates!(user_id), to: @adapter
+  @impl true
   defdelegate get_achievements!(user_id), to: @adapter
+  @impl true
   defdelegate get_animes!, to: @adapter
 end
