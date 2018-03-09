@@ -8,6 +8,7 @@ defmodule Neko.Rules.Reader do
   end
 
   @behaviour Behaviour
+
   @rules_dir Application.get_env(:neko, :rules)[:dir]
 
   @impl true

@@ -10,6 +10,7 @@ defmodule Neko.Shikimori.Client do
   end
 
   @behaviour Behaviour
+
   @adapter Application.get_env(:neko, :shikimori)[:client]
 
   @impl true
