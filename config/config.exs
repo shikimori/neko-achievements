@@ -54,10 +54,10 @@ config :neko, :shikimori,
   recv_timeout: 90_000,
   # timeout + recv_timeout
   total_timeout: 110_000,
-  hackney_pool: [
+  pool: [
     name: :shikimori_pool,
     # time we keep the connection alive in the pool (150_000 by default)
-    timeout: 30 * 60_000,
+    conn_ttl: 30 * 60_000,
     # number of connections maintained in the pool (50 by default)
     max_connections: 150
   ]

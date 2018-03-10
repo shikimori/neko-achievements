@@ -10,7 +10,7 @@ defmodule Neko.Shikimori.HTTPClient do
   @base_url Application.get_env(:neko, :shikimori)[:url]
   @conn_timeout Application.get_env(:neko, :shikimori)[:conn_timeout]
   @recv_timeout Application.get_env(:neko, :shikimori)[:recv_timeout]
-  @hackney_pool_name Application.get_env(:neko, :shikimori)[:hackney_pool][:name]
+  @pool_name Application.get_env(:neko, :shikimori)[:pool][:name]
 
   @impl true
   def get_user_rates!(user_id) do
@@ -62,7 +62,7 @@ defmodule Neko.Shikimori.HTTPClient do
       timeout: @conn_timeout,
       recv_timeout: @recv_timeout,
       ssl: [versions: [:"tlsv1.2"]],
-      hackney: [pool: @hackney_pool_name]
+      hackney: [pool: @pool_name]
     )
   end
 

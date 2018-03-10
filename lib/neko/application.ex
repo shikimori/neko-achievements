@@ -4,7 +4,7 @@ defmodule Neko.Application do
 
   def start(_type, _args) do
     children = [
-      shikimori_hackney_pool_child(),
+      shikimori_pool_child(),
       Neko.Anime.Store,
       Neko.Rules.SimpleRule.Store,
       simple_rule_worker_pool_child(),
@@ -21,12 +21,12 @@ defmodule Neko.Application do
     Supervisor.start_link(children, opts)
   end
 
-  defp shikimori_hackney_pool_child do
-    config = Application.get_env(:neko, :shikimori)[:hackney_pool]
+  defp shikimori_pool_child do
+    config = Application.get_env(:neko, :shikimori)[:pool]
 
     :hackney_pool.child_spec(
       config[:name],
-      timeout: config[:timeout],
+      timeout: config[:conn_ttl],
       max_connections: config[:max_connections]
     )
   end
