@@ -61,7 +61,8 @@ defmodule Neko.Shikimori.HTTPClient do
       options,
       timeout: @conn_timeout,
       recv_timeout: @recv_timeout,
-      ssl: [versions: [:"tlsv1.2"]]
+      ssl: [versions: [:"tlsv1.2"]],
+      hackney: [pool: @pool_name]
     )
   end
 
