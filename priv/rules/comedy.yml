@@ -19,6 +19,8 @@
   metadata:
     title_ru: Комедиант
     text_ru: Теперь вам известны основы комедии.
+    image: https://dere.shikimori.org/system/user_images/original/7642/565389.jpg
+    border_color: "#CD9575"
 
 - <<: *defaults
   level: 3
