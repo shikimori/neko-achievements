@@ -39,7 +39,7 @@
   metadata:
     title_ru: Беззаботный зритель
     text_ru: Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
-    image: https://moe.shikimori.org/system/user_images/original/7642/563187.jpg
+    image: /assets/achievements/anime/animelist_5.jpg
     border_color: "#D5D5D5"
 
 - <<: *defaults
@@ -147,7 +147,7 @@
   metadata:
     title_ru: Легенда
     text_ru: Вы один из избранных. Вам уже даже не нужно хвастаться, потому что все и так слышали о вас.
-    image: https://nyaa.shikimori.org/system/user_images/original/7642/563165.jpg
+    image: /assets/achievements/anime/animelist_19.jpg
     border_color: "#003153"
     
 - <<: *defaults
