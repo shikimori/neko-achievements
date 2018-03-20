@@ -62,7 +62,7 @@ defmodule Neko.Shikimori.HTTPClient do
       timeout: @conn_timeout,
       recv_timeout: @recv_timeout,
       ssl: [versions: [:"tlsv1.2"]],
-      hackney: [reuseaddr: false, pool: @pool_name]
+      hackney: [pool: @pool_name, reuseaddr: false]
     )
   end
 
