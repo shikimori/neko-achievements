@@ -8,6 +8,7 @@ defmodule Neko.Anime do
     genre_ids
     year
     episodes
+    duration
   )a
 
   @rules_list Application.get_env(:neko, :rules)[:list]
