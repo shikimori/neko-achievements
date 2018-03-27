@@ -1,5 +1,5 @@
 [
-  # uncomment these packages adopt .formatter.exs
+  # uncomment these packages when they adopt .formatter.exs
   #import_deps: [:ecto, :phoenix, :plug],
   inputs: ["{config,lib,test}/**/*.{ex,exs}", "mix.exs"],
   line_length: 83,
