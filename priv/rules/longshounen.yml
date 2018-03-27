@@ -2,7 +2,7 @@
   neko_id: longshounen
   level: 1
   algo: simple
-  threshold: 30%
+  threshold: 10
   filters:
     anime_ids:
       - 10033
@@ -45,7 +45,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 55%
+  threshold: 25
   metadata:
-    title_ru: Король пиратов
-    text_ru: Качество работы пропорционально количеству серий. Чем длиннее — тем выше потенциал! В длинном аниме персонажи раскрыты лучше всего! Нужно больше длинносёненов!
+    title_ru: Марафонец
+    text_ru: 10, 20, 30... 100 эпизодов! Я только разогреваюсь!
