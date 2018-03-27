@@ -1,0 +1,36 @@
+- &defaults
+  neko_id: shortie
+  algo: simple
+  threshold: 20
+  level: 1
+  filters:
+    duration_lte: 14
+  metadata:
+    title_ru: Миг, и вы ее потеряли
+    text_ru: Все закончилось не успев начаться, остались лишь приятные воспоминания.
+    topic_id: 245151
+
+- <<: *defaults
+  level: 2
+  threshold: 40
+  metadata:
+    title_ru: Зависимость
+    text_ru: Сколько раз вы уже говорили «еще один» за последних девять часов?
+
+- <<: *defaults
+  level: 3
+  threshold: 60
+  metadata:
+    title_ru: Блок за блоком
+    text_ru: Как и с тетрисом, строится что-то великолепное из маленьких кусочков.
+    image: /assets/achievements/anime/shortie_3.jpg
+    border_color: "#425e17"
+
+- <<: *defaults
+  level: 4
+  threshold: 80
+  metadata:
+    title_ru: Короткий, но золотой
+    text_ru: Вы узнали, что некоторые из лучших аниме выходят в коротком формате.
+    image: /assets/achievements/anime/shortie_4.gif
+    border_color: "#474a51"
