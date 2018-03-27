@@ -1,0 +1,14 @@
+- &defaults
+  neko_id: kids
+  algo: simple
+  threshold: 40
+  level: 1
+  filters:
+    genre_ids:
+      - 15
+  metadata:
+    title_ru: Родом из детства
+    text_ru: Аниме — это один из маленьких шансов вернуться в детство.
+    image: /assets/achievements/anime/kids_1.jpg
+    border_color: "#228b22"
+    topic_id: 222035
