@@ -60,6 +60,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     |> filter_by_anime_ids(filters["anime_ids"])
     |> filter_by_year_lte(filters["year_lte"])
     |> filter_by_episodes_gte(filters["episodes_gte"])
+    |> filter_by_duration_lte(filters["duration_lte"])
   end
 
   defp filter_by_genre_ids(animes, nil) do
@@ -109,6 +110,16 @@ defmodule Neko.Rules.SimpleRule.Store do
     animes
     |> Enum.reject(&is_nil(&1.episodes))
     |> Enum.filter(&(&1.episodes >= episodes_gte))
+  end
+
+  defp filter_by_duration_lte(animes, nil) do
+    animes
+  end
+
+  defp filter_by_duration_lte(animes, duration_lte) do
+    animes
+    |> Enum.reject(&is_nil(&1.episodes))
+    |> Enum.filter(&(&1.duration <= duration_lte))
   end
 
   @spec calc_threshold(rule_t) :: rule_t
