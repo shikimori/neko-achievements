@@ -2,7 +2,7 @@
   neko_id: seinen
   level: 1
   algo: simple
-  threshold: 25
+  threshold: 30
   filters:
     genre_ids:
       - 42
@@ -26,7 +26,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 80
+  threshold: 90
   metadata:
     title_ru: Великая мечта
     text_ru: Тот, кто смеётся с закрытыми глазами, точно знает, что выиграет.
