@@ -3,7 +3,7 @@
   neko_id: gar
   level: 1
   algo: simple
-  threshold: 10%
+  threshold: 5%
   filters:
     anime_ids:
       - 1
@@ -475,7 +475,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 25%
+  threshold: 15%
   metadata:
     title_ru: Буря тестостерона 
     text_ru: Вы больше не помещаетесь в зеркалах.
@@ -484,7 +484,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 40%
+  threshold: 25%
   metadata:
     title_ru: Альфа-самец
     text_ru: Физика играет по вашим правилам.
