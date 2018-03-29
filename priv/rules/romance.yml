@@ -2,7 +2,7 @@
   neko_id: romance
   level: 1
   algo: simple
-  threshold: 40
+  threshold: 65
   filters:
     genre_ids:
       - 22
@@ -15,7 +15,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 90
+  threshold: 130
   metadata:
     title_ru: Первое признание в любви.
     text_ru: Если ты не признаешься, он никогда не узнает о твоих чувствах.
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 140
+  threshold: 260
   metadata:
     title_ru: Конфетно-букетный период
     text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 200
+  threshold: 350
   metadata:
     title_ru: Сердце, полное любви
     text_ru: Эксперт в отношениях.
