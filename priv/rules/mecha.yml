@@ -2,7 +2,7 @@
   neko_id: mecha
   level: 1
   algo: simple
-  threshold: 40
+  threshold: 45
   filters:
     genre_ids:
       - 18
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 140
+  threshold: 180
   metadata:
     title_ru: Ньютайп
     text_ru: Ore Wa Gundam
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 200
+  threshold: 235
   metadata:
     title_ru: DO THE IMPOSSIBLE, SEE THE INVISIBLE!
     text_ru: |-
