@@ -1,25 +1,29 @@
 - &defaults
   neko_id: shortie
   algo: simple
-  threshold: 20
+  threshold: 65
   level: 1
   filters:
     duration_lte: 14
   metadata:
     title_ru: Миг, и вы ее потеряли
     text_ru: Все закончилось не успев начаться, остались лишь приятные воспоминания.
+    image: https://kawai.shikimori.org/system/user_images/original/7642/572851.jpg
+    border_color: "#6E5160"
     topic_id: 245151
 
 - <<: *defaults
   level: 2
-  threshold: 40
+  threshold: 150
   metadata:
     title_ru: Зависимость
     text_ru: Сколько раз вы уже говорили «еще один» за последних девять часов?
+    image: https://moe.shikimori.org/system/user_images/original/7642/572852.jpg
+    border_color: "#FAE7B5"
 
 - <<: *defaults
   level: 3
-  threshold: 60
+  threshold: 250
   metadata:
     title_ru: Блок за блоком
     text_ru: Как и с тетрисом, строится что-то великолепное из маленьких кусочков.
@@ -28,7 +32,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 80
+  threshold: 400
   metadata:
     title_ru: Короткий, но золотой
     text_ru: Вы узнали, что некоторые из лучших аниме выходят в коротком формате.
