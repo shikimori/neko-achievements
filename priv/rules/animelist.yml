@@ -34,7 +34,7 @@
   metadata: 
     title_ru: Беззаботный зритель
     text_ru: Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
-    image: /assets/achievements/anime/animelist_5.jpg
+    image: /assets/achievements/anime/animelist_4.jpg
     border_color: "#D5D5D5"
 
 - <<: *defaults
