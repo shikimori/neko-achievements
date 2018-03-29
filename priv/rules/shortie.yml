@@ -8,7 +8,7 @@
   metadata:
     title_ru: Миг, и вы ее потеряли
     text_ru: Все закончилось не успев начаться, остались лишь приятные воспоминания.
-    image: https://kawai.shikimori.org/system/user_images/original/7642/572851.jpg
+    image: /assets/achievements/anime/shortie_1.jpg
     border_color: "#6E5160"
     topic_id: 245151
 
@@ -18,7 +18,7 @@
   metadata:
     title_ru: Зависимость
     text_ru: Сколько раз вы уже говорили «еще один» за последних девять часов?
-    image: https://moe.shikimori.org/system/user_images/original/7642/572852.jpg
+    image: /assets/achievements/anime/shortie_2.jpg
     border_color: "#FAE7B5"
 
 - <<: *defaults
