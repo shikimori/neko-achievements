@@ -1,7 +1,7 @@
 - &defaults
   neko_id: comedy
   algo: simple
-  threshold: 40
+  threshold: 70
   level: 1
   filters:
     genre_ids:
@@ -15,7 +15,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 90
+  threshold: 150
   metadata:
     title_ru: Комедиант
     text_ru: Теперь вам известны основы комедии.
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 140
+  threshold: 250
   metadata:
     title_ru: Вечный смех
     text_ru: Сатира, пародия, каламбур, сарказм, ирония, гротеск — ни одна шутка не проскользнет мимо вас. Вы - мастер юмора, улавливающий самые тонкие его нотки и плавающий в самых темных его глубинах... но стоит ли продолжать смотреть в бездну?
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 200
+  threshold: 400
   metadata:
     title_ru: Why so serious?
     text_ru: Юмор пронизывает вашу сущность, не оставляя места ничему другому.
