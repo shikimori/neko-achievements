@@ -40,8 +40,12 @@
 - <<: *defaults
   level: 5
   threshold: 200
-  metadata: {}
-
+  metadata:
+     title_ru: Легкая прогулка
+     text_ru: В дорогу дальнюю идем по неизведанным тропинкам. Сколько впереди ещё интересного!
+     image: /assets/achievements/anime/animelist_5.jpg
+     border_color: "#FFDC33"
+     
 - <<: *defaults
   level: 6
   threshold: 300
@@ -61,7 +65,9 @@
   threshold: 500
   metadata:
     title_ru: Много свободного времени?
-    text_ru: Просмотрели 500 аниме... А теперь сделайте паузу, займитесь дыхательной гимнастикой и разомнитесь. Помните, что нельзя сидеть слишком близко к экрану.
+    text_ru: Одно увлечение может затянуть с головой, но помните, что в мире ещё много приятных вещей...
+    image: /assets/achievements/anime/animelist_8.jpg
+    border_color: "#3F888F"
 
 - <<: *defaults
   level: 9
