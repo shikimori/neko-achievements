@@ -1,4 +1,4 @@
-defmodule Neko.Shikimori.MockClient do
+defmodule Neko.Shikimori.ClientMock do
   @moduledoc false
   @behaviour Neko.Shikimori.Client.Behaviour
 

@@ -7,7 +7,7 @@ ExUnit.start()
 # right here using defmock, that is before starting application
 #
 # next when application is being started Mox raises error
-# `no expectation defined for Neko.Shikimori.MockClient.get_animes!/0`
+# `no expectation defined for Neko.Shikimori.ClientMock.get_animes!/0`
 # even though get_animes!/0 is stubbed right here using Mox.stub/3
 #
 # all in all I will fallback to plain mock modules for now
