@@ -8,8 +8,8 @@ defmodule Neko.Rules.SimpleRule.Worker do
   # Client API
   # ------------------------------------------------------------------
 
-  def start_link(state \\ []) do
-    GenServer.start_link(__MODULE__, state)
+  def start_link(arg) do
+    GenServer.start_link(__MODULE__, arg)
   end
 
   def achievements(pid, user_id) do
