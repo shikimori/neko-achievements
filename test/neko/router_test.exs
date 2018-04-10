@@ -96,7 +96,7 @@ defmodule Neko.RouterTest do
       {:ok, request: request}
     end
 
-    test "returns new achievements", context do
+    test "get new achievements", context do
       json = Poison.encode!(context.request)
 
       conn =
@@ -130,7 +130,7 @@ defmodule Neko.RouterTest do
                })
     end
 
-    test "returns 401 without authorization token", context do
+    test "get page without authorization token", context do
       json = Poison.encode!(context.request)
 
       conn =
@@ -143,7 +143,7 @@ defmodule Neko.RouterTest do
       assert conn.resp_body == "Not Authorized"
     end
 
-    test "returns 404 for missing page", context do
+    test "get missing page", context do
       json = Poison.encode!(context.request)
       conn = json_post_conn("/missing", json) |> Router.call(@opts)
 

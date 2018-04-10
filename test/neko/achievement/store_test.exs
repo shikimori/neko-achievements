@@ -9,7 +9,7 @@ defmodule Neko.Achievement.StoreTest do
     {:ok, pid: pid}
   end
 
-  test "sets achievements", %{pid: pid} do
+  test "set achievements", %{pid: pid} do
     achievements =
       MapSet.new([
         %Achievement{neko_id: "foo"},

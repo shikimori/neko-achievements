@@ -5,11 +5,11 @@ defmodule Neko.UserRate.Store.RegistryTest do
   alias Neko.UserRate.Store.Registry, as: StoreRegistry
 
   setup context do
-    {:ok, _} = StoreRegistry.start_link(context.test)
+    {:ok, _pid} = StoreRegistry.start_link(context.test)
     {:ok, name: context.test}
   end
 
-  test "fetches user rate store by user_id", %{name: name} do
+  test "fetch user rate store by user_id", %{name: name} do
     user_id = 1
     assert StoreRegistry.lookup(name, user_id) == :error
 
@@ -18,7 +18,7 @@ defmodule Neko.UserRate.Store.RegistryTest do
     assert Store.all(store_pid) == MapSet.new()
   end
 
-  test "removes user rate stores on exit", %{name: name} do
+  test "remove user rate stores on exit", %{name: name} do
     user_id = 1
 
     store_pid = StoreRegistry.fetch(name, user_id)
@@ -28,7 +28,7 @@ defmodule Neko.UserRate.Store.RegistryTest do
     assert StoreRegistry.lookup(name, user_id) == :error
   end
 
-  test "removes user rate store on crash", %{name: name} do
+  test "remove user rate store on crash", %{name: name} do
     user_id = 1
 
     store_pid = StoreRegistry.fetch(name, user_id)

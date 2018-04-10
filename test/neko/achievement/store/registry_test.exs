@@ -7,7 +7,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
   setup context do
     # context.test - name of specific test
     # (say, :"fetches store by user_id")
-    {:ok, _} = StoreRegistry.start_link(context.test)
+    {:ok, _pid} = StoreRegistry.start_link(context.test)
     # use registry by its name, not pid
     {:ok, name: context.test}
   end
@@ -17,7 +17,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
   #       trying to start registry with the same name in another test file:
   #
   #       no match of right hand side value: {:error, {:already_started, ...}}
-  test "fetches achievement store by user_id", %{name: name} do
+  test "fetch achievement store by user_id", %{name: name} do
     user_id = 1
     assert StoreRegistry.lookup(name, user_id) == :error
 
@@ -26,7 +26,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
     assert Store.all(store_pid) == MapSet.new()
   end
 
-  test "removes achievement stores on exit", %{name: name} do
+  test "remove achievement stores on exit", %{name: name} do
     user_id = 1
 
     store_pid = StoreRegistry.fetch(name, user_id)
@@ -38,7 +38,7 @@ defmodule Neko.Achievement.Store.RegistryTest do
     assert StoreRegistry.lookup(name, user_id) == :error
   end
 
-  test "removes achievement store on crash", %{name: name} do
+  test "remove achievement store on crash", %{name: name} do
     user_id = 1
 
     store_pid = StoreRegistry.fetch(name, user_id)
