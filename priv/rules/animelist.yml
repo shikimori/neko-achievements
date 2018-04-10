@@ -52,6 +52,8 @@
   metadata:
     title_ru: Эстет
     text_ru: Удобно развалившись в кресле, вы наслаждаетесь просмотром аниме. Качественная графика, прекрасное музыкальное сопровождение, интересные сюжеты... эти японские мультики весьма хороши.
+    image: /assets/achievements/anime/animelist_6.jpg
+    border_color: "#F64A46"
 
 - <<: *defaults
   level: 7
@@ -59,6 +61,8 @@
   metadata:
     title_ru: Есть чем похвастаться
     text_ru: Просмотрено 400 аниме. Это... много. Вы можете гордиться собой, определённо.
+    image: /assets/achievements/anime/animelist_7.jpg
+    border_color: "#ACB78E"
 
 - <<: *defaults
   level: 8
@@ -123,31 +127,36 @@
   level: 15
   threshold: 2000
   metadata: 
-    title_ru: Мастер
-    text_ru: Мастер познается в самоограничении.
+    title_ru: Знать
+    text_ru: Вы - вершина общества, сливки из сливок, объект зависти и восхищения. И пусть чернь склонится перед Вашим Величеством!
+    image: /assets/achievements/anime/animelist_15.jpg
+    border_color: "#fce883"
 
 - <<: *defaults
   level: 16
   threshold: 2500
   metadata:
-    title_ru: Знать
-    text_ru: Вы - вершина общества, сливки из сливок, объект зависти и восхищения. И пусть чернь склонится перед Вашим Величеством!
+    title_ru: Герой
+    text_ru:
     image: /assets/achievements/anime/animelist_16.jpg
-    border_color: "#fce883"
+    border_color: "#ff4d00"
 
 - <<: *defaults
   level: 17
   threshold: 3500
-  metadata: {}
+  metadata:
+    title_ru: Просветленный
+    text_ru: Мастер познается в самоограничении.
+    image: 
+    border_color: 
 
 - <<: *defaults
   level: 18
   threshold: 5000
   metadata:
-    title_ru: Герой
     text_ru:
-    image: /assets/achievements/anime/animelist_18.jpg
-    border_color: "#ff4d00"
+    image: 
+    border_color: 
 
 - <<: *defaults
   level: 19
