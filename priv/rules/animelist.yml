@@ -96,7 +96,7 @@
   threshold: 888
   metadata:
     title_ru: Бесконечное путешествие
-    text_ru: У каждого человека свои звезды. Одним - тем, кто странствует, - они указывают путь. Для других это просто маленькие огоньки. Дорога вперед бесконечна. Хотите ли вы продолжать идти по ней?
+    text_ru: У каждого человека свои звезды. Одним — тем, кто странствует, — они указывают путь. Для других это просто маленькие огоньки. Дорога вперед бесконечна. Хотите ли вы продолжать идти по ней?
     image: /assets/achievements/anime/animelist_11.jpg
     border_color: "#002f55"
 
@@ -118,45 +118,46 @@
   level: 14
   threshold: 1500
   metadata:
-    title_ru: Маньяк
-    text_ru: Это так круто? Возможно вам следует обратиться к врачу.
+    title_ru: Гурман
+    text_ru: Ваша неразборчивость в потреблении аниме-блюд вызывает трепет, а способность переваривать любой контент — восхищение.
     image: /assets/achievements/anime/animelist_14.jpg
-    border_color: "#ED3CCA"
+    border_color: "#F34723"
 
 - <<: *defaults
   level: 15
   threshold: 2000
-  metadata: 
-    title_ru: Знать
-    text_ru: Вы - вершина общества, сливки из сливок, объект зависти и восхищения. И пусть чернь склонится перед Вашим Величеством!
+  metadata:
+    title_ru: Маньяк
+    text_ru: Это так круто? Возможно вам следует обратиться к врачу.
     image: /assets/achievements/anime/animelist_15.jpg
-    border_color: "#fce883"
+    border_color: "#ED3CCA"
 
 - <<: *defaults
   level: 16
   threshold: 2500
   metadata:
     title_ru: Герой
-    text_ru:
+    text_ru: Результат интенсивных тренировок на поприще аниме-просмотра – необычный внешний вид, а побочный эффект – стильный костюмчик.
     image: /assets/achievements/anime/animelist_16.jpg
-    border_color: "#ff4d00"
+    border_color: "#FFDB58"
 
 - <<: *defaults
   level: 17
   threshold: 3500
-  metadata:
-    title_ru: Просветленный
-    text_ru: Мастер познается в самоограничении.
-    image: 
-    border_color: 
+  metadata: 
+    title_ru: Голубая кровь
+    text_ru: Вы находитесь так высоко! Кто-то восхищается вами, кто-то завидует, и это — заслуженно. Но не стоит задирать нос, помните, что и вы начинали с малого.
+    image: /assets/achievements/anime/animelist_17.jpg
+    border_color: "#fce883"
 
 - <<: *defaults
   level: 18
   threshold: 5000
   metadata:
-    text_ru:
-    image: 
-    border_color: 
+    title_ru: Просветленный
+    text_ru: Мастер познается в самоограничении.
+    image: /assets/achievements/anime/animelist_18.jpg
+    border_color: "#FFBA00" 
 
 - <<: *defaults
   level: 19
@@ -170,4 +171,8 @@
 - <<: *defaults
   level: 20
   threshold: 10000
-  metadata: {}
+  metadata:    
+    title_ru: No title 
+    text_ru: Честно, мы не думали, что кто-то сможет. Теперь тебе не нужно аниме чтобы смотреть аниме.
+    image: /assets/achievements/anime/animelist_20.gif
+    border_color: "#231A24"
