@@ -16,3 +16,30 @@ $ mix run -—no-halt
 ```sh
 $ mix deploy
 ```
+
+
+### parse achievements extracted from google docs
+```ryby
+File.open('/tmp/achievements.yml', 'w') {|f| f.write SmarterCSV.process(open('/tmp/achievements.csv')).to_yaml }
+```
+
+```ryby
+data = YAML.load_file('/tmp/achievements.yml').map do |entry|
+  franchise = Anime.find(entry[:url].match(%r{/animes/[A-z]*(?<id>\d+)})[:id]).franchise
+
+  {
+    neko_id: franchise,
+    level: 1,
+    algo: 'simple',
+    filters: {
+      franchise: franchise,
+    },
+    threshold: entry[:threshold].to_i,
+    metadata: {
+      image: [entry[:image_url], entry[:image_2_url], entry[:image_3_url], entry[:image_4_url]].compact
+    }
+  }
+end
+
+File.open("#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchise.yml", 'w') {|f| f.write data.to_yaml }
+```
