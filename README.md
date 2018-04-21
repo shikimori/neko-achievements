@@ -41,5 +41,5 @@ data = YAML.load_file('/tmp/achievements.yml').map do |entry|
   }
 end
 
-File.open("#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchise.yml", 'w') {|f| f.write data.to_yaml }
+File.open("#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml", 'w') {|f| f.write data.to_yaml }
 ```

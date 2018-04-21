@@ -9,6 +9,7 @@ defmodule Neko.Anime do
     year
     episodes
     duration
+    franchise
   )a
 
   @rules_list Application.get_env(:neko, :rules)[:list]
