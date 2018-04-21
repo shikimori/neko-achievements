@@ -187,7 +187,7 @@
     title_ru: Начинающий моэфаг
     text_ru: Позволь проводить тебя в удивительный 2д-мир.
     image: /assets/achievements/anime/moe_1.jpg
-    border_color: "#f0d698"
+    border_color: "#FBCEB1"
     topic_id: 227423
 
 - <<: *defaults
