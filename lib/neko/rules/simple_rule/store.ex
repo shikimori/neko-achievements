@@ -140,7 +140,7 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_by_franchise(animes, franchise) do
     animes
     |> Enum.reject(&is_nil(&1.franchise))
-    |> Enum.filter(&(&1.franchise != franchise))
+    |> Enum.filter(&(&1.franchise == franchise))
   end
 
   @spec calc_threshold(rule_t) :: rule_t
