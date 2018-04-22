@@ -44,7 +44,7 @@ data = YAML.load_file('/tmp/achievements.yml').
       'filters' => {
         'franchise' => franchise,
       }.merge(not_anime_ids || {}),
-      'threshold' => entry[:threshold].to_i,
+      'threshold' => entry[:threshold],
       'metadata' => {
         'image' => [entry[:image_url], entry[:image_2_url], entry[:image_3_url], entry[:image_4_url]].compact
       }
