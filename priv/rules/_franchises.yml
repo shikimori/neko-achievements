@@ -116,7 +116,6 @@
   threshold: 100%
   metadata:
     image:
-    - http://dere.shikimori.org/images/user_image/original/23002/110149.jpg
 - neko_id: fate_zero
   level: 1
   algo: simple
@@ -174,7 +173,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://shikimori.org/assets/achievements/anime/franchise/ghost_in_the_shell-2dd4d7d982046b4aa8d2909398292681.jpg
+    - /assets/achievements/anime/franchise/ghost_in_the_shell.jpg
     - http://i.imgur.com/R1IkSre.png
     - http://i.imgur.com/vPDXII9.png
 - neko_id: kuroko_no_basket
@@ -204,7 +203,6 @@
   threshold: 100%
   metadata:
     image:
-    - http://s5.postimg.org/830ypl653/Detective_Conan_Characters_450x300jpg.jpg
 - neko_id: petit_eva
   level: 1
   algo: simple
@@ -224,7 +222,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://shikimori.org/assets/achievements/anime/franchise/nodame_cantabile-2c7a2f7ada127b2105872ef9659f1ad7.jpg
+    - /assets/achievements/anime/franchise/nodame_cantabile.jpg
 - neko_id: umineko_no_naku_koro_ni
   level: 1
   algo: simple
@@ -385,7 +383,6 @@
   threshold: 100%
   metadata:
     image:
-    - http://nyaa.shikimori.org/images/user_image/original/23002/110160.jpg
 - neko_id: new_game
   level: 1
   algo: simple
@@ -398,7 +395,6 @@
   threshold: 100%
   metadata:
     image:
-    - http://imgur.com/64umPjk
 - neko_id: persona
   level: 1
   algo: simple
@@ -409,7 +405,6 @@
   threshold: 100%
   metadata:
     image:
-    - http://imgur.com/auU7oHC
 - neko_id: slayers
   level: 1
   algo: simple
@@ -495,7 +490,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://shikimori.org/assets/achievements/anime/franchise/sayonara_zetsubou_sensei-788a8384a699af0998e2a465a509d6d1.jpg
+    - /assets/achievements/anime/franchise/sayonara_zetsubou_sensei.jpg
     - http://i.imgur.com/SmHaUbJ.png
     - http://i.imgur.com/pJMDVXj.png
 - neko_id: moon_pride
@@ -573,7 +568,6 @@
   threshold: 100%
   metadata:
     image:
-    - http://moe.shikimori.org/images/user_image/original/23002/110127.jpg
 - neko_id: white_album
   level: 1
   algo: simple
