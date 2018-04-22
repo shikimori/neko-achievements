@@ -58,6 +58,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     animes
     |> filter_by_genre_ids(filters["genre_ids"])
     |> filter_by_anime_ids(filters["anime_ids"])
+    |> reject_by_anime_ids(filters["not_anime_ids"])
     |> filter_by_year_lte(filters["year_lte"])
     |> filter_by_episodes_gte(filters["episodes_gte"])
     |> filter_by_duration_lte(filters["duration_lte"])
@@ -91,6 +92,15 @@ defmodule Neko.Rules.SimpleRule.Store do
   defp filter_by_anime_ids(animes, anime_ids) do
     animes
     |> Enum.filter(&Enum.member?(anime_ids, &1.id))
+  end
+
+  defp reject_by_anime_ids(animes, nil) do
+    animes
+  end
+
+  defp reject_by_anime_ids(animes, anime_ids) do
+    animes
+    |> Enum.reject(&Enum.member?(anime_ids, &1.id))
   end
 
   defp filter_by_year_lte(animes, nil) do
