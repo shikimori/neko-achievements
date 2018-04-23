@@ -1,4 +1,3 @@
----
 - neko_id: fullmetal_alchemist
   level: 1
   algo: simple
@@ -199,7 +198,7 @@
   threshold: 100%
   metadata:
     image:
-  - https://desu.shikimori.org/system/user_images/original/58482/584958.jpg
+    - https://desu.shikimori.org/system/user_images/original/58482/584958.jpg
 - neko_id: purigorota
   level: 1
   algo: simple
@@ -531,7 +530,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/fc64c3e8823c0277ce62990e1bdb9432b71121264c79613f7a53009639a20ba6/inf/Ulc4l6Nw6Zl9PBaWaDlZYeM-uSpzbC9gm-hrwgc3EeXnCefvixcR5KOXGwrHkbyNG5bnHybTsRBX5DeCr0ZH0g%3D%3D?uid=0&filename=Seikai.No.Senki.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
- - neko_id: votoms_finder
+- neko_id: votoms_finder
   level: 1
   algo: simple
   filters:
@@ -792,7 +791,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/a3b458a7dd283bafacf9056a2f4ed9f4406eca15e6b0e620f0993d173f34a03b/inf/Ulc4l6Nw6Zl9PBaWaDlZYQCacsGXzYC3w5HP7FhW0Az4A8VXpnzNPD8nTzBT8hM1-oK7_BknTLPDmWZraKaGSA%3D%3D?uid=0&filename=dog-days0098.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
- - neko_id: dirty_pair
+- neko_id: dirty_pair
   level: 1
   algo: simple
   filters:
