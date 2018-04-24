@@ -28,8 +28,8 @@
   metadata:
     title_ru: Герой
     text_ru: Ваши подвиги войдут в историю.
-    image: /assets/achievements/anime/fantasy_3.gif
-    border_color: #f00
+    image: /assets/achievements/anime/fantasy_3.jpg
+    border_color: "#C5D0E6"
 
 - <<: *defaults
   level: 4
