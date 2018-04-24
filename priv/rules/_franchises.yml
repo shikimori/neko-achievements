@@ -26,7 +26,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/rroQ8nQ.png
+    - https://kawai.shikimori.org/system/user_images/original/84020/586911.jpg
 - neko_id: hunter_x_hunter
   level: 1
   algo: simple
@@ -181,7 +181,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/AQBVPP3.png
+    - https://dere.shikimori.org/system/user_images/original/84020/586899.jpg
 - neko_id: magic_kaito
   level: 1
   algo: simple
@@ -350,7 +350,7 @@
   algo: simple
   filters:
     franchise: naruto
-  threshold: 70%
+  threshold: 100%
   metadata:
     image:
     - http://i.imgur.com/701wXDx.jpg
@@ -563,7 +563,7 @@
   algo: simple
   filters:
     franchise: pokemon
-  threshold: 70%
+  threshold: 100%
   metadata:
     image:
     - http://i.imgur.com/Lbkoz20.png
@@ -796,12 +796,6 @@
   algo: simple
   filters:
     franchise: dirty_pair
-    not_anime_ids:
-    - 1802
-    - 1803
-    - 4200
-    - 12343
-    - 12347
   threshold: 100%
   metadata:
     image:
