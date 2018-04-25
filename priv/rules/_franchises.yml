@@ -1,3 +1,4 @@
+---
 - neko_id: fullmetal_alchemist
   level: 1
   algo: simple
@@ -9,6 +10,7 @@
   metadata:
     image:
     - http://i.imgur.com/M821rLg.png
+    topic_id: 247360
 - neko_id: gintama
   level: 1
   algo: simple
@@ -18,6 +20,7 @@
   metadata:
     image:
     - http://i.imgur.com/b1iPCow.png
+    topic_id: 247360
 - neko_id: ginga_eiyuu_densetsu
   level: 1
   algo: simple
@@ -27,6 +30,7 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/586911.jpg
+    topic_id: 247360
 - neko_id: hunter_x_hunter
   level: 1
   algo: simple
@@ -36,6 +40,7 @@
   metadata:
     image:
     - http://i.imgur.com/u2Vw6JV.png
+    topic_id: 247360
 - neko_id: hanamonogatari
   level: 1
   algo: simple
@@ -47,6 +52,7 @@
   metadata:
     image:
     - http://i.imgur.com/lsLbehE.png
+    topic_id: 247360
 - neko_id: code_geass
   level: 1
   algo: simple
@@ -61,6 +67,7 @@
   metadata:
     image:
     - http://i.imgur.com/yjd3pFc.png
+    topic_id: 247360
 - neko_id: mushishi
   level: 1
   algo: simple
@@ -70,6 +77,7 @@
   metadata:
     image:
     - http://i.imgur.com/j6vZg0U.png
+    topic_id: 247360
 - neko_id: rurouni_kenshin
   level: 1
   algo: simple
@@ -79,6 +87,7 @@
   metadata:
     image:
     - http://i.imgur.com/dqVaLdD.png
+    topic_id: 247360
 - neko_id: natsume_yuujinchou
   level: 1
   algo: simple
@@ -89,6 +98,7 @@
     image:
     - http://i.imgur.com/JVK8aJw.png
     - http://i.imgur.com/TiswIVn.png
+    topic_id: 247360
 - neko_id: nyoro_n_churuya_san
   level: 1
   algo: simple
@@ -98,6 +108,7 @@
   metadata:
     image:
     - http://i.imgur.com/vjWTN36.png
+    topic_id: 247360
 - neko_id: bakuman
   level: 1
   algo: simple
@@ -107,6 +118,7 @@
   metadata:
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/585005.jpg
+    topic_id: 247360
 - neko_id: fate_zero
   level: 1
   algo: simple
@@ -116,6 +128,7 @@
   metadata:
     image:
     - http://i.imgur.com/zxwOfe9.png
+    topic_id: 247360
 - neko_id: jojo_no_kimyou_na_bouken
   level: 1
   algo: simple
@@ -126,6 +139,7 @@
     image:
     - http://i.imgur.com/yIWrZdG.jpg
     - http://i.imgur.com/jGHhaah.jpg
+    topic_id: 247360
 - neko_id: kara_no_kyoukai
   level: 1
   algo: simple
@@ -135,6 +149,7 @@
   metadata:
     image:
     - http://i.imgur.com/CMoiIVb.png
+    topic_id: 247360
 - neko_id: aria_the_ova
   level: 1
   algo: simple
@@ -144,6 +159,7 @@
   metadata:
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/573807.jpg
+    topic_id: 247360
 - neko_id: kuroshitsuji
   level: 1
   algo: simple
@@ -153,6 +169,7 @@
   metadata:
     image:
     - http://i.imgur.com/ba1tXwQ.png
+    topic_id: 247360
 - neko_id: ghost_in_the_shell
   level: 1
   algo: simple
@@ -163,7 +180,8 @@
   threshold: 100%
   metadata:
     image:
-    - /assets/achievements/anime/franchise/ghost_in_the_shell.jpg
+    - "/assets/achievements/anime/franchise/ghost_in_the_shell.jpg"
+    topic_id: 247360
 - neko_id: kuroko_no_basket
   level: 1
   algo: simple
@@ -173,6 +191,7 @@
   metadata:
     image:
     - http://i.imgur.com/1w3Q4p6.png
+    topic_id: 247360
 - neko_id: major
   level: 1
   algo: simple
@@ -182,6 +201,7 @@
   metadata:
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/586899.jpg
+    topic_id: 247360
 - neko_id: magic_kaito
   level: 1
   algo: simple
@@ -189,7 +209,8 @@
     franchise: magic_kaito
   threshold: 100%
   metadata:
-    image:
+    image: 
+    topic_id: 247360
 - neko_id: evangelion
   level: 1
   algo: simple
@@ -199,6 +220,7 @@
   metadata:
     image:
     - https://desu.shikimori.org/system/user_images/original/58482/584958.jpg
+    topic_id: 247360
 - neko_id: purigorota
   level: 1
   algo: simple
@@ -207,7 +229,8 @@
   threshold: 100%
   metadata:
     image:
-    - /assets/achievements/anime/franchise/nodame_cantabile.jpg
+    - "/assets/achievements/anime/franchise/nodame_cantabile.jpg"
+    topic_id: 247360
 - neko_id: umineko_no_naku_koro_ni
   level: 1
   algo: simple
@@ -218,6 +241,7 @@
     image:
     - http://i6.5cm.ru/i/2Aus.png
     - http://i.imgur.com/v7pjFJ7.png
+    topic_id: 247360
 - neko_id: one_piece
   level: 1
   algo: simple
@@ -227,6 +251,7 @@
   metadata:
     image:
     - http://i.imgur.com/fYxck9q.png
+    topic_id: 247360
 - neko_id: inuyasha
   level: 1
   algo: simple
@@ -236,6 +261,7 @@
   metadata:
     image:
     - http://i.imgur.com/fQtGwlc.png
+    topic_id: 247360
 - neko_id: dr
   level: 1
   algo: simple
@@ -247,6 +273,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: dr_slump
   level: 1
   algo: simple
@@ -262,6 +289,7 @@
   metadata:
     image:
     - http://i.imgur.com/paJlwxU.png
+    topic_id: 247360
 - neko_id: initial_d
   level: 1
   algo: simple
@@ -271,6 +299,7 @@
   metadata:
     image:
     - http://i.imgur.com/9i45dfD.png
+    topic_id: 247360
 - neko_id: durarara
   level: 1
   algo: simple
@@ -280,6 +309,7 @@
   metadata:
     image:
     - http://i.imgur.com/SY4hESq.png
+    topic_id: 247360
 - neko_id: working
   level: 1
   algo: simple
@@ -289,6 +319,7 @@
   metadata:
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/584987.jpg
+    topic_id: 247360
 - neko_id: saint_seiya
   level: 1
   algo: simple
@@ -298,6 +329,7 @@
   metadata:
     image:
     - http://i.imgur.com/t3r4zv2.png
+    topic_id: 247360
 - neko_id: junjou_romantica
   level: 1
   algo: simple
@@ -307,6 +339,7 @@
   metadata:
     image:
     - http://i.imgur.com/Zg8pGoQ.png
+    topic_id: 247360
 - neko_id: magical_star_kanon
   level: 1
   algo: simple
@@ -316,6 +349,7 @@
   metadata:
     image:
     - http://i.imgur.com/g7iW45k.png
+    topic_id: 247360
 - neko_id: darker_than_black
   level: 1
   algo: simple
@@ -326,6 +360,7 @@
     image:
     - http://i.imgur.com/iXohnp1.png
     - http://kawai.shikimori.org/images/user_image/original/23002/110191.jpg
+    topic_id: 247360
 - neko_id: lupin_iii
   level: 1
   algo: simple
@@ -336,6 +371,7 @@
     image:
     - http://i.imgur.com/YhU0jqQ.png
     - http://i.imgur.com/1rH2Mk1.png
+    topic_id: 247360
 - neko_id: full_metal_panic
   level: 1
   algo: simple
@@ -345,6 +381,7 @@
   metadata:
     image:
     - http://i.imgur.com/JGlSJBR.png
+    topic_id: 247360
 - neko_id: boruto
   level: 1
   algo: simple
@@ -354,6 +391,7 @@
   metadata:
     image:
     - http://i.imgur.com/701wXDx.jpg
+    topic_id: 247360
 - neko_id: fairy_tail
   level: 1
   algo: simple
@@ -363,7 +401,8 @@
     - 246
   threshold: 100%
   metadata:
-    image:
+    image: 
+    topic_id: 247360
 - neko_id: new_game
   level: 1
   algo: simple
@@ -375,7 +414,8 @@
     - 28915
   threshold: 100%
   metadata:
-    image:
+    image: 
+    topic_id: 247360
 - neko_id: persona
   level: 1
   algo: simple
@@ -387,6 +427,7 @@
   metadata:
     image:
     - https://i.imgur.com/auU7oHC.png
+    topic_id: 247360
 - neko_id: slayers
   level: 1
   algo: simple
@@ -396,6 +437,7 @@
   metadata:
     image:
     - http://i.imgur.com/YsCeLuo.png
+    topic_id: 247360
 - neko_id: toaru_majutsu_no_index
   level: 1
   algo: simple
@@ -407,6 +449,7 @@
   metadata:
     image:
     - http://i.imgur.com/upFgMl5.png
+    topic_id: 247360
 - neko_id: city_hunter
   level: 1
   algo: simple
@@ -416,6 +459,7 @@
   metadata:
     image:
     - http://i.imgur.com/wTtPj7l.png
+    topic_id: 247360
 - neko_id: prince_of_tennis
   level: 1
   algo: simple
@@ -425,6 +469,7 @@
   metadata:
     image:
     - http://i.imgur.com/MgD52aY.png
+    topic_id: 247360
 - neko_id: jigoku_shoujo
   level: 1
   algo: simple
@@ -434,6 +479,7 @@
   metadata:
     image:
     - http://i.imgur.com/VWXVr8D.jpg
+    topic_id: 247360
 - neko_id: macross
   level: 1
   algo: simple
@@ -441,8 +487,9 @@
     franchise: macross
   threshold: 100%
   metadata:
-    image: 
+    image:
     - https://moe.shikimori.org/system/user_images/original/84020/584882.jpg
+    topic_id: 247360
 - neko_id: photon
   level: 1
   algo: simple
@@ -454,6 +501,7 @@
   metadata:
     image:
     - http://i.imgur.com/8ooQjuR.png
+    topic_id: 247360
 - neko_id: saiyuuki_gaiden
   level: 1
   algo: simple
@@ -463,6 +511,7 @@
   metadata:
     image:
     - http://www.spookhouse.net/angelynx/otheranime/Saiyuki/saiyuki-page-header.jpg
+    topic_id: 247360
 - neko_id: sayonara_zetsubou_sensei
   level: 1
   algo: simple
@@ -473,9 +522,10 @@
   threshold: 100%
   metadata:
     image:
-    - /assets/achievements/anime/franchise/sayonara_zetsubou_sensei.jpg
+    - "/assets/achievements/anime/franchise/sayonara_zetsubou_sensei.jpg"
     - http://i.imgur.com/SmHaUbJ.png
     - http://i.imgur.com/pJMDVXj.png
+    topic_id: 247360
 - neko_id: moon_pride
   level: 1
   algo: simple
@@ -485,6 +535,7 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/573821.jpg
+    topic_id: 247360
 - neko_id: digimon_savers
   level: 1
   algo: simple
@@ -494,6 +545,7 @@
   metadata:
     image:
     - http://i.imgur.com/AU5DKYO.png
+    topic_id: 247360
 - neko_id: hokuto_no_ken
   level: 1
   algo: simple
@@ -503,6 +555,7 @@
   metadata:
     image:
     - http://i.imgur.com/5gIbsOg.png
+    topic_id: 247360
 - neko_id: maria_sama_ga_miteru
   level: 1
   algo: simple
@@ -512,6 +565,7 @@
   metadata:
     image:
     - http://i.imgur.com/v8KTwuW.png
+    topic_id: 247360
 - neko_id: nen_joou
   level: 1
   algo: simple
@@ -521,6 +575,7 @@
   metadata:
     image:
     - http://i.imgur.com/mrgcIAi.png
+    topic_id: 247360
 - neko_id: seikai_no_senki
   level: 1
   algo: simple
@@ -530,6 +585,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/fc64c3e8823c0277ce62990e1bdb9432b71121264c79613f7a53009639a20ba6/inf/Ulc4l6Nw6Zl9PBaWaDlZYeM-uSpzbC9gm-hrwgc3EeXnCefvixcR5KOXGwrHkbyNG5bnHybTsRBX5DeCr0ZH0g%3D%3D?uid=0&filename=Seikai.No.Senki.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: votoms_finder
   level: 1
   algo: simple
@@ -539,6 +595,7 @@
   metadata:
     image:
     - http://i.imgur.com/f8W13RS.png
+    topic_id: 247360
 - neko_id: bleach
   level: 1
   algo: simple
@@ -546,7 +603,8 @@
     franchise: bleach
   threshold: 100%
   metadata:
-    image:
+    image: 
+    topic_id: 247360
 - neko_id: white_album
   level: 1
   algo: simple
@@ -558,6 +616,7 @@
   metadata:
     image:
     - http://i.imgur.com/uMPzo7r.png
+    topic_id: 247360
 - neko_id: pokemon
   level: 1
   algo: simple
@@ -567,6 +626,7 @@
   metadata:
     image:
     - http://i.imgur.com/Lbkoz20.png
+    topic_id: 247360
 - neko_id: yes_precure
   level: 1
   algo: simple
@@ -578,6 +638,7 @@
   metadata:
     image:
     - http://i.imgur.com/jkvOVpf.png
+    topic_id: 247360
 - neko_id: hetalia
   level: 1
   algo: simple
@@ -587,6 +648,7 @@
   metadata:
     image:
     - http://i.imgur.com/Yp5iIYb.png
+    topic_id: 247360
 - neko_id: hayate_no_gotoku
   level: 1
   algo: simple
@@ -596,6 +658,7 @@
   metadata:
     image:
     - http://i.imgur.com/yOamsj6.png
+    topic_id: 247360
 - neko_id: mobile_police_patlabor
   level: 1
   algo: simple
@@ -605,6 +668,7 @@
   metadata:
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/573803.jpg
+    topic_id: 247360
 - neko_id: ranma
   level: 1
   algo: simple
@@ -614,6 +678,7 @@
   metadata:
     image:
     - http://i.imgur.com/HSxP6mu.png
+    topic_id: 247360
 - neko_id: atom
   level: 1
   algo: simple
@@ -623,6 +688,7 @@
   metadata:
     image:
     - http://oyster.ignimgs.com/wordpress/stg.ign.com/2014/02/24-black_jack.jpg
+    topic_id: 247360
 - neko_id: to_love_ru
   level: 1
   algo: simple
@@ -632,6 +698,7 @@
   metadata:
     image:
     - http://i.imgur.com/7RyGtjd.png
+    topic_id: 247360
 - neko_id: genshiken
   level: 1
   algo: simple
@@ -639,8 +706,9 @@
     franchise: genshiken
   threshold: 100%
   metadata:
-    image: 
+    image:
     - https://dere.shikimori.org/system/user_images/original/84020/584964.jpg
+    topic_id: 247360
 - neko_id: minami_ke
   level: 1
   algo: simple
@@ -650,6 +718,7 @@
   metadata:
     image:
     - http://i.imgur.com/45AU6pC.png
+    topic_id: 247360
 - neko_id: blood
   level: 1
   algo: simple
@@ -661,6 +730,7 @@
   metadata:
     image:
     - http://i.imgur.com/bmPbOPr.png
+    topic_id: 247360
 - neko_id: shakugan_no_shana
   level: 1
   algo: simple
@@ -670,6 +740,7 @@
   metadata:
     image:
     - http://i.imgur.com/okj7B9r.png
+    topic_id: 247360
 - neko_id: zero_no_tsukaima
   level: 1
   algo: simple
@@ -679,6 +750,7 @@
   metadata:
     image:
     - http://i.imgur.com/TiWdKRI.png
+    topic_id: 247360
 - neko_id: saki
   level: 1
   algo: simple
@@ -690,6 +762,7 @@
   metadata:
     image:
     - https://www.cafereo.co.jp/wp/wp-content/uploads/top_4571327546398.jpg
+    topic_id: 247360
 - neko_id: taiho_shichau_zo
   level: 1
   algo: simple
@@ -699,6 +772,7 @@
   metadata:
     image:
     - http://i.imgur.com/P66vOZK.png
+    topic_id: 247360
 - neko_id: yu_gi_oh
   level: 1
   algo: simple
@@ -714,6 +788,7 @@
   metadata:
     image:
     - https://4.downloader.disk.yandex.ru/preview/8b7bd9e84982dc5cd2db64bef6b2a65a2d87d2180afc27adee49fe9c7c185ede/inf/Ulc4l6Nw6Zl9PBaWaDlZYZkwyk65ca9VS5z9VF37HozlL_Xoj-hRJkAEr8vyZxy0hRU2ZVbxITksKC5VeMOttA%3D%3D?uid=0&filename=PWGbj9O.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: captain_tsubasa
   level: 1
   algo: simple
@@ -723,6 +798,7 @@
   metadata:
     image:
     - http://i.imgur.com/nGYuicE.png
+    topic_id: 247360
 - neko_id: galaxy_angel
   level: 1
   algo: simple
@@ -732,6 +808,7 @@
   metadata:
     image:
     - http://i.imgur.com/P1kSzcE.png
+    topic_id: 247360
 - neko_id: phi_brain
   level: 1
   algo: simple
@@ -741,6 +818,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/dac9071d353eb08519147ce638f60d7b56bf2e55304d5248afe3fa97ec038dbd/inf/Ulc4l6Nw6Zl9PBaWaDlZYWfqd6NgflUnNVW84qjM7tWHGQMItPHGXEgUqHiBJeDXjhx9_rlEUaQimZhWz7SEqQ%3D%3D?uid=0&filename=screenshot-10_9_2013-11_53_56-pm.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: ad_police
   level: 1
   algo: simple
@@ -750,6 +828,7 @@
   metadata:
     image:
     - http://i.imgur.com/NjRfFrZ.png
+    topic_id: 247360
 - neko_id: d_c
   level: 1
   algo: simple
@@ -762,6 +841,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/69f29d45e660fec8f59171a268ebeef9b3be987821d1ecf74ce9c1a299b6d4c8/inf/Ulc4l6Nw6Zl9PBaWaDlZYbH6HhYsujK7PZz9isF_CzhjHyJWph6sbj8bsHUBYFIZSwQ_lmWczXB8jcT49jKoYg%3D%3D?uid=0&filename=da-capo-second-season-dc-da-capo-932345144.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: hack_gift
   level: 1
   algo: simple
@@ -771,6 +851,7 @@
   metadata:
     image:
     - http://i.imgur.com/HHdxyde.png
+    topic_id: 247360
 - neko_id: futari_wa_milky_holmes
   level: 1
   algo: simple
@@ -780,6 +861,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/f255dd6d3e0ba190d32b130ecd071d5eaa28f9e2da577b1e0110a43e835e3bd5/inf/Ulc4l6Nw6Zl9PBaWaDlZYefLsIFoOltZFV0zvVB7tdGBBsHO36izsJsnjnMu0B8L8Li-k66LBmBXLZsukw55lA%3D%3D?uid=0&filename=2332377690e929cc8cc545dee2e5c37033bf768c.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: dog_days
   level: 1
   algo: simple
@@ -791,6 +873,7 @@
   metadata:
     image:
     - https://2.downloader.disk.yandex.ru/preview/a3b458a7dd283bafacf9056a2f4ed9f4406eca15e6b0e620f0993d173f34a03b/inf/Ulc4l6Nw6Zl9PBaWaDlZYQCacsGXzYC3w5HP7FhW0Az4A8VXpnzNPD8nTzBT8hM1-oK7_BknTLPDmWZraKaGSA%3D%3D?uid=0&filename=dog-days0098.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: dirty_pair
   level: 1
   algo: simple
@@ -800,6 +883,7 @@
   metadata:
     image:
     - http://i.imgur.com/vg1RzVZ.png
+    topic_id: 247360
 - neko_id: koihime_musou
   level: 1
   algo: simple
@@ -813,6 +897,7 @@
   metadata:
     image:
     - https://1.downloader.disk.yandex.ru/preview/45d91be221ae863ad0cea2133b1a6eadf019999b3fe79e3017e993c9bc6d4523/inf/Ulc4l6Nw6Zl9PBaWaDlZYQYUocpYV75Vbx29O9e-3eM_-_iELZjrcC_8HH-jTyAqQEZgo7HrBw_nrfVvSyniGA%3D%3D?uid=0&filename=shin_koihime_musou5.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
+    topic_id: 247360
 - neko_id: ikkitousen
   level: 1
   algo: simple
@@ -822,6 +907,7 @@
   metadata:
     image:
     - http://i.imgur.com/GdhjXa6.png
+    topic_id: 247360
 - neko_id: ring_ni_kakero
   level: 1
   algo: simple
@@ -831,6 +917,7 @@
   metadata:
     image:
     - http://i.imgur.com/juzhXwG.png
+    topic_id: 247360
 - neko_id: queen_s_blade
   level: 1
   algo: simple
@@ -840,15 +927,8 @@
   metadata:
     image:
     - http://i.imgur.com/jClFvnl.png
+    topic_id: 247360
 - neko_id: shokugeki_no_souma
-  level: 1
-  algo: simple
-  filters:
-    franchise: shokugeki_no_souma
-  threshold: 100%
-  metadata:
-    image: []
-    - neko_id: chiba_pedal
   level: 1
   algo: simple
   filters:
@@ -856,6 +936,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: diamond_no_ace
   level: 1
   algo: simple
@@ -864,6 +945,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: chiba_pedal
   level: 1
   algo: simple
@@ -872,6 +954,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: haikyuu
   level: 1
   algo: simple
@@ -880,6 +963,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: urusei_yatsura
   level: 1
   algo: simple
@@ -888,6 +972,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: casshern
   level: 1
   algo: simple
@@ -896,6 +981,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: amon
   level: 1
   algo: simple
@@ -904,6 +990,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: berserk
   level: 1
   algo: simple
@@ -912,6 +999,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: space_cobra
   level: 1
   algo: simple
@@ -920,6 +1008,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: mazinkaiser
   level: 1
   algo: simple
@@ -928,6 +1017,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: muumin
   level: 1
   algo: simple
@@ -936,6 +1026,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: re
   level: 1
   algo: simple
@@ -944,6 +1035,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: getter_robo
   level: 1
   algo: simple
@@ -952,6 +1044,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: ultraman
   level: 1
   algo: simple
@@ -960,6 +1053,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: kimagure_orange_road
   level: 1
   algo: simple
@@ -968,6 +1062,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: kinnikuman
   level: 1
   algo: simple
@@ -976,6 +1071,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: tiger_mask
   level: 1
   algo: simple
@@ -984,6 +1080,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: ginga_senpuu_braiger
   level: 1
   algo: simple
@@ -992,6 +1089,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: mahou_no_yousei_persia
   level: 1
   algo: simple
@@ -1000,6 +1098,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: obake_no_q_tarou
   level: 1
   algo: simple
@@ -1008,6 +1107,7 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
 - neko_id: pro_golfer_saru
   level: 1
   algo: simple
@@ -1016,3 +1116,4 @@
   threshold: 100%
   metadata:
     image: []
+    topic_id: 247360
