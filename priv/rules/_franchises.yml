@@ -36,11 +36,11 @@
   metadata:
     image:
     - http://i.imgur.com/u2Vw6JV.png
-- neko_id: nekomonogatari
+- neko_id: hanamonogatari
   level: 1
   algo: simple
   filters:
-    franchise: nekomonogatari
+    franchise: hanamonogatari
     not_anime_ids:
     - 23831
   threshold: 100%
@@ -190,11 +190,11 @@
   threshold: 100%
   metadata:
     image:
-- neko_id: petit_eva
+- neko_id: evangelion
   level: 1
   algo: simple
   filters:
-    franchise: petit_eva
+    franchise: evangelion
   threshold: 100%
   metadata:
     image:
@@ -345,11 +345,11 @@
   metadata:
     image:
     - http://i.imgur.com/JGlSJBR.png
-- neko_id: naruto
+- neko_id: boruto
   level: 1
   algo: simple
   filters:
-    franchise: naruto
+    franchise: boruto
   threshold: 100%
   metadata:
     image:
@@ -485,11 +485,11 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/573821.jpg
-- neko_id: digimon_tamers
+- neko_id: digimon_savers
   level: 1
   algo: simple
   filters:
-    franchise: digimon_tamers
+    franchise: digimon_savers
   threshold: 100%
   metadata:
     image:
@@ -856,7 +856,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: diamond_no_ace
+- neko_id: diamond_no_ace
   level: 1
   algo: simple
   filters:
@@ -864,7 +864,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: chiba_pedal
+- neko_id: chiba_pedal
   level: 1
   algo: simple
   filters:
@@ -872,7 +872,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: haikyuu
+- neko_id: haikyuu
   level: 1
   algo: simple
   filters:
@@ -880,7 +880,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: urusei_yatsura
+- neko_id: urusei_yatsura
   level: 1
   algo: simple
   filters:
@@ -888,7 +888,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: casshern
+- neko_id: casshern
   level: 1
   algo: simple
   filters:
@@ -896,7 +896,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: amon
+- neko_id: amon
   level: 1
   algo: simple
   filters:
@@ -904,7 +904,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: berserk
+- neko_id: berserk
   level: 1
   algo: simple
   filters:
@@ -912,7 +912,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: space_cobra
+- neko_id: space_cobra
   level: 1
   algo: simple
   filters:
@@ -920,7 +920,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: mazinkaiser
+- neko_id: mazinkaiser
   level: 1
   algo: simple
   filters:
@@ -928,7 +928,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: muumin
+- neko_id: muumin
   level: 1
   algo: simple
   filters:
@@ -936,7 +936,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: re
+- neko_id: re
   level: 1
   algo: simple
   filters:
@@ -944,7 +944,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: getter_robo
+- neko_id: getter_robo
   level: 1
   algo: simple
   filters:
@@ -952,7 +952,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: ultraman
+- neko_id: ultraman
   level: 1
   algo: simple
   filters:
@@ -960,7 +960,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: kimagure_orange_road
+- neko_id: kimagure_orange_road
   level: 1
   algo: simple
   filters:
@@ -968,7 +968,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: kinnikuman
+- neko_id: kinnikuman
   level: 1
   algo: simple
   filters:
@@ -976,7 +976,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: tiger_mask
+- neko_id: tiger_mask
   level: 1
   algo: simple
   filters:
@@ -984,7 +984,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: ginga_senpuu_braiger
+- neko_id: ginga_senpuu_braiger
   level: 1
   algo: simple
   filters:
@@ -992,7 +992,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: mahou_no_yousei_persia
+- neko_id: mahou_no_yousei_persia
   level: 1
   algo: simple
   filters:
@@ -1000,7 +1000,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: obake_no_q_tarou
+- neko_id: obake_no_q_tarou
   level: 1
   algo: simple
   filters:
@@ -1008,7 +1008,7 @@
   threshold: 100%
   metadata:
     image: []
-    - neko_id: pro_golfer_saru
+- neko_id: pro_golfer_saru
   level: 1
   algo: simple
   filters:
