@@ -182,11 +182,11 @@
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/586899.jpg
     topic_id: 247360
-- neko_id: magic_kaito
+- neko_id: detective_conan
   level: 1
   algo: simple
   filters:
-    franchise: magic_kaito
+    franchise: detective_conan
   threshold: 100%
   metadata:
     image: 
@@ -350,7 +350,7 @@
     - 246
   threshold: 100%
   metadata:
-    image: 
+    image:
     - https://dere.shikimori.org/system/user_images/original/84020/587404.jpg
     topic_id: 247360
 - neko_id: new_game
@@ -529,7 +529,7 @@
     franchise: bleach
   threshold: 100%
   metadata:
-    image: 
+    image:
     - https://kawai.shikimori.org/system/user_images/original/84020/587406.jpg
     topic_id: 247360
 - neko_id: pokemon
@@ -877,7 +877,7 @@
     franchise: berserk
   threshold: 100%
   metadata:
-    image: 
+    image:
     - https://dere.shikimori.org/system/user_images/original/84020/587464.jpg
     topic_id: 247360
 - neko_id: space_cobra
