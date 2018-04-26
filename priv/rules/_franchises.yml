@@ -238,11 +238,11 @@
   metadata:
     image: []
     topic_id: 247360
-- neko_id: re
+- neko_id: cyborg
   level: 1
   algo: simple
   filters:
-    franchise: re
+    franchise: cyborg
   threshold: 100%
   metadata:
     image: []
