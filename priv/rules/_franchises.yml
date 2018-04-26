@@ -318,11 +318,11 @@
     image:
     - http://i.imgur.com/9i45dfD.png
     topic_id: 247360
-- neko_id: ldlive
+- neko_id: katekyo_hitman_reborn
   level: 1
   algo: simple
   filters:
-    franchise: ldlive
+    franchise: katekyo_hitman_reborn
   threshold: 100%
   metadata:
     image: []

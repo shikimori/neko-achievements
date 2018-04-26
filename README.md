@@ -64,4 +64,6 @@ data = YAML.
   sort_by { |v| Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min }
 
 File.open(franchise_yml, 'w') {|f| f.write data.to_yaml }
+
+puts data.map { |v| v['filters']['franchise'] }.join(' ')
 ```
