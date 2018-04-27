@@ -188,7 +188,8 @@
     franchise: shokugeki_no_souma
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/587910.jpg
     topic_id: 247360
 - neko_id: major
   level: 1
@@ -205,9 +206,10 @@
   algo: simple
   filters:
     franchise: detective_conan
-  threshold: 100%
+  threshold: 95%
   metadata:
-    image: 
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/587873.jpg
     topic_id: 247360
 - neko_id: evangelion
   level: 1
@@ -245,7 +247,8 @@
     franchise: cyborg
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/587868.jpg
     topic_id: 247360
 - neko_id: diamond_no_ace
   level: 1
@@ -254,7 +257,8 @@
     franchise: diamond_no_ace
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/587845.jpg
     topic_id: 247360
 - neko_id: tsubasa
   level: 1
@@ -263,7 +267,8 @@
     franchise: tsubasa
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/587918.jpg
     topic_id: 247360
 - neko_id: umineko_no_naku_koro_ni
   level: 1
@@ -281,7 +286,14 @@
   algo: simple
   filters:
     franchise: one_piece
-  threshold: 100%
+    not_anime_ids:
+    - 34165
+    - 32437
+    - 36239
+    - 36240
+    - 36241
+    - 36242
+  threshold: 95%
   metadata:
     image:
     - http://i.imgur.com/fYxck9q.png
@@ -306,7 +318,8 @@
     - 23943
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/587962.jpg
     topic_id: 247360
 - neko_id: initial_d
   level: 1
@@ -325,7 +338,8 @@
     franchise: katekyo_hitman_reborn
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/587890.jpg
     topic_id: 247360
 - neko_id: durarara
   level: 1
@@ -383,16 +397,18 @@
     franchise: chiba_pedal
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://dere.shikimori.org/system/user_images/original/84020/587974.jpg
     topic_id: 247360
-- neko_id: hybrid_deka
+- neko_id: glass_no_kamen
   level: 1
   algo: simple
   filters:
-    franchise: hybrid_deka
+    franchise: glass_no_kamen
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/587850.jpg
     topic_id: 247360
 - neko_id: lupin_iii
   level: 1
@@ -410,7 +426,7 @@
   algo: simple
   filters:
     franchise: boruto
-  threshold: 100%
+  threshold: 95%
   metadata:
     image:
     - http://i.imgur.com/701wXDx.jpg
@@ -422,7 +438,8 @@
     franchise: eureka_seven
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/587927.jpg
     topic_id: 247360
 - neko_id: full_metal_panic
   level: 1
@@ -488,6 +505,7 @@
     franchise: toaru_majutsu_no_index
     not_anime_ids:
     - 27829
+    - 32264
   threshold: 100%
   metadata:
     image:
@@ -510,7 +528,8 @@
     franchise: kindaichi_shounen_no_jikenbo
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://dere.shikimori.org/system/user_images/original/84020/587869.jpg
     topic_id: 247360
 - neko_id: snow_halation
   level: 1
@@ -519,7 +538,8 @@
     franchise: snow_halation
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/587880.jpg
     topic_id: 247360
 - neko_id: prince_of_tennis
   level: 1
@@ -547,7 +567,8 @@
     franchise: amon
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/587860.jpg
     topic_id: 247360
 - neko_id: macross
   level: 1
@@ -588,7 +609,8 @@
     franchise: muumin
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/587882.jpg
     topic_id: 247360
 - neko_id: saiyuuki_gaiden
   level: 1
@@ -637,7 +659,8 @@
     franchise: mahoujin_guruguru
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/587853.jpg
     topic_id: 247360
 - neko_id: nen_joou
   level: 1
@@ -648,16 +671,6 @@
   metadata:
     image:
     - http://i.imgur.com/mrgcIAi.png
-    topic_id: 247360
-- neko_id: seikai_no_senki
-  level: 1
-  algo: simple
-  filters:
-    franchise: seikai_no_senki
-  threshold: 100%
-  metadata:
-    image:
-    - https://2.downloader.disk.yandex.ru/preview/fc64c3e8823c0277ce62990e1bdb9432b71121264c79613f7a53009639a20ba6/inf/Ulc4l6Nw6Zl9PBaWaDlZYeM-uSpzbC9gm-hrwgc3EeXnCefvixcR5KOXGwrHkbyNG5bnHybTsRBX5DeCr0ZH0g%3D%3D?uid=0&filename=Seikai.No.Senki.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
     topic_id: 247360
 - neko_id: votoms_finder
   level: 1
@@ -693,7 +706,14 @@
   algo: simple
   filters:
     franchise: pokemon
-  threshold: 100%
+    not_anime_ids:
+    - 32699
+    - 36835
+    - 31373
+    - 11019
+    - 11009
+    - 23849
+  threshold: 95%
   metadata:
     image:
     - http://i.imgur.com/Lbkoz20.png
@@ -712,21 +732,12 @@
   algo: simple
   filters:
     franchise: yes_precure
-  threshold: 100%
-  metadata:
-    image: []
-    topic_id: 247360
-- neko_id: yes_precure
-  level: 1
-  algo: simple
-  filters:
-    franchise: yes_precure
     not_anime_ids:
     - 10736
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/jkvOVpf.png
+    - https://kawai.shikimori.org/system/user_images/original/34807/587826.jpg
     topic_id: 247360
 - neko_id: hetalia
   level: 1
@@ -814,7 +825,8 @@
     franchise: space_cobra
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/587937.jpg
     topic_id: 247360
 - neko_id: negima
   level: 1
@@ -870,9 +882,12 @@
   algo: simple
   filters:
     franchise: kimagure_orange_road
+    not_anime_ids:
+    - 14059
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/84020/587931.jpg
     topic_id: 247360
 - neko_id: pripara
   level: 1
@@ -955,7 +970,8 @@
     franchise: zettai_karen_children
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/34807/587936.jpg
     topic_id: 247360
 - neko_id: saki
   level: 1
@@ -1100,7 +1116,8 @@
     franchise: kinnikuman
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://dere.shikimori.org/system/user_images/original/34807/587824.jpg
     topic_id: 247360
 - neko_id: hack_gift
   level: 1
@@ -1131,17 +1148,11 @@
   metadata:
     image: []
     topic_id: 247360
-- neko_id: dr_slump
+- neko_id: dragon_ball
   level: 1
   algo: simple
   filters:
-    franchise: dr_slump
-    not_anime_ids:
-    - 8551
-    - 30450
-    - 8550
-    - 30449
-    - 3312
+    franchise: dragon_ball
   threshold: 100%
   metadata:
     image:
@@ -1236,6 +1247,322 @@
   algo: simple
   filters:
     franchise: pro_golfer_saru
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: konjiki_no_gash_bell
+  level: 1
+  algo: simple
+  filters:
+    franchise: konjiki_no_gash_bell
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: yuu_yuu_hakusho
+  level: 1
+  algo: simple
+  filters:
+    franchise: yuu_yuu_hakusho
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: touch
+  level: 1
+  algo: simple
+  filters:
+    franchise: touch
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: maison_ikkoku
+  level: 1
+  algo: simple
+  filters:
+    franchise: maison_ikkoku
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: megalo_box
+  level: 1
+  algo: simple
+  filters:
+    franchise: megalo_box
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: hajime_no_ippo
+  level: 1
+  algo: simple
+  filters:
+    franchise: hajime_no_ippo
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: baki
+  level: 1
+  algo: simple
+  filters:
+    franchise: baki
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: hikaru_no_go
+  level: 1
+  algo: simple
+  filters:
+    franchise: hikaru_no_go
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: slam_dunk
+  level: 1
+  algo: simple
+  filters:
+    franchise: slam_dunk
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: boku_no_hero_academia
+  level: 1
+  algo: simple
+  filters:
+    franchise: boku_no_hero_academia
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: koro_sensei_q
+  level: 1
+  algo: simple
+  filters:
+    franchise: koro_sensei_q
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: nanatsu_no_taizai
+  level: 1
+  algo: simple
+  filters:
+    franchise: nanatsu_no_taizai
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: dragon_quest
+  level: 1
+  algo: simple
+  filters:
+    franchise: dragon_quest
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: choujuu_kishin_dancougar
+  level: 1
+  algo: simple
+  filters:
+    franchise: choujuu_kishin_dancougar
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: el_hazard
+  level: 1
+  algo: simple
+  filters:
+    franchise: el_hazard
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: ehon_yose
+  level: 1
+  algo: simple
+  filters:
+    franchise: ehon_yose
+  threshold: 50%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: dmatsu_san
+  level: 1
+  algo: simple
+  filters:
+    franchise: dmatsu_san
+  threshold: 50%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: locker_room
+  level: 1
+  algo: simple
+  filters:
+    franchise: locker_room
+  threshold: 60%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: haou_daikei_ryuu_knight
+  level: 1
+  algo: simple
+  filters:
+    franchise: haou_daikei_ryuu_knight
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: fushigi_yuugi
+  level: 1
+  algo: simple
+  filters:
+    franchise: fushigi_yuugi
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: juusenki_l_gaim
+  level: 1
+  algo: simple
+  filters:
+    franchise: juusenki_l_gaim
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: candy_candy
+  level: 1
+  algo: simple
+  filters:
+    franchise: candy_candy
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: selector_spread_wixoss
+  level: 1
+  algo: simple
+  filters:
+    franchise: selector_spread_wixoss
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: nurarihyon_no_mago
+  level: 1
+  algo: simple
+  filters:
+    franchise: nurarihyon_no_mago
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: aikatsu
+  level: 1
+  algo: simple
+  filters:
+    franchise: aikatsu
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: sakura_taisen
+  level: 1
+  algo: simple
+  filters:
+    franchise: sakura_taisen
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: rean_no_tsubasa
+  level: 1
+  algo: simple
+  filters:
+    franchise: rean_no_tsubasa
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: sket_dance
+  level: 1
+  algo: simple
+  filters:
+    franchise: sket_dance
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: super_doll_licca_chan
+  level: 1
+  algo: simple
+  filters:
+    franchise: super_doll_licca_chan
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: to_heart
+  level: 1
+  algo: simple
+  filters:
+    franchise: to_heart
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: uchuu_kyoudai
+  level: 1
+  algo: simple
+  filters:
+    franchise: uchuu_kyoudai
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: ushio_to_tora
+  level: 1
+  algo: simple
+  filters:
+    franchise: ushio_to_tora
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: school_rumble
+  level: 1
+  algo: simple
+  filters:
+    franchise: school_rumble
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: mini_van
+  level: 1
+  algo: simple
+  filters:
+    franchise: mini_van
+  threshold: 100%
+  metadata:
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/84020/587956.jpg
+    topic_id: 247360
+- neko_id: transformers
+  level: 1
+  algo: simple
+  filters:
+    franchise: transformers
   threshold: 100%
   metadata:
     image: []
