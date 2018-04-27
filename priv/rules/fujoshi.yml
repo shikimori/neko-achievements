@@ -2,7 +2,7 @@
   neko_id: fujoshi
   level: 1
   algo: simple
-  threshold: 30
+  threshold: 25%
   filters:
     genre_ids:
       - 28
@@ -16,7 +16,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 50
+  threshold: 45%
   metadata:
     title_ru: Голубок
     text_ru: 'Поворачивать назад уже слишком поздно. Пора совершить каминг-аут и наконец-то признать свою любовь к "не очень традиционным" историям.'
@@ -25,7 +25,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 70
+  threshold: 65%
   metadata:
     title_ru: Шиппер
     text_ru: Мужская дружба? Не, не слышали.
@@ -34,7 +34,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 90
+  threshold: 85%
   metadata:
     title_ru: Яойный бог
     text_ru: Яой - не жанр. Яой — это стиль жизни.
