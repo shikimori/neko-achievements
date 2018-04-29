@@ -7,8 +7,8 @@
     genre_ids:
       - 18
   metadata:
-    title_ru: Пилот Евы
-    text_ru: ОЯШ, залезай в робота
+    title_ru: Пилот Evangelion Unit
+    text_ru: ОЯШ, полезай в робота
     image: /assets/achievements/anime/mecha_1.png
     border_color: "#1a153f"
     topic_id: 222036
@@ -27,7 +27,7 @@
   threshold: 180
   metadata:
     title_ru: Ньютайп
-    text_ru: Ore Wa Gundam
+    text_ru: Ore wa Gundam
     image: /assets/achievements/anime/mecha_3.png
     border_color: "#66cdaa"
 
