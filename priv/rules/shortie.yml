@@ -6,7 +6,7 @@
   filters:
     duration_lte: 14
   metadata:
-    title_ru: Миг, и вы ее потеряли
+    title_ru: Миг, и ты ее потерял
     text_ru: Все закончилось не успев начаться, остались лишь приятные воспоминания.
     image: /assets/achievements/anime/shortie_1.jpg
     border_color: "#6E5160"
@@ -17,7 +17,7 @@
   threshold: 150
   metadata:
     title_ru: Зависимость
-    text_ru: Сколько раз вы уже говорили «еще один» за последних девять часов?
+    text_ru: Сколько раз вы уже произнесли «еще один» за последние девять часов?
     image: /assets/achievements/anime/shortie_2.jpg
     border_color: "#FAE7B5"
 
@@ -26,7 +26,7 @@
   threshold: 250
   metadata:
     title_ru: Блок за блоком
-    text_ru: Как и с тетрисом, строится что-то великолепное из маленьких кусочков.
+    text_ru: Вы, как при игре в тетрис, строите великое из маленьких кусочков.
     image: /assets/achievements/anime/shortie_3.jpg
     border_color: "#425e17"
 
@@ -34,7 +34,7 @@
   level: 4
   threshold: 400
   metadata:
-    title_ru: Короткий, но золотой
+    title_ru: Коротко, но золото
     text_ru: Вы узнали, что некоторые из лучших аниме выходят в коротком формате.
     image: /assets/achievements/anime/shortie_4.gif
     border_color: "#474a51"
