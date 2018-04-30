@@ -14,7 +14,7 @@ defmodule Neko.Shikimori.HTTPClient do
 
   @impl true
   def get_user_rates!(user_id) do
-    params = %{user_id: user_id, status: :completed}
+    params = %{user_id: user_id, status: 'completed,rewatching'}
     json = make_request!(:get, "v2/user_rates", params)
 
     json
