@@ -155,7 +155,9 @@
   threshold: 5000
   metadata:
     title_ru: Просветленный
-    text_ru: Мастер познается в самоограничении.
+    text_ru: |-
+      Мастер познается в самоограничении.
+      И в долгой созерцательной практике.
     image: /assets/achievements/anime/animelist_18.jpg
     border_color: "#FFBA00" 
 
