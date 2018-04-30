@@ -598,11 +598,11 @@
     image:
     - https://i.imgur.com/auU7oHC.png
     topic_id: 247360
-- neko_id: new_game
+- neko_id: hidamari_sketch
   level: 1
   algo: simple
   filters:
-    franchise: new_game
+    franchise: hidamari_sketch
     not_anime_ids:
     - 28911
     - 28913
@@ -977,11 +977,11 @@
     image:
     - http://i.imgur.com/HSxP6mu.png
     topic_id: 247360
-- neko_id: atom
+- neko_id: black_jack
   level: 1
   algo: simple
   filters:
-    franchise: atom
+    franchise: black_jack
   threshold: 100%
   metadata:
     image:
@@ -1476,15 +1476,6 @@
     image:
     - http://i.imgur.com/vg1RzVZ.png
     topic_id: 247360
-- neko_id: mahou_no_yousei_persia
-  level: 1
-  algo: simple
-  filters:
-    franchise: mahou_no_yousei_persia
-  threshold: 100%
-  metadata:
-    image: []
-    topic_id: 247360
 - neko_id: angelique
   level: 1
   algo: simple
@@ -1494,6 +1485,15 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/589046.jpg
+    topic_id: 247360
+- neko_id: mahou_no_princess_minky_momo
+  level: 1
+  algo: simple
+  filters:
+    franchise: mahou_no_princess_minky_momo
+  threshold: 100%
+  metadata:
+    image: []
     topic_id: 247360
 - neko_id: ehon_yose
   level: 1
