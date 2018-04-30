@@ -278,6 +278,15 @@
     image:
     - https://desu.shikimori.org/system/user_images/original/58482/584958.jpg
     topic_id: 247360
+- neko_id: yamato
+  level: 1
+  algo: simple
+  filters:
+    franchise: yamato
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
 - neko_id: berserk
   level: 1
   algo: simple
@@ -590,7 +599,7 @@
     - 28915
   threshold: 100%
   metadata:
-    image: 
+    image:
     - https://moe.shikimori.org/system/user_images/original/84020/588522.jpg
     topic_id: 247360
 - neko_id: slayers
@@ -602,6 +611,15 @@
   metadata:
     image:
     - http://i.imgur.com/YsCeLuo.png
+    topic_id: 247360
+- neko_id: perman
+  level: 1
+  algo: simple
+  filters:
+    franchise: perman
+  threshold: 100%
+  metadata:
+    image: []
     topic_id: 247360
 - neko_id: toaru_majutsu_no_index
   level: 1
@@ -673,7 +691,7 @@
     franchise: school_rumble
   threshold: 100%
   metadata:
-    image
+    image:
     - https://moe.shikimori.org/system/user_images/original/84020/588567.jpg
     topic_id: 247360
 - neko_id: touch
@@ -1133,6 +1151,15 @@
     image:
     - http://i.imgur.com/TiWdKRI.png
     topic_id: 247360
+- neko_id: toriko
+  level: 1
+  algo: simple
+  filters:
+    franchise: toriko
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
 - neko_id: aa_megami_sama
   level: 1
   algo: simple
@@ -1577,31 +1604,4 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
-    topic_id: 247360
-- neko_id: yamato
-  level: 1
-  algo: simple
-  filters:
-    franchise: yamato
-  threshold: 100%
-  metadata:
-    image: []
-    topic_id: 247360
-- neko_id: perman
-  level: 1
-  algo: simple
-  filters:
-    franchise: perman
-  threshold: 100%
-  metadata:
-    image: []
-    topic_id: 247360
-- neko_id: toriko
-  level: 1
-  algo: simple
-  filters:
-    franchise: toriko
-  threshold: 100%
-  metadata:
-    image: []
     topic_id: 247360
