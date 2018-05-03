@@ -8,8 +8,8 @@
       - 5
       - 40
   metadata:
-    title_ru: Оно существует.
-    text_ru: Вы открыли новый и странный мир. Продолжайте смотреть дальше.
+    title_ru: Оно существует
+    text_ru: Вы открыли новый и странный мир. Продолжайте просмотр дальше.
     image: /assets/achievements/anime/dementia_psychological_1.jpg
     border_color: "#c71585"
     topic_id: 227417
@@ -19,7 +19,7 @@
   threshold: 40
   metadata:
     title_ru: Это вообще реально?
-    text_ru: Стало трудно отличить реальность и вымысел. Ориентация в пространстве нарушена.
+    text_ru: Ориентация в пространстве нарушена. Стало трудно отличить реальность и вымысел. 
     image: /assets/achievements/anime/dementia_psychological_2.jpg
     border_color: "#000000"
 
@@ -27,7 +27,7 @@
   level: 3
   threshold: 60
   metadata:
-    title_ru: Вынос мозга.
+    title_ru: Вынос мозга
     text_ru: "*fatal error."
     image: /assets/achievements/anime/dementia_psychological_3.png
     border_color: "#DC143C"
@@ -36,7 +36,7 @@
   level: 4
   threshold: 100
   metadata:
-    title_ru: Вы видели слишком много.
-    text_ru: Вы превзошли человечество и находитесь совсем на другом уровне.
+    title_ru: Вы видели слишком много
+    text_ru: Вы превзошли свою природу и теперь находитесь на совершенно другом уровне.
     image: /assets/achievements/anime/dementia_psychological_4.gif
     border_color: "#20B2AA"
