@@ -3,15 +3,6 @@
 # https://elixirschool.com/lessons/specifics/plug/#testing-a-plug
 # https://github.com/elixir-lang/plug/blob/master/test/plug/parsers/json_test.exs
 defmodule Neko.RouterTest do
-  use ExUnit.Case, async: false
-  use Plug.Test
-
-  alias Neko.Router
-
-  @opts Router.init([])
-
-  # common setup for all describe blocks
-  #
   # the problem with registering gen servers of store registries
   # using their module names:
   #
@@ -24,133 +15,190 @@ defmodule Neko.RouterTest do
   # names in application.exs - that is don't start registries
   # as part of supervision tree but do it here providing unique
   # names (just like in registry tests)
+  use ExUnit.Case, async: false
+  use Plug.Test
+
+  alias Neko.Router
+  alias Neko.Anime
+  alias Neko.Rules.SimpleRule
+
+  @opts Router.init([])
+
+  # all custom options will be merged into the context which is
+  # a map containing either all information about current test
+  # (for setup) or information that is common for all tests in
+  # current module (for setup_all).
+  # map keys are tags automatically set by ExUnit, sample context
+  # passed to each test from setup block:
+  #
+  # %{async: true, case: Neko.RouterTest, describe: "/user_rate",
+  #  file: <filename>, line: 25, registered: %{}, test: <testname>,
+  #  type: :test, request: <request>}
   setup_all do
     user_id = 1
 
     Neko.UserRate.load(user_id)
     Neko.Achievement.load(user_id)
 
-    # all custom options will be merged into the context which is
-    # a map containing all the information about current test
-    # (keys of this map are tags automatically set by ExUnit), e.g.:
-    #
-    # %{async: true, case: Neko.RouterTest, describe: "/user_rate",
-    #  file: <filename>, line: 25, registered: %{}, test: <testname>,
-    #  type: :test, request: <request>}
+    Anime.set([
+      %Anime{id: 1},
+      %Anime{id: 2},
+      %Anime{id: 3},
+      %Anime{id: 4},
+      %Anime{id: 5}
+    ])
+
+    SimpleRule.set([
+      %SimpleRule{neko_id: "animelist", level: 1, threshold: 2},
+      %SimpleRule{neko_id: "animelist", level: 2, threshold: 4},
+      %SimpleRule{neko_id: "animelist", level: 3, threshold: 10}
+    ])
+
     {:ok, user_id: user_id}
   end
 
-  describe "/user_rate" do
-    setup %{user_id: user_id} do
-      anime_1_id = 1
-      anime_2_id = 2
-      anime_3_id = 3
+  test "add next level achievement", %{user_id: user_id} do
+    Neko.UserRate.set(
+      user_id,
+      [
+        %Neko.UserRate{id: 1, user_id: user_id, target_id: 1},
+        %Neko.UserRate{id: 2, user_id: user_id, target_id: 2},
+        %Neko.UserRate{id: 2, user_id: user_id, target_id: 3}
+      ]
+    )
 
-      Neko.Anime.set(
-        MapSet.new([
-          %Neko.Anime{id: anime_1_id},
-          %Neko.Anime{id: anime_2_id},
-          %Neko.Anime{id: anime_3_id}
-        ])
-      )
+    Neko.Achievement.set(
+      user_id,
+      [
+        %Neko.Achievement{
+          user_id: user_id,
+          neko_id: "animelist",
+          level: 1,
+          progress: 50
+        }
+      ]
+    )
 
-      alias Neko.Rules.SimpleRule
+    json =
+      %Neko.Request{
+        id: 3,
+        user_id: user_id,
+        target_id: 4,
+        status: "completed",
+        action: "put"
+      }
+      |> Poison.encode!()
 
-      Neko.Rules.SimpleRule.set(
-        MapSet.new([
-          %SimpleRule{neko_id: "animelist", level: 1, threshold: 1},
-          %SimpleRule{neko_id: "animelist", level: 2, threshold: 3},
-          %SimpleRule{neko_id: "animelist", level: 3, threshold: 5}
-        ])
-      )
+    conn =
+      "/user_rate"
+      |> json_post_conn(json)
+      |> Router.call(@opts)
 
-      Neko.UserRate.set(
-        user_id,
-        MapSet.new([
-          %Neko.UserRate{id: 1, user_id: user_id, target_id: anime_1_id},
-          %Neko.UserRate{id: 2, user_id: user_id, target_id: anime_2_id}
-        ])
-      )
-
-      Neko.Achievement.set(
-        user_id,
-        MapSet.new([
+    expected_body =
+      %{
+        added: [
+          %Neko.Achievement{
+            user_id: user_id,
+            neko_id: "animelist",
+            level: 2,
+            progress: 0
+          }
+        ],
+        removed: [],
+        updated: [
           %Neko.Achievement{
             user_id: user_id,
             neko_id: "animelist",
             level: 1,
-            progress: 50
+            progress: 100
           }
-        ])
-      )
-
-      request = %Neko.Request{
-        id: 3,
-        user_id: user_id,
-        target_id: anime_3_id,
-        score: 10,
-        status: "completed",
-        action: "put"
+        ]
       }
+      |> Poison.encode!()
 
-      {:ok, request: request}
-    end
+    assert conn.state == :sent
+    assert conn.status == 201
+    assert conn.resp_body == expected_body
+  end
 
-    test "get new achievements", context do
-      json = Poison.encode!(context.request)
+  test "remove achievement", %{user_id: user_id} do
+    Neko.UserRate.set(
+      user_id,
+      [
+        %Neko.UserRate{id: 1, user_id: user_id, target_id: 1},
+        %Neko.UserRate{id: 2, user_id: user_id, target_id: 2}
+      ]
+    )
 
-      conn =
-        json_post_conn("/user_rate", json)
-        |> Router.call(@opts)
+    Neko.Achievement.set(
+      user_id,
+      [
+        %Neko.Achievement{
+          user_id: user_id,
+          neko_id: "animelist",
+          level: 1,
+          progress: 0
+        }
+      ]
+    )
 
-      assert conn.state == :sent
-      assert conn.status == 201
+    json =
+      %Neko.Request{
+        id: 2,
+        user_id: user_id,
+        target_id: 2,
+        action: "delete"
+      }
+      |> Poison.encode!()
 
-      assert conn.resp_body ==
-               Poison.encode!(%{
-                 added:
-                   MapSet.new([
-                     %Neko.Achievement{
-                       user_id: context.user_id,
-                       neko_id: "animelist",
-                       level: 2,
-                       progress: 0
-                     }
-                   ]),
-                 removed: MapSet.new(),
-                 updated:
-                   MapSet.new([
-                     %Neko.Achievement{
-                       user_id: context.user_id,
-                       neko_id: "animelist",
-                       level: 1,
-                       progress: 100
-                     }
-                   ])
-               })
-    end
+    conn =
+      "/user_rate"
+      |> json_post_conn(json)
+      |> Router.call(@opts)
 
-    test "get page without authorization token", context do
-      json = Poison.encode!(context.request)
+    expected_body =
+      %{
+        added: [],
+        removed: [
+          %Neko.Achievement{
+            user_id: user_id,
+            neko_id: "animelist",
+            level: 1,
+            progress: 0
+          }
+        ],
+        updated: []
+      }
+      |> Poison.encode!()
 
-      conn =
-        json_post_conn("/user_rate", json)
-        |> put_req_header("authorization", "bar")
-        |> Router.call(@opts)
+    assert conn.state == :sent
+    assert conn.status == 201
+    assert conn.resp_body == expected_body
+  end
 
-      assert conn.state == :sent
-      assert conn.status == 401
-      assert conn.resp_body == "Not Authorized"
-    end
+  test "get page without authorization token" do
+    json = %Neko.Request{} |> Poison.encode!()
+    conn =
+      "/user_rate"
+      |> json_post_conn(json)
+      |> put_req_header("authorization", "bar")
+      |> Router.call(@opts)
 
-    test "get missing page", context do
-      json = Poison.encode!(context.request)
-      conn = json_post_conn("/missing", json) |> Router.call(@opts)
+    assert conn.state == :sent
+    assert conn.status == 401
+    assert conn.resp_body == "Not Authorized"
+  end
 
-      assert conn.state == :sent
-      assert conn.status == 404
-      assert conn.resp_body == "oops"
-    end
+  test "get missing page" do
+    json = %Neko.Request{} |> Poison.encode!()
+    conn =
+      "/missing"
+      |> json_post_conn(json)
+      |> Router.call(@opts)
+
+    assert conn.state == :sent
+    assert conn.status == 404
+    assert conn.resp_body == "oops"
   end
 
   defp json_post_conn(path, json) do

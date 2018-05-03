@@ -35,6 +35,11 @@ defmodule Neko.Achievement.Store do
     Agent.get(pid, & &1)
   end
 
+  @spec set(pid, list(achievement_t)) :: :ok
+  def set(pid, achievements) when is_list(achievements) do
+    set(pid, MapSet.new(achievements))
+  end
+
   @spec set(pid, achievements_t) :: :ok
   def set(pid, achievements) do
     Agent.update(pid, fn _ -> achievements end)

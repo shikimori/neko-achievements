@@ -38,6 +38,11 @@ defmodule Neko.UserRate.Store do
     Agent.update(pid, &MapSet.put(&1, user_rate))
   end
 
+  @spec set(pid, list(user_rate_t)) :: :ok
+  def set(pid, user_rates) when is_list(user_rates) do
+    set(pid, MapSet.new(user_rates))
+  end
+
   @spec set(pid, user_rates_t) :: :ok
   def set(pid, user_rates) do
     Agent.update(pid, fn _ -> user_rates end)
