@@ -8,7 +8,6 @@ defmodule Neko.UserRate do
     id
     user_id
     target_id
-    target_type
     score
     status
   )a
