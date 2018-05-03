@@ -629,11 +629,11 @@
     image:
     - http://i.imgur.com/YsCeLuo.png
     topic_id: 247360
-- neko_id: perman
+- neko_id: doraemon
   level: 1
   algo: simple
   filters:
-    franchise: perman
+    franchise: doraemon
   threshold: 100%
   metadata:
     image:
