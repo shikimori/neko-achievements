@@ -106,7 +106,8 @@
     franchise: boku_no_hero_academia
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/591715.jpg
     topic_id: 247360
 - neko_id: natsume_yuujinchou
   level: 1
@@ -145,7 +146,8 @@
     franchise: koro_sensei_q
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/84020/591716.jpg
     topic_id: 247360
 - neko_id: fate_zero
   level: 1
@@ -164,6 +166,8 @@
   algo: simple
   filters:
     franchise: jojo_no_kimyou_na_bouken
+    not_anime_ids:
+    - 3603
   threshold: 100%
   metadata:
     image:
@@ -482,7 +486,8 @@
     franchise: maison_ikkoku
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/591722.jpg
     topic_id: 247360
 - neko_id: junjou_romantica
   level: 1
