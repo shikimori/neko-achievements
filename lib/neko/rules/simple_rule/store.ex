@@ -160,7 +160,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     %{rule | threshold: parse_threshold(rule)}
   end
 
-  # when threshold is a string value, percent is implied
+  # when threshold is a string value ("100%"), percent is implied
   defp parse_threshold(rule) do
     percent = rule.threshold |> Float.parse() |> elem(0)
     threshold = MapSet.size(rule.anime_ids) * percent / 100
