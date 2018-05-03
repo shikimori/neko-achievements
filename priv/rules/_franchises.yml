@@ -86,7 +86,8 @@
     franchise: hajime_no_ippo
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/590562.jpg
     topic_id: 247360
 - neko_id: rurouni_kenshin
   level: 1
@@ -287,7 +288,8 @@
     franchise: yamato
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/590597.jpg
     topic_id: 247360
 - neko_id: berserk
   level: 1
@@ -629,7 +631,8 @@
     franchise: perman
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/590513.jpg
     topic_id: 247360
 - neko_id: toaru_majutsu_no_index
   level: 1
@@ -729,6 +732,8 @@
   algo: simple
   filters:
     franchise: amon
+    not_anime_ids:
+    - 35952
   threshold: 100%
   metadata:
     image:
@@ -741,7 +746,8 @@
     franchise: ushio_to_tora
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/590557.jpg
     topic_id: 247360
 - neko_id: macross
   level: 1
@@ -1043,7 +1049,8 @@
     franchise: getter_robo
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://dere.shikimori.org/system/user_images/original/34807/590469.jpg
     topic_id: 247360
 - neko_id: minami_ke
   level: 1
@@ -1296,7 +1303,8 @@
     franchise: selector_spread_wixoss
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/34807/590470.jpg
     topic_id: 247360
 - neko_id: baki
   level: 1
@@ -1343,7 +1351,8 @@
     franchise: saber_marionette_j
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/34807/590456.jpg
     topic_id: 247360
 - neko_id: el_hazard
   level: 1
@@ -1352,7 +1361,8 @@
     franchise: el_hazard
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/590462.jpg
     topic_id: 247360
 - neko_id: galaxy_angel
   level: 1
@@ -1391,7 +1401,8 @@
     franchise: rean_no_tsubasa
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/34807/590450.jpg
     topic_id: 247360
 - neko_id: ad_police
   level: 1
@@ -1620,4 +1631,22 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
+    topic_id: 247360
+- neko_id: cutey_honey
+  level: 1
+  algo: simple
+  filters:
+    franchise: cutey_honey
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: grendizer_giga
+  level: 1
+  algo: simple
+  filters:
+    franchise: grendizer_giga
+  threshold: 100%
+  metadata:
+    image: []
     topic_id: 247360
