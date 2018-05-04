@@ -130,7 +130,7 @@ defmodule Neko.RouterTest do
     assert conn.resp_body == expected_body
   end
 
-  test "remove achievement", %{user_id: user_id} do
+  test "remove achievement (absolute threshold)", %{user_id: user_id} do
     UserRate.set(
       user_id,
       [
@@ -185,7 +185,7 @@ defmodule Neko.RouterTest do
     assert conn.resp_body == expected_body
   end
 
-  test "remove achievement (franchise)", %{user_id: user_id} do
+  test "remove achievement (percent threshold)", %{user_id: user_id} do
     Anime.set([
       %Anime{id: 1, franchise: "hikaru_no_go"},
       %Anime{id: 2, franchise: "hikaru_no_go"},
