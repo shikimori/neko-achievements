@@ -47,11 +47,12 @@ defmodule Neko.Rules.SimpleRule do
       |> Enum.map(& &1.target_id)
       |> MapSet.new()
 
+    # final list of achievements for all rules is converted to MapSet
+    # in Neko.Achievement.Calculator
     rules
     |> Enum.map(fn x -> {x, count(x, user_anime_ids)} end)
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))
-    |> MapSet.new()
   end
 
   defp count(rule, user_anime_ids) do

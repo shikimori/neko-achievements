@@ -15,5 +15,6 @@ defmodule Neko.Achievement.Calculator do
         config[:wait_timeout]
       )
     end)
+    |> MapSet.new()
   end
 end
