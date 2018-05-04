@@ -67,26 +67,20 @@ defmodule Neko.RouterTest do
   end
 
   test "add next level achievement", %{user_id: user_id} do
-    UserRate.set(
-      user_id,
-      [
-        %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
-        %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"},
-        %UserRate{id: 3, user_id: user_id, target_id: 3, status: "completed"}
-      ]
-    )
+    UserRate.set(user_id, [
+      %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
+      %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"},
+      %UserRate{id: 3, user_id: user_id, target_id: 3, status: "completed"}
+    ])
 
-    Achievement.set(
-      user_id,
-      [
-        %Achievement{
-          user_id: user_id,
-          neko_id: "animelist",
-          level: 1,
-          progress: 50
-        }
-      ]
-    )
+    Achievement.set(user_id, [
+      %Achievement{
+        user_id: user_id,
+        neko_id: "animelist",
+        level: 1,
+        progress: 50
+      }
+    ])
 
     json =
       %Request{
@@ -131,25 +125,19 @@ defmodule Neko.RouterTest do
   end
 
   test "remove achievement (absolute threshold)", %{user_id: user_id} do
-    UserRate.set(
-      user_id,
-      [
-        %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
-        %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"}
-      ]
-    )
+    UserRate.set(user_id, [
+      %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
+      %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"}
+    ])
 
-    Achievement.set(
-      user_id,
-      [
-        %Achievement{
-          user_id: user_id,
-          neko_id: "animelist",
-          level: 1,
-          progress: 0
-        }
-      ]
-    )
+    Achievement.set(user_id, [
+      %Achievement{
+        user_id: user_id,
+        neko_id: "animelist",
+        level: 1,
+        progress: 0
+      }
+    ])
 
     json =
       %Request{
@@ -201,26 +189,20 @@ defmodule Neko.RouterTest do
       }
     ])
 
-    UserRate.set(
-      user_id,
-      [
-        %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
-        %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"},
-        %UserRate{id: 3, user_id: user_id, target_id: 3, status: "completed"}
-      ]
-    )
+    UserRate.set(user_id, [
+      %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
+      %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"},
+      %UserRate{id: 3, user_id: user_id, target_id: 3, status: "completed"}
+    ])
 
-    Achievement.set(
-      user_id,
-      [
-        %Achievement{
-          user_id: user_id,
-          neko_id: "hikaru_no_go",
-          level: 1,
-          progress: 100
-        }
-      ]
-    )
+    Achievement.set(user_id, [
+      %Achievement{
+        user_id: user_id,
+        neko_id: "hikaru_no_go",
+        level: 1,
+        progress: 100
+      }
+    ])
 
     json =
       %Request{
@@ -259,6 +241,7 @@ defmodule Neko.RouterTest do
 
   test "get page without authorization token" do
     json = %Request{} |> Poison.encode!()
+
     conn =
       "/user_rate"
       |> json_post_conn(json)
@@ -272,6 +255,7 @@ defmodule Neko.RouterTest do
 
   test "get missing page" do
     json = %Request{} |> Poison.encode!()
+
     conn =
       "/missing"
       |> json_post_conn(json)
