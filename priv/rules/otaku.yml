@@ -2,7 +2,7 @@
   neko_id: otaku
   level: 1
   algo: simple
-  threshold: 30
+  threshold: 50
   filters:
     genre_ids:
       - 9
@@ -16,7 +16,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 50
+  threshold: 100
   metadata:
     title_ru: Фетишизм
     text_ru: Как рыба в воде.
@@ -25,7 +25,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 70
+  threshold: 150
   metadata:
     title_ru: NEET
     text_ru: Увлечение эротическим контентом начинает сказываться на вашей реальной жизни.
@@ -34,7 +34,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 90
+  threshold: 300
   metadata:
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.
