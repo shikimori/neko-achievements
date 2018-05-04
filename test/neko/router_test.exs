@@ -197,9 +197,7 @@ defmodule Neko.RouterTest do
         neko_id: "hikaru_no_go",
         level: 1,
         threshold: "100%",
-        filters: %{
-          franchise: "hikaru_no_go"
-        }
+        filters: %{franchise: "hikaru_no_go"}
       }
     ])
 
