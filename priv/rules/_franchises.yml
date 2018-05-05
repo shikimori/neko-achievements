@@ -1388,11 +1388,11 @@
     image:
     - http://i.imgur.com/P1kSzcE.png
     topic_id: 247360
-- neko_id: mini_van
+- neko_id: cardfight_vanguard
   level: 1
   algo: simple
   filters:
-    franchise: mini_van
+    franchise: cardfight_vanguard
   threshold: 100%
   metadata:
     image:
