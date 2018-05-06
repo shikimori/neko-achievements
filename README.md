@@ -17,13 +17,13 @@ $ mix run -—no-halt
 $ mix deploy
 ```
 
-
 ### parse achievements extracted from google docs
-```ryby
-File.open('/tmp/achievements.yml', 'w') {|f| f.write SmarterCSV.process(open('/tmp/achievements.csv')).to_yaml }
+
+```ruby
+File.open('/tmp/achievements.yml', 'w') { |f| f.write SmarterCSV.process(open('/tmp/achievements.csv')).to_yaml }
 ```
 
-```ryby
+```ruby
 anime_id_regexp = %r{/animes/[A-z]*(?<id>\d+)}
 data = YAML.load_file('/tmp/achievements.yml').
   map do |entry|
@@ -52,12 +52,12 @@ data = YAML.load_file('/tmp/achievements.yml').
   end.
   sort_by { |v| Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min }
 
-File.open("#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml", 'w') {|f| f.write data.to_yaml }
+File.open("#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml", 'w') { |f| f.write data.to_yaml }
 
 puts data.map { |v| v['filters']['franchise'] }.join(' ')
 ```
 
-```ryby
+```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
 data = YAML.
   load_file(franchise_yml).
@@ -75,8 +75,7 @@ data = YAML.
   sort_by { |v| Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min };
 
 if data.any?
-  File.open(franchise_yml, 'w') {|f| f.write data.to_yaml };
-
+  File.open(franchise_yml, 'w') { |f| f.write data.to_yaml };
   puts data.map { |v| v['filters']['franchise'] }.join(' ');
 end
 ```
