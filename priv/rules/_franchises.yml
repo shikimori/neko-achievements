@@ -174,8 +174,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/yIWrZdG.jpg
-    - http://i.imgur.com/jGHhaah.jpg
+    - https://moe.shikimori.org/system/user_images/original/84020/593472.jpg
     topic_id: 247360
 - neko_id: aria_the_ova
   level: 1
@@ -213,7 +212,6 @@
   filters:
     franchise: ghost_in_the_shell
     not_anime_ids:
-    - 2448
     - 10870
     - 10948
     - 22013
@@ -280,7 +278,8 @@
     franchise: yuu_yuu_hakusho
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/84020/593491.jpg
     topic_id: 247360
 - neko_id: yamato
   level: 1
@@ -367,7 +366,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/fQtGwlc.png
+    - https://dere.shikimori.org/system/user_images/original/84020/593479.jpg
     topic_id: 247360
 - neko_id: sket_dance
   level: 1
@@ -417,16 +416,6 @@
   metadata:
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593343.jpg
-    topic_id: 247360
-- neko_id: katekyo_hitman_reborn
-  level: 1
-  algo: simple
-  filters:
-    franchise: katekyo_hitman_reborn
-  threshold: 100%
-  metadata:
-    image:
-    - https://nyaa.shikimori.org/system/user_images/original/84020/587890.jpg
     topic_id: 247360
 - neko_id: durarara
   level: 1
@@ -496,7 +485,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/Zg8pGoQ.png
+    - https://moe.shikimori.org/system/user_images/original/84020/593482.jpg
     topic_id: 247360
 - neko_id: chiba_pedal
   level: 1
@@ -708,7 +697,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/MgD52aY.png
+    - https://moe.shikimori.org/system/user_images/original/84020/593487.jpg
     topic_id: 247360
 - neko_id: school_rumble
   level: 1
@@ -780,7 +769,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/VWXVr8D.jpg
+    - https://moe.shikimori.org/system/user_images/original/84020/593462.jpg
     topic_id: 247360
 - neko_id: tenchi_muyou
   level: 1
@@ -834,7 +823,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/AU5DKYO.png
+    - https://dere.shikimori.org/system/user_images/original/84020/593469.jpg
     topic_id: 247360
 - neko_id: hokuto_no_ken
   level: 1
@@ -876,7 +865,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/f8W13RS.png
+    - https://kawai.shikimori.org/system/user_images/original/84020/593466.jpg
     topic_id: 247360
 - neko_id: bleach
   level: 1
@@ -1706,4 +1695,34 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
+    topic_id: 247360
+- neko_id: seiren
+  level: 1
+  algo: simple
+  filters:
+    franchise: seiren
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: kuroshitsuji
+  level: 1
+  algo: simple
+  filters:
+    franchise: kuroshitsuji
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
+- neko_id: vivid_strike
+  level: 1
+  algo: simple
+  filters:
+    franchise: vivid_strike
+    not_anime_ids:
+    - 4849
+    - 176
+  threshold: 100%
+  metadata:
+    image: []
     topic_id: 247360
