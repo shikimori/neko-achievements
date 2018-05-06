@@ -157,6 +157,7 @@
   filters:
     franchise: fate_zero
     not_anime_ids:
+    - 13183
     - 19165
   threshold: 100%
   metadata:
@@ -1604,6 +1605,15 @@
   metadata:
     image: []
     topic_id: 247360
+- neko_id: sonic
+  level: 1
+  algo: simple
+  filters:
+    franchise: sonic
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
 - neko_id: choujuu_kishin_dancougar
   level: 1
   algo: simple
@@ -1654,6 +1664,15 @@
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588518.jpg
     topic_id: 247360
+- neko_id: iron_man
+  level: 1
+  algo: simple
+  filters:
+    franchise: iron_man
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
 - neko_id: obake_no_q_tarou
   level: 1
   algo: simple
@@ -1673,22 +1692,4 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
-    topic_id: 247360
-- neko_id: iron_man
-  level: 1
-  algo: simple
-  filters:
-    franchise: iron_man
-  threshold: 100%
-  metadata:
-    image:[]
-    topic_id: 247360
-- neko_id: sonic
-  level: 1
-  algo: simple
-  filters:
-    franchise: sonic
-  threshold: 100%
-  metadata:
-    image:[]
     topic_id: 247360

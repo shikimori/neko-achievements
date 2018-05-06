@@ -67,13 +67,16 @@ data = YAML.
       select(&:kind_special?).
       select { |v| v.description_en&.match?(/\brecap\b/i) || v.description_ru&.match?(/\bрекап\b/i) }.
       map(&:id)
+
     if recap_ids.any?
       rule['filters']['not_anime_ids'] = ((rule['filters']['not_anime_ids'] || []) + recap_ids).uniq.sort
     end
   end.
   sort_by { |v| Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min };
 
-File.open(franchise_yml, 'w') {|f| f.write data.to_yaml };
+if data.any?
+  File.open(franchise_yml, 'w') {|f| f.write data.to_yaml };
 
-puts data.map { |v| v['filters']['franchise'] }.join(' ');
+  puts data.map { |v| v['filters']['franchise'] }.join(' ');
+end
 ```
