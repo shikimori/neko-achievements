@@ -2,6 +2,8 @@
 # They can then be used by adding `plugin MyPlugin` to
 # either an environment, or release definition, where
 # `MyPlugin` is the name of the plugin module.
+#
+# credo:disable-for-lines:2 Credo.Check.Refactor.PipeChainStart
 Path.join(["rel", "plugins", "*.exs"])
 |> Path.wildcard()
 |> Enum.map(&Code.eval_file(&1))
@@ -26,10 +28,11 @@ environment :dev do
   set cookie: :"WE`H9ZX]9asjWk*U&Iy]W8RAJS4Z<XueUrK_{iL$QT~3Np@{AMp!f~SlUu1GN~vD"
 end
 
+# cookie is set in vm.args
 environment :prod do
+  set vm_args: "rel/vm.args"
   set include_erts: true
   set include_src: false
-  set cookie: :"n;qvx/7L/)%$0.4g>f2:SNvh*i)QNgC_WE{[L~f,x}/9bKG`N5yo]5L/`Ybl=FMw"
 end
 
 # You may define one or more releases in this file.
