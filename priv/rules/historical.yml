@@ -17,7 +17,7 @@
   level: 2
   threshold: 40
   metadata:
-    title_ru: Оглянувшись назад
+    title_ru: Оглянувшись назад 
     text_ru: Не знающий своего прошлого, не имеет будущего.
     image: /assets/achievements/anime/historical_2.jpg
     border_color: "#4f3542"
