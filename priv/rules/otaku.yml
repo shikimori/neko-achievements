@@ -11,7 +11,7 @@
     title_ru: Эскапизм
     text_ru: Иллюзии захватывают ваш разум.
     image: /assets/achievements/anime/otaku_1.jpg
-    border_color: "#ff496c"
+    border_color: "#FFDC33"
     topic_id: 227426
 
 - <<: *defaults
@@ -39,4 +39,4 @@
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимального. Окружающие трепещут.
     image: /assets/achievements/anime/otaku_4.gif
-    border_color: "#cd9575"
+    border_color: "#ff496c"
