@@ -65,7 +65,7 @@ data = YAML.
     recap_ids = Anime.
       where(franchise: rule['filters']['franchise']).
       select(&:kind_special?).
-      select { |v| v.description_en&.match?(/\brecap\b/i) || v.description_ru&.match?(/\bрекап\b/i) }.
+      select { |v| v.description_en&.match?(/\brecap\b|compilation movie/i) || v.description_ru&.match?(/\bрекап\b/i) }.
       map(&:id)
 
     if recap_ids.any?
