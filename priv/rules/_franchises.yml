@@ -1471,6 +1471,15 @@
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/587824.jpg
     topic_id: 247360
+- neko_id: super_robot_taisen_og
+  level: 1
+  algo: simple
+  filters:
+    franchise: super_robot_taisen_og
+  threshold: 100%
+  metadata:
+    image: []
+    topic_id: 247360
 - neko_id: hack_gift
   level: 1
   algo: simple
@@ -1697,13 +1706,4 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
-    topic_id: 247360
-- neko_id: super_robot_taisen_og
-  level: 1
-  algo: simple
-  filters:
-    franchise: super_robot_taisen_og
-  threshold: 100%
-  metadata:
-    image: []
     topic_id: 247360
