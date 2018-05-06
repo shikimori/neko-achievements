@@ -282,16 +282,6 @@
   metadata:
     image: []
     topic_id: 247360
-- neko_id: evangelion
-  level: 1
-  algo: simple
-  filters:
-    franchise: evangelion
-  threshold: 100%
-  metadata:
-    image:
-    - https://desu.shikimori.org/system/user_images/original/58482/584958.jpg
-    topic_id: 247360
 - neko_id: yamato
   level: 1
   algo: simple
@@ -319,7 +309,8 @@
     franchise: magi
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://dere.shikimori.org/system/user_images/original/84020/593349.jpg
     topic_id: 247360
 - neko_id: diamond_no_ace
   level: 1
@@ -385,7 +376,8 @@
     franchise: sket_dance
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/593367.jpg
     topic_id: 247360
 - neko_id: gundam
   level: 1
@@ -424,7 +416,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/9i45dfD.png
+    - https://desu.shikimori.org/system/user_images/original/84020/593343.jpg
     topic_id: 247360
 - neko_id: katekyo_hitman_reborn
   level: 1
@@ -484,7 +476,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/t3r4zv2.png
+    - https://dere.shikimori.org/system/user_images/original/84020/593364.jpg
     topic_id: 247360
 - neko_id: maison_ikkoku
   level: 1
@@ -546,7 +538,8 @@
     franchise: dmatsu_san
   threshold: 50%
   metadata:
-    image: []
+    image:
+    - https://dere.shikimori.org/system/user_images/original/84020/593354.jpg
     topic_id: 247360
 - neko_id: hikaru_no_go
   level: 1
@@ -636,7 +629,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/YsCeLuo.png
+    - https://kawai.shikimori.org/system/user_images/original/84020/593371.jpg
     topic_id: 247360
 - neko_id: doraemon
   level: 1
@@ -734,7 +727,8 @@
     franchise: touch
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/593338.jpg
     topic_id: 247360
 - neko_id: sword_art_online
   level: 1
@@ -743,7 +737,8 @@
     franchise: sword_art_online
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/84020/593360.jpg
     topic_id: 247360
 - neko_id: amon
   level: 1
@@ -797,7 +792,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/8ooQjuR.png
+    - https://kawai.shikimori.org/system/user_images/original/84020/593376.jpg
     topic_id: 247360
 - neko_id: muumin
   level: 1
@@ -872,19 +867,6 @@
   metadata:
     image:
     - http://i.imgur.com/mrgcIAi.png
-    topic_id: 247360
-- neko_id: seikai_no_senki
-  level: 1
-  algo: simple
-  filters:
-    franchise: seikai_no_senki
-    not_anime_ids:
-    - 399
-    - 1381
-  threshold: 100%
-  metadata:
-    image:
-    - https://2.downloader.disk.yandex.ru/preview/fc64c3e8823c0277ce62990e1bdb9432b71121264c79613f7a53009639a20ba6/inf/Ulc4l6Nw6Zl9PBaWaDlZYeM-uSpzbC9gm-hrwgc3EeXnCefvixcR5KOXGwrHkbyNG5bnHybTsRBX5DeCr0ZH0g%3D%3D?uid=0&filename=Seikai.No.Senki.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
     topic_id: 247360
 - neko_id: votoms_finder
   level: 1
@@ -993,7 +975,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/yOamsj6.png
+    - https://moe.shikimori.org/system/user_images/original/84020/593337.jpg
     topic_id: 247360
 - neko_id: mobile_police_patlabor
   level: 1
@@ -1013,7 +995,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/HSxP6mu.png
+    - https://dere.shikimori.org/system/user_images/original/84020/593359.jpg
     topic_id: 247360
 - neko_id: black_jack
   level: 1
@@ -1072,7 +1054,8 @@
     franchise: negima
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/593353.jpg
     topic_id: 247360
 - neko_id: getter_robo
   level: 1
@@ -1101,7 +1084,8 @@
     franchise: garo
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/593342.jpg
     topic_id: 247360
 - neko_id: blood
   level: 1
@@ -1184,7 +1168,8 @@
     franchise: soukyuu_no_fafner
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://desu.shikimori.org/system/user_images/original/84020/593378.jpg
     topic_id: 247360
 - neko_id: puchimas
   level: 1
@@ -1213,7 +1198,8 @@
     franchise: toriko
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/84020/593336.jpg
     topic_id: 247360
 - neko_id: aa_megami_sama
   level: 1
@@ -1304,7 +1290,8 @@
     franchise: candy_candy
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/84020/593346.jpg
     topic_id: 247360
 - neko_id: taiho_shichau_zo
   level: 1
@@ -1459,7 +1446,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/NjRfFrZ.png
+    - https://dere.shikimori.org/system/user_images/original/84020/593344.jpg
     topic_id: 247360
 - neko_id: d_c
   level: 1
@@ -1532,7 +1519,7 @@
   threshold: 100%
   metadata:
     image:
-    - http://i.imgur.com/vg1RzVZ.png
+    - https://nyaa.shikimori.org/system/user_images/original/84020/593340.jpg
     topic_id: 247360
 - neko_id: angelique
   level: 1
@@ -1629,7 +1616,8 @@
     franchise: sonic
   threshold: 100%
   metadata:
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/593372.jpg
     topic_id: 247360
 - neko_id: choujuu_kishin_dancougar
   level: 1
@@ -1709,4 +1697,13 @@
   metadata:
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
+    topic_id: 247360
+- neko_id: super_robot_taisen_og
+  level: 1
+  algo: simple
+  filters:
+    franchise: super_robot_taisen_og
+  threshold: 100%
+  metadata:
+    image: []
     topic_id: 247360
