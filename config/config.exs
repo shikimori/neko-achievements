@@ -77,7 +77,7 @@ config :neko, :user_handler_registry,
 config :neko, :simple_rule_worker_pool,
   name: :simple_rule_worker_pool,
   module: Neko.Rules.SimpleRule.Worker,
-  size: 15,
+  size: 30,
   # how long poolboy waits for a worker (5_000 by default)
   wait_timeout: 10_000
 
