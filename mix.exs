@@ -45,7 +45,7 @@ defmodule Neko.Mixfile do
       {:plug, "~> 1.4"},
       {:poison, "~> 3.1"},
       {:httpoison, "~> 0.12"},
-      {:edeliver, "~> 1.4.4"},
+      {:edeliver, "~> 1.4"},
       {:distillery, "~> 1.4", runtime: false},
       {:mox, "~> 0.3.1", only: :test},
       # other yaml parsers don't support merging maps
