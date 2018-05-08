@@ -6,6 +6,7 @@
     franchise: fullmetal_alchemist
   threshold: 100%
   metadata:
+    title_ru: Стальной алхимик
     image:
     - http://i.imgur.com/M821rLg.png
     topic_id: 247360
@@ -16,6 +17,7 @@
     franchise: gintama
   threshold: 100%
   metadata:
+    title_ru: Гинтама
     image:
     - http://i.imgur.com/b1iPCow.png
     topic_id: 247360
@@ -26,6 +28,7 @@
     franchise: ginga_eiyuu_densetsu
   threshold: 100%
   metadata:
+    title_ru: Легенда о героях Галактики
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/586911.jpg
     topic_id: 247360
@@ -36,6 +39,7 @@
     franchise: hunter_x_hunter
   threshold: 100%
   metadata:
+    title_ru: Охотник х Охотник
     image:
     - http://i.imgur.com/u2Vw6JV.png
     topic_id: 247360
@@ -46,6 +50,7 @@
     franchise: hanamonogatari
   threshold: 100%
   metadata:
+    title_ru: Цикл историй
     image:
     - http://i.imgur.com/lsLbehE.png
     topic_id: 247360
@@ -56,6 +61,7 @@
     franchise: haikyuu
   threshold: 100%
   metadata:
+    title_ru: Волейбол!!
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588521.jpg
     topic_id: 247360
@@ -66,6 +72,7 @@
     franchise: code_geass
   threshold: 100%
   metadata:
+    title_ru: Код Гиас
     image:
     - http://i.imgur.com/yjd3pFc.png
     topic_id: 247360
@@ -76,6 +83,7 @@
     franchise: mushishi
   threshold: 100%
   metadata:
+    title_ru: Мастер муси
     image:
     - http://i.imgur.com/j6vZg0U.png
     topic_id: 247360
@@ -86,6 +94,7 @@
     franchise: hajime_no_ippo
   threshold: 100%
   metadata:
+    title_ru: Первый шаг
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/590562.jpg
     topic_id: 247360
@@ -96,6 +105,7 @@
     franchise: rurouni_kenshin
   threshold: 100%
   metadata:
+    title_ru: Бродяга Кэнсин
     image:
     - http://i.imgur.com/dqVaLdD.png
     topic_id: 247360
@@ -106,6 +116,7 @@
     franchise: boku_no_hero_academia
   threshold: 100%
   metadata:
+    title_ru: Моя геройская академия
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/591715.jpg
     topic_id: 247360
@@ -116,6 +127,7 @@
     franchise: natsume_yuujinchou
   threshold: 100%
   metadata:
+    title_ru: Тетрадь дружбы Нацумэ
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/588844.jpg
     topic_id: 247360
@@ -126,6 +138,7 @@
     franchise: suzumiya_haruhi_no_yuuutsu
   threshold: 100%
   metadata:
+    title_ru: Меланхолия Харухи Судзумии
     image:
     - http://i.imgur.com/vjWTN36.png
     topic_id: 247360
@@ -136,6 +149,7 @@
     franchise: bakuman
   threshold: 100%
   metadata:
+    title_ru: Бакуман
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/585005.jpg
     topic_id: 247360
@@ -148,6 +162,7 @@
     - 33511
   threshold: 100%
   metadata:
+    title_ru: Класс убийц
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/591716.jpg
     topic_id: 247360
@@ -161,6 +176,7 @@
     - 19165
   threshold: 100%
   metadata:
+    title_ru: Судьба
     image:
     - http://i.imgur.com/zxwOfe9.png
     topic_id: 247360
@@ -173,6 +189,7 @@
     - 3603
   threshold: 100%
   metadata:
+    title_ru: Невероятное приключение ДжоДжо
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593472.jpg
     topic_id: 247360
@@ -183,6 +200,7 @@
     franchise: aria_the_ova
   threshold: 100%
   metadata:
+    title_ru: Ария
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/573807.jpg
     topic_id: 247360
@@ -193,6 +211,7 @@
     franchise: megalo_box
   threshold: 100%
   metadata:
+    title_ru: Завтрашний Джо
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/592671.jpg
     topic_id: 247360
@@ -205,7 +224,9 @@
     - 6163
   threshold: 100%
   metadata:
-    image: []
+    title_ru: Тёмный дворецкий
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/34807/594196.jpg
     topic_id: 247360
 - neko_id: uchuu_kyoudai
   level: 1
@@ -214,6 +235,7 @@
     franchise: uchuu_kyoudai
   threshold: 100%
   metadata:
+    title_ru: Космические братья
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588566.jpg
     topic_id: 247360
@@ -223,13 +245,12 @@
   filters:
     franchise: ghost_in_the_shell
     not_anime_ids:
-    - 2448
     - 10870
     - 10948
-    - 22013
     - 31617
   threshold: 100%
   metadata:
+    title_ru: Призрак в доспехах
     image:
     - "/assets/achievements/anime/franchise/ghost_in_the_shell.jpg"
     topic_id: 247360
@@ -240,6 +261,7 @@
     franchise: kuroko_no_basket
   threshold: 100%
   metadata:
+    title_ru: Баскетбол Куроко
     image:
     - http://i.imgur.com/1w3Q4p6.png
     topic_id: 247360
@@ -250,6 +272,7 @@
     franchise: shokugeki_no_souma
   threshold: 100%
   metadata:
+    title_ru: Повар-боец Сома
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587910.jpg
     topic_id: 247360
@@ -260,6 +283,7 @@
     franchise: slam_dunk
   threshold: 100%
   metadata:
+    title_ru: Слэм-данк
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588994.jpg
     topic_id: 247360
@@ -270,6 +294,7 @@
     franchise: major
   threshold: 100%
   metadata:
+    title_ru: Мэйджор
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/586899.jpg
     topic_id: 247360
@@ -280,6 +305,7 @@
     franchise: detective_conan
   threshold: 95%
   metadata:
+    title_ru: Детектив Конан
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/587873.jpg
     topic_id: 247360
@@ -290,6 +316,7 @@
     franchise: yuu_yuu_hakusho
   threshold: 100%
   metadata:
+    title_ru: Отчет о буйстве духов
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593491.jpg
     topic_id: 247360
@@ -300,6 +327,7 @@
     franchise: yamato
   threshold: 100%
   metadata:
+    title_ru: Космический линкор Ямато
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/590597.jpg
     topic_id: 247360
@@ -310,6 +338,7 @@
     franchise: berserk
   threshold: 100%
   metadata:
+    title_ru: Берсерк
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/587464.jpg
     topic_id: 247360
@@ -320,6 +349,7 @@
     franchise: magi
   threshold: 100%
   metadata:
+    title_ru: Маги
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593349.jpg
     topic_id: 247360
@@ -330,6 +360,7 @@
     franchise: diamond_no_ace
   threshold: 100%
   metadata:
+    title_ru: Путь аса
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587845.jpg
     topic_id: 247360
@@ -340,6 +371,7 @@
     franchise: tsubasa
   threshold: 100%
   metadata:
+    title_ru: Хроника крыльев
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/587918.jpg
     topic_id: 247360
@@ -350,6 +382,7 @@
     franchise: umineko_no_naku_koro_ni
   threshold: 100%
   metadata:
+    title_ru: Когда плачут цикады
     image:
     - http://i.imgur.com/v7pjFJ7.png
     topic_id: 247360
@@ -367,6 +400,7 @@
     - 36242
   threshold: 95%
   metadata:
+    title_ru: Ван-Пис
     image:
     - http://i.imgur.com/fYxck9q.png
     topic_id: 247360
@@ -377,6 +411,7 @@
     franchise: inuyasha
   threshold: 100%
   metadata:
+    title_ru: Инуяся
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593479.jpg
     topic_id: 247360
@@ -387,6 +422,7 @@
     franchise: sket_dance
   threshold: 100%
   metadata:
+    title_ru: Скет Данс
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593367.jpg
     topic_id: 247360
@@ -404,6 +440,7 @@
     - 24371
   threshold: 100%
   metadata:
+    title_ru: Мобильный воин Гандам
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/587962.jpg
     topic_id: 247360
@@ -414,6 +451,7 @@
     franchise: dragon_ball
   threshold: 100%
   metadata:
+    title_ru: Драконий жемчуг
     image:
     - http://i.imgur.com/paJlwxU.png
     topic_id: 247360
@@ -426,6 +464,7 @@
     - 12725
   threshold: 100%
   metadata:
+    title_ru: Инициал Ди
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593343.jpg
     topic_id: 247360
@@ -436,6 +475,7 @@
     franchise: durarara
   threshold: 100%
   metadata:
+    title_ru: Дюрарара!!
     image:
     - http://i.imgur.com/SY4hESq.png
     topic_id: 247360
@@ -446,6 +486,7 @@
     franchise: working
   threshold: 100%
   metadata:
+    title_ru: Работа!!
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/584987.jpg
     topic_id: 247360
@@ -456,6 +497,7 @@
     franchise: cardcaptor_sakura
   threshold: 100%
   metadata:
+    title_ru: Сакура — собирательница карт
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588573.jpg
     topic_id: 247360
@@ -466,6 +508,7 @@
     franchise: nanatsu_no_taizai
   threshold: 100%
   metadata:
+    title_ru: Семь смертных грехов
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/592707.jpg
     topic_id: 247360
@@ -476,6 +519,7 @@
     franchise: saint_seiya
   threshold: 100%
   metadata:
+    title_ru: Рыцари Зодиака
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593364.jpg
     topic_id: 247360
@@ -489,7 +533,9 @@
     - 176
   threshold: 100%
   metadata:
-    image: []
+    title_ru: Лиричная волшебница Наноха
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/594202.jpg
     topic_id: 247360
 - neko_id: maison_ikkoku
   level: 1
@@ -498,6 +544,7 @@
     franchise: maison_ikkoku
   threshold: 100%
   metadata:
+    title_ru: Доходный дом Иккоку
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/591782.jpg
     topic_id: 247360
@@ -508,6 +555,7 @@
     franchise: junjou_romantica
   threshold: 100%
   metadata:
+    title_ru: Чистая романтика
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593482.jpg
     topic_id: 247360
@@ -518,6 +566,7 @@
     franchise: chiba_pedal
   threshold: 100%
   metadata:
+    title_ru: Трусливый велосипедист
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/587974.jpg
     topic_id: 247360
@@ -528,6 +577,7 @@
     franchise: glass_no_kamen
   threshold: 100%
   metadata:
+    title_ru: Стеклянная маска
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587850.jpg
     topic_id: 247360
@@ -540,6 +590,7 @@
     - 5343
   threshold: 100%
   metadata:
+    title_ru: Люпен III
     image:
     - http://i.imgur.com/YhU0jqQ.png
     - http://i.imgur.com/1rH2Mk1.png
@@ -551,6 +602,7 @@
     franchise: dmatsu_san
   threshold: 50%
   metadata:
+    title_ru: Осомацу
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593354.jpg
     topic_id: 247360
@@ -559,10 +611,9 @@
   algo: simple
   filters:
     franchise: hikaru_no_go
-    not_anime_ids:
-    - 2336
   threshold: 100%
   metadata:
+    title_ru: Хикару и Го
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588982.jpg
     topic_id: 247360
@@ -573,6 +624,7 @@
     franchise: boruto
   threshold: 95%
   metadata:
+    title_ru: Наруто
     image:
     - http://i.imgur.com/701wXDx.jpg
     topic_id: 247360
@@ -583,6 +635,7 @@
     franchise: eureka_seven
   threshold: 100%
   metadata:
+    title_ru: Эврика 7
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/587927.jpg
     topic_id: 247360
@@ -593,6 +646,7 @@
     franchise: full_metal_panic
   threshold: 100%
   metadata:
+    title_ru: Стальная тревога
     image:
     - http://i.imgur.com/JGlSJBR.png
     topic_id: 247360
@@ -605,6 +659,7 @@
     - 246
   threshold: 100%
   metadata:
+    title_ru: Сказка о Хвосте феи
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/587404.jpg
     topic_id: 247360
@@ -617,6 +672,7 @@
     - 25257
   threshold: 100%
   metadata:
+    title_ru: Персона
     image:
     - https://i.imgur.com/auU7oHC.png
     topic_id: 247360
@@ -631,6 +687,7 @@
     - 28915
   threshold: 100%
   metadata:
+    title_ru: Наброски Хидамари
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588522.jpg
     topic_id: 247360
@@ -641,6 +698,7 @@
     franchise: slayers
   threshold: 100%
   metadata:
+    title_ru: Рубаки
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593371.jpg
     topic_id: 247360
@@ -653,6 +711,7 @@
     - 501
   threshold: 100%
   metadata:
+    title_ru: Дораэмон
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/590513.jpg
     topic_id: 247360
@@ -666,6 +725,7 @@
     - 32264
   threshold: 100%
   metadata:
+    title_ru: Индекс волшебства
     image:
     - http://i.imgur.com/upFgMl5.png
     topic_id: 247360
@@ -676,6 +736,7 @@
     franchise: city_hunter
   threshold: 100%
   metadata:
+    title_ru: Городской охотник
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/591793.jpg
     topic_id: 247360
@@ -686,6 +747,7 @@
     franchise: kindaichi_shounen_no_jikenbo
   threshold: 100%
   metadata:
+    title_ru: Дело ведет юный детектив Киндаити
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/587869.jpg
     topic_id: 247360
@@ -698,6 +760,7 @@
     - 21853
   threshold: 100%
   metadata:
+    title_ru: Живая любовь!
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587880.jpg
     topic_id: 247360
@@ -710,6 +773,7 @@
     - 9731
   threshold: 100%
   metadata:
+    title_ru: Внук Нурарихёна
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588986.jpg
     topic_id: 247360
@@ -720,6 +784,7 @@
     franchise: prince_of_tennis
   threshold: 100%
   metadata:
+    title_ru: Принц тенниса
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593487.jpg
     topic_id: 247360
@@ -730,6 +795,7 @@
     franchise: school_rumble
   threshold: 100%
   metadata:
+    title_ru: Школьный переполох
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588567.jpg
     topic_id: 247360
@@ -740,6 +806,7 @@
     franchise: touch
   threshold: 100%
   metadata:
+    title_ru: Касание
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593338.jpg
     topic_id: 247360
@@ -750,6 +817,7 @@
     franchise: sword_art_online
   threshold: 100%
   metadata:
+    title_ru: Мастера Меча Онлайн
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/593360.jpg
     topic_id: 247360
@@ -762,6 +830,7 @@
     - 35952
   threshold: 100%
   metadata:
+    title_ru: Человек-дьявол
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587860.jpg
     topic_id: 247360
@@ -772,6 +841,7 @@
     franchise: ushio_to_tora
   threshold: 100%
   metadata:
+    title_ru: Усио и Тора
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/590557.jpg
     topic_id: 247360
@@ -782,6 +852,7 @@
     franchise: macross
   threshold: 100%
   metadata:
+    title_ru: Макросс
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/584882.jpg
     topic_id: 247360
@@ -792,6 +863,7 @@
     franchise: jigoku_shoujo
   threshold: 100%
   metadata:
+    title_ru: Адская девочка
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593462.jpg
     topic_id: 247360
@@ -804,6 +876,7 @@
     - 1503
   threshold: 100%
   metadata:
+    title_ru: Тэнти — лишний!
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593376.jpg
     topic_id: 247360
@@ -814,6 +887,7 @@
     franchise: muumin
   threshold: 100%
   metadata:
+     title_ru: Муми-тролль
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/587882.jpg
     topic_id: 247360
@@ -824,6 +898,7 @@
     franchise: saiyuuki_gaiden
   threshold: 100%
   metadata:
+    title_ru: Саюки
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/588842.jpg
     topic_id: 247360
@@ -834,6 +909,7 @@
     franchise: moon_pride
   threshold: 100%
   metadata:
+    title_ru: Красавица-воин Сейлор Мун
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/573821.jpg
     topic_id: 247360
@@ -846,6 +922,7 @@
     - 4712
   threshold: 100%
   metadata:
+    title_ru: Приключения Дигимонов
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593469.jpg
     topic_id: 247360
@@ -856,6 +933,7 @@
     franchise: hokuto_no_ken
   threshold: 100%
   metadata:
+    title_ru: Кулак Северной звезды
     image:
     - http://i.imgur.com/5gIbsOg.png
     topic_id: 247360
@@ -866,6 +944,7 @@
     franchise: mahoujin_guruguru
   threshold: 100%
   metadata:
+    title_ru: Волшебный круг Гуру-Гуру
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/587853.jpg
     topic_id: 247360
@@ -878,6 +957,7 @@
     - 6733
   threshold: 100%
   metadata:
+    title_ru: Галактический экспресс 999
     image:
     - http://i.imgur.com/mrgcIAi.png
     topic_id: 247360
@@ -888,6 +968,7 @@
     franchise: votoms_finder
   threshold: 100%
   metadata:
+    title_ru: Бронированные воины Вотомы
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593466.jpg
     topic_id: 247360
@@ -898,6 +979,7 @@
     franchise: bleach
   threshold: 100%
   metadata:
+    title_ru: Блич
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/587406.jpg
     topic_id: 247360
@@ -908,6 +990,7 @@
     franchise: mazinkaiser
   threshold: 60%
   metadata:
+    title_ru: Мазинкайзер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588529.jpg
     topic_id: 247360
@@ -918,6 +1001,7 @@
     franchise: transformers
   threshold: 100%
   metadata:
+    title_ru: Трансформеры
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588998.jpg
     topic_id: 247360
@@ -935,6 +1019,7 @@
     - 23849
   threshold: 95%
   metadata:
+    title_ru: Покемон
     image:
     - http://i.imgur.com/Lbkoz20.png
     topic_id: 247360
@@ -945,6 +1030,7 @@
     franchise: urusei_yatsura
   threshold: 100%
   metadata:
+    title_ru: Несносные пришельцы
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588516.jpg
     topic_id: 247360
@@ -957,6 +1043,7 @@
     - 10736
   threshold: 100%
   metadata:
+    title_ru: Хорошенькое лекарство
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/587826.jpg
     topic_id: 247360
@@ -967,6 +1054,7 @@
     franchise: hetalia
   threshold: 100%
   metadata:
+    title_ru: Хеталия
     image:
     - http://i.imgur.com/Yp5iIYb.png
     topic_id: 247360
@@ -977,6 +1065,7 @@
     franchise: tegamibachi
   threshold: 100%
   metadata:
+    title_ru: Почтовая пчела
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/592667.jpg
     topic_id: 247360
@@ -987,6 +1076,7 @@
     franchise: hayate_no_gotoku
   threshold: 100%
   metadata:
+    title_ru: Боевой дворецкий Хаятэ!
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593337.jpg
     topic_id: 247360
@@ -997,6 +1087,7 @@
     franchise: mobile_police_patlabor
   threshold: 100%
   metadata:
+    title_ru: Полиция будущего
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/573803.jpg
     topic_id: 247360
@@ -1007,6 +1098,7 @@
     franchise: ranma
   threshold: 100%
   metadata:
+    title_ru: Ранма 1/2
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593359.jpg
     topic_id: 247360
@@ -1017,6 +1109,7 @@
     franchise: black_jack
   threshold: 100%
   metadata:
+    title_ru: Черный Джек
     image:
     - http://oyster.ignimgs.com/wordpress/stg.ign.com/2014/02/24-black_jack.jpg
     topic_id: 247360
@@ -1027,6 +1120,7 @@
     franchise: genshiken
   threshold: 100%
   metadata:
+    title_ru: Гэнсикэн
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/584964.jpg
     topic_id: 247360
@@ -1037,6 +1131,7 @@
     franchise: to_love_ru
   threshold: 100%
   metadata:
+    title_ru: Любовные неприятности
     image:
     - http://i.imgur.com/7RyGtjd.png
     topic_id: 247360
@@ -1047,6 +1142,7 @@
     franchise: space_cobra
   threshold: 100%
   metadata:
+    title_ru: Космические приключения Кобры
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/587937.jpg
     topic_id: 247360
@@ -1057,6 +1153,7 @@
     franchise: aikatsu
   threshold: 100%
   metadata:
+    title_ru: Айкацу!
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588973.jpg
     topic_id: 247360
@@ -1067,6 +1164,7 @@
     franchise: negima
   threshold: 100%
   metadata:
+    title_ru: Волшебный учитель Нэгима!
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593353.jpg
     topic_id: 247360
@@ -1077,6 +1175,7 @@
     franchise: getter_robo
   threshold: 100%
   metadata:
+    title_ru: Робот Геттер
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/590469.jpg
     topic_id: 247360
@@ -1087,6 +1186,7 @@
     franchise: minami_ke
   threshold: 100%
   metadata:
+    title_ru: Сёстры Минами
     image:
     - http://i.imgur.com/45AU6pC.png
     topic_id: 247360
@@ -1097,7 +1197,9 @@
     franchise: ojamajo_doremi
   threshold: 100%
   metadata:
-    image: []
+    title_ru: Невезучая ведьма Дореми
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/594193.jpg
     topic_id: 247360
 - neko_id: garo
   level: 1
@@ -1106,6 +1208,7 @@
     franchise: garo
   threshold: 100%
   metadata:
+    title_ru: Гаро
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593342.jpg
     topic_id: 247360
@@ -1118,6 +1221,7 @@
     - 14077
   threshold: 100%
   metadata:
+    title_ru: Кровь
     image:
     - http://i.imgur.com/bmPbOPr.png
     topic_id: 247360
@@ -1130,6 +1234,7 @@
     - 14059
   threshold: 100%
   metadata:
+    title_ru: Капризы Апельсиновой улицы
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/587931.jpg
     topic_id: 247360
@@ -1140,6 +1245,7 @@
     franchise: dragon_quest
   threshold: 100%
   metadata:
+    title_ru: Драгон Квест
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588978.jpg
     topic_id: 247360
@@ -1150,6 +1256,7 @@
     franchise: fushigi_yuugi
   threshold: 100%
   metadata:
+    title_ru: Таинственная игра
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/588655.jpg
     topic_id: 247360
@@ -1160,6 +1267,7 @@
     franchise: pripara
   threshold: 100%
   metadata:
+    title_ru: При Пара
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588524.jpg
     topic_id: 247360
@@ -1170,6 +1278,7 @@
     franchise: utawarerumono
   threshold: 100%
   metadata:
+    title_ru: Прославленный
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588523.jpg
     topic_id: 247360
@@ -1180,6 +1289,7 @@
     franchise: shakugan_no_shana
   threshold: 100%
   metadata:
+    title_ru: Пламенный взор Шаны
     image:
     - http://i.imgur.com/okj7B9r.png
     topic_id: 247360
@@ -1190,6 +1300,7 @@
     franchise: soukyuu_no_fafner
   threshold: 100%
   metadata:
+    title_ru: Небесный Фафнир
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593378.jpg
     topic_id: 247360
@@ -1200,6 +1311,7 @@
     franchise: puchimas
   threshold: 100%
   metadata:
+    title_ru: Идолмастер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588509.jpg
     topic_id: 247360
@@ -1210,6 +1322,7 @@
     franchise: zero_no_tsukaima
   threshold: 100%
   metadata:
+    title_ru: Подручный Луизы-Нулизы
     image:
     - http://i.imgur.com/TiWdKRI.png
     topic_id: 247360
@@ -1220,6 +1333,7 @@
     franchise: toriko
   threshold: 100%
   metadata:
+    title_ru: Торико
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593336.jpg
     topic_id: 247360
@@ -1230,6 +1344,7 @@
     franchise: aa_megami_sama
   threshold: 100%
   metadata:
+    title_ru: Моя богиня!
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588643.jpg
     topic_id: 247360
@@ -1240,6 +1355,7 @@
     franchise: locker_room
   threshold: 60%
   metadata:
+    title_ru: Инадзума 11
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/592658.jpg
     topic_id: 247360
@@ -1250,6 +1366,7 @@
     franchise: senki_zesshou_symphogear
   threshold: 100%
   metadata:
+    title_ru: Песня боевых принцесс
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/592670.jpg
     topic_id: 247360
@@ -1260,6 +1377,7 @@
     franchise: grendizer_giga
   threshold: 100%
   metadata:
+    title_ru: Грендайзер
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/592653.jpg
     topic_id: 247360
@@ -1270,6 +1388,7 @@
     franchise: zettai_karen_children
   threshold: 100%
   metadata:
+    title_ru: Восхитительные дети
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/587936.jpg
     topic_id: 247360
@@ -1280,6 +1399,7 @@
     franchise: konjiki_no_gash_bell
   threshold: 100%
   metadata:
+    title_ru: Златовласый Гаш Белл
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/588672.jpg
     topic_id: 247360
@@ -1292,6 +1412,7 @@
     - 30292
   threshold: 100%
   metadata:
+    title_ru: Саки
     image:
     - https://www.cafereo.co.jp/wp/wp-content/uploads/top_4571327546398.jpg
     topic_id: 247360
@@ -1302,6 +1423,7 @@
     franchise: casshern
   threshold: 100%
   metadata:
+    title_ru: Гатчамен
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/592712.jpg
     topic_id: 247360
@@ -1312,6 +1434,7 @@
     franchise: candy_candy
   threshold: 100%
   metadata:
+    title_ru: Кэнди-Кэнди
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593346.jpg
     topic_id: 247360
@@ -1322,6 +1445,7 @@
     franchise: taiho_shichau_zo
   threshold: 100%
   metadata:
+    title_ru: Вы арестованы!
     image:
     - http://i.imgur.com/P66vOZK.png
     topic_id: 247360
@@ -1338,6 +1462,7 @@
     - 32346
   threshold: 100%
   metadata:
+    title_ru: Югио!
     image:
     - https://4.downloader.disk.yandex.ru/preview/8b7bd9e84982dc5cd2db64bef6b2a65a2d87d2180afc27adee49fe9c7c185ede/inf/Ulc4l6Nw6Zl9PBaWaDlZYZkwyk65ca9VS5z9VF37HozlL_Xoj-hRJkAEr8vyZxy0hRU2ZVbxITksKC5VeMOttA%3D%3D?uid=0&filename=PWGbj9O.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
     topic_id: 247360
@@ -1348,6 +1473,7 @@
     franchise: seiren
   threshold: 100%
   metadata:
+    title_ru: Нежный укус
     image: []
     topic_id: 247360
 - neko_id: mai_hime
@@ -1357,6 +1483,7 @@
     franchise: mai_hime
   threshold: 100%
   metadata:
+    title_ru: Май-Химэ
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/593793.jpg
     topic_id: 247360
@@ -1367,6 +1494,7 @@
     franchise: selector_spread_wixoss
   threshold: 100%
   metadata:
+    title_ru: WIXOSS
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/590470.jpg
     topic_id: 247360
@@ -1377,6 +1505,7 @@
     franchise: baki
   threshold: 100%
   metadata:
+    title_ru: Боец Баки
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/592710.jpg
     topic_id: 247360
@@ -1387,6 +1516,7 @@
     franchise: force_live
   threshold: 100%
   metadata:
+    title_ru: Поющий принц
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/590066.jpg
     topic_id: 247360
@@ -1397,6 +1527,7 @@
     franchise: captain_tsubasa
   threshold: 100%
   metadata:
+    title_ru: Капитан Цубаса
     image:
     - http://i.imgur.com/nGYuicE.png
     topic_id: 247360
@@ -1407,6 +1538,7 @@
     franchise: tiger_mask
   threshold: 100%
   metadata:
+    title_ru: Тигровая маска
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/589000.jpg
     topic_id: 247360
@@ -1417,6 +1549,7 @@
     franchise: saber_marionette_j
   threshold: 100%
   metadata:
+    title_ru: Воины-марионетки Джей
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/590456.jpg
     topic_id: 247360
@@ -1427,6 +1560,7 @@
     franchise: el_hazard
   threshold: 100%
   metadata:
+    title_ru: Эль-Хазард
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/590462.jpg
     topic_id: 247360
@@ -1437,6 +1571,7 @@
     franchise: galaxy_angel
   threshold: 100%
   metadata:
+    title_ru: Галактический ангел
     image:
     - http://i.imgur.com/P1kSzcE.png
     topic_id: 247360
@@ -1447,6 +1582,7 @@
     franchise: cardfight_vanguard
   threshold: 100%
   metadata:
+    title_ru: Карточные бои Авангарда
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/587956.jpg
     topic_id: 247360
@@ -1457,6 +1593,7 @@
     franchise: cyborg
   threshold: 100%
   metadata:
+    title_ru: Киборг 009
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588532.jpg
     topic_id: 247360
@@ -1467,6 +1604,7 @@
     franchise: rean_no_tsubasa
   threshold: 100%
   metadata:
+    title_ru: Данбайн
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/590450.jpg
     topic_id: 247360
@@ -1477,6 +1615,7 @@
     franchise: ad_police
   threshold: 100%
   metadata:
+    title_ru: Кризис каждый день
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593344.jpg
     topic_id: 247360
@@ -1490,6 +1629,7 @@
     - 4508
   threshold: 100%
   metadata:
+    title_ru: С начала
     image:
     - https://2.downloader.disk.yandex.ru/preview/69f29d45e660fec8f59171a268ebeef9b3be987821d1ecf74ce9c1a299b6d4c8/inf/Ulc4l6Nw6Zl9PBaWaDlZYbH6HhYsujK7PZz9isF_CzhjHyJWph6sbj8bsHUBYFIZSwQ_lmWczXB8jcT49jKoYg%3D%3D?uid=0&filename=da-capo-second-season-dc-da-capo-932345144.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
     topic_id: 247360
@@ -1500,6 +1640,7 @@
     franchise: kinnikuman
   threshold: 100%
   metadata:
+    title_ru: Человек-мускул
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/587824.jpg
     topic_id: 247360
@@ -1510,6 +1651,7 @@
     franchise: super_robot_taisen_og
   threshold: 100%
   metadata:
+    title_ru: Войны супер-роботов
     image: []
     topic_id: 247360
 - neko_id: hack_gift
@@ -1519,6 +1661,7 @@
     franchise: hack_gift
   threshold: 100%
   metadata:
+    title_ru: .хак//
     image:
     - http://i.imgur.com/HHdxyde.png
     topic_id: 247360
@@ -1529,6 +1672,7 @@
     franchise: futari_wa_milky_holmes
   threshold: 100%
   metadata:
+    title_ru: Детективное агентство Милки Холмс
     image:
     - https://2.downloader.disk.yandex.ru/preview/f255dd6d3e0ba190d32b130ecd071d5eaa28f9e2da577b1e0110a43e835e3bd5/inf/Ulc4l6Nw6Zl9PBaWaDlZYefLsIFoOltZFV0zvVB7tdGBBsHO36izsJsnjnMu0B8L8Li-k66LBmBXLZsukw55lA%3D%3D?uid=0&filename=2332377690e929cc8cc545dee2e5c37033bf768c.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
     topic_id: 247360
@@ -1539,6 +1683,7 @@
     franchise: aquarion_evol
   threshold: 100%
   metadata:
+    title_ru: Акварион
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/589085.jpg
     topic_id: 247360
@@ -1549,6 +1694,7 @@
     franchise: di_gi_charat
   threshold: 100%
   metadata:
+    title_ru: Ди-Ги Карат
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588977.jpg
     topic_id: 247360
@@ -1559,6 +1705,7 @@
     franchise: dirty_pair
   threshold: 100%
   metadata:
+    title_ru: Грязная парочка
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/593340.jpg
     topic_id: 247360
@@ -1569,6 +1716,7 @@
     franchise: angelique
   threshold: 100%
   metadata:
+    title_ru: Анжелика
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/589046.jpg
     topic_id: 247360
@@ -1579,6 +1727,7 @@
     franchise: cutey_honey
   threshold: 100%
   metadata:
+    title_ru: Милашка Хани
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587430.jpg
     topic_id: 247360
@@ -1589,6 +1738,7 @@
     franchise: mahou_no_princess_minky_momo
   threshold: 100%
   metadata:
+    title_ru: Принцесса-волшебница Минки Момо
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/593800.jpg
     topic_id: 247360
@@ -1599,6 +1749,7 @@
     franchise: ehon_yose
   threshold: 50%
   metadata:
+    title_ru: Щелкунчик Китаро
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588958.jpg
     topic_id: 247360
@@ -1609,6 +1760,7 @@
     franchise: to_heart
   threshold: 100%
   metadata:
+    title_ru: Для сердца
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/588864.jpg
     topic_id: 247360
@@ -1619,6 +1771,7 @@
     franchise: sakura_taisen
   threshold: 100%
   metadata:
+    title_ru: Сакура: Война миров
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588988.jpg
     topic_id: 247360
@@ -1629,6 +1782,7 @@
     franchise: ginga_senpuu_braiger
   threshold: 100%
   metadata:
+    title_ru: Галактический Вихрь Брайгер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588514.jpg
     topic_id: 247360
@@ -1639,6 +1793,7 @@
     franchise: ikkitousen
   threshold: 100%
   metadata:
+    title_ru: Сила тысячи
     image:
     - http://i.imgur.com/GdhjXa6.png
     topic_id: 247360
@@ -1649,6 +1804,7 @@
     franchise: juusenki_l_gaim
   threshold: 100%
   metadata:
+    title_ru: Тяжёлый металл
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/593807.jpg
     topic_id: 247360
@@ -1659,6 +1815,7 @@
     franchise: sonic
   threshold: 100%
   metadata:
+    title_ru: Соник
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593372.jpg
     topic_id: 247360
@@ -1669,6 +1826,7 @@
     franchise: choujuu_kishin_dancougar
   threshold: 100%
   metadata:
+    title_ru: Данкугар
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/588931.jpg
     topic_id: 247360
@@ -1679,6 +1837,7 @@
     franchise: queen_s_blade
   threshold: 100%
   metadata:
+    title_ru: Клинок королевы
     image:
     - http://i.imgur.com/jClFvnl.png
     topic_id: 247360
@@ -1689,6 +1848,7 @@
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
   metadata:
+    title_ru: Властелин властелинов Рыцарь Рю
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588868.jpg
     topic_id: 247360
@@ -1699,6 +1859,7 @@
     franchise: super_doll_licca_chan
   threshold: 100%
   metadata:
+    title_ru: Суперкукла Ликка-тян
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/588646.jpg
     topic_id: 247360
@@ -1709,6 +1870,7 @@
     franchise: ultraman
   threshold: 100%
   metadata:
+    title_ru: Ультрамен
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588518.jpg
     topic_id: 247360
@@ -1719,6 +1881,7 @@
     franchise: iron_man
   threshold: 100%
   metadata:
+    title_ru: Марвел
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/593812.jpg
     topic_id: 247360
@@ -1729,6 +1892,7 @@
     franchise: obake_no_q_tarou
   threshold: 100%
   metadata:
+    title_ru: Привидение Кью-Таро
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588513.jpg
     topic_id: 247360
@@ -1739,6 +1903,7 @@
     franchise: pro_golfer_saru
   threshold: 100%
   metadata:
+    title_ru: Профессиональный гольфист Сару
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
     topic_id: 247360
