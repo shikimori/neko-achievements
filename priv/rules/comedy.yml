@@ -20,14 +20,14 @@
     title_ru: Комедиант
     text_ru: Теперь вам известны основы комедии.
     image: /assets/achievements/anime/comedy_2.jpg
-    border_color: "#CD9575"
+    border_color: "#8B0000"
 
 - <<: *defaults
   level: 3
   threshold: 250
   metadata:
-    title_ru: Вечный смех
-    text_ru: Сатира, пародия, каламбур, сарказм, ирония, гротеск — ни одна шутка не проскользнет мимо вас. Вы - мастер юмора, улавливающий самые тонкие его нотки и плавающий в самых темных его глубинах... но стоит ли продолжать смотреть в бездну?
+    title_ru: Why so serious?
+    text_ru: Сатира, пародия, каламбур, сарказм, ирония, гротеск — ни одна шутка не проскользнет мимо вас. 
     image: /assets/achievements/anime/comedy_3.jpg
     border_color: "#008080"
 
@@ -35,7 +35,7 @@
   level: 4
   threshold: 400
   metadata:
-    title_ru: Why so serious?
-    text_ru: Юмор пронизывает вашу сущность, не оставляя места ничему другому.
+    title_ru: Вечный смех
+    text_ru: Вы - мастер юмора, улавливающий самые тонкие его нотки и плавающий в самых темных его глубинах... но стоит ли продолжать смотреть в бездну?
     image: /assets/achievements/anime/comedy_4.gif
     border_color: "#7f8f18"
