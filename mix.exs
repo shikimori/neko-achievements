@@ -44,7 +44,8 @@ defmodule Neko.Mixfile do
       {:exconstructor, "~> 1.1.0"},
       {:plug, "~> 1.4"},
       {:poison, "~> 3.1"},
-      {:httpoison, "~> 1.0"},
+      # appsignal requires httpoison ~> 0.11
+      {:httpoison, "~> 1.0", override: true},
       {:edeliver, "~> 1.4"},
       {:distillery, "~> 1.4", runtime: false},
       {:mox, "~> 0.3.1", only: :test},
@@ -57,7 +58,7 @@ defmodule Neko.Mixfile do
       # _build/<env>/lib/yamler/priv/ and consequently not found both in
       # production and on CircleCI)
       {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"},
-      {:appsignal, "~> 1.0"},
+      {:appsignal, "== 1.5.0"},
       {:poolboy, "~> 1.5.1"},
       {:credo, "~> 0.9", only: [:dev, :test], runtime: false}
     ]
