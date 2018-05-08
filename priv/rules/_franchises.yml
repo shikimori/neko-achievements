@@ -887,7 +887,7 @@
     franchise: muumin
   threshold: 100%
   metadata:
-     title_ru: Муми-тролль
+    title_ru: Муми-тролль
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/587882.jpg
     topic_id: 247360
@@ -1771,7 +1771,7 @@
     franchise: sakura_taisen
   threshold: 100%
   metadata:
-    title_ru: Сакура: Война миров
+    title_ru: "Сакура: Война миров"
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588988.jpg
     topic_id: 247360
