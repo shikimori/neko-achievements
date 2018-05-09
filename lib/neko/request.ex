@@ -49,7 +49,7 @@ defmodule Neko.Request do
   defp load_user_data(%{user_id: user_id, action: "reset"}) do
     [
       Task.async(Neko.UserRate, :reload, [user_id]),
-      Task.async(Neko.Achievement, :load, [user_id])
+      Task.async(Neko.Achievement, :reload, [user_id])
     ]
     |> Enum.map(&Task.await(&1, @await_timeout))
   end
