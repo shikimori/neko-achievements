@@ -53,7 +53,7 @@
     title_ru: Эстет
     text_ru: Качественная графика, прекрасное музыкальное сопровождение, интересные сюжеты... эти японские мультики весьма хороши.
     image: /assets/achievements/anime/animelist_6.jpg
-    border_color: "#F64A46"
+    border_color: "#C5D0E6"
 
 - <<: *defaults
   level: 7
@@ -121,7 +121,7 @@
     title_ru: Гурман
     text_ru: Ваша неразборчивость в потреблении аниме-блюд вызывает трепет, а способность переваривать любой контент — восхищение.
     image: /assets/achievements/anime/animelist_14.jpg
-    border_color: "#F34723"
+    border_color: "#F64A46"
 
 - <<: *defaults
   level: 15
