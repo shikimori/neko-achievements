@@ -178,7 +178,7 @@
   metadata:
     title_ru: Судьба
     image:
-    - http://i.imgur.com/zxwOfe9.png
+    - https://nyaa.shikimori.org/system/user_images/original/34807/594725.jpg
     topic_id: 247360
 - neko_id: jojo_no_kimyou_na_bouken
   level: 1
@@ -460,8 +460,6 @@
   algo: simple
   filters:
     franchise: initial_d
-    not_anime_ids:
-    - 12725
   threshold: 100%
   metadata:
     title_ru: Инициал Ди
@@ -626,7 +624,7 @@
   metadata:
     title_ru: Наруто
     image:
-    - http://i.imgur.com/701wXDx.jpg
+    - https://moe.shikimori.org/system/user_images/original/84020/594952.jpg
     topic_id: 247360
 - neko_id: eureka_seven
   level: 1
@@ -873,7 +871,7 @@
   filters:
     franchise: tenchi_muyou
     not_anime_ids:
-    - 1503
+    - 1503 
   threshold: 100%
   metadata:
     title_ru: Тэнти — лишний!
@@ -924,7 +922,7 @@
   metadata:
     title_ru: Приключения Дигимонов
     image:
-    - https://dere.shikimori.org/system/user_images/original/84020/593469.jpg
+    - https://desu.shikimori.org/system/user_images/original/34807/594733.jpg
     topic_id: 247360
 - neko_id: hokuto_no_ken
   level: 1
@@ -954,12 +952,12 @@
   filters:
     franchise: nen_joou
     not_anime_ids:
-    - 6733
+    - 9344
   threshold: 100%
   metadata:
     title_ru: Галактический экспресс 999
     image:
-    - http://i.imgur.com/mrgcIAi.png
+    - https://nyaa.shikimori.org/system/user_images/original/34807/594735.jpg
     topic_id: 247360
 - neko_id: votoms_finder
   level: 1
@@ -1021,7 +1019,7 @@
   metadata:
     title_ru: Покемон
     image:
-    - http://i.imgur.com/Lbkoz20.png
+    - https://moe.shikimori.org/system/user_images/original/34807/594737.jpg
     topic_id: 247360
 - neko_id: urusei_yatsura
   level: 1
@@ -1056,7 +1054,7 @@
   metadata:
     title_ru: Хеталия
     image:
-    - http://i.imgur.com/Yp5iIYb.png
+    - https://nyaa.shikimori.org/system/user_images/original/34807/594740.jpg
     topic_id: 247360
 - neko_id: tegamibachi
   level: 1
@@ -1188,7 +1186,7 @@
   metadata:
     title_ru: Сёстры Минами
     image:
-    - http://i.imgur.com/45AU6pC.png
+    - https://nyaa.shikimori.org/system/user_images/original/84020/594925.jpg
     topic_id: 247360
 - neko_id: ojamajo_doremi
   level: 1
@@ -1414,7 +1412,7 @@
   metadata:
     title_ru: Саки
     image:
-    - https://www.cafereo.co.jp/wp/wp-content/uploads/top_4571327546398.jpg
+    - https://moe.shikimori.org/system/user_images/original/34807/594742.jpg
     topic_id: 247360
 - neko_id: casshern
   level: 1
@@ -1447,7 +1445,7 @@
   metadata:
     title_ru: Вы арестованы!
     image:
-    - http://i.imgur.com/P66vOZK.png
+    - https://desu.shikimori.org/system/user_images/original/34807/594753.jpg
     topic_id: 247360
 - neko_id: yu_gi_oh
   level: 1
@@ -1474,7 +1472,8 @@
   threshold: 100%
   metadata:
     title_ru: Нежный укус
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/594937.jpg
     topic_id: 247360
 - neko_id: mai_hime
   level: 1
@@ -1529,7 +1528,7 @@
   metadata:
     title_ru: Капитан Цубаса
     image:
-    - http://i.imgur.com/nGYuicE.png
+    - https://nyaa.shikimori.org/system/user_images/original/34807/594760.jpg
     topic_id: 247360
 - neko_id: tiger_mask
   level: 1
@@ -1573,7 +1572,7 @@
   metadata:
     title_ru: Галактический ангел
     image:
-    - http://i.imgur.com/P1kSzcE.png
+    - https://kawai.shikimori.org/system/user_images/original/84020/594916.jpg
     topic_id: 247360
 - neko_id: cardfight_vanguard
   level: 1
@@ -1625,7 +1624,6 @@
   filters:
     franchise: d_c
     not_anime_ids:
-    - 17020
     - 4508
   threshold: 100%
   metadata:
@@ -1663,7 +1661,7 @@
   metadata:
     title_ru: .хак//
     image:
-    - http://i.imgur.com/HHdxyde.png
+    - https://dere.shikimori.org/system/user_images/original/84020/594919.jpg
     topic_id: 247360
 - neko_id: futari_wa_milky_holmes
   level: 1
@@ -1795,7 +1793,7 @@
   metadata:
     title_ru: Сила тысячи
     image:
-    - http://i.imgur.com/GdhjXa6.png
+    - https://moe.shikimori.org/system/user_images/original/84020/594917.jpg
     topic_id: 247360
 - neko_id: juusenki_l_gaim
   level: 1
@@ -1839,7 +1837,7 @@
   metadata:
     title_ru: Клинок королевы
     image:
-    - http://i.imgur.com/jClFvnl.png
+    - https://kawai.shikimori.org/system/user_images/original/84020/594921.jpg
     topic_id: 247360
 - neko_id: haou_daikei_ryuu_knight
   level: 1
