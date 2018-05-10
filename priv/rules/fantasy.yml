@@ -35,7 +35,7 @@
   level: 4
   threshold: 200
   metadata:
-    title_ru: Король королей
-    text_ru: Вы видели, как зарождались легенды.
+    title_ru: Вершитель
+    text_ru: Жизнь, смерть и судьбы народов вы держите в своих руках.
     image: /assets/achievements/anime/fantasy_4.gif
-    border_color: #ffdc00
+    border_color: "#003153"
