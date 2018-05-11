@@ -1043,7 +1043,7 @@
   metadata:
     title_ru: Хорошенькое лекарство
     image:
-    - https://kawai.shikimori.org/system/user_images/original/34807/587826.jpg
+    - https://moe.shikimori.org/system/user_images/original/84020/595142.jpg
     topic_id: 247360
 - neko_id: hetalia
   level: 1
@@ -1650,7 +1650,8 @@
   threshold: 100%
   metadata:
     title_ru: Войны супер-роботов
-    image: []
+    image:
+    - https://moe.shikimori.org/system/user_images/original/100600/594912.jpg
     topic_id: 247360
 - neko_id: hack_gift
   level: 1
