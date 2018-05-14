@@ -20,7 +20,6 @@
     raise: 1,
     resources: 3,
     socket: 2,
-    timestamps: 1,
     transport: 2
   ]
 ]
