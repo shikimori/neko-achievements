@@ -29,7 +29,7 @@
     title_ru: За семью печатями
     text_ru: Мэтры детективного дела обращаются к вам за советами.
     image: /assets/achievements/anime/mystery_3.jpg
-    border_color: "#919192"
+    border_color: "#3D2B1F"
 
 - <<: *defaults
   level: 4
