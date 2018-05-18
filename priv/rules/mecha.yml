@@ -9,8 +9,8 @@
   metadata:
     title_ru: Пилот Evangelion Unit
     text_ru: ОЯШ, полезай в робота
-    image: /assets/achievements/anime/mecha_1.png
-    border_color: "#1a153f"
+    image: /assets/achievements/anime/mecha_1.jpg
+    border_color: "#5E2129"
     topic_id: 222036
 
 - <<: *defaults
@@ -19,15 +19,15 @@
   metadata:
     title_ru: Hassin!
     text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
-    image: /assets/achievements/anime/mecha_2.png
-    border_color: "#5d634d"
+    image: /assets/achievements/anime/mecha_2.jpg
+    border_color: "#DCDCDC"
 
 - <<: *defaults
   level: 3
   threshold: 180
   metadata:
-    title_ru: Ньютайп
-    text_ru: Ore wa Gundam
+    title_ru: 
+    text_ru: 
     image: /assets/achievements/anime/mecha_3.png
     border_color: "#66cdaa"
 
@@ -35,9 +35,8 @@
   level: 4
   threshold: 235
   metadata:
-    title_ru: DO THE IMPOSSIBLE, SEE THE INVISIBLE!
-    text_ru: |-
-      Мы снесем любую стену, вставшую на пути! Если нет пути, мы его проложим!
+    title_ru: Ньютайп
+    text_ru: Ore wa Gundam
       Магма течет в наших венах, раскаляя сердца!
-    image: /assets/achievements/anime/mecha_4.gif
+    image: /assets/achievements/anime/mecha_4.png
     border_color: "#da4968"
