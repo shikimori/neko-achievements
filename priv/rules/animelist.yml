@@ -112,7 +112,15 @@
 - <<: *defaults
   level: 13
   threshold: 1234
-  metadata: {}
+  metadata:
+    title_ru: Раз, два, три, четыре
+    text_ru: |-
+  Раз котенок – самый белый
+  Два котенок – самый смелый
+  Три котенок – самый умный
+  А четыре – самый шумный
+    image: /assets/achievements/anime/animelist_14.jpg
+    border_color: "#C7D0CC"
 
 - <<: *defaults
   level: 14
