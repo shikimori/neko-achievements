@@ -68,7 +68,7 @@
     title_en: Abyss
     text_en: When you look into the abyss, the abyss stares back at you.
     image: /assets/achievements/anime/yandere_1.jpg
-    border_color: "#821d60"
+    border_color: "#CD9575"
     topic_id: 227431
 
 - <<: *defaults
