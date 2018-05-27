@@ -46,123 +46,16 @@ defmodule Neko.Rule.CountRule.Store do
   defp calc_anime_ids(rule) do
     anime_ids =
       Neko.Anime.all()
-      |> filter_animes(rule)
+      |> Neko.Rule.Filters.filter_animes(rule)
       |> Enum.map(& &1.id)
       |> MapSet.new()
 
     %{rule | anime_ids: anime_ids}
   end
 
-  defp filter_animes(animes, %{filters: nil} = _rule) do
-    animes
-  end
-
-  defp filter_animes(animes, %{filters: filters} = _rule) do
-    animes
-    |> filter_by_genre_ids(filters["genre_ids"])
-    |> filter_by_anime_ids(filters["anime_ids"])
-    |> reject_by_anime_ids(filters["not_anime_ids"])
-    |> filter_by_year_lte(filters["year_lte"])
-    |> filter_by_episodes_gte(filters["episodes_gte"])
-    |> filter_by_duration_lte(filters["duration_lte"])
-    |> filter_by_franchise(filters["franchise"])
-  end
-
-  defp filter_by_genre_ids(animes, nil) do
-    animes
-  end
-
-  defp filter_by_genre_ids(animes, genre_ids) do
-    animes
-    |> Enum.reject(&is_nil(&1.genre_ids))
-    |> Enum.filter(&lists_overlap?(&1.genre_ids, genre_ids))
-  end
-
-  # it's faster than !Enum.empty?(list_1 -- (list_1 -- list_2)),
-  # using Kernel.!() is a little bit faster than Kernel.not()
-  defp lists_overlap?(list_1, list_2) do
-    # credo:disable-for-lines:2
-    MapSet.new(list_1)
-    |> MapSet.intersection(MapSet.new(list_2))
-    |> Enum.empty?()
-    |> Kernel.!()
-  end
-
-  defp filter_by_anime_ids(animes, nil) do
-    animes
-  end
-
-  defp filter_by_anime_ids(animes, anime_ids) do
-    animes
-    |> Enum.filter(&Enum.member?(anime_ids, &1.id))
-  end
-
-  defp reject_by_anime_ids(animes, nil) do
-    animes
-  end
-
-  defp reject_by_anime_ids(animes, anime_ids) do
-    animes
-    |> Enum.reject(&Enum.member?(anime_ids, &1.id))
-  end
-
-  defp filter_by_year_lte(animes, nil) do
-    animes
-  end
-
-  defp filter_by_year_lte(animes, year_lte) do
-    animes
-    |> Enum.reject(&is_nil(&1.year))
-    |> Enum.filter(&(&1.year <= year_lte))
-  end
-
-  defp filter_by_episodes_gte(animes, nil) do
-    animes
-  end
-
-  defp filter_by_episodes_gte(animes, episodes_gte) do
-    animes
-    |> Enum.reject(&is_nil(&1.episodes))
-    |> Enum.filter(&(&1.episodes >= episodes_gte))
-  end
-
-  defp filter_by_duration_lte(animes, nil) do
-    animes
-  end
-
-  defp filter_by_duration_lte(animes, duration_lte) do
-    animes
-    |> Enum.reject(&is_nil(&1.duration))
-    |> Enum.filter(&(&1.duration <= duration_lte))
-  end
-
-  defp filter_by_franchise(animes, nil) do
-    animes
-  end
-
-  defp filter_by_franchise(animes, franchise) do
-    animes
-    |> Enum.reject(&is_nil(&1.franchise))
-    |> Enum.filter(&(&1.franchise == franchise))
-  end
-
   @spec calc_threshold(rule_t) :: rule_t
-  defp calc_threshold(%{threshold: threshold} = rule)
-       when is_number(threshold) do
-    rule
-  end
-
-  @spec calc_threshold(rule_t) :: rule_t
-  defp calc_threshold(%{threshold: threshold} = rule)
-       when is_binary(threshold) do
-    %{rule | threshold: parse_threshold(rule)}
-  end
-
-  # when threshold is a string value ("100%"), percent is implied
-  defp parse_threshold(rule) do
-    percent = rule.threshold |> Float.parse() |> elem(0)
-    threshold = MapSet.size(rule.anime_ids) * percent / 100
-    threshold |> Float.round(2)
+  defp calc_threshold(rule) do
+    %{rule | threshold: Neko.Rule.CountRule.threshold(rule)}
   end
 
   # access to all rules is required to calculate

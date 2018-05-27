@@ -16,6 +16,7 @@ defmodule Neko.Rule do
   @callback reload() :: any
   @callback all() :: MapSet.t(t)
   @callback set([t]) :: any
+  @callback threshold(t) :: pos_integer
   @callback value(t, [pos_integer]) :: pos_integer
 
   # reload rules in all poolboy workers when new rules are set
