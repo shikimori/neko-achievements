@@ -3,7 +3,7 @@ defmodule Neko.Achievement.Store do
 
   use Agent, restart: :temporary
 
-  @type achievement_t :: %Neko.Achievement{}
+  @type achievement_t :: Neko.Achievement.t()
   @type achievements_t :: MapSet.t(achievement_t)
 
   # add timeout to Agent calls that perform network requests only

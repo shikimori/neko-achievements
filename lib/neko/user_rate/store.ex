@@ -3,7 +3,7 @@ defmodule Neko.UserRate.Store do
 
   use Agent, restart: :temporary
 
-  @type user_rate_t :: %Neko.UserRate{}
+  @type user_rate_t :: Neko.UserRate.t()
   @type user_rates_t :: MapSet.t(user_rate_t)
 
   # add timeout to Agent calls that perform network requests only

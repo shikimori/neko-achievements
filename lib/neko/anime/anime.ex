@@ -12,6 +12,8 @@ defmodule Neko.Anime do
     franchise
   )a
 
+  @type t :: %__MODULE__{}
+
   defdelegate reload, to: Store
   defdelegate all, to: Store
 

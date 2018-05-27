@@ -32,8 +32,8 @@ defmodule Neko.Rules.Worker do
 
   def handle_call({:achievements, rule_module, user_id}, _from, rules) do
     achievements =
-      rule_module
-      |> apply(:achievements, [rules[rule_module], user_id])
+      rules[rule_module]
+      |> Neko.Rules.Rule.achievements(user_id, rule_module)
 
     {:reply, achievements, rules}
   end

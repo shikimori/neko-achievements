@@ -12,6 +12,8 @@ defmodule Neko.UserRate do
     status
   )a
 
+  @type t :: %__MODULE__{}
+
   def from_request(request) do
     struct(__MODULE__, Map.from_struct(request))
   end

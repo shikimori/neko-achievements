@@ -16,6 +16,8 @@ defmodule Neko.Achievement do
     progress
   )a
 
+  @type t :: %__MODULE__{}
+
   def load(user_id) do
     case Registry.lookup(user_id) do
       {:ok, _store} -> {:ok, :already_loaded}

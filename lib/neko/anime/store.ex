@@ -3,7 +3,7 @@ defmodule Neko.Anime.Store do
 
   use Agent
 
-  @type anime_t :: %Neko.Anime{}
+  @type anime_t :: Neko.Anime.t()
   @type animes_t :: MapSet.t(anime_t)
 
   @name __MODULE__
