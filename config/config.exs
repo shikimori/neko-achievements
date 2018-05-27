@@ -64,8 +64,8 @@ config :neko, :shikimori,
 
 config :neko, :rules,
   dir: "priv/rules",
-  module_list: [Neko.Rules.SimpleRule],
-  reader: Neko.Rules.Reader
+  module_list: [Neko.Rule.SimpleRule],
+  reader: Neko.Rule.Reader
 
 config :neko, :user_handler_registry,
   name: :user_handler_registry,
@@ -76,7 +76,7 @@ config :neko, :user_handler_registry,
 
 config :neko, :rule_worker_pool,
   name: :rule_worker_pool,
-  module: Neko.Rules.Worker,
+  module: Neko.Rule.Worker,
   size: 30,
   # how long poolboy waits for a worker (5_000 by default)
   wait_timeout: 10_000

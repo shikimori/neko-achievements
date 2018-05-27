@@ -5,7 +5,7 @@ defmodule Neko.Application do
     children = [
       shikimori_pool_child(),
       Neko.Anime.Store,
-      Neko.Rules.SimpleRule.Store,
+      Neko.Rule.SimpleRule.Store,
       rule_worker_pool_child(),
       {Neko.UserRate.Store.Registry, Neko.UserRate.Store.Registry},
       {Neko.Achievement.Store.Registry, Neko.Achievement.Store.Registry},

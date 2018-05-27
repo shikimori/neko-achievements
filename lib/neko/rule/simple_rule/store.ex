@@ -1,7 +1,7 @@
-defmodule Neko.Rules.SimpleRule.Store do
+defmodule Neko.Rule.SimpleRule.Store do
   use Agent
 
-  @typep rule_t :: Neko.Rules.Rule.t()
+  @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
 
   @name __MODULE__

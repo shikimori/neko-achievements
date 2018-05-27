@@ -1,7 +1,7 @@
-defmodule Neko.Rules.SimpleRule do
-  @behaviour Neko.Rules.Rule
+defmodule Neko.Rule.SimpleRule do
+  @behaviour Neko.Rule
 
-  alias Neko.Rules.SimpleRule.Store
+  alias Neko.Rule.SimpleRule.Store
 
   @impl true
   defdelegate reload, to: Store
@@ -11,7 +11,7 @@ defmodule Neko.Rules.SimpleRule do
   @impl true
   def set(rules) do
     Store.set(rules)
-    Neko.Rules.Rule.reload_all_rules()
+    Neko.Rule.reload_all_rules()
   end
 
   @impl true

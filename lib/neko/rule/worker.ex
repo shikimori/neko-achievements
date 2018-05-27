@@ -1,4 +1,4 @@
-defmodule Neko.Rules.Worker do
+defmodule Neko.Rule.Worker do
   use GenServer
   require Logger
 
@@ -31,7 +31,7 @@ defmodule Neko.Rules.Worker do
   def handle_call({:achievements, rule_module, user_id}, _from, rules) do
     achievements =
       rules[rule_module]
-      |> Neko.Rules.Rule.achievements(user_id, rule_module)
+      |> Neko.Rule.achievements(user_id, rule_module)
 
     {:reply, achievements, rules}
   end

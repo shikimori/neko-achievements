@@ -1,4 +1,4 @@
-defmodule Neko.Rules.Rule do
+defmodule Neko.Rule do
   defstruct ~w(
     neko_id
     level

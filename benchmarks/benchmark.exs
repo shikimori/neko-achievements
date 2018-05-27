@@ -12,7 +12,7 @@ defmodule Benchmark do
     Application.ensure_all_started(:neko)
 
     Neko.Anime.set(animes())
-    Neko.Rules.SimpleRule.set(simple_rules())
+    Neko.Rule.SimpleRule.set(simple_rules())
 
     # load user rates and achievements first -
     # otherwise set/1 will raise error
@@ -32,7 +32,7 @@ defmodule Benchmark do
 
   defp simple_rules do
     "simple"
-    |> Neko.Rules.Reader.read_rules()
+    |> Neko.Rule.Reader.read_rules()
     |> MapSet.new()
   end
 

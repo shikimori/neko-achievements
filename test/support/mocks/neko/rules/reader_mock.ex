@@ -1,5 +1,5 @@
-defmodule Neko.Rules.ReaderMock do
-  @behaviour Neko.Rules.Reader.Behaviour
+defmodule Neko.Rule.ReaderMock do
+  @behaviour Neko.Rule.Reader.Behaviour
 
   @impl true
   def read_rules(_algo), do: []

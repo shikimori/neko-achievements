@@ -20,8 +20,8 @@ defmodule Neko.RouterTest do
 
   alias Neko.Router
   alias Neko.{Achievement, Anime, Request, UserRate}
-  alias Neko.Rules.Rule
-  alias Neko.Rules.SimpleRule
+  alias Neko.Rule
+  alias Neko.Rule.SimpleRule
 
   @opts Router.init([])
 
