@@ -1,7 +1,7 @@
 - &defaults
   neko_id: action
   level: 1
-  algo: simple
+  algo: count
   threshold: 70
   filters:
     genre_ids:

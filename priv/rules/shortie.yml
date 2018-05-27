@@ -1,6 +1,6 @@
 - &defaults
   neko_id: shortie
-  algo: simple
+  algo: count
   threshold: 65
   level: 1
   filters:

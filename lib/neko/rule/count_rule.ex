@@ -1,7 +1,7 @@
-defmodule Neko.Rule.SimpleRule do
+defmodule Neko.Rule.CountRule do
   @behaviour Neko.Rule
 
-  alias Neko.Rule.SimpleRule.Store
+  alias Neko.Rule.CountRule.Store
 
   @impl true
   defdelegate reload, to: Store

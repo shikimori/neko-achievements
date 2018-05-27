@@ -64,7 +64,7 @@ config :neko, :shikimori,
 
 config :neko, :rules,
   dir: "priv/rules",
-  module_list: [Neko.Rule.SimpleRule],
+  module_list: [Neko.Rule.CountRule],
   reader: Neko.Rule.Reader
 
 config :neko, :user_handler_registry,

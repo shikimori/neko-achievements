@@ -1,7 +1,7 @@
 - &defaults
   neko_id: military
   level: 1
-  algo: simple
+  algo: count
   threshold: 25
   filters:
     genre_ids:

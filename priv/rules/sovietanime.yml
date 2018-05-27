@@ -1,7 +1,7 @@
 # only anime with significant russian/ussr character or country presence
 - neko_id: sovietanime # http://russia-in-anime.ru/index.php/site/search?tag=0&sort=title
   level: 1
-  algo: simple
+  algo: count
   threshold: 30%
   filters:
     anime_ids:

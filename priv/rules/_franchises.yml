@@ -1,7 +1,7 @@
 ---
 - neko_id: fullmetal_alchemist
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: fullmetal_alchemist
   threshold: 100%
@@ -12,7 +12,7 @@
     topic_id: 247360
 - neko_id: gintama
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: gintama
   threshold: 100%
@@ -23,7 +23,7 @@
     topic_id: 247360
 - neko_id: ginga_eiyuu_densetsu
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ginga_eiyuu_densetsu
   threshold: 100%
@@ -34,7 +34,7 @@
     topic_id: 247360
 - neko_id: hunter_x_hunter
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hunter_x_hunter
   threshold: 100%
@@ -45,7 +45,7 @@
     topic_id: 247360
 - neko_id: hanamonogatari
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hanamonogatari
   threshold: 100%
@@ -56,7 +56,7 @@
     topic_id: 247360
 - neko_id: haikyuu
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: haikyuu
   threshold: 100%
@@ -67,7 +67,7 @@
     topic_id: 247360
 - neko_id: code_geass
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: code_geass
   threshold: 100%
@@ -78,7 +78,7 @@
     topic_id: 247360
 - neko_id: mushishi
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: mushishi
   threshold: 100%
@@ -89,7 +89,7 @@
     topic_id: 247360
 - neko_id: hajime_no_ippo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hajime_no_ippo
   threshold: 100%
@@ -100,7 +100,7 @@
     topic_id: 247360
 - neko_id: rurouni_kenshin
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: rurouni_kenshin
   threshold: 100%
@@ -111,7 +111,7 @@
     topic_id: 247360
 - neko_id: boku_no_hero_academia
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: boku_no_hero_academia
   threshold: 100%
@@ -122,7 +122,7 @@
     topic_id: 247360
 - neko_id: natsume_yuujinchou
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: natsume_yuujinchou
   threshold: 100%
@@ -133,7 +133,7 @@
     topic_id: 247360
 - neko_id: suzumiya_haruhi_no_yuuutsu
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: suzumiya_haruhi_no_yuuutsu
   threshold: 100%
@@ -144,7 +144,7 @@
     topic_id: 247360
 - neko_id: bakuman
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: bakuman
   threshold: 100%
@@ -155,7 +155,7 @@
     topic_id: 247360
 - neko_id: koro_sensei_q
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: koro_sensei_q
     not_anime_ids:
@@ -168,7 +168,7 @@
     topic_id: 247360
 - neko_id: fate_zero
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: fate_zero
     not_anime_ids:
@@ -182,7 +182,7 @@
     topic_id: 247360
 - neko_id: jojo_no_kimyou_na_bouken
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: jojo_no_kimyou_na_bouken
     not_anime_ids:
@@ -195,7 +195,7 @@
     topic_id: 247360
 - neko_id: aria_the_ova
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: aria_the_ova
   threshold: 100%
@@ -206,7 +206,7 @@
     topic_id: 247360
 - neko_id: megalo_box
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: megalo_box
   threshold: 100%
@@ -217,7 +217,7 @@
     topic_id: 247360
 - neko_id: kuroshitsuji
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: kuroshitsuji
     not_anime_ids:
@@ -230,7 +230,7 @@
     topic_id: 247360
 - neko_id: uchuu_kyoudai
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: uchuu_kyoudai
   threshold: 100%
@@ -241,7 +241,7 @@
     topic_id: 247360
 - neko_id: ghost_in_the_shell
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ghost_in_the_shell
     not_anime_ids:
@@ -256,7 +256,7 @@
     topic_id: 247360
 - neko_id: kuroko_no_basket
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: kuroko_no_basket
   threshold: 100%
@@ -267,7 +267,7 @@
     topic_id: 247360
 - neko_id: shokugeki_no_souma
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: shokugeki_no_souma
   threshold: 100%
@@ -278,7 +278,7 @@
     topic_id: 247360
 - neko_id: slam_dunk
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: slam_dunk
   threshold: 100%
@@ -289,7 +289,7 @@
     topic_id: 247360
 - neko_id: major
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: major
   threshold: 100%
@@ -300,7 +300,7 @@
     topic_id: 247360
 - neko_id: detective_conan
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: detective_conan
   threshold: 95%
@@ -311,7 +311,7 @@
     topic_id: 247360
 - neko_id: yuu_yuu_hakusho
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: yuu_yuu_hakusho
   threshold: 100%
@@ -322,7 +322,7 @@
     topic_id: 247360
 - neko_id: yamato
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: yamato
   threshold: 100%
@@ -333,7 +333,7 @@
     topic_id: 247360
 - neko_id: berserk
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: berserk
   threshold: 100%
@@ -344,7 +344,7 @@
     topic_id: 247360
 - neko_id: magi
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: magi
   threshold: 100%
@@ -355,7 +355,7 @@
     topic_id: 247360
 - neko_id: diamond_no_ace
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: diamond_no_ace
   threshold: 100%
@@ -366,7 +366,7 @@
     topic_id: 247360
 - neko_id: tsubasa
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: tsubasa
   threshold: 100%
@@ -377,7 +377,7 @@
     topic_id: 247360
 - neko_id: umineko_no_naku_koro_ni
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: umineko_no_naku_koro_ni
   threshold: 100%
@@ -388,7 +388,7 @@
     topic_id: 247360
 - neko_id: one_piece
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: one_piece
     not_anime_ids:
@@ -406,7 +406,7 @@
     topic_id: 247360
 - neko_id: inuyasha
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: inuyasha
   threshold: 100%
@@ -417,7 +417,7 @@
     topic_id: 247360
 - neko_id: sket_dance
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: sket_dance
   threshold: 100%
@@ -428,7 +428,7 @@
     topic_id: 247360
 - neko_id: gundam
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: gundam
     not_anime_ids:
@@ -446,7 +446,7 @@
     topic_id: 247360
 - neko_id: dragon_ball
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: dragon_ball
   threshold: 100%
@@ -457,7 +457,7 @@
     topic_id: 247360
 - neko_id: initial_d
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: initial_d
   threshold: 100%
@@ -468,7 +468,7 @@
     topic_id: 247360
 - neko_id: durarara
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: durarara
   threshold: 100%
@@ -479,7 +479,7 @@
     topic_id: 247360
 - neko_id: working
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: working
   threshold: 100%
@@ -490,7 +490,7 @@
     topic_id: 247360
 - neko_id: cardcaptor_sakura
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: cardcaptor_sakura
   threshold: 100%
@@ -501,7 +501,7 @@
     topic_id: 247360
 - neko_id: nanatsu_no_taizai
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: nanatsu_no_taizai
   threshold: 100%
@@ -512,7 +512,7 @@
     topic_id: 247360
 - neko_id: saint_seiya
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: saint_seiya
   threshold: 100%
@@ -523,7 +523,7 @@
     topic_id: 247360
 - neko_id: vivid_strike
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: vivid_strike
     not_anime_ids:
@@ -537,7 +537,7 @@
     topic_id: 247360
 - neko_id: maison_ikkoku
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: maison_ikkoku
   threshold: 100%
@@ -548,7 +548,7 @@
     topic_id: 247360
 - neko_id: junjou_romantica
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: junjou_romantica
   threshold: 100%
@@ -559,7 +559,7 @@
     topic_id: 247360
 - neko_id: chiba_pedal
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: chiba_pedal
   threshold: 100%
@@ -570,7 +570,7 @@
     topic_id: 247360
 - neko_id: glass_no_kamen
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: glass_no_kamen
   threshold: 100%
@@ -581,7 +581,7 @@
     topic_id: 247360
 - neko_id: lupin_iii
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: lupin_iii
     not_anime_ids:
@@ -595,7 +595,7 @@
     topic_id: 247360
 - neko_id: dmatsu_san
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: dmatsu_san
   threshold: 50%
@@ -606,7 +606,7 @@
     topic_id: 247360
 - neko_id: hikaru_no_go
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hikaru_no_go
   threshold: 100%
@@ -617,7 +617,7 @@
     topic_id: 247360
 - neko_id: boruto
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: boruto
   threshold: 95%
@@ -628,7 +628,7 @@
     topic_id: 247360
 - neko_id: eureka_seven
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: eureka_seven
   threshold: 100%
@@ -639,7 +639,7 @@
     topic_id: 247360
 - neko_id: full_metal_panic
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: full_metal_panic
   threshold: 100%
@@ -650,7 +650,7 @@
     topic_id: 247360
 - neko_id: fairy_tail
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: fairy_tail
     not_anime_ids:
@@ -663,7 +663,7 @@
     topic_id: 247360
 - neko_id: persona
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: persona
     not_anime_ids:
@@ -676,7 +676,7 @@
     topic_id: 247360
 - neko_id: hidamari_sketch
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hidamari_sketch
     not_anime_ids:
@@ -691,7 +691,7 @@
     topic_id: 247360
 - neko_id: slayers
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: slayers
   threshold: 100%
@@ -702,7 +702,7 @@
     topic_id: 247360
 - neko_id: doraemon
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: doraemon
     not_anime_ids:
@@ -715,7 +715,7 @@
     topic_id: 247360
 - neko_id: toaru_majutsu_no_index
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: toaru_majutsu_no_index
     not_anime_ids:
@@ -729,7 +729,7 @@
     topic_id: 247360
 - neko_id: city_hunter
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: city_hunter
   threshold: 100%
@@ -740,7 +740,7 @@
     topic_id: 247360
 - neko_id: kindaichi_shounen_no_jikenbo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: kindaichi_shounen_no_jikenbo
   threshold: 100%
@@ -751,7 +751,7 @@
     topic_id: 247360
 - neko_id: snow_halation
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: snow_halation
     not_anime_ids:
@@ -764,7 +764,7 @@
     topic_id: 247360
 - neko_id: nurarihyon_no_mago
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: nurarihyon_no_mago
     not_anime_ids:
@@ -777,7 +777,7 @@
     topic_id: 247360
 - neko_id: prince_of_tennis
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: prince_of_tennis
   threshold: 100%
@@ -788,7 +788,7 @@
     topic_id: 247360
 - neko_id: school_rumble
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: school_rumble
   threshold: 100%
@@ -799,7 +799,7 @@
     topic_id: 247360
 - neko_id: touch
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: touch
   threshold: 100%
@@ -810,7 +810,7 @@
     topic_id: 247360
 - neko_id: sword_art_online
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: sword_art_online
   threshold: 100%
@@ -821,7 +821,7 @@
     topic_id: 247360
 - neko_id: amon
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: amon
     not_anime_ids:
@@ -834,7 +834,7 @@
     topic_id: 247360
 - neko_id: ushio_to_tora
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ushio_to_tora
   threshold: 100%
@@ -845,7 +845,7 @@
     topic_id: 247360
 - neko_id: macross
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: macross
   threshold: 100%
@@ -856,7 +856,7 @@
     topic_id: 247360
 - neko_id: jigoku_shoujo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: jigoku_shoujo
   threshold: 100%
@@ -867,7 +867,7 @@
     topic_id: 247360
 - neko_id: tenchi_muyou
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: tenchi_muyou
     not_anime_ids:
@@ -880,7 +880,7 @@
     topic_id: 247360
 - neko_id: muumin
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: muumin
   threshold: 100%
@@ -891,7 +891,7 @@
     topic_id: 247360
 - neko_id: saiyuuki_gaiden
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: saiyuuki_gaiden
   threshold: 100%
@@ -902,7 +902,7 @@
     topic_id: 247360
 - neko_id: moon_pride
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: moon_pride
   threshold: 100%
@@ -913,7 +913,7 @@
     topic_id: 247360
 - neko_id: digimon_savers
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: digimon_savers
     not_anime_ids:
@@ -926,7 +926,7 @@
     topic_id: 247360
 - neko_id: hokuto_no_ken
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hokuto_no_ken
   threshold: 100%
@@ -937,7 +937,7 @@
     topic_id: 247360
 - neko_id: mahoujin_guruguru
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: mahoujin_guruguru
   threshold: 100%
@@ -948,7 +948,7 @@
     topic_id: 247360
 - neko_id: nen_joou
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: nen_joou
     not_anime_ids:
@@ -961,7 +961,7 @@
     topic_id: 247360
 - neko_id: votoms_finder
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: votoms_finder
   threshold: 100%
@@ -972,7 +972,7 @@
     topic_id: 247360
 - neko_id: bleach
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: bleach
   threshold: 100%
@@ -983,7 +983,7 @@
     topic_id: 247360
 - neko_id: mazinkaiser
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: mazinkaiser
   threshold: 60%
@@ -994,7 +994,7 @@
     topic_id: 247360
 - neko_id: transformers
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: transformers
   threshold: 100%
@@ -1005,7 +1005,7 @@
     topic_id: 247360
 - neko_id: pokemon
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: pokemon
     not_anime_ids:
@@ -1023,7 +1023,7 @@
     topic_id: 247360
 - neko_id: urusei_yatsura
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: urusei_yatsura
   threshold: 100%
@@ -1034,7 +1034,7 @@
     topic_id: 247360
 - neko_id: yes_precure
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: yes_precure
     not_anime_ids:
@@ -1047,7 +1047,7 @@
     topic_id: 247360
 - neko_id: hetalia
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hetalia
   threshold: 100%
@@ -1058,7 +1058,7 @@
     topic_id: 247360
 - neko_id: tegamibachi
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: tegamibachi
   threshold: 100%
@@ -1069,7 +1069,7 @@
     topic_id: 247360
 - neko_id: hayate_no_gotoku
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hayate_no_gotoku
   threshold: 100%
@@ -1080,7 +1080,7 @@
     topic_id: 247360
 - neko_id: mobile_police_patlabor
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: mobile_police_patlabor
   threshold: 100%
@@ -1091,7 +1091,7 @@
     topic_id: 247360
 - neko_id: ranma
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ranma
   threshold: 100%
@@ -1102,7 +1102,7 @@
     topic_id: 247360
 - neko_id: black_jack
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: black_jack
   threshold: 100%
@@ -1113,7 +1113,7 @@
     topic_id: 247360
 - neko_id: genshiken
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: genshiken
   threshold: 100%
@@ -1124,7 +1124,7 @@
     topic_id: 247360
 - neko_id: to_love_ru
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: to_love_ru
   threshold: 100%
@@ -1135,7 +1135,7 @@
     topic_id: 247360
 - neko_id: space_cobra
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: space_cobra
   threshold: 100%
@@ -1146,7 +1146,7 @@
     topic_id: 247360
 - neko_id: aikatsu
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: aikatsu
   threshold: 100%
@@ -1157,7 +1157,7 @@
     topic_id: 247360
 - neko_id: negima
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: negima
   threshold: 100%
@@ -1168,7 +1168,7 @@
     topic_id: 247360
 - neko_id: getter_robo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: getter_robo
   threshold: 100%
@@ -1179,7 +1179,7 @@
     topic_id: 247360
 - neko_id: minami_ke
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: minami_ke
   threshold: 100%
@@ -1190,7 +1190,7 @@
     topic_id: 247360
 - neko_id: ojamajo_doremi
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ojamajo_doremi
   threshold: 100%
@@ -1201,7 +1201,7 @@
     topic_id: 247360
 - neko_id: garo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: garo
   threshold: 100%
@@ -1212,7 +1212,7 @@
     topic_id: 247360
 - neko_id: blood
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: blood
     not_anime_ids:
@@ -1225,7 +1225,7 @@
     topic_id: 247360
 - neko_id: kimagure_orange_road
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: kimagure_orange_road
     not_anime_ids:
@@ -1238,7 +1238,7 @@
     topic_id: 247360
 - neko_id: dragon_quest
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: dragon_quest
   threshold: 100%
@@ -1249,7 +1249,7 @@
     topic_id: 247360
 - neko_id: fushigi_yuugi
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: fushigi_yuugi
   threshold: 100%
@@ -1260,7 +1260,7 @@
     topic_id: 247360
 - neko_id: pripara
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: pripara
   threshold: 100%
@@ -1271,7 +1271,7 @@
     topic_id: 247360
 - neko_id: utawarerumono
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: utawarerumono
   threshold: 100%
@@ -1282,7 +1282,7 @@
     topic_id: 247360
 - neko_id: shakugan_no_shana
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: shakugan_no_shana
   threshold: 100%
@@ -1293,7 +1293,7 @@
     topic_id: 247360
 - neko_id: soukyuu_no_fafner
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: soukyuu_no_fafner
   threshold: 100%
@@ -1304,7 +1304,7 @@
     topic_id: 247360
 - neko_id: puchimas
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: puchimas
   threshold: 100%
@@ -1315,7 +1315,7 @@
     topic_id: 247360
 - neko_id: zero_no_tsukaima
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: zero_no_tsukaima
   threshold: 100%
@@ -1326,7 +1326,7 @@
     topic_id: 247360
 - neko_id: toriko
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: toriko
   threshold: 100%
@@ -1337,7 +1337,7 @@
     topic_id: 247360
 - neko_id: aa_megami_sama
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: aa_megami_sama
   threshold: 100%
@@ -1348,7 +1348,7 @@
     topic_id: 247360
 - neko_id: locker_room
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: locker_room
   threshold: 60%
@@ -1359,7 +1359,7 @@
     topic_id: 247360
 - neko_id: senki_zesshou_symphogear
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: senki_zesshou_symphogear
   threshold: 100%
@@ -1370,7 +1370,7 @@
     topic_id: 247360
 - neko_id: grendizer_giga
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: grendizer_giga
   threshold: 100%
@@ -1381,7 +1381,7 @@
     topic_id: 247360
 - neko_id: zettai_karen_children
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: zettai_karen_children
   threshold: 100%
@@ -1392,7 +1392,7 @@
     topic_id: 247360
 - neko_id: konjiki_no_gash_bell
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: konjiki_no_gash_bell
   threshold: 100%
@@ -1403,7 +1403,7 @@
     topic_id: 247360
 - neko_id: saki
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: saki
     not_anime_ids:
@@ -1416,7 +1416,7 @@
     topic_id: 247360
 - neko_id: casshern
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: casshern
   threshold: 100%
@@ -1427,7 +1427,7 @@
     topic_id: 247360
 - neko_id: candy_candy
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: candy_candy
   threshold: 100%
@@ -1438,7 +1438,7 @@
     topic_id: 247360
 - neko_id: taiho_shichau_zo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: taiho_shichau_zo
   threshold: 100%
@@ -1449,7 +1449,7 @@
     topic_id: 247360
 - neko_id: yu_gi_oh
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: yu_gi_oh
     not_anime_ids:
@@ -1466,7 +1466,7 @@
     topic_id: 247360
 - neko_id: seiren
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: seiren
   threshold: 100%
@@ -1477,7 +1477,7 @@
     topic_id: 247360
 - neko_id: mai_hime
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: mai_hime
   threshold: 100%
@@ -1488,7 +1488,7 @@
     topic_id: 247360
 - neko_id: selector_spread_wixoss
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: selector_spread_wixoss
   threshold: 100%
@@ -1499,7 +1499,7 @@
     topic_id: 247360
 - neko_id: baki
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: baki
   threshold: 100%
@@ -1510,7 +1510,7 @@
     topic_id: 247360
 - neko_id: force_live
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: force_live
   threshold: 100%
@@ -1521,7 +1521,7 @@
     topic_id: 247360
 - neko_id: captain_tsubasa
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: captain_tsubasa
   threshold: 100%
@@ -1532,7 +1532,7 @@
     topic_id: 247360
 - neko_id: tiger_mask
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: tiger_mask
   threshold: 100%
@@ -1543,7 +1543,7 @@
     topic_id: 247360
 - neko_id: saber_marionette_j
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: saber_marionette_j
   threshold: 100%
@@ -1554,7 +1554,7 @@
     topic_id: 247360
 - neko_id: el_hazard
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: el_hazard
   threshold: 100%
@@ -1565,7 +1565,7 @@
     topic_id: 247360
 - neko_id: galaxy_angel
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: galaxy_angel
   threshold: 100%
@@ -1576,7 +1576,7 @@
     topic_id: 247360
 - neko_id: cardfight_vanguard
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: cardfight_vanguard
   threshold: 100%
@@ -1587,7 +1587,7 @@
     topic_id: 247360
 - neko_id: cyborg
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: cyborg
   threshold: 100%
@@ -1598,7 +1598,7 @@
     topic_id: 247360
 - neko_id: rean_no_tsubasa
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: rean_no_tsubasa
   threshold: 100%
@@ -1609,7 +1609,7 @@
     topic_id: 247360
 - neko_id: ad_police
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ad_police
   threshold: 100%
@@ -1620,7 +1620,7 @@
     topic_id: 247360
 - neko_id: d_c
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: d_c
     not_anime_ids:
@@ -1633,7 +1633,7 @@
     topic_id: 247360
 - neko_id: kinnikuman
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: kinnikuman
   threshold: 100%
@@ -1644,7 +1644,7 @@
     topic_id: 247360
 - neko_id: super_robot_taisen_og
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: super_robot_taisen_og
   threshold: 100%
@@ -1655,7 +1655,7 @@
     topic_id: 247360
 - neko_id: hack_gift
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: hack_gift
   threshold: 100%
@@ -1666,7 +1666,7 @@
     topic_id: 247360
 - neko_id: futari_wa_milky_holmes
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: futari_wa_milky_holmes
   threshold: 100%
@@ -1677,7 +1677,7 @@
     topic_id: 247360
 - neko_id: aquarion_evol
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: aquarion_evol
   threshold: 100%
@@ -1688,7 +1688,7 @@
     topic_id: 247360
 - neko_id: di_gi_charat
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: di_gi_charat
   threshold: 100%
@@ -1699,7 +1699,7 @@
     topic_id: 247360
 - neko_id: dirty_pair
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: dirty_pair
   threshold: 100%
@@ -1710,7 +1710,7 @@
     topic_id: 247360
 - neko_id: angelique
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: angelique
   threshold: 100%
@@ -1721,7 +1721,7 @@
     topic_id: 247360
 - neko_id: cutey_honey
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: cutey_honey
   threshold: 100%
@@ -1732,7 +1732,7 @@
     topic_id: 247360
 - neko_id: mahou_no_princess_minky_momo
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: mahou_no_princess_minky_momo
   threshold: 100%
@@ -1743,7 +1743,7 @@
     topic_id: 247360
 - neko_id: ehon_yose
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ehon_yose
   threshold: 50%
@@ -1754,7 +1754,7 @@
     topic_id: 247360
 - neko_id: to_heart
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: to_heart
   threshold: 100%
@@ -1765,7 +1765,7 @@
     topic_id: 247360
 - neko_id: sakura_taisen
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: sakura_taisen
   threshold: 100%
@@ -1776,7 +1776,7 @@
     topic_id: 247360
 - neko_id: ginga_senpuu_braiger
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ginga_senpuu_braiger
   threshold: 100%
@@ -1787,7 +1787,7 @@
     topic_id: 247360
 - neko_id: ikkitousen
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ikkitousen
   threshold: 100%
@@ -1798,7 +1798,7 @@
     topic_id: 247360
 - neko_id: juusenki_l_gaim
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: juusenki_l_gaim
   threshold: 100%
@@ -1809,7 +1809,7 @@
     topic_id: 247360
 - neko_id: sonic
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: sonic
   threshold: 100%
@@ -1820,7 +1820,7 @@
     topic_id: 247360
 - neko_id: choujuu_kishin_dancougar
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: choujuu_kishin_dancougar
   threshold: 100%
@@ -1831,7 +1831,7 @@
     topic_id: 247360
 - neko_id: queen_s_blade
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: queen_s_blade
   threshold: 100%
@@ -1842,7 +1842,7 @@
     topic_id: 247360
 - neko_id: haou_daikei_ryuu_knight
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
@@ -1853,7 +1853,7 @@
     topic_id: 247360
 - neko_id: super_doll_licca_chan
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: super_doll_licca_chan
   threshold: 100%
@@ -1864,7 +1864,7 @@
     topic_id: 247360
 - neko_id: ultraman
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: ultraman
   threshold: 100%
@@ -1875,7 +1875,7 @@
     topic_id: 247360
 - neko_id: iron_man
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: iron_man
   threshold: 100%
@@ -1886,7 +1886,7 @@
     topic_id: 247360
 - neko_id: obake_no_q_tarou
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: obake_no_q_tarou
   threshold: 100%
@@ -1897,7 +1897,7 @@
     topic_id: 247360
 - neko_id: pro_golfer_saru
   level: 1
-  algo: simple
+  algo: count
   filters:
     franchise: pro_golfer_saru
   threshold: 100%

@@ -1,7 +1,7 @@
 - &defaults
   neko_id: oldfag
   level: 1
-  algo: simple
+  algo: count
   threshold: 70
   filters:
     year_lte: 2000

@@ -1,6 +1,6 @@
 - &defaults
   neko_id: kids
-  algo: simple
+  algo: count
   threshold: 50
   level: 1
   filters:

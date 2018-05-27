@@ -1,11 +1,11 @@
-defmodule Neko.Rule.SimpleRule.Store do
+defmodule Neko.Rule.CountRule.Store do
   use Agent
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
 
   @name __MODULE__
-  @algo "simple"
+  @algo "count"
   @rules_reader Application.get_env(:neko, :rules)[:reader]
 
   @spec start_link(any) :: Agent.on_start()

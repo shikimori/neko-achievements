@@ -1,7 +1,7 @@
 - &defaults
   neko_id: animelist
   level: 1
-  algo: simple
+  algo: count
   threshold: 15
   metadata:
     title_ru: Добро пожаловать!

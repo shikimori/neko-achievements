@@ -40,7 +40,7 @@ data = YAML.load_file('/tmp/achievements.yml').
     {
       'neko_id' => franchise,
       'level' => 1,
-      'algo' => 'simple',
+      'algo' => 'count',
       'filters' => {
         'franchise' => franchise,
       }.merge(not_anime_ids || {}),

@@ -1,7 +1,7 @@
 - &defaults
   neko_id: josei
   level: 1
-  algo: simple
+  algo: count
   threshold: 20%
   filters:
     genre_ids:

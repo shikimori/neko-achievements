@@ -1,7 +1,7 @@
 - &defaults
   neko_id: tsundere
   level: 1
-  algo: simple
+  algo: count
   threshold: 30%
   filters:
     anime_ids:

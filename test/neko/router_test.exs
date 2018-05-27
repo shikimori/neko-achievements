@@ -21,7 +21,7 @@ defmodule Neko.RouterTest do
   alias Neko.Router
   alias Neko.{Achievement, Anime, Request, UserRate}
   alias Neko.Rule
-  alias Neko.Rule.SimpleRule
+  alias Neko.Rule.CountRule
 
   @opts Router.init([])
 
@@ -48,7 +48,7 @@ defmodule Neko.RouterTest do
   # contexts returned from both setup_all and setup blocks are
   # merged into final context which is available in each test
   #
-  # set animes and simple rules on per test basis - or else the
+  # set animes and count rules on per test basis - or else the
   # 1st test might fetch animes set in another test instead of
   # animes set here (tests are run in random order).
   setup do
@@ -60,7 +60,7 @@ defmodule Neko.RouterTest do
       %Anime{id: 5}
     ])
 
-    SimpleRule.set([
+    CountRule.set([
       %Rule{neko_id: "animelist", level: 1, threshold: 2},
       %Rule{neko_id: "animelist", level: 2, threshold: 4},
       %Rule{neko_id: "animelist", level: 3, threshold: 10}
@@ -181,7 +181,7 @@ defmodule Neko.RouterTest do
       %Anime{id: 3, franchise: "hikaru_no_go"}
     ])
 
-    SimpleRule.set([
+    CountRule.set([
       %Rule{
         neko_id: "hikaru_no_go",
         level: 1,

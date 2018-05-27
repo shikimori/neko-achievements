@@ -1,7 +1,7 @@
 - &defaults
   neko_id: fantasy
   level: 1
-  algo: simple
+  algo: count
   threshold: 40
   filters:
     genre_ids:

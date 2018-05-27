@@ -2,7 +2,7 @@
 - &defaults
   neko_id: mahou_shoujo
   level: 1
-  algo: simple
+  algo: count
   threshold: 20%
   filters:
     anime_ids:

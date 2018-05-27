@@ -1,7 +1,7 @@
 - &defaults
   neko_id: mecha
   level: 1
-  algo: simple
+  algo: count
   threshold: 45
   filters:
     genre_ids:

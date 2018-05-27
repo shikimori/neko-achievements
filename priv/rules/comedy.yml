@@ -1,6 +1,6 @@
 - &defaults
   neko_id: comedy
-  algo: simple
+  algo: count
   threshold: 70
   level: 1
   filters:
