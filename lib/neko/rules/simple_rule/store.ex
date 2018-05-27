@@ -3,8 +3,8 @@ defmodule Neko.Rules.SimpleRule.Store do
 
   use Agent
 
-  @type rule_t :: %Neko.Rules.SimpleRule{}
-  @type rules_t :: MapSet.t(rule_t)
+  @typep rule_t :: Neko.Rules.Rule.t()
+  @typep rules_t :: MapSet.t(Neko.Rules.Rule.t())
 
   @name __MODULE__
   @algo "simple"

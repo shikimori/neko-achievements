@@ -4,17 +4,6 @@ defmodule Neko.Rules.SimpleRule do
 
   alias Neko.Rules.SimpleRule.Store
 
-  defstruct ~w(
-    neko_id
-    level
-    threshold
-    filters
-    next_threshold
-    anime_ids
-  )a
-
-  use ExConstructor, atoms: true, strings: true
-
   @impl true
   defdelegate reload, to: Store
   defdelegate all, to: Store

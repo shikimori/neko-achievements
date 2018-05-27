@@ -20,6 +20,7 @@ defmodule Neko.RouterTest do
 
   alias Neko.Router
   alias Neko.{Achievement, Anime, Request, UserRate}
+  alias Neko.Rules.Rule
   alias Neko.Rules.SimpleRule
 
   @opts Router.init([])
@@ -60,9 +61,9 @@ defmodule Neko.RouterTest do
     ])
 
     SimpleRule.set([
-      %SimpleRule{neko_id: "animelist", level: 1, threshold: 2},
-      %SimpleRule{neko_id: "animelist", level: 2, threshold: 4},
-      %SimpleRule{neko_id: "animelist", level: 3, threshold: 10}
+      %Rule{neko_id: "animelist", level: 1, threshold: 2},
+      %Rule{neko_id: "animelist", level: 2, threshold: 4},
+      %Rule{neko_id: "animelist", level: 3, threshold: 10}
     ])
   end
 
@@ -181,7 +182,7 @@ defmodule Neko.RouterTest do
     ])
 
     SimpleRule.set([
-      %SimpleRule{
+      %Rule{
         neko_id: "hikaru_no_go",
         level: 1,
         threshold: "100%",

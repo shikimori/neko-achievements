@@ -3,7 +3,7 @@ defmodule Neko.Rules.Reader do
 
   defmodule Behaviour do
     @moduledoc false
-    @callback read_rules(String.t()) :: [%Neko.Rules.SimpleRule{}]
+    @callback read_rules(String.t()) :: [%Neko.Rules.Rule{}]
   end
 
   @behaviour Behaviour
@@ -14,7 +14,7 @@ defmodule Neko.Rules.Reader do
   def read_rules(algo) do
     algo
     |> read_from_file()
-    |> Enum.map(&Neko.Rules.SimpleRule.new/1)
+    |> Enum.map(&Neko.Rules.Rule.new/1)
   end
 
   defp read_from_file(algo) do
