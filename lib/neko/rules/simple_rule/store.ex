@@ -25,7 +25,7 @@ defmodule Neko.Rules.SimpleRule.Store do
     Agent.get(@name, & &1)
   end
 
-  @spec set(list(rule_t)) :: :ok
+  @spec set([rule_t]) :: :ok
   def set(rules) when is_list(rules) do
     rules |> MapSet.new() |> set()
   end

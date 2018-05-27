@@ -3,7 +3,7 @@ defmodule Neko.Rules.Reader do
 
   defmodule Behaviour do
     @moduledoc false
-    @callback read_rules(String.t()) :: list(%Neko.Rules.SimpleRule{})
+    @callback read_rules(String.t()) :: [%Neko.Rules.SimpleRule{}]
   end
 
   @behaviour Behaviour

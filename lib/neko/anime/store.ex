@@ -23,7 +23,7 @@ defmodule Neko.Anime.Store do
     Agent.get(@name, & &1)
   end
 
-  @spec set(list(anime_t)) :: :ok
+  @spec set([anime_t]) :: :ok
   def set(animes) when is_list(animes) do
     animes |> MapSet.new() |> set()
   end
