@@ -21,7 +21,7 @@ defmodule Neko.RouterTest do
   alias Neko.Router
   alias Neko.{Achievement, Anime, Request, UserRate}
   alias Neko.Rule
-  alias Neko.Rule.CountRule
+  alias Neko.Rule.{CountRule, DurationRule}
 
   @opts Router.init([])
 
@@ -67,7 +67,7 @@ defmodule Neko.RouterTest do
     ])
   end
 
-  test "add next level achievement", %{user_id: user_id} do
+  test "add next level achievement (count rule)", %{user_id: user_id} do
     UserRate.set(user_id, [
       %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
       %UserRate{id: 2, user_id: user_id, target_id: 2, status: "completed"},
@@ -117,6 +117,85 @@ defmodule Neko.RouterTest do
             progress: 100
           }
         ]
+      }
+      |> Poison.encode!()
+
+    assert conn.state == :sent
+    assert conn.status == 201
+    assert conn.resp_body == expected_body
+  end
+
+  test "add next level achievement (duration rule)", %{user_id: user_id} do
+    Anime.set([
+      %Anime{id: 1, episodes: 10, duration: 10, franchise: "gintama"},
+      %Anime{id: 2, episodes: 10, duration: 20, franchise: "gintama"},
+      %Anime{id: 3, episodes: 10, duration: 30, franchise: "code_geass"},
+      %Anime{id: 4, episodes: 10, duration: 40, franchise: "mushishi"},
+      %Anime{id: 5, episodes: 10, duration: 50, franchise: "hajime_no_ippo"}
+    ])
+
+    DurationRule.set([
+      %Rule{
+        neko_id: "gintama",
+        level: 1,
+        threshold: "80%",
+        filters: %{"franchise" => "gintama"}
+      },
+      %Rule{
+        neko_id: "code_geass",
+        level: 1,
+        threshold: "90%",
+        filters: %{"franchise" => "code_geass"}
+      },
+      %Rule{
+        neko_id: "mushishi",
+        level: 1,
+        threshold: "90%",
+        filters: %{"franchise" => "mushishi"}
+      }
+    ])
+
+    UserRate.set(user_id, [
+      %UserRate{id: 1, user_id: user_id, target_id: 1, status: "completed"},
+      %UserRate{id: 3, user_id: user_id, target_id: 3, status: "completed"}
+    ])
+
+    Achievement.set(user_id, [
+      %Achievement{
+        user_id: user_id,
+        neko_id: "code_geass",
+        level: 1,
+        progress: 100
+      }
+    ])
+
+    json =
+      %Request{
+        id: 2,
+        user_id: user_id,
+        target_id: 2,
+        status: "completed",
+        action: "put"
+      }
+      |> Poison.encode!()
+
+    conn =
+      "/user_rate"
+      |> json_post_conn(json)
+      |> Router.call(@opts)
+
+    expected_body =
+      %{
+        added: [
+          %Achievement{
+            user_id: user_id,
+            neko_id: "gintama",
+            level: 1,
+            progress: 100
+          }
+        ],
+        removed: [],
+        updated: []
       }
       |> Poison.encode!()
 
@@ -186,7 +265,7 @@ defmodule Neko.RouterTest do
         neko_id: "hikaru_no_go",
         level: 1,
         threshold: "100%",
-        filters: %{franchise: "hikaru_no_go"}
+        filters: %{"franchise" => "hikaru_no_go"}
       }
     ])
 
