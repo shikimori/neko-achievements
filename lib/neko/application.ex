@@ -6,6 +6,7 @@ defmodule Neko.Application do
       shikimori_pool_child(),
       Neko.Anime.Store,
       Neko.Rule.CountRule.Store,
+      Neko.Rule.DurationRule.Store,
       rule_worker_pool_child(),
       {Neko.UserRate.Store.Registry, Neko.UserRate.Store.Registry},
       {Neko.Achievement.Store.Registry, Neko.Achievement.Store.Registry},

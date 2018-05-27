@@ -1,13 +1,13 @@
-defmodule Neko.Rule.CountRule.Store do
+defmodule Neko.Rule.DurationRule.Store do
   use Agent
 
-  alias Neko.Rule.{Calculations, CountRule}
+  alias Neko.Rule.{Calculations, DurationRule}
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
 
   @name __MODULE__
-  @algo "count"
+  @algo "duration"
   @rules_reader Application.get_env(:neko, :rules)[:reader]
 
   @spec start_link(any) :: Agent.on_start()
@@ -39,7 +39,8 @@ defmodule Neko.Rule.CountRule.Store do
   defp calc(rules) do
     rules
     |> Calculations.calc_anime_ids()
-    |> Calculations.calc_thresholds(&CountRule.threshold/1)
+    |> Calculations.calc_durations()
+    |> Calculations.calc_thresholds(&DurationRule.threshold/1)
   end
 
   @spec rules() :: rules_t

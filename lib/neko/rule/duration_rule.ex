@@ -1,7 +1,7 @@
-defmodule Neko.Rule.CountRule do
+defmodule Neko.Rule.DurationRule do
   @behaviour Neko.Rule
 
-  alias Neko.Rule.CountRule.Store
+  alias Neko.Rule.DurationRule.Store
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
@@ -29,7 +29,7 @@ defmodule Neko.Rule.CountRule do
   @spec threshold(rule_t) :: float
   def threshold(%{threshold: threshold} = rule) when is_binary(threshold) do
     percent = rule.threshold |> Float.parse() |> elem(0)
-    threshold = MapSet.size(rule.anime_ids) * percent / 100
+    threshold = rule.duration * percent / 100
     threshold |> Float.round(2)
   end
 
@@ -38,6 +38,6 @@ defmodule Neko.Rule.CountRule do
   def value(rule, user_anime_ids) do
     user_anime_ids
     |> MapSet.intersection(rule.anime_ids)
-    |> MapSet.size()
+    |> Neko.Rule.Calculations.anime_duration()
   end
 end
