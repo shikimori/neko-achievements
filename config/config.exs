@@ -43,6 +43,7 @@ config :logger, :console,
 #       -> [20] http client connect timeout (shikimori/timeout)
 #       -> [90] http client receive timeout (shikimori/recv_timeout)
 #   -> [10] poolboy timeout to calculate achievements (rule_worker_pool/timeout)
+#     -> [5] worker timeout to calculate achievements (default handle_call timeout)
 
 # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
 config :neko, :shikimori,
