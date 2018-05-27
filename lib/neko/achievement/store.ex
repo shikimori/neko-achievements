@@ -1,6 +1,4 @@
 defmodule Neko.Achievement.Store do
-  @moduledoc false
-
   use Agent, restart: :temporary
 
   @type achievement_t :: Neko.Achievement.t()

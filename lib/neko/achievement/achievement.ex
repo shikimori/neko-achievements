@@ -1,6 +1,4 @@
 defmodule Neko.Achievement do
-  @moduledoc false
-
   # > For maximum performance, make sure you
   # > @derive [Poison.Encoder] for any struct
   # > you plan on encoding.

@@ -2,7 +2,6 @@
 #
 # credo:disable-for-this-file Credo.Check.Refactor.PipeChainStart
 defmodule Neko.Shikimori.HTTPClient do
-  @moduledoc false
   @behaviour Neko.Shikimori.Client.Behaviour
 
   use HTTPoison.Base

@@ -1,6 +1,4 @@
 defmodule Neko.Anime.Store do
-  @moduledoc false
-
   use Agent
 
   @type anime_t :: Neko.Anime.t()

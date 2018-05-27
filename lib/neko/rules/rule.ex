@@ -1,6 +1,4 @@
 defmodule Neko.Rules.Rule do
-  @moduledoc false
-
   defstruct ~w(
     neko_id
     level

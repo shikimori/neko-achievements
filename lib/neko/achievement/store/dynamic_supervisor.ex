@@ -1,6 +1,4 @@
 defmodule Neko.Achievement.Store.DynamicSupervisor do
-  @moduledoc false
-
   use DynamicSupervisor
 
   @name __MODULE__

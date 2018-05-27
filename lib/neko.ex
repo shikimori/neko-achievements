@@ -1,9 +1,4 @@
-# use like a sandbox?
 defmodule Neko do
-  @moduledoc """
-  Documentation for Neko.
-  """
-
   @doc """
   Hello world.
 

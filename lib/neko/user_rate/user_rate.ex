@@ -1,6 +1,4 @@
 defmodule Neko.UserRate do
-  @moduledoc false
-
   alias Neko.UserRate.Store
   alias Neko.UserRate.Store.Registry
 

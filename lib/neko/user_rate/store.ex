@@ -1,6 +1,4 @@
 defmodule Neko.UserRate.Store do
-  @moduledoc false
-
   use Agent, restart: :temporary
 
   @type user_rate_t :: Neko.UserRate.t()

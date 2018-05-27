@@ -1,5 +1,4 @@
 defmodule Neko.Rules.ReaderMock do
-  @moduledoc false
   @behaviour Neko.Rules.Reader.Behaviour
 
   @impl true

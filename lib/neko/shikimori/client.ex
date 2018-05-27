@@ -1,9 +1,5 @@
 defmodule Neko.Shikimori.Client do
-  @moduledoc false
-
   defmodule Behaviour do
-    @moduledoc false
-
     @callback get_user_rates!(pos_integer) :: [Neko.UserRate.t()]
     @callback get_achievements!(pos_integer) :: [Neko.Achievement.t()]
     @callback get_animes!() :: [Neko.Anime.t()]

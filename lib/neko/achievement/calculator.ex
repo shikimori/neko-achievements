@@ -1,7 +1,5 @@
 # https://github.com/thestonefox/elixir_poolboy_example
 defmodule Neko.Achievement.Calculator do
-  @moduledoc false
-
   def call(user_id) do
     config = Application.get_env(:neko, :rule_worker_pool)
 

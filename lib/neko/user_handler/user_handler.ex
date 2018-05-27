@@ -1,8 +1,6 @@
 # https://medium.com/elixirlabs/registry-in-elixir-1-4-0-d6750fb5aeb
 # https://github.com/amokan/registry_sample
 defmodule Neko.UserHandler do
-  @moduledoc false
-
   # there is no need to restart UserHandler process:
   #
   # - if it terminates (because of crash or receive timeout),

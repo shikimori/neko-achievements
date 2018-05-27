@@ -1,8 +1,5 @@
 defmodule Neko.Rules.Reader do
-  @moduledoc false
-
   defmodule Behaviour do
-    @moduledoc false
     @callback read_rules(String.t()) :: [Neko.Rules.Rule.t()]
   end
 

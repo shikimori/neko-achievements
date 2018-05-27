@@ -1,6 +1,4 @@
 defmodule Neko.Rules.SimpleRule.Store do
-  @moduledoc false
-
   use Agent
 
   @typep rule_t :: Neko.Rules.Rule.t()
