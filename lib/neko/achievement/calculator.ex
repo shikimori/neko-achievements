@@ -2,17 +2,18 @@
 defmodule Neko.Achievement.Calculator do
   @moduledoc false
 
-  @rules_list Application.get_env(:neko, :rules)[:list]
-
   def call(user_id) do
-    @rules_list
-    |> Enum.flat_map(fn rule ->
-      config = apply(rule, :worker_pool_config, [])
+    pool_config = Application.get_env(:neko, :rule_worker_pool)
 
+    Application.get_env(:neko, :rules)[:module_list]
+    |> Enum.flat_map(fn rule_module ->
       :poolboy.transaction(
-        config[:name],
-        fn pid -> apply(config[:module], :achievements, [pid, user_id]) end,
-        config[:wait_timeout]
+        pool_config[:name],
+        fn pid ->
+          pool_config[:module]
+          |> apply(:achievements, [pid, rule_module, user_id])
+        end,
+        pool_config[:wait_timeout]
       )
     end)
     |> MapSet.new()

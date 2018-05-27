@@ -7,7 +7,7 @@ defmodule Neko.Application do
       shikimori_pool_child(),
       Neko.Anime.Store,
       Neko.Rules.SimpleRule.Store,
-      simple_rule_worker_pool_child(),
+      rule_worker_pool_child(),
       {Neko.UserRate.Store.Registry, Neko.UserRate.Store.Registry},
       {Neko.Achievement.Store.Registry, Neko.Achievement.Store.Registry},
       user_handler_registry_child(),
@@ -31,8 +31,8 @@ defmodule Neko.Application do
     )
   end
 
-  defp simple_rule_worker_pool_child do
-    config = Neko.Rules.SimpleRule.worker_pool_config()
+  defp rule_worker_pool_child do
+    config = Application.get_env(:neko, :rule_worker_pool)
 
     :poolboy.child_spec(config[:name], [
       {:name, {:local, config[:name]}},

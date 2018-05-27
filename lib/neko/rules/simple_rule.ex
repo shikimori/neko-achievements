@@ -24,16 +24,11 @@ defmodule Neko.Rules.SimpleRule do
   def set(rules) do
     Store.set(rules)
 
-    config = worker_pool_config()
+    config = Application.get_env(:neko, :rule_worker_pool)
     all_workers = GenServer.call(config[:name], :get_avail_workers)
 
     all_workers
     |> Enum.each(fn pid -> apply(config[:module], :reload, [pid]) end)
-  end
-
-  @impl true
-  def worker_pool_config do
-    Application.get_env(:neko, :simple_rule_worker_pool)
   end
 
   # rules are taken from worker state to avoid excessive copying

@@ -1,4 +1,4 @@
-defmodule Neko.Rules.SimpleRule.Worker do
+defmodule Neko.Rules.Worker do
   @moduledoc false
 
   use GenServer
@@ -12,8 +12,8 @@ defmodule Neko.Rules.SimpleRule.Worker do
     GenServer.start_link(__MODULE__, arg)
   end
 
-  def achievements(pid, user_id) do
-    GenServer.call(pid, {:achievements, user_id})
+  def achievements(pid, rule_module, user_id) do
+    GenServer.call(pid, {:achievements, rule_module, user_id})
   end
 
   # reload rules from store
@@ -26,12 +26,15 @@ defmodule Neko.Rules.SimpleRule.Worker do
   # ------------------------------------------------------------------
 
   def init(_) do
-    Logger.info("simple rule worker started...")
+    Logger.info("rule worker started...")
     {:ok, rules()}
   end
 
-  def handle_call({:achievements, user_id}, _from, rules) do
-    achievements = Neko.Rules.SimpleRule.achievements(rules, user_id)
+  def handle_call({:achievements, rule_module, user_id}, _from, rules) do
+    achievements =
+      rule_module
+      |> apply(:achievements, [rules[rule_module], user_id])
+
     {:reply, achievements, rules}
   end
 
@@ -40,6 +43,9 @@ defmodule Neko.Rules.SimpleRule.Worker do
   end
 
   defp rules do
-    Neko.Rules.SimpleRule.all()
+    Application.get_env(:neko, :rules)[:module_list]
+    |> Enum.reduce(%{}, fn rule_module, acc ->
+      Map.put(acc, rule_module, apply(rule_module, :all, []))
+    end)
   end
 end

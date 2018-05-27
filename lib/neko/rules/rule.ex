@@ -7,7 +7,6 @@ defmodule Neko.Rules.Rule do
   @typep rule_t :: struct
 
   @callback set([rule_t]) :: any
-  @callback worker_pool_config() :: keyword
   @callback achievements([rule_t], pos_integer) :: [%Neko.Achievement{}]
   @callback reload() :: any
 end

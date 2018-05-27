@@ -42,7 +42,7 @@ config :logger, :console,
 #     -> [110] store agent call timeout (shikimori/total_timeout)
 #       -> [20] http client connect timeout (shikimori/timeout)
 #       -> [90] http client receive timeout (shikimori/recv_timeout)
-#   -> [10] poolboy timeout to calculate achievements (simple_rule_worker_pool/timeout)
+#   -> [10] poolboy timeout to calculate achievements (rule_worker_pool/timeout)
 
 # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
 config :neko, :shikimori,
@@ -64,7 +64,7 @@ config :neko, :shikimori,
 
 config :neko, :rules,
   dir: "priv/rules",
-  list: [Neko.Rules.SimpleRule],
+  module_list: [Neko.Rules.SimpleRule],
   reader: Neko.Rules.Reader
 
 config :neko, :user_handler_registry,
@@ -74,9 +74,9 @@ config :neko, :user_handler_registry,
   # how long handler process can wait for new message to be received
   recv_timeout: 4 * 3_600_000
 
-config :neko, :simple_rule_worker_pool,
-  name: :simple_rule_worker_pool,
-  module: Neko.Rules.SimpleRule.Worker,
+config :neko, :rule_worker_pool,
+  name: :rule_worker_pool,
+  module: Neko.Rules.Worker,
   size: 30,
   # how long poolboy waits for a worker (5_000 by default)
   wait_timeout: 10_000
