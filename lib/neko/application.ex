@@ -55,7 +55,7 @@ defmodule Neko.Application do
      [
        scheme: :http,
        plug: Neko.Router,
-       options: [ip: {127, 0, 0, 1}, port: 4000]
+       options: Application.get_env(:neko, :application)[:listen_adress]
      ]}
   end
 end
