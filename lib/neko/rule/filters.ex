@@ -25,7 +25,7 @@ defmodule Neko.Rule.Filters do
   end
 
   # it's faster than !Enum.empty?(list_1 -- (list_1 -- list_2)),
-  # using Kernel.!() is a little bit faster than Kernel.not()
+  # Kernel.!() is a little bit faster than Kernel.not()
   defp lists_overlap?(list_1, list_2) do
     # credo:disable-for-lines:2
     MapSet.new(list_1)

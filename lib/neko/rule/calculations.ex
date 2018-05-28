@@ -1,4 +1,8 @@
 defmodule Neko.Rule.Calculations do
+  @moduledoc """
+  calc_* functions fill rule fields with calculated values
+  """
+
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
 
