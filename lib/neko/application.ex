@@ -55,7 +55,7 @@ defmodule Neko.Application do
      [
        scheme: :http,
        plug: Neko.Router,
-       options: Application.get_env(:neko, :application)[:listen_adress]
+       options: Application.get_env(:neko, :cowboy)[:listen_address]
      ]}
   end
 end
