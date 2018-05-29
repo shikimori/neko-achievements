@@ -27,7 +27,7 @@
   threshold: 180
   metadata:
     title_ru: 
-    text_ru: 
+    text_ru: Можете взять яйцо не раздавив, можете исполнить танцевальное па... но боевой доспех стал вашей второй кожей не для этого.
     image: /assets/achievements/anime/mecha_3.jpg
     border_color: "#00693E"
 
@@ -37,6 +37,5 @@
   metadata:
     title_ru: Ньютайп
     text_ru: Ore wa Gundam
-      Магма течет в наших венах, раскаляя сердца!
-    image: /assets/achievements/anime/mecha_4.png
-    border_color: "#da4968"
+    image: /assets/achievements/anime/mecha_4.gif
+    border_color: "#4682B4"
