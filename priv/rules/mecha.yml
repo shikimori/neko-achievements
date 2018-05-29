@@ -20,7 +20,7 @@
     title_ru: Hassin!
     text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
     image: /assets/achievements/anime/mecha_2.jpg
-    border_color: "#DCDCDC"
+    border_color: "#00693E"
 
 - <<: *defaults
   level: 3
@@ -29,7 +29,7 @@
     title_ru: 
     text_ru: Можете взять яйцо не раздавив, можете исполнить танцевальное па... но боевой доспех стал вашей второй кожей не для этого.
     image: /assets/achievements/anime/mecha_3.jpg
-    border_color: "#00693E"
+    border_color: "#C5D0E6"
 
 - <<: *defaults
   level: 4
