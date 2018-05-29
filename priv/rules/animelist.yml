@@ -60,7 +60,7 @@
   threshold: 400
   metadata:
     title_ru: Есть чем похвастаться
-    text_ru: Просмотрено 400 аниме. Это... много. Вы можете гордиться собой, определённо.
+    text_ru: Просмотрено 400 аниме. Это... солидно. Вы можете гордиться собой, определённо.
     image: /assets/achievements/anime/animelist_7.jpg
     border_color: "#ACB78E"
 
@@ -119,7 +119,7 @@
       Два котенок – самый смелый
       Три котенок – самый умный
       А четыре – самый шумный
-    image: /assets/achievements/anime/animelist_14.jpg
+    image: /assets/achievements/anime/animelist_13.jpg
     border_color: "#C7D0CC"
 
 - <<: *defaults
