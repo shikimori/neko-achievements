@@ -8,7 +8,7 @@
       - 22
   metadata:
     title_ru: Сталкер
-    text_ru: Сталкер 24/7. Почему ты меня не замечаешь?
+    text_ru: Почему ты меня не замечаешь?
     image: /assets/achievements/anime/romance_1.jpg
     border_color: "#e2b801"
     topic_id: 222064
@@ -18,16 +18,16 @@
   threshold: 130
   metadata:
     title_ru: Первое признание в любви.
-    text_ru: Если ты не признаешься, он никогда не узнает о твоих чувствах.
+    text_ru: Если ты не признаешься, она никогда не узнает о твоих чувствах.
     image: /assets/achievements/anime/romance_2.jpg
-    border_color: "#9e9cb2"
+    border_color: "#DC143C"
 
 - <<: *defaults
   level: 3
   threshold: 260
   metadata:
     title_ru: Конфетно-букетный период
-    text_ru: Теперь ты можешь на равных поддерживать разговор с Салатом.
+    text_ru: Любовь - это желание отдавать.
     image: /assets/achievements/anime/romance_3.jpg
     border_color: "#f16251"
 
@@ -35,7 +35,7 @@
   level: 4
   threshold: 350
   metadata:
-    title_ru: Сердце, полное любви
-    text_ru: Эксперт в отношениях.
+    title_ru: Эксперт в отношениях
+    text_ru: Сердце, полное любви.
     image: /assets/achievements/anime/romance_4.gif
-    border_color: "#001a6e"
+    border_color: "#FAE7B5"
