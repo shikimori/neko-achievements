@@ -53,11 +53,11 @@ defmodule Neko.RouterTest do
   # animes set here (tests are run in random order).
   setup do
     Anime.set([
-      %Anime{id: 1},
-      %Anime{id: 2},
-      %Anime{id: 3},
-      %Anime{id: 4},
-      %Anime{id: 5}
+      %Anime{id: 1, episodes: 12, duration: 25},
+      %Anime{id: 2, episodes: 12, duration: 25},
+      %Anime{id: 3, episodes: 12, duration: 25},
+      %Anime{id: 4, episodes: 12, duration: 25},
+      %Anime{id: 5, episodes: 12, duration: 25}
     ])
 
     CountRule.set([
@@ -255,9 +255,9 @@ defmodule Neko.RouterTest do
 
   test "remove achievement (percent threshold)", %{user_id: user_id} do
     Anime.set([
-      %Anime{id: 1, franchise: "hikaru_no_go"},
-      %Anime{id: 2, franchise: "hikaru_no_go"},
-      %Anime{id: 3, franchise: "hikaru_no_go"}
+      %Anime{id: 1, franchise: "hikaru_no_go", episodes: 12, duration: 25},
+      %Anime{id: 2, franchise: "hikaru_no_go", episodes: 12, duration: 25},
+      %Anime{id: 3, franchise: "hikaru_no_go", episodes: 12, duration: 25}
     ])
 
     CountRule.set([

@@ -5,19 +5,21 @@ defmodule Neko.Rule do
     threshold
     filters
     next_threshold
-    anime_ids
+    animes
     duration
   )a
 
   use ExConstructor, atoms: true, strings: true
 
   @type t :: %__MODULE__{}
+  @typep anime_t :: Neko.Anime.t()
+  @typep animes_t :: MapSet.t(anime_t)
 
   @callback reload() :: any
   @callback all() :: MapSet.t(t)
   @callback set([t]) :: any
   @callback threshold(t) :: pos_integer
-  @callback value(t, [pos_integer]) :: pos_integer
+  @callback value(t, animes_t) :: pos_integer
 
   # reload rules in all poolboy workers when new rules are set
   def reload_all_rules do
@@ -28,20 +30,22 @@ defmodule Neko.Rule do
     |> Enum.each(fn pid -> apply(config[:module], :reload, [pid]) end)
   end
 
-  # rules are taken from worker state to avoid excessive copying
-  def achievements(rules, user_id, rule_module) do
-    # precalculate user_anime_ids before passing them to rule_module.value/2:
-    # processing is ~10ms longer when creating MapSet in rule_module.value/2
+  # rules and animes are taken from worker state to avoid excessive copying
+  def achievements(rule_module, rules, animes_by_ids, user_id) do
     user_anime_ids =
       user_id
       |> Neko.UserRate.all()
       |> Enum.map(& &1.target_id)
+    user_animes =
+      animes_by_ids
+      |> Map.take(user_anime_ids)
+      |> Map.values()
       |> MapSet.new()
 
-    # final list of achievements for all rules is converted to MapSet
-    # in Neko.Achievement.Calculator
+    # final list of achievements for all rules is converted to MapSet in
+    # Neko.Achievement.Calculator
     rules
-    |> Enum.map(&{&1, apply(rule_module, :value, [&1, user_anime_ids])})
+    |> Enum.map(&{&1, apply(rule_module, :value, [&1, user_animes])})
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))
   end

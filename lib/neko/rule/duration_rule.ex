@@ -5,6 +5,8 @@ defmodule Neko.Rule.DurationRule do
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
+  @typep anime_t :: Neko.Anime.t()
+  @typep animes_t :: MapSet.t(anime_t)
 
   @impl true
   defdelegate reload, to: Store
@@ -34,10 +36,8 @@ defmodule Neko.Rule.DurationRule do
   end
 
   @impl true
-  @spec value(rule_t, MapSet.t(pos_integer)) :: pos_integer
-  def value(rule, user_anime_ids) do
-    user_anime_ids
-    |> MapSet.intersection(rule.anime_ids)
-    |> Neko.Rule.Calculations.anime_duration()
+  @spec value(rule_t, animes_t) :: pos_integer
+  def value(rule, user_animes) do
+    Neko.Anime.Calculations.common_duration(rule.animes, user_animes)
   end
 end

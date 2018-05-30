@@ -3,13 +3,17 @@ defmodule Neko.Rule.Calculations do
   calc_* functions fill rule fields with calculated values
   """
 
+  alias Neko.Anime.Calculations, as: AnimeCalculations
+
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
+  @typep anime_t :: Neko.Anime.t()
+  @typep animes_t :: MapSet.t(anime_t)
 
-  @spec calc_anime_ids(rules_t) :: rules_t
-  def calc_anime_ids(rules) do
+  @spec calc_animes(rules_t, animes_t) :: rules_t
+  def calc_animes(rules, animes) do
     rules
-    |> Enum.map(&%{&1 | anime_ids: rule_anime_ids(&1)})
+    |> Enum.map(&%{&1 | animes: rule_animes(&1, animes)})
     |> MapSet.new()
   end
 
@@ -21,26 +25,20 @@ defmodule Neko.Rule.Calculations do
     |> MapSet.new()
   end
 
-  @spec calc_durations(rules_t) :: rules_t
-  def calc_durations(rules) do
+  @spec calc_durations(rules_t, animes_t) :: rules_t
+  def calc_durations(rules, animes) do
     rules
-    |> Enum.map(&%{&1 | duration: anime_duration(&1.anime_ids)})
+    |> Enum.map(fn rule ->
+      duration = AnimeCalculations.common_duration(rule.animes, animes)
+      %{rule | duration: duration}
+    end)
     |> MapSet.new()
   end
 
-  @spec anime_duration(MapSet.t(pos_integer)) :: pos_integer
-  def anime_duration(anime_ids) do
-    Neko.Anime.all()
-    |> Enum.filter(&Enum.member?(anime_ids, &1.id))
-    |> Enum.map(&(&1.episodes * &1.duration))
-    |> Enum.sum()
-  end
-
-  @spec rule_anime_ids(rule_t) :: MapSet.t(pos_integer)
-  defp rule_anime_ids(rule) do
-    Neko.Anime.all()
+  @spec rule_animes(rule_t, animes_t) :: MapSet.t(anime_t)
+  defp rule_animes(rule, animes) do
+    animes
     |> Neko.Rule.Filters.filter_animes(rule)
-    |> Enum.map(& &1.id)
     |> MapSet.new()
   end
 

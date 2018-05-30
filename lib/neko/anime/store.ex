@@ -1,6 +1,8 @@
 defmodule Neko.Anime.Store do
   use Agent
 
+  alias Neko.Anime.Calculations
+
   @type anime_t :: Neko.Anime.t()
   @type animes_t :: MapSet.t(anime_t)
 
@@ -8,12 +10,12 @@ defmodule Neko.Anime.Store do
 
   @spec start_link(any) :: Agent.on_start()
   def start_link(_) do
-    Agent.start_link(fn -> animes() end, name: @name)
+    Agent.start_link(fn -> animes() |> calc() end, name: @name)
   end
 
   @spec reload() :: :ok
   def reload do
-    Agent.update(@name, fn _ -> animes() end)
+    Agent.update(@name, fn _ -> animes() |> calc() end)
   end
 
   @spec all() :: animes_t
@@ -28,7 +30,13 @@ defmodule Neko.Anime.Store do
 
   @spec set(animes_t) :: :ok
   def set(animes) do
-    Agent.update(@name, fn _ -> animes end)
+    Agent.update(@name, fn _ -> calc(animes) end)
+  end
+
+  @spec calc(animes_t) :: animes_t
+  defp calc(animes) do
+    animes
+    |> Calculations.calc_total_durations()
   end
 
   @spec animes() :: animes_t

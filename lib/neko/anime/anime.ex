@@ -8,6 +8,7 @@ defmodule Neko.Anime do
     episodes
     duration
     franchise
+    total_duration
   )a
 
   @type t :: %__MODULE__{}
@@ -18,7 +19,7 @@ defmodule Neko.Anime do
   def set(animes) do
     animes |> Store.set()
 
-    # recalculate anime_ids for all rules
+    # recalculate animes for all rules
     Application.get_env(:neko, :rules)[:module_list]
     |> Enum.each(& &1.reload())
   end
