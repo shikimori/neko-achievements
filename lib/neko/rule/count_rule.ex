@@ -6,7 +6,7 @@ defmodule Neko.Rule.CountRule do
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
   @typep anime_t :: Neko.Anime.t()
-  @typep animes_t :: MapSet.t(anime_t)
+  @typep animes_by_id_t :: %{optional(pos_integer) => anime_t}
 
   @impl true
   defdelegate reload, to: Store
@@ -31,15 +31,15 @@ defmodule Neko.Rule.CountRule do
   @spec threshold(rule_t) :: float
   def threshold(%{threshold: threshold} = rule) when is_binary(threshold) do
     percent = rule.threshold |> Float.parse() |> elem(0)
-    threshold = MapSet.size(rule.animes) * percent / 100
+    threshold = MapSet.size(rule.anime_ids) * percent / 100
     threshold |> Float.round(2)
   end
 
   @impl true
-  @spec value(rule_t, animes_t) :: pos_integer
-  def value(rule, user_animes) do
-    rule.animes
-    |> MapSet.intersection(user_animes)
-    |> MapSet.size()
+  @spec value(rule_t, animes_by_id_t) :: pos_integer
+  def value(rule, user_animes_by_id) do
+    user_animes_by_id
+    |> Map.take(rule.anime_ids)
+    |> map_size()
   end
 end

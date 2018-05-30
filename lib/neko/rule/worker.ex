@@ -50,9 +50,6 @@ defmodule Neko.Rule.Worker do
   end
 
   defp animes_by_id do
-    Neko.Anime.all()
-    |> Enum.reduce(%{}, fn anime, acc ->
-      Map.put(acc, anime.id, anime)
-    end)
+    Neko.Anime.all_by_id()
   end
 end

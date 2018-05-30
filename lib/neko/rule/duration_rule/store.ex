@@ -38,9 +38,11 @@ defmodule Neko.Rule.DurationRule.Store do
   @spec calc(rules_t) :: rules_t
   defp calc(rules) do
     animes = Neko.Anime.all()
+    animes_by_id = Neko.Anime.all_by_id()
+
     rules
-    |> Calculations.calc_animes(animes)
-    |> Calculations.calc_durations(animes)
+    |> Calculations.calc_anime_ids(animes)
+    |> Calculations.calc_durations(animes_by_id)
     |> Calculations.calc_thresholds(&DurationRule.threshold/1)
   end
 

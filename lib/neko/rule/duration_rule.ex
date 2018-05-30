@@ -6,7 +6,7 @@ defmodule Neko.Rule.DurationRule do
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
   @typep anime_t :: Neko.Anime.t()
-  @typep animes_t :: MapSet.t(anime_t)
+  @typep animes_by_id_t :: %{optional(pos_integer) => anime_t}
 
   @impl true
   defdelegate reload, to: Store
@@ -36,8 +36,12 @@ defmodule Neko.Rule.DurationRule do
   end
 
   @impl true
-  @spec value(rule_t, animes_t) :: pos_integer
-  def value(rule, user_animes) do
-    Neko.Anime.Calculations.common_duration(rule.animes, user_animes)
+  @spec value(rule_t, animes_by_id_t) :: pos_integer
+  def value(rule, user_animes_by_id) do
+    user_animes_by_id
+    |> Map.take(rule.anime_ids)
+    |> Map.values()
+    |> Enum.map(& &1.total_duration)
+    |> Enum.sum()
   end
 end

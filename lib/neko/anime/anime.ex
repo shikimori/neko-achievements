@@ -15,6 +15,7 @@ defmodule Neko.Anime do
 
   defdelegate reload, to: Store
   defdelegate all, to: Store
+  defdelegate all_by_id, to: Store
 
   def set(animes) do
     animes |> Store.set()

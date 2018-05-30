@@ -23,6 +23,13 @@ defmodule Neko.Anime.Store do
     Agent.get(@name, & &1)
   end
 
+  @spec all_by_id() :: animes_t
+  def all_by_id do
+    all() |> Enum.reduce(%{}, fn anime, acc ->
+      Map.put(acc, anime.id, anime)
+    end)
+  end
+
   @spec set([anime_t]) :: :ok
   def set(animes) when is_list(animes) do
     animes |> MapSet.new() |> set()
