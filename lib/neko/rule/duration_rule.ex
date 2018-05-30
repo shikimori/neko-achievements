@@ -36,12 +36,11 @@ defmodule Neko.Rule.DurationRule do
   end
 
   @impl true
-  @spec value(rule_t, animes_by_id_t) :: pos_integer
-  def value(rule, user_animes_by_id) do
+  @spec value(rule_t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
+  def value(rule, _user_anime_ids, user_animes_by_id) do
     user_animes_by_id
     |> Map.take(rule.anime_ids)
-    |> Map.values()
-    |> Enum.map(& &1.total_duration)
+    |> Enum.map(fn {_, v} -> v.total_duration end)
     |> Enum.sum()
   end
 end

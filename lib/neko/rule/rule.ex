@@ -19,7 +19,7 @@ defmodule Neko.Rule do
   @callback all() :: MapSet.t(t)
   @callback set([t]) :: any
   @callback threshold(t) :: pos_integer
-  @callback value(t, animes_by_id_t) :: pos_integer
+  @callback value(t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
 
   # reload rules in all poolboy workers when new rules are set
   def reload_all_rules do
@@ -36,6 +36,8 @@ defmodule Neko.Rule do
       user_id
       |> Neko.UserRate.all()
       |> Enum.map(& &1.target_id)
+      |> MapSet.new()
+
     user_animes_by_id =
       animes_by_id
       |> Map.take(user_anime_ids)
@@ -43,7 +45,16 @@ defmodule Neko.Rule do
     # final list of achievements for all rules is converted to MapSet in
     # Neko.Achievement.Calculator
     rules
-    |> Enum.map(&{&1, apply(rule_module, :value, [&1, user_animes_by_id])})
+    |> Enum.map(fn rule ->
+      value =
+        apply(
+          rule_module,
+          :value,
+          [rule, user_anime_ids, user_animes_by_id]
+        )
+
+      {rule, value}
+    end)
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))
   end

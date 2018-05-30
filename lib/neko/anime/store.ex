@@ -25,7 +25,8 @@ defmodule Neko.Anime.Store do
 
   @spec all_by_id() :: animes_t
   def all_by_id do
-    all() |> Enum.reduce(%{}, fn anime, acc ->
+    all()
+    |> Enum.reduce(%{}, fn anime, acc ->
       Map.put(acc, anime.id, anime)
     end)
   end

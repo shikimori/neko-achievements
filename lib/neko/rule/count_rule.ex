@@ -36,10 +36,10 @@ defmodule Neko.Rule.CountRule do
   end
 
   @impl true
-  @spec value(rule_t, animes_by_id_t) :: pos_integer
-  def value(rule, user_animes_by_id) do
-    user_animes_by_id
-    |> Map.take(rule.anime_ids)
-    |> map_size()
+  @spec value(rule_t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
+  def value(rule, user_anime_ids, _user_animes_by_id) do
+    user_anime_ids
+    |> MapSet.intersection(rule.anime_ids)
+    |> MapSet.size()
   end
 end

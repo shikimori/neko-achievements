@@ -38,6 +38,7 @@ defmodule Neko.Rule.CountRule.Store do
   @spec calc(rules_t) :: rules_t
   defp calc(rules) do
     animes = Neko.Anime.all()
+
     rules
     |> Calculations.calc_anime_ids(animes)
     |> Calculations.calc_thresholds(&CountRule.threshold/1)
