@@ -248,7 +248,7 @@
     - 10870
     - 10948
     - 31617
-  threshold: 98%
+  threshold: 95%
   metadata:
     title_ru: Призрак в доспехах
     image:
