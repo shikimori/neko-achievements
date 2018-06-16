@@ -2,7 +2,7 @@
   neko_id: supernatural
   level: 1
   algo: count
-  threshold: 40
+  threshold: 60
   filters:
     genre_ids:
       - 37
@@ -15,7 +15,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 90
+  threshold: 120
   metadata:
     title_ru: Обнаружили у себя странные силы?
     text_ru: Сила есть в каждом из нас. Но, когда она пробуждается, важно решить, как её использовать. Иногда мы совсем не готовы к этому.
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 140
+  threshold: 160
   metadata:
     title_ru: В поисках Ёкаев
     text_ru: Если услышите колокольный звон в горах и, пойдя на звук, увидите дичь, значит, это был рев бога гор.
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 200
+  threshold: 230
   metadata:
     title_ru: Унесённые призраками
     text_ru: Если забудешь своё имя, то не сможешь вернуться домой.
