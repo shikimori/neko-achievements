@@ -28,7 +28,7 @@
   metadata:
     title_ru: Идеальная грусть
     text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
-    image: /assets/achievements/anime/drama_3.jpg
+    image: /assets/achievements/anime/drama_3.png
     border_color: "#000000"
 
 - <<: *defaults
