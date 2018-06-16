@@ -10,7 +10,7 @@
     title_ru: Скупая слеза
     text_ru: Это всего лишь дождь.
     image: /assets/achievements/anime/drama_1.jpg
-    border_color: "#A2A2D0"
+    border_color: "#4682B4"
     topic_id: 222044
 
 - <<: *defaults
@@ -18,9 +18,9 @@
   threshold: 90
   metadata:
     title_ru: Эмпатия среднего уровня
-    text_ru: Ну давай, расскажи, как ты плакал над Хатико
+    text_ru: Ну давай, расскажи нам, как плакал над Хатико
     image: /assets/achievements/anime/drama_2.jpg
-    border_color: "#031427"
+    border_color: "#8B4513"
 
 - <<: *defaults
   level: 3
@@ -29,7 +29,7 @@
     title_ru: Идеальная грусть
     text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
     image: /assets/achievements/anime/drama_3.jpg
-    border_color: "#fefc9f"
+    border_color: "#000000"
 
 - <<: *defaults
   level: 4
