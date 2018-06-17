@@ -47,6 +47,9 @@ defmodule Neko.Rule do
     # Neko.Achievement.Calculator
     rules
     |> Enum.map(fn rule ->
+      # pass both user_anime_ids and user_animes_by_id (rules might
+      # calculate their values faster using one data structure than
+      # the other)
       args = [rule, user_anime_ids, user_animes_by_id]
       {rule, apply(rule_module, :value, args)}
     end)
