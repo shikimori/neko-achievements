@@ -6,7 +6,7 @@ jobs:
         environment:
           MIX_ENV: test
 
-    working_directory: ~/repo
+    working_directory: ~/app
 
     steps:
       - checkout
@@ -44,3 +44,43 @@ jobs:
           paths: _build
 
       - run: mix test
+
+  deploy:
+    working_directory: ~/app
+
+    docker:
+      - image: circleci/elixir:1.6.5
+
+    steps:
+      - checkout
+
+      # https://circleci.com/gh/shikimori/neko-achievements/edit#ssh
+      # this is a fingerprint of your private key added to CircleCI
+      - add_ssh_keys:
+          fingerprints:
+            - '21:cd:07:a3:b8:b9:1f:20:b0:eb:59:c7:e3:14:fc:5e'
+
+      - restore_cache:
+          keys:
+            - v1-mix-cache-{{ checksum "mix.lock" }}
+            - v1-mix-cache-{{ .Branch }}
+            - v1-mix-cache
+      - restore_cache:
+          keys:
+            - v1-build-cache-{{ .Branch }}
+            - v1-build-cache
+
+      - run: mix deploy
+
+# https://circleci.com/docs/2.0/deployment-integrations/#ssh
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
