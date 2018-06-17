@@ -58,7 +58,6 @@ jobs:
       - run: mix local.rebar --force
 
       # https://circleci.com/gh/shikimori/neko-achievements/edit#ssh
-      # this is a fingerprint of your private key added to CircleCI
       - add_ssh_keys:
           fingerprints:
             - '21:cd:07:a3:b8:b9:1f:20:b0:eb:59:c7:e3:14:fc:5e'
