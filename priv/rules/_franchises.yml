@@ -1038,7 +1038,7 @@
     franchise: yes_precure
     not_anime_ids:
     - 10736
-  threshold: 95%
+  threshold: 80%
   metadata:
     title_ru: Хорошенькое лекарство
     image:
