@@ -46,14 +46,12 @@ defmodule Neko.Rule do
     # final list of achievements for all rules is converted to MapSet in
     # Neko.Achievement.Calculator
     rules
-    |> Enum.map(&rule_value(rule_module, &1, user_animes_by_id))
+    |> Enum.map(fn rule ->
+      args = [rule, user_anime_ids, user_animes_by_id]
+      {rule, apply(rule_module, :value, args)}
+    end)
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))
-  end
-
-  defp rule_value(rule_module, rule, user_animes_by_id) do
-    value = apply(rule_module, :value, [rule, user_animes_by_id])
-    {rule, value}
   end
 
   defp rule_applies?({rule, value}) do
