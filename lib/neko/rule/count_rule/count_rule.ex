@@ -35,10 +35,6 @@ defmodule Neko.Rule.CountRule do
     threshold |> Float.round(2)
   end
 
-    user_animes_by_id
-    |> Map.take(rule.anime_ids)
-    |> map_size()
-
   @impl true
   @spec value(rule_t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
   def value(rule, user_anime_ids, _user_animes_by_id) do
