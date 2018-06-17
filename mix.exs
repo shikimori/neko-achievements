@@ -60,7 +60,8 @@ defmodule Neko.Mixfile do
       {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"},
       {:appsignal, "== 1.5.0"},
       {:poolboy, "~> 1.5.1"},
-      {:credo, "~> 0.9", only: [:dev, :test], runtime: false}
+      {:credo, "~> 0.9", only: [:dev, :test], runtime: false},
+      {:nat_set, "~> 0.0.1"}
     ]
   end
 

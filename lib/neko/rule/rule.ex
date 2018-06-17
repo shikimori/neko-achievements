@@ -20,7 +20,7 @@ defmodule Neko.Rule do
   @callback set([t]) :: any
   @callback threshold(t) :: pos_integer
   # this function is called for each rule so it must be very cheap
-  @callback value(t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
+  @callback value(t, NatSet.t(pos_integer), animes_by_id_t) :: pos_integer
 
   # reload rules in all poolboy workers when new rules are set
   def reload_all_rules do
@@ -37,7 +37,7 @@ defmodule Neko.Rule do
       user_id
       |> Neko.UserRate.all()
       |> Enum.map(& &1.target_id)
-      |> MapSet.new()
+      |> NatSet.new()
 
     user_animes_by_id =
       animes_by_id

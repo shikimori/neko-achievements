@@ -39,12 +39,12 @@ defmodule Neko.Rule.Calculations do
     |> MapSet.new()
   end
 
-  @spec rule_anime_ids(rule_t, animes_t) :: MapSet.t(pos_integer)
+  @spec rule_anime_ids(rule_t, animes_t) :: NatSet.t(pos_integer)
   defp rule_anime_ids(rule, animes) do
     animes
     |> Neko.Rule.Filters.filter_animes(rule)
     |> Enum.map(& &1.id)
-    |> MapSet.new()
+    |> NatSet.new()
   end
 
   # access to all rules is required to calculate

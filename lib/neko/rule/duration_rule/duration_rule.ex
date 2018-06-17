@@ -36,7 +36,7 @@ defmodule Neko.Rule.DurationRule do
   end
 
   @impl true
-  @spec value(rule_t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
+  @spec value(rule_t, NatSet.t(pos_integer), animes_by_id_t) :: pos_integer
   def value(rule, _user_anime_ids, user_animes_by_id) do
     user_animes_by_id
     |> Map.take(rule.anime_ids)
