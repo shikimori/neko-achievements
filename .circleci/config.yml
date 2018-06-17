@@ -1,25 +1,45 @@
-# Elixir CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-elixir/ for more details
 version: 2
 jobs:
   build:
     docker:
-      # specify the version here
       - image: circleci/elixir:1.6.5
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
+        environment:
+          MIX_ENV: test
 
     working_directory: ~/repo
+
     steps:
       - checkout
 
-      # specify any bash command here prefixed with `run: `
       - run: mix local.hex --force
       - run: mix local.rebar --force
+
+      - restore_cache:
+          keys:
+            - v1-mix-cache-{{ checksum "mix.lock" }}
+            - v1-mix-cache-{{ .Branch }}
+            - v1-mix-cache
+      - restore_cache:
+          keys:
+            - v1-build-cache-{{ .Branch }}
+            - v1-build-cache
+
       - run: mix deps.get
-      # - run: mix ecto.create
+
+      - save_cache:
+          key: v1-mix-cache-{{ checksum "mix.lock" }}
+          paths: deps
+      - save_cache:
+          key: v1-mix-cache-{{ .Branch }}
+          paths: deps
+      - save_cache:
+          key: v1-mix-cache
+          paths: deps
+      - save_cache:
+          key: v1-build-cache-{{ .Branch }}
+          paths: _build
+      - save_cache:
+          key: v1-build-cache
+          paths: _build
+
       - run: mix test
