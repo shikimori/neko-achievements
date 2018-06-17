@@ -15,12 +15,12 @@ jobs:
       - run: mix local.rebar --force
 
       # cache is not used since yamler is recompiled every time
-      - restore_cache:
+      - restore_cache: &restore_mix_cache
           keys:
             - v2-mix-cache-{{ checksum "mix.lock" }}
             - v2-mix-cache-{{ .Branch }}
             - v2-mix-cache
-      - restore_cache:
+      - restore_cache: &restore_build_cache
           keys:
             - v2-build-cache-{{ .Branch }}
             - v2-build-cache
@@ -63,14 +63,9 @@ jobs:
             - '21:cd:07:a3:b8:b9:1f:20:b0:eb:59:c7:e3:14:fc:5e'
 
       - restore_cache:
-          keys:
-            - v2-mix-cache-{{ checksum "mix.lock" }}
-            - v2-mix-cache-{{ .Branch }}
-            - v2-mix-cache
+          <<: *restore_mix_cache
       - restore_cache:
-          keys:
-            - v2-build-cache-{{ .Branch }}
-            - v2-build-cache
+          <<: *restore_build_cache
 
       - run: mix do deps.install, compile
       - run: mix deploy
