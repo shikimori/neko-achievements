@@ -25,7 +25,7 @@ jobs:
             - v1-build-cache-{{ .Branch }}
             - v1-build-cache
 
-      - run: mix do deps.get, compile
+      - run: mix do deps.install, compile
 
       - save_cache:
           key: v1-mix-cache-{{ checksum "mix.lock" }}
@@ -54,6 +54,9 @@ jobs:
     steps:
       - checkout
 
+      - run: mix local.hex --force
+      - run: mix local.rebar --force
+
       # https://circleci.com/gh/shikimori/neko-achievements/edit#ssh
       # this is a fingerprint of your private key added to CircleCI
       - add_ssh_keys:
@@ -70,6 +73,7 @@ jobs:
             - v1-build-cache-{{ .Branch }}
             - v1-build-cache
 
+      - run: mix do deps.install, compile
       - run: mix deploy
 
 # https://circleci.com/docs/2.0/deployment-integrations/#ssh
