@@ -19,7 +19,8 @@ defmodule Neko.Rule do
   @callback all() :: MapSet.t(t)
   @callback set([t]) :: any
   @callback threshold(t) :: pos_integer
-  @callback value(t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
+  # this function is called for each rule so it must be very cheap
+  @callback value(t, animes_by_id_t) :: pos_integer
 
   # reload rules in all poolboy workers when new rules are set
   def reload_all_rules do
@@ -46,13 +47,7 @@ defmodule Neko.Rule do
     # Neko.Achievement.Calculator
     rules
     |> Enum.map(fn rule ->
-      value =
-        apply(
-          rule_module,
-          :value,
-          [rule, user_anime_ids, user_animes_by_id]
-        )
-
+      value = apply(rule_module, :value, [rule, user_animes_by_id])
       {rule, value}
     end)
     |> Enum.filter(&rule_applies?/1)
