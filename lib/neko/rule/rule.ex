@@ -46,12 +46,14 @@ defmodule Neko.Rule do
     # final list of achievements for all rules is converted to MapSet in
     # Neko.Achievement.Calculator
     rules
-    |> Enum.map(fn rule ->
-      value = apply(rule_module, :value, [rule, user_animes_by_id])
-      {rule, value}
-    end)
+    |> Enum.map(&rule_value(rule_module, &1, user_animes_by_id))
     |> Enum.filter(&rule_applies?/1)
     |> Enum.map(&build_achievement(&1, user_id))
+  end
+
+  defp rule_value(rule_module, rule, user_animes_by_id) do
+    value = apply(rule_module, :value, [rule, user_animes_by_id])
+    {rule, value}
   end
 
   defp rule_applies?({rule, value}) do
@@ -63,27 +65,7 @@ defmodule Neko.Rule do
       user_id: user_id,
       neko_id: rule.neko_id,
       level: rule.level,
-      progress: progress(rule, value)
+      progress: Neko.Rule.Progress.progress(rule, value)
     }
-  end
-
-  defp progress(%{next_threshold: nil}, _value) do
-    100
-  end
-
-  defp progress(%{threshold: threshold}, value)
-       when value == threshold do
-    0
-  end
-
-  defp progress(%{next_threshold: next_threshold}, value)
-       when value >= next_threshold do
-    100
-  end
-
-  defp progress(rule, value) do
-    %{threshold: threshold, next_threshold: next_threshold} = rule
-    progress = (value - threshold) / (next_threshold - threshold) * 100
-    progress |> Float.floor()
   end
 end
