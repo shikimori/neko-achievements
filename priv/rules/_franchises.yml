@@ -1905,3 +1905,14 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
     topic_id: 247360
+- neko_id: tales_of_gekijou
+  level: 1
+  algo: duration
+  filters:
+    franchise: tales_of_gekijou
+  threshold: 95%
+  metadata:
+    title_ru: Сказания
+    image:
+    - https://dere.shikimori.org/system/user_images/original/34807/615494.jpg
+    topic_id: 247360
