@@ -1797,7 +1797,7 @@
   algo: duration
   filters:
     franchise: ginga_senpuu_braiger
-  threshold: 95%
+  threshold: 100%
   metadata:
     title_ru: Галактический Вихрь Брайгер
     image:
@@ -1819,7 +1819,7 @@
   algo: duration
   filters:
     franchise: juusenki_l_gaim
-  threshold: 95%
+  threshold: 100%
   metadata:
     title_ru: Тяжёлый металл
     image:
@@ -1830,7 +1830,7 @@
   algo: duration
   filters:
     franchise: sonic
-  threshold: 95%
+  threshold: 100%
   metadata:
     title_ru: Соник
     image:
