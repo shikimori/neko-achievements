@@ -336,7 +336,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 25%
+  threshold: 20%
   metadata:
     title_ru: Мудрость
     text_ru: Умный менее всего одинок тогда, когда он находится в одиночестве.
@@ -345,7 +345,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 40%
+  threshold: 30%
   metadata:
     title_ru: Хладнокровие
     text_ru: |-
