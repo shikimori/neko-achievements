@@ -18,7 +18,7 @@
   threshold: 90
   metadata:
     title_ru: Эмпатия среднего уровня
-    text_ru: Ну давай, расскажи нам, как плакал над Хатико
+    text_ru: Ну давай, расскажи нам, как плакал над Хатико.
     image: /assets/achievements/anime/drama_2.jpg
     border_color: "#8B4513"
 
@@ -38,4 +38,4 @@
     title_ru: Максимальная эмоциональная отзывчивость
     text_ru: Шрамы на сердце других становятся твоими.
     image: /assets/achievements/anime/drama_4.gif
-    border_color: "#606fde"
+    border_color: "#00008B"
