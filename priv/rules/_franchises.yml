@@ -663,7 +663,7 @@
   metadata:
     title_ru: Персона
     image:
-    - https://i.imgur.com/auU7oHC.png
+    - https://moe.shikimori.org/system/user_images/original/3824/618127.jpg
     topic_id: 247360
 - neko_id: fairy_tail
   level: 1
@@ -1085,11 +1085,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593337.jpg
     topic_id: 247360
-- neko_id: mobile_police_patlabor
+- neko_id: minipato
   level: 1
   algo: duration
   filters:
-    franchise: mobile_police_patlabor
+    franchise: minipato
   threshold: 100%
   metadata:
     title_ru: Полиция будущего
