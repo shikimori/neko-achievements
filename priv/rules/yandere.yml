@@ -2,7 +2,7 @@
   neko_id: yandere
   level: 1
   algo: count
-  threshold: 30%
+  threshold: 20%
   filters:
     anime_ids:
       - 10620
@@ -284,7 +284,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 40%
+  threshold: 30%
   metadata:
     title_ru: Ураган
     text_ru: Ураганы имеют одну интересную особенность — в их центре всегда спокойно.
@@ -294,7 +294,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 60%
+  threshold: 40%
   metadata:
     title_ru: Безумие
     text_ru: Умри, пожалуйста!
