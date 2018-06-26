@@ -7,10 +7,10 @@
     genre_ids:
       - 4
   metadata:
-    title_ru: But then i lol'd
+    title_ru: But then I lol'd
     text_ru: Неужели вам понравился японский юмор?
     image: /assets/achievements/anime/comedy_1.jpg
-    border_color: "#5dbdd9"
+    border_color: "#CD5C5C"
     topic_id: 222035
 
 - <<: *defaults
@@ -26,16 +26,16 @@
   level: 3
   threshold: 250
   metadata:
-    title_ru: Why so serious?
-    text_ru: Сатира, пародия, каламбур, сарказм, ирония, гротеск — ни одна шутка не проскользнет мимо вас. 
+    title_ru: До колик в животе!
+    text_ru: Пародия, каламбур, ирония, сарказм, гротеск — отныне ни одна шутка не проскользнет мимо вас.
     image: /assets/achievements/anime/comedy_3.jpg
-    border_color: "#008080"
+    border_color: "#2E8B57"
 
 - <<: *defaults
   level: 4
   threshold: 400
   metadata:
-    title_ru: Вечный смех
-    text_ru: Вы - мастер юмора, улавливающий самые тонкие его нотки и плавающий в самых темных его глубинах... но стоит ли продолжать смотреть в бездну?
+    title_ru: Праздник без конца
+    text_ru: Жизнь серьезна всегда, но жить всегда серьезно — нельзя!
     image: /assets/achievements/anime/comedy_4.gif
-    border_color: "#7f8f18"
+    border_color: "#FFA500"
