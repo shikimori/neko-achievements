@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 180
+  threshold: 150
   metadata:
     title_ru: 
     text_ru: Можете взять яйцо не раздавив, можете исполнить танцевальное па... но боевой доспех стал вашей второй кожей не для этого.
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 235
+  threshold: 230
   metadata:
     title_ru: Ньютайп
     text_ru: Ore wa Gundam
