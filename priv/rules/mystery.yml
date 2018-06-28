@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 120
+  threshold: 150
   metadata:
     title_ru: Великий детектив
     text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
