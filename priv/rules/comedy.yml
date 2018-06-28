@@ -10,7 +10,7 @@
     title_ru: But then I lol'd
     text_ru: Неужели вам понравился японский юмор?
     image: /assets/achievements/anime/comedy_1.jpg
-    border_color: "#CD5C5C"
+    border_color: "#F08080"
     topic_id: 222035
 
 - <<: *defaults
