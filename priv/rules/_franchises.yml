@@ -15,6 +15,9 @@
   algo: duration
   filters:
     franchise: gintama
+     not_anime_ids:
+    - 37864
+    - 19261
   threshold: 95%
   metadata:
     title_ru: Гинтама
@@ -232,9 +235,7 @@
   filters:
     franchise: ghost_in_the_shell
     not_anime_ids:
-    - 2448
     - 10870
-    - 10948
     - 31617
   threshold: 95%
   metadata:
