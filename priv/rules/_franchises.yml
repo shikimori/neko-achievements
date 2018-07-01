@@ -1923,3 +1923,27 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
     topic_id: 247360
+- neko_id: shingeki_no_kyojin
+  level: 1
+  algo: duration
+  filters:
+    franchise: shingeki_no_kyojin
+    not_anime_ids:
+    - 35267
+  threshold: 97%
+  metadata:
+    title_ru: Вторжение гигантов
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/34807/621305.jpg
+    topic_id: 247360
+- neko_id: zoids
+  level: 1
+  algo: duration
+  filters:
+    franchise: zoids
+  threshold: 90%
+  metadata:
+    title_ru: Зойды
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/621268.jpg
+    topic_id: 247360
