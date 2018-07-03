@@ -3,7 +3,7 @@
   neko_id: mahou_shoujo
   level: 1
   algo: count
-  threshold: 4%
+  threshold: 6%
   filters:
     anime_ids:
       - 100
@@ -417,7 +417,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 7%
+  threshold: 9%
   metadata:
     title_ru: Магия - второе имя
     text_ru: Не важно, какой ваш пол и сколько вам лет, если ваше призвание - нести любовь и справедливость.
@@ -426,7 +426,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 14%
+  threshold: 15%
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала! Можно возвращаться к семье и школьным друзьям.
@@ -435,7 +435,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 29%
+  threshold: 30%
   metadata:
     title_ru: Настоящее волшебство?
     text_ru: Вашим силам теперь подвластно само мироздание.
