@@ -15,7 +15,7 @@
   algo: duration
   filters:
     franchise: gintama
-     not_anime_ids:
+    not_anime_ids:
     - 37864
     - 19261
   threshold: 95%
@@ -299,6 +299,19 @@
     title_ru: Повар-боец Сома
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587910.jpg
+    topic_id: 247360
+- neko_id: shingeki_no_kyojin
+  level: 1
+  algo: duration
+  filters:
+    franchise: shingeki_no_kyojin
+    not_anime_ids:
+    - 35267
+  threshold: 97%
+  metadata:
+    title_ru: Вторжение гигантов
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/34807/621305.jpg
     topic_id: 247360
 - neko_id: yuu_yuu_hakusho
   level: 1
@@ -1536,6 +1549,17 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/590066.jpg
     topic_id: 247360
+- neko_id: zoids
+  level: 1
+  algo: duration
+  filters:
+    franchise: zoids
+  threshold: 90%
+  metadata:
+    title_ru: Зойды
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/621268.jpg
+    topic_id: 247360
 - neko_id: baki
   level: 1
   algo: duration
@@ -1922,28 +1946,4 @@
     title_ru: Профессиональный гольфист Сару
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
-    topic_id: 247360
-- neko_id: shingeki_no_kyojin
-  level: 1
-  algo: duration
-  filters:
-    franchise: shingeki_no_kyojin
-    not_anime_ids:
-    - 35267
-  threshold: 97%
-  metadata:
-    title_ru: Вторжение гигантов
-    image:
-    - https://nyaa.shikimori.org/system/user_images/original/34807/621305.jpg
-    topic_id: 247360
-- neko_id: zoids
-  level: 1
-  algo: duration
-  filters:
-    franchise: zoids
-  threshold: 90%
-  metadata:
-    title_ru: Зойды
-    image:
-    - https://desu.shikimori.org/system/user_images/original/34807/621268.jpg
     topic_id: 247360
