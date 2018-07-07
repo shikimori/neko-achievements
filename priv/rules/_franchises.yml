@@ -1084,11 +1084,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593337.jpg
     topic_id: 247360
-- neko_id: minipato
+- neko_id: mobile_police_patlabor
   level: 1
   algo: duration
   filters:
-    franchise: minipato
+    franchise: mobile_police_patlabor
   threshold: 100%
   metadata:
     title_ru: Полиция будущего
