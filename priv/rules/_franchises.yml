@@ -1097,11 +1097,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/593337.jpg
     topic_id: 247360
-- neko_id: mobile_police_patlabor
+- neko_id: minipato
   level: 1
   algo: duration
   filters:
-    franchise: mobile_police_patlabor
+    franchise: minipato
   threshold: 100%
   metadata:
     title_ru: Полиция будущего
@@ -1947,3 +1947,48 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
     topic_id: 247360
+- neko_id: high_school_dxd
+  level: 1
+  algo: duration
+  filters:
+    franchise: high_school_dxd
+  threshold: 97%
+  metadata:
+    title_ru: Старшая школа DxD
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/624132.jpg
+    topic_id: 247360
+- neko_id: koneko_no_chii
+  level: 1
+  algo: duration
+  filters:
+    franchise: koneko_no_chii
+  threshold: 97%
+  metadata:
+    title_ru: Милый дом Чи
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/34807/625320.jpg
+    topic_id: 247360
+- neko_id: clannad
+  level: 1
+  algo: duration
+  filters:
+    franchise: clannad
+  threshold: 100%
+  metadata:
+    title_ru: Кланнад
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/34807/624151.jpg
+    topic_id: 247360
+- neko_id: believe
+  level: 1
+  algo: duration
+  filters:
+    franchise: believe
+  threshold: 100%
+  metadata:
+    title_ru: Приключения во времени
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/34807/624160.jpg
+    topic_id: 247360
+    
