@@ -17,10 +17,10 @@
   level: 2
   threshold: 95
   metadata:
-    title_ru: Чай с тортиком
+    title_ru: Житейские мелочи
     text_ru: Полностью погрязли в повседневных делах и симпатичных вещах.
-    image: /assets/achievements/anime/slice_of_life_2.png
-    border_color: "#cb4842"
+    image: /assets/achievements/anime/slice_of_life_2.jpg
+    border_color: "#DAD871"
 
 - <<: *defaults
   level: 3
