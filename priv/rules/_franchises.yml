@@ -858,7 +858,7 @@
   algo: duration
   filters:
     franchise: muumin
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Муми-тролль
     image:
