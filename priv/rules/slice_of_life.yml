@@ -20,7 +20,7 @@
     title_ru: Житейские мелочи
     text_ru: Полностью погрязли в повседневных делах и симпатичных вещах.
     image: /assets/achievements/anime/slice_of_life_2.jpg 
-    border_color: "#DAD871"
+    border_color: "#884467"
 
 - <<: *defaults
   level: 3
