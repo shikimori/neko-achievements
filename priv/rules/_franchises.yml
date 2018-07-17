@@ -355,12 +355,8 @@
   filters:
     franchise: gundam
     not_anime_ids:
-    - 2269
     - 8839
-    - 14007
-    - 20667
     - 23943
-    - 24371
   threshold: 95%
   metadata:
     title_ru: Мобильный воин Гандам
@@ -440,7 +436,7 @@
     franchise: umineko_no_naku_koro_ni
   threshold: 97%
   metadata:
-    title_ru: Когда плачут цикады
+    title_ru: Когда плачут
     image:
     - http://i.imgur.com/v7pjFJ7.png
     topic_id: 247360
@@ -639,8 +635,6 @@
   algo: duration
   filters:
     franchise: hikaru_no_go
-    not_anime_ids:
-    - 2336
   threshold: 100%
   metadata:
     title_ru: Хикару и Го
@@ -858,7 +852,7 @@
   algo: duration
   filters:
     franchise: muumin
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Муми-тролль
     image:
