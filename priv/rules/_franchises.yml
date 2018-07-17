@@ -639,8 +639,6 @@
   algo: duration
   filters:
     franchise: hikaru_no_go
-    not_anime_ids:
-    - 2336
   threshold: 100%
   metadata:
     title_ru: Хикару и Го
