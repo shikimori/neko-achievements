@@ -355,12 +355,8 @@
   filters:
     franchise: gundam
     not_anime_ids:
-    - 2269
     - 8839
-    - 14007
-    - 20667
     - 23943
-    - 24371
   threshold: 95%
   metadata:
     title_ru: Мобильный воин Гандам
