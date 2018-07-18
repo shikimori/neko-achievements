@@ -72,7 +72,11 @@ data = YAML.
       rule['filters']['not_anime_ids'] = ((rule['filters']['not_anime_ids'] || []) + recap_ids).uniq.sort
     end
   end.
-  sort_by { |v| Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min };
+  sort_by do |v|
+    rating = Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min
+    raise "#{v['filters']['franchise']} rating is nil" if rating.nil?
+    rating
+  end
 
 if data.any?
   File.open(franchise_yml, 'w') { |f| f.write data.to_yaml };
