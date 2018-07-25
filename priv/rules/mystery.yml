@@ -1,11 +1,4 @@
-- &defaults
-  neko_id: mystery
-  level: 1
-  algo: count
-  threshold: 40
-  filters:
-    genre_ids:
-      - 7
+
   metadata:
     title_ru: Первое дело
     text_ru: Было не просто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
@@ -22,20 +15,3 @@
     image: /assets/achievements/anime/mystery_2.jpg
     border_color: "#3a59a8"
 
-- <<: *defaults
-  level: 3
-  threshold: 90
-  metadata:
-    title_ru: За семью печатями
-    text_ru: Мэтры детективного дела обращаются к вам за советами.
-    image: /assets/achievements/anime/mystery_3.jpg
-    border_color: "#3D2B1F"
-
-- <<: *defaults
-  level: 4
-  threshold: 150
-  metadata:
-    title_ru: Великий детектив
-    text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
-    image: /assets/achievements/anime/mystery_4.gif
-    border_color: "#919192"
