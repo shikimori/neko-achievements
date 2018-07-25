@@ -1397,11 +1397,11 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593336.jpg
     topic_id: 247360
-- neko_id: locker_room
+- neko_id: inazuma_eleven
   level: 1
   algo: duration
   filters:
-    franchise: locker_room
+    franchise: inazuma_eleven
   threshold: 60%
   metadata:
     title_ru: Инадзума 11
