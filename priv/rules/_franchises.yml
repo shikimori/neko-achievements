@@ -1476,11 +1476,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/594742.jpg
     topic_id: 247360
-- neko_id: casshern
+- neko_id: gatchaman
   level: 1
   algo: duration
   filters:
-    franchise: casshern
+    franchise: gatchaman
   threshold: 95%
   metadata:
     title_ru: Гатчамен
