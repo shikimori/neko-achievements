@@ -8,9 +8,9 @@
       - 18
   metadata:
     title_ru: Пилот Evangelion Unit
-    text_ru: ОЯШ, полезай в робота
+    text_ru: ОЯШ, полезай в робота!
     image: /assets/achievements/anime/mecha_1.jpg
-    border_color: "#5E2129"
+    border_color: "#708090"
     topic_id: 222036
 
 - <<: *defaults
@@ -20,16 +20,16 @@
     title_ru: Hasshin!
     text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
     image: /assets/achievements/anime/mecha_2.jpg
-    border_color: "#00693E"
+    border_color: "#4682B4"
 
 - <<: *defaults
   level: 3
   threshold: 150
   metadata:
-    title_ru: 
+    title_ru: Man of Steel
     text_ru: Можете взять яйцо не раздавив, можете исполнить танцевальное па... но боевой доспех стал вашей второй кожей не для этого.
     image: /assets/achievements/anime/mecha_3.jpg
-    border_color: "#C5D0E6"
+    border_color: "#B22222"
 
 - <<: *defaults
   level: 4
@@ -38,4 +38,4 @@
     title_ru: Ньютайп
     text_ru: Ore wa Gundam
     image: /assets/achievements/anime/mecha_4.gif
-    border_color: "#4682B4"
+    border_color: "#20B2AA"
