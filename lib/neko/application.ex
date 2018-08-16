@@ -57,7 +57,7 @@ defmodule Neko.Application do
        plug: Neko.Router,
        options: [
          ip: Application.get_env(:neko, :cowboy)[:listen_address],
-         port: 4000
+         port: Application.get_env(:neko, :cowboy)[:listen_port]
        ]
      ]}
   end

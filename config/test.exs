@@ -1,6 +1,7 @@
 use Mix.Config
 
 config :neko, :cowboy, listen_address: {127, 0, 0, 1}
+config :neko, :cowboy, listen_port: 4004
 
 # shikimori url key is not used in mock client
 config :neko, :shikimori, client: Neko.Shikimori.ClientMock
