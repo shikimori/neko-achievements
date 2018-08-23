@@ -1,0 +1,41 @@
+- &defaults
+  neko_id: world_masterpiece_theater
+  algo: count
+  threshold: 70%
+  level: 1
+  filters:
+    anime_ids:
+      - 2553
+      - 1663
+      - 2576
+      - 2549
+      - 283
+      - 2577
+      - 2544
+      - 2573
+      - 2546
+      - 3162
+      - 2547
+      - 2554
+      - 2548
+      - 2555
+      - 1638
+      - 1375
+      - 2557
+      - 2913
+      - 2558
+      - 3199
+      - 2559
+      - 3425
+      - 2829
+      - 1695
+      - 3424
+      - 5494
+  metadata:
+    title_ru: Театр Мировых Шедевров
+    text_ru: |-
+      Классика западной литературы глазами Востока.
+      Встретиться с любимой книгой дважды – в бумаге и на экране.
+    image: /assets/achievements/anime/world_masterpiece_theater_1.jpg
+    border_color: "#00776B" 
+topic_id: 248176
