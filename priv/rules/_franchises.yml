@@ -418,17 +418,6 @@
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/587918.jpg
     topic_id: 247360
-- neko_id: nanatsu_no_taizai
-  level: 1
-  algo: duration
-  filters:
-    franchise: nanatsu_no_taizai
-  threshold: 100%
-  metadata:
-    title_ru: Семь смертных грехов
-    image:
-    - https://moe.shikimori.org/system/user_images/original/84020/592707.jpg
-    topic_id: 247360
 - neko_id: umineko_no_naku_koro_ni
   level: 1
   algo: duration
@@ -439,6 +428,17 @@
     title_ru: Когда плачут
     image:
     - http://i.imgur.com/v7pjFJ7.png
+    topic_id: 247360
+- neko_id: nanatsu_no_taizai
+  level: 1
+  algo: duration
+  filters:
+    franchise: nanatsu_no_taizai
+  threshold: 100%
+  metadata:
+    title_ru: Семь смертных грехов
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/592707.jpg
     topic_id: 247360
 - neko_id: one_piece
   level: 1
@@ -1476,17 +1476,6 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/594742.jpg
     topic_id: 247360
-- neko_id: gatchaman
-  level: 1
-  algo: duration
-  filters:
-    franchise: gatchaman
-  threshold: 95%
-  metadata:
-    title_ru: Гатчамен
-    image:
-    - https://moe.shikimori.org/system/user_images/original/84020/592712.jpg
-    topic_id: 247360
 - neko_id: candy_candy
   level: 1
   algo: duration
@@ -1558,6 +1547,17 @@
     title_ru: WIXOSS
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/590470.jpg
+    topic_id: 247360
+- neko_id: gatchaman
+  level: 1
+  algo: duration
+  filters:
+    franchise: gatchaman
+  threshold: 95%
+  metadata:
+    title_ru: Гатчамен
+    image:
+    - https://moe.shikimori.org/system/user_images/original/84020/592712.jpg
     topic_id: 247360
 - neko_id: captain_tsubasa
   level: 1
@@ -1679,17 +1679,6 @@
     title_ru: Данбайн
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/590450.jpg
-    topic_id: 247360
-- neko_id: gall_force
-  level: 1
-  algo: duration
-  filters:
-    franchise: gall_force
-  threshold: 95%
-  metadata:
-    title_ru: Девичья сила
-    image:
-    - https://desu.shikimori.org/system/user_images/original/34807/648613.jpg
     topic_id: 247360
 - neko_id: d_c
   level: 1
@@ -1945,6 +1934,17 @@
     title_ru: Суперкукла Ликка-тян
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/588646.jpg
+    topic_id: 247360
+- neko_id: gall_force
+  level: 1
+  algo: duration
+  filters:
+    franchise: gall_force
+  threshold: 95%
+  metadata:
+    title_ru: Девичья сила
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/648613.jpg
     topic_id: 247360
 - neko_id: ultraman
   level: 1
