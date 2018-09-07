@@ -1,7 +1,7 @@
 - &defaults
   neko_id: world_masterpiece_theater
   algo: count
-  threshold: 70%
+  threshold: 13
   level: 1
   filters:
     anime_ids:
