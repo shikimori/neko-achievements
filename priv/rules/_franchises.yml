@@ -173,6 +173,7 @@
   filters:
     franchise: fate_zero
     not_anime_ids:
+    - 169
     - 13183
     - 19165
   threshold: 95%
