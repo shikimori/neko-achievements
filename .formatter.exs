@@ -1,25 +1,8 @@
+# https://hexdocs.pm/elixir/master/Code.html#format_string!/2-options
 [
-  # uncomment these packages when they adopt .formatter.exs
-  #import_deps: [:ecto, :phoenix, :plug],
+  # these packages have adopted .formatter.exs
+  # => there is no need in locals_without_parens option now
+  import_deps: [:ecto, :phoenix, :plug],
   inputs: ["{config,lib,test}/**/*.{ex,exs}", "mix.exs"],
-  line_length: 83,
-  locals_without_parens: [
-    action_fallback: 1,
-    belongs_to: 2,
-    defenum: 2,
-    embeds_one: 2,
-    embeds_one: 3,
-    field: 2,
-    field: 3,
-    get: 3,
-    has_many: 2,
-    pipe_through: 1,
-    plug: 1,
-    plug: 2,
-    post: 3,
-    raise: 1,
-    resources: 3,
-    socket: 2,
-    transport: 2
-  ]
+  line_length: 83
 ]
