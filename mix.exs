@@ -47,7 +47,7 @@ defmodule Neko.Mixfile do
       # appsignal requires httpoison ~> 0.11
       {:httpoison, "~> 1.0", override: true},
       {:edeliver, "~> 1.4"},
-      {:distillery, "~> 1.4", runtime: false},
+      {:distillery, "~> 2.0"},
       {:mox, "~> 0.3.1", only: :test},
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
