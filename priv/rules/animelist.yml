@@ -25,7 +25,7 @@
   metadata:
     title_ru: Мои силы растут!
     text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
-    image: /assets/achievements/anime/animelist_3.jpg
+    image: /assets/achievements/anime/animelist_3.jpg 
     border_color: "#6a5acd"
 
 - <<: *defaults
