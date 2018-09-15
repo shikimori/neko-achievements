@@ -1004,7 +1004,7 @@
   algo: duration
   filters:
     franchise: bleach
-  threshold: 95%
+  threshold: 99%
   metadata:
     title_ru: Блич
     image:
