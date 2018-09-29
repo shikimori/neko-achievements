@@ -152,7 +152,7 @@
 - <<: *defaults
   level: 17
   threshold: 3500
-  metadata: 
+  metadata:
     title_ru: Голубая кровь
     text_ru: Вы находитесь так высоко! Кто-то восхищается вами, кто-то завидует, и это — заслуженно. Но не стоит задирать нос, помните, что и вы начинали с малого.
     image: /assets/achievements/anime/animelist_17.jpg
@@ -167,7 +167,7 @@
       Мастер познается в самоограничении.
       И в долгой созерцательной практике.
     image: /assets/achievements/anime/animelist_18.jpg
-    border_color: "#FFBA00" 
+    border_color: "#FFBA00"
 
 - <<: *defaults
   level: 19
