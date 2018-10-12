@@ -4,5 +4,9 @@
   # => there is no need in locals_without_parens option now
   import_deps: [:ecto, :phoenix, :plug],
   inputs: ["{config,lib,test}/**/*.{ex,exs}", "mix.exs"],
-  line_length: 83
+  line_length: 83,
+  locals_without_parens: [
+    # it's added in Phoenix master but not in current release
+    action_fallback: 1
+  ]
 ]
