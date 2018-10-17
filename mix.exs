@@ -57,7 +57,10 @@ defmodule Neko.Mixfile do
       # (without Makefile compiled libyaml.so library is not placed into
       # _build/<env>/lib/yamler/priv/ and consequently not found both in
       # production and on CircleCI)
-      {:yamler, git: "https://github.com/tap349/yamler", branch: "mapping_as_map"},
+      {
+        :yamler,
+        git: "https://github.com/tap349/yamler", branch: "mapping_as_map"
+      },
       {:appsignal, "== 1.5.0"},
       {:poolboy, "~> 1.5.1"},
       {:credo, "~> 0.9", only: [:dev, :test], runtime: false}

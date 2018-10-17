@@ -4,12 +4,12 @@ defmodule Neko.Rule.Progress do
   end
 
   def progress(%{threshold: threshold}, value)
-       when value == threshold do
+      when value == threshold do
     0
   end
 
   def progress(%{next_threshold: next_threshold}, value)
-       when value >= next_threshold do
+      when value >= next_threshold do
     100
   end
 

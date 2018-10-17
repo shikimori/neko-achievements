@@ -10,9 +10,10 @@ defmodule Neko.UserHandler do
   use GenServer, restart: :temporary
   require Logger
 
-  @registry_name Application.get_env(:neko, :user_handler_registry)[:name]
-  @call_timeout Application.get_env(:neko, :user_handler_registry)[:call_timeout]
-  @recv_timeout Application.get_env(:neko, :user_handler_registry)[:recv_timeout]
+  @registry_config Application.get_env(:neko, :user_handler_registry)
+  @registry_name @registry_config[:name]
+  @call_timeout @registry_config[:call_timeout]
+  @recv_timeout @registry_config[:recv_timeout]
 
   # ------------------------------------------------------------------
   # Client API

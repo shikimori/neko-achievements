@@ -5,6 +5,7 @@ defmodule Neko.Achievement.Store.Registry do
   """
 
   use GenServer
+  alias Neko.Achievement.Store.DynamicSupervisor
 
   @name __MODULE__
 
@@ -85,7 +86,8 @@ defmodule Neko.Achievement.Store.Registry do
 
       :error ->
         # create store and start monitoring it
-        {:ok, store_pid} = Neko.Achievement.Store.DynamicSupervisor.start_store()
+        {:ok, store_pid} = DynamicSupervisor.start_store()
+
         # store_pid is agent pid in fact
         ref = Process.monitor(store_pid)
 

@@ -43,8 +43,8 @@ defmodule Neko.Rule.CountRule do
     |> MapSet.size()
 
     # this is ~10x slower
-    #user_animes_by_id
-    #|> Map.take(rule.anime_ids)
-    #|> map_size()
+    # user_animes_by_id
+    # |> Map.take(rule.anime_ids)
+    # |> map_size()
   end
 end
