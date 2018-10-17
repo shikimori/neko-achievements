@@ -2,11 +2,16 @@
 [
   # these packages have adopted .formatter.exs
   # => there is no need in locals_without_parens option now
-  import_deps: [:ecto, :phoenix, :plug],
+  import_deps: [:plug],
   inputs: ["{config,lib,test}/**/*.{ex,exs}", "mix.exs"],
-  line_length: 83,
+  line_length: 80,
   locals_without_parens: [
-    # it's added in Phoenix master but not in current release
-    action_fallback: 1
+    defenum: 2,
+    # added in Phoenix master but not in current release:
+    action_fallback: 1,
+    pipe_through: 1,
+    resources: 3,
+    socket: 2,
+    transport: 2
   ]
 ]
