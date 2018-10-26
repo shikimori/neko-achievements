@@ -58,6 +58,25 @@ puts data.map { |v| v['filters']['franchise'] }.join(' ')
 ```
 
 
+#### Sort franchsies
+
+```ruby
+franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
+data = YAML.
+  load_file(franchise_yml).
+  sort_by do |v|
+    rating = Anime.where(franchise: v['filters']['franchise'], status: 'released').where.not(ranked: 0).map(&:ranked).min
+    raise "#{v['filters']['franchise']} rating is nil" if rating.nil?
+    rating
+  end
+
+if data.any?
+  File.open(franchise_yml, 'w') { |f| f.write data.to_yaml };
+  puts data.map { |v| v['filters']['franchise'] }.join(' ');
+end
+```
+
+
 #### Cleanup recaps
 
 ```ruby
