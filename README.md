@@ -57,6 +57,9 @@ File.open("#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml",
 puts data.map { |v| v['filters']['franchise'] }.join(' ')
 ```
 
+
+#### Cleanup recaps
+
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
 data = YAML.
@@ -77,6 +80,43 @@ data = YAML.
     raise "#{v['filters']['franchise']} rating is nil" if rating.nil?
     rating
   end
+
+if data.any?
+  File.open(franchise_yml, 'w') { |f| f.write data.to_yaml };
+  puts data.map { |v| v['filters']['franchise'] }.join(' ');
+end
+```
+
+
+#### Remove specials percent
+
+```ruby
+franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
+data = YAML.
+  load_file(franchise_yml).
+  each do |rule|
+    franchise = Anime.where(franchise: rule['filters']['franchise'])
+    specials = franchise.select(&:kind_special?)
+
+    total_duration = franchise.sum { |v| v.duration * v.episodes }
+    specials_duration = specials.sum { |v| v.duration * v.episodes }
+
+    percent = (total_duration - (specials.size > 3 ? specials_duration / 2.0 : specials_duration)) * 100.0 / total_duration
+    percent = 99 if percent > 99 && percent != 100
+    threshold = rule['threshold'].gsub('%', '').to_f
+
+    if (percent >= 93.5 && threshold > percent.floor(1)) || rule['filters']['franchise'] == 'shakugan_no_shana'
+      ap(
+        franchsie: rule['filters']['franchise'],
+        animes: franchise.size,
+        specials: specials.size,
+        threshold: threshold,
+        new_threshold: percent.floor(1),
+        possible_threshold: (total_duration - specials_duration) * 100.0 / total_duration
+      )
+      rule['threshold'] = "#{percent.floor(1)}%"
+    end
+  end;
 
 if data.any?
   File.open(franchise_yml, 'w') { |f| f.write data.to_yaml };
