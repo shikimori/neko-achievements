@@ -115,6 +115,9 @@ data = YAML.
   load_file(franchise_yml).
   each do |rule|
     franchise = Anime.where(franchise: rule['filters']['franchise'])
+    if rule['filters']['not_anime_ids'].present?
+      franchise = franchise.where.not(id: rule['filters']['not_anime_ids'])
+    end
     specials = franchise.select(&:kind_special?)
 
     total_duration = franchise.sum { |v| v.duration * v.episodes }
@@ -124,14 +127,14 @@ data = YAML.
     percent = 99 if percent > 99 && percent != 100
     threshold = rule['threshold'].gsub('%', '').to_f
 
-    if (percent >= 93.5 && threshold > percent.floor(1)) || rule['filters']['franchise'] == 'shakugan_no_shana'
+    if (percent >= 93.5 && threshold > percent.floor(1))# || rule['filters']['franchise'] == 'shingeki_no_kyojin'
       ap(
         franchsie: rule['filters']['franchise'],
         animes: franchise.size,
         specials: specials.size,
         threshold: threshold,
         new_threshold: percent.floor(1),
-        possible_threshold: (total_duration - specials_duration) * 100.0 / total_duration
+        possible_threshold: ((total_duration - specials_duration) * 100.0 / total_duration).floor(1)
       )
       rule['threshold'] = "#{percent.floor(1)}%"
     end

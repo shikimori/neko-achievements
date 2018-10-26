@@ -252,8 +252,11 @@
     franchise: shingeki_no_kyojin
     not_anime_ids:
     - 19285
+    - 19391
+    - 31374
+    - 35122
     - 35267
-  threshold: 97%
+  threshold: 99%
   metadata:
     title_ru: Вторжение гигантов
     image:
@@ -831,7 +834,7 @@
     franchise: nurarihyon_no_mago
     not_anime_ids:
     - 9731
-  threshold: 100%
+  threshold: 95.6%
   metadata:
     title_ru: Внук Нурарихёна
     image:
@@ -844,7 +847,7 @@
     franchise: snow_halation
     not_anime_ids:
     - 21853
-  threshold: 96.6%
+  threshold: 97%
   metadata:
     title_ru: Живая любовь!
     image:
