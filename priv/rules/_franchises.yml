@@ -4,9 +4,7 @@
   algo: duration
   filters:
     franchise: fullmetal_alchemist
-    not_anime_ids:
-    - 10842
-  threshold: 95.3%
+  threshold: 97%
   metadata:
     title_ru: Стальной алхимик
     image:
@@ -53,7 +51,7 @@
   algo: duration
   filters:
     franchise: clannad
-  threshold: 96.1%
+  threshold: 100%
   metadata:
     title_ru: Кланнад
     image:
@@ -108,7 +106,7 @@
   algo: duration
   filters:
     franchise: hajime_no_ippo
-  threshold: 96.2%
+  threshold: 97%
   metadata:
     title_ru: Первый шаг
     image:
@@ -130,7 +128,7 @@
   algo: duration
   filters:
     franchise: boku_no_hero_academia
-  threshold: 98.5%
+  threshold: 100%
   metadata:
     title_ru: Моя геройская академия
     image:
@@ -163,7 +161,7 @@
   algo: duration
   filters:
     franchise: bakuman
-  threshold: 96.7%
+  threshold: 100%
   metadata:
     title_ru: Бакуман
     image:
@@ -239,7 +237,7 @@
   algo: duration
   filters:
     franchise: aria_the_ova
-  threshold: 94.5%
+  threshold: 100%
   metadata:
     title_ru: Ария
     image:
@@ -252,11 +250,8 @@
     franchise: shingeki_no_kyojin
     not_anime_ids:
     - 19285
-    - 19391
-    - 31374
-    - 35122
     - 35267
-  threshold: 99%
+  threshold: 97%
   metadata:
     title_ru: Вторжение гигантов
     image:
@@ -305,7 +300,7 @@
   algo: duration
   filters:
     franchise: kuroko_no_basket
-  threshold: 96.0%
+  threshold: 97%
   metadata:
     title_ru: Баскетбол Куроко
     image:
@@ -362,7 +357,7 @@
   algo: duration
   filters:
     franchise: berserk
-  threshold: 96.8%
+  threshold: 97%
   metadata:
     title_ru: Берсерк
     image:
@@ -387,7 +382,7 @@
   algo: duration
   filters:
     franchise: yamato
-  threshold: 94.1%
+  threshold: 95%
   metadata:
     title_ru: Космический линкор Ямато
     image:
@@ -442,7 +437,7 @@
   algo: duration
   filters:
     franchise: umineko_no_naku_koro_ni
-  threshold: 96.6%
+  threshold: 97%
   metadata:
     title_ru: Когда плачут
     image:
@@ -482,7 +477,7 @@
   algo: duration
   filters:
     franchise: sket_dance
-  threshold: 98.7%
+  threshold: 100%
   metadata:
     title_ru: Скет Данс
     image:
@@ -539,7 +534,7 @@
   algo: duration
   filters:
     franchise: durarara
-  threshold: 96.2%
+  threshold: 100%
   metadata:
     title_ru: Дюрарара!!
     image:
@@ -550,7 +545,7 @@
   algo: duration
   filters:
     franchise: working
-  threshold: 96.1%
+  threshold: 100%
   metadata:
     title_ru: Работа!!
     image:
@@ -654,7 +649,7 @@
   algo: duration
   filters:
     franchise: hikaru_no_go
-  threshold: 94.5%
+  threshold: 100%
   metadata:
     title_ru: Хикару и Го
     image:
@@ -687,7 +682,7 @@
   algo: duration
   filters:
     franchise: full_metal_panic
-  threshold: 94.6%
+  threshold: 100%
   metadata:
     title_ru: Стальная тревога
     image:
@@ -775,7 +770,7 @@
     not_anime_ids:
     - 27829
     - 32264
-  threshold: 98.6%
+  threshold: 100%
   metadata:
     title_ru: Индекс волшебства
     image:
@@ -786,7 +781,7 @@
   algo: duration
   filters:
     franchise: touch
-  threshold: 93.9%
+  threshold: 97%
   metadata:
     title_ru: Касание
     image:
@@ -797,7 +792,7 @@
   algo: duration
   filters:
     franchise: city_hunter
-  threshold: 94.6%
+  threshold: 95%
   metadata:
     title_ru: Городской охотник
     image:
@@ -834,7 +829,7 @@
     franchise: nurarihyon_no_mago
     not_anime_ids:
     - 9731
-  threshold: 95.6%
+  threshold: 100%
   metadata:
     title_ru: Внук Нурарихёна
     image:
@@ -1186,7 +1181,7 @@
   algo: duration
   filters:
     franchise: to_love_ru
-  threshold: 97.5%
+  threshold: 100%
   metadata:
     title_ru: Любовные неприятности
     image:
@@ -1230,7 +1225,7 @@
   algo: duration
   filters:
     franchise: high_school_dxd
-  threshold: 94.9%
+  threshold: 97%
   metadata:
     title_ru: Старшая школа DxD
     image:
@@ -1243,7 +1238,7 @@
     franchise: blood
     not_anime_ids:
     - 14077
-  threshold: 97.0%
+  threshold: 100%
   metadata:
     title_ru: Кровь
     image:
@@ -1298,7 +1293,7 @@
   algo: duration
   filters:
     franchise: fushigi_yuugi
-  threshold: 99%
+  threshold: 100%
   metadata:
     title_ru: Таинственная игра
     image:
@@ -1322,7 +1317,7 @@
   algo: duration
   filters:
     franchise: utawarerumono
-  threshold: 94.7%
+  threshold: 97%
   metadata:
     title_ru: Прославленный
     image:
@@ -1366,7 +1361,7 @@
   algo: duration
   filters:
     franchise: shakugan_no_shana
-  threshold: 91.2%
+  threshold: 97%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
@@ -1377,7 +1372,7 @@
   algo: duration
   filters:
     franchise: soukyuu_no_fafner
-  threshold: 94.1%
+  threshold: 95%
   metadata:
     title_ru: Небесный Фафнир
     image:
@@ -1399,7 +1394,7 @@
   algo: duration
   filters:
     franchise: zero_no_tsukaima
-  threshold: 96.3%
+  threshold: 100%
   metadata:
     title_ru: Подручный Луизы-Нулизы
     image:
@@ -1410,7 +1405,7 @@
   algo: duration
   filters:
     franchise: toriko
-  threshold: 98.1%
+  threshold: 100%
   metadata:
     title_ru: Торико
     image:
@@ -1465,7 +1460,7 @@
   algo: duration
   filters:
     franchise: zettai_karen_children
-  threshold: 98.4%
+  threshold: 100%
   metadata:
     title_ru: Восхитительные дети
     image:
@@ -1539,7 +1534,7 @@
   algo: duration
   filters:
     franchise: seiren
-  threshold: 95.6%
+  threshold: 100%
   metadata:
     title_ru: Нежный укус
     image:
@@ -1616,7 +1611,7 @@
   algo: duration
   filters:
     franchise: force_live
-  threshold: 98.3%
+  threshold: 100%
   metadata:
     title_ru: Поющий принц
     image:
@@ -1739,7 +1734,7 @@
   algo: duration
   filters:
     franchise: super_robot_taisen_og
-  threshold: 98.1%
+  threshold: 100%
   metadata:
     title_ru: Войны супер-роботов
     image:
@@ -1761,7 +1756,7 @@
   algo: duration
   filters:
     franchise: futari_wa_milky_holmes
-  threshold: 94.9%
+  threshold: 95%
   metadata:
     title_ru: Детективное агентство Милки Холмс
     image:
@@ -1794,7 +1789,7 @@
   algo: duration
   filters:
     franchise: di_gi_charat
-  threshold: 94.3%
+  threshold: 95%
   metadata:
     title_ru: Ди-Ги Карат
     image:
@@ -1849,7 +1844,7 @@
   algo: duration
   filters:
     franchise: to_heart
-  threshold: 94.4%
+  threshold: 95%
   metadata:
     title_ru: Для сердца
     image:
@@ -1904,7 +1899,7 @@
   algo: duration
   filters:
     franchise: sonic
-  threshold: 99%
+  threshold: 100%
   metadata:
     title_ru: Соник
     image:
@@ -1915,7 +1910,7 @@
   algo: duration
   filters:
     franchise: believe
-  threshold: 99%
+  threshold: 100%
   metadata:
     title_ru: Приключения во времени
     image:
