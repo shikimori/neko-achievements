@@ -120,6 +120,10 @@ end
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
 raw_data = YAML.load_file(franchise_yml);
 
+HARDCODED_THRESHOLD = {
+  ehon_yose: 50
+}
+
 data = raw_data.dup.each do |rule|
   franchise = Anime.where(franchise: rule['filters']['franchise'])
   if rule['filters']['not_anime_ids'].present?
@@ -127,8 +131,8 @@ data = raw_data.dup.each do |rule|
   end
   ova = franchise.select(&:kind_ova?)
   long_specials = franchise.select(&:kind_special?).select { |v| v.duration >= 22 }
-  short_specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 && v.duration > 4 }
-  mini_specials = franchise.select(&:kind_special?).select { |v| v.duration <= 4 }
+  short_specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 && v.duration > 5 }
+  mini_specials = (franchise.select(&:kind_special?) + franchise.select(&:kind_ona?)).select { |v| v.duration <= 5 }
 
   total_duration = franchise.sum { |v| v.duration * v.episodes }
   ova_duration = ova.sum { |v| v.duration * v.episodes }
@@ -152,23 +156,46 @@ data = raw_data.dup.each do |rule|
 
   short_specials_duration_subtract = short_specials.size <= 3 ? short_specials_duration : short_specials_duration / 2.0
 
-  percent = (
+  threshold = (
     total_duration -
     ova_duration_subtract -
     long_specials_duration_subtract -
     short_specials_duration_subtract -
     mini_specials_duration
   ) * 100.0 / total_duration
-  percent = 99 if percent > 99.0 && percent < 100.0
 
-  if rule['threshold'].gsub('%', '').to_f > percent.floor(1)
-    ap(
-      franchise: rule['filters']['franchise'],
-      threshold: rule['threshold'],
-      new_threshold: percent.floor(1)
-    )
-    rule['threshold'] = "#{percent.floor(1)}%"
+  if total_duration > 20_000
+    threshold = [60, threshold].min
   end
+
+  if total_duration > 10_000
+    threshold = [80, threshold].min
+  end
+
+  if total_duration > 5_000
+    threshold = [90, threshold].min
+  end
+
+  if franchise.size >= 7 || total_duration > 5_000
+    threshold = [95, threshold].min
+  end
+
+  animes_with_year = franchise.reject(&:kind_special?).select(&:year)
+  average_year = animes_with_year.sum(&:year) * 1.0 / animes_with_year.size
+  if average_year < 1987
+    threshold -= 15
+  elsif average_year < 1991
+    threshold -= 10
+  elsif average_year < 1996
+    threshold -= 5
+  end
+
+  ap(
+    franchise: rule['filters']['franchise'],
+    #threshold: rule['threshold'].gsub('%', '').to_f,
+    new_threshold: threshold.floor(1)
+  )
+  rule['threshold'] = "#{HARDCODED_THRESHOLD[rule['filters']['franchise'].to_sym] || threshold.floor(1)}%".gsub(/\.0%$/, '%')
 end;
 
 if data.any?

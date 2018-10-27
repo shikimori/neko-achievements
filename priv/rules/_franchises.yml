@@ -4,7 +4,7 @@
   algo: duration
   filters:
     franchise: fullmetal_alchemist
-  threshold: 95.3%
+  threshold: 94.8%
   metadata:
     title_ru: Стальной алхимик
     image:
@@ -18,7 +18,7 @@
     not_anime_ids:
     - 37864
     - 19261
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Гинтама
     image:
@@ -29,7 +29,7 @@
   algo: duration
   filters:
     franchise: hunter_x_hunter
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Охотник х Охотник
     image:
@@ -145,7 +145,7 @@
   algo: duration
   filters:
     franchise: boku_no_hero_academia
-  threshold: 97.7%
+  threshold: 95%
   metadata:
     title_ru: Моя геройская академия
     image:
@@ -156,7 +156,7 @@
   algo: duration
   filters:
     franchise: natsume_yuujinchou
-  threshold: 95.2%
+  threshold: 95%
   metadata:
     title_ru: Тетрадь дружбы Нацумэ
     image:
@@ -167,7 +167,7 @@
   algo: duration
   filters:
     franchise: suzumiya_haruhi_no_yuuutsu
-  threshold: 97%
+  threshold: 89%
   metadata:
     title_ru: Меланхолия Харухи Судзумии
     image:
@@ -191,7 +191,7 @@
     franchise: koro_sensei_q
     not_anime_ids:
     - 33511
-  threshold: 97%
+  threshold: 94.1%
   metadata:
     title_ru: Класс убийц
     image:
@@ -219,7 +219,7 @@
     - 22763
     - 22847
     - 23697
-  threshold: 91.6%
+  threshold: 90%
   metadata:
     title_ru: Судьба
     image:
@@ -232,7 +232,7 @@
     franchise: jojo_no_kimyou_na_bouken
     not_anime_ids:
     - 3603
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Невероятное приключение ДжоДжо
     image:
@@ -243,7 +243,7 @@
   algo: duration
   filters:
     franchise: megalo_box
-  threshold: 95%
+  threshold: 80%
   metadata:
     title_ru: Завтрашний Джо
     image:
@@ -256,7 +256,7 @@
     franchise: aria_the_ova
     not_anime_ids:
     - 5196
-  threshold: 95.4%
+  threshold: 95%
   metadata:
     title_ru: Ария
     image:
@@ -271,7 +271,7 @@
     - 19285
     - 19391
     - 35267
-  threshold: 97%
+  threshold: 95%
   metadata:
     title_ru: Вторжение гигантов
     image:
@@ -309,7 +309,7 @@
   algo: duration
   filters:
     franchise: slam_dunk
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Слэм-данк
     image:
@@ -320,7 +320,7 @@
   algo: duration
   filters:
     franchise: kuroko_no_basket
-  threshold: 93.6%
+  threshold: 93.5%
   metadata:
     title_ru: Баскетбол Куроко
     image:
@@ -331,7 +331,7 @@
   algo: duration
   filters:
     franchise: shokugeki_no_souma
-  threshold: 96.2%
+  threshold: 95%
   metadata:
     title_ru: Повар-боец Сома
     image:
@@ -356,7 +356,7 @@
     not_anime_ids:
     - 6163
     - 8068
-  threshold: 88.2%
+  threshold: 95%
   metadata:
     title_ru: Тёмный дворецкий
     image:
@@ -369,7 +369,7 @@
     franchise: yuu_yuu_hakusho
     not_anime_ids:
     - 6964
-  threshold: 97%
+  threshold: 90%
   metadata:
     title_ru: Отчет о буйстве духов
     image:
@@ -382,7 +382,7 @@
     franchise: berserk
     not_anime_ids:
     - 35009
-  threshold: 97%
+  threshold: 95%
   metadata:
     title_ru: Берсерк
     image:
@@ -409,7 +409,7 @@
   algo: duration
   filters:
     franchise: yamato
-  threshold: 94.1%
+  threshold: 89.1%
   metadata:
     title_ru: Космический линкор Ямато
     image:
@@ -431,7 +431,7 @@
   algo: duration
   filters:
     franchise: detective_conan
-  threshold: 88.5%
+  threshold: 95%
   metadata:
     title_ru: Детектив Конан
     image:
@@ -464,7 +464,7 @@
   algo: duration
   filters:
     franchise: umineko_no_naku_koro_ni
-  threshold: 96.6%
+  threshold: 95%
   metadata:
     title_ru: Когда плачут
     image:
@@ -475,7 +475,7 @@
   algo: duration
   filters:
     franchise: inuyasha
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Инуяся
     image:
@@ -493,7 +493,7 @@
     - 36240
     - 36241
     - 36242
-  threshold: 72.1%
+  threshold: 93.9%
   metadata:
     title_ru: Ван-Пис
     image:
@@ -504,7 +504,7 @@
   algo: duration
   filters:
     franchise: sket_dance
-  threshold: 98.7%
+  threshold: 97.9%
   metadata:
     title_ru: Скет Данс
     image:
@@ -539,7 +539,7 @@
   algo: duration
   filters:
     franchise: dragon_ball
-  threshold: 95%
+  threshold: 60%
   metadata:
     title_ru: Драконий жемчуг
     image:
@@ -563,7 +563,7 @@
   algo: duration
   filters:
     franchise: durarara
-  threshold: 96.2%
+  threshold: 95%
   metadata:
     title_ru: Дюрарара!!
     image:
@@ -574,7 +574,7 @@
   algo: duration
   filters:
     franchise: working
-  threshold: 96.1%
+  threshold: 95.8%
   metadata:
     title_ru: Работа!!
     image:
@@ -605,7 +605,7 @@
     franchise: saint_seiya
     not_anime_ids:
     - 6153
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Рыцари Зодиака
     image:
@@ -616,7 +616,7 @@
   algo: duration
   filters:
     franchise: maison_ikkoku
-  threshold: 95%
+  threshold: 88.9%
   metadata:
     title_ru: Доходный дом Иккоку
     image:
@@ -649,7 +649,7 @@
   algo: duration
   filters:
     franchise: boruto
-  threshold: 95%
+  threshold: 80%
   metadata:
     title_ru: Наруто
     image:
@@ -662,7 +662,7 @@
     franchise: lupin_iii
     not_anime_ids:
     - 5343
-  threshold: 87.5%
+  threshold: 80%
   metadata:
     title_ru: Люпен III
     image:
@@ -695,7 +695,7 @@
   algo: duration
   filters:
     franchise: dmatsu_san
-  threshold: 50%
+  threshold: 90%
   metadata:
     title_ru: Осомацу
     image:
@@ -732,7 +732,7 @@
     - 28911
     - 28913
     - 28915
-  threshold: 92.3%
+  threshold: 95%
   metadata:
     title_ru: Наброски Хидамари
     image:
@@ -745,7 +745,7 @@
     franchise: doraemon
     not_anime_ids:
     - 501
-  threshold: 95%
+  threshold: 60%
   metadata:
     title_ru: Дораэмон
     image:
@@ -780,7 +780,7 @@
   algo: duration
   filters:
     franchise: slayers
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Рубаки
     image:
@@ -793,7 +793,7 @@
     franchise: tennis_no_ouji_sama
     not_anime_ids:
     - 29697
-  threshold: 94.5%
+  threshold: 90%
   metadata:
     title_ru: Принц тенниса
     image:
@@ -807,7 +807,7 @@
     not_anime_ids:
     - 27829
     - 32264
-  threshold: 97.9%
+  threshold: 95%
   metadata:
     title_ru: Индекс волшебства
     image:
@@ -818,7 +818,7 @@
   algo: duration
   filters:
     franchise: touch
-  threshold: 93.9%
+  threshold: 88.9%
   metadata:
     title_ru: Касание
     image:
@@ -829,7 +829,7 @@
   algo: duration
   filters:
     franchise: city_hunter
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Городской охотник
     image:
@@ -842,7 +842,7 @@
     franchise: fairy_tail
     not_anime_ids:
     - 246
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Сказка о Хвосте феи
     image:
@@ -853,7 +853,7 @@
   algo: duration
   filters:
     franchise: kindaichi_shounen_no_jikenbo
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Дело ведет юный детектив Киндаити
     image:
@@ -881,7 +881,7 @@
     not_anime_ids:
     - 21853
     - 36473
-  threshold: 97%
+  threshold: 95%
   metadata:
     title_ru: Живая любовь!
     image:
@@ -892,7 +892,7 @@
   algo: duration
   filters:
     franchise: muumin
-  threshold: 85%
+  threshold: 75%
   metadata:
     title_ru: Муми-тролль
     image:
@@ -928,7 +928,7 @@
     not_anime_ids:
     - 27891
     - 37831
-  threshold: 87.9%
+  threshold: 87.7%
   metadata:
     title_ru: Мастера Меча Онлайн
     image:
@@ -955,7 +955,7 @@
     - 10351
     - 28531
     - 37789
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Тэнти — лишний!
     image:
@@ -966,7 +966,7 @@
   algo: duration
   filters:
     franchise: moon_pride
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Красавица-воин Сейлор Мун
     image:
@@ -979,7 +979,7 @@
     franchise: amon
     not_anime_ids:
     - 35952
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Человек-дьявол
     image:
@@ -990,7 +990,7 @@
   algo: duration
   filters:
     franchise: saiyuuki_gaiden
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Саюки
     image:
@@ -1004,7 +1004,7 @@
     not_anime_ids:
     - 6733
     - 9344
-  threshold: 94.3%
+  threshold: 90%
   metadata:
     title_ru: Галактический экспресс 999
     image:
@@ -1015,7 +1015,7 @@
   algo: duration
   filters:
     franchise: hokuto_no_ken
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Кулак Северной звезды
     image:
@@ -1026,7 +1026,7 @@
   algo: duration
   filters:
     franchise: mahoujin_guruguru
-  threshold: 97%
+  threshold: 99%
   metadata:
     title_ru: Волшебный круг Гуру-Гуру
     image:
@@ -1039,7 +1039,7 @@
     franchise: digimon_savers
     not_anime_ids:
     - 4712
-  threshold: 95%
+  threshold: 80%
   metadata:
     title_ru: Приключения Дигимонов
     image:
@@ -1050,7 +1050,7 @@
   algo: duration
   filters:
     franchise: votoms_finder
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Бронированные воины Вотомы
     image:
@@ -1061,7 +1061,7 @@
   algo: duration
   filters:
     franchise: transformers
-  threshold: 95%
+  threshold: 80%
   metadata:
     title_ru: Трансформеры
     image:
@@ -1072,7 +1072,7 @@
   algo: duration
   filters:
     franchise: bleach
-  threshold: 99%
+  threshold: 90%
   metadata:
     title_ru: Блич
     image:
@@ -1083,7 +1083,7 @@
   algo: duration
   filters:
     franchise: mazinkaiser
-  threshold: 60%
+  threshold: 80%
   metadata:
     title_ru: Мазинкайзер
     image:
@@ -1102,7 +1102,7 @@
     - 31373
     - 32699
     - 36835
-  threshold: 95%
+  threshold: 60%
   metadata:
     title_ru: Покемон
     image:
@@ -1126,7 +1126,7 @@
   algo: duration
   filters:
     franchise: mobile_police_patlabor
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Полиция будущего
     image:
@@ -1137,7 +1137,7 @@
   algo: duration
   filters:
     franchise: urusei_yatsura
-  threshold: 95%
+  threshold: 75%
   metadata:
     title_ru: Несносные пришельцы
     image:
@@ -1148,7 +1148,7 @@
   algo: duration
   filters:
     franchise: koneko_no_chii
-  threshold: 97%
+  threshold: 100%
   metadata:
     title_ru: Милый дом Чи
     image:
@@ -1159,7 +1159,7 @@
   algo: duration
   filters:
     franchise: hayate_no_gotoku
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Боевой дворецкий Хаятэ!
     image:
@@ -1181,7 +1181,7 @@
   algo: duration
   filters:
     franchise: hetalia
-  threshold: 91.8%
+  threshold: 11.2%
   metadata:
     title_ru: Хеталия
     image:
@@ -1192,7 +1192,7 @@
   algo: duration
   filters:
     franchise: ranma
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Ранма 1/2
     image:
@@ -1225,7 +1225,7 @@
   algo: duration
   filters:
     franchise: to_love_ru
-  threshold: 97.5%
+  threshold: 95%
   metadata:
     title_ru: Любовные неприятности
     image:
@@ -1236,7 +1236,7 @@
   algo: duration
   filters:
     franchise: space_cobra
-  threshold: 95%
+  threshold: 98.3%
   metadata:
     title_ru: Космические приключения Кобры
     image:
@@ -1247,7 +1247,7 @@
   algo: duration
   filters:
     franchise: ojamajo_doremi
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Невезучая ведьма Дореми
     image:
@@ -1258,7 +1258,7 @@
   algo: duration
   filters:
     franchise: getter_robo
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Робот Геттер
     image:
@@ -1282,7 +1282,7 @@
     franchise: blood
     not_anime_ids:
     - 14077
-  threshold: 97.0%
+  threshold: 97%
   metadata:
     title_ru: Кровь
     image:
@@ -1317,7 +1317,7 @@
   algo: duration
   filters:
     franchise: minami_ke
-  threshold: 97.0%
+  threshold: 95%
   metadata:
     title_ru: Сёстры Минами
     image:
@@ -1339,7 +1339,7 @@
   algo: duration
   filters:
     franchise: fushigi_yuugi
-  threshold: 99%
+  threshold: 99.7%
   metadata:
     title_ru: Таинственная игра
     image:
@@ -1352,7 +1352,7 @@
     franchise: kimagure_orange_road
     not_anime_ids:
     - 14059
-  threshold: 100%
+  threshold: 90%
   metadata:
     title_ru: Капризы Апельсиновой улицы
     image:
@@ -1366,7 +1366,7 @@
     not_anime_ids:
     - 6226
     - 6743
-  threshold: 95.0%
+  threshold: 95%
   metadata:
     title_ru: Прославленный
     image:
@@ -1388,7 +1388,7 @@
   algo: duration
   filters:
     franchise: pripara
-  threshold: 85%
+  threshold: 90%
   metadata:
     title_ru: При Пара
     image:
@@ -1399,7 +1399,7 @@
   algo: duration
   filters:
     franchise: tales_of_gekijou
-  threshold: 93.5%
+  threshold: 92.3%
   metadata:
     title_ru: Сказания
     image:
@@ -1416,7 +1416,7 @@
     - 17551
     - 14957
     - 1815
-  threshold: 97.6%
+  threshold: 95%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
@@ -1438,7 +1438,7 @@
   algo: duration
   filters:
     franchise: puchimas
-  threshold: 90%
+  threshold: 82.8%
   metadata:
     title_ru: Идолмастер
     image:
@@ -1451,7 +1451,7 @@
     franchise: zero_no_tsukaima
     not_anime_ids:
     - 6489
-  threshold: 98.0%
+  threshold: 98%
   metadata:
     title_ru: Подручный Луизы-Нулизы
     image:
@@ -1484,7 +1484,7 @@
   algo: duration
   filters:
     franchise: inazuma_eleven
-  threshold: 60%
+  threshold: 90%
   metadata:
     title_ru: Инадзума 11
     image:
@@ -1506,7 +1506,7 @@
   algo: duration
   filters:
     franchise: grendizer_giga
-  threshold: 95%
+  threshold: 84.9%
   metadata:
     title_ru: Грендайзер
     image:
@@ -1544,7 +1544,7 @@
     not_anime_ids:
     - 7759
     - 30292
-  threshold: 91.0%
+  threshold: 91%
   metadata:
     title_ru: Саки
     image:
@@ -1555,7 +1555,7 @@
   algo: duration
   filters:
     franchise: candy_candy
-  threshold: 100%
+  threshold: 85%
   metadata:
     title_ru: Кэнди-Кэнди
     image:
@@ -1583,7 +1583,7 @@
     - 16576
     - 21595
     - 32346
-  threshold: 90%
+  threshold: 60%
   metadata:
     title_ru: Югио!
     image:
@@ -1618,7 +1618,7 @@
   algo: duration
   filters:
     franchise: selector_spread_wixoss
-  threshold: 97%
+  threshold: 95%
   metadata:
     title_ru: WIXOSS
     image:
@@ -1640,7 +1640,7 @@
   algo: duration
   filters:
     franchise: captain_tsubasa
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Капитан Цубаса
     image:
@@ -1651,7 +1651,7 @@
   algo: duration
   filters:
     franchise: gatchaman
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Гатчамен
     image:
@@ -1662,7 +1662,7 @@
   algo: duration
   filters:
     franchise: zoids
-  threshold: 90%
+  threshold: 100%
   metadata:
     title_ru: Зойды
     image:
@@ -1673,7 +1673,7 @@
   algo: duration
   filters:
     franchise: force_live
-  threshold: 98.3%
+  threshold: 95%
   metadata:
     title_ru: Поющий принц
     image:
@@ -1695,7 +1695,7 @@
   algo: duration
   filters:
     franchise: tiger_mask
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Тигровая маска
     image:
@@ -1739,7 +1739,7 @@
   algo: duration
   filters:
     franchise: cyborg
-  threshold: 90%
+  threshold: 95%
   metadata:
     title_ru: Киборг 009
     image:
@@ -1750,7 +1750,7 @@
   algo: duration
   filters:
     franchise: ad_police
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Кризис каждый день
     image:
@@ -1761,7 +1761,7 @@
   algo: duration
   filters:
     franchise: rean_no_tsubasa
-  threshold: 90.0%
+  threshold: 85%
   metadata:
     title_ru: Данбайн
     image:
@@ -1785,7 +1785,7 @@
   algo: duration
   filters:
     franchise: kinnikuman
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Человек-мускул
     image:
@@ -1807,7 +1807,7 @@
   algo: duration
   filters:
     franchise: hack_gift
-  threshold: 95%
+  threshold: 94.7%
   metadata:
     title_ru: ".хак//"
     image:
@@ -1818,7 +1818,7 @@
   algo: duration
   filters:
     franchise: futari_wa_milky_holmes
-  threshold: 94.9%
+  threshold: 95%
   metadata:
     title_ru: Детективное агентство Милки Холмс
     image:
@@ -1840,7 +1840,7 @@
   algo: duration
   filters:
     franchise: dirty_pair
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Грязная парочка
     image:
@@ -1851,7 +1851,7 @@
   algo: duration
   filters:
     franchise: di_gi_charat
-  threshold: 91.4%
+  threshold: 92.6%
   metadata:
     title_ru: Ди-Ги Карат
     image:
@@ -1873,7 +1873,7 @@
   algo: duration
   filters:
     franchise: cutey_honey
-  threshold: 95%
+  threshold: 100%
   metadata:
     title_ru: Милашка Хани
     image:
@@ -1884,7 +1884,7 @@
   algo: duration
   filters:
     franchise: mahou_no_princess_minky_momo
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Принцесса-волшебница Минки Момо
     image:
@@ -1939,7 +1939,7 @@
   algo: duration
   filters:
     franchise: juusenki_l_gaim
-  threshold: 100%
+  threshold: 85%
   metadata:
     title_ru: Тяжёлый металл
     image:
@@ -1950,7 +1950,7 @@
   algo: duration
   filters:
     franchise: ginga_senpuu_braiger
-  threshold: 100%
+  threshold: 85%
   metadata:
     title_ru: Галактический Вихрь Брайгер
     image:
@@ -1961,7 +1961,7 @@
   algo: duration
   filters:
     franchise: sonic
-  threshold: 99%
+  threshold: 99.6%
   metadata:
     title_ru: Соник
     image:
@@ -1972,7 +1972,7 @@
   algo: duration
   filters:
     franchise: believe
-  threshold: 99%
+  threshold: 75%
   metadata:
     title_ru: Приключения во времени
     image:
@@ -1983,7 +1983,7 @@
   algo: duration
   filters:
     franchise: choujuu_kishin_dancougar
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Данкугар
     image:
@@ -2005,7 +2005,7 @@
   algo: duration
   filters:
     franchise: haou_daikei_ryuu_knight
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Властелин властелинов Рыцарь Рю
     image:
@@ -2027,7 +2027,7 @@
   algo: duration
   filters:
     franchise: ultraman
-  threshold: 95%
+  threshold: 85%
   metadata:
     title_ru: Ультрамен
     image:
@@ -2049,7 +2049,7 @@
   algo: duration
   filters:
     franchise: obake_no_q_tarou
-  threshold: 90%
+  threshold: 65%
   metadata:
     title_ru: Привидение Кью-Таро
     image:
@@ -2060,7 +2060,7 @@
   algo: duration
   filters:
     franchise: pro_golfer_saru
-  threshold: 90%
+  threshold: 82.1%
   metadata:
     title_ru: Профессиональный гольфист Сару
     image:
