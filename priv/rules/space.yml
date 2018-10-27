@@ -26,7 +26,7 @@
   level: 3
   threshold: 60
   metadata:
-    title_ru: Межзвездный скиталец.
+    title_ru: Межзвездный скиталец
     text_ru: Космос. Он так пуст, но в то же время полон жизни.
     image: /assets/achievements/anime/space_3.png
     border_color: "#bb7171"
