@@ -17,6 +17,27 @@ $ mix run -—no-halt
 $ mix deploy
 ```
 
+### elixir samples
+```elixir
+# get neko_id rules
+Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen"))
+
+# get animes
+Neko.Anime.all()
+Neko.Anime.all_by_id()
+
+
+# get animes matched by rule
+user_id = 50587
+Neko.UserRate.load(user_id)
+
+rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen" && &1.level == 1)) |> Enum.at(0)
+
+user_anime_ids = user_id |> Neko.UserRate.all() |> Enum.map(& &1.target_id) |> MapSet.new()
+user_animes_by_id = Neko.Anime.all_by_id() |> Map.take(user_anime_ids)
+user_anime_ids |> MapSet.intersection(rule.anime_ids)
+```
+
 ### parse achievements extracted from google docs
 
 ```ruby
