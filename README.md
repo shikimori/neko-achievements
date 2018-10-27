@@ -125,17 +125,20 @@ data = raw_data.dup.each do |rule|
   if rule['filters']['not_anime_ids'].present?
     franchise = franchise.where.not(id: rule['filters']['not_anime_ids'])
   end
-  specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 }
-  ova = franchise.select(&:kind_ova?) + franchise.select(&:kind_special?).select { |v| v.duration >= 22 }
+  short_specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 }
+  long_specials = franchise.select(&:kind_special?).select { |v| v.duration >= 22 }
+  ova = franchise.select(&:kind_ova?)
 
   total_duration = franchise.sum { |v| v.duration * v.episodes }
   ova_duration = ova.sum { |v| v.duration * v.episodes }
-  specials_duration = specials.sum { |v| v.duration * v.episodes }
+  short_specials_duration = short_specials.sum { |v| v.duration * v.episodes }
+  long_specials_duration = long_specials.sum { |v| v.duration * v.episodes }
 
   threshold = rule['threshold'].gsub('%', '').to_f
   percent = (
     total_duration -
-      (specials.size > 3 ? specials_duration / 2.0 : specials_duration) -
+      (short_specials.size > 3 ? short_specials_duration / 2.0 : short_specials_duration) -
+      (long_specials.size > 2 ? long_specials_duration / 2.0 : long_specials_duration) -
       (ova_duration * 1.0 / total_duration <= 0.1 && franchise.size > 5 && ova.size > 2 ? ova_duration / 2 : 0)
   ) * 100.0 / total_duration
   percent = 99 if percent > 99.0 && percent < 100.0
