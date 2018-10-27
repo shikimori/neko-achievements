@@ -77,7 +77,7 @@ end
 ```
 
 
-#### Cleanup recaps
+#### Cleanup recaps and picture dramas
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
@@ -87,7 +87,11 @@ data = YAML.
     recap_ids = Anime.
       where(franchise: rule['filters']['franchise']).
       select(&:kind_special?).
-      select { |v| v.description_en&.match?(/\brecap\b|compilation movie/i) || v.description_ru&.match?(/\bрекап\b|\bобобщение\b/i) }.
+      select do |v|
+        v.name.match?(/\brecaps?\b|compilation movie|picture drama/i) ||
+          v.description_en&.match?(/\brecaps?\b|compilation movie|picture drama/i) ||
+          v.description_ru&.match?(/\bрекап\b|\bобобщение\b|\bчиби\b/i)
+      end.
       map(&:id)
 
     if recap_ids.any?
@@ -111,34 +115,37 @@ end
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
-data = YAML.
-  load_file(franchise_yml).
-  each do |rule|
-    franchise = Anime.where(franchise: rule['filters']['franchise'])
-    if rule['filters']['not_anime_ids'].present?
-      franchise = franchise.where.not(id: rule['filters']['not_anime_ids'])
-    end
-    specials = franchise.select(&:kind_special?)
+raw_data = YAML.load_file(franchise_yml);
 
-    total_duration = franchise.sum { |v| v.duration * v.episodes }
-    specials_duration = specials.sum { |v| v.duration * v.episodes }
+data = raw_data.dup.each do |rule|
+  franchise = Anime.where(franchise: rule['filters']['franchise'])
+  if rule['filters']['not_anime_ids'].present?
+    franchise = franchise.where.not(id: rule['filters']['not_anime_ids'])
+  end
+  specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 }
+  ova = franchise.select(&:kind_ova?) + franchise.select(&:kind_special?).select { |v| v.duration >= 22 }
 
-    percent = (total_duration - (specials.size > 3 ? specials_duration / 2.0 : specials_duration)) * 100.0 / total_duration
-    percent = 99 if percent > 99 && percent != 100
-    threshold = rule['threshold'].gsub('%', '').to_f
+  total_duration = franchise.sum { |v| v.duration * v.episodes }
+  ova_duration = ova.sum { |v| v.duration * v.episodes }
+  specials_duration = specials.sum { |v| v.duration * v.episodes }
 
-    if (percent >= 93.5 && threshold > percent.floor(1))# || rule['filters']['franchise'] == 'shingeki_no_kyojin'
-      ap(
-        franchsie: rule['filters']['franchise'],
-        animes: franchise.size,
-        specials: specials.size,
-        threshold: threshold,
-        new_threshold: percent.floor(1),
-        possible_threshold: ((total_duration - specials_duration) * 100.0 / total_duration).floor(1)
-      )
-      rule['threshold'] = "#{percent.floor(1)}%"
-    end
-  end;
+  threshold = rule['threshold'].gsub('%', '').to_f
+  percent = (
+    total_duration -
+      (specials.size > 3 ? specials_duration / 2.0 : specials_duration) -
+      (ova_duration * 1.0 / total_duration <= 0.1 && franchise.size > 5 && ova.size > 2 ? ova_duration / 2 : 0)
+  ) * 100.0 / total_duration
+  percent = 99 if percent > 99.0 && percent < 100.0
+
+  if threshold > percent.floor(1)
+    ap(
+      franchise: rule['filters']['franchise'],
+      threshold: threshold,
+      new_threshold: percent.floor(1)
+    )
+    rule['threshold'] = "#{percent.floor(1)}%"
+  end
+end;
 
 if data.any?
   File.open(franchise_yml, 'w') { |f| f.write data.to_yaml };
