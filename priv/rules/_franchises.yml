@@ -1410,7 +1410,12 @@
   algo: duration
   filters:
     franchise: shakugan_no_shana
-  threshold: 95.6%
+    not_anime_ids:
+    - 6330
+    - 28603
+    - 17551
+    - 14957
+  threshold: 100%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
