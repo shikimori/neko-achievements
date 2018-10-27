@@ -114,7 +114,7 @@ end
 ```
 
 
-#### Subtract specials and ova
+#### Generate threshold
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
