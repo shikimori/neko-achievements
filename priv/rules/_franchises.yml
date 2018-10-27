@@ -121,7 +121,7 @@
   algo: duration
   filters:
     franchise: hajime_no_ippo
-  threshold: 96.2%
+  threshold: 95%
   metadata:
     title_ru: Первый шаг
     image:
@@ -298,7 +298,7 @@
   algo: duration
   filters:
     franchise: uchuu_kyoudai
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Космические братья
     image:
@@ -309,7 +309,7 @@
   algo: duration
   filters:
     franchise: slam_dunk
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Слэм-данк
     image:
@@ -442,7 +442,7 @@
   algo: duration
   filters:
     franchise: diamond_no_ace
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Путь аса
     image:
@@ -616,7 +616,7 @@
   algo: duration
   filters:
     franchise: maison_ikkoku
-  threshold: 88.9%
+  threshold: 85%
   metadata:
     title_ru: Доходный дом Иккоку
     image:
@@ -939,7 +939,7 @@
   algo: duration
   filters:
     franchise: jigoku_shoujo
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Адская девочка
     image:
@@ -1026,7 +1026,7 @@
   algo: duration
   filters:
     franchise: mahoujin_guruguru
-  threshold: 99%
+  threshold: 95%
   metadata:
     title_ru: Волшебный круг Гуру-Гуру
     image:
@@ -1377,7 +1377,7 @@
   algo: duration
   filters:
     franchise: dragon_quest
-  threshold: 95%
+  threshold: 90%
   metadata:
     title_ru: Драгон Квест
     image:
@@ -1462,7 +1462,7 @@
   algo: duration
   filters:
     franchise: toriko
-  threshold: 98.1%
+  threshold: 95%
   metadata:
     title_ru: Торико
     image:
@@ -1530,7 +1530,7 @@
   algo: duration
   filters:
     franchise: konjiki_no_gash_bell
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Златовласый Гаш Белл
     image:
@@ -1555,7 +1555,7 @@
   algo: duration
   filters:
     franchise: candy_candy
-  threshold: 85%
+  threshold: 80%
   metadata:
     title_ru: Кэнди-Кэнди
     image:
@@ -1662,7 +1662,7 @@
   algo: duration
   filters:
     franchise: zoids
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Зойды
     image:
@@ -1695,7 +1695,7 @@
   algo: duration
   filters:
     franchise: tiger_mask
-  threshold: 85%
+  threshold: 80%
   metadata:
     title_ru: Тигровая маска
     image:
@@ -1873,7 +1873,7 @@
   algo: duration
   filters:
     franchise: cutey_honey
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Милашка Хани
     image:
@@ -1950,7 +1950,7 @@
   algo: duration
   filters:
     franchise: ginga_senpuu_braiger
-  threshold: 85%
+  threshold: 80%
   metadata:
     title_ru: Галактический Вихрь Брайгер
     image:
@@ -2060,7 +2060,7 @@
   algo: duration
   filters:
     franchise: pro_golfer_saru
-  threshold: 82.1%
+  threshold: 80%
   metadata:
     title_ru: Профессиональный гольфист Сару
     image:

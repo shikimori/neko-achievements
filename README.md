@@ -179,7 +179,7 @@ data = raw_data.dup.each do |rule|
     threshold = [90, threshold].min
   end
 
-  if franchise.size >= 7 || total_duration > 5_000
+  if franchise.size >= 7 || total_duration > 2_000
     threshold = [95, threshold].min
   end
 
