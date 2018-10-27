@@ -62,6 +62,9 @@
   algo: duration
   filters:
     franchise: hanamonogatari
+    not_anime_ids:
+    - 6948
+    - 36796
   threshold: 95%
   metadata:
     title_ru: Цикл историй
@@ -84,6 +87,18 @@
   algo: duration
   filters:
     franchise: code_geass
+    not_anime_ids:
+    - 1953
+    - 2124
+    - 5163
+    - 8728
+    - 18881
+    - 23359
+    - 31145
+    - 32240
+    - 33155
+    - 33156
+    - 33360
   threshold: 95%
   metadata:
     title_ru: Код Гиас
@@ -117,6 +132,8 @@
   algo: duration
   filters:
     franchise: rurouni_kenshin
+    not_anime_ids:
+    - 10334
   threshold: 95%
   metadata:
     title_ru: Бродяга Кэнсин
@@ -196,12 +213,12 @@
     - 5205
     - 6624
     - 6954
+    - 13183
     - 14807
+    - 19165
     - 22763
     - 22847
     - 23697
-    - 13183
-    - 19165
   threshold: 95%
   metadata:
     title_ru: Судьба
@@ -237,6 +254,8 @@
   algo: duration
   filters:
     franchise: aria_the_ova
+    not_anime_ids:
+    - 5196
   threshold: 100%
   metadata:
     title_ru: Ария
@@ -250,6 +269,7 @@
     franchise: shingeki_no_kyojin
     not_anime_ids:
     - 19285
+    - 19391
     - 35267
   threshold: 97%
   metadata:
@@ -335,6 +355,7 @@
     franchise: kuroshitsuji
     not_anime_ids:
     - 6163
+    - 8068
   threshold: 100%
   metadata:
     title_ru: Тёмный дворецкий
@@ -346,6 +367,8 @@
   algo: duration
   filters:
     franchise: yuu_yuu_hakusho
+    not_anime_ids:
+    - 6964
   threshold: 97%
   metadata:
     title_ru: Отчет о буйстве духов
@@ -357,6 +380,8 @@
   algo: duration
   filters:
     franchise: berserk
+    not_anime_ids:
+    - 35009
   threshold: 97%
   metadata:
     title_ru: Берсерк
@@ -369,8 +394,14 @@
   filters:
     franchise: gundam
     not_anime_ids:
+    - 2269
     - 8839
+    - 14007
+    - 20667
+    - 22435
     - 23943
+    - 24371
+    - 32898
   threshold: 95%
   metadata:
     title_ru: Мобильный воин Гандам
@@ -523,6 +554,8 @@
   algo: duration
   filters:
     franchise: cardcaptor_sakura
+    not_anime_ids:
+    - 37595
   threshold: 95%
   metadata:
     title_ru: Сакура — собирательница карт
@@ -557,8 +590,12 @@
   filters:
     franchise: vivid_strike
     not_anime_ids:
-    - 4849
     - 176
+    - 4849
+    - 32316
+    - 35501
+    - 37933
+    - 37934
   threshold: 95%
   metadata:
     title_ru: Лиричная волшебница Наноха
@@ -570,6 +607,8 @@
   algo: duration
   filters:
     franchise: saint_seiya
+    not_anime_ids:
+    - 6153
   threshold: 95%
   metadata:
     title_ru: Рыцари Зодиака
@@ -649,6 +688,8 @@
   algo: duration
   filters:
     franchise: hikaru_no_go
+    not_anime_ids:
+    - 2336
   threshold: 100%
   metadata:
     title_ru: Хикару и Го
@@ -756,6 +797,8 @@
   algo: duration
   filters:
     franchise: tennis_no_ouji_sama
+    not_anime_ids:
+    - 29697
   threshold: 95%
   metadata:
     title_ru: Принц тенниса
@@ -829,6 +872,7 @@
     franchise: nurarihyon_no_mago
     not_anime_ids:
     - 9731
+    - 11083
   threshold: 100%
   metadata:
     title_ru: Внук Нурарихёна
@@ -842,6 +886,7 @@
     franchise: snow_halation
     not_anime_ids:
     - 21853
+    - 36473
   threshold: 97%
   metadata:
     title_ru: Живая любовь!
@@ -912,6 +957,9 @@
     franchise: tenchi_muyou
     not_anime_ids:
     - 1503
+    - 10351
+    - 28531
+    - 37789
   threshold: 95%
   metadata:
     title_ru: Тэнти — лишний!
@@ -1052,12 +1100,13 @@
   filters:
     franchise: pokemon
     not_anime_ids:
+    - 11009
+    - 11019
+    - 11073
+    - 23849
+    - 31373
     - 32699
     - 36835
-    - 31373
-    - 11019
-    - 11009
-    - 23849
   threshold: 95%
   metadata:
     title_ru: Покемон
@@ -1249,6 +1298,8 @@
   algo: duration
   filters:
     franchise: garo
+    not_anime_ids:
+    - 37032
   threshold: 95%
   metadata:
     title_ru: Гаро
@@ -1317,6 +1368,9 @@
   algo: duration
   filters:
     franchise: utawarerumono
+    not_anime_ids:
+    - 6226
+    - 6743
   threshold: 97%
   metadata:
     title_ru: Прославленный
@@ -1394,6 +1448,8 @@
   algo: duration
   filters:
     franchise: zero_no_tsukaima
+    not_anime_ids:
+    - 6489
   threshold: 100%
   metadata:
     title_ru: Подручный Луизы-Нулизы
@@ -1460,6 +1516,8 @@
   algo: duration
   filters:
     franchise: zettai_karen_children
+    not_anime_ids:
+    - 5849
   threshold: 100%
   metadata:
     title_ru: Восхитительные дети
@@ -1483,6 +1541,7 @@
   filters:
     franchise: saki
     not_anime_ids:
+    - 7759
     - 30292
   threshold: 100%
   metadata:
@@ -1534,6 +1593,8 @@
   algo: duration
   filters:
     franchise: seiren
+    not_anime_ids:
+    - 15951
   threshold: 100%
   metadata:
     title_ru: Нежный укус
