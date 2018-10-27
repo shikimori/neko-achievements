@@ -81,7 +81,7 @@ end
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
-ALLOWED_SPECIAL_IDS = [15711, 2269, 14007, 20667, 24371]
+ALLOWED_SPECIAL_IDS = [15711, 2269, 14007, 20667, 24371, 2336]
 
 data = YAML.
   load_file(franchise_yml).
@@ -125,28 +125,46 @@ data = raw_data.dup.each do |rule|
   if rule['filters']['not_anime_ids'].present?
     franchise = franchise.where.not(id: rule['filters']['not_anime_ids'])
   end
-  short_specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 }
-  long_specials = franchise.select(&:kind_special?).select { |v| v.duration >= 22 }
   ova = franchise.select(&:kind_ova?)
+  long_specials = franchise.select(&:kind_special?).select { |v| v.duration >= 22 }
+  short_specials = franchise.select(&:kind_special?).select { |v| v.duration < 22 && v.duration > 4 }
+  mini_specials = franchise.select(&:kind_special?).select { |v| v.duration <= 4 }
 
   total_duration = franchise.sum { |v| v.duration * v.episodes }
   ova_duration = ova.sum { |v| v.duration * v.episodes }
-  short_specials_duration = short_specials.sum { |v| v.duration * v.episodes }
   long_specials_duration = long_specials.sum { |v| v.duration * v.episodes }
+  short_specials_duration = short_specials.sum { |v| v.duration * v.episodes }
+  mini_specials_duration = mini_specials.sum { |v| v.duration * v.episodes }
 
-  threshold = rule['threshold'].gsub('%', '').to_f
+  ova_duration_subtract = 
+    if ova_duration * 1.0 / total_duration <= 0.1 && franchise.size > 5 && ova.size > 2
+      ova_duration / 2
+    else
+      0
+    end
+
+  long_specials_duration_subtract =
+    if long_specials_duration * 1.0 / total_duration <= 0.1
+      (long_specials.size > 2 ? long_specials_duration / 2.0 : long_specials_duration)
+    else
+      0
+    end
+
+  short_specials_duration_subtract = short_specials.size <= 3 ? short_specials_duration : short_specials_duration / 2.0
+
   percent = (
     total_duration -
-      (short_specials.size > 3 ? short_specials_duration / 2.0 : short_specials_duration) -
-      (long_specials.size > 2 ? long_specials_duration / 2.0 : long_specials_duration) -
-      (ova_duration * 1.0 / total_duration <= 0.1 && franchise.size > 5 && ova.size > 2 ? ova_duration / 2 : 0)
+    ova_duration_subtract -
+    long_specials_duration_subtract -
+    short_specials_duration_subtract -
+    mini_specials_duration
   ) * 100.0 / total_duration
   percent = 99 if percent > 99.0 && percent < 100.0
 
-  if threshold > percent.floor(1)
+  if rule['threshold'].gsub('%', '').to_f > percent.floor(1)
     ap(
       franchise: rule['filters']['franchise'],
-      threshold: threshold,
+      threshold: rule['threshold'],
       new_threshold: percent.floor(1)
     )
     rule['threshold'] = "#{percent.floor(1)}%"

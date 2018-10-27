@@ -287,7 +287,7 @@
     - 10870
     - 10948
     - 31617
-  threshold: 88.4%
+  threshold: 86.7%
   metadata:
     title_ru: Призрак в доспехах
     image:
@@ -320,7 +320,7 @@
   algo: duration
   filters:
     franchise: kuroko_no_basket
-  threshold: 95.5%
+  threshold: 93.6%
   metadata:
     title_ru: Баскетбол Куроко
     image:
@@ -793,7 +793,7 @@
     franchise: tennis_no_ouji_sama
     not_anime_ids:
     - 29697
-  threshold: 95%
+  threshold: 94.5%
   metadata:
     title_ru: Принц тенниса
     image:
@@ -928,7 +928,7 @@
     not_anime_ids:
     - 27891
     - 37831
-  threshold: 88.0%
+  threshold: 87.9%
   metadata:
     title_ru: Мастера Меча Онлайн
     image:
@@ -1399,7 +1399,7 @@
   algo: duration
   filters:
     franchise: tales_of_gekijou
-  threshold: 95%
+  threshold: 93.5%
   metadata:
     title_ru: Сказания
     image:
@@ -1416,7 +1416,7 @@
     - 17551
     - 14957
     - 1815
-  threshold: 100%
+  threshold: 97.6%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
@@ -1994,7 +1994,7 @@
   algo: duration
   filters:
     franchise: queen_s_blade
-  threshold: 95%
+  threshold: 90.8%
   metadata:
     title_ru: Клинок королевы
     image:
