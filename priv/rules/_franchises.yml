@@ -695,7 +695,7 @@
   algo: duration
   filters:
     franchise: dmatsu_san
-  threshold: 90%
+  threshold: 50%
   metadata:
     title_ru: Осомацу
     image:
@@ -1083,7 +1083,7 @@
   algo: duration
   filters:
     franchise: mazinkaiser
-  threshold: 80%
+  threshold: 60%
   metadata:
     title_ru: Мазинкайзер
     image:
@@ -1181,7 +1181,7 @@
   algo: duration
   filters:
     franchise: hetalia
-  threshold: 11.2%
+  threshold: 90%
   metadata:
     title_ru: Хеталия
     image:

@@ -121,7 +121,10 @@ franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises
 raw_data = YAML.load_file(franchise_yml);
 
 HARDCODED_THRESHOLD = {
-  ehon_yose: 50
+  ehon_yose: 50,
+  dmatsu_san: 50,
+  mazinkaiser: 60,
+  hetalia: 90
 }
 
 data = raw_data.dup.each do |rule|
