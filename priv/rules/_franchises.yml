@@ -145,7 +145,7 @@
   algo: duration
   filters:
     franchise: boku_no_hero_academia
-  threshold: 100%
+  threshold: 97.7%
   metadata:
     title_ru: Моя геройская академия
     image:
@@ -156,7 +156,7 @@
   algo: duration
   filters:
     franchise: natsume_yuujinchou
-  threshold: 97%
+  threshold: 95.2%
   metadata:
     title_ru: Тетрадь дружбы Нацумэ
     image:
@@ -178,7 +178,7 @@
   algo: duration
   filters:
     franchise: bakuman
-  threshold: 100%
+  threshold: 99%
   metadata:
     title_ru: Бакуман
     image:
@@ -256,7 +256,7 @@
     franchise: aria_the_ova
     not_anime_ids:
     - 5196
-  threshold: 100%
+  threshold: 95.4%
   metadata:
     title_ru: Ария
     image:
@@ -320,7 +320,7 @@
   algo: duration
   filters:
     franchise: kuroko_no_basket
-  threshold: 97%
+  threshold: 95.5%
   metadata:
     title_ru: Баскетбол Куроко
     image:
@@ -331,7 +331,7 @@
   algo: duration
   filters:
     franchise: shokugeki_no_souma
-  threshold: 100%
+  threshold: 96.2%
   metadata:
     title_ru: Повар-боец Сома
     image:
@@ -402,7 +402,7 @@
     - 23943
     - 24371
     - 32898
-  threshold: 95%
+  threshold: 60%
   metadata:
     title_ru: Мобильный воин Гандам
     image:
@@ -567,7 +567,7 @@
   algo: duration
   filters:
     franchise: durarara
-  threshold: 100%
+  threshold: 96.2%
   metadata:
     title_ru: Дюрарара!!
     image:
@@ -723,7 +723,7 @@
   algo: duration
   filters:
     franchise: full_metal_panic
-  threshold: 100%
+  threshold: 99%
   metadata:
     title_ru: Стальная тревога
     image:
@@ -738,7 +738,7 @@
     - 28911
     - 28913
     - 28915
-  threshold: 100%
+  threshold: 99%
   metadata:
     title_ru: Наброски Хидамари
     image:
@@ -813,7 +813,7 @@
     not_anime_ids:
     - 27829
     - 32264
-  threshold: 100%
+  threshold: 97.9%
   metadata:
     title_ru: Индекс волшебства
     image:
@@ -873,7 +873,7 @@
     not_anime_ids:
     - 9731
     - 11083
-  threshold: 100%
+  threshold: 98.9%
   metadata:
     title_ru: Внук Нурарихёна
     image:
@@ -933,7 +933,7 @@
     franchise: sword_art_online
     not_anime_ids:
     - 37831
-  threshold: 95%
+  threshold: 93.5%
   metadata:
     title_ru: Мастера Меча Онлайн
     image:
@@ -1175,7 +1175,7 @@
   algo: duration
   filters:
     franchise: tegamibachi
-  threshold: 95%
+  threshold: 87.2%
   metadata:
     title_ru: Почтовая пчела
     image:
@@ -1186,7 +1186,7 @@
   algo: duration
   filters:
     franchise: hetalia
-  threshold: 97%
+  threshold: 91.8%
   metadata:
     title_ru: Хеталия
     image:
@@ -1274,7 +1274,7 @@
   algo: duration
   filters:
     franchise: high_school_dxd
-  threshold: 97%
+  threshold: 92.2%
   metadata:
     title_ru: Старшая школа DxD
     image:
@@ -1322,7 +1322,7 @@
   algo: duration
   filters:
     franchise: minami_ke
-  threshold: 100%
+  threshold: 97.0%
   metadata:
     title_ru: Сёстры Минами
     image:
@@ -1344,7 +1344,7 @@
   algo: duration
   filters:
     franchise: fushigi_yuugi
-  threshold: 100%
+  threshold: 99%
   metadata:
     title_ru: Таинственная игра
     image:
@@ -1371,7 +1371,7 @@
     not_anime_ids:
     - 6226
     - 6743
-  threshold: 97%
+  threshold: 95.0%
   metadata:
     title_ru: Прославленный
     image:
@@ -1415,7 +1415,7 @@
   algo: duration
   filters:
     franchise: shakugan_no_shana
-  threshold: 97%
+  threshold: 95.6%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
@@ -1494,7 +1494,7 @@
   algo: duration
   filters:
     franchise: senki_zesshou_symphogear
-  threshold: 95%
+  threshold: 93.3%
   metadata:
     title_ru: Песня боевых принцесс
     image:
@@ -1595,7 +1595,7 @@
     franchise: seiren
     not_anime_ids:
     - 15951
-  threshold: 100%
+  threshold: 98.5%
   metadata:
     title_ru: Нежный укус
     image:
@@ -1850,7 +1850,7 @@
   algo: duration
   filters:
     franchise: di_gi_charat
-  threshold: 95%
+  threshold: 91.4%
   metadata:
     title_ru: Ди-Ги Карат
     image:
@@ -1960,7 +1960,7 @@
   algo: duration
   filters:
     franchise: sonic
-  threshold: 100%
+  threshold: 99%
   metadata:
     title_ru: Соник
     image:

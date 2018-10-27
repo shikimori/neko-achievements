@@ -111,7 +111,7 @@ end
 ```
 
 
-#### Remove specials percent
+#### Subtract specials and ova
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
