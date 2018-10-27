@@ -81,7 +81,7 @@ end
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
-ALLOWED_SPECIAL_IDS = [15711]
+ALLOWED_SPECIAL_IDS = [15711, 2269, 14007, 20667, 24371]
 
 data = YAML.
   load_file(franchise_yml).

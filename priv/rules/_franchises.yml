@@ -394,13 +394,9 @@
   filters:
     franchise: gundam
     not_anime_ids:
-    - 2269
     - 8839
-    - 14007
-    - 20667
     - 22435
     - 23943
-    - 24371
     - 32898
   threshold: 60%
   metadata:
@@ -688,9 +684,7 @@
   algo: duration
   filters:
     franchise: hikaru_no_go
-    not_anime_ids:
-    - 2336
-  threshold: 95.7%
+  threshold: 94.5%
   metadata:
     title_ru: Хикару и Го
     image:
