@@ -81,6 +81,8 @@ end
 
 ```ruby
 franchise_yml = "#{ENV['HOME']}/develop/neko-achievements/priv/rules/_franchises.yml";
+ALLOWED_SPECIAL_IDS = [15711]
+
 data = YAML.
   load_file(franchise_yml).
   each do |rule|
@@ -88,9 +90,10 @@ data = YAML.
       where(franchise: rule['filters']['franchise']).
       select(&:kind_special?).
       select do |v|
+        next if ALLOWED_SPECIAL_IDS.include?(v.id)
         v.name.match?(/\brecaps?\b|compilation movie|picture drama/i) ||
           v.description_en&.match?(/\brecaps?\b|compilation movie|picture drama/i) ||
-          v.description_ru&.match?(/\bрекап\b|\bобобщение\b|\bчиби\b/i)
+          v.description_ru&.match?(/\bрекап\b|\bобобщение\b|\bчиби\b|краткое содержание/i)
       end.
       map(&:id)
 

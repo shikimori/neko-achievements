@@ -932,6 +932,7 @@
   filters:
     franchise: sword_art_online
     not_anime_ids:
+    - 27891
     - 37831
   threshold: 93.5%
   metadata:
