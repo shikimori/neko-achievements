@@ -1,9 +1,9 @@
 ---
-- neko_id: boruto
+- neko_id: naruto
   level: 1
   algo: duration
   filters:
-    franchise: boruto
+    franchise: naruto
   threshold: 80%
   metadata:
     title_ru: Наруто
