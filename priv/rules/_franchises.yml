@@ -445,7 +445,7 @@
   algo: duration
   filters:
     franchise: free
-  threshold: 95%
+  threshold: 92.1%
   metadata:
     title_ru: Вольный стиль!
     image:
