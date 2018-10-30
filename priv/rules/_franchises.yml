@@ -440,6 +440,17 @@
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593349.jpg
     topic_id: 247360
+- neko_id: free
+  level: 1
+  algo: duration
+  filters:
+    franchise: free
+  threshold: 95%
+  metadata:
+    title_ru: Вольный стиль!
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/669387.jpg
+    topic_id: 247360
 - neko_id: clannad
   level: 1
   algo: duration
@@ -991,6 +1002,17 @@
     title_ru: Идолмастер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588509.jpg
+    topic_id: 247360
+- neko_id: sengoku_basara
+  level: 1
+  algo: duration
+  filters:
+    franchise: sengoku_basara
+  threshold: 89.1%
+  metadata:
+    title_ru: Эпоха смут
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/669388.jpg
     topic_id: 247360
 - neko_id: zettai_karen_children
   level: 1
@@ -2065,26 +2087,4 @@
     title_ru: Галактический Вихрь Брайгер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588514.jpg
-    topic_id: 247360
-- neko_id: free
-  level: 1
-  algo: duration
-  filters:
-    franchise: free
-  threshold: 95%
-  metadata:
-    title_ru: Вольный стиль!
-    image:
-    - https://moe.shikimori.org/system/user_images/original/34807/669387.jpg
-    topic_id: 247360
-- neko_id: sengoku_basara
-  level: 1
-  algo: duration
-  filters:
-    franchise: sengoku_basara
-  threshold: 89.1%
-  metadata:
-    title_ru: Эпоха смут
-    image:
-    - https://desu.shikimori.org/system/user_images/original/34807/669388.jpg
     topic_id: 247360
