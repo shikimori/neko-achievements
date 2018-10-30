@@ -2071,7 +2071,7 @@
   algo: duration
   filters:
     franchise: free
-  threshold: 100%
+  threshold: 95%
   metadata:
     title_ru: Вольный стиль!
     image:
@@ -2082,7 +2082,7 @@
   algo: duration
   filters:
     franchise: sengoku_basara
-  threshold: 100%
+  threshold: 89.1%
   metadata:
     title_ru: Эпоха смут
     image:
