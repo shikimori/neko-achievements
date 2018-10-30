@@ -1180,7 +1180,7 @@
   level: 1
   algo: duration
   filters:
-    franchise: koneko_no_chii
+    franchise: koneko_no_chi
   threshold: 100%
   metadata:
     title_ru: Милый дом Чи
@@ -2066,6 +2066,10 @@
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588514.jpg
     topic_id: 247360
+- neko_id: free
+  level: 1
+  algo: duration
+  filters:
     franchise: free
   threshold: 100%
   metadata:
@@ -2073,7 +2077,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/669387.jpg
     topic_id: 247360
-        franchise: sengoku_basara
+- neko_id: sengoku_basara
+  level: 1
+  algo: duration
+  filters:
+    franchise: sengoku_basara
   threshold: 100%
   metadata:
     title_ru: Эпоха смут
