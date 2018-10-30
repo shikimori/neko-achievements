@@ -1176,7 +1176,7 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/594921.jpg
     topic_id: 247360
-- neko_id: koneko_no_chii
+- neko_id: koneko_no_chi
   level: 1
   algo: duration
   filters:
@@ -2065,4 +2065,18 @@
     title_ru: Галактический Вихрь Брайгер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588514.jpg
+    topic_id: 247360
+    franchise: free
+  threshold: 100%
+  metadata:
+    title_ru: Вольный стиль!
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/669387.jpg
+    topic_id: 247360
+        franchise: sengoku_basara
+  threshold: 100%
+  metadata:
+    title_ru: Эпоха смут
+    image:
+    - https://desu.shikimori.org/system/user_images/original/34807/669388.jpg
     topic_id: 247360
