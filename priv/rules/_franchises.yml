@@ -363,7 +363,8 @@
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/585005.jpg
     topic_id: 247360
-    allowed_recap_ids:
+  generator:
+    not_ignored_ids:
     - 15711
 - neko_id: pokemon
   level: 1
@@ -486,7 +487,8 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/587962.jpg
     topic_id: 247360
-    allowed_recap_ids:
+  generator:
+    not_ignored_ids:
     - 2269
     - 14007
     - 20667
@@ -496,12 +498,18 @@
   algo: duration
   filters:
     franchise: shakugan_no_shana
-  threshold: 93.6%
+  threshold: 93.2%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
     - http://i.imgur.com/okj7B9r.png
     topic_id: 247360
+  generator:
+    ignored_ids:
+    - 14957
+    - 17551
+    - 28603
+    - 6330
 - neko_id: working
   level: 1
   algo: duration
@@ -1063,7 +1071,8 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588982.jpg
     topic_id: 247360
-    allowed_recap_ids:
+  generator:
+    not_ignored_ids:
     - 2336
 - neko_id: black_jack
   level: 1
