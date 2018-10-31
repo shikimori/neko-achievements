@@ -1094,6 +1094,9 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588567.jpg
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 4015
 - neko_id: tegamibachi
   level: 1
   algo: duration
