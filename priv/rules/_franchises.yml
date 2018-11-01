@@ -1152,11 +1152,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/592712.jpg
     topic_id: 247360
-- neko_id: aria_the_ova
+- neko_id: aria_the_origination
   level: 1
   algo: duration
   filters:
-    franchise: aria_the_ova
+    franchise: aria_the_origination
     not_anime_ids:
     - 5196
   threshold: 95.6%
@@ -1190,11 +1190,11 @@
     image:
     - http://oyster.ignimgs.com/wordpress/stg.ign.com/2014/02/24-black_jack.jpg
     topic_id: 247360
-- neko_id: yes_precure
+- neko_id: pretty_cure
   level: 1
   algo: duration
   filters:
-    franchise: yes_precure
+    franchise: pretty_cure
     not_anime_ids:
     - 10736
   threshold: 92.5%
