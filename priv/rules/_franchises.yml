@@ -476,11 +476,11 @@
     image:
     - http://i.imgur.com/u2Vw6JV.png
     topic_id: 247360
-- neko_id: snow_halation
+- neko_id: love_live
   level: 1
   algo: duration
   filters:
-    franchise: snow_halation
+    franchise: love_live
     not_anime_ids:
     - 21853
     - 36473
@@ -598,11 +598,11 @@
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/615494.jpg
     topic_id: 247360
-- neko_id: force_live
+- neko_id: uta_no_prince_sama
   level: 1
   algo: duration
   filters:
-    franchise: force_live
+    franchise: uta_no_prince_sama
   threshold: 97.6%
   metadata:
     title_ru: Поющий принц
