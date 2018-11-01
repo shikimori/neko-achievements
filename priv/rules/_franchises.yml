@@ -1774,11 +1774,11 @@
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588529.jpg
     topic_id: 247360
-- neko_id: believe
+- neko_id: time_bokan
   level: 1
   algo: duration
   filters:
-    franchise: believe
+    franchise: time_bokan
   threshold: 80%
   metadata:
     title_ru: Приключения во времени
