@@ -490,11 +490,11 @@
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587880.jpg
     topic_id: 247360
-- neko_id: moon_pride
+- neko_id: sailor_moon
   level: 1
   algo: duration
   filters:
-    franchise: moon_pride
+    franchise: sailor_moon
   threshold: 90%
   metadata:
     title_ru: Красавица-воин Сейлор Мун
