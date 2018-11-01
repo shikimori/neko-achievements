@@ -587,11 +587,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/584987.jpg
     topic_id: 247360
-- neko_id: tales_of_gekijou
+- neko_id: tales_of
   level: 1
   algo: duration
   filters:
-    franchise: tales_of_gekijou
+    franchise: tales_of
   threshold: 92.4%
   metadata:
     title_ru: Сказания
