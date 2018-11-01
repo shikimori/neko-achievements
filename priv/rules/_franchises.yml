@@ -977,11 +977,11 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/592671.jpg
     topic_id: 247360
-- neko_id: nen_joou
+- neko_id: ginga_tetsudou
   level: 1
   algo: duration
   filters:
-    franchise: nen_joou
+    franchise: ginga_tetsudou
     not_anime_ids:
     - 6733
     - 9344
