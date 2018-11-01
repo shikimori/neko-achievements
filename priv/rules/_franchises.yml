@@ -67,11 +67,11 @@
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/593360.jpg
     topic_id: 247360
-- neko_id: hanamonogatari
+- neko_id: bakemonogatari
   level: 1
   algo: duration
   filters:
-    franchise: hanamonogatari
+    franchise: bakemonogatari
     not_anime_ids:
     - 6948
     - 36796
