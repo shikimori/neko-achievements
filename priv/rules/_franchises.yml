@@ -10,11 +10,11 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/594952.jpg
     topic_id: 247360
-- neko_id: fate_zero
+- neko_id: nasuverse
   level: 1
   algo: duration
   filters:
-    franchise: fate_zero
+    franchise: nasuverse
     not_anime_ids:
     - 169
     - 2593
@@ -1235,11 +1235,11 @@
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/625320.jpg
     topic_id: 247360
-- neko_id: vivid_strike
+- neko_id: mahou_shoujo_lyrical_nanoha
   level: 1
   algo: duration
   filters:
-    franchise: vivid_strike
+    franchise: mahou_shoujo_lyrical_nanoha
     not_anime_ids:
     - 176
     - 4849
