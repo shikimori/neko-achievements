@@ -378,11 +378,11 @@
     image:
     - http://i.imgur.com/upFgMl5.png
     topic_id: 247360
-- neko_id: umineko_no_naku_koro_ni
+- neko_id: when_they_cry
   level: 1
   algo: duration
   filters:
-    franchise: umineko_no_naku_koro_ni
+    franchise: when_they_cry
   threshold: 95%
   metadata:
     title_ru: Когда плачут
