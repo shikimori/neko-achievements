@@ -32,6 +32,7 @@
     - 22763
     - 22847
     - 23697
+    - 36327
   threshold: 90%
   metadata:
     title_ru: Судьба
@@ -448,7 +449,7 @@
   algo: duration
   filters:
     franchise: free
-  threshold: 95%
+  threshold: 92.1%
   metadata:
     title_ru: Вольный стиль!
     image:
@@ -569,13 +570,12 @@
     - 17551
     - 14957
     - 1815
-  threshold: 93.6%
+  threshold: 95%
   metadata:
     title_ru: Пламенный взор Шаны
     image:
     - http://i.imgur.com/okj7B9r.png
     topic_id: 247360
-  generator:
 - neko_id: working
   level: 1
   algo: duration
@@ -614,6 +614,8 @@
   algo: duration
   filters:
     franchise: detective_conan
+    not_anime_ids:
+    - 35901
   threshold: 94.1%
   metadata:
     title_ru: Детектив Конан
@@ -779,6 +781,8 @@
   algo: duration
   filters:
     franchise: macross
+    not_anime_ids:
+    - 31494
   threshold: 95%
   metadata:
     title_ru: Макросс
@@ -865,6 +869,8 @@
   algo: duration
   filters:
     franchise: ikkitousen
+    not_anime_ids:
+    - 8507
   threshold: 95%
   metadata:
     title_ru: Сила тысячи
@@ -960,7 +966,9 @@
   algo: duration
   filters:
     franchise: eureka_seven
-  threshold: 95%
+    not_anime_ids:
+    - 1631
+  threshold: 96.2%
   metadata:
     title_ru: Эврика 7
     image:
@@ -1007,7 +1015,7 @@
   algo: duration
   filters:
     franchise: puchimas
-  threshold: 87.2%
+  threshold: 87.1%
   metadata:
     title_ru: Идолмастер
     image:
@@ -1018,7 +1026,9 @@
   algo: duration
   filters:
     franchise: sengoku_basara
-  threshold: 89.3%
+    not_anime_ids:
+    - 18549
+  threshold: 89.7%
   metadata:
     title_ru: Эпоха смут
     image:
@@ -1283,7 +1293,9 @@
   algo: duration
   filters:
     franchise: inazuma_eleven
-  threshold: 94.2%
+    not_anime_ids:
+    - 12585
+  threshold: 94.7%
   metadata:
     title_ru: Инадзума 11
     image:
@@ -1368,6 +1380,9 @@
   algo: duration
   filters:
     franchise: angelique
+    not_anime_ids:
+    - 5783
+    - 8180
   threshold: 95%
   metadata:
     title_ru: Анжелика
@@ -1634,7 +1649,9 @@
   algo: duration
   filters:
     franchise: aikatsu
-  threshold: 97.5%
+    not_anime_ids:
+    - 28723
+  threshold: 98.1%
   metadata:
     title_ru: Айкацу!
     image:
