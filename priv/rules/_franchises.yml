@@ -33,6 +33,7 @@
     - 22847
     - 23697
     - 36327
+    - 36729
   threshold: 90%
   metadata:
     title_ru: Судьба
@@ -132,7 +133,9 @@
   algo: duration
   filters:
     franchise: boku_no_hero_academia
-  threshold: 95.5%
+    not_anime_ids:
+    - 35262
+  threshold: 100%
   metadata:
     title_ru: Моя геройская академия
     image:
@@ -214,7 +217,9 @@
   algo: duration
   filters:
     franchise: nanatsu_no_taizai
-  threshold: 91.5%
+    not_anime_ids:
+    - 36923
+  threshold: 93.1%
   metadata:
     title_ru: Семь смертных грехов
     image:
@@ -358,7 +363,8 @@
     franchise: berserk
     not_anime_ids:
     - 35009
-  threshold: 95%
+    - 35676
+  threshold: 100%
   metadata:
     title_ru: Берсерк
     image:
@@ -427,7 +433,7 @@
     - 31373
     - 32699
     - 36835
-  threshold: 92.5%
+  threshold: 92.2%
   metadata:
     title_ru: Покемон
     image:
@@ -543,11 +549,12 @@
   filters:
     franchise: gundam
     not_anime_ids:
+    - 5351
     - 8839
     - 22435
     - 23943
     - 32898
-  threshold: 86%
+  threshold: 86.1%
   metadata:
     title_ru: Мобильный воин Гандам
     image:
@@ -1334,7 +1341,7 @@
   algo: duration
   filters:
     franchise: uchuu_senkan_yamato
-  threshold: 94.7%
+  threshold: 94.8%
   metadata:
     title_ru: Космический линкор Ямато
     image:
