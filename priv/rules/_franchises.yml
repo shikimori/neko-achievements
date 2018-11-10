@@ -14,7 +14,7 @@
   level: 0
   algo: duration
   filters: *1
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *2
 - neko_id: nasuverse
   level: 1
@@ -50,7 +50,7 @@
   level: 0
   algo: duration
   filters: *3
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *4
 - neko_id: shingeki_no_kyojin
   level: 1
@@ -71,7 +71,7 @@
   level: 0
   algo: duration
   filters: *5
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *6
 - neko_id: sword_art_online
   level: 1
@@ -91,7 +91,7 @@
   level: 0
   algo: duration
   filters: *7
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *8
 - neko_id: bakemonogatari
   level: 1
@@ -111,7 +111,7 @@
   level: 0
   algo: duration
   filters: *9
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *10
 - neko_id: kuroko_no_basket
   level: 1
@@ -128,7 +128,7 @@
   level: 0
   algo: duration
   filters: *11
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *12
 - neko_id: code_geass
   level: 1
@@ -157,7 +157,7 @@
   level: 0
   algo: duration
   filters: *13
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *14
 - neko_id: high_school_dxd
   level: 1
@@ -174,7 +174,7 @@
   level: 0
   algo: duration
   filters: *15
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *16
 - neko_id: boku_no_hero_academia
   level: 1
@@ -193,7 +193,7 @@
   level: 0
   algo: duration
   filters: *17
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *18
 - neko_id: kuroshitsuji
   level: 1
@@ -213,7 +213,7 @@
   level: 0
   algo: duration
   filters: *19
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *20
 - neko_id: fullmetal_alchemist
   level: 1
@@ -230,7 +230,7 @@
   level: 0
   algo: duration
   filters: *21
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *22
 - neko_id: fairy_tail
   level: 1
@@ -249,7 +249,7 @@
   level: 0
   algo: duration
   filters: *23
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *24
 - neko_id: shokugeki_no_souma
   level: 1
@@ -266,7 +266,7 @@
   level: 0
   algo: duration
   filters: *25
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *26
 - neko_id: durarara
   level: 1
@@ -283,7 +283,7 @@
   level: 0
   algo: duration
   filters: *27
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *28
 - neko_id: haikyuu
   level: 1
@@ -300,7 +300,7 @@
   level: 0
   algo: duration
   filters: *29
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *30
 - neko_id: nanatsu_no_taizai
   level: 1
@@ -319,7 +319,7 @@
   level: 0
   algo: duration
   filters: *31
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *32
 - neko_id: gintama
   level: 1
@@ -339,7 +339,7 @@
   level: 0
   algo: duration
   filters: *33
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *34
 - neko_id: one_piece
   level: 1
@@ -363,7 +363,7 @@
   level: 0
   algo: duration
   filters: *35
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *36
 - neko_id: koro_sensei_q
   level: 1
@@ -382,7 +382,7 @@
   level: 0
   algo: duration
   filters: *37
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *38
 - neko_id: zero_no_tsukaima
   level: 1
@@ -401,7 +401,7 @@
   level: 0
   algo: duration
   filters: *39
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *40
 - neko_id: ghost_in_the_shell
   level: 1
@@ -423,7 +423,7 @@
   level: 0
   algo: duration
   filters: *41
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *42
 - neko_id: suzumiya_haruhi_no_yuuutsu
   level: 1
@@ -440,7 +440,7 @@
   level: 0
   algo: duration
   filters: *43
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *44
 - neko_id: jojo_no_kimyou_na_bouken
   level: 1
@@ -459,7 +459,7 @@
   level: 0
   algo: duration
   filters: *45
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *46
 - neko_id: to_love_ru
   level: 1
@@ -476,7 +476,7 @@
   level: 0
   algo: duration
   filters: *47
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *48
 - neko_id: bleach
   level: 1
@@ -493,7 +493,7 @@
   level: 0
   algo: duration
   filters: *49
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *50
 - neko_id: natsume_yuujinchou
   level: 1
@@ -510,7 +510,7 @@
   level: 0
   algo: duration
   filters: *51
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *52
 - neko_id: berserk
   level: 1
@@ -530,7 +530,7 @@
   level: 0
   algo: duration
   filters: *53
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *54
 - neko_id: toaru_majutsu_no_index
   level: 1
@@ -550,7 +550,7 @@
   level: 0
   algo: duration
   filters: *55
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *56
 - neko_id: when_they_cry
   level: 1
@@ -567,7 +567,7 @@
   level: 0
   algo: duration
   filters: *57
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *58
 - neko_id: junjou_romantica
   level: 1
@@ -584,7 +584,7 @@
   level: 0
   algo: duration
   filters: *59
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *60
 - neko_id: bakuman
   level: 1
@@ -604,7 +604,7 @@
   level: 0
   algo: duration
   filters: *61
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *62
   generator: *63
 - neko_id: pokemon
@@ -630,7 +630,7 @@
   level: 0
   algo: duration
   filters: *64
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *65
 - neko_id: magi
   level: 1
@@ -647,7 +647,7 @@
   level: 0
   algo: duration
   filters: *66
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *67
 - neko_id: free
   level: 1
@@ -664,7 +664,7 @@
   level: 0
   algo: duration
   filters: *68
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *69
 - neko_id: clannad
   level: 1
@@ -681,7 +681,7 @@
   level: 0
   algo: duration
   filters: *70
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *71
 - neko_id: hunter_x_hunter
   level: 1
@@ -698,7 +698,7 @@
   level: 0
   algo: duration
   filters: *72
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *73
 - neko_id: love_live
   level: 1
@@ -718,7 +718,7 @@
   level: 0
   algo: duration
   filters: *74
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *75
 - neko_id: sailor_moon
   level: 1
@@ -735,7 +735,7 @@
   level: 0
   algo: duration
   filters: *76
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *77
 - neko_id: mushishi
   level: 1
@@ -752,7 +752,7 @@
   level: 0
   algo: duration
   filters: *78
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *79
 - neko_id: full_metal_panic
   level: 1
@@ -769,7 +769,7 @@
   level: 0
   algo: duration
   filters: *80
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *81
 - neko_id: initial_d
   level: 1
@@ -788,7 +788,7 @@
   level: 0
   algo: duration
   filters: *82
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *83
 - neko_id: gundam
   level: 1
@@ -817,7 +817,7 @@
   level: 0
   algo: duration
   filters: *84
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *85
   generator: *86
 - neko_id: shakugan_no_shana
@@ -841,7 +841,7 @@
   level: 0
   algo: duration
   filters: *87
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *88
 - neko_id: working
   level: 1
@@ -858,7 +858,7 @@
   level: 0
   algo: duration
   filters: *89
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *90
 - neko_id: tales_of
   level: 1
@@ -875,7 +875,7 @@
   level: 0
   algo: duration
   filters: *91
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *92
 - neko_id: uta_no_prince_sama
   level: 1
@@ -892,7 +892,7 @@
   level: 0
   algo: duration
   filters: *93
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *94
 - neko_id: detective_conan
   level: 1
@@ -911,7 +911,7 @@
   level: 0
   algo: duration
   filters: *95
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *96
 - neko_id: dragon_ball
   level: 1
@@ -928,7 +928,7 @@
   level: 0
   algo: duration
   filters: *97
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *98
 - neko_id: hajime_no_ippo
   level: 1
@@ -945,7 +945,7 @@
   level: 0
   algo: duration
   filters: *99
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *100
 - neko_id: rurouni_kenshin
   level: 1
@@ -964,7 +964,7 @@
   level: 0
   algo: duration
   filters: *101
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *102
 - neko_id: hetalia
   level: 1
@@ -981,7 +981,7 @@
   level: 0
   algo: duration
   filters: *103
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *104
 - neko_id: nurarihyon_no_mago
   level: 1
@@ -1001,7 +1001,7 @@
   level: 0
   algo: duration
   filters: *105
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *106
 - neko_id: blood
   level: 1
@@ -1020,7 +1020,7 @@
   level: 0
   algo: duration
   filters: *107
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *108
 - neko_id: major
   level: 1
@@ -1037,7 +1037,7 @@
   level: 0
   algo: duration
   filters: *109
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *110
 - neko_id: slayers
   level: 1
@@ -1054,7 +1054,7 @@
   level: 0
   algo: duration
   filters: *111
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *112
 - neko_id: seiren
   level: 1
@@ -1073,7 +1073,7 @@
   level: 0
   algo: duration
   filters: *113
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *114
 - neko_id: persona
   level: 1
@@ -1092,7 +1092,7 @@
   level: 0
   algo: duration
   filters: *115
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *116
 - neko_id: chiba_pedal
   level: 1
@@ -1109,7 +1109,7 @@
   level: 0
   algo: duration
   filters: *117
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *118
 - neko_id: jigoku_shoujo
   level: 1
@@ -1126,7 +1126,7 @@
   level: 0
   algo: duration
   filters: *119
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *120
 - neko_id: ushio_to_tora
   level: 1
@@ -1143,7 +1143,7 @@
   level: 0
   algo: duration
   filters: *121
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *122
 - neko_id: macross
   level: 1
@@ -1162,7 +1162,7 @@
   level: 0
   algo: duration
   filters: *123
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *124
 - neko_id: lupin_iii
   level: 1
@@ -1181,7 +1181,7 @@
   level: 0
   algo: duration
   filters: *125
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *126
 - neko_id: amon
   level: 1
@@ -1200,7 +1200,7 @@
   level: 0
   algo: duration
   filters: *127
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *128
 - neko_id: inuyasha
   level: 1
@@ -1217,7 +1217,7 @@
   level: 0
   algo: duration
   filters: *129
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *130
 - neko_id: tenchi_muyou
   level: 1
@@ -1239,7 +1239,7 @@
   level: 0
   algo: duration
   filters: *131
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *132
 - neko_id: negima
   level: 1
@@ -1256,7 +1256,7 @@
   level: 0
   algo: duration
   filters: *133
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *134
 - neko_id: minami_ke
   level: 1
@@ -1273,7 +1273,7 @@
   level: 0
   algo: duration
   filters: *135
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *136
 - neko_id: ikkitousen
   level: 1
@@ -1292,7 +1292,7 @@
   level: 0
   algo: duration
   filters: *137
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *138
 - neko_id: tennis_no_ouji_sama
   level: 1
@@ -1311,7 +1311,7 @@
   level: 0
   algo: duration
   filters: *139
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *140
 - neko_id: tsubasa
   level: 1
@@ -1328,7 +1328,7 @@
   level: 0
   algo: duration
   filters: *141
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *142
 - neko_id: aa_megami_sama
   level: 1
@@ -1345,7 +1345,7 @@
   level: 0
   algo: duration
   filters: *143
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *144
 - neko_id: utawarerumono
   level: 1
@@ -1365,7 +1365,7 @@
   level: 0
   algo: duration
   filters: *145
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *146
 - neko_id: garo
   level: 1
@@ -1384,7 +1384,7 @@
   level: 0
   algo: duration
   filters: *147
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *148
 - neko_id: selector_spread_wixoss
   level: 1
@@ -1401,7 +1401,7 @@
   level: 0
   algo: duration
   filters: *149
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *150
 - neko_id: genshiken
   level: 1
@@ -1418,7 +1418,7 @@
   level: 0
   algo: duration
   filters: *151
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *152
 - neko_id: eureka_seven
   level: 1
@@ -1437,7 +1437,7 @@
   level: 0
   algo: duration
   filters: *153
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *154
 - neko_id: megalo_box
   level: 1
@@ -1454,7 +1454,7 @@
   level: 0
   algo: duration
   filters: *155
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *156
 - neko_id: ginga_tetsudou
   level: 1
@@ -1474,7 +1474,7 @@
   level: 0
   algo: duration
   filters: *157
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *158
 - neko_id: hayate_no_gotoku
   level: 1
@@ -1491,7 +1491,7 @@
   level: 0
   algo: duration
   filters: *159
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *160
 - neko_id: puchimas
   level: 1
@@ -1508,7 +1508,7 @@
   level: 0
   algo: duration
   filters: *161
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *162
 - neko_id: sengoku_basara
   level: 1
@@ -1527,7 +1527,7 @@
   level: 0
   algo: duration
   filters: *163
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *164
 - neko_id: zettai_karen_children
   level: 1
@@ -1546,7 +1546,7 @@
   level: 0
   algo: duration
   filters: *165
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *166
 - neko_id: dmatsu_san
   level: 1
@@ -1563,7 +1563,7 @@
   level: 0
   algo: duration
   filters: *167
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *168
 - neko_id: cardcaptor_sakura
   level: 1
@@ -1582,7 +1582,7 @@
   level: 0
   algo: duration
   filters: *169
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *170
 - neko_id: baki
   level: 1
@@ -1599,7 +1599,7 @@
   level: 0
   algo: duration
   filters: *171
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *172
 - neko_id: hack_gift
   level: 1
@@ -1616,7 +1616,7 @@
   level: 0
   algo: duration
   filters: *173
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *174
 - neko_id: school_rumble
   level: 1
@@ -1636,7 +1636,7 @@
   level: 0
   algo: duration
   filters: *175
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *176
   generator: *177
 - neko_id: tegamibachi
@@ -1654,7 +1654,7 @@
   level: 0
   algo: duration
   filters: *178
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *179
 - neko_id: sket_dance
   level: 1
@@ -1671,7 +1671,7 @@
   level: 0
   algo: duration
   filters: *180
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *181
 - neko_id: aquarion_evol
   level: 1
@@ -1688,7 +1688,7 @@
   level: 0
   algo: duration
   filters: *182
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *183
 - neko_id: diamond_no_ace
   level: 1
@@ -1705,7 +1705,7 @@
   level: 0
   algo: duration
   filters: *184
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *185
 - neko_id: gatchaman
   level: 1
@@ -1722,7 +1722,7 @@
   level: 0
   algo: duration
   filters: *186
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *187
 - neko_id: aria_the_origination
   level: 1
@@ -1741,7 +1741,7 @@
   level: 0
   algo: duration
   filters: *188
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *189
 - neko_id: hikaru_no_go
   level: 1
@@ -1761,7 +1761,7 @@
   level: 0
   algo: duration
   filters: *190
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *191
   generator: *192
 - neko_id: black_jack
@@ -1779,7 +1779,7 @@
   level: 0
   algo: duration
   filters: *193
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *194
 - neko_id: pretty_cure
   level: 1
@@ -1798,7 +1798,7 @@
   level: 0
   algo: duration
   filters: *195
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *196
 - neko_id: queen_s_blade
   level: 1
@@ -1815,7 +1815,7 @@
   level: 0
   algo: duration
   filters: *197
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *198
 - neko_id: koneko_no_chi
   level: 1
@@ -1832,7 +1832,7 @@
   level: 0
   algo: duration
   filters: *199
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *200
 - neko_id: mahou_shoujo_lyrical_nanoha
   level: 1
@@ -1856,7 +1856,7 @@
   level: 0
   algo: duration
   filters: *201
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *202
 - neko_id: ginga_eiyuu_densetsu
   level: 1
@@ -1873,7 +1873,7 @@
   level: 0
   algo: duration
   filters: *203
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *204
 - neko_id: saint_seiya
   level: 1
@@ -1892,7 +1892,7 @@
   level: 0
   algo: duration
   filters: *205
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *206
 - neko_id: cardfight_vanguard
   level: 1
@@ -1909,7 +1909,7 @@
   level: 0
   algo: duration
   filters: *207
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *208
 - neko_id: inazuma_eleven
   level: 1
@@ -1928,7 +1928,7 @@
   level: 0
   algo: duration
   filters: *209
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *210
 - neko_id: sonic
   level: 1
@@ -1945,7 +1945,7 @@
   level: 0
   algo: duration
   filters: *211
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *212
 - neko_id: yu_gi_oh
   level: 1
@@ -1968,7 +1968,7 @@
   level: 0
   algo: duration
   filters: *213
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *214
 - neko_id: uchuu_senkan_yamato
   level: 1
@@ -1985,7 +1985,7 @@
   level: 0
   algo: duration
   filters: *215
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *216
 - neko_id: digimon_savers
   level: 1
@@ -2004,7 +2004,7 @@
   level: 0
   algo: duration
   filters: *217
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *218
 - neko_id: hokuto_no_ken
   level: 1
@@ -2021,7 +2021,7 @@
   level: 0
   algo: duration
   filters: *219
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *220
 - neko_id: slam_dunk
   level: 1
@@ -2038,7 +2038,7 @@
   level: 0
   algo: duration
   filters: *221
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *222
 - neko_id: angelique
   level: 1
@@ -2058,7 +2058,7 @@
   level: 0
   algo: duration
   filters: *223
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *224
 - neko_id: senki_zesshou_symphogear
   level: 1
@@ -2075,7 +2075,7 @@
   level: 0
   algo: duration
   filters: *225
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *226
 - neko_id: d_c
   level: 1
@@ -2094,7 +2094,7 @@
   level: 0
   algo: duration
   filters: *227
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *228
 - neko_id: saiyuuki_gaiden
   level: 1
@@ -2111,7 +2111,7 @@
   level: 0
   algo: duration
   filters: *229
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *230
 - neko_id: hidamari_sketch
   level: 1
@@ -2132,7 +2132,7 @@
   level: 0
   algo: duration
   filters: *231
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *232
 - neko_id: mai_hime
   level: 1
@@ -2149,7 +2149,7 @@
   level: 0
   algo: duration
   filters: *233
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *234
 - neko_id: fushigi_yuugi
   level: 1
@@ -2166,7 +2166,7 @@
   level: 0
   algo: duration
   filters: *235
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *236
 - neko_id: ranma
   level: 1
@@ -2183,7 +2183,7 @@
   level: 0
   algo: duration
   filters: *237
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *238
 - neko_id: iron_man
   level: 1
@@ -2200,7 +2200,7 @@
   level: 0
   algo: duration
   filters: *239
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *240
 - neko_id: saki
   level: 1
@@ -2220,7 +2220,7 @@
   level: 0
   algo: duration
   filters: *241
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *242
 - neko_id: soukyuu_no_fafner
   level: 1
@@ -2237,7 +2237,7 @@
   level: 0
   algo: duration
   filters: *243
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *244
 - neko_id: mobile_police_patlabor
   level: 1
@@ -2254,7 +2254,7 @@
   level: 0
   algo: duration
   filters: *245
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *246
 - neko_id: doraemon
   level: 1
@@ -2273,7 +2273,7 @@
   level: 0
   algo: duration
   filters: *247
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *248
 - neko_id: transformers
   level: 1
@@ -2290,7 +2290,7 @@
   level: 0
   algo: duration
   filters: *249
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *250
 - neko_id: toriko
   level: 1
@@ -2307,7 +2307,7 @@
   level: 0
   algo: duration
   filters: *251
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *252
 - neko_id: yuu_yuu_hakusho
   level: 1
@@ -2326,7 +2326,7 @@
   level: 0
   algo: duration
   filters: *253
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *254
 - neko_id: uchuu_kyoudai
   level: 1
@@ -2343,7 +2343,7 @@
   level: 0
   algo: duration
   filters: *255
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *256
 - neko_id: glass_no_kamen
   level: 1
@@ -2360,7 +2360,7 @@
   level: 0
   algo: duration
   filters: *257
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *258
 - neko_id: city_hunter
   level: 1
@@ -2377,7 +2377,7 @@
   level: 0
   algo: duration
   filters: *259
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *260
 - neko_id: taiho_shichau_zo
   level: 1
@@ -2394,7 +2394,7 @@
   level: 0
   algo: duration
   filters: *261
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *262
 - neko_id: pripara
   level: 1
@@ -2411,7 +2411,7 @@
   level: 0
   algo: duration
   filters: *263
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *264
 - neko_id: futari_wa_milky_holmes
   level: 1
@@ -2428,7 +2428,7 @@
   level: 0
   algo: duration
   filters: *265
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *266
 - neko_id: votoms_finder
   level: 1
@@ -2445,7 +2445,7 @@
   level: 0
   algo: duration
   filters: *267
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *268
 - neko_id: aikatsu
   level: 1
@@ -2464,7 +2464,7 @@
   level: 0
   algo: duration
   filters: *269
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *270
 - neko_id: urusei_yatsura
   level: 1
@@ -2481,7 +2481,7 @@
   level: 0
   algo: duration
   filters: *271
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *272
 - neko_id: ad_police
   level: 1
@@ -2498,7 +2498,7 @@
   level: 0
   algo: duration
   filters: *273
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *274
 - neko_id: to_heart
   level: 1
@@ -2515,7 +2515,7 @@
   level: 0
   algo: duration
   filters: *275
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *276
 - neko_id: maison_ikkoku
   level: 1
@@ -2532,7 +2532,7 @@
   level: 0
   algo: duration
   filters: *277
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *278
 - neko_id: kimagure_orange_road
   level: 1
@@ -2551,7 +2551,7 @@
   level: 0
   algo: duration
   filters: *279
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *280
 - neko_id: muumin
   level: 1
@@ -2568,7 +2568,7 @@
   level: 0
   algo: duration
   filters: *281
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *282
 - neko_id: candy_candy
   level: 1
@@ -2585,7 +2585,7 @@
   level: 0
   algo: duration
   filters: *283
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *284
 - neko_id: cyborg
   level: 1
@@ -2602,7 +2602,7 @@
   level: 0
   algo: duration
   filters: *285
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *286
 - neko_id: sakura_taisen
   level: 1
@@ -2619,7 +2619,7 @@
   level: 0
   algo: duration
   filters: *287
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *288
 - neko_id: ehon_yose
   level: 1
@@ -2636,7 +2636,7 @@
   level: 0
   algo: duration
   filters: *289
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *290
 - neko_id: kindaichi_shounen_no_jikenbo
   level: 1
@@ -2653,7 +2653,7 @@
   level: 0
   algo: duration
   filters: *291
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *292
 - neko_id: mazinkaiser
   level: 1
@@ -2670,7 +2670,7 @@
   level: 0
   algo: duration
   filters: *293
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *294
 - neko_id: time_bokan
   level: 1
@@ -2687,7 +2687,7 @@
   level: 0
   algo: duration
   filters: *295
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *296
 - neko_id: galaxy_angel
   level: 1
@@ -2704,7 +2704,7 @@
   level: 0
   algo: duration
   filters: *297
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *298
 - neko_id: space_cobra
   level: 1
@@ -2721,7 +2721,7 @@
   level: 0
   algo: duration
   filters: *299
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *300
 - neko_id: di_gi_charat
   level: 1
@@ -2738,7 +2738,7 @@
   level: 0
   algo: duration
   filters: *301
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *302
 - neko_id: cutey_honey
   level: 1
@@ -2755,7 +2755,7 @@
   level: 0
   algo: duration
   filters: *303
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *304
 - neko_id: dirty_pair
   level: 1
@@ -2772,7 +2772,7 @@
   level: 0
   algo: duration
   filters: *305
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *306
 - neko_id: el_hazard
   level: 1
@@ -2789,7 +2789,7 @@
   level: 0
   algo: duration
   filters: *307
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *308
 - neko_id: saber_marionette_j
   level: 1
@@ -2806,7 +2806,7 @@
   level: 0
   algo: duration
   filters: *309
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *310
 - neko_id: touch
   level: 1
@@ -2823,7 +2823,7 @@
   level: 0
   algo: duration
   filters: *311
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *312
 - neko_id: konjiki_no_gash_bell
   level: 1
@@ -2840,7 +2840,7 @@
   level: 0
   algo: duration
   filters: *313
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *314
 - neko_id: grendizer_giga
   level: 1
@@ -2857,7 +2857,7 @@
   level: 0
   algo: duration
   filters: *315
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *316
 - neko_id: mahoujin_guruguru
   level: 1
@@ -2874,7 +2874,7 @@
   level: 0
   algo: duration
   filters: *317
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *318
 - neko_id: tiger_mask
   level: 1
@@ -2891,7 +2891,7 @@
   level: 0
   algo: duration
   filters: *319
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *320
 - neko_id: captain_tsubasa
   level: 1
@@ -2908,7 +2908,7 @@
   level: 0
   algo: duration
   filters: *321
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *322
 - neko_id: ojamajo_doremi
   level: 1
@@ -2925,7 +2925,7 @@
   level: 0
   algo: duration
   filters: *323
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *324
 - neko_id: getter_robo
   level: 1
@@ -2942,7 +2942,7 @@
   level: 0
   algo: duration
   filters: *325
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *326
 - neko_id: kinnikuman
   level: 1
@@ -2959,7 +2959,7 @@
   level: 0
   algo: duration
   filters: *327
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *328
 - neko_id: super_robot_taisen_og
   level: 1
@@ -2976,7 +2976,7 @@
   level: 0
   algo: duration
   filters: *329
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *330
 - neko_id: rean_no_tsubasa
   level: 1
@@ -2993,7 +2993,7 @@
   level: 0
   algo: duration
   filters: *331
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *332
 - neko_id: zoids
   level: 1
@@ -3010,7 +3010,7 @@
   level: 0
   algo: duration
   filters: *333
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *334
 - neko_id: ultraman
   level: 1
@@ -3027,7 +3027,7 @@
   level: 0
   algo: duration
   filters: *335
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *336
 - neko_id: choujuu_kishin_dancougar
   level: 1
@@ -3044,7 +3044,7 @@
   level: 0
   algo: duration
   filters: *337
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *338
 - neko_id: dragon_quest
   level: 1
@@ -3061,7 +3061,7 @@
   level: 0
   algo: duration
   filters: *339
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *340
 - neko_id: mahou_no_princess_minky_momo
   level: 1
@@ -3078,7 +3078,7 @@
   level: 0
   algo: duration
   filters: *341
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *342
 - neko_id: juusenki_l_gaim
   level: 1
@@ -3095,7 +3095,7 @@
   level: 0
   algo: duration
   filters: *343
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *344
 - neko_id: super_doll_licca_chan
   level: 1
@@ -3112,7 +3112,7 @@
   level: 0
   algo: duration
   filters: *345
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *346
 - neko_id: haou_daikei_ryuu_knight
   level: 1
@@ -3129,7 +3129,7 @@
   level: 0
   algo: duration
   filters: *347
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *348
 - neko_id: obake_no_q_tarou
   level: 1
@@ -3146,7 +3146,7 @@
   level: 0
   algo: duration
   filters: *349
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *350
 - neko_id: pro_golfer_saru
   level: 1
@@ -3163,7 +3163,7 @@
   level: 0
   algo: duration
   filters: *351
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *352
 - neko_id: ginga_senpuu_braiger
   level: 1
@@ -3180,5 +3180,5 @@
   level: 0
   algo: duration
   filters: *353
-  threshold: 0.01
+  threshold: 0.01%
   metadata: *354
