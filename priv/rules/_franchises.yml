@@ -1493,18 +1493,18 @@
   filters: *159
   threshold: 0.01%
   metadata: *160
-- neko_id: puchimas
+- neko_id: idolmaster
   level: 1
   algo: duration
   filters: &161
-    franchise: puchimas
+    franchise: idolmaster
   threshold: 87.1%
   metadata: &162
     title_ru: Идолмастер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588509.jpg
     topic_id: 247360
-- neko_id: puchimas
+- neko_id: idolmaster
   level: 0
   algo: duration
   filters: *161
