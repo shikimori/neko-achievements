@@ -1056,11 +1056,11 @@
   filters: *111
   threshold: 0.01%
   metadata: *112
-- neko_id: seiren
+- neko_id: amagami_ss
   level: 1
   algo: duration
   filters: &113
-    franchise: seiren
+    franchise: amagami_ss
     not_anime_ids:
     - 15951
   threshold: 96.6%
@@ -1069,7 +1069,7 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/594937.jpg
     topic_id: 247360
-- neko_id: seiren
+- neko_id: amagami_ss
   level: 0
   algo: duration
   filters: *113
