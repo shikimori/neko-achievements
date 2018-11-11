@@ -1603,18 +1603,18 @@
   filters: *171
   threshold: 0.01%
   metadata: *172
-- neko_id: hack_gift
+- neko_id: hack
   level: 1
   algo: duration
   filters: &173
-    franchise: hack_gift
+    franchise: hack
   threshold: 94.7%
   metadata: &174
     title_ru: ".хак//"
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/594919.jpg
     topic_id: 247360
-- neko_id: hack_gift
+- neko_id: hack
   level: 0
   algo: duration
   filters: *173
