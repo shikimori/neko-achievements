@@ -1374,6 +1374,8 @@
     franchise: garo
     not_anime_ids:
     - 37032
+    - 33846
+    - 34613
   threshold: 94.3%
   metadata: &148
     title_ru: Гаро
