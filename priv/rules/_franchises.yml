@@ -1094,18 +1094,18 @@
   filters: *115
   threshold: 0.01%
   metadata: *116
-- neko_id: chiba_pedal
+- neko_id: yowamushi_pedal
   level: 1
   algo: duration
   filters: &117
-    franchise: chiba_pedal
+    franchise: yowamushi_pedal
   threshold: 95%
   metadata: &118
     title_ru: Трусливый велосипедист
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/587974.jpg
     topic_id: 247360
-- neko_id: chiba_pedal
+- neko_id: yowamushi_pedal
   level: 0
   algo: duration
   filters: *117
