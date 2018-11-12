@@ -77,11 +77,11 @@
   filters: *7
   threshold: 0.01%
   metadata: *8
-- neko_id: nasuverse
+- neko_id: fate
   level: 1
   algo: duration
   filters: &9
-    franchise: nasuverse
+    franchise: fate
     not_anime_ids:
     - 169
     - 2593
@@ -107,7 +107,7 @@
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/594725.jpg
     topic_id: 247360
-- neko_id: nasuverse
+- neko_id: fate
   level: 0
   algo: duration
   filters: *9
@@ -442,11 +442,11 @@
   filters: *47
   threshold: 0.01%
   metadata: *48
-- neko_id: koro_sensei_q
+- neko_id: ansatsu_kyoushitsu
   level: 1
   algo: duration
   filters: &49
-    franchise: koro_sensei_q
+    franchise: ansatsu_kyoushitsu
     not_anime_ids:
     - 33511
   threshold: 94.1%
@@ -455,7 +455,7 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/591716.jpg
     topic_id: 247360
-- neko_id: koro_sensei_q
+- neko_id: ansatsu_kyoushitsu
   level: 0
   algo: duration
   filters: *49
@@ -1028,15 +1028,15 @@
   filters: *116
   threshold: 0.01%
   metadata: *117
-- neko_id: mahouka_x_mameshiba
+- neko_id: mahouka_koukou_no_rettousei
   level: 1
   algo: duration
   filters: &118
-    franchise: mahouka_x_mameshiba
+    franchise: mahouka_koukou_no_rettousei
   threshold: 99.5%
   metadata: &119
     topic_id: 247360
-- neko_id: mahouka_x_mameshiba
+- neko_id: mahouka_koukou_no_rettousei
   level: 0
   algo: duration
   filters: *118
@@ -1625,11 +1625,11 @@
   filters: *187
   threshold: 0.01%
   metadata: *188
-- neko_id: amon
+- neko_id: devilman
   level: 1
   algo: duration
   filters: &189
-    franchise: amon
+    franchise: devilman
     not_anime_ids:
     - 35952
   threshold: 95%
@@ -1638,7 +1638,7 @@
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587860.jpg
     topic_id: 247360
-- neko_id: amon
+- neko_id: devilman
   level: 0
   algo: duration
   filters: *189
@@ -1839,18 +1839,18 @@
   filters: *211
   threshold: 0.01%
   metadata: *212
-- neko_id: megalo_box
+- neko_id: ashita_no_joe
   level: 1
   algo: duration
   filters: &213
-    franchise: megalo_box
+    franchise: ashita_no_joe
   threshold: 96.4%
   metadata: &214
     title_ru: Завтрашний Джо
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/592671.jpg
     topic_id: 247360
-- neko_id: megalo_box
+- neko_id: ashita_no_joe
   level: 0
   algo: duration
   filters: *213
@@ -2008,18 +2008,18 @@
   filters: *231
   threshold: 0.01%
   metadata: *232
-- neko_id: dmatsu_san
+- neko_id: osomatsu_san
   level: 1
   algo: duration
   filters: &233
-    franchise: dmatsu_san
+    franchise: osomatsu_san
   threshold: 95.5%
   metadata: &234
     title_ru: Осомацу
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593354.jpg
     topic_id: 247360
-- neko_id: dmatsu_san
+- neko_id: osomatsu_san
   level: 0
   algo: duration
   filters: *233
@@ -2253,18 +2253,18 @@
   filters: *260
   threshold: 0.01%
   metadata: *261
-- neko_id: aquarion_evol
+- neko_id: aquarion
   level: 1
   algo: duration
   filters: &262
-    franchise: aquarion_evol
+    franchise: aquarion
   threshold: 95%
   metadata: &263
     title_ru: Акварион
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/589085.jpg
     topic_id: 247360
-- neko_id: aquarion_evol
+- neko_id: aquarion
   level: 0
   algo: duration
   filters: *262
@@ -2318,11 +2318,11 @@
   filters: *268
   threshold: 0.01%
   metadata: *269
-- neko_id: aria_the_origination
+- neko_id: aria
   level: 1
   algo: duration
   filters: &270
-    franchise: aria_the_origination
+    franchise: aria
     not_anime_ids:
     - 5196
   threshold: 95.6%
@@ -2331,7 +2331,7 @@
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/573807.jpg
     topic_id: 247360
-- neko_id: aria_the_origination
+- neko_id: aria
   level: 0
   algo: duration
   filters: *270
@@ -2609,11 +2609,11 @@
   filters: *301
   threshold: 0.01%
   metadata: *302
-- neko_id: digimon_savers
+- neko_id: digimon
   level: 1
   algo: duration
   filters: &303
-    franchise: digimon_savers
+    franchise: digimon
     not_anime_ids:
     - 4712
   threshold: 93.6%
@@ -2622,7 +2622,7 @@
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/594733.jpg
     topic_id: 247360
-- neko_id: digimon_savers
+- neko_id: digimon
   level: 0
   algo: duration
   filters: *303
@@ -2659,18 +2659,18 @@
   filters: *307
   threshold: 0.01%
   metadata: *308
-- neko_id: saiyuuki_gaiden
+- neko_id: saiyuuki
   level: 1
   algo: duration
   filters: &309
-    franchise: saiyuuki_gaiden
+    franchise: saiyuuki
   threshold: 95%
   metadata: &310
     title_ru: Саюки
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/588842.jpg
     topic_id: 247360
-- neko_id: saiyuuki_gaiden
+- neko_id: saiyuuki
   level: 0
   algo: duration
   filters: *309
@@ -2849,18 +2849,18 @@
   filters: *329
   threshold: 0.01%
   metadata: *330
-- neko_id: iron_man
+- neko_id: marvel
   level: 1
   algo: duration
   filters: &331
-    franchise: iron_man
+    franchise: marvel
   threshold: 95%
   metadata: &332
     title_ru: Марвел
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/593812.jpg
     topic_id: 247360
-- neko_id: iron_man
+- neko_id: marvel
   level: 0
   algo: duration
   filters: *331
@@ -3346,18 +3346,18 @@
   filters: *387
   threshold: 0.01%
   metadata: *388
-- neko_id: ehon_yose
+- neko_id: gegege_no_kitarou
   level: 1
   algo: duration
   filters: &389
-    franchise: ehon_yose
+    franchise: gegege_no_kitarou
   threshold: 97.2%
   metadata: &390
     title_ru: Щелкунчик Китаро
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588958.jpg
     topic_id: 247360
-- neko_id: ehon_yose
+- neko_id: gegege_no_kitarou
   level: 0
   algo: duration
   filters: *389

@@ -34,7 +34,7 @@ user_id = 50587
 Neko.UserRate.load(user_id)
 
 rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen" && &1.level == 1)) |> Enum.at(0)
-rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "aria_the_origination" && &1.level == 1)) |> Enum.at(0)
+rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "aria" && &1.level == 1)) |> Enum.at(0)
 
 user_anime_ids = user_id |> Neko.UserRate.all() |> Enum.map(& &1.target_id) |> MapSet.new()
 user_animes_by_id = Neko.Anime.all_by_id() |> Map.take(user_anime_ids)
