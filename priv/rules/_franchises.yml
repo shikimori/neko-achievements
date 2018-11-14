@@ -2696,32 +2696,15 @@
   filters: *303
   threshold: 0.01%
   metadata: *304
-- neko_id: sonic
-  level: 1
-  algo: duration
-  filters: &305
-    franchise: sonic
-  threshold: 99.6%
-  metadata: &306
-    title_ru: Соник
-    image:
-    - https://moe.shikimori.org/system/user_images/original/84020/593372.jpg
-    topic_id: 247360
-- neko_id: sonic
-  level: 0
-  algo: duration
-  filters: *305
-  threshold: 0.01%
-  metadata: *306
 - neko_id: digimon
   level: 1
   algo: duration
-  filters: &307
+  filters: &305
     franchise: digimon
     not_anime_ids:
     - 4712
   threshold: 93.6%
-  metadata: &308
+  metadata: &306
     title_ru: Приключения Дигимонов
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/594733.jpg
@@ -2729,16 +2712,16 @@
 - neko_id: digimon
   level: 0
   algo: duration
-  filters: *307
+  filters: *305
   threshold: 0.01%
-  metadata: *308
+  metadata: *306
 - neko_id: slam_dunk
   level: 1
   algo: duration
-  filters: &309
+  filters: &307
     franchise: slam_dunk
   threshold: 98.7%
-  metadata: &310
+  metadata: &308
     title_ru: Слэм-данк
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588994.jpg
@@ -2746,16 +2729,16 @@
 - neko_id: slam_dunk
   level: 0
   algo: duration
-  filters: *309
+  filters: *307
   threshold: 0.01%
-  metadata: *310
+  metadata: *308
 - neko_id: saiyuuki
   level: 1
   algo: duration
-  filters: &311
+  filters: &309
     franchise: saiyuuki
   threshold: 94.3%
-  metadata: &312
+  metadata: &310
     title_ru: Саюки
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/588842.jpg
@@ -2763,33 +2746,33 @@
 - neko_id: saiyuuki
   level: 0
   algo: duration
-  filters: *311
+  filters: *309
   threshold: 0.01%
-  metadata: *312
+  metadata: *310
 - neko_id: ookiku_furikabutte
   level: 1
   algo: duration
-  filters: &313
+  filters: &311
     franchise: ookiku_furikabutte
   threshold: 95.8%
-  metadata: &314
+  metadata: &312
     topic_id: 247360
 - neko_id: ookiku_furikabutte
   level: 0
   algo: duration
-  filters: *313
+  filters: *311
   threshold: 0.01%
-  metadata: *314
+  metadata: *312
 - neko_id: angelique
   level: 1
   algo: duration
-  filters: &315
+  filters: &313
     franchise: angelique
     not_anime_ids:
     - 5783
     - 8180
   threshold: 95%
-  metadata: &316
+  metadata: &314
     title_ru: Анжелика
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/589046.jpg
@@ -2797,16 +2780,16 @@
 - neko_id: angelique
   level: 0
   algo: duration
-  filters: *315
+  filters: *313
   threshold: 0.01%
-  metadata: *316
+  metadata: *314
 - neko_id: senki_zesshou_symphogear
   level: 1
   algo: duration
-  filters: &317
+  filters: &315
     franchise: senki_zesshou_symphogear
   threshold: 93.3%
-  metadata: &318
+  metadata: &316
     title_ru: Песня боевых принцесс
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/592670.jpg
@@ -2814,18 +2797,18 @@
 - neko_id: senki_zesshou_symphogear
   level: 0
   algo: duration
-  filters: *317
+  filters: *315
   threshold: 0.01%
-  metadata: *318
+  metadata: *316
 - neko_id: d_c
   level: 1
   algo: duration
-  filters: &319
+  filters: &317
     franchise: d_c
     not_anime_ids:
     - 4508
   threshold: 95%
-  metadata: &320
+  metadata: &318
     title_ru: С начала
     image:
     - https://2.downloader.disk.yandex.ru/preview/69f29d45e660fec8f59171a268ebeef9b3be987821d1ecf74ce9c1a299b6d4c8/inf/Ulc4l6Nw6Zl9PBaWaDlZYbH6HhYsujK7PZz9isF_CzhjHyJWph6sbj8bsHUBYFIZSwQ_lmWczXB8jcT49jKoYg%3D%3D?uid=0&filename=da-capo-second-season-dc-da-capo-932345144.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
@@ -2833,47 +2816,47 @@
 - neko_id: d_c
   level: 0
   algo: duration
-  filters: *319
+  filters: *317
   threshold: 0.01%
-  metadata: *320
+  metadata: *318
 - neko_id: seikai_no_senki
   level: 1
   algo: duration
-  filters: &321
+  filters: &319
     franchise: seikai_no_senki
     not_anime_ids:
     - 399
     - 1381
   threshold: 97.5%
-  metadata: &322
+  metadata: &320
     topic_id: 247360
 - neko_id: seikai_no_senki
+  level: 0
+  algo: duration
+  filters: *319
+  threshold: 0.01%
+  metadata: *320
+- neko_id: binan_koukou_chikyuu_boueibu_love
+  level: 1
+  algo: duration
+  filters: &321
+    franchise: binan_koukou_chikyuu_boueibu_love
+  threshold: 100%
+  metadata: &322
+    topic_id: 247360
+- neko_id: binan_koukou_chikyuu_boueibu_love
   level: 0
   algo: duration
   filters: *321
   threshold: 0.01%
   metadata: *322
-- neko_id: binan_koukou_chikyuu_boueibu_love
-  level: 1
-  algo: duration
-  filters: &323
-    franchise: binan_koukou_chikyuu_boueibu_love
-  threshold: 100%
-  metadata: &324
-    topic_id: 247360
-- neko_id: binan_koukou_chikyuu_boueibu_love
-  level: 0
-  algo: duration
-  filters: *323
-  threshold: 0.01%
-  metadata: *324
 - neko_id: ranma
   level: 1
   algo: duration
-  filters: &325
+  filters: &323
     franchise: ranma
   threshold: 95%
-  metadata: &326
+  metadata: &324
     title_ru: Ранма 1/2
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593359.jpg
@@ -2881,16 +2864,16 @@
 - neko_id: ranma
   level: 0
   algo: duration
-  filters: *325
+  filters: *323
   threshold: 0.01%
-  metadata: *326
+  metadata: *324
 - neko_id: fushigi_yuugi
   level: 1
   algo: duration
-  filters: &327
+  filters: &325
     franchise: fushigi_yuugi
   threshold: 99.7%
-  metadata: &328
+  metadata: &326
     title_ru: Таинственная игра
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/588655.jpg
@@ -2898,20 +2881,20 @@
 - neko_id: fushigi_yuugi
   level: 0
   algo: duration
-  filters: *327
+  filters: *325
   threshold: 0.01%
-  metadata: *328
+  metadata: *326
 - neko_id: hidamari_sketch
   level: 1
   algo: duration
-  filters: &329
+  filters: &327
     franchise: hidamari_sketch
     not_anime_ids:
     - 28911
     - 28913
     - 28915
   threshold: 95%
-  metadata: &330
+  metadata: &328
     title_ru: Наброски Хидамари
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588522.jpg
@@ -2919,16 +2902,16 @@
 - neko_id: hidamari_sketch
   level: 0
   algo: duration
-  filters: *329
+  filters: *327
   threshold: 0.01%
-  metadata: *330
+  metadata: *328
 - neko_id: mai_hime
   level: 1
   algo: duration
-  filters: &331
+  filters: &329
     franchise: mai_hime
   threshold: 95.5%
-  metadata: &332
+  metadata: &330
     title_ru: Май-Химэ
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/593793.jpg
@@ -2936,30 +2919,30 @@
 - neko_id: mai_hime
   level: 0
   algo: duration
-  filters: *331
+  filters: *329
   threshold: 0.01%
-  metadata: *332
+  metadata: *330
 - neko_id: maria_sama
   level: 1
   algo: duration
-  filters: &333
+  filters: &331
     franchise: maria_sama
   threshold: 96.7%
-  metadata: &334
+  metadata: &332
     topic_id: 247360
 - neko_id: maria_sama
   level: 0
   algo: duration
-  filters: *333
+  filters: *331
   threshold: 0.01%
-  metadata: *334
+  metadata: *332
 - neko_id: marvel
   level: 1
   algo: duration
-  filters: &335
+  filters: &333
     franchise: marvel
   threshold: 95%
-  metadata: &336
+  metadata: &334
     title_ru: Марвел
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/593812.jpg
@@ -2967,18 +2950,18 @@
 - neko_id: marvel
   level: 0
   algo: duration
-  filters: *335
+  filters: *333
   threshold: 0.01%
-  metadata: *336
+  metadata: *334
 - neko_id: yuu_yuu_hakusho
   level: 1
   algo: duration
-  filters: &337
+  filters: &335
     franchise: yuu_yuu_hakusho
     not_anime_ids:
     - 6964
   threshold: 98.9%
-  metadata: &338
+  metadata: &336
     title_ru: Отчет о буйстве духов
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593491.jpg
@@ -2986,19 +2969,19 @@
 - neko_id: yuu_yuu_hakusho
   level: 0
   algo: duration
-  filters: *337
+  filters: *335
   threshold: 0.01%
-  metadata: *338
+  metadata: *336
 - neko_id: saki
   level: 1
   algo: duration
-  filters: &339
+  filters: &337
     franchise: saki
     not_anime_ids:
     - 7759
     - 30292
   threshold: 91%
-  metadata: &340
+  metadata: &338
     title_ru: Саки
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/594742.jpg
@@ -3006,16 +2989,16 @@
 - neko_id: saki
   level: 0
   algo: duration
-  filters: *339
+  filters: *337
   threshold: 0.01%
-  metadata: *340
+  metadata: *338
 - neko_id: soukyuu_no_fafner
   level: 1
   algo: duration
-  filters: &341
+  filters: &339
     franchise: soukyuu_no_fafner
   threshold: 94.1%
-  metadata: &342
+  metadata: &340
     title_ru: Небесный Фафнир
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593378.jpg
@@ -3023,16 +3006,16 @@
 - neko_id: soukyuu_no_fafner
   level: 0
   algo: duration
-  filters: *341
+  filters: *339
   threshold: 0.01%
-  metadata: *342
+  metadata: *340
 - neko_id: mobile_police_patlabor
   level: 1
   algo: duration
-  filters: &343
+  filters: &341
     franchise: mobile_police_patlabor
   threshold: 95%
-  metadata: &344
+  metadata: &342
     title_ru: Полиция будущего
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/573803.jpg
@@ -3040,16 +3023,16 @@
 - neko_id: mobile_police_patlabor
   level: 0
   algo: duration
-  filters: *343
+  filters: *341
   threshold: 0.01%
-  metadata: *344
+  metadata: *342
 - neko_id: toriko
   level: 1
   algo: duration
-  filters: &345
+  filters: &343
     franchise: toriko
   threshold: 98.1%
-  metadata: &346
+  metadata: &344
     title_ru: Торико
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593336.jpg
@@ -3057,16 +3040,16 @@
 - neko_id: toriko
   level: 0
   algo: duration
-  filters: *345
+  filters: *343
   threshold: 0.01%
-  metadata: *346
+  metadata: *344
 - neko_id: uchuu_kyoudai
   level: 1
   algo: duration
-  filters: &347
+  filters: &345
     franchise: uchuu_kyoudai
   threshold: 100%
-  metadata: &348
+  metadata: &346
     title_ru: Космические братья
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588566.jpg
@@ -3074,32 +3057,32 @@
 - neko_id: uchuu_kyoudai
   level: 0
   algo: duration
-  filters: *347
+  filters: *345
   threshold: 0.01%
-  metadata: *348
+  metadata: *346
 - neko_id: guyver
   level: 1
   algo: duration
-  filters: &349
+  filters: &347
     franchise: guyver
   threshold: 100%
-  metadata: &350
+  metadata: &348
     topic_id: 247360
 - neko_id: guyver
   level: 0
   algo: duration
-  filters: *349
+  filters: *347
   threshold: 0.01%
-  metadata: *350
+  metadata: *348
 - neko_id: doraemon
   level: 1
   algo: duration
-  filters: &351
+  filters: &349
     franchise: doraemon
     not_anime_ids:
     - 501
   threshold: 94.1%
-  metadata: &352
+  metadata: &350
     title_ru: Дораэмон
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/590513.jpg
@@ -3107,18 +3090,18 @@
 - neko_id: doraemon
   level: 0
   algo: duration
-  filters: *351
+  filters: *349
   threshold: 0.01%
-  metadata: *352
+  metadata: *350
 - neko_id: transformers
   level: 1
   algo: duration
-  filters: &353
+  filters: &351
     franchise: transformers
     not_anime_ids:
     - 6800
   threshold: 80%
-  metadata: &354
+  metadata: &352
     title_ru: Трансформеры
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588998.jpg
@@ -3126,16 +3109,16 @@
 - neko_id: transformers
   level: 0
   algo: duration
-  filters: *353
+  filters: *351
   threshold: 0.01%
-  metadata: *354
+  metadata: *352
 - neko_id: city_hunter
   level: 1
   algo: duration
-  filters: &355
+  filters: &353
     franchise: city_hunter
   threshold: 90.7%
-  metadata: &356
+  metadata: &354
     title_ru: Городской охотник
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/591793.jpg
@@ -3143,32 +3126,32 @@
 - neko_id: city_hunter
   level: 0
   algo: duration
-  filters: *355
+  filters: *353
   threshold: 0.01%
-  metadata: *356
+  metadata: *354
 - neko_id: tamayura
   level: 1
   algo: duration
-  filters: &357
+  filters: &355
     franchise: tamayura
     not_anime_ids:
     - 25169
   threshold: 94.7%
-  metadata: &358
+  metadata: &356
     topic_id: 247360
 - neko_id: tamayura
   level: 0
   algo: duration
-  filters: *357
+  filters: *355
   threshold: 0.01%
-  metadata: *358
+  metadata: *356
 - neko_id: glass_no_kamen
   level: 1
   algo: duration
-  filters: &359
+  filters: &357
     franchise: glass_no_kamen
   threshold: 95%
-  metadata: &360
+  metadata: &358
     title_ru: Стеклянная маска
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587850.jpg
@@ -3176,16 +3159,16 @@
 - neko_id: glass_no_kamen
   level: 0
   algo: duration
-  filters: *359
+  filters: *357
   threshold: 0.01%
-  metadata: *360
+  metadata: *358
 - neko_id: taiho_shichau_zo
   level: 1
   algo: duration
-  filters: &361
+  filters: &359
     franchise: taiho_shichau_zo
   threshold: 95%
-  metadata: &362
+  metadata: &360
     title_ru: Вы арестованы!
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/594753.jpg
@@ -3193,16 +3176,16 @@
 - neko_id: taiho_shichau_zo
   level: 0
   algo: duration
-  filters: *361
+  filters: *359
   threshold: 0.01%
-  metadata: *362
+  metadata: *360
 - neko_id: pripara
   level: 1
   algo: duration
-  filters: &363
+  filters: &361
     franchise: pripara
   threshold: 93.7%
-  metadata: &364
+  metadata: &362
     title_ru: При Пара
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588524.jpg
@@ -3210,32 +3193,32 @@
 - neko_id: pripara
   level: 0
   algo: duration
-  filters: *363
+  filters: *361
   threshold: 0.01%
-  metadata: *364
+  metadata: *362
 - neko_id: beyblade
   level: 1
   algo: duration
-  filters: &365
+  filters: &363
     franchise: beyblade
   threshold: 80%
-  metadata: &366
+  metadata: &364
     topic_id: 247360
 - neko_id: beyblade
   level: 0
   algo: duration
-  filters: *365
+  filters: *363
   threshold: 0.01%
-  metadata: *366
+  metadata: *364
 - neko_id: aikatsu
   level: 1
   algo: duration
-  filters: &367
+  filters: &365
     franchise: aikatsu
     not_anime_ids:
     - 28723
   threshold: 98.1%
-  metadata: &368
+  metadata: &366
     title_ru: Айкацу!
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588973.jpg
@@ -3243,16 +3226,16 @@
 - neko_id: aikatsu
   level: 0
   algo: duration
-  filters: *367
+  filters: *365
   threshold: 0.01%
-  metadata: *368
+  metadata: *366
 - neko_id: urusei_yatsura
   level: 1
   algo: duration
-  filters: &369
+  filters: &367
     franchise: urusei_yatsura
   threshold: 92.7%
-  metadata: &370
+  metadata: &368
     title_ru: Несносные пришельцы
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588516.jpg
@@ -3260,16 +3243,16 @@
 - neko_id: urusei_yatsura
   level: 0
   algo: duration
-  filters: *369
+  filters: *367
   threshold: 0.01%
-  metadata: *370
+  metadata: *368
 - neko_id: futari_wa_milky_holmes
   level: 1
   algo: duration
-  filters: &371
+  filters: &369
     franchise: futari_wa_milky_holmes
   threshold: 95%
-  metadata: &372
+  metadata: &370
     title_ru: Детективное агентство Милки Холмс
     image:
     - https://2.downloader.disk.yandex.ru/preview/f255dd6d3e0ba190d32b130ecd071d5eaa28f9e2da577b1e0110a43e835e3bd5/inf/Ulc4l6Nw6Zl9PBaWaDlZYefLsIFoOltZFV0zvVB7tdGBBsHO36izsJsnjnMu0B8L8Li-k66LBmBXLZsukw55lA%3D%3D?uid=0&filename=2332377690e929cc8cc545dee2e5c37033bf768c.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x510
@@ -3277,18 +3260,18 @@
 - neko_id: futari_wa_milky_holmes
   level: 0
   algo: duration
-  filters: *371
+  filters: *369
   threshold: 0.01%
-  metadata: *372
+  metadata: *370
 - neko_id: votoms_finder
   level: 1
   algo: duration
-  filters: &373
+  filters: &371
     franchise: votoms_finder
     not_anime_ids:
     - 12337
   threshold: 95%
-  metadata: &374
+  metadata: &372
     title_ru: Бронированные воины Вотомы
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593466.jpg
@@ -3296,16 +3279,16 @@
 - neko_id: votoms_finder
   level: 0
   algo: duration
-  filters: *373
+  filters: *371
   threshold: 0.01%
-  metadata: *374
+  metadata: *372
 - neko_id: ad_police
   level: 1
   algo: duration
-  filters: &375
+  filters: &373
     franchise: ad_police
   threshold: 95%
-  metadata: &376
+  metadata: &374
     title_ru: Кризис каждый день
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/593344.jpg
@@ -3313,18 +3296,18 @@
 - neko_id: ad_police
   level: 0
   algo: duration
-  filters: *375
+  filters: *373
   threshold: 0.01%
-  metadata: *376
+  metadata: *374
 - neko_id: maison_ikkoku
   level: 1
   algo: duration
-  filters: &377
+  filters: &375
     franchise: maison_ikkoku
     not_anime_ids:
     - 3483
   threshold: 98.9%
-  metadata: &378
+  metadata: &376
     title_ru: Доходный дом Иккоку
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/591782.jpg
@@ -3332,18 +3315,18 @@
 - neko_id: maison_ikkoku
   level: 0
   algo: duration
-  filters: *377
+  filters: *375
   threshold: 0.01%
-  metadata: *378
+  metadata: *376
 - neko_id: kimagure_orange_road
   level: 1
   algo: duration
-  filters: &379
+  filters: &377
     franchise: kimagure_orange_road
     not_anime_ids:
     - 14059
   threshold: 100%
-  metadata: &380
+  metadata: &378
     title_ru: Капризы Апельсиновой улицы
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/587931.jpg
@@ -3351,16 +3334,16 @@
 - neko_id: kimagure_orange_road
   level: 0
   algo: duration
-  filters: *379
+  filters: *377
   threshold: 0.01%
-  metadata: *380
+  metadata: *378
 - neko_id: muumin
   level: 1
   algo: duration
-  filters: &381
+  filters: &379
     franchise: muumin
   threshold: 98.6%
-  metadata: &382
+  metadata: &380
     title_ru: Муми-тролль
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/587882.jpg
@@ -3368,16 +3351,16 @@
 - neko_id: muumin
   level: 0
   algo: duration
-  filters: *381
+  filters: *379
   threshold: 0.01%
-  metadata: *382
+  metadata: *380
 - neko_id: to_heart
   level: 1
   algo: duration
-  filters: &383
+  filters: &381
     franchise: to_heart
   threshold: 94.4%
-  metadata: &384
+  metadata: &382
     title_ru: Для сердца
     image:
     - https://dere.shikimori.org/system/user_images/original/34807/588864.jpg
@@ -3385,16 +3368,16 @@
 - neko_id: to_heart
   level: 0
   algo: duration
-  filters: *383
+  filters: *381
   threshold: 0.01%
-  metadata: *384
+  metadata: *382
 - neko_id: candy_candy
   level: 1
   algo: duration
-  filters: &385
+  filters: &383
     franchise: candy_candy
   threshold: 100%
-  metadata: &386
+  metadata: &384
     title_ru: Кэнди-Кэнди
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/593346.jpg
@@ -3402,16 +3385,16 @@
 - neko_id: candy_candy
   level: 0
   algo: duration
-  filters: *385
+  filters: *383
   threshold: 0.01%
-  metadata: *386
+  metadata: *384
 - neko_id: cyborg
   level: 1
   algo: duration
-  filters: &387
+  filters: &385
     franchise: cyborg
   threshold: 95%
-  metadata: &388
+  metadata: &386
     title_ru: Киборг 009
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588532.jpg
@@ -3419,16 +3402,16 @@
 - neko_id: cyborg
   level: 0
   algo: duration
-  filters: *387
+  filters: *385
   threshold: 0.01%
-  metadata: *388
+  metadata: *386
 - neko_id: kindaichi_shounen_no_jikenbo
   level: 1
   algo: duration
-  filters: &389
+  filters: &387
     franchise: kindaichi_shounen_no_jikenbo
   threshold: 93.4%
-  metadata: &390
+  metadata: &388
     title_ru: Дело ведет юный детектив Киндаити
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/587869.jpg
@@ -3436,18 +3419,18 @@
 - neko_id: kindaichi_shounen_no_jikenbo
   level: 0
   algo: duration
-  filters: *389
+  filters: *387
   threshold: 0.01%
-  metadata: *390
+  metadata: *388
 - neko_id: sakura_taisen
   level: 1
   algo: duration
-  filters: &391
+  filters: &389
     franchise: sakura_taisen
     not_anime_ids:
     - 15127
   threshold: 95%
-  metadata: &392
+  metadata: &390
     title_ru: 'Сакура: Война миров'
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/588988.jpg
@@ -3455,18 +3438,18 @@
 - neko_id: sakura_taisen
   level: 0
   algo: duration
-  filters: *391
+  filters: *389
   threshold: 0.01%
-  metadata: *392
+  metadata: *390
 - neko_id: gegege_no_kitarou
   level: 1
   algo: duration
-  filters: &393
+  filters: &391
     franchise: gegege_no_kitarou
     not_anime_ids:
     - 10584
   threshold: 96.5%
-  metadata: &394
+  metadata: &392
     title_ru: Щелкунчик Китаро
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588958.jpg
@@ -3474,18 +3457,18 @@
 - neko_id: gegege_no_kitarou
   level: 0
   algo: duration
-  filters: *393
+  filters: *391
   threshold: 0.01%
-  metadata: *394
+  metadata: *392
 - neko_id: time_bokan
   level: 1
   algo: duration
-  filters: &395
+  filters: &393
     franchise: time_bokan
     not_anime_ids:
     - 8921
   threshold: 80%
-  metadata: &396
+  metadata: &394
     title_ru: Приключения во времени
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/624160.jpg
@@ -3493,16 +3476,16 @@
 - neko_id: time_bokan
   level: 0
   algo: duration
-  filters: *395
+  filters: *393
   threshold: 0.01%
-  metadata: *396
+  metadata: *394
 - neko_id: cutey_honey
   level: 1
   algo: duration
-  filters: &397
+  filters: &395
     franchise: cutey_honey
   threshold: 95%
-  metadata: &398
+  metadata: &396
     title_ru: Милашка Хани
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/587430.jpg
@@ -3510,16 +3493,16 @@
 - neko_id: cutey_honey
   level: 0
   algo: duration
-  filters: *397
+  filters: *395
   threshold: 0.01%
-  metadata: *398
+  metadata: *396
 - neko_id: mazinkaiser
   level: 1
   algo: duration
-  filters: &399
+  filters: &397
     franchise: mazinkaiser
   threshold: 93.3%
-  metadata: &400
+  metadata: &398
     title_ru: Мазинкайзер
     image:
     - https://dere.shikimori.org/system/user_images/original/84020/588529.jpg
@@ -3527,16 +3510,16 @@
 - neko_id: mazinkaiser
   level: 0
   algo: duration
-  filters: *399
+  filters: *397
   threshold: 0.01%
-  metadata: *400
+  metadata: *398
 - neko_id: galaxy_angel
   level: 1
   algo: duration
-  filters: &401
+  filters: &399
     franchise: galaxy_angel
   threshold: 95%
-  metadata: &402
+  metadata: &400
     title_ru: Галактический ангел
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/594916.jpg
@@ -3544,16 +3527,16 @@
 - neko_id: galaxy_angel
   level: 0
   algo: duration
-  filters: *401
+  filters: *399
   threshold: 0.01%
-  metadata: *402
+  metadata: *400
 - neko_id: space_cobra
   level: 1
   algo: duration
-  filters: &403
+  filters: &401
     franchise: space_cobra
   threshold: 98.3%
-  metadata: &404
+  metadata: &402
     title_ru: Космические приключения Кобры
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/587937.jpg
@@ -3561,16 +3544,16 @@
 - neko_id: space_cobra
   level: 0
   algo: duration
-  filters: *403
+  filters: *401
   threshold: 0.01%
-  metadata: *404
+  metadata: *402
 - neko_id: dirty_pair
   level: 1
   algo: duration
-  filters: &405
+  filters: &403
     franchise: dirty_pair
   threshold: 95%
-  metadata: &406
+  metadata: &404
     title_ru: Грязная парочка
     image:
     - https://nyaa.shikimori.org/system/user_images/original/84020/593340.jpg
@@ -3578,16 +3561,16 @@
 - neko_id: dirty_pair
   level: 0
   algo: duration
-  filters: *405
+  filters: *403
   threshold: 0.01%
-  metadata: *406
+  metadata: *404
 - neko_id: di_gi_charat
   level: 1
   algo: duration
-  filters: &407
+  filters: &405
     franchise: di_gi_charat
   threshold: 92.6%
-  metadata: &408
+  metadata: &406
     title_ru: Ди-Ги Карат
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588977.jpg
@@ -3595,16 +3578,16 @@
 - neko_id: di_gi_charat
   level: 0
   algo: duration
-  filters: *407
+  filters: *405
   threshold: 0.01%
-  metadata: *408
+  metadata: *406
 - neko_id: el_hazard
   level: 1
   algo: duration
-  filters: &409
+  filters: &407
     franchise: el_hazard
   threshold: 100%
-  metadata: &410
+  metadata: &408
     title_ru: Эль-Хазард
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/590462.jpg
@@ -3612,16 +3595,16 @@
 - neko_id: el_hazard
   level: 0
   algo: duration
-  filters: *409
+  filters: *407
   threshold: 0.01%
-  metadata: *410
+  metadata: *408
 - neko_id: saber_marionette_j
   level: 1
   algo: duration
-  filters: &411
+  filters: &409
     franchise: saber_marionette_j
   threshold: 100%
-  metadata: &412
+  metadata: &410
     title_ru: Воины-марионетки Джей
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/590456.jpg
@@ -3629,16 +3612,16 @@
 - neko_id: saber_marionette_j
   level: 0
   algo: duration
-  filters: *411
+  filters: *409
   threshold: 0.01%
-  metadata: *412
+  metadata: *410
 - neko_id: konjiki_no_gash_bell
   level: 1
   algo: duration
-  filters: &413
+  filters: &411
     franchise: konjiki_no_gash_bell
   threshold: 99.5%
-  metadata: &414
+  metadata: &412
     title_ru: Златовласый Гаш Белл
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/588672.jpg
@@ -3646,20 +3629,20 @@
 - neko_id: konjiki_no_gash_bell
   level: 0
   algo: duration
-  filters: *413
+  filters: *411
   threshold: 0.01%
-  metadata: *414
+  metadata: *412
 - neko_id: touch
   level: 1
   algo: duration
-  filters: &415
+  filters: &413
     franchise: touch
     not_anime_ids:
     - 2491
     - 2492
     - 2493
   threshold: 93.3%
-  metadata: &416
+  metadata: &414
     title_ru: Касание
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/593338.jpg
@@ -3667,16 +3650,16 @@
 - neko_id: touch
   level: 0
   algo: duration
-  filters: *415
+  filters: *413
   threshold: 0.01%
-  metadata: *416
+  metadata: *414
 - neko_id: mahoujin_guruguru
   level: 1
   algo: duration
-  filters: &417
+  filters: &415
     franchise: mahoujin_guruguru
   threshold: 99%
-  metadata: &418
+  metadata: &416
     title_ru: Волшебный круг Гуру-Гуру
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/587853.jpg
@@ -3684,16 +3667,16 @@
 - neko_id: mahoujin_guruguru
   level: 0
   algo: duration
-  filters: *417
+  filters: *415
   threshold: 0.01%
-  metadata: *418
+  metadata: *416
 - neko_id: grendizer_giga
   level: 1
   algo: duration
-  filters: &419
+  filters: &417
     franchise: grendizer_giga
   threshold: 99.9%
-  metadata: &420
+  metadata: &418
     title_ru: Грендайзер
     image:
     - https://desu.shikimori.org/system/user_images/original/84020/592653.jpg
@@ -3701,33 +3684,16 @@
 - neko_id: grendizer_giga
   level: 0
   algo: duration
-  filters: *419
+  filters: *417
   threshold: 0.01%
-  metadata: *420
-- neko_id: tiger_mask
-  level: 1
-  algo: duration
-  filters: &421
-    franchise: tiger_mask
-  threshold: 98.8%
-  metadata: &422
-    title_ru: Тигровая маска
-    image:
-    - https://nyaa.shikimori.org/system/user_images/original/84020/589000.jpg
-    topic_id: 247360
-- neko_id: tiger_mask
-  level: 0
-  algo: duration
-  filters: *421
-  threshold: 0.01%
-  metadata: *422
+  metadata: *418
 - neko_id: captain_tsubasa
   level: 1
   algo: duration
-  filters: &423
+  filters: &419
     franchise: captain_tsubasa
   threshold: 96.5%
-  metadata: &424
+  metadata: &420
     title_ru: Капитан Цубаса
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/594760.jpg
@@ -3735,224 +3701,16 @@
 - neko_id: captain_tsubasa
   level: 0
   algo: duration
-  filters: *423
+  filters: *419
   threshold: 0.01%
-  metadata: *424
-- neko_id: getter_robo
-  level: 1
-  algo: duration
-  filters: &425
-    franchise: getter_robo
-  threshold: 95%
-  metadata: &426
-    title_ru: Робот Геттер
-    image:
-    - https://dere.shikimori.org/system/user_images/original/34807/590469.jpg
-    topic_id: 247360
-- neko_id: getter_robo
-  level: 0
-  algo: duration
-  filters: *425
-  threshold: 0.01%
-  metadata: *426
-- neko_id: ojamajo_doremi
-  level: 1
-  algo: duration
-  filters: &427
-    franchise: ojamajo_doremi
-  threshold: 92%
-  metadata: &428
-    title_ru: Невезучая ведьма Дореми
-    image:
-    - https://desu.shikimori.org/system/user_images/original/34807/594193.jpg
-    topic_id: 247360
-- neko_id: ojamajo_doremi
-  level: 0
-  algo: duration
-  filters: *427
-  threshold: 0.01%
-  metadata: *428
-- neko_id: super_robot_taisen_og
-  level: 1
-  algo: duration
-  filters: &429
-    franchise: super_robot_taisen_og
-  threshold: 98.1%
-  metadata: &430
-    title_ru: Войны супер-роботов
-    image:
-    - https://moe.shikimori.org/system/user_images/original/100600/594912.jpg
-    topic_id: 247360
-- neko_id: super_robot_taisen_og
-  level: 0
-  algo: duration
-  filters: *429
-  threshold: 0.01%
-  metadata: *430
-- neko_id: kinnikuman
-  level: 1
-  algo: duration
-  filters: &431
-    franchise: kinnikuman
-  threshold: 94.1%
-  metadata: &432
-    title_ru: Человек-мускул
-    image:
-    - https://dere.shikimori.org/system/user_images/original/34807/587824.jpg
-    topic_id: 247360
-- neko_id: kinnikuman
-  level: 0
-  algo: duration
-  filters: *431
-  threshold: 0.01%
-  metadata: *432
-- neko_id: rean_no_tsubasa
-  level: 1
-  algo: duration
-  filters: &433
-    franchise: rean_no_tsubasa
-  threshold: 90%
-  metadata: &434
-    title_ru: Данбайн
-    image:
-    - https://nyaa.shikimori.org/system/user_images/original/34807/590450.jpg
-    topic_id: 247360
-- neko_id: rean_no_tsubasa
-  level: 0
-  algo: duration
-  filters: *433
-  threshold: 0.01%
-  metadata: *434
-- neko_id: zoids
-  level: 1
-  algo: duration
-  filters: &435
-    franchise: zoids
-  threshold: 95%
-  metadata: &436
-    title_ru: Зойды
-    image:
-    - https://desu.shikimori.org/system/user_images/original/34807/621268.jpg
-    topic_id: 247360
-- neko_id: zoids
-  level: 0
-  algo: duration
-  filters: *435
-  threshold: 0.01%
-  metadata: *436
-- neko_id: choujuu_kishin_dancougar
-  level: 1
-  algo: duration
-  filters: &437
-    franchise: choujuu_kishin_dancougar
-  threshold: 100%
-  metadata: &438
-    title_ru: Данкугар
-    image:
-    - https://kawai.shikimori.org/system/user_images/original/34807/588931.jpg
-    topic_id: 247360
-- neko_id: choujuu_kishin_dancougar
-  level: 0
-  algo: duration
-  filters: *437
-  threshold: 0.01%
-  metadata: *438
-- neko_id: ultraman
-  level: 1
-  algo: duration
-  filters: &439
-    franchise: ultraman
-  threshold: 95%
-  metadata: &440
-    title_ru: Ультрамен
-    image:
-    - https://desu.shikimori.org/system/user_images/original/84020/588518.jpg
-    topic_id: 247360
-- neko_id: ultraman
-  level: 0
-  algo: duration
-  filters: *439
-  threshold: 0.01%
-  metadata: *440
-- neko_id: dragon_quest
-  level: 1
-  algo: duration
-  filters: &441
-    franchise: dragon_quest
-  threshold: 96.5%
-  metadata: &442
-    title_ru: Драгон Квест
-    image:
-    - https://desu.shikimori.org/system/user_images/original/84020/588978.jpg
-    topic_id: 247360
-- neko_id: dragon_quest
-  level: 0
-  algo: duration
-  filters: *441
-  threshold: 0.01%
-  metadata: *442
-- neko_id: mahou_no_princess_minky_momo
-  level: 1
-  algo: duration
-  filters: &443
-    franchise: mahou_no_princess_minky_momo
-    not_anime_ids:
-    - 23129
-  threshold: 97%
-  metadata: &444
-    title_ru: Принцесса-волшебница Минки Момо
-    image:
-    - https://nyaa.shikimori.org/system/user_images/original/34807/593800.jpg
-    topic_id: 247360
-- neko_id: mahou_no_princess_minky_momo
-  level: 0
-  algo: duration
-  filters: *443
-  threshold: 0.01%
-  metadata: *444
-- neko_id: juusenki_l_gaim
-  level: 1
-  algo: duration
-  filters: &445
-    franchise: juusenki_l_gaim
-    not_anime_ids:
-    - 2600
-  threshold: 100%
-  metadata: &446
-    title_ru: Тяжёлый металл
-    image:
-    - https://moe.shikimori.org/system/user_images/original/34807/593807.jpg
-    topic_id: 247360
-- neko_id: juusenki_l_gaim
-  level: 0
-  algo: duration
-  filters: *445
-  threshold: 0.01%
-  metadata: *446
-- neko_id: super_doll_licca_chan
-  level: 1
-  algo: duration
-  filters: &447
-    franchise: super_doll_licca_chan
-  threshold: 95%
-  metadata: &448
-    title_ru: Суперкукла Ликка-тян
-    image:
-    - https://kawai.shikimori.org/system/user_images/original/34807/588646.jpg
-    topic_id: 247360
-- neko_id: super_doll_licca_chan
-  level: 0
-  algo: duration
-  filters: *447
-  threshold: 0.01%
-  metadata: *448
+  metadata: *420
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &449
+  filters: &421
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &450
+  metadata: &422
     title_ru: Властелин властелинов Рыцарь Рю
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588868.jpg
@@ -3960,33 +3718,16 @@
 - neko_id: haou_daikei_ryuu_knight
   level: 0
   algo: duration
-  filters: *449
+  filters: *421
   threshold: 0.01%
-  metadata: *450
-- neko_id: obake_no_q_tarou
-  level: 1
-  algo: duration
-  filters: &451
-    franchise: obake_no_q_tarou
-  threshold: 99.8%
-  metadata: &452
-    title_ru: Привидение Кью-Таро
-    image:
-    - https://desu.shikimori.org/system/user_images/original/84020/588513.jpg
-    topic_id: 247360
-- neko_id: obake_no_q_tarou
-  level: 0
-  algo: duration
-  filters: *451
-  threshold: 0.01%
-  metadata: *452
+  metadata: *422
 - neko_id: pro_golfer_saru
   level: 1
   algo: duration
-  filters: &453
+  filters: &423
     franchise: pro_golfer_saru
   threshold: 97.1%
-  metadata: &454
+  metadata: &424
     title_ru: Профессиональный гольфист Сару
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
@@ -3994,23 +3735,6 @@
 - neko_id: pro_golfer_saru
   level: 0
   algo: duration
-  filters: *453
+  filters: *423
   threshold: 0.01%
-  metadata: *454
-- neko_id: ginga_senpuu_braiger
-  level: 1
-  algo: duration
-  filters: &455
-    franchise: ginga_senpuu_braiger
-  threshold: 100%
-  metadata: &456
-    title_ru: Галактический Вихрь Брайгер
-    image:
-    - https://dere.shikimori.org/system/user_images/original/84020/588514.jpg
-    topic_id: 247360
-- neko_id: ginga_senpuu_braiger
-  level: 0
-  algo: duration
-  filters: *455
-  threshold: 0.01%
-  metadata: *456
+  metadata: *424
