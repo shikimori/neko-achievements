@@ -3632,68 +3632,13 @@
   filters: *411
   threshold: 0.01%
   metadata: *412
-- neko_id: touch
-  level: 1
-  algo: duration
-  filters: &413
-    franchise: touch
-    not_anime_ids:
-    - 2491
-    - 2492
-    - 2493
-  threshold: 93.3%
-  metadata: &414
-    title_ru: Касание
-    image:
-    - https://desu.shikimori.org/system/user_images/original/84020/593338.jpg
-    topic_id: 247360
-- neko_id: touch
-  level: 0
-  algo: duration
-  filters: *413
-  threshold: 0.01%
-  metadata: *414
-- neko_id: mahoujin_guruguru
-  level: 1
-  algo: duration
-  filters: &415
-    franchise: mahoujin_guruguru
-  threshold: 99%
-  metadata: &416
-    title_ru: Волшебный круг Гуру-Гуру
-    image:
-    - https://desu.shikimori.org/system/user_images/original/84020/587853.jpg
-    topic_id: 247360
-- neko_id: mahoujin_guruguru
-  level: 0
-  algo: duration
-  filters: *415
-  threshold: 0.01%
-  metadata: *416
-- neko_id: grendizer_giga
-  level: 1
-  algo: duration
-  filters: &417
-    franchise: grendizer_giga
-  threshold: 99.9%
-  metadata: &418
-    title_ru: Грендайзер
-    image:
-    - https://desu.shikimori.org/system/user_images/original/84020/592653.jpg
-    topic_id: 247360
-- neko_id: grendizer_giga
-  level: 0
-  algo: duration
-  filters: *417
-  threshold: 0.01%
-  metadata: *418
 - neko_id: captain_tsubasa
   level: 1
   algo: duration
-  filters: &419
+  filters: &413
     franchise: captain_tsubasa
   threshold: 96.5%
-  metadata: &420
+  metadata: &414
     title_ru: Капитан Цубаса
     image:
     - https://nyaa.shikimori.org/system/user_images/original/34807/594760.jpg
@@ -3701,16 +3646,16 @@
 - neko_id: captain_tsubasa
   level: 0
   algo: duration
-  filters: *419
+  filters: *413
   threshold: 0.01%
-  metadata: *420
+  metadata: *414
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &421
+  filters: &415
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &422
+  metadata: &416
     title_ru: Властелин властелинов Рыцарь Рю
     image:
     - https://desu.shikimori.org/system/user_images/original/34807/588868.jpg
@@ -3718,23 +3663,6 @@
 - neko_id: haou_daikei_ryuu_knight
   level: 0
   algo: duration
-  filters: *421
+  filters: *415
   threshold: 0.01%
-  metadata: *422
-- neko_id: pro_golfer_saru
-  level: 1
-  algo: duration
-  filters: &423
-    franchise: pro_golfer_saru
-  threshold: 97.1%
-  metadata: &424
-    title_ru: Профессиональный гольфист Сару
-    image:
-    - https://kawai.shikimori.org/system/user_images/original/84020/588511.jpg
-    topic_id: 247360
-- neko_id: pro_golfer_saru
-  level: 0
-  algo: duration
-  filters: *423
-  threshold: 0.01%
-  metadata: *424
+  metadata: *416
