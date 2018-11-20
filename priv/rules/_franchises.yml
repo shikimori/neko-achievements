@@ -2680,18 +2680,18 @@
   filters: *307
   threshold: 0.01%
   metadata: *308
-- neko_id: saiyuuki
+- neko_id: saiyuki
   level: 1
   algo: duration
   filters: &309
-    franchise: saiyuuki
+    franchise: saiyuki
   threshold: 94.3%
   metadata: &310
     title_ru: Саюки
     image:
     - https://moe.shikimori.org/system/user_images/original/34807/588842.jpg
     topic_id: 247360
-- neko_id: saiyuuki
+- neko_id: saiyuki
   level: 0
   algo: duration
   filters: *309
