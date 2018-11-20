@@ -1087,6 +1087,9 @@
     image:
     - https://kawai.shikimori.org/system/user_images/original/34807/573821.jpg
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 1240
 - neko_id: sailor_moon
   level: 0
   algo: duration
