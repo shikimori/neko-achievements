@@ -2692,32 +2692,32 @@
   filters: *292
   threshold: 0.01%
   metadata: *293
-- neko_id: saiyuki
+- neko_id: ookiku_furikabutte
   level: 1
   algo: duration
   filters: &294
-    franchise: saiyuki
-  threshold: 95%
+    franchise: ookiku_furikabutte
+  threshold: 95.8%
   metadata: &295
-    title_ru: Саюки
-    image:
-    - https://moe.shikimori.org/system/user_images/original/34807/588842.jpg
     topic_id: 247360
-- neko_id: saiyuki
+- neko_id: ookiku_furikabutte
   level: 0
   algo: duration
   filters: *294
   threshold: 0.01%
   metadata: *295
-- neko_id: ookiku_furikabutte
+- neko_id: saiyuki
   level: 1
   algo: duration
   filters: &296
-    franchise: ookiku_furikabutte
-  threshold: 95.8%
+    franchise: saiyuki
+  threshold: 95%
   metadata: &297
+    title_ru: Саюки
+    image:
+    - https://moe.shikimori.org/system/user_images/original/34807/588842.jpg
     topic_id: 247360
-- neko_id: ookiku_furikabutte
+- neko_id: saiyuki
   level: 0
   algo: duration
   filters: *296
