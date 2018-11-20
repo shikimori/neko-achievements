@@ -27,6 +27,7 @@
     - 23775
     - 23777
     - 35267
+    - 36702
   threshold: 95%
   metadata: &4
     title_ru: Вторжение гигантов
@@ -195,6 +196,7 @@
     - 33155
     - 33156
     - 33360
+    - 34440
   threshold: 95%
   metadata: &20
     title_ru: Код Гиас
@@ -384,6 +386,7 @@
   filters: &41
     franchise: gintama
     not_anime_ids:
+    - 7472
     - 19261
     - 37864
   threshold: 90%
@@ -1332,7 +1335,10 @@
   algo: duration
   filters: &143
     franchise: dragon_ball
-  threshold: 94.6%
+    not_anime_ids:
+    - 502
+    - 892
+  threshold: 95%
   metadata: &144
     title_ru: Драконий жемчуг
     image:
@@ -2085,7 +2091,9 @@
   algo: duration
   filters: &227
     franchise: selector_spread_wixoss
-  threshold: 95%
+    not_anime_ids:
+    - 31280
+  threshold: 98.7%
   metadata: &228
     title_ru: WIXOSS
     image:
