@@ -359,11 +359,12 @@
   filters: &38
     franchise: evangelion
     not_anime_ids:
+    - 31
     - 23023
     - 32311
     - 34085
     - 38055
-  threshold: 93.8%
+  threshold: 93.2%
   metadata: &39
     title_ru: Евангелион
     title_en: Evangelion
@@ -621,6 +622,7 @@
     - 2448
     - 10870
     - 10948
+    - 10949
     - 31617
   threshold: 86.7%
   metadata: &66
@@ -673,7 +675,9 @@
   algo: duration
   filters: &71
     franchise: kara_no_kyoukai
-  threshold: 91.1%
+    not_anime_ids:
+    - 6624
+  threshold: 90.3%
   metadata: &72
     topic_id: 247360
 - neko_id: kara_no_kyoukai
