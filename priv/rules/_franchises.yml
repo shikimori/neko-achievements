@@ -363,6 +363,10 @@
     - 38055
   threshold: 93.8%
   metadata: &39
+    title_ru: Евангелион
+    title_en: Evangelion
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/12671/685036.jpg
     topic_id: 247360
   generator: &40
     not_ignored_ids:
@@ -420,6 +424,10 @@
     franchise: chuunibyou_demo_koi_ga_shitai
   threshold: 87.6%
   metadata: &46
+    title_ru: Чудачества любви не помеха!
+    title_en: Chuunibyou demo Koi ga Shitai!
+    image:
+    - https://dere.shikimori.org/system/user_images/original/111580/685134.jpg
     topic_id: 247360
 - neko_id: chuunibyou_demo_koi_ga_shitai
   level: 0
@@ -459,6 +467,7 @@
   threshold: 100%
   metadata: &50
     title_ru: Волейбол!!
+    title_en: Haikyuu!!
     image:
     - https://kawai.shikimori.org/system/user_images/original/84020/588521.jpg
     topic_id: 247360
@@ -475,6 +484,10 @@
     franchise: kamisama_hajimemashita
   threshold: 100%
   metadata: &52
+    title_ru: Приятно познакомиться, Бог
+    title_en: Kamisama Hajimemashita
+    image:
+    - https://i.imgur.com/YgQvxkR.png
     topic_id: 247360
 - neko_id: kamisama_hajimemashita
   level: 0
@@ -571,6 +584,10 @@
     franchise: k_on
   threshold: 92.3%
   metadata: &62
+    title_ru: Кэйон!
+    title_en: K-On!
+    image:
+    - https://desu.shikimori.org/system/user_images/original/111580/685133.jpg
     topic_id: 247360
 - neko_id: k_on
   level: 0
@@ -578,24 +595,6 @@
   filters: *61
   threshold: 0.01%
   metadata: *62
-- neko_id: tengen_toppa_gurren_lagann
-  level: 1
-  algo: duration
-  filters: &63
-    franchise: tengen_toppa_gurren_lagann
-    not_anime_ids:
-    - 4705
-    - 6548
-    - 8348
-  threshold: 97.4%
-  metadata: &64
-    topic_id: 247360
-- neko_id: tengen_toppa_gurren_lagann
-  level: 0
-  algo: duration
-  filters: *63
-  threshold: 0.01%
-  metadata: *64
 - neko_id: darker_than_black
   level: 1
   algo: duration
@@ -778,6 +777,10 @@
     franchise: danganronpa
   threshold: 97.3%
   metadata: &86
+    title_ru: Данганронпа
+    title_en: Danganronpa
+    image:
+    - https://desu.shikimori.org/system/user_images/original/12671/685038.jpg
     topic_id: 247360
 - neko_id: danganronpa
   level: 0
@@ -817,6 +820,10 @@
     - 19845
   threshold: 75.6%
   metadata: &91
+    title_ru: Ну не может моя сестрёнка быть такой милой
+    title_en: OreImo
+    image:
+    - https://i.imgur.com/78ep3KX.png
     topic_id: 247360
 - neko_id: ore_no_imouto
   level: 0
@@ -831,6 +838,10 @@
     franchise: hellsing
   threshold: 96.1%
   metadata: &93
+    title_ru: Хеллсинг
+    title_en: Hellsing
+    image:
+    - https://moe.shikimori.org/system/user_images/original/12671/685042.jpg
     topic_id: 247360
 - neko_id: hellsing
   level: 0
@@ -926,6 +937,10 @@
     - 24227
   threshold: 100%
   metadata: &103
+    title_ru: Притворная любовь
+    title_en: Nisekoi
+    image:
+    - https://dere.shikimori.org/system/user_images/original/188354/685174.jpg
     topic_id: 247360
 - neko_id: nisekoi
   level: 0
@@ -974,6 +989,10 @@
     - 11583
   threshold: 95%
   metadata: &109
+    title_ru: Одному лишь Богу ведомый мир
+    title_en: Kami nomi zo Shiru Sekai
+    image:
+    - https://i.imgur.com/H4r0zgE.png
     topic_id: 247360
 - neko_id: kami_nomi_zo_shiru_sekai
   level: 0
@@ -1054,6 +1073,7 @@
     - 1240
     - 13931
     - 25375
+    - 8756
   threshold: 90%
   metadata: &117
     title_ru: Красавица-воин Сейлор Мун
@@ -1074,8 +1094,9 @@
   threshold: 94.6%
   metadata: &119
     title_ru: Стальная тревога
+    title_en: Full Metal Panic!
     image:
-    - http://i.imgur.com/JGlSJBR.png
+    - https://desu.shikimori.org/system/user_images/original/223136/685328.jpg
     topic_id: 247360
 - neko_id: full_metal_panic
   level: 0
@@ -1111,24 +1132,6 @@
   filters: *122
   threshold: 0.01%
   metadata: *123
-- neko_id: ajin
-  level: 1
-  algo: duration
-  filters: &124
-    franchise: ajin
-    not_anime_ids:
-    - 30870
-    - 30869
-    - 30868
-  threshold: 100%
-  metadata: &125
-    topic_id: 247360
-- neko_id: ajin
-  level: 0
-  algo: duration
-  filters: *124
-  threshold: 0.01%
-  metadata: *125
 - neko_id: gundam
   level: 1
   algo: duration
@@ -1296,6 +1299,10 @@
     franchise: seitokai_yakuindomo
   threshold: 100%
   metadata: &144
+    title_ru: Члены школьного совета
+    title_en: Seitokai Yakuindomo
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/223136/685150.jpg
     topic_id: 247360
 - neko_id: seitokai_yakuindomo
   level: 0
@@ -1418,6 +1425,10 @@
     franchise: xxxholic
   threshold: 100%
   metadata: &158
+    title_ru: Триплексоголик
+    title_en: xxxHOLiC
+    image:
+    - https://kawai.shikimori.org/system/user_images/original/223136/685306.jpg
     topic_id: 247360
 - neko_id: xxxholic
   level: 0
@@ -1432,6 +1443,10 @@
     franchise: rozen_maiden
   threshold: 94.1%
   metadata: &160
+    title_ru: Девы Розена
+    title_en: Rozen Maiden
+    image:
+    - https://dere.shikimori.org/system/user_images/original/223136/685309.jpg
     topic_id: 247360
 - neko_id: rozen_maiden
   level: 0
@@ -1501,6 +1516,10 @@
     franchise: sayonara_zetsubou_sensei
   threshold: 95%
   metadata: &168
+    title_ru: Прощай, унылый учитель
+    title_en: Sayonara Zetsubou Sensei
+    image:
+    - https://nyaa.shikimori.org/system/user_images/original/188354/685160.jpg
     topic_id: 247360
 - neko_id: sayonara_zetsubou_sensei
   level: 0
@@ -1532,6 +1551,10 @@
     franchise: yuru_yuri
   threshold: 94.5%
   metadata: &172
+    title_ru: Лилии на ветру
+    title_en: Yuru Yuri
+    image:
+    - https://i.imgur.com/HRQeGHz.png
     topic_id: 247360
 - neko_id: yuru_yuri
   level: 0
@@ -1548,6 +1571,10 @@
     - 31128
   threshold: 97.2%
   metadata: &174
+    title_ru: Сказание об Арслане
+    title_en: Arslan Senki
+    image:
+    - https://i.imgur.com/nn5DZiv.png
     topic_id: 247360
 - neko_id: arslan_senki
   level: 0
@@ -1684,6 +1711,10 @@
     franchise: hibike_euphonium
   threshold: 94.7%
   metadata: &190
+    title_ru: Звучи, эуфониум!
+    title_en: Hibike! Euphonium
+    image:
+    - https://i.imgur.com/YQSr7sx.png
     topic_id: 247360
 - neko_id: hibike_euphonium
   level: 0
@@ -2159,23 +2190,6 @@
   filters: *241
   threshold: 0.01%
   metadata: *242
-- neko_id: appleseed
-  level: 1
-  algo: duration
-  filters: &243
-    franchise: appleseed
-    not_anime_ids:
-    - 10693
-    - 10689
-  threshold: 100%
-  metadata: &244
-    topic_id: 247360
-- neko_id: appleseed
-  level: 0
-  algo: duration
-  filters: *243
-  threshold: 0.01%
-  metadata: *244
 - neko_id: sengoku_basara
   level: 1
   algo: duration
@@ -2214,25 +2228,6 @@
   filters: *247
   threshold: 0.01%
   metadata: *248
-- neko_id: zettai_karen_children
-  level: 1
-  algo: duration
-  filters: &249
-    franchise: zettai_karen_children
-    not_anime_ids:
-    - 5849
-  threshold: 100%
-  metadata: &250
-    title_ru: Восхитительные дети
-    image:
-    - https://kawai.shikimori.org/system/user_images/original/34807/587936.jpg
-    topic_id: 247360
-- neko_id: zettai_karen_children
-  level: 0
-  algo: duration
-  filters: *249
-  threshold: 0.01%
-  metadata: *250
 - neko_id: baki
   level: 1
   algo: duration
@@ -2250,23 +2245,6 @@
   filters: *251
   threshold: 0.01%
   metadata: *252
-- neko_id: sket_dance
-  level: 1
-  algo: duration
-  filters: &253
-    franchise: sket_dance
-  threshold: 98.7%
-  metadata: &254
-    title_ru: Скет Данс
-    image:
-    - https://moe.shikimori.org/system/user_images/original/84020/593367.jpg
-    topic_id: 247360
-- neko_id: sket_dance
-  level: 0
-  algo: duration
-  filters: *253
-  threshold: 0.01%
-  metadata: *254
 - neko_id: hack
   level: 1
   algo: duration
@@ -2346,6 +2324,10 @@
     franchise: yozakura_quartet
   threshold: 99.2%
   metadata: &265
+    title_ru: Вишнёвый квартет
+    title_en: Yozakura Quartet
+    image:
+    - https://i.imgur.com/Rm6G34O.png
     topic_id: 247360
 - neko_id: yozakura_quartet
   level: 0
@@ -2428,6 +2410,7 @@
   threshold: 95.6%
   metadata: &275
     title_ru: Ария
+    title_en: Aria
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/573807.jpg
     topic_id: 247360
@@ -2453,27 +2436,6 @@
   filters: *276
   threshold: 0.01%
   metadata: *277
-- neko_id: hikaru_no_go
-  level: 1
-  algo: duration
-  filters: &278
-    franchise: hikaru_no_go
-  threshold: 94.5%
-  metadata: &279
-    title_ru: Хикару и Го
-    image:
-    - https://moe.shikimori.org/system/user_images/original/84020/588982.jpg
-    topic_id: 247360
-  generator: &280
-    not_ignored_ids:
-    - 2336
-- neko_id: hikaru_no_go
-  level: 0
-  algo: duration
-  filters: *278
-  threshold: 0.01%
-  metadata: *279
-  generator: *280
 - neko_id: black_jack
   level: 1
   algo: duration
@@ -2570,20 +2532,6 @@
   filters: *289
   threshold: 0.01%
   metadata: *290
-- neko_id: touken_ranbu
-  level: 1
-  algo: duration
-  filters: &291
-    franchise: touken_ranbu
-  threshold: 100%
-  metadata: &292
-    topic_id: 247360
-- neko_id: touken_ranbu
-  level: 0
-  algo: duration
-  filters: *291
-  threshold: 0.01%
-  metadata: *292
 - neko_id: saint_seiya
   level: 1
   algo: duration
@@ -2829,6 +2777,10 @@
     - 1381
   threshold: 97.5%
   metadata: &320
+    title_ru: Звёздный герб
+    title_en: Seikai no Monshou
+    image:
+    - https://i.imgur.com/1tifaMY.png
     topic_id: 247360
 - neko_id: seikai_no_senki
   level: 0
@@ -2896,6 +2848,7 @@
   threshold: 95%
   metadata: &328
     title_ru: Наброски Хидамари
+    title_en: Hidamari Sketch
     image:
     - https://moe.shikimori.org/system/user_images/original/84020/588522.jpg
     topic_id: 247360
@@ -3371,23 +3324,6 @@
   filters: *381
   threshold: 0.01%
   metadata: *382
-- neko_id: candy_candy
-  level: 1
-  algo: duration
-  filters: &383
-    franchise: candy_candy
-  threshold: 100%
-  metadata: &384
-    title_ru: Кэнди-Кэнди
-    image:
-    - https://kawai.shikimori.org/system/user_images/original/84020/593346.jpg
-    topic_id: 247360
-- neko_id: candy_candy
-  level: 0
-  algo: duration
-  filters: *383
-  threshold: 0.01%
-  metadata: *384
 - neko_id: cyborg
   level: 1
   algo: duration
