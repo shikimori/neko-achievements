@@ -1693,8 +1693,8 @@
     franchise: hoozuki_no_reitetsu
   threshold: 100%
   metadata: &181
-    title_ru: Hoozuki no Reitetsu
-    title_en: Хладнокровный Хозуки
+    title_ru: Хладнокровный Хозуки
+    title_en: Hoozuki no Reitetsu
     image: "/assets/achievements/anime/franchise/hoozuki_no_reitetsu.jpg"
     topic_id: 247360
 - neko_id: hoozuki_no_reitetsu
