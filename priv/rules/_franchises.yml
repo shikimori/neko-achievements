@@ -136,7 +136,7 @@
   metadata: &14
     title_ru: Токийский гуль
     title_en: Tokyo Ghoul
-    image: https://kawai.shikimori.org/system/user_images/original/34807/624136.jpg
+    image: "/assets/achievements/anime/franchise/tokyo_ghoul.jpg"
     topic_id: 247360
 - neko_id: tokyo_ghoul
   level: 0
@@ -277,10 +277,10 @@
   filters: &27
     franchise: fairy_tail
     not_anime_ids:
+    - 246
     - 11511
     - 12121
-    - 246
-  threshold: 96.5%
+  threshold: 95.9%
   metadata: &28
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
@@ -982,7 +982,7 @@
   metadata: &104
     title_ru: Проект Кей
     title_en: K
-    image: https://nyaa.shikimori.org/system/user_images/original/29386/688555.jpg
+    image: "/assets/achievements/anime/franchise/k.jpg"
     topic_id: 247360
 - neko_id: k
   level: 0
@@ -1145,7 +1145,7 @@
   metadata: &122
     title_ru: Утраченное небесами
     title_en: Sora no Otoshimono
-    image: https://dere.shikimori.org/system/user_images/original/34807/688774.jpg
+    image: "/assets/achievements/anime/franchise/sora_no_otoshimono.jpg"
     topic_id: 247360
 - neko_id: sora_no_otoshimono
   level: 0
@@ -1274,7 +1274,7 @@
   metadata: &135
     title_ru: Сказание о демонах сакуры
     title_en: Hakuouki
-    image: https://nyaa.shikimori.org/system/user_images/original/34807/688770.jpg
+    image: "/assets/achievements/anime/franchise/hakuouki.jpg"
     topic_id: 247360
 - neko_id: hakuouki
   level: 0
@@ -1710,7 +1710,7 @@
     not_anime_ids:
     - 31989
     - 35082
-  threshold: 94.7%
+  threshold: 93.2%
   metadata: &183
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -1949,7 +1949,7 @@
   metadata: &207
     title_ru: Собачьи дни
     title_en: Dog Days
-    image: https://moe.shikimori.org/system/user_images/original/3824/688642.jpg
+    image: "/assets/achievements/anime/franchise/dog_days.jpg"
     topic_id: 247360
 - neko_id: dog_days
   level: 0
@@ -2060,7 +2060,7 @@
   metadata: &219
     title_ru: Маленькие проказники!
     title_en: Little Busters!
-    image: https://nyaa.shikimori.org/system/user_images/original/34807/688765.jpg
+    image: "/assets/achievements/anime/franchise/little_busters.jpg"
     topic_id: 247360
 - neko_id: little_busters
   level: 0
@@ -2384,7 +2384,7 @@
   metadata: &256
     title_ru: Золотая струна
     title_en: Kiniro no Corda
-    image: https://kawai.shikimori.org/system/user_images/original/34807/688761.jpg
+    image: "/assets/achievements/anime/franchise/kiniro_no_corda.jpg"
     topic_id: 247360
 - neko_id: kiniro_no_corda
   level: 0
@@ -2434,9 +2434,9 @@
   filters: &261
     franchise: tiger_bunny
     not_anime_ids:
-    - 30178
     - 12015
-  threshold: 98%
+    - 30178
+  threshold: 97.7%
   metadata: &262
     title_ru: Тигр и кролик
     title_en: Tiger & Bunny
@@ -2813,7 +2813,7 @@
   metadata: &302
     title_ru: Красавцы из клуба защитников Земли
     title_en: Binan Koukou Chikyuu Boueibu LOVE!
-    image: https://moe.shikimori.org/system/user_images/original/34807/688757.jpg
+    image: "/assets/achievements/anime/franchise/binan_koukou_chikyuu_boueibu_love.jpg"
     topic_id: 247360
 - neko_id: binan_koukou_chikyuu_boueibu_love
   level: 0
@@ -3100,7 +3100,7 @@
   metadata: &334
     title_ru: Тамаюра
     title_en: Tamayura
-    image: https://dere.shikimori.org/system/user_images/original/34807/688754.jpg
+    image: "/assets/achievements/anime/franchise/tamayura.jpg"
     topic_id: 247360
 - neko_id: tamayura
   level: 0
