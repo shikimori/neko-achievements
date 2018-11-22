@@ -279,14 +279,13 @@
     not_anime_ids:
     - 11511
     - 12121
+    - 246
   threshold: 96.5%
   metadata: &28
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
     image: "/assets/achievements/anime/franchise/fairy_tail.jpg"
     topic_id: 247360
-    not_anime_ids:
-    - 246
 - neko_id: fairy_tail
   level: 0
   algo: duration
