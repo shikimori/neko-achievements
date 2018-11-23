@@ -2,7 +2,7 @@
   neko_id: romance
   level: 1
   algo: count
-  threshold: 65
+  threshold: 50
   filters:
     genre_ids:
       - 22
@@ -15,7 +15,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 130
+  threshold: 110
   metadata:
     title_ru: Первое признание в любви.
     text_ru: Если ты не признаешься, она никогда не узнает о твоих чувствах.
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 260
+  threshold: 200
   metadata:
     title_ru: Конфетно-букетный период
     text_ru: Любовь — это желание отдавать.
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 350
+  threshold: 320
   metadata:
     title_ru: Эксперт в отношениях
     text_ru: Сердце, полное любви.
