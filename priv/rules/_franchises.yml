@@ -682,7 +682,7 @@
   metadata: &70
     title_ru: Блич
     title_en: Bleach
-    image: "/assets/achievements/anime/franchise/bleach.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/29386/689394.jpg
     topic_id: 247360
 - neko_id: bleach
   level: 0
@@ -701,7 +701,7 @@
   metadata: &72
     title_ru: Граница пустоты
     title_en: Kara no Kyoukai
-    image: "/assets/achievements/anime/franchise/kara_no_kyoukai.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/29386/689398.jpg
     topic_id: 247360
 - neko_id: kara_no_kyoukai
   level: 0
@@ -883,9 +883,9 @@
     franchise: when_they_cry
   threshold: 95%
   metadata: &93
-    title_ru: Когда плачут
-    title_en: When They Cry
-    image: "/assets/achievements/anime/franchise/when_they_cry.png"
+    title_ru: Когда плачут цикады
+    title_en: Higurashi no Naku Koro ni
+    image: https://dere.shikimori.org/system/user_images/original/12671/689439.jpg
     topic_id: 247360
 - neko_id: when_they_cry
   level: 0
@@ -902,7 +902,7 @@
   metadata: &95
     title_ru: Маги
     title_en: Magi
-    image: "/assets/achievements/anime/franchise/magi.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/29386/689400.jpg
     topic_id: 247360
 - neko_id: magi
   level: 0
@@ -1112,7 +1112,7 @@
   metadata: &117
     title_ru: Красавица-воин Сейлор Мун
     title_en: Bishoujo Senshi Sailor Moon
-    image: "/assets/achievements/anime/franchise/sailor_moon.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/12671/689421.jpg
     topic_id: 247360
   generator: &118
     not_ignored_ids:
@@ -1500,7 +1500,7 @@
   metadata: &159
     title_ru: Нодамэ Кантабиле
     title_en: Nodame Cantabile
-    image: "/assets/achievements/anime/franchise/nodame_cantabile.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/29386/688966.jpg
     topic_id: 247360
 - neko_id: nodame_cantabile
   level: 0
@@ -1815,7 +1815,7 @@
   metadata: &193
     title_ru: Волшебный учитель Нэгима!
     title_en: Mahou Sensei Negima!
-    image: "/assets/achievements/anime/franchise/negima.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/29386/689401.jpg
     topic_id: 247360
 - neko_id: negima
   level: 0
@@ -2445,7 +2445,7 @@
   metadata: &262
     title_ru: Тигр и кролик
     title_en: Tiger & Bunny
-    image: "/assets/achievements/anime/franchise/tiger_bunny.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/29386/689402.jpg
     topic_id: 247360
 - neko_id: tiger_bunny
   level: 0
@@ -2524,7 +2524,7 @@
   metadata: &270
     title_ru: Лиричная волшебница Наноха
     title_en: Mahou Shoujo Lyrical Nanoha
-    image: "/assets/achievements/anime/franchise/mahou_shoujo_lyrical_nanoha.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/29386/689404.jpg
     topic_id: 247360
 - neko_id: mahou_shoujo_lyrical_nanoha
   level: 0
@@ -2541,7 +2541,7 @@
   metadata: &272
     title_ru: Клинок королевы
     title_en: Queen's Blade
-    image: "/assets/achievements/anime/franchise/queen_s_blade.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/29386/689405.jpg
     topic_id: 247360
 - neko_id: queen_s_blade
   level: 0
@@ -2708,7 +2708,7 @@
   metadata: &290
     title_ru: Замахнись сильнее
     title_en: Ookiku Furikabutte
-    image: 
+    image: https://kawai.shikimori.org/system/user_images/thumbnail/188354/688436.jpg
     topic_id: 247360
 - neko_id: ookiku_furikabutte
   level: 0
@@ -2762,7 +2762,7 @@
   metadata: &296
     title_ru: Песня боевых принцесс
     title_en: Senki Zesshou Symphogear
-    image: "/assets/achievements/anime/franchise/senki_zesshou_symphogear.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/29386/689406.jpg
     topic_id: 247360
 - neko_id: senki_zesshou_symphogear
   level: 0
@@ -3010,6 +3010,8 @@
   algo: duration
   filters: &323
     franchise: toriko
+    not_anime_ids:
+    - 1178
   threshold: 98.1%
   metadata: &324
     title_ru: Торико
@@ -3173,7 +3175,7 @@
   metadata: &342
     title_ru: Бейблэйд
     title_en: Beyblade
-    image: 
+    image: https://dere.shikimori.org/system/user_images/original/34807/689289.jpg
     topic_id: 247360
 - neko_id: beyblade
   level: 0
