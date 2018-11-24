@@ -7,7 +7,7 @@
   "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], [], "hexpm"},
   "credo": {:hex, :credo, "0.10.0", "66234a95effaf9067edb19fc5d0cd5c6b461ad841baac42467afed96c78e5e9e", [:mix], [{:bunt, "~> 0.2.0", [hex: :bunt, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
   "decorator": {:hex, :decorator, "1.2.3", "258681ae943e57bd92d821ea995e3994b4e0b62ae8404b5d892cb8b23b55b050", [:mix], [], "hexpm"},
-  "distillery": {:hex, :distillery, "2.0.9", "1e03e1bd97c0cd1187ce5882143fcc44812aa54d8c61b093801fab053bf07c98", [:mix], [{:artificery, "~> 0.2", [hex: :artificery, repo: "hexpm", optional: false]}], "hexpm"},
+  "distillery": {:hex, :distillery, "2.0.12", "6e78fe042df82610ac3fa50bd7d2d8190ad287d120d3cd1682d83a44e8b34dfb", [:mix], [{:artificery, "~> 0.2", [hex: :artificery, repo: "hexpm", optional: false]}], "hexpm"},
   "edeliver": {:hex, :edeliver, "1.6.0", "8bfdde1b7ff57deb12fa604c4087b4e15a7aa72d7b3d3d310602ca92c038f3ff", [:mix], [{:distillery, "~> 2.0", [hex: :distillery, repo: "hexpm", optional: true]}], "hexpm"},
   "exconstructor": {:hex, :exconstructor, "1.1.0", "272623a7b203cb2901c20cbb92c5c3ab103cc0087ff7c881979e046043346752", [:mix], [], "hexpm"},
   "hackney": {:hex, :hackney, "1.14.0", "66e29e78feba52176c3a4213d42b29bdc4baff93a18cfe480f73b04677139dee", [:rebar3], [{:certifi, "2.4.2", [hex: :certifi, repo: "hexpm", optional: false]}, {:idna, "6.0.0", [hex: :idna, repo: "hexpm", optional: false]}, {:metrics, "1.0.1", [hex: :metrics, repo: "hexpm", optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, repo: "hexpm", optional: false]}, {:ssl_verify_fun, "1.1.4", [hex: :ssl_verify_fun, repo: "hexpm", optional: false]}], "hexpm"},
