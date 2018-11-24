@@ -171,17 +171,17 @@
   filters: &17
     franchise: science_adventure
     not_anime_ids:
-    - 34753
     - 4975
     - 13599
-    - 32962
     - 30485
+    - 32962
+    - 34753
     - 35315
-  threshold: 95%
+  threshold: 96.1%
   metadata: &18
     title_ru: Врата Штейна
     title_en: Steins;Gate
-    image: https://desu.shikimori.org/system/user_images/original/223136/688908.jpg
+    image: "/assets/achievements/anime/franchise/science_adventure.jpg"
     topic_id: 247360
 - neko_id: science_adventure
   level: 0
@@ -332,7 +332,7 @@
   metadata: &33
     title_ru: Повелитель
     title_en: Overlord
-    image: https://kawai.shikimori.org/system/user_images/original/223136/688906.jpg
+    image: "/assets/achievements/anime/franchise/overlord.jpg"
     topic_id: 247360
 - neko_id: overlord
   level: 0
@@ -349,7 +349,7 @@
   metadata: &35
     title_ru: Синий экзорцист
     title_en: Ao no Exorcist
-    image: https://moe.shikimori.org/system/user_images/original/223136/688907.jpg
+    image: "/assets/achievements/anime/franchise/ao_no_exorcist.jpg"
     topic_id: 247360
 - neko_id: ao_no_exorcist
   level: 0
@@ -1894,7 +1894,7 @@
   metadata: &201
     title_ru: Бакуган
     title_en: Bakugan
-    image: https://dere.shikimori.org/system/user_images/original/50587/688939.jpg
+    image: "/assets/achievements/anime/franchise/baku_tech_bakugan.jpg"
     topic_id: 247360
 - neko_id: baku_tech_bakugan
   level: 0
