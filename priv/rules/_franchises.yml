@@ -885,7 +885,7 @@
   metadata: &93
     title_ru: Когда плачут цикады
     title_en: Higurashi no Naku Koro ni
-    image: "/assets/achievements/anime/franchise/when_they_cry.png"
+    image: https://dere.shikimori.org/system/user_images/original/12671/689439.jpg
     topic_id: 247360
 - neko_id: when_they_cry
   level: 0
@@ -1112,7 +1112,7 @@
   metadata: &117
     title_ru: Красавица-воин Сейлор Мун
     title_en: Bishoujo Senshi Sailor Moon
-    image: "/assets/achievements/anime/franchise/sailor_moon.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/12671/689421.jpg
     topic_id: 247360
   generator: &118
     not_ignored_ids:
