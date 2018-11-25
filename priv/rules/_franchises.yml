@@ -1593,7 +1593,7 @@
   metadata: &169
     title_ru: Нежный укус
     title_en: Amagami SS
-    image: "/assets/achievements/anime/franchise/amagami_ss.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/34807/690043.jpg
     topic_id: 247360
 - neko_id: amagami_ss
   level: 0
