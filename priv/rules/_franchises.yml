@@ -2801,7 +2801,7 @@
   metadata: &300
     title_ru: Звёздный герб
     title_en: Seikai no Monshou
-    image: "/assets/achievements/anime/franchise/seikai_no_senki.png"
+    image: https://camo-v2.shikimori.org/2a5b6aeae13ae22e8f2a810f1255366fdbdb62d9?url=https%3A%2F%2Fi.imgur.com%2F95vpb7v.png
     topic_id: 247360
 - neko_id: seikai_no_senki
   level: 0
