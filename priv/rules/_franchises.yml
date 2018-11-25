@@ -735,7 +735,7 @@
   metadata: &76
     title_ru: Любовные неприятности
     title_en: To LOVE-Ru
-    image: "/assets/achievements/anime/franchise/to_love_ru.png"
+    image: https://moe.shikimori.org/system/user_images/original/12671/689717.jpg
     topic_id: 247360
 - neko_id: to_love_ru
   level: 0
@@ -1894,7 +1894,7 @@
   metadata: &201
     title_ru: Бакуган
     title_en: Bakugan
-    image: "/assets/achievements/anime/franchise/baku_tech_bakugan.jpg"
+    image: https://camo-v2.shikimori.org/87f5f326f92467947fb581083c3e4d42c47bc8bb?url=https%3A%2F%2Fi.imgur.com%2FF7XF4L0.jpg
     topic_id: 247360
 - neko_id: baku_tech_bakugan
   level: 0
@@ -1935,7 +1935,7 @@
   metadata: &205
     title_ru: Гаро
     title_en: Garo
-    image: "/assets/achievements/anime/franchise/garo.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/12671/689720.jpg
     topic_id: 247360
 - neko_id: garo
   level: 0
@@ -2065,7 +2065,7 @@
   metadata: &219
     title_ru: Маленькие проказники!
     title_en: Little Busters!
-    image: "/assets/achievements/anime/franchise/little_busters.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/12671/689715.jpg
     topic_id: 247360
 - neko_id: little_busters
   level: 0
@@ -2266,7 +2266,7 @@
   metadata: &241
     title_ru: ".хак//"
     title_en: ".hack//"
-    image: "/assets/achievements/anime/franchise/hack.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/12671/689722.jpg
     topic_id: 247360
 - neko_id: hack
   level: 0
@@ -2425,7 +2425,7 @@
   metadata: &260
     title_ru: Ария
     title_en: Aria
-    image: "/assets/achievements/anime/franchise/aria.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/12671/689716.jpg
     topic_id: 247360
 - neko_id: aria
   level: 0
@@ -3071,7 +3071,7 @@
   metadata: &330
     title_ru: Трансформеры
     title_en: Transformers
-    image: "/assets/achievements/anime/franchise/transformers.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/12671/689718.jpg
     topic_id: 247360
 - neko_id: transformers
   level: 0
@@ -3175,7 +3175,7 @@
   metadata: &342
     title_ru: Бейблэйд
     title_en: Beyblade
-    image: "/assets/achievements/anime/franchise/beyblade.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/34807/689289.jpg
     topic_id: 247360
 - neko_id: beyblade
   level: 0
