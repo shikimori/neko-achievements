@@ -701,7 +701,7 @@
   metadata: &72
     title_ru: Граница пустоты
     title_en: Kara no Kyoukai
-    image: "/assets/achievements/anime/franchise/kara_no_kyoukai.jpg"
+    image: https://camo-v2.shikimori.org/d6740c85d2b91c0f859cd549882e17d7681d22c6?url=https%3A%2F%2Fi.imgur.com%2FviUaONk.png
     topic_id: 247360
 - neko_id: kara_no_kyoukai
   level: 0
@@ -902,7 +902,7 @@
   metadata: &95
     title_ru: Маги
     title_en: Magi
-    image: "/assets/achievements/anime/franchise/magi.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/29386/689399.jpg
     topic_id: 247360
 - neko_id: magi
   level: 0
@@ -1112,7 +1112,7 @@
   metadata: &117
     title_ru: Красавица-воин Сейлор Мун
     title_en: Bishoujo Senshi Sailor Moon
-    image: "/assets/achievements/anime/franchise/sailor_moon.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/34807/689544.jpg
     topic_id: 247360
   generator: &118
     not_ignored_ids:
@@ -1574,7 +1574,7 @@
   metadata: &167
     title_ru: Сказание об Арслане
     title_en: Arslan Senki
-    image: "/assets/achievements/anime/franchise/arslan_senki.png"
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/689575.jpg
     topic_id: 247360
 - neko_id: arslan_senki
   level: 0
@@ -1627,7 +1627,7 @@
   metadata: &173
     title_ru: Рубаки
     title_en: Slayers
-    image: "/assets/achievements/anime/franchise/slayers.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/34807/689593.jpg
     topic_id: 247360
 - neko_id: slayers
   level: 0
@@ -2082,7 +2082,7 @@
   metadata: &221
     title_ru: Храбрые ведьмы
     title_en: Brave Witches
-    image: 
+    image: https://desu.shikimori.org/system/user_images/original/50587/689643.jpg
     topic_id: 247360
 - neko_id: brave_witches
   level: 0
@@ -2101,7 +2101,7 @@
   metadata: &223
     title_ru: WIXOSS
     title_en: WIXOSS
-    image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/12671/689568.jpg
     topic_id: 247360
 - neko_id: selector_spread_wixoss
   level: 0
@@ -2818,7 +2818,7 @@
   metadata: &302
     title_ru: Красавцы из клуба защитников Земли
     title_en: Binan Koukou Chikyuu Boueibu LOVE!
-    image: "/assets/achievements/anime/franchise/binan_koukou_chikyuu_boueibu_love.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/34807/689584.jpg
     topic_id: 247360
 - neko_id: binan_koukou_chikyuu_boueibu_love
   level: 0
@@ -3247,7 +3247,7 @@
   metadata: &350
     title_ru: Бронированные воины Вотомы
     title_en: Soukou Kihei Votoms
-    image: "/assets/achievements/anime/franchise/votoms_finder.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/34807/689561.jpg
     topic_id: 247360
 - neko_id: votoms_finder
   level: 0
