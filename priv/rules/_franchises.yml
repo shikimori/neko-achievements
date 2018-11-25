@@ -289,7 +289,7 @@
   metadata: &28
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
-    image: "/assets/achievements/anime/franchise/fairy_tail.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/29386/689987.jpg
     topic_id: 247360
 - neko_id: fairy_tail
   level: 0
