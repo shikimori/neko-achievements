@@ -423,7 +423,7 @@
     title_ru: Магия — второе имя
     text_ru: Не важно, какой ваш пол и сколько вам лет, если ваше призвание — нести любовь и справедливость.
     image: /assets/achievements/anime/mahou_shoujo_2.jpg
-    border_color: "#49678d"
+    border_color: "#DAA571"
 
 - <<: *defaults
   level: 3
@@ -432,7 +432,7 @@
     title_ru: Все враги побеждены
     text_ru: Опасность миновала! Можно возвращаться к семье и школьным друзьям.
     image: /assets/achievements/anime/mahou_shoujo_3.jpg
-    border_color: "#D8B1BF"
+    border_color: "#4169E1"
 
 - <<: *defaults
   level: 4
