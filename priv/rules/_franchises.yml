@@ -73,6 +73,10 @@
     not_anime_ids:
     - 27891
     - 37831
+    - 36855
+    - 21879
+    - 37278
+    - 37362
   threshold: 88.3%
   metadata: &9
     title_ru: Мастера Меча Онлайн
@@ -289,7 +293,7 @@
   metadata: &28
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
-    image: "/assets/achievements/anime/franchise/fairy_tail.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/29386/689987.jpg
     topic_id: 247360
 - neko_id: fairy_tail
   level: 0
@@ -332,7 +336,7 @@
   metadata: &33
     title_ru: Повелитель
     title_en: Overlord
-    image: "/assets/achievements/anime/franchise/overlord.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/34807/690036.jpg
     topic_id: 247360
 - neko_id: overlord
   level: 0
@@ -1593,7 +1597,7 @@
   metadata: &169
     title_ru: Нежный укус
     title_en: Amagami SS
-    image: "/assets/achievements/anime/franchise/amagami_ss.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/34807/690043.jpg
     topic_id: 247360
 - neko_id: amagami_ss
   level: 0
@@ -2672,7 +2676,7 @@
   metadata: &286
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
-    image: "/assets/achievements/anime/franchise/digimon.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/690030.jpg
     topic_id: 247360
 - neko_id: digimon
   level: 0
@@ -2801,7 +2805,7 @@
   metadata: &300
     title_ru: Звёздный герб
     title_en: Seikai no Monshou
-    image: "/assets/achievements/anime/franchise/seikai_no_senki.png"
+    image: https://camo-v2.shikimori.org/2a5b6aeae13ae22e8f2a810f1255366fdbdb62d9?url=https%3A%2F%2Fi.imgur.com%2F95vpb7v.png
     topic_id: 247360
 - neko_id: seikai_no_senki
   level: 0
