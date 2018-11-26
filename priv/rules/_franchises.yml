@@ -1536,6 +1536,9 @@
   algo: duration
   filters: &162
     franchise: sayonara_zetsubou_sensei
+    not_anime_ids:
+    - 3674
+    - 8317
   threshold: 95%
   metadata: &163
     title_ru: Прощай, унылый учитель
