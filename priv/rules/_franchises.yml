@@ -1045,7 +1045,7 @@
   metadata: &110
     title_ru: Охотник х Охотник
     title_en: Hunter x Hunter
-    image: "/assets/achievements/anime/franchise/hunter_x_hunter.png"
+    image: https://moe.shikimori.org/system/user_images/original/34807/690057.jpg
     topic_id: 247360
 - neko_id: hunter_x_hunter
   level: 0
@@ -1536,6 +1536,9 @@
   algo: duration
   filters: &162
     franchise: sayonara_zetsubou_sensei
+    not_anime_ids:
+    - 3674
+    - 8317
   threshold: 95%
   metadata: &163
     title_ru: Прощай, унылый учитель
@@ -2325,7 +2328,7 @@
   metadata: &248
     title_ru: Путь аса
     title_en: Diamond no Ace
-    image: "/assets/achievements/anime/franchise/diamond_no_ace.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/34807/690059.jpg
     topic_id: 247360
 - neko_id: diamond_no_ace
   level: 0
@@ -3306,7 +3309,7 @@
   metadata: &356
     title_ru: Капризы Апельсиновой улицы
     title_en: Kimagure Orange☆Road
-    image: "/assets/achievements/anime/franchise/kimagure_orange_road.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/84020/690065.jpg
     topic_id: 247360
 - neko_id: kimagure_orange_road
   level: 0
@@ -3628,3 +3631,14 @@
   filters: *391
   threshold: 0.01%
   metadata: *392
+- neko_id: chihayafuru
+  level: 1
+  algo: duration
+  filters: &391
+    franchise: chihayafuru
+  threshold: 100%
+  metadata: &392
+    title_ru: Яркая Чихая
+    title_en: Chihayafuru
+    image: https://moe.shikimori.org/system/user_images/original/34807/624172.jpg
+    topic_id: 247360
