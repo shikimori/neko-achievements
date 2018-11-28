@@ -1177,6 +1177,10 @@
     - 22435
     - 23943
     - 32898
+    - 3626
+    - 35949
+    - 33221
+    - 17655
   threshold: 85.9%
   metadata: &124
     title_ru: Мобильный воин Гандам
@@ -1861,7 +1865,7 @@
   metadata: &197
     title_ru: Тэнти — лишний!
     title_en: Tenchi Muyou!
-    image: "/assets/achievements/anime/franchise/tenchi_muyou.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/84020/691084.jpg
     topic_id: 247360
 - neko_id: tenchi_muyou
   level: 0
@@ -2449,7 +2453,7 @@
   metadata: &262
     title_ru: Ария
     title_en: Aria
-    image: "/assets/achievements/anime/franchise/aria.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/29386/690466.jpg
     topic_id: 247360
 - neko_id: aria
   level: 0
