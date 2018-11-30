@@ -77,7 +77,7 @@
     - 37278
     - 37362
     - 37831
-  threshold: 83%
+  threshold: 83.8%
   metadata: &9
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
@@ -289,7 +289,7 @@
     - 246
     - 11511
     - 12121
-  threshold: 95.9%
+  threshold: 96%
   metadata: &28
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
@@ -433,7 +433,7 @@
     franchise: nanatsu_no_taizai
     not_anime_ids:
     - 36923
-  threshold: 93.1%
+  threshold: 100%
   metadata: &44
     title_ru: Семь смертных грехов
     title_en: Nanatsu no Taizai
@@ -930,7 +930,7 @@
     - 33898
     - 35552
     - 36835
-  threshold: 92.1%
+  threshold: 92.2%
   metadata: &97
     title_ru: Покемон
     title_en: Pokemon
@@ -1168,6 +1168,8 @@
   filters: &123
     franchise: gundam
     not_anime_ids:
+    - 91
+    - 2294
     - 3626
     - 3963
     - 3964
@@ -1182,9 +1184,7 @@
     - 33221
     - 35949
     - 36436
-    - 2294
-    - 91
-  threshold: 86.3%
+  threshold: 87.9%
   metadata: &124
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -1194,6 +1194,7 @@
     not_ignored_ids:
     - 14007
     - 20667
+    - 2269
     - 24371
 - neko_id: gundam
   level: 0
@@ -1359,6 +1360,9 @@
     not_anime_ids:
     - 502
     - 892
+    - 6714
+    - 11359
+    - 22699
   threshold: 95%
   metadata: &143
     title_ru: Драконий жемчуг
@@ -2054,7 +2058,7 @@
     not_anime_ids:
     - 1631
     - 36232
-  threshold: 96.3%
+  threshold: 95%
   metadata: &217
     title_ru: Эврика 7
     title_en: Eureka Seven
@@ -2164,7 +2168,7 @@
     not_anime_ids:
     - 21409
     - 31894
-  threshold: 85.9%
+  threshold: 85.6%
   metadata: &229
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -2239,7 +2243,7 @@
     franchise: sengoku_basara
     not_anime_ids:
     - 18549
-  threshold: 89.7%
+  threshold: 90.5%
   metadata: &237
     title_ru: Эпоха смут
     title_en: Sengoku Basara
@@ -2471,7 +2475,7 @@
     not_anime_ids:
     - 12015
     - 30178
-  threshold: 97.7%
+  threshold: 98%
   metadata: &264
     title_ru: Тигр и кролик
     title_en: Tiger & Bunny
@@ -2622,7 +2626,7 @@
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
-  threshold: 94.7%
+  threshold: 93.9%
   metadata: &280
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
@@ -2645,7 +2649,7 @@
     - 16576
     - 21595
     - 32346
-  threshold: 88.2%
+  threshold: 88.3%
   metadata: &282
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
@@ -2969,7 +2973,7 @@
     franchise: yuu_yuu_hakusho
     not_anime_ids:
     - 6964
-  threshold: 98.9%
+  threshold: 97.9%
   metadata: &318
     title_ru: Отчет о буйстве духов
     title_en: Yuu☆Yuu☆Hakusho
@@ -3184,7 +3188,7 @@
   algo: duration
   filters: &341
     franchise: pripara
-  threshold: 93.7%
+  threshold: 93.8%
   metadata: &342
     title_ru: При Пара
     title_en: PriPara
@@ -3434,7 +3438,7 @@
     franchise: gegege_no_kitarou
     not_anime_ids:
     - 10584
-  threshold: 96.5%
+  threshold: 96.6%
   metadata: &370
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
