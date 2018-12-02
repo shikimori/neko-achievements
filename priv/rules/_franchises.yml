@@ -3419,6 +3419,9 @@
     franchise: votoms_finder
     not_anime_ids:
     - 12337
+    - 12439
+    - 12441
+    - 7536
   threshold: 95%
   metadata: &368
     title_ru: Бронированные воины Вотомы
@@ -3510,6 +3513,10 @@
     franchise: transformers
     not_anime_ids:
     - 6800
+    - 6511
+    - 28401
+    - 30851
+    - 7862
   threshold: 80%
   metadata: &378
     title_ru: Трансформеры
