@@ -1059,7 +1059,7 @@
   metadata: &112
     title_ru: Одному лишь Богу ведомый мир
     title_en: Kami nomi zo Shiru Sekai
-    image: "/assets/achievements/anime/franchise/kami_nomi_zo_shiru_sekai.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/84020/692990.jpg
     topic_id: 247360
 - neko_id: kami_nomi_zo_shiru_sekai
   level: 0
