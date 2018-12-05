@@ -1,7 +1,7 @@
 - &defaults
   neko_id: kids
   algo: count
-  threshold: 50
+  threshold: 40
   level: 1
   filters:
     genre_ids:
