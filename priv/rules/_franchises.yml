@@ -3161,25 +3161,6 @@
   filters: *337
   threshold: 0.01%
   metadata: *338
-- neko_id: maison_ikkoku
-  level: 1
-  algo: duration
-  filters: &339
-    franchise: maison_ikkoku
-    not_anime_ids:
-    - 3483
-  threshold: 98.9%
-  metadata: &340
-    title_ru: Доходный дом Иккоку
-    title_en: Maison Ikkoku
-    image: "/assets/achievements/anime/franchise/maison_ikkoku.jpg"
-    topic_id: 247360
-- neko_id: maison_ikkoku
-  level: 0
-  algo: duration
-  filters: *339
-  threshold: 0.01%
-  metadata: *340
 - neko_id: ranma
   level: 1
   algo: duration
@@ -3669,3 +3650,14 @@
   filters: *393
   threshold: 0.01%
   metadata: *394
+- neko_id: haou_daikei_ryuu_knight
+  level: 1
+  algo: duration
+  filters: &393
+    franchise: teekyuu
+  threshold: 100%
+  metadata: &394
+    title_ru: Теннис
+    title_en: Teekyuu 
+    image: https://dere.shikimori.org/system/user_images/original/84020/694549.jpg
+    topic_id: 247360
