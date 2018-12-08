@@ -42,7 +42,7 @@ defmodule Neko.Rule.Calculations do
   @spec rule_anime_ids(rule_t, animes_t) :: MapSet.t(pos_integer)
   defp rule_anime_ids(rule, animes) do
     animes
-    |> Neko.Rule.Filters.filter_animes(rule)
+    |> Neko.Rule.Filters.filter_animes(rule.filters)
     |> Enum.map(& &1.id)
     |> MapSet.new()
   end
