@@ -40,15 +40,13 @@ defmodule Neko.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:cowboy, "~> 1.1"},
-      {:exconstructor, "~> 1.1.0"},
-      {:plug, "~> 1.4"},
-      {:poison, "~> 3.1"},
-      # appsignal requires httpoison ~> 0.11
-      {:httpoison, "~> 1.0", override: true},
+      {:plug_cowboy, "~> 1.0"},
+      {:exconstructor, "~> 1.0"},
+      {:poison, "~> 4.0"},
+      {:httpoison, "~> 1.0"},
       {:edeliver, "~> 1.4"},
       {:distillery, "~> 2.0"},
-      {:mox, "~> 0.3.1", only: :test},
+      {:mox, "~> 0.4", only: :test},
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
       #
@@ -61,8 +59,8 @@ defmodule Neko.Mixfile do
         :yamler,
         git: "https://github.com/tap349/yamler", branch: "mapping_as_map"
       },
-      {:appsignal, "== 1.5.0"},
-      {:poolboy, "~> 1.5.1"},
+      {:appsignal, "~> 1.0"},
+      {:poolboy, "~> 1.5"},
       {:credo, "~> 0.9", only: [:dev, :test], runtime: false}
     ]
   end
