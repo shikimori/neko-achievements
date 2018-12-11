@@ -1,9 +1,14 @@
 defmodule Neko.Rule.Filters do
-  def filter_animes(animes, %{filters: nil} = _rule) do
+  def filter_animes(animes, nil) do
     animes
   end
 
-  def filter_animes(animes, %{filters: filters} = _rule) do
+  def filter_animes(animes, %{"or" => _} = filters) do
+    filter_animes(animes, Map.delete(filters, "or")) ++
+      filter_animes(animes, filters["or"])
+  end
+
+  def filter_animes(animes, filters) do
     animes
     |> filter_by_genre_ids(filters["genre_ids"])
     |> filter_by_anime_ids(filters["anime_ids"])

@@ -45,6 +45,26 @@ defmodule Neko.Shikimori.HTTPClient do
     |> handle_parse_json!(json)
   end
 
+  # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
+  #
+  # add static request options here,
+  # dynamic ones - in make_request!/2
+  @impl true
+  def process_request_options(options) do
+    Keyword.merge(
+      options,
+      timeout: @conn_timeout,
+      recv_timeout: @recv_timeout,
+      ssl: [versions: [:"tlsv1.2"]],
+      hackney: [pool: @pool_name, reuseaddr: false]
+    )
+  end
+
+  @impl true
+  def process_url("/" <> path), do: process_url(path)
+  @impl true
+  def process_url(path), do: @base_url <> path
+
   defp make_request!(:get, path, params \\ %{}) do
     get!(path, [], params: params).body
   end
@@ -55,21 +75,4 @@ defmodule Neko.Shikimori.HTTPClient do
       {:error, _} -> raise "error parsing shikimori response: #{json}"
     end
   end
-
-  # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
-  #
-  # add static request options here,
-  # dynamic ones - in make_request!/2
-  defp process_request_options(options) do
-    Keyword.merge(
-      options,
-      timeout: @conn_timeout,
-      recv_timeout: @recv_timeout,
-      ssl: [versions: [:"tlsv1.2"]],
-      hackney: [pool: @pool_name, reuseaddr: false]
-    )
-  end
-
-  defp process_url("/" <> path), do: process_url(path)
-  defp process_url(path), do: @base_url <> path
 end
