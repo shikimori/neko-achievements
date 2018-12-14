@@ -64,7 +64,7 @@
     image: /assets/achievements/anime/animelist_7.jpg
     border_color: "#ACB78E"
 
-- <<: *defaults
+- <<: *defaults 
   level: 8
   threshold: 500
   metadata:
