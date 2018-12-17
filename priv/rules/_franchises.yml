@@ -195,6 +195,10 @@
     title_en: Code Geass
     image: "/assets/achievements/anime/franchise/code_geass.png"
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+     - 34439
+     - 34440
 - neko_id: code_geass
   level: 0
   algo: duration
