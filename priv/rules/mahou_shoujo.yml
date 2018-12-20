@@ -413,7 +413,7 @@
     title_ru: Контракт заключён
     text_ru: My master, положено начало вашего становления юной волшебницей.
     image: /assets/achievements/anime/mahou_shoujo_1.png
-    border_color: "#ff0000"
+    border_color: "#DC143C"
     topic_id: 222067
 
 - <<: *defaults
