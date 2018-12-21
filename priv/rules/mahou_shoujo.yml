@@ -413,7 +413,7 @@
     title_ru: Контракт заключён
     text_ru: My master, положено начало вашего становления юной волшебницей.
     image: /assets/achievements/anime/mahou_shoujo_1.png
-    border_color: "#ff0000"
+    border_color: "#DC143C"
     topic_id: 222067
 
 - <<: *defaults
@@ -423,7 +423,7 @@
     title_ru: Магия — второе имя
     text_ru: Не важно, какой ваш пол и сколько вам лет, если ваше призвание — нести любовь и справедливость.
     image: /assets/achievements/anime/mahou_shoujo_2.jpg
-    border_color: "#DAA571"
+    border_color: "#DB7093"
 
 - <<: *defaults
   level: 3
