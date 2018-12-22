@@ -35,7 +35,7 @@
   level: 4
   threshold: 230
   metadata:
-    title_ru: Унесённые призраками
+    title_ru: Унесённые призраками 
     text_ru: Если забудешь своё имя, то не сможешь вернуться домой.
     image: /assets/achievements/anime/supernatural_4.gif
     border_color: "#800000"
