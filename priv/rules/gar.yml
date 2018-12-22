@@ -503,7 +503,7 @@
   level: 3
   threshold: 30%
   metadata:
-    title_ru: Альфа-самец
+    title_ru: Альфа-самец 
     text_ru: Физика играет по вашим правилам.
     image: /assets/achievements/anime/gar_3.gif
     border_color: "#c537a3"
