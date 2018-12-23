@@ -24,7 +24,7 @@
   threshold: 100
   metadata:
     title_ru: Мои силы растут!
-    text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
+    text_ru: Не время останавливаться, все еще впереди!
     image: /assets/achievements/anime/animelist_3.jpg
     border_color: "#6a5acd"
 
@@ -33,7 +33,7 @@
   threshold: 150
   metadata:
     title_ru: Беззаботный зритель
-    text_ru: Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
+    text_ru: Ничего серьёзного. Всего 150 тайтлов.
     image: /assets/achievements/anime/animelist_4.jpg
     border_color: "#6495ED"
 
@@ -51,7 +51,7 @@
   threshold: 300
   metadata:
     title_ru: Эстет
-    text_ru: Качественная графика, прекрасное музыкальное сопровождение, интересные сюжеты... эти японские мультики весьма хороши.
+    text_ru: Эти японские мультики весьма хороши.
     image: /assets/achievements/anime/animelist_6.jpg
     border_color: "#C5D0E6"
 
@@ -60,7 +60,7 @@
   threshold: 400
   metadata:
     title_ru: Есть чем похвастаться
-    text_ru: Просмотрено 400 аниме. Это... солидно. Вы можете гордиться собой, определённо.
+    text_ru: Просмотрено 400 аниме.
     image: /assets/achievements/anime/animelist_7.jpg
     border_color: "#ACB78E"
 
@@ -69,7 +69,7 @@
   threshold: 500
   metadata:
     title_ru: Много свободного времени?
-    text_ru: Одно увлечение может затянуть с головой, но помните, что в мире ещё много приятных вещей...
+    text_ru: Ого ты просмотрел 500 тайтлов, сколько времени на это ушло?
     image: /assets/achievements/anime/animelist_8.jpg
     border_color: "#3F888F"
 
@@ -78,7 +78,7 @@
   threshold: 666
   metadata:
     title_ru: Сатанинский предел?
-    text_ru: Стремишься стать частью той силы, что вечно хочет зла и вечно совершает благо? Что ж, только внимательно читай те условия контракта, что мелким шрифтом.
+    text_ru: Ты что дьявол?
     image: /assets/achievements/anime/animelist_9.jpg
     border_color: "#ab274f"
 
@@ -96,7 +96,7 @@
   threshold: 888
   metadata:
     title_ru: Бесконечное путешествие
-    text_ru: У каждого свои звезды. Одним они указывают путь, для других это просто маленькие огоньки. Дорога вперед бесконечна. Хотите ли вы продолжать идти по ней?
+    text_ru: Бесконечность не предел!
     image: /assets/achievements/anime/animelist_11.jpg
     border_color: "#002f55"
 
@@ -105,7 +105,7 @@
   threshold: 1000
   metadata:
     title_ru: Точка невозврата
-    text_ru: Вы достигли четырёхзначного числа. Довольны?
+    text_ru: Вы достигли четырёхзначного числа. Ну и сколько ты потратил времени? Ты доволен?
     image: /assets/achievements/anime/animelist_12.jpg
     border_color: "#a2a2d0"
 
@@ -183,6 +183,6 @@
   threshold: 10000
   metadata:
     title_ru: "SlotAchievName_0020: NULL"
-    text_ru: "Description: Теперь вам не нужно аниме, чтобы смотреть аниме."
+    text_ru: "Description: Теперь вам не нужно аниме, чтобы смотреть аниме." ведь вы стали аниме.
     image: /assets/achievements/anime/animelist_20.gif
     border_color: "#231A24"
