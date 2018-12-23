@@ -5,8 +5,7 @@ defmodule Neko.Rule.DurationRule do
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
-  @typep anime_t :: Neko.Anime.t()
-  @typep animes_by_id_t :: %{optional(pos_integer) => anime_t}
+  @typep by_anime_id_t :: Neko.Rule.by_anime_id_t
 
   @impl true
   defdelegate reload, to: Store
@@ -32,15 +31,21 @@ defmodule Neko.Rule.DurationRule do
   def threshold(%{threshold: threshold} = rule) when is_binary(threshold) do
     percent = rule.threshold |> Float.parse() |> elem(0)
     threshold = rule.duration * percent / 100
-    threshold |> Float.round(2)
+    Float.round(threshold, 2)
   end
 
   @impl true
-  @spec value(rule_t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
-  def value(rule, _user_anime_ids, user_animes_by_id) do
-    user_animes_by_id
+  @spec value(rule_t, MapSet.t(pos_integer), by_anime_id_t()) :: pos_integer
+  def value(rule, _user_anime_ids, by_anime_id) do
+    by_anime_id
     |> Map.take(rule.anime_ids)
-    |> Enum.map(fn {_, v} -> v.total_duration end)
+    |> Enum.map(fn {_, %{user_rate: user_rate, anime: anime}} ->
+      if user_rate.status == "watching" do
+        anime.duration * user_rate.episodes
+      else
+        anime.total_duration
+      end
+    end)
     |> Enum.sum()
   end
 end

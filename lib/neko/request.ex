@@ -66,17 +66,14 @@ defmodule Neko.Request do
     # nothing to do
   end
 
-  defp process_action(%{action: "put", status: "completed"} = request) do
+  defp process_action(%{action: "put", status: status} = request)
+       when status in ["completed", "rewatching", "watching"] do
     request.user_id
     |> Neko.UserRate.put(Neko.UserRate.from_request(request))
   end
 
-  defp process_action(%{action: "put", status: "rewatching"} = request) do
-    request.user_id
-    |> Neko.UserRate.put(Neko.UserRate.from_request(request))
-  end
-
-  # if user rate becomes not completed or rewatching, it's removed
+  # if user rate becomes not "completed", "rewatching" or "watching",
+  # it's removed
   defp process_action(%{action: "put"} = request) do
     request.user_id
     |> Neko.UserRate.delete(Neko.UserRate.from_request(request))

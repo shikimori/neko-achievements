@@ -48,8 +48,7 @@ defmodule Neko.UserRate.Store do
 
   @spec delete(pid, user_rate_t) :: :ok
   def delete(pid, user_rate) do
-    # or else delete status from UserRate and
-    # use MapSet.delete/2 here
+    # or else delete status from UserRate and use MapSet.delete/2 here
     Agent.update(pid, fn user_rates ->
       user_rates
       |> Enum.reject(&(&1.id == user_rate.id))

@@ -8,6 +8,7 @@ defmodule Neko.UserRate do
     target_id
     score
     status
+    episodes
   )a
 
   @type t :: %__MODULE__{}
