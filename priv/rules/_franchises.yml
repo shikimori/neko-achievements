@@ -76,7 +76,7 @@
     - 32962
     - 34753
     - 35315
-  threshold: 96.1%
+  threshold: 95%
   metadata: &8
     title_ru: Врата Штейна
     title_en: Steins;Gate
@@ -2849,7 +2849,7 @@
     franchise: toriko
     not_anime_ids:
     - 11787
-  threshold: 98.1%
+  threshold: 99.2%
   metadata: &305
     title_ru: Торико
     title_en: Toriko
