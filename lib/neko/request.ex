@@ -6,6 +6,7 @@ defmodule Neko.Request do
     score
     action
     status
+    episodes
   )a
 
   # NOTE: use ExConstructor after defstruct
