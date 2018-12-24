@@ -2848,7 +2848,7 @@
   filters: &304
     franchise: toriko
     not_anime_ids:
-    - 1178
+    - 11787
   threshold: 98.1%
   metadata: &305
     title_ru: Торико
