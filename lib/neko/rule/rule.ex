@@ -40,11 +40,11 @@ defmodule Neko.Rule do
     by_anime_id =
       user_id
       |> Neko.UserRate.all()
-      |> Enum.reduce(%{}, fn x, acc ->
+      |> Enum.reduce(%{}, fn {_id, user_rate}, acc ->
         Map.put(
           acc,
-          x.target_id,
-          %{user_rate: x, anime: animes_by_id[x.target_id]}
+          user_rate.target_id,
+          %{user_rate: user_rate, anime: animes_by_id[user_rate.target_id]}
         )
       end)
 
