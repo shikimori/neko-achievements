@@ -30,17 +30,52 @@ Neko.Anime.all_by_id()
 
 
 # get animes matched by rule
-user_id = 50587
+user_id = 8
 Neko.UserRate.load(user_id)
 
 rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen" && &1.level == 1)) |> Enum.at(0)
-rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "aria" && &1.level == 1)) |> Enum.at(0)
+rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "sword_art_online" && &1.level == 1)) |> Enum.at(0)
 
 user_anime_ids = user_id |> Neko.UserRate.all() |> Enum.map(& &1.target_id) |> MapSet.new()
 user_animes_by_id = Neko.Anime.all_by_id() |> Map.take(user_anime_ids)
 user_anime_ids |> MapSet.intersection(rule.anime_ids)
 ```
 
+### elixir logging
+```elixir
+  # /lib/neko/rule/duration_rule/duration_rule.ex
+  def value(rule, _user_anime_ids, by_anime_id) do
+    if rule.neko_id == "sword_art_online" && rule.level == 1 do
+      value = by_anime_id
+        |> Map.take(rule.anime_ids)
+        |> Enum.map(fn {_, %{user_rate: user_rate, anime: anime}} ->
+          if user_rate.status == "watching" do
+            anime.duration * user_rate.episodes
+          else
+            anime.total_duration
+          end
+        end)
+        |> Enum.sum()
+
+      IO.inspect rule
+      IO.puts("Neko.Rule.DurationRule: value: #{value} rule.threshold: #{rule.threshold}")
+
+    #   require IEx; IEx.pry
+    end
+
+    by_anime_id
+    |> Map.take(rule.anime_ids)
+    |> Enum.map(fn {_, %{user_rate: user_rate, anime: anime}} ->
+      if user_rate.status == "watching" do
+        anime.duration * user_rate.episodes
+      else
+        anime.total_duration
+      end
+    end)
+    |> Enum.sum()
+  end
+
+```
 
 ### parse achievements extracted from google docs
 
