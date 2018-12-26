@@ -5,8 +5,7 @@ defmodule Neko.Rule.CountRule do
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
-  @typep anime_t :: Neko.Anime.t()
-  @typep animes_by_id_t :: %{optional(pos_integer) => anime_t}
+  @typep by_anime_id_t :: Neko.Rule.by_anime_id_t()
 
   @impl true
   defdelegate reload, to: Store
@@ -32,18 +31,20 @@ defmodule Neko.Rule.CountRule do
   def threshold(%{threshold: threshold} = rule) when is_binary(threshold) do
     percent = rule.threshold |> Float.parse() |> elem(0)
     threshold = MapSet.size(rule.anime_ids) * percent / 100
-    threshold |> Float.round(2)
+    Float.round(threshold, 2)
   end
 
   @impl true
-  @spec value(rule_t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
-  def value(rule, user_anime_ids, _user_animes_by_id) do
+  @spec value(rule_t, MapSet.t(pos_integer), by_anime_id_t()) :: pos_integer
+  def value(rule, user_anime_ids, _by_anime_id) do
+    # user rates with "watching" status were rejected when
+    # calculating user_anime_ids in Neko.Rule.achievements/4
     user_anime_ids
     |> MapSet.intersection(rule.anime_ids)
     |> MapSet.size()
 
     # this is ~10x slower
-    # user_animes_by_id
+    # by_anime_id
     # |> Map.take(rule.anime_ids)
     # |> map_size()
   end

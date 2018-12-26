@@ -15,7 +15,7 @@ defmodule Neko.Shikimori.HTTPClient do
   def get_user_rates!(user_id) do
     params = %{
       user_id: user_id,
-      status: "completed,rewatching",
+      status: "completed,rewatching,watching",
       target_type: "Anime"
     }
 

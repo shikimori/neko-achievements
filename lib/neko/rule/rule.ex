@@ -12,15 +12,19 @@ defmodule Neko.Rule do
   use ExConstructor, atoms: true, strings: true
 
   @type t :: %__MODULE__{}
-  @typep anime_t :: Neko.Anime.t()
-  @typep animes_by_id_t :: %{optional(pos_integer) => anime_t}
+  @type by_anime_id_t :: %{
+          optional(pos_integer) => %{
+            required(:user_rate) => Neko.UserRate.t(),
+            required(:anime) => Neko.Anime.t()
+          }
+        }
 
   @callback reload() :: any
   @callback all() :: MapSet.t(t)
   @callback set([t]) :: any
   @callback threshold(t) :: pos_integer
   # this function is called for each rule so it must be very cheap
-  @callback value(t, MapSet.t(pos_integer), animes_by_id_t) :: pos_integer
+  @callback value(t, MapSet.t(pos_integer), by_anime_id_t) :: pos_integer
 
   # reload rules in all poolboy workers when new rules are set
   def reload_all_rules do
@@ -33,24 +37,31 @@ defmodule Neko.Rule do
 
   # rules and animes are taken from worker state to avoid excessive copying
   def achievements(rule_module, rules, animes_by_id, user_id) do
-    user_anime_ids =
+    by_anime_id =
       user_id
       |> Neko.UserRate.all()
-      |> Enum.map(& &1.target_id)
-      |> MapSet.new()
+      |> Enum.reduce(%{}, fn {_id, x}, acc ->
+        Map.put(
+          acc,
+          x.target_id,
+          %{user_rate: x, anime: animes_by_id[x.target_id]}
+        )
+      end)
 
-    user_animes_by_id =
-      animes_by_id
-      |> Map.take(user_anime_ids)
+    user_anime_ids =
+      by_anime_id
+      |> Enum.reject(fn {_, %{user_rate: user_rate}} ->
+        user_rate.status == "watching"
+      end)
+      |> Enum.into(%{})
+      |> Map.keys()
+      |> MapSet.new()
 
     # final list of achievements for all rules is converted to MapSet in
     # Neko.Achievement.Calculator
     rules
     |> Enum.map(fn rule ->
-      # pass both user_anime_ids and user_animes_by_id (rules might
-      # calculate their values faster using one data structure than
-      # the other)
-      args = [rule, user_anime_ids, user_animes_by_id]
+      args = [rule, user_anime_ids, by_anime_id]
       {rule, apply(rule_module, :value, args)}
     end)
     |> Enum.filter(&rule_applies?/1)
