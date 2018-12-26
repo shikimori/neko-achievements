@@ -7,7 +7,7 @@
     genre_ids:
       - 26
       - 34
-      or:
+    or:
       anime_ids:
         - 7748
         - 4473
