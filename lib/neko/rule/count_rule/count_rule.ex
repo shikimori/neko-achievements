@@ -5,7 +5,7 @@ defmodule Neko.Rule.CountRule do
 
   @typep rule_t :: Neko.Rule.t()
   @typep rules_t :: MapSet.t(rule_t)
-  @typep by_anime_id_t :: Neko.Rule.by_anime_id_t
+  @typep by_anime_id_t :: Neko.Rule.by_anime_id_t()
 
   @impl true
   defdelegate reload, to: Store

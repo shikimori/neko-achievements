@@ -9,7 +9,7 @@ defmodule Neko.UserRate.Store do
 
   @spec start_link(any) :: Agent.on_start()
   def start_link(_) do
-    Agent.start_link(fn -> Map.new() end)
+    Agent.start_link(fn -> %{} end)
   end
 
   @spec stop(pid) :: :ok
@@ -36,9 +36,9 @@ defmodule Neko.UserRate.Store do
     Agent.update(pid, &Map.put(&1, user_rate.id, user_rate))
   end
 
-  @spec set(pid, MapSet.t(user_rate_t)) :: :ok
+  @spec set(pid, [user_rate_t]) :: :ok
   def set(pid, user_rates) do
-    Agent.update(pid, fn _ -> to_user_rates_t(user_rates) end)
+    Agent.update(pid, fn _ -> reduce_to_map(user_rates) end)
   end
 
   @spec delete(pid, user_rate_t) :: :ok
@@ -52,13 +52,13 @@ defmodule Neko.UserRate.Store do
   defp user_rates(user_id) do
     user_id
     |> Neko.Shikimori.Client.get_user_rates!()
-    |> to_user_rates_t
+    |> reduce_to_map
   end
 
-  @spec to_user_rates_t(MapSet.t(user_rate_t)) :: user_rates_t
-  defp to_user_rates_t(user_rates) do
-    Enum.reduce user_rates, Map.new(), fn user_rate, memo ->
-      Map.put memo, user_rate.id, user_rate
-    end
+  @spec reduce_to_map([user_rate_t]) :: user_rates_t
+  defp reduce_to_map(user_rates) do
+    Enum.reduce(user_rates, %{}, fn x, acc ->
+      Map.put(acc, x.id, x)
+    end)
   end
 end

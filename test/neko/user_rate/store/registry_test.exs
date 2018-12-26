@@ -15,7 +15,7 @@ defmodule Neko.UserRate.Store.RegistryTest do
 
     StoreRegistry.fetch(name, user_id)
     assert {:ok, store_pid} = StoreRegistry.lookup(name, user_id)
-    assert Store.all(store_pid) == Map.new()
+    assert Store.all(store_pid) == %{}
   end
 
   test "remove user rate stores on exit", %{name: name} do

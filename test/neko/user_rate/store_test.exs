@@ -5,7 +5,7 @@ defmodule Neko.UserRate.StoreTest do
   alias Neko.UserRate.Store
 
   setup do
-    {:ok, pid} = Store.start_link(Map.new())
+    {:ok, pid} = Store.start_link(%{})
     {:ok, pid: pid}
   end
 
@@ -15,10 +15,11 @@ defmodule Neko.UserRate.StoreTest do
     user_rates = [user_rate_1, user_rate_2]
 
     Store.set(pid, user_rates)
+
     assert Store.all(pid) == %{
-      user_rate_1.id => user_rate_1,
-      user_rate_2.id => user_rate_2
-    }
+             user_rate_1.id => user_rate_1,
+             user_rate_2.id => user_rate_2
+           }
   end
 
   test "delete user rate", %{pid: pid} do
