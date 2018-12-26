@@ -68,12 +68,12 @@ defmodule Neko.Request do
   end
 
   defp process_action(%{action: "put", status: status} = request)
-       when status in ["completed", "rewatching", "watching"] do
+       when status in ["completed", "rewatching", "watching", "on_hold"] do
     request.user_id
     |> Neko.UserRate.put(Neko.UserRate.from_request(request))
   end
 
-  # if user rate becomes not "completed", "rewatching" or "watching",
+  # if user rate becomes not "completed", "rewatching", "watching", or "on_hold"
   # it's removed
   defp process_action(%{action: "put"} = request) do
     request.user_id

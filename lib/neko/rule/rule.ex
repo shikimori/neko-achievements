@@ -51,7 +51,7 @@ defmodule Neko.Rule do
     user_anime_ids =
       by_anime_id
       |> Enum.reject(fn {_, %{user_rate: user_rate}} ->
-        user_rate.status == "watching"
+        user_rate.status == "watching" || user_rate.status == "on_hold"
       end)
       |> Enum.into(%{})
       |> Map.keys()

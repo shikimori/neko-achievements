@@ -40,7 +40,7 @@ defmodule Neko.Rule.DurationRule do
     by_anime_id
     |> Map.take(rule.anime_ids)
     |> Enum.map(fn {_, %{user_rate: user_rate, anime: anime}} ->
-      if user_rate.status == "watching" do
+      if user_rate.status == "watching" || user_rate.status == "on_hold" do
         anime.duration * user_rate.episodes
       else
         anime.total_duration

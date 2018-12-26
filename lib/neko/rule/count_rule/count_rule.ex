@@ -37,7 +37,7 @@ defmodule Neko.Rule.CountRule do
   @impl true
   @spec value(rule_t, MapSet.t(pos_integer), by_anime_id_t()) :: pos_integer
   def value(rule, user_anime_ids, _by_anime_id) do
-    # user rates with "watching" status were rejected when
+    # user rates with "watching" and "on_hold" statuses were rejected when
     # calculating user_anime_ids in Neko.Rule.achievements/4
     user_anime_ids
     |> MapSet.intersection(rule.anime_ids)
