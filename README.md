@@ -43,6 +43,16 @@ user_anime_ids |> MapSet.intersection(rule.anime_ids)
 
 ### elixir logging
 ```elixir
+  require IEx; IEx.pry
+
+  # /lib/neko/rule/rule.ex
+  defp rule_applies?({rule, value}) do
+    if rule.neko_id == "teekyuu" && rule.level == 0 do
+      IO.puts("Neko.Rule: applies?: #{value >= rule.threshold} value: #{value} rule.threshold: #{rule.threshold}")
+    end
+    value >= rule.threshold
+  end
+
   # /lib/neko/rule/duration_rule/duration_rule.ex
   def value(rule, _user_anime_ids, by_anime_id) do
     if rule.neko_id == "sword_art_online" && rule.level == 1 do
@@ -59,8 +69,6 @@ user_anime_ids |> MapSet.intersection(rule.anime_ids)
 
       IO.inspect rule
       IO.puts("Neko.Rule.DurationRule: value: #{value} rule.threshold: #{rule.threshold}")
-
-    #   require IEx; IEx.pry
     end
 
     by_anime_id
