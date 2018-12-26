@@ -891,10 +891,29 @@
   filters: *92
   threshold: 0.001%
   metadata: *93
-- neko_id: one_piece
+- neko_id: zero_no_tsukaima
   level: 1
   algo: duration
   filters: &94
+    franchise: zero_no_tsukaima
+    not_anime_ids:
+    - 6489
+  threshold: 98%
+  metadata: &95
+    title_ru: Подручный Луизы-Нулизы
+    title_en: Zero no Tsukaima
+    image: "/assets/achievements/anime/franchise/zero_no_tsukaima.png"
+    topic_id: 247360
+- neko_id: zero_no_tsukaima
+  level: 0
+  algo: duration
+  filters: *94
+  threshold: 0.001%
+  metadata: *95
+- neko_id: one_piece
+  level: 1
+  algo: duration
+  filters: &96
     franchise: one_piece
     not_anime_ids:
     - 8171
@@ -905,31 +924,12 @@
     - 36241
     - 36242
   threshold: 92.7%
-  metadata: &95
+  metadata: &97
     title_ru: Ван-Пис
     title_en: One Piece
     image: "/assets/achievements/anime/franchise/one_piece.png"
     topic_id: 247360
 - neko_id: one_piece
-  level: 0
-  algo: duration
-  filters: *94
-  threshold: 0.001%
-  metadata: *95
-- neko_id: zero_no_tsukaima
-  level: 1
-  algo: duration
-  filters: &96
-    franchise: zero_no_tsukaima
-    not_anime_ids:
-    - 6489
-  threshold: 98%
-  metadata: &97
-    title_ru: Подручный Луизы-Нулизы
-    title_en: Zero no Tsukaima
-    image: "/assets/achievements/anime/franchise/zero_no_tsukaima.png"
-    topic_id: 247360
-- neko_id: zero_no_tsukaima
   level: 0
   algo: duration
   filters: *96
@@ -1643,15 +1643,37 @@
   filters: *171
   threshold: 0.001%
   metadata: *172
-- neko_id: negima
+- neko_id: uta_no_prince_sama
   level: 1
   algo: duration
   filters: &173
+    franchise: uta_no_prince_sama
+  threshold: 97.6%
+  metadata: &174
+    title_ru: Поющий принц
+    title_en: Uta no☆Prince-sama♪
+    image: "/assets/achievements/anime/franchise/uta_no_prince_sama.jpg"
+    topic_id: 247360
+  generator: &175
+    not_ignored_ids:
+    - 36684
+    - 36685
+- neko_id: uta_no_prince_sama
+  level: 0
+  algo: duration
+  filters: *173
+  threshold: 0.001%
+  metadata: *174
+  generator: *175
+- neko_id: negima
+  level: 1
+  algo: duration
+  filters: &176
     franchise: negima
     not_anime_ids:
     - 34450
   threshold: 95%
-  metadata: &174
+  metadata: &177
     title_ru: Волшебный учитель Нэгима!
     title_en: Mahou Sensei Negima!
     image: "/assets/achievements/anime/franchise/negima.jpg"
@@ -1659,31 +1681,9 @@
 - neko_id: negima
   level: 0
   algo: duration
-  filters: *173
+  filters: *176
   threshold: 0.001%
-  metadata: *174
-- neko_id: uta_no_prince_sama
-  level: 1
-  algo: duration
-  filters: &175
-    franchise: uta_no_prince_sama
-  threshold: 97.6%
-  metadata: &176
-    title_ru: Поющий принц
-    title_en: Uta no☆Prince-sama♪
-    image: "/assets/achievements/anime/franchise/uta_no_prince_sama.jpg"
-    topic_id: 247360
-  generator: &177
-    not_ignored_ids:
-    - 36684
-    - 36685
-- neko_id: uta_no_prince_sama
-  level: 0
-  algo: duration
-  filters: *175
-  threshold: 0.001%
-  metadata: *176
-  generator: *177
+  metadata: *177
 - neko_id: little_busters
   level: 1
   algo: duration
@@ -3293,12 +3293,6 @@
     title_en: Kimagure Orange☆Road
     image: "/assets/achievements/anime/franchise/kimagure_orange_road.jpg"
     topic_id: 247360
-- neko_id: kimagure_orange_road
-  level: 0
-  algo: duration
-  filters: *352
-  threshold: 0.001%
-  metadata: *353
 - neko_id: time_bokan
   level: 1
   algo: duration
@@ -3312,6 +3306,12 @@
     title_en: Time Bokan
     image: "/assets/achievements/anime/franchise/time_bokan.jpg"
     topic_id: 247360
+- neko_id: kimagure_orange_road
+  level: 0
+  algo: duration
+  filters: *352
+  threshold: 0.001%
+  metadata: *353
 - neko_id: time_bokan
   level: 0
   algo: duration
