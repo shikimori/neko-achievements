@@ -10,6 +10,7 @@
     title_ru: Народный дружинник
     text_ru: На улицах неспокойно. Нельзя терять бдительности.
     image: /assets/achievements/anime/police_1.jpg
+    border_color: "#B03F35"
     topic_id: 222038
 
 - <<: *defaults
