@@ -590,6 +590,8 @@
     title_en: Hellsing
     image: "/assets/achievements/anime/franchise/hellsing.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: hellsing
   level: 0
   algo: duration
@@ -785,6 +787,8 @@
     title_en: Clannad
     image: "/assets/achievements/anime/franchise/clannad.jpg"
     topic_id: 247360
+  generator: 97.8%
+    threshold: 100%
 - neko_id: clannad
   level: 0
   algo: duration
@@ -1429,6 +1433,7 @@
     not_anime_ids:
     - 9731
     - 11083
+    - 10886
   threshold: 98.9%
   metadata: &151
     title_ru: Внук Нурарихёна
@@ -2655,6 +2660,8 @@
     title_en: Kiniro no Corda
     image: "/assets/achievements/anime/franchise/kiniro_no_corda.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: kiniro_no_corda
   level: 0
   algo: duration
@@ -2842,6 +2849,8 @@
     title_en: Ookiku Furikabutte
     image: "/assets/achievements/anime/franchise/ookiku_furikabutte.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: ookiku_furikabutte
   level: 0
   algo: duration
@@ -2861,6 +2870,8 @@
     title_en: Toriko
     image: "/assets/achievements/anime/franchise/toriko.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: toriko
   level: 0
   algo: duration
