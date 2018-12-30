@@ -787,7 +787,7 @@
     title_en: Clannad
     image: "/assets/achievements/anime/franchise/clannad.jpg"
     topic_id: 247360
-  generator: 97.8%
+  generator:
     threshold: 100%
 - neko_id: clannad
   level: 0
