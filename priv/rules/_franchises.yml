@@ -2357,7 +2357,7 @@
   metadata: &250
     title_ru: Черный Джек
     title_en: Black Jack
-    image: "/assets/achievements/anime/franchise/black_jack.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/84020/711967.jpg
     topic_id: 247360
 - neko_id: black_jack
   level: 0
