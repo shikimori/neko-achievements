@@ -1433,14 +1433,13 @@
     not_anime_ids:
     - 9731
     - 11083
+    - 10886
   threshold: 98.9%
   metadata: &151
     title_ru: Внук Нурарихёна
     title_en: Nurarihyon no Mago
     image: "/assets/achievements/anime/franchise/nurarihyon_no_mago.jpg"
     topic_id: 247360
-  generator:
-    threshold: 100%
 - neko_id: nurarihyon_no_mago
   level: 0
   algo: duration
