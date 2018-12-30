@@ -19,8 +19,8 @@
   metadata:
     title_ru: Изобретатель
     text_ru: Вероятно, вы способны сделать пригодным для использования даже то, что является кучей мусора в глазах других.
-    image: /assets/achievements/anime/scifi_2.png
-    border_color: "#256d7b"
+    image: /assets/achievements/anime/scifi_2.jpg
+    border_color: "#876464"
 
 - <<: *defaults
   level: 3
@@ -38,4 +38,4 @@
     title_ru: Великий Разум
     text_ru: Фантастика — это реальность. Всё, о чём вы подумали, осуществляется.
     image: /assets/achievements/anime/scifi_4.gif
-    border_color: "#2f353b"
+    border_color: "#DAA520"
