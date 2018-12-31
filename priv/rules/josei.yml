@@ -2,7 +2,7 @@
   neko_id: josei
   level: 1
   algo: count
-  threshold: 20%
+  threshold: 15
   filters:
     genre_ids:
       - 43
@@ -15,7 +15,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 35%
+  threshold: 25
   metadata:
     title_ru: Я делаю то, что мне нравится!
     text_ru: Мы не учимся быть артистами, художниками или писателями — мы учимся быть.
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 55%
+  threshold: 40
   metadata:
     title_ru: Мы — это наши поступки
     text_ru: Быть человеком — значит взять на себя какую-то ответственность, а не просто заполнять собой пространство.
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 75%
+  threshold: 60
   metadata:
     title_ru: Мемуары гейши
     text_ru: Сколько бы ни существовало историй, лучшая — та, что написана вместе.
