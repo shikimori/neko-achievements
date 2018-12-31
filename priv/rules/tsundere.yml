@@ -1092,7 +1092,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 15%
+  threshold: 20%
   metadata:
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
@@ -1101,7 +1101,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 25%
+  threshold: 30%
   metadata:
     title_ru: Цундере мне вовсе не интересны!
     text_ru: Ну, если только совсем чуть-чуть...
