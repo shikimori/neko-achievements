@@ -1,7 +1,7 @@
 - neko_id: oniichan
   level: 1
   algo: count
-  threshold: 80%
+  threshold: 50
   filters:
     anime_ids:
       - 10020

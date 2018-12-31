@@ -2,7 +2,7 @@
   neko_id: oldfag
   level: 1
   algo: count
-  threshold: 70
+  threshold: 50
   filters:
     year_lte: 2000
   metadata:
@@ -14,7 +14,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 150
+  threshold: 100
   metadata:
     title_ru: Золотая коллекция
     text_ru: Запах целлулоида, полароиды, стереорадиолы… Вы помните всё так, как будто это было вчера.
@@ -23,7 +23,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 300
+  threshold: 200
   metadata:
     title_ru: Ветер ностальгии
     text_ru: Серьезно, сколько вам лет?
@@ -32,7 +32,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 500
+  threshold: 350
   metadata:
     title_ru: Часть минувшей эпохи
     text_ru: Живая легенда. Носишь шляпу кота Перро и здоровался с Осаму Тедзукой.

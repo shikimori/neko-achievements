@@ -2,7 +2,7 @@
   neko_id: yuuri
   level: 1
   algo: count
-  threshold: 25%
+  threshold: 20%
   filters:
     genre_ids:
       - 26
@@ -27,7 +27,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 45%
+  threshold: 35%
   metadata:
     title_ru: Первые чувства
     text_ru: Быть может, это неправильно. Но кого это волнует?
@@ -36,7 +36,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 65%
+  threshold: 50%
   metadata:
     title_ru: Я поцеловала девушку...
     text_ru: ... и мне понравилось!
@@ -47,7 +47,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 85%
+  threshold: 70%
   metadata:
     title_ru: Счастливая семейная жизнь
     text_ru: Лилии цветут в вашем доме.
