@@ -1981,8 +1981,8 @@
     franchise: brave_witches
   threshold: 95%
   metadata: &211
-    title_ru: Храбрые ведьмы
-    title_en: Brave Witches
+    title_ru: Штурмовые ведьмы
+    title_en: Strike Witches
     image: "/assets/achievements/anime/franchise/brave_witches.jpg"
     topic_id: 247360
 - neko_id: brave_witches
