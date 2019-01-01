@@ -3,7 +3,7 @@
   level: 1
   algo: duration
   filters: &1
-    franchise: shingeki
+    franchise: shingeki_no_kyojin
     not_anime_ids:
     - 19285
     - 19391
