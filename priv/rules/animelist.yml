@@ -182,7 +182,7 @@
   level: 20
   threshold: 10000
   metadata:
-    title_ru: "SlotAchievName_0020: NULL"
+    title_ru: "SlotAchiveName_0020: NULL"
     text_ru: "Description: Теперь вам не нужно аниме, чтобы смотреть аниме."
     image: /assets/achievements/anime/animelist_20.gif
     border_color: "#231A24"
