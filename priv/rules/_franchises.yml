@@ -1421,6 +1421,8 @@
     title_en: Ashita no Joe
     image: "/assets/achievements/anime/franchise/ashita_no_joe.jpg"
     topic_id: 247360
+  generator:
+    threshold: 99%
 - neko_id: ashita_no_joe
   level: 0
   algo: duration
