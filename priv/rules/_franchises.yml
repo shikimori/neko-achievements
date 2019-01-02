@@ -99,7 +99,7 @@
   metadata: &10
     title_ru: Стальной алхимик
     title_en: Fullmetal Alchemist
-    image: "/assets/achievements/anime/franchise/fullmetal_alchemist.png"
+    image: https://nyaa.shikimori.org/system/user_images/original/249685/714590.jpg
     topic_id: 247360
   generator: &11
     not_ignored_ids:
