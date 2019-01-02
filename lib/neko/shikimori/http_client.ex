@@ -66,7 +66,7 @@ defmodule Neko.Shikimori.HTTPClient do
   def process_url(path), do: @base_url <> path
 
   defp make_request!(:get, path, params \\ %{}) do
-    get!(path, [], params: params).body
+    get!(path, ["User-Agent": "Neko"], params: params).body
   end
 
   defp handle_parse_json!(result, json) do
