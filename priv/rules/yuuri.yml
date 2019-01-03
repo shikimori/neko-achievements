@@ -18,10 +18,11 @@
         - 19109
         - 25011
         - 37517
+        - 316
   metadata:
     title_ru: Женская дружба
     text_ru: Лишь невинные заигрывания, только и всего.
-    image: /assets/achievements/anime/yuuri_1.png
+    image: /assets/achievements/anime/yuuri_1.jpg
     border_color: "#d5a471"
     topic_id: 227432
 
@@ -43,7 +44,7 @@
     title_en: I kissed a girl...
     text_en: ...and I liked it!
     image: /assets/achievements/anime/yuuri_3.png
-    border_color: "#935c49"
+    border_color: "#FADADD"
 
 - <<: *defaults
   level: 4
@@ -52,4 +53,4 @@
     title_ru: Счастливая семейная жизнь
     text_ru: Лилии цветут в вашем доме.
     image: /assets/achievements/anime/yuuri_4.gif
-    border_color: "#e73a95"
+    border_color: "#FDD9B5"
