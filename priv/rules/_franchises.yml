@@ -275,6 +275,7 @@
     - 23697
     - 36327
     - 36729
+    - 36064
   threshold: 92.3%
   metadata: &27
     title_ru: Судьба
@@ -1931,6 +1932,7 @@
     franchise: initial_d
     not_anime_ids:
     - 12725
+    - 821
   threshold: 95%
   metadata: &206
     title_ru: Инициал Ди
@@ -2591,9 +2593,11 @@
     franchise: yuu_yuu_hakusho
     not_anime_ids:
     - 6964
+    - 2126
+    - 2125
   threshold: 97.9%
   metadata: &279
-    title_ru: Отчет о буйстве духов
+    title_ru: Отчёт о буйстве духов
     title_en: Yuu☆Yuu☆Hakusho
     image: "/assets/achievements/anime/franchise/yuu_yuu_hakusho.jpg"
     topic_id: 247360
