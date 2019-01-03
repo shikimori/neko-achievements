@@ -1068,8 +1068,8 @@
   metadata:
     title_ru: Это не то, о чем ты подумал
     text_ru: Н-не то, чтобы я волновалась о тебе, я-ясно?
-    image: /assets/achievements/anime/tsundere_1.png
-    border_color: "#c5d0e6"
+    image: /assets/achievements/anime/tsundere_1.jpg
+    border_color: "#FCD975"
     topic_id: 227430
 
 - <<: *defaults
@@ -1079,7 +1079,7 @@
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
     image: /assets/achievements/anime/tsundere_2.jpg
-    border_color: "#89191C"
+    border_color: "#D5713F"
 
 - <<: *defaults
   level: 3
