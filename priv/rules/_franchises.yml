@@ -1415,14 +1415,14 @@
     not_anime_ids:
     - 2920
     - 2922
-  threshold: 99.3%
+  threshold: 99%
   metadata: &151
     title_ru: Завтрашний Джо
     title_en: Ashita no Joe
     image: "/assets/achievements/anime/franchise/ashita_no_joe.jpg"
     topic_id: 247360
   generator: &152
-    threshold: 99%
+    threshold: 99.3%
 - neko_id: ashita_no_joe
   level: 0
   algo: duration
