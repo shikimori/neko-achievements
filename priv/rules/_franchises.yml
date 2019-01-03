@@ -213,7 +213,7 @@
     - 6948
     - 36725
     - 36796
-  threshold: 94.2%
+  threshold: 94.1%
   metadata: &22
     title_ru: Цикл историй
     title_en: Monogatari Series
@@ -414,7 +414,7 @@
     franchise: chuunibyou_demo_koi_ga_shitai
     not_anime_ids:
     - 36855
-  threshold: 87.6%
+  threshold: 87.8%
   metadata: &42
     title_ru: Чудачества любви не помеха!
     title_en: Chuunibyou demo Koi ga Shitai!
@@ -605,7 +605,7 @@
   algo: duration
   filters: &63
     franchise: danganronpa
-  threshold: 97.3%
+  threshold: 96.3%
   metadata: &64
     title_ru: Данганронпа
     title_en: Danganronpa
@@ -1116,6 +1116,7 @@
     not_anime_ids:
     - 14267
     - 25257
+    - 38937
   threshold: 95%
   metadata: &120
     title_ru: Персона
@@ -1578,7 +1579,7 @@
     - 33221
     - 35949
     - 36436
-  threshold: 87.6%
+  threshold: 88.1%
   metadata: &168
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -1748,6 +1749,8 @@
     - 10050
     - 31494
     - 35077
+    - 38675
+    - 38676
   threshold: 95%
   metadata: &188
     title_ru: Макросс
@@ -3045,7 +3048,7 @@
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
-  threshold: 93%
+  threshold: 92.7%
   metadata: &330
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
@@ -3480,7 +3483,7 @@
     franchise: doraemon
     not_anime_ids:
     - 501
-  threshold: 94.1%
+  threshold: 94%
   metadata: &378
     title_ru: Дораэмон
     title_en: Doraemon
