@@ -211,9 +211,9 @@
     franchise: bakemonogatari
     not_anime_ids:
     - 6948
+    - 32191
     - 36725
     - 36796
-    - 32191
   threshold: 94.1%
   metadata: &22
     title_ru: Цикл историй
