@@ -3071,7 +3071,7 @@
   metadata: &332
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
-    image: https://nyaa.shikimori.org/system/user_images/original/84020/716850.jpg
+    image: "/assets/achievements/anime/franchise/urusei_yatsura.jpg"
     topic_id: 247360
 - neko_id: urusei_yatsura
   level: 0
