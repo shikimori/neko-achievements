@@ -684,6 +684,7 @@
     franchise: jojo_no_kimyou_na_bouken
     not_anime_ids:
     - 3603
+    - 38972
   threshold: 95%
   metadata: &72
     title_ru: Невероятное приключение ДжоДжо
@@ -989,6 +990,9 @@
   algo: duration
   filters: &105
     franchise: free
+    not_anime_ids:
+    - 35191
+    - 33845
   threshold: 91.6%
   metadata: &106
     title_ru: Вольный стиль!
