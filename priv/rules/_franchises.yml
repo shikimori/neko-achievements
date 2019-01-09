@@ -538,7 +538,7 @@
   metadata: &55
     title_ru: Приятно познакомиться, Бог
     title_en: Kamisama Hajimemashita
-    image: "/assets/achievements/anime/franchise/kamisama_hajimemashita.jpg"
+    image: https://nyaa.shikimori.org/system/user_images/original/9560/717375.jpg
     topic_id: 247360
 - neko_id: kamisama_hajimemashita
   level: 0
@@ -669,7 +669,7 @@
   metadata: &70
     title_ru: Когда плачут цикады
     title_en: Higurashi no Naku Koro ni
-    image: "/assets/achievements/anime/franchise/when_they_cry.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/249685/718169.jpg
     topic_id: 247360
 - neko_id: when_they_cry
   level: 0
@@ -1660,7 +1660,7 @@
   metadata: &176
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
-    image: "/assets/achievements/anime/franchise/yuru_yuri.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/249685/718162.jpg
     topic_id: 247360
 - neko_id: yuru_yuri
   level: 0
@@ -3076,7 +3076,7 @@
   metadata: &332
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
-    image: "/assets/achievements/anime/franchise/urusei_yatsura.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/9560/717303.jpg
     topic_id: 247360
 - neko_id: urusei_yatsura
   level: 0
@@ -3530,7 +3530,7 @@
   metadata: &382
     title_ru: 'Сакура: Война миров'
     title_en: Sakura Taisen
-    image: "/assets/achievements/anime/franchise/sakura_taisen.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/9560/717482.jpg
     topic_id: 247360
 - neko_id: sakura_taisen
   level: 0
