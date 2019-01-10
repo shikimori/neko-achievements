@@ -538,7 +538,7 @@
   metadata: &55
     title_ru: Приятно познакомиться, Бог
     title_en: Kamisama Hajimemashita
-    image: https://nyaa.shikimori.org/system/user_images/original/9560/717375.jpg
+    image: "/assets/achievements/anime/franchise/kamisama_hajimemashita.jpg"
     topic_id: 247360
 - neko_id: kamisama_hajimemashita
   level: 0
@@ -669,7 +669,7 @@
   metadata: &70
     title_ru: Когда плачут цикады
     title_en: Higurashi no Naku Koro ni
-    image: https://dere.shikimori.org/system/user_images/original/249685/718169.jpg
+    image: "/assets/achievements/anime/franchise/when_they_cry.jpg"
     topic_id: 247360
 - neko_id: when_they_cry
   level: 0
@@ -684,7 +684,6 @@
     franchise: jojo_no_kimyou_na_bouken
     not_anime_ids:
     - 3603
-    - 38972
   threshold: 95%
   metadata: &72
     title_ru: Невероятное приключение ДжоДжо
@@ -991,9 +990,9 @@
   filters: &105
     franchise: free
     not_anime_ids:
-    - 35191
     - 33845
-  threshold: 91.6%
+    - 35191
+  threshold: 90.3%
   metadata: &106
     title_ru: Вольный стиль!
     title_en: Free!
@@ -1570,12 +1569,14 @@
     franchise: gundam
     not_anime_ids:
     - 91
+    - 2269
     - 2294
     - 3626
     - 3963
     - 3964
     - 5351
     - 6215
+    - 7270
     - 7953
     - 8839
     - 17655
@@ -1585,9 +1586,7 @@
     - 33221
     - 35949
     - 36436
-    - 7270
-    - 2269
-  threshold: 88.1%
+  threshold: 89%
   metadata: &168
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -1660,7 +1659,7 @@
   metadata: &176
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
-    image: https://moe.shikimori.org/system/user_images/original/249685/718302.jpg
+    image: "/assets/achievements/anime/franchise/yuru_yuri.jpg"
     topic_id: 247360
 - neko_id: yuru_yuri
   level: 0
@@ -3076,7 +3075,7 @@
   metadata: &332
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
-    image: https://desu.shikimori.org/system/user_images/original/9560/717303.jpg
+    image: "/assets/achievements/anime/franchise/urusei_yatsura.jpg"
     topic_id: 247360
 - neko_id: urusei_yatsura
   level: 0
@@ -3530,7 +3529,7 @@
   metadata: &382
     title_ru: 'Сакура: Война миров'
     title_en: Sakura Taisen
-    image: https://moe.shikimori.org/system/user_images/original/9560/717482.jpg
+    image: "/assets/achievements/anime/franchise/sakura_taisen.jpg"
     topic_id: 247360
 - neko_id: sakura_taisen
   level: 0
