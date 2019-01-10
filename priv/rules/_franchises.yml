@@ -1659,7 +1659,7 @@
   metadata: &176
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
-    image: "/assets/achievements/anime/franchise/yuru_yuri.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/3824/719351.jpg
     topic_id: 247360
 - neko_id: yuru_yuri
   level: 0
