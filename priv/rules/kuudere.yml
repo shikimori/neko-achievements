@@ -1,5 +1,5 @@
 - &defaults
-  neko_id: kuudere
+  neko_id: БОЖЕНЬКА
   level: 1
   algo: count
   threshold: 10%
@@ -347,8 +347,8 @@
       - 36943
       - 34497
   metadata:
-    title_ru: Тишина
-    text_ru: Кудере молчит только потому, что того хочет.
+    title_ru: БОГ ХЕНТАЯ
+    text_ru: ХЕНТАЙ САМ НА СЕБЯ НЕ ПОДРОЧЕТ!!!
     image: /assets/achievements/anime/kuudere_1.jpg
     border_color: "#9ad1ee"
     topic_id: 227421
@@ -357,8 +357,8 @@
   level: 2
   threshold: 15%
   metadata:
-    title_ru: Мудрость
-    text_ru: Умный менее всего одинок тогда, когда он находится в одиночестве.
+    title_ru: ALIEN BRAINS
+    text_ru: ВЫСШИЙ РАЗУМ. УМНЕЕ БОГА И ВСЕГО В ЭТОЙ ВСЕЛЕННОЙ.
     image: /assets/achievements/anime/kuudere_2.jpg
     border_color: "#4a4a40"
 
