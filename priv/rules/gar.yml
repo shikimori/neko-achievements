@@ -3,7 +3,7 @@
   neko_id: gar
   level: 1
   algo: count
-  threshold: 7%
+  threshold: 10%
   filters:
     anime_ids:
       - 1
