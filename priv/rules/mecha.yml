@@ -2,7 +2,7 @@
   neko_id: mecha
   level: 1
   algo: count
-  threshold: 30
+  threshold: 35
   filters:
     genre_ids:
       - 18
@@ -15,7 +15,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 60
+  threshold: 70
   metadata:
     title_ru: Hasshin!
     text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
@@ -24,7 +24,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 100
+  threshold: 120
   metadata:
     title_ru: Man of Steel
     text_ru: Можете взять яйцо не раздавив, можете исполнить танцевальное па... но боевой доспех стал вашей второй кожей не для этого.
@@ -33,7 +33,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 160
+  threshold: 190
   metadata:
     title_ru: Ньютайп
     text_ru: ORE WA GUNDAM
