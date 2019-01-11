@@ -684,6 +684,7 @@
     franchise: jojo_no_kimyou_na_bouken
     not_anime_ids:
     - 3603
+    - 38972
   threshold: 95%
   metadata: &72
     title_ru: Невероятное приключение ДжоДжо
