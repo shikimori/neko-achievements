@@ -70,17 +70,12 @@
   filters: &7
     franchise: science_adventure
     not_anime_ids:
-    - 4975
-    - 13599
-    - 30485
-    - 32962
     - 34753
-    - 35315
   threshold: 95%
   metadata: &8
-    title_ru: Врата Штейна
-    title_en: Steins;Gate
-    image: "/assets/achievements/anime/franchise/science_adventure.jpg"
+    title_ru: Научные приключения
+    title_en: Science Adventure
+    image: https://moe.shikimori.org/system/user_images/original/210/668527.jpg
     topic_id: 247360
 - neko_id: science_adventure
   level: 0
@@ -1660,7 +1655,7 @@
   metadata: &176
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
-    image: "/assets/achievements/anime/franchise/yuru_yuri.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/3824/719351.jpg
     topic_id: 247360
 - neko_id: yuru_yuri
   level: 0
