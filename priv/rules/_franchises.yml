@@ -75,7 +75,7 @@
   metadata: &8
     title_ru: Научные приключения
     title_en: Science Adventure
-    image: "/assets/achievements/anime/franchise/science_adventure.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/34807/719797.jpg
     topic_id: 247360
 - neko_id: science_adventure
   level: 0
