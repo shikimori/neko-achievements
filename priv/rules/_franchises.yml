@@ -1448,6 +1448,10 @@
     title_en: Nurarihyon no Mago
     image: "/assets/achievements/anime/franchise/nurarihyon_no_mago.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100% 
+    not_ignored_ids:
+    - 10886
 - neko_id: nurarihyon_no_mago
   level: 0
   algo: duration
