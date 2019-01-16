@@ -6,6 +6,10 @@
   filters:
     genre_ids:
       - 39
+      or:
+      anime_ids:
+        - 1405
+        - 1349
   metadata:
     title_ru: Народный дружинник
     text_ru: На улицах неспокойно. Нельзя терять бдительности.
