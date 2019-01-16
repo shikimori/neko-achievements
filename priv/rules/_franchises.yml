@@ -277,7 +277,7 @@
   metadata: &27
     title_ru: Судьба
     title_en: Fate
-    image: "/assets/achievements/anime/franchise/fate.jpg"
+    image: https://moe.shikimori.org/system/user_images/original/3824/722527.jpg
     topic_id: 247360
   generator: &28
     not_ignored_ids:
