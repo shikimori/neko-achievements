@@ -134,7 +134,7 @@
   metadata: &15
     title_ru: Синий экзорцист
     title_en: Ao no Exorcist
-    image: "/assets/achievements/anime/franchise/ao_no_exorcist.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/9560/722541.jpg
     topic_id: 247360
 - neko_id: ao_no_exorcist
   level: 0
@@ -153,7 +153,7 @@
   metadata: &17
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
-    image: "/assets/achievements/anime/franchise/boku_no_hero_academia.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/9560/722538.jpg
     topic_id: 247360
 - neko_id: boku_no_hero_academia
   level: 0
@@ -848,7 +848,7 @@
   metadata: &90
     title_ru: Охотник х Охотник
     title_en: Hunter x Hunter
-    image: "/assets/achievements/anime/franchise/hunter_x_hunter.jpg"
+    image: https://dere.shikimori.org/system/user_images/original/9560/722544.jpg
     topic_id: 247360
 - neko_id: hunter_x_hunter
   level: 0
