@@ -6,7 +6,7 @@
   filters:
     genre_ids:
       - 39
-      or:
+    or:
       anime_ids:
         - 1405
         - 1349
