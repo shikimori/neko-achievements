@@ -35,7 +35,7 @@
     - 37278
     - 37362
     - 37831
-  threshold: 84.5%
+  threshold: 84.8%
   metadata: &4
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
@@ -273,7 +273,7 @@
     - 36327
     - 36729
     - 38784
-  threshold: 92.1%
+  threshold: 92%
   metadata: &27
     title_ru: Судьба
     title_en: Fate
@@ -319,7 +319,7 @@
     - 246
     - 11511
     - 12121
-  threshold: 96%
+  threshold: 96.1%
   metadata: &32
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
@@ -1022,7 +1022,7 @@
   algo: duration
   filters: &109
     franchise: tales_of
-  threshold: 92.4%
+  threshold: 92.5%
   metadata: &110
     title_ru: Сказания
     title_en: Tales of
@@ -2418,7 +2418,7 @@
     franchise: ikkitousen
     not_anime_ids:
     - 8507
-  threshold: 95%
+  threshold: 93.1%
   metadata: &259
     title_ru: Сила тысячи
     title_en: Ikkitousen
@@ -2936,7 +2936,7 @@
     franchise: gegege_no_kitarou
     not_anime_ids:
     - 10584
-  threshold: 96.6%
+  threshold: 96.7%
   metadata: &318
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
@@ -3050,7 +3050,7 @@
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
-  threshold: 92.7%
+  threshold: 92.4%
   metadata: &330
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
@@ -3502,7 +3502,7 @@
   algo: duration
   filters: &379
     franchise: captain_tsubasa
-  threshold: 96.5%
+  threshold: 96.6%
   metadata: &380
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
