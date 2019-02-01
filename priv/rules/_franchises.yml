@@ -238,7 +238,7 @@
   metadata: &25
     title_ru: Семь смертных грехов
     title_en: Nanatsu no Taizai
-    image: https://moe.shikimori.org/system/user_images/original/9560/725122.jpg
+    image: "/assets/achievements/anime/franchise/nanatsu_no_taizai.jpg"
     topic_id: 247360
 - neko_id: nanatsu_no_taizai
   level: 0
@@ -340,7 +340,7 @@
   metadata: &34
     title_ru: Дюрарара!!
     title_en: Durarara!!
-    image: https://kawai.shikimori.org/system/user_images/original/9560/725001.jpg
+    image: "/assets/achievements/anime/franchise/durarara.jpg"
     topic_id: 247360
 - neko_id: durarara
   level: 0
