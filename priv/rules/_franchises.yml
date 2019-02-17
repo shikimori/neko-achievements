@@ -2116,6 +2116,9 @@
     not_anime_ids:
     - 5343
     - 9035
+    - 9035
+    - 31984
+    - 16183
   threshold: 80%
   metadata: &226
     title_ru: Люпен III
