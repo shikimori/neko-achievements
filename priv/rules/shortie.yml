@@ -26,7 +26,7 @@
   threshold: 250
   metadata:
     title_ru: Блок за блоком
-    text_ru: Вы, как при игре в тетрис, строите великое из маленьких кусочков.
+    text_ru: Вы, как при игре в тетрис, строите грандиозное из маленьких кусочков.
     image: /assets/achievements/anime/shortie_3.jpg
     border_color: "#425e17"
 
@@ -34,7 +34,7 @@
   level: 4
   threshold: 400
   metadata:
-    title_ru: Коротко, но золото
+    title_ru: Великое в малом
     text_ru: Вы узнали, что некоторые из лучших аниме выходят в коротком формате.
     image: /assets/achievements/anime/shortie_4.gif
     border_color: "#474a51"
