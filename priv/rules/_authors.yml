@@ -1,0 +1,465 @@
+---
+- :neko_id: makoto_shinkai
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Макото Синкай
+    :title_en: Makoto Shinkai
+    :image:
+    - http://i.imgur.com/tlqtG1D.jpg
+    :border_color: "#ABCDEF"
+    :topic_id: 276032
+  :generator:
+    :person_id: 1117
+- :neko_id: hayao_miyazaki
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Хаяо Миядзаки
+    :title_en: Hayao Miyazaki
+    :topic_id: 276032
+  :generator:
+    :person_id: 1870
+- :neko_id: gen_urobuchi
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Гэн Уробути
+    :title_en: Gen Urobuchi
+    :image:
+    - http://i.imgur.com/Wkyya4c.jpg
+    :topic_id: 276032
+  :generator:
+    :person_id: 10308
+- :neko_id: clamp
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: CLAMP
+    :title_en: CLAMP
+    :image:
+    - http://i.imgur.com/vQFJylU.jpg
+    :topic_id: 276032
+  :generator:
+    :person_id: 1877
+- :neko_id: satoshi_kon
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Сатоси Кон
+    :title_en: Satoshi Kon
+    :image:
+    - http://i.imgur.com/76iZ6z9.png
+    :border_color: "#FF0000"
+    :topic_id: 276032
+  :generator:
+    :person_id: 4580
+- :neko_id: mamoru_oshii
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Мамору Оси
+    :title_en: Mamoru Oshii
+    :image:
+    - https://i.imgur.com/XjRkeSQ.png
+    :border_color: "#B22222"
+    :topic_id: 276032
+  :generator:
+    :person_id: 4097
+- :neko_id: leiji_matsumoto
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Лэйдзи Мацумото
+    :title_en: Leiji Matsumoto
+    :topic_id: 276032
+  :generator:
+    :person_id: 2597
+- :neko_id: masaaki_yuasa
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Масааки Юаса
+    :title_en: Masaaki Yuasa
+    :image:
+    - https://i.imgur.com/HYDsYfy.png
+    - http://i.imgur.com/4ifdZ5H.gif
+    - http://i.imgur.com/auNU3vz.gif
+    :border_color: "#FA8072"
+    :topic_id: 276032
+  :generator:
+    :person_id: 5068
+- :neko_id: nobuyuki_fukumoto
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Нобуюки Фукумото
+    :title_en: Nobuyuki Fukumoto
+    :topic_id: 276032
+  :generator:
+    :person_id: 2539
+- :neko_id: naoki_urasawa
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Наоки Урасава
+    :title_en: Naoki Urasawa
+    :topic_id: 276032
+  :generator:
+    :person_id: 1867
+- :neko_id: rumiko_takahashi
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Румико Такахаси
+    :title_en: Rumiko Takahashi
+    :topic_id: 276032
+  :generator:
+    :person_id: 1891
+- :neko_id: go_nagai
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Го Нагай
+    :title_en: Go Nagai
+    :image:
+    - https://i.imgur.com/TUcji7y.jpg
+    :topic_id: 276032
+  :generator:
+    :person_id: 2992
+- :neko_id: osamu_tezuka
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Осаму Тэдзука
+    :title_en: Osamu Tezuka
+    :image:
+    - https://i.imgur.com/bGoOYGW.png
+    - https://i.imgur.com/EcEubgc.png
+    - https://i.imgur.com/S7v8mQx.png
+    :border_color: "#ff0000"
+    :topic_id: 276032
+  :generator:
+    :person_id: 1938
+- :neko_id: yoshiyuki_tomino
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Ёсиюки Томино
+    :title_en: Yoshiyuki Tomino
+    :topic_id: 276032
+  :generator:
+    :person_id: 2337
+- :neko_id: ryousuke_takahashi
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Рёсукэ Такахаси
+    :title_en: Ryousuke Takahashi
+    :topic_id: 276032
+  :generator:
+    :person_id: 5957
+- :neko_id: yoshiaki_kawajiri
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Ёсиаки Кавадзири
+    :title_en: Yoshiaki Kawajiri
+    :topic_id: 276032
+  :generator:
+    :person_id: 5812
+- :neko_id: shinji_aramaki
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Синдзи Арамаки
+    :title_en: Shinji Aramaki
+    :topic_id: 276032
+  :generator:
+    :person_id: 7454
+- :neko_id: osamu_dezaki
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Осаму Дэдзаки
+    :title_en: Osamu Dezaki
+    :topic_id: 276032
+  :generator:
+    :person_id: 5393
+- :neko_id: isao_takahata
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Исао Такахата
+    :title_en: Isao Takahata
+    :topic_id: 276032
+  :generator:
+    :person_id: 5579
+- :neko_id: yoshitaka_amano
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: 'Ёситака Амано '
+    :title_en: Yoshitaka Amano
+    :image:
+    - http://i.imgur.com/g2GjhLD.png
+    :border_color: "#8B4513"
+    :topic_id: 276032
+  :generator:
+    :person_id: 2967
+- :neko_id: shinichiro_watanabe
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Синъитиро Ватанабэ
+    :title_en: Shinichiro Watanabe
+    :image:
+    - https://i.imgur.com/ZHNObkO.jpg
+    :border_color: "#000000"
+    :topic_id: 276032
+  :generator:
+    :person_id: 2009
+- :neko_id: katsuhiro_otomo
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Кацухиро Отомо
+    :title_en: Katsuhiro Otomo
+    :image:
+    - https://i.imgur.com/CVRbwzd.png
+    - https://i.imgur.com/tvvO4jS.png
+    - https://i.imgur.com/VuCPYFj.png
+    :border_color: "#ff0000"
+    :topic_id: 276032
+  :generator:
+    :person_id: 1872
+- :neko_id: rintaro
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Ринтаро
+    :title_en: Rintaro
+    :image:
+    - https://i.imgur.com/MQ5Tlzh.png
+    :border_color: "#3CB371"
+    :topic_id: 276032
+  :generator:
+    :person_id: 7305
+- :neko_id: kouji_morimoto
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Кодзи Моримото
+    :title_en: Kouji Morimoto
+    :image:
+    - https://i.imgur.com/Jbv8P5j.png
+    :border_color: "#2E8B57"
+    :topic_id: 276032
+  :generator:
+    :person_id: 5066
+- :neko_id: key
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Key
+    :title_en: Key
+    :image:
+    - http://i.imgur.com/lzFzJ3P.png?1
+    :topic_id: 276032
+  :generator:
+    :person_id: 2885
+- :neko_id: hideaki_anno
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Хидэаки Анно
+    :title_en: Hideaki Anno
+    :image:
+    - http://images.popmatters.com/misc_art/e/evangelion-splash.jpg
+    :topic_id: 276032
+  :generator:
+    :person_id: 5111
+- :neko_id: hiroyuki_imaishi
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Хироюки Имаиси
+    :title_en: Hiroyuki Imaishi
+    :topic_id: 276032
+  :generator:
+    :person_id: 2349
+- :neko_id: type_moon
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Type-Moon
+    :title_en: Type-Moon
+    :image:
+    - http://i.imgur.com/ntPpWgu.png
+    - https://1.downloader.disk.yandex.ru/preview/d86a0628289f67838c1dfdb6d58ce420c53d21ab7469f62c5e023932d2cd832c/inf/Ulc4l6Nw6Zl9PBaWaDlZYZrr_sdi0U8PMbbsf77qFkhuckrF1F4zzOaYBE1Bm2YTeHAbPiHwv3d5ZYFVu5LO9g%3D%3D?uid=440446165&filename=Ahnenerbe.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1249x572
+    :border_color: "#d58c3f"
+    :topic_id: 276032
+  :generator:
+    :person_id: 2582
+- :neko_id: mamoru_hosoda
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Мамору Хосода
+    :title_en: Mamoru Hosoda
+    :topic_id: 276032
+  :generator:
+    :person_id: 5067
+- :neko_id: kouichi_mashimo
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Коити Масимо
+    :title_en: Kouichi Mashimo
+    :topic_id: 276032
+  :generator:
+    :person_id: 5094
+- :neko_id: masami_kurumada
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Масами Курумада
+    :title_en: Masami Kurumada
+    :topic_id: 276032
+  :generator:
+    :person_id: 1999
+- :neko_id: kenji_kamiyama
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Кэндзи Камияма
+    :title_en: Kenji Kamiyama
+    :topic_id: 276032
+  :generator:
+    :person_id: 5348
+- :neko_id: tensai_okamura
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Тэнсай Окамура
+    :title_en: Tensai Okamura
+    :topic_id: 276032
+  :generator:
+    :person_id: 2762
+- :neko_id: hiroshi_motomiya
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Хироси Мотомия
+    :title_en: Hiroshi Motomiya
+    :topic_id: 276032
+  :generator:
+    :person_id: 6469
+- :neko_id: shoutarou_ishinomori
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Сётаро Исиномори
+    :title_en: Shoutarou Ishinomori
+    :topic_id: 276032
+  :generator:
+    :person_id: 2478
+- :neko_id: mitsuteru_yokoyama
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Мицутэру Ёкояма
+    :title_en: Mitsuteru Yokoyama
+    :topic_id: 276032
+  :generator:
+    :person_id: 3679
+- :neko_id: shoji_kawamori
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Сёдзи Кавамори
+    :title_en: Shoji Kawamori
+    :topic_id: 276032
+  :generator:
+    :person_id: 2501
+- :neko_id: masamune_shirow
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Масамунэ Сиро
+    :title_en: Masamune Shirow
+    :topic_id: 276032
+  :generator:
+    :person_id: 2609
+- :neko_id: kenji_nakamura
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Кэндзи Накамура
+    :title_en: Kenji Nakamura
+    :topic_id: 276032
+  :generator:
+    :person_id: 7217
+- :neko_id: kunihiko_ikuhara
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Кунихико Икухара
+    :title_en: Kunihiko Ikuhara
+    :topic_id: 276032
+  :generator:
+    :person_id: 5082
+- :neko_id: kunihiko_yuyama
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Кунихико Юяма
+    :title_en: Kunihiko Yuyama
+    :topic_id: 276032
+  :generator:
+    :person_id: 5180
+- :neko_id: osamu_kobayashi
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Осаму Кобаяси
+    :title_en: Osamu Kobayashi
+    :topic_id: 276032
+  :generator:
+    :person_id: 10373
+- :neko_id: nobuo_uematsu
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Нобуо Уэмацу
+    :title_en: Nobuo Uematsu
+    :topic_id: 276032
+  :generator:
+    :person_id: 5150
+- :neko_id: yoshikazu_yasuhiko
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Ёсикадзу Ясухико
+    :title_en: Yoshikazu Yasuhiko
+    :topic_id: 276032
+  :generator:
+    :person_id: 2220
+- :neko_id: satoshi_dezaki
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Сатоси Дэдзаки
+    :title_en: Satoshi Dezaki
+    :topic_id: 276032
+  :generator:
+    :person_id: 16371
+- :neko_id: tomoharu_katsumata
+  :level: 1
+  :algo: duration
+  :metadata:
+    :title_ru: Томохару Кацумата
+    :title_en: Tomoharu Katsumata
+    :topic_id: 276032
+  :generator:
+    :person_id: 6305
