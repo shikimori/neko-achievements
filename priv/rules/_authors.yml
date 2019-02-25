@@ -2,11 +2,8 @@
 - neko_id: hiroyuki_imaishi
   level: 1
   algo: duration
-  metadata: &1
-    title_ru: Хироюки Имаиси
-    title_en: Hiroyuki Imaishi
-    topic_id: 276032
-  filters: &2
+  threshold: 100%
+  filters: &1
     anime_ids:
     - 30
     - 32
@@ -66,23 +63,24 @@
     - 32681
     - 33489
     - 35849
+  metadata: &2
+    title_ru: Хироюки Имаиси
+    title_en: Hiroyuki Imaishi
+    topic_id: 276032
   generator: &3
     person_id: 2349
 - neko_id: hiroyuki_imaishi
   level: 0
   algo: duration
-  metadata: *1
-  filters: *2
-  generator: *3
   threshold: 0.01
+  filters: *1
+  metadata: *2
+  generator: *3
 - neko_id: tensai_okamura
   level: 1
   algo: duration
-  metadata: &4
-    title_ru: Тэнсай Окамура
-    title_en: Tensai Okamura
-    topic_id: 276032
-  filters: &5
+  threshold: 100%
+  filters: &4
     anime_ids:
     - 1
     - 5
@@ -136,23 +134,24 @@
     - 20973
     - 23755
     - 32245
+  metadata: &5
+    title_ru: Тэнсай Окамура
+    title_en: Tensai Okamura
+    topic_id: 276032
   generator: &6
     person_id: 2762
 - neko_id: tensai_okamura
   level: 0
   algo: duration
-  metadata: *4
-  filters: *5
-  generator: *6
   threshold: 0.01
+  filters: *4
+  metadata: *5
+  generator: *6
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: duration
-  metadata: &7
-    title_ru: Ёсиаки Кавадзири
-    title_en: Yoshiaki Kawajiri
-    topic_id: 276032
-  filters: &8
+  threshold: 100%
+  filters: &7
     anime_ids:
     - 156
     - 207
@@ -232,25 +231,24 @@
     - 31764
     - 33337
     - 37451
+  metadata: &8
+    title_ru: Ёсиаки Кавадзири
+    title_en: Yoshiaki Kawajiri
+    topic_id: 276032
   generator: &9
     person_id: 5812
 - neko_id: yoshiaki_kawajiri
   level: 0
   algo: duration
-  metadata: *7
-  filters: *8
-  generator: *9
   threshold: 0.01
+  filters: *7
+  metadata: *8
+  generator: *9
 - neko_id: shinichiro_watanabe
   level: 1
   algo: duration
-  metadata: &10
-    title_ru: Синъитиро Ватанабэ
-    title_en: Shinichiro Watanabe
-    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
-    border_color: "#000000"
-    topic_id: 276032
-  filters: &11
+  threshold: 100%
+  filters: &10
     anime_ids:
     - 1
     - 5
@@ -281,25 +279,26 @@
     - 23327
     - 28223
     - 36308
+  metadata: &11
+    title_ru: Синъитиро Ватанабэ
+    title_en: Shinichiro Watanabe
+    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
+    border_color: "#000000"
+    topic_id: 276032
   generator: &12
     person_id: 2009
 - neko_id: shinichiro_watanabe
   level: 0
   algo: duration
-  metadata: *10
-  filters: *11
-  generator: *12
   threshold: 0.01
+  filters: *10
+  metadata: *11
+  generator: *12
 - neko_id: makoto_shinkai
   level: 1
   algo: duration
-  metadata: &13
-    title_ru: Макото Синкай
-    title_en: Makoto Shinkai
-    image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
-    border_color: "#ABCDEF"
-    topic_id: 276032
-  filters: &14
+  threshold: 100%
+  filters: &13
     anime_ids:
     - 256
     - 433
@@ -323,24 +322,26 @@
     - 32281
     - 32491
     - 33902
+  metadata: &14
+    title_ru: Макото Синкай
+    title_en: Makoto Shinkai
+    image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
+    border_color: "#ABCDEF"
+    topic_id: 276032
   generator: &15
     person_id: 1117
 - neko_id: makoto_shinkai
   level: 0
   algo: duration
-  metadata: *13
-  filters: *14
-  generator: *15
   threshold: 0.01
+  filters: *13
+  metadata: *14
+  generator: *15
 - neko_id: gen_urobuchi
   level: 1
   algo: duration
-  metadata: &16
-    title_ru: Гэн Уробути
-    title_en: Gen Urobuchi
-    image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
-    topic_id: 276032
-  filters: &17
+  threshold: 100%
+  filters: &16
     anime_ids:
     - 438
     - 3407
@@ -367,23 +368,25 @@
     - 33783
     - 36816
     - 37897
+  metadata: &17
+    title_ru: Гэн Уробути
+    title_en: Gen Urobuchi
+    image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
+    topic_id: 276032
   generator: &18
     person_id: 10308
 - neko_id: gen_urobuchi
   level: 0
   algo: duration
-  metadata: *16
-  filters: *17
-  generator: *18
   threshold: 0.01
+  filters: *16
+  metadata: *17
+  generator: *18
 - neko_id: hayao_miyazaki
   level: 1
   algo: duration
-  metadata: &19
-    title_ru: Хаяо Миядзаки
-    title_en: Hayao Miyazaki
-    topic_id: 276032
-  filters: &20
+  threshold: 100%
+  filters: &19
     anime_ids:
     - 164
     - 199
@@ -452,24 +455,24 @@
     - 24975
     - 25291
     - 32133
+  metadata: &20
+    title_ru: Хаяо Миядзаки
+    title_en: Hayao Miyazaki
+    topic_id: 276032
   generator: &21
     person_id: 1870
 - neko_id: hayao_miyazaki
   level: 0
   algo: duration
-  metadata: *19
-  filters: *20
-  generator: *21
   threshold: 0.01
+  filters: *19
+  metadata: *20
+  generator: *21
 - neko_id: key
   level: 1
   algo: duration
-  metadata: &22
-    title_ru: Key
-    title_en: Key
-    image: "/assets/achievements/anime/author/key.png"
-    topic_id: 276032
-  filters: &23
+  threshold: 100%
+  filters: &22
     anime_ids:
     - 101
     - 144
@@ -495,23 +498,25 @@
     - 33091
     - 33190
     - 34126
+  metadata: &23
+    title_ru: Key
+    title_en: Key
+    image: "/assets/achievements/anime/author/key.png"
+    topic_id: 276032
   generator: &24
     person_id: 2885
 - neko_id: key
   level: 0
   algo: duration
-  metadata: *22
-  filters: *23
-  generator: *24
   threshold: 0.01
+  filters: *22
+  metadata: *23
+  generator: *24
 - neko_id: mamoru_hosoda
   level: 1
   algo: duration
-  metadata: &25
-    title_ru: Мамору Хосода
-    title_en: Mamoru Hosoda
-    topic_id: 276032
-  filters: &26
+  threshold: 100%
+  filters: &25
     anime_ids:
     - 21
     - 170
@@ -546,24 +551,24 @@
     - 12355
     - 28805
     - 36936
+  metadata: &26
+    title_ru: Мамору Хосода
+    title_en: Mamoru Hosoda
+    topic_id: 276032
   generator: &27
     person_id: 5067
 - neko_id: mamoru_hosoda
   level: 0
   algo: duration
-  metadata: *25
-  filters: *26
-  generator: *27
   threshold: 0.01
+  filters: *25
+  metadata: *26
+  generator: *27
 - neko_id: clamp
   level: 1
   algo: duration
-  metadata: &28
-    title_ru: CLAMP
-    title_en: CLAMP
-    image: "/assets/achievements/anime/author/clamp.jpg"
-    topic_id: 276032
-  filters: &29
+  threshold: 100%
+  filters: &28
     anime_ids:
     - 52
     - 59
@@ -620,23 +625,25 @@
     - 35416
     - 36592
     - 39032
+  metadata: &29
+    title_ru: CLAMP
+    title_en: CLAMP
+    image: "/assets/achievements/anime/author/clamp.jpg"
+    topic_id: 276032
   generator: &30
     person_id: 1877
 - neko_id: clamp
   level: 0
   algo: duration
-  metadata: *28
-  filters: *29
-  generator: *30
   threshold: 0.01
+  filters: *28
+  metadata: *29
+  generator: *30
 - neko_id: kunihiko_ikuhara
   level: 1
   algo: duration
-  metadata: &31
-    title_ru: Кунихико Икухара
-    title_en: Kunihiko Ikuhara
-    topic_id: 276032
-  filters: &32
+  threshold: 100%
+  filters: &31
     anime_ids:
     - 440
     - 530
@@ -659,24 +666,24 @@
     - 15605
     - 22827
     - 26165
+  metadata: &32
+    title_ru: Кунихико Икухара
+    title_en: Kunihiko Ikuhara
+    topic_id: 276032
   generator: &33
     person_id: 5082
 - neko_id: kunihiko_ikuhara
   level: 0
   algo: duration
-  metadata: *31
-  filters: *32
-  generator: *33
   threshold: 0.01
+  filters: *31
+  metadata: *32
+  generator: *33
 - neko_id: hideaki_anno
   level: 1
   algo: duration
-  metadata: &34
-    title_ru: Хидэаки Анно
-    title_en: Hideaki Anno
-    image: "/assets/achievements/anime/author/hideaki_anno.jpg"
-    topic_id: 276032
-  filters: &35
+  threshold: 100%
+  filters: &34
     anime_ids:
     - 30
     - 32
@@ -735,25 +742,25 @@
     - 34929
     - 34930
     - 36030
+  metadata: &35
+    title_ru: Хидэаки Анно
+    title_en: Hideaki Anno
+    image: "/assets/achievements/anime/author/hideaki_anno.jpg"
+    topic_id: 276032
   generator: &36
     person_id: 5111
 - neko_id: hideaki_anno
   level: 0
   algo: duration
-  metadata: *34
-  filters: *35
-  generator: *36
   threshold: 0.01
+  filters: *34
+  metadata: *35
+  generator: *36
 - neko_id: type_moon
   level: 1
   algo: duration
-  metadata: &37
-    title_ru: Type-Moon
-    title_en: Type-Moon
-    image: "/assets/achievements/anime/author/type_moon.png"
-    border_color: "#d58c3f"
-    topic_id: 276032
-  filters: &38
+  threshold: 100%
+  filters: &37
     anime_ids:
     - 356
     - 2593
@@ -791,23 +798,26 @@
     - 33047
     - 34321
     - 34662
+  metadata: &38
+    title_ru: Type-Moon
+    title_en: Type-Moon
+    image: "/assets/achievements/anime/author/type_moon.png"
+    border_color: "#d58c3f"
+    topic_id: 276032
   generator: &39
     person_id: 2582
 - neko_id: type_moon
   level: 0
   algo: duration
-  metadata: *37
-  filters: *38
-  generator: *39
   threshold: 0.01
+  filters: *37
+  metadata: *38
+  generator: *39
 - neko_id: shoji_kawamori
   level: 1
   algo: duration
-  metadata: &40
-    title_ru: Сёдзи Кавамори
-    title_en: Shoji Kawamori
-    topic_id: 276032
-  filters: &41
+  threshold: 100%
+  filters: &40
     anime_ids:
     - 1
     - 43
@@ -890,23 +900,24 @@
     - 35135
     - 36077
     - 36884
+  metadata: &41
+    title_ru: Сёдзи Кавамори
+    title_en: Shoji Kawamori
+    topic_id: 276032
   generator: &42
     person_id: 2501
 - neko_id: shoji_kawamori
   level: 0
   algo: duration
-  metadata: *40
-  filters: *41
-  generator: *42
   threshold: 0.01
+  filters: *40
+  metadata: *41
+  generator: *42
 - neko_id: kenji_nakamura
   level: 1
   algo: duration
-  metadata: &43
-    title_ru: Кэндзи Накамура
-    title_en: Kenji Nakamura
-    topic_id: 276032
-  filters: &44
+  threshold: 100%
+  filters: &43
     anime_ids:
     - 1
     - 339
@@ -925,25 +936,24 @@
     - 18229
     - 21039
     - 23703
+  metadata: &44
+    title_ru: Кэндзи Накамура
+    title_en: Kenji Nakamura
+    topic_id: 276032
   generator: &45
     person_id: 7217
 - neko_id: kenji_nakamura
   level: 0
   algo: duration
-  metadata: *43
-  filters: *44
-  generator: *45
   threshold: 0.01
+  filters: *43
+  metadata: *44
+  generator: *45
 - neko_id: masaaki_yuasa
   level: 1
   algo: duration
-  metadata: &46
-    title_ru: Масааки Юаса
-    title_en: Masaaki Yuasa
-    image: "/assets/achievements/anime/author/masaaki_yuasa.png"
-    border_color: "#FA8072"
-    topic_id: 276032
-  filters: &47
+  threshold: 100%
+  filters: &46
     anime_ids:
     - 205
     - 366
@@ -997,25 +1007,26 @@
     - 34537
     - 34792
     - 35120
+  metadata: &47
+    title_ru: Масааки Юаса
+    title_en: Masaaki Yuasa
+    image: "/assets/achievements/anime/author/masaaki_yuasa.png"
+    border_color: "#FA8072"
+    topic_id: 276032
   generator: &48
     person_id: 5068
 - neko_id: masaaki_yuasa
   level: 0
   algo: duration
-  metadata: *46
-  filters: *47
-  generator: *48
   threshold: 0.01
+  filters: *46
+  metadata: *47
+  generator: *48
 - neko_id: mamoru_oshii
   level: 1
   algo: duration
-  metadata: &49
-    title_ru: Мамору Оси
-    title_en: Mamoru Oshii
-    image: "/assets/achievements/anime/author/mamoru_oshii.png"
-    border_color: "#B22222"
-    topic_id: 276032
-  filters: &50
+  threshold: 100%
+  filters: &49
     anime_ids:
     - 43
     - 150
@@ -1052,23 +1063,26 @@
     - 7664
     - 9001
     - 9629
+  metadata: &50
+    title_ru: Мамору Оси
+    title_en: Mamoru Oshii
+    image: "/assets/achievements/anime/author/mamoru_oshii.png"
+    border_color: "#B22222"
+    topic_id: 276032
   generator: &51
     person_id: 4097
 - neko_id: mamoru_oshii
   level: 0
   algo: duration
-  metadata: *49
-  filters: *50
-  generator: *51
   threshold: 0.01
+  filters: *49
+  metadata: *50
+  generator: *51
 - neko_id: isao_takahata
   level: 1
   algo: duration
-  metadata: &52
-    title_ru: Исао Такахата
-    title_en: Isao Takahata
-    topic_id: 276032
-  filters: &53
+  threshold: 100%
+  filters: &52
     anime_ids:
     - 283
     - 302
@@ -1100,25 +1114,24 @@
     - 16664
     - 20001
     - 23003
+  metadata: &53
+    title_ru: Исао Такахата
+    title_en: Isao Takahata
+    topic_id: 276032
   generator: &54
     person_id: 5579
 - neko_id: isao_takahata
   level: 0
   algo: duration
-  metadata: *52
-  filters: *53
-  generator: *54
   threshold: 0.01
+  filters: *52
+  metadata: *53
+  generator: *54
 - neko_id: kouji_morimoto
   level: 1
   algo: duration
-  metadata: &55
-    title_ru: Кодзи Моримото
-    title_en: Kouji Morimoto
-    image: "/assets/achievements/anime/author/kouji_morimoto.png"
-    border_color: "#2E8B57"
-    topic_id: 276032
-  filters: &56
+  threshold: 100%
+  filters: &55
     anime_ids:
     - 47
     - 512
@@ -1144,23 +1157,26 @@
     - 9846
     - 35248
     - 38162
+  metadata: &56
+    title_ru: Кодзи Моримото
+    title_en: Kouji Morimoto
+    image: "/assets/achievements/anime/author/kouji_morimoto.png"
+    border_color: "#2E8B57"
+    topic_id: 276032
   generator: &57
     person_id: 5066
 - neko_id: kouji_morimoto
   level: 0
   algo: duration
-  metadata: *55
-  filters: *56
-  generator: *57
   threshold: 0.01
+  filters: *55
+  metadata: *56
+  generator: *57
 - neko_id: kenji_kamiyama
   level: 1
   algo: duration
-  metadata: &58
-    title_ru: Кэндзи Камияма
-    title_en: Kenji Kamiyama
-    topic_id: 276032
-  filters: &59
+  threshold: 100%
+  filters: &58
     anime_ids:
     - 347
     - 405
@@ -1188,23 +1204,24 @@
     - 33685
     - 33686
     - 33687
+  metadata: &59
+    title_ru: Кэндзи Камияма
+    title_en: Kenji Kamiyama
+    topic_id: 276032
   generator: &60
     person_id: 5348
 - neko_id: kenji_kamiyama
   level: 0
   algo: duration
-  metadata: *58
-  filters: *59
-  generator: *60
   threshold: 0.01
+  filters: *58
+  metadata: *59
+  generator: *60
 - neko_id: masamune_shirow
   level: 1
   algo: duration
-  metadata: &61
-    title_ru: Масамунэ Сиро
-    title_en: Masamune Shirow
-    topic_id: 276032
-  filters: &62
+  threshold: 100%
+  filters: &61
     anime_ids:
     - 43
     - 54
@@ -1234,23 +1251,24 @@
     - 27411
     - 31930
     - 32214
+  metadata: &62
+    title_ru: Масамунэ Сиро
+    title_en: Masamune Shirow
+    topic_id: 276032
   generator: &63
     person_id: 2609
 - neko_id: masamune_shirow
   level: 0
   algo: duration
-  metadata: *61
-  filters: *62
-  generator: *63
   threshold: 0.01
+  filters: *61
+  metadata: *62
+  generator: *63
 - neko_id: shinji_aramaki
   level: 1
   algo: duration
-  metadata: &64
-    title_ru: Синдзи Арамаки
-    title_en: Shinji Aramaki
-    topic_id: 276032
-  filters: &65
+  threshold: 100%
+  filters: &64
     anime_ids:
     - 54
     - 202
@@ -1279,25 +1297,24 @@
     - 22677
     - 28149
     - 36194
+  metadata: &65
+    title_ru: Синдзи Арамаки
+    title_en: Shinji Aramaki
+    topic_id: 276032
   generator: &66
     person_id: 7454
 - neko_id: shinji_aramaki
   level: 0
   algo: duration
-  metadata: *64
-  filters: *65
-  generator: *66
   threshold: 0.01
+  filters: *64
+  metadata: *65
+  generator: *66
 - neko_id: satoshi_kon
   level: 1
   algo: duration
-  metadata: &67
-    title_ru: Сатоси Кон
-    title_en: Satoshi Kon
-    image: "/assets/achievements/anime/author/satoshi_kon.png"
-    border_color: "#FF0000"
-    topic_id: 276032
-  filters: &68
+  threshold: 100%
+  filters: &67
     anime_ids:
     - 323
     - 437
@@ -1313,25 +1330,26 @@
     - 2693
     - 2832
     - 4876
+  metadata: &68
+    title_ru: Сатоси Кон
+    title_en: Satoshi Kon
+    image: "/assets/achievements/anime/author/satoshi_kon.png"
+    border_color: "#FF0000"
+    topic_id: 276032
   generator: &69
     person_id: 4580
 - neko_id: satoshi_kon
   level: 0
   algo: duration
-  metadata: *67
-  filters: *68
-  generator: *69
   threshold: 0.01
+  filters: *67
+  metadata: *68
+  generator: *69
 - neko_id: rintaro
   level: 1
   algo: duration
-  metadata: &70
-    title_ru: Ринтаро
-    title_en: Rintaro
-    image: "/assets/achievements/anime/author/rintaro.png"
-    border_color: "#3CB371"
-    topic_id: 276032
-  filters: &71
+  threshold: 100%
+  filters: &70
     anime_ids:
     - 134
     - 155
@@ -1400,24 +1418,26 @@
     - 20381
     - 25265
     - 25267
+  metadata: &71
+    title_ru: Ринтаро
+    title_en: Rintaro
+    image: "/assets/achievements/anime/author/rintaro.png"
+    border_color: "#3CB371"
+    topic_id: 276032
   generator: &72
     person_id: 7305
 - neko_id: rintaro
   level: 0
   algo: duration
-  metadata: *70
-  filters: *71
-  generator: *72
   threshold: 0.01
+  filters: *70
+  metadata: *71
+  generator: *72
 - neko_id: go_nagai
   level: 1
   algo: duration
-  metadata: &73
-    title_ru: Го Нагай
-    title_en: Go Nagai
-    image: "/assets/achievements/anime/author/go_nagai.jpg"
-    topic_id: 276032
-  filters: &74
+  threshold: 100%
+  filters: &73
     anime_ids:
     - 151
     - 305
@@ -1490,25 +1510,25 @@
     - 35120
     - 36976
     - 37562
+  metadata: &74
+    title_ru: Го Нагай
+    title_en: Go Nagai
+    image: "/assets/achievements/anime/author/go_nagai.jpg"
+    topic_id: 276032
   generator: &75
     person_id: 2992
 - neko_id: go_nagai
   level: 0
   algo: duration
-  metadata: *73
-  filters: *74
-  generator: *75
   threshold: 0.01
+  filters: *73
+  metadata: *74
+  generator: *75
 - neko_id: osamu_tezuka
   level: 1
   algo: duration
-  metadata: &76
-    title_ru: Осаму Тэдзука
-    title_en: Osamu Tezuka
-    image: "/assets/achievements/anime/author/osamu_tezuka.png"
-    border_color: "#ff0000"
-    topic_id: 276032
-  filters: &77
+  threshold: 100%
+  filters: &76
     anime_ids:
     - 522
     - 971
@@ -1611,23 +1631,26 @@
     - 32041
     - 33371
     - 37520
+  metadata: &77
+    title_ru: Осаму Тэдзука
+    title_en: Osamu Tezuka
+    image: "/assets/achievements/anime/author/osamu_tezuka.png"
+    border_color: "#ff0000"
+    topic_id: 276032
   generator: &78
     person_id: 1938
 - neko_id: osamu_tezuka
   level: 0
   algo: duration
-  metadata: *76
-  filters: *77
-  generator: *78
   threshold: 0.01
+  filters: *76
+  metadata: *77
+  generator: *78
 - neko_id: kouichi_mashimo
   level: 1
   algo: duration
-  metadata: &79
-    title_ru: Коити Масимо
-    title_en: Kouichi Mashimo
-    topic_id: 276032
-  filters: &80
+  threshold: 100%
+  filters: &79
     anime_ids:
     - 48
     - 56
@@ -1673,23 +1696,24 @@
     - 6867
     - 7106
     - 9996
+  metadata: &80
+    title_ru: Коити Масимо
+    title_en: Kouichi Mashimo
+    topic_id: 276032
   generator: &81
     person_id: 5094
 - neko_id: kouichi_mashimo
   level: 0
   algo: duration
-  metadata: *79
-  filters: *80
-  generator: *81
   threshold: 0.01
+  filters: *79
+  metadata: *80
+  generator: *81
 - neko_id: ryousuke_takahashi
   level: 1
   algo: duration
-  metadata: &82
-    title_ru: Рёсукэ Такахаси
-    title_en: Ryousuke Takahashi
-    topic_id: 276032
-  filters: &83
+  threshold: 100%
+  filters: &82
     anime_ids:
     - 45
     - 58
@@ -1747,23 +1771,24 @@
     - 23779
     - 30740
     - 38162
+  metadata: &83
+    title_ru: Рёсукэ Такахаси
+    title_en: Ryousuke Takahashi
+    topic_id: 276032
   generator: &84
     person_id: 5957
 - neko_id: ryousuke_takahashi
   level: 0
   algo: duration
-  metadata: *82
-  filters: *83
-  generator: *84
   threshold: 0.01
+  filters: *82
+  metadata: *83
+  generator: *84
 - neko_id: naoki_urasawa
   level: 1
   algo: duration
-  metadata: &85
-    title_ru: Наоки Урасава
-    title_en: Naoki Urasawa
-    topic_id: 276032
-  filters: &86
+  threshold: 100%
+  filters: &85
     anime_ids:
     - 19
     - 691
@@ -1773,25 +1798,24 @@
     - 2008
     - 2009
     - 10629
+  metadata: &86
+    title_ru: Наоки Урасава
+    title_en: Naoki Urasawa
+    topic_id: 276032
   generator: &87
     person_id: 1867
 - neko_id: naoki_urasawa
   level: 0
   algo: duration
-  metadata: *85
-  filters: *86
-  generator: *87
   threshold: 0.01
+  filters: *85
+  metadata: *86
+  generator: *87
 - neko_id: katsuhiro_otomo
   level: 1
   algo: duration
-  metadata: &88
-    title_ru: Кацухиро Отомо
-    title_en: Katsuhiro Otomo
-    image: "/assets/achievements/anime/author/katsuhiro_otomo.png"
-    border_color: "#ff0000"
-    topic_id: 276032
-  filters: &89
+  threshold: 100%
+  filters: &88
     anime_ids:
     - 47
     - 420
@@ -1811,23 +1835,26 @@
     - 22983
     - 22985
     - 23877
+  metadata: &89
+    title_ru: Кацухиро Отомо
+    title_en: Katsuhiro Otomo
+    image: "/assets/achievements/anime/author/katsuhiro_otomo.png"
+    border_color: "#ff0000"
+    topic_id: 276032
   generator: &90
     person_id: 1872
 - neko_id: katsuhiro_otomo
   level: 0
   algo: duration
-  metadata: *88
-  filters: *89
-  generator: *90
   threshold: 0.01
+  filters: *88
+  metadata: *89
+  generator: *90
 - neko_id: nobuo_uematsu
   level: 1
   algo: duration
-  metadata: &91
-    title_ru: Нобуо Уэмацу
-    title_en: Nobuo Uematsu
-    topic_id: 276032
-  filters: &92
+  threshold: 100%
+  filters: &91
     anime_ids:
     - 304
     - 317
@@ -1837,23 +1864,24 @@
     - 4197
     - 5041
     - 31629
+  metadata: &92
+    title_ru: Нобуо Уэмацу
+    title_en: Nobuo Uematsu
+    topic_id: 276032
   generator: &93
     person_id: 5150
 - neko_id: nobuo_uematsu
   level: 0
   algo: duration
-  metadata: *91
-  filters: *92
-  generator: *93
   threshold: 0.01
+  filters: *91
+  metadata: *92
+  generator: *93
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: duration
-  metadata: &94
-    title_ru: Ёсиюки Томино
-    title_en: Yoshiyuki Tomino
-    topic_id: 276032
-  filters: &95
+  threshold: 100%
+  filters: &94
     anime_ids:
     - 80
     - 81
@@ -1953,23 +1981,24 @@
     - 33051
     - 35224
     - 37764
+  metadata: &95
+    title_ru: Ёсиюки Томино
+    title_en: Yoshiyuki Tomino
+    topic_id: 276032
   generator: &96
     person_id: 2337
 - neko_id: yoshiyuki_tomino
   level: 0
   algo: duration
-  metadata: *94
-  filters: *95
-  generator: *96
   threshold: 0.01
+  filters: *94
+  metadata: *95
+  generator: *96
 - neko_id: rumiko_takahashi
   level: 1
   algo: duration
-  metadata: &97
-    title_ru: Румико Такахаси
-    title_en: Rumiko Takahashi
-    topic_id: 276032
-  filters: &98
+  threshold: 100%
+  filters: &97
     anime_ids:
     - 210
     - 249
@@ -2015,25 +2044,24 @@
     - 31133
     - 31610
     - 34106
+  metadata: &98
+    title_ru: Румико Такахаси
+    title_en: Rumiko Takahashi
+    topic_id: 276032
   generator: &99
     person_id: 1891
 - neko_id: rumiko_takahashi
   level: 0
   algo: duration
-  metadata: *97
-  filters: *98
-  generator: *99
   threshold: 0.01
+  filters: *97
+  metadata: *98
+  generator: *99
 - neko_id: yoshitaka_amano
   level: 1
   algo: duration
-  metadata: &100
-    title_ru: 'Ёситака Амано '
-    title_en: Yoshitaka Amano
-    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
-    border_color: "#8B4513"
-    topic_id: 276032
-  filters: &101
+  threshold: 100%
+  filters: &100
     anime_ids:
     - 307
     - 543
@@ -2063,23 +2091,26 @@
     - 20125
     - 23861
     - 32830
+  metadata: &101
+    title_ru: 'Ёситака Амано '
+    title_en: Yoshitaka Amano
+    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
+    border_color: "#8B4513"
+    topic_id: 276032
   generator: &102
     person_id: 2967
 - neko_id: yoshitaka_amano
   level: 0
   algo: duration
-  metadata: *100
-  filters: *101
-  generator: *102
   threshold: 0.01
+  filters: *100
+  metadata: *101
+  generator: *102
 - neko_id: osamu_dezaki
   level: 1
   algo: duration
-  metadata: &103
-    title_ru: Осаму Дэдзаки
-    title_en: Osamu Dezaki
-    topic_id: 276032
-  filters: &104
+  threshold: 100%
+  filters: &103
     anime_ids:
     - 311
     - 312
@@ -2143,44 +2174,46 @@
     - 23615
     - 23815
     - 28983
+  metadata: &104
+    title_ru: Осаму Дэдзаки
+    title_en: Osamu Dezaki
+    topic_id: 276032
   generator: &105
     person_id: 5393
 - neko_id: osamu_dezaki
   level: 0
   algo: duration
-  metadata: *103
-  filters: *104
-  generator: *105
   threshold: 0.01
+  filters: *103
+  metadata: *104
+  generator: *105
 - neko_id: nobuyuki_fukumoto
   level: 1
   algo: duration
-  metadata: &106
-    title_ru: Нобуюки Фукумото
-    title_en: Nobuyuki Fukumoto
-    topic_id: 276032
-  filters: &107
+  threshold: 100%
+  filters: &106
     anime_ids:
     - 658
     - 3002
     - 10271
+  metadata: &107
+    title_ru: Нобуюки Фукумото
+    title_en: Nobuyuki Fukumoto
+    topic_id: 276032
   generator: &108
     person_id: 2539
 - neko_id: nobuyuki_fukumoto
   level: 0
   algo: duration
-  metadata: *106
-  filters: *107
-  generator: *108
   threshold: 0.01
+  filters: *106
+  metadata: *107
+  generator: *108
 - neko_id: kunihiko_yuyama
   level: 1
   algo: duration
-  metadata: &109
-    title_ru: Кунихико Юяма
-    title_en: Kunihiko Yuyama
-    topic_id: 276032
-  filters: &110
+  threshold: 100%
+  filters: &109
     anime_ids:
     - 518
     - 527
@@ -2230,23 +2263,24 @@
     - 31592
     - 34034
     - 34540
+  metadata: &110
+    title_ru: Кунихико Юяма
+    title_en: Kunihiko Yuyama
+    topic_id: 276032
   generator: &111
     person_id: 5180
 - neko_id: kunihiko_yuyama
   level: 0
   algo: duration
-  metadata: *109
-  filters: *110
-  generator: *111
   threshold: 0.01
+  filters: *109
+  metadata: *110
+  generator: *111
 - neko_id: leiji_matsumoto
   level: 1
   algo: duration
-  metadata: &112
-    title_ru: Лэйдзи Мацумото
-    title_en: Leiji Matsumoto
-    topic_id: 276032
-  filters: &113
+  threshold: 100%
+  filters: &112
     anime_ids:
     - 711
     - 1000
@@ -2299,23 +2333,24 @@
     - 23931
     - 27651
     - 37082
+  metadata: &113
+    title_ru: Лэйдзи Мацумото
+    title_en: Leiji Matsumoto
+    topic_id: 276032
   generator: &114
     person_id: 2597
 - neko_id: leiji_matsumoto
   level: 0
   algo: duration
-  metadata: *112
-  filters: *113
-  generator: *114
   threshold: 0.01
+  filters: *112
+  metadata: *113
+  generator: *114
 - neko_id: yoshikazu_yasuhiko
   level: 1
   algo: duration
-  metadata: &115
-    title_ru: Ёсикадзу Ясухико
-    title_en: Yoshikazu Yasuhiko
-    topic_id: 276032
-  filters: &116
+  threshold: 100%
+  filters: &115
     anime_ids:
     - 80
     - 85
@@ -2348,23 +2383,24 @@
     - 28149
     - 32792
     - 39156
+  metadata: &116
+    title_ru: Ёсикадзу Ясухико
+    title_en: Yoshikazu Yasuhiko
+    topic_id: 276032
   generator: &117
     person_id: 2220
 - neko_id: yoshikazu_yasuhiko
   level: 0
   algo: duration
-  metadata: *115
-  filters: *116
-  generator: *117
   threshold: 0.01
+  filters: *115
+  metadata: *116
+  generator: *117
 - neko_id: tomoharu_katsumata
   level: 1
   algo: duration
-  metadata: &118
-    title_ru: Томохару Кацумата
-    title_en: Tomoharu Katsumata
-    topic_id: 276032
-  filters: &119
+  threshold: 100%
+  filters: &118
     anime_ids:
     - 589
     - 956
@@ -2398,23 +2434,24 @@
     - 22329
     - 23345
     - 23707
+  metadata: &119
+    title_ru: Томохару Кацумата
+    title_en: Tomoharu Katsumata
+    topic_id: 276032
   generator: &120
     person_id: 6305
 - neko_id: tomoharu_katsumata
   level: 0
   algo: duration
-  metadata: *118
-  filters: *119
-  generator: *120
   threshold: 0.01
+  filters: *118
+  metadata: *119
+  generator: *120
 - neko_id: shoutarou_ishinomori
   level: 1
   algo: duration
-  metadata: &121
-    title_ru: Сётаро Исиномори
-    title_en: Shoutarou Ishinomori
-    topic_id: 276032
-  filters: &122
+  threshold: 100%
+  filters: &121
     anime_ids:
     - 385
     - 598
@@ -2450,23 +2487,24 @@
     - 20233
     - 25473
     - 31050
+  metadata: &122
+    title_ru: Сётаро Исиномори
+    title_en: Shoutarou Ishinomori
+    topic_id: 276032
   generator: &123
     person_id: 2478
 - neko_id: shoutarou_ishinomori
   level: 0
   algo: duration
-  metadata: *121
-  filters: *122
-  generator: *123
   threshold: 0.01
+  filters: *121
+  metadata: *122
+  generator: *123
 - neko_id: masami_kurumada
   level: 1
   algo: duration
-  metadata: &124
-    title_ru: Масами Курумада
-    title_en: Masami Kurumada
-    topic_id: 276032
-  filters: &125
+  threshold: 100%
+  filters: &124
     anime_ids:
     - 23
     - 286
@@ -2493,23 +2531,24 @@
     - 28215
     - 34307
     - 34539
+  metadata: &125
+    title_ru: Масами Курумада
+    title_en: Masami Kurumada
+    topic_id: 276032
   generator: &126
     person_id: 1999
 - neko_id: masami_kurumada
   level: 0
   algo: duration
-  metadata: *124
-  filters: *125
-  generator: *126
   threshold: 0.01
+  filters: *124
+  metadata: *125
+  generator: *126
 - neko_id: satoshi_dezaki
   level: 1
   algo: duration
-  metadata: &127
-    title_ru: Сатоси Дэдзаки
-    title_en: Satoshi Dezaki
-    topic_id: 276032
-  filters: &128
+  threshold: 100%
+  filters: &127
     anime_ids:
     - 582
     - 1901
@@ -2547,23 +2586,24 @@
     - 27579
     - 32835
     - 33828
+  metadata: &128
+    title_ru: Сатоси Дэдзаки
+    title_en: Satoshi Dezaki
+    topic_id: 276032
   generator: &129
     person_id: 16371
 - neko_id: satoshi_dezaki
   level: 0
   algo: duration
-  metadata: *127
-  filters: *128
-  generator: *129
   threshold: 0.01
+  filters: *127
+  metadata: *128
+  generator: *129
 - neko_id: mitsuteru_yokoyama
   level: 1
   algo: duration
-  metadata: &130
-    title_ru: Мицутэру Ёкояма
-    title_en: Mitsuteru Yokoyama
-    topic_id: 276032
-  filters: &131
+  threshold: 100%
+  filters: &130
     anime_ids:
     - 970
     - 1664
@@ -2582,23 +2622,24 @@
     - 10005
     - 17719
     - 32795
+  metadata: &131
+    title_ru: Мицутэру Ёкояма
+    title_en: Mitsuteru Yokoyama
+    topic_id: 276032
   generator: &132
     person_id: 3679
 - neko_id: mitsuteru_yokoyama
   level: 0
   algo: duration
-  metadata: *130
-  filters: *131
-  generator: *132
   threshold: 0.01
+  filters: *130
+  metadata: *131
+  generator: *132
 - neko_id: hiroshi_motomiya
   level: 1
   algo: duration
-  metadata: &133
-    title_ru: Хироси Мотомия
-    title_en: Hiroshi Motomiya
-    topic_id: 276032
-  filters: &134
+  threshold: 100%
+  filters: &133
     anime_ids:
     - 1608
     - 7915
@@ -2610,30 +2651,35 @@
     - 20177
     - 23699
     - 24489
+  metadata: &134
+    title_ru: Хироси Мотомия
+    title_en: Hiroshi Motomiya
+    topic_id: 276032
   generator: &135
     person_id: 6469
 - neko_id: hiroshi_motomiya
   level: 0
   algo: duration
-  metadata: *133
-  filters: *134
-  generator: *135
   threshold: 0.01
+  filters: *133
+  metadata: *134
+  generator: *135
 - neko_id: osamu_kobayashi
   level: 1
   algo: duration
-  metadata: &136
+  threshold: 100%
+  filters: &136
+    anime_ids: []
+  metadata: &137
     title_ru: Осаму Кобаяси
     title_en: Osamu Kobayashi
     topic_id: 276032
-  filters: &137
-    anime_ids: []
   generator: &138
     person_id: 10373
 - neko_id: osamu_kobayashi
   level: 0
   algo: duration
-  metadata: *136
-  filters: *137
-  generator: *138
   threshold: 0.01
+  filters: *136
+  metadata: *137
+  generator: *138
