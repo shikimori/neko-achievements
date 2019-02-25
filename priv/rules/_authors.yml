@@ -2,441 +2,717 @@
 - neko_id: makoto_shinkai
   level: 1
   algo: duration
-  metadata:
+  metadata: &1
     title_ru: Макото Синкай
     title_en: Makoto Shinkai
     image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
     border_color: "#ABCDEF"
     topic_id: 276032
-  generator:
+  generator: &2
     person_id: 1117
+- neko_id: makoto_shinkai
+  level: 0
+  algo: duration
+  metadata: *1
+  generator: *2
+  threshold: 0.01
 - neko_id: hayao_miyazaki
   level: 1
   algo: duration
-  metadata:
+  metadata: &3
     title_ru: Хаяо Миядзаки
     title_en: Hayao Miyazaki
     topic_id: 276032
-  generator:
+  generator: &4
     person_id: 1870
+- neko_id: hayao_miyazaki
+  level: 0
+  algo: duration
+  metadata: *3
+  generator: *4
+  threshold: 0.01
 - neko_id: gen_urobuchi
   level: 1
   algo: duration
-  metadata:
+  metadata: &5
     title_ru: Гэн Уробути
     title_en: Gen Urobuchi
     image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
     topic_id: 276032
-  generator:
+  generator: &6
     person_id: 10308
+- neko_id: gen_urobuchi
+  level: 0
+  algo: duration
+  metadata: *5
+  generator: *6
+  threshold: 0.01
 - neko_id: clamp
   level: 1
   algo: duration
-  metadata:
+  metadata: &7
     title_ru: CLAMP
     title_en: CLAMP
     image: "/assets/achievements/anime/author/clamp.jpg"
     topic_id: 276032
-  generator:
+  generator: &8
     person_id: 1877
+- neko_id: clamp
+  level: 0
+  algo: duration
+  metadata: *7
+  generator: *8
+  threshold: 0.01
 - neko_id: satoshi_kon
   level: 1
   algo: duration
-  metadata:
+  metadata: &9
     title_ru: Сатоси Кон
     title_en: Satoshi Kon
     image: "/assets/achievements/anime/author/satoshi_kon.png"
     border_color: "#FF0000"
     topic_id: 276032
-  generator:
+  generator: &10
     person_id: 4580
+- neko_id: satoshi_kon
+  level: 0
+  algo: duration
+  metadata: *9
+  generator: *10
+  threshold: 0.01
 - neko_id: mamoru_oshii
   level: 1
   algo: duration
-  metadata:
+  metadata: &11
     title_ru: Мамору Оси
     title_en: Mamoru Oshii
     image: "/assets/achievements/anime/author/mamoru_oshii.png"
     border_color: "#B22222"
     topic_id: 276032
-  generator:
+  generator: &12
     person_id: 4097
+- neko_id: mamoru_oshii
+  level: 0
+  algo: duration
+  metadata: *11
+  generator: *12
+  threshold: 0.01
 - neko_id: leiji_matsumoto
   level: 1
   algo: duration
-  metadata:
+  metadata: &13
     title_ru: Лэйдзи Мацумото
     title_en: Leiji Matsumoto
     topic_id: 276032
-  generator:
+  generator: &14
     person_id: 2597
+- neko_id: leiji_matsumoto
+  level: 0
+  algo: duration
+  metadata: *13
+  generator: *14
+  threshold: 0.01
 - neko_id: masaaki_yuasa
   level: 1
   algo: duration
-  metadata:
+  metadata: &15
     title_ru: Масааки Юаса
     title_en: Masaaki Yuasa
     image: "/assets/achievements/anime/author/masaaki_yuasa.png"
     border_color: "#FA8072"
     topic_id: 276032
-  generator:
+  generator: &16
     person_id: 5068
+- neko_id: masaaki_yuasa
+  level: 0
+  algo: duration
+  metadata: *15
+  generator: *16
+  threshold: 0.01
 - neko_id: nobuyuki_fukumoto
   level: 1
   algo: duration
-  metadata:
+  metadata: &17
     title_ru: Нобуюки Фукумото
     title_en: Nobuyuki Fukumoto
     topic_id: 276032
-  generator:
+  generator: &18
     person_id: 2539
+- neko_id: nobuyuki_fukumoto
+  level: 0
+  algo: duration
+  metadata: *17
+  generator: *18
+  threshold: 0.01
 - neko_id: naoki_urasawa
   level: 1
   algo: duration
-  metadata:
+  metadata: &19
     title_ru: Наоки Урасава
     title_en: Naoki Urasawa
     topic_id: 276032
-  generator:
+  generator: &20
     person_id: 1867
+- neko_id: naoki_urasawa
+  level: 0
+  algo: duration
+  metadata: *19
+  generator: *20
+  threshold: 0.01
 - neko_id: rumiko_takahashi
   level: 1
   algo: duration
-  metadata:
+  metadata: &21
     title_ru: Румико Такахаси
     title_en: Rumiko Takahashi
     topic_id: 276032
-  generator:
+  generator: &22
     person_id: 1891
+- neko_id: rumiko_takahashi
+  level: 0
+  algo: duration
+  metadata: *21
+  generator: *22
+  threshold: 0.01
 - neko_id: go_nagai
   level: 1
   algo: duration
-  metadata:
+  metadata: &23
     title_ru: Го Нагай
     title_en: Go Nagai
     image: "/assets/achievements/anime/author/go_nagai.jpg"
     topic_id: 276032
-  generator:
+  generator: &24
     person_id: 2992
+- neko_id: go_nagai
+  level: 0
+  algo: duration
+  metadata: *23
+  generator: *24
+  threshold: 0.01
 - neko_id: osamu_tezuka
   level: 1
   algo: duration
-  metadata:
+  metadata: &25
     title_ru: Осаму Тэдзука
     title_en: Osamu Tezuka
     image: "/assets/achievements/anime/author/osamu_tezuka.png"
     border_color: "#ff0000"
     topic_id: 276032
-  generator:
+  generator: &26
     person_id: 1938
+- neko_id: osamu_tezuka
+  level: 0
+  algo: duration
+  metadata: *25
+  generator: *26
+  threshold: 0.01
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: duration
-  metadata:
+  metadata: &27
     title_ru: Ёсиюки Томино
     title_en: Yoshiyuki Tomino
     topic_id: 276032
-  generator:
+  generator: &28
     person_id: 2337
+- neko_id: yoshiyuki_tomino
+  level: 0
+  algo: duration
+  metadata: *27
+  generator: *28
+  threshold: 0.01
 - neko_id: ryousuke_takahashi
   level: 1
   algo: duration
-  metadata:
+  metadata: &29
     title_ru: Рёсукэ Такахаси
     title_en: Ryousuke Takahashi
     topic_id: 276032
-  generator:
+  generator: &30
     person_id: 5957
+- neko_id: ryousuke_takahashi
+  level: 0
+  algo: duration
+  metadata: *29
+  generator: *30
+  threshold: 0.01
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: duration
-  metadata:
+  metadata: &31
     title_ru: Ёсиаки Кавадзири
     title_en: Yoshiaki Kawajiri
     topic_id: 276032
-  generator:
+  generator: &32
     person_id: 5812
+- neko_id: yoshiaki_kawajiri
+  level: 0
+  algo: duration
+  metadata: *31
+  generator: *32
+  threshold: 0.01
 - neko_id: shinji_aramaki
   level: 1
   algo: duration
-  metadata:
+  metadata: &33
     title_ru: Синдзи Арамаки
     title_en: Shinji Aramaki
     topic_id: 276032
-  generator:
+  generator: &34
     person_id: 7454
+- neko_id: shinji_aramaki
+  level: 0
+  algo: duration
+  metadata: *33
+  generator: *34
+  threshold: 0.01
 - neko_id: osamu_dezaki
   level: 1
   algo: duration
-  metadata:
+  metadata: &35
     title_ru: Осаму Дэдзаки
     title_en: Osamu Dezaki
     topic_id: 276032
-  generator:
+  generator: &36
     person_id: 5393
+- neko_id: osamu_dezaki
+  level: 0
+  algo: duration
+  metadata: *35
+  generator: *36
+  threshold: 0.01
 - neko_id: isao_takahata
   level: 1
   algo: duration
-  metadata:
+  metadata: &37
     title_ru: Исао Такахата
     title_en: Isao Takahata
     topic_id: 276032
-  generator:
+  generator: &38
     person_id: 5579
+- neko_id: isao_takahata
+  level: 0
+  algo: duration
+  metadata: *37
+  generator: *38
+  threshold: 0.01
 - neko_id: yoshitaka_amano
   level: 1
   algo: duration
-  metadata:
+  metadata: &39
     title_ru: 'Ёситака Амано '
     title_en: Yoshitaka Amano
     image: "/assets/achievements/anime/author/yoshitaka_amano.png"
     border_color: "#8B4513"
     topic_id: 276032
-  generator:
+  generator: &40
     person_id: 2967
+- neko_id: yoshitaka_amano
+  level: 0
+  algo: duration
+  metadata: *39
+  generator: *40
+  threshold: 0.01
 - neko_id: shinichiro_watanabe
   level: 1
   algo: duration
-  metadata:
+  metadata: &41
     title_ru: Синъитиро Ватанабэ
     title_en: Shinichiro Watanabe
     image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
     border_color: "#000000"
     topic_id: 276032
-  generator:
+  generator: &42
     person_id: 2009
+- neko_id: shinichiro_watanabe
+  level: 0
+  algo: duration
+  metadata: *41
+  generator: *42
+  threshold: 0.01
 - neko_id: katsuhiro_otomo
   level: 1
   algo: duration
-  metadata:
+  metadata: &43
     title_ru: Кацухиро Отомо
     title_en: Katsuhiro Otomo
     image: "/assets/achievements/anime/author/katsuhiro_otomo.png"
     border_color: "#ff0000"
     topic_id: 276032
-  generator:
+  generator: &44
     person_id: 1872
+- neko_id: katsuhiro_otomo
+  level: 0
+  algo: duration
+  metadata: *43
+  generator: *44
+  threshold: 0.01
 - neko_id: rintaro
   level: 1
   algo: duration
-  metadata:
+  metadata: &45
     title_ru: Ринтаро
     title_en: Rintaro
     image: "/assets/achievements/anime/author/rintaro.png"
     border_color: "#3CB371"
     topic_id: 276032
-  generator:
+  generator: &46
     person_id: 7305
+- neko_id: rintaro
+  level: 0
+  algo: duration
+  metadata: *45
+  generator: *46
+  threshold: 0.01
 - neko_id: kouji_morimoto
   level: 1
   algo: duration
-  metadata:
+  metadata: &47
     title_ru: Кодзи Моримото
     title_en: Kouji Morimoto
     image: "/assets/achievements/anime/author/kouji_morimoto.png"
     border_color: "#2E8B57"
     topic_id: 276032
-  generator:
+  generator: &48
     person_id: 5066
+- neko_id: kouji_morimoto
+  level: 0
+  algo: duration
+  metadata: *47
+  generator: *48
+  threshold: 0.01
 - neko_id: key
   level: 1
   algo: duration
-  metadata:
+  metadata: &49
     title_ru: Key
     title_en: Key
     image: "/assets/achievements/anime/author/key.png"
     topic_id: 276032
-  generator:
+  generator: &50
     person_id: 2885
+- neko_id: key
+  level: 0
+  algo: duration
+  metadata: *49
+  generator: *50
+  threshold: 0.01
 - neko_id: hideaki_anno
   level: 1
   algo: duration
-  metadata:
+  metadata: &51
     title_ru: Хидэаки Анно
     title_en: Hideaki Anno
     image: "/assets/achievements/anime/author/hideaki_anno.jpg"
     topic_id: 276032
-  generator:
+  generator: &52
     person_id: 5111
+- neko_id: hideaki_anno
+  level: 0
+  algo: duration
+  metadata: *51
+  generator: *52
+  threshold: 0.01
 - neko_id: hiroyuki_imaishi
   level: 1
   algo: duration
-  metadata:
+  metadata: &53
     title_ru: Хироюки Имаиси
     title_en: Hiroyuki Imaishi
     topic_id: 276032
-  generator:
+  generator: &54
     person_id: 2349
+- neko_id: hiroyuki_imaishi
+  level: 0
+  algo: duration
+  metadata: *53
+  generator: *54
+  threshold: 0.01
 - neko_id: type_moon
   level: 1
   algo: duration
-  metadata:
+  metadata: &55
     title_ru: Type-Moon
     title_en: Type-Moon
     image: "/assets/achievements/anime/author/type_moon.png"
     border_color: "#d58c3f"
     topic_id: 276032
-  generator:
+  generator: &56
     person_id: 2582
+- neko_id: type_moon
+  level: 0
+  algo: duration
+  metadata: *55
+  generator: *56
+  threshold: 0.01
 - neko_id: mamoru_hosoda
   level: 1
   algo: duration
-  metadata:
+  metadata: &57
     title_ru: Мамору Хосода
     title_en: Mamoru Hosoda
     topic_id: 276032
-  generator:
+  generator: &58
     person_id: 5067
+- neko_id: mamoru_hosoda
+  level: 0
+  algo: duration
+  metadata: *57
+  generator: *58
+  threshold: 0.01
 - neko_id: kouichi_mashimo
   level: 1
   algo: duration
-  metadata:
+  metadata: &59
     title_ru: Коити Масимо
     title_en: Kouichi Mashimo
     topic_id: 276032
-  generator:
+  generator: &60
     person_id: 5094
+- neko_id: kouichi_mashimo
+  level: 0
+  algo: duration
+  metadata: *59
+  generator: *60
+  threshold: 0.01
 - neko_id: masami_kurumada
   level: 1
   algo: duration
-  metadata:
+  metadata: &61
     title_ru: Масами Курумада
     title_en: Masami Kurumada
     topic_id: 276032
-  generator:
+  generator: &62
     person_id: 1999
+- neko_id: masami_kurumada
+  level: 0
+  algo: duration
+  metadata: *61
+  generator: *62
+  threshold: 0.01
 - neko_id: kenji_kamiyama
   level: 1
   algo: duration
-  metadata:
+  metadata: &63
     title_ru: Кэндзи Камияма
     title_en: Kenji Kamiyama
     topic_id: 276032
-  generator:
+  generator: &64
     person_id: 5348
+- neko_id: kenji_kamiyama
+  level: 0
+  algo: duration
+  metadata: *63
+  generator: *64
+  threshold: 0.01
 - neko_id: tensai_okamura
   level: 1
   algo: duration
-  metadata:
+  metadata: &65
     title_ru: Тэнсай Окамура
     title_en: Tensai Okamura
     topic_id: 276032
-  generator:
+  generator: &66
     person_id: 2762
+- neko_id: tensai_okamura
+  level: 0
+  algo: duration
+  metadata: *65
+  generator: *66
+  threshold: 0.01
 - neko_id: hiroshi_motomiya
   level: 1
   algo: duration
-  metadata:
+  metadata: &67
     title_ru: Хироси Мотомия
     title_en: Hiroshi Motomiya
     topic_id: 276032
-  generator:
+  generator: &68
     person_id: 6469
+- neko_id: hiroshi_motomiya
+  level: 0
+  algo: duration
+  metadata: *67
+  generator: *68
+  threshold: 0.01
 - neko_id: shoutarou_ishinomori
   level: 1
   algo: duration
-  metadata:
+  metadata: &69
     title_ru: Сётаро Исиномори
     title_en: Shoutarou Ishinomori
     topic_id: 276032
-  generator:
+  generator: &70
     person_id: 2478
+- neko_id: shoutarou_ishinomori
+  level: 0
+  algo: duration
+  metadata: *69
+  generator: *70
+  threshold: 0.01
 - neko_id: mitsuteru_yokoyama
   level: 1
   algo: duration
-  metadata:
+  metadata: &71
     title_ru: Мицутэру Ёкояма
     title_en: Mitsuteru Yokoyama
     topic_id: 276032
-  generator:
+  generator: &72
     person_id: 3679
+- neko_id: mitsuteru_yokoyama
+  level: 0
+  algo: duration
+  metadata: *71
+  generator: *72
+  threshold: 0.01
 - neko_id: shoji_kawamori
   level: 1
   algo: duration
-  metadata:
+  metadata: &73
     title_ru: Сёдзи Кавамори
     title_en: Shoji Kawamori
     topic_id: 276032
-  generator:
+  generator: &74
     person_id: 2501
+- neko_id: shoji_kawamori
+  level: 0
+  algo: duration
+  metadata: *73
+  generator: *74
+  threshold: 0.01
 - neko_id: masamune_shirow
   level: 1
   algo: duration
-  metadata:
+  metadata: &75
     title_ru: Масамунэ Сиро
     title_en: Masamune Shirow
     topic_id: 276032
-  generator:
+  generator: &76
     person_id: 2609
+- neko_id: masamune_shirow
+  level: 0
+  algo: duration
+  metadata: *75
+  generator: *76
+  threshold: 0.01
 - neko_id: kenji_nakamura
   level: 1
   algo: duration
-  metadata:
+  metadata: &77
     title_ru: Кэндзи Накамура
     title_en: Kenji Nakamura
     topic_id: 276032
-  generator:
+  generator: &78
     person_id: 7217
+- neko_id: kenji_nakamura
+  level: 0
+  algo: duration
+  metadata: *77
+  generator: *78
+  threshold: 0.01
 - neko_id: kunihiko_ikuhara
   level: 1
   algo: duration
-  metadata:
+  metadata: &79
     title_ru: Кунихико Икухара
     title_en: Kunihiko Ikuhara
     topic_id: 276032
-  generator:
+  generator: &80
     person_id: 5082
+- neko_id: kunihiko_ikuhara
+  level: 0
+  algo: duration
+  metadata: *79
+  generator: *80
+  threshold: 0.01
 - neko_id: kunihiko_yuyama
   level: 1
   algo: duration
-  metadata:
+  metadata: &81
     title_ru: Кунихико Юяма
     title_en: Kunihiko Yuyama
     topic_id: 276032
-  generator:
+  generator: &82
     person_id: 5180
+- neko_id: kunihiko_yuyama
+  level: 0
+  algo: duration
+  metadata: *81
+  generator: *82
+  threshold: 0.01
 - neko_id: osamu_kobayashi
   level: 1
   algo: duration
-  metadata:
+  metadata: &83
     title_ru: Осаму Кобаяси
     title_en: Osamu Kobayashi
     topic_id: 276032
-  generator:
+  generator: &84
     person_id: 10373
+- neko_id: osamu_kobayashi
+  level: 0
+  algo: duration
+  metadata: *83
+  generator: *84
+  threshold: 0.01
 - neko_id: nobuo_uematsu
   level: 1
   algo: duration
-  metadata:
+  metadata: &85
     title_ru: Нобуо Уэмацу
     title_en: Nobuo Uematsu
     topic_id: 276032
-  generator:
+  generator: &86
     person_id: 5150
+- neko_id: nobuo_uematsu
+  level: 0
+  algo: duration
+  metadata: *85
+  generator: *86
+  threshold: 0.01
 - neko_id: yoshikazu_yasuhiko
   level: 1
   algo: duration
-  metadata:
+  metadata: &87
     title_ru: Ёсикадзу Ясухико
     title_en: Yoshikazu Yasuhiko
     topic_id: 276032
-  generator:
+  generator: &88
     person_id: 2220
+- neko_id: yoshikazu_yasuhiko
+  level: 0
+  algo: duration
+  metadata: *87
+  generator: *88
+  threshold: 0.01
 - neko_id: satoshi_dezaki
   level: 1
   algo: duration
-  metadata:
+  metadata: &89
     title_ru: Сатоси Дэдзаки
     title_en: Satoshi Dezaki
     topic_id: 276032
-  generator:
+  generator: &90
     person_id: 16371
+- neko_id: satoshi_dezaki
+  level: 0
+  algo: duration
+  metadata: *89
+  generator: *90
+  threshold: 0.01
 - neko_id: tomoharu_katsumata
   level: 1
   algo: duration
-  metadata:
+  metadata: &91
     title_ru: Томохару Кацумата
     title_en: Tomoharu Katsumata
     topic_id: 276032
-  generator:
+  generator: &92
     person_id: 6305
+- neko_id: tomoharu_katsumata
+  level: 0
+  algo: duration
+  metadata: *91
+  generator: *92
+  threshold: 0.01
