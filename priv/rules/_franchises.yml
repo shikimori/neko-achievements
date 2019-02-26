@@ -1787,7 +1787,7 @@
   metadata: &190
     title_ru: Покемон
     title_en: Pokemon
-    image: "/assets/achievements/anime/franchise/pokemon.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/9560/744976.jpg
     topic_id: 247360
 - neko_id: pokemon
   level: 0
