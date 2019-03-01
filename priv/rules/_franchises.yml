@@ -3269,6 +3269,7 @@
     not_anime_ids:
     - 399
     - 1381
+    - 39333
   threshold: 97.5%
   metadata: &354
     title_ru: Звёздный герб
