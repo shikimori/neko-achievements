@@ -1942,21 +1942,6 @@
     topic_id: 276032
   generator:
     person_id: 5393
-- neko_id: nobuyuki_fukumoto
-  level: 1
-  algo: duration
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 658
-    - 3002
-    - 10271
-  metadata:
-    title_ru: Нобуюки Фукумото
-    title_en: Nobuyuki Fukumoto
-    topic_id: 276032
-  generator:
-    person_id: 2539
 - neko_id: kunihiko_yuyama
   level: 1
   algo: duration
