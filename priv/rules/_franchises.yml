@@ -12,7 +12,7 @@
     - 37362
     - 37831
     - 39239
-  threshold: 85.5%
+  threshold: 85.9%
   metadata: &2
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
@@ -1784,7 +1784,7 @@
     - 33898
     - 35552
     - 36835
-  threshold: 91.9%
+  threshold: 92%
   metadata: &190
     title_ru: Покемон
     title_en: Pokemon
@@ -2161,7 +2161,7 @@
     - 6714
     - 11359
     - 22699
-  threshold: 95%
+  threshold: 94.9%
   metadata: &230
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2406,7 +2406,7 @@
   algo: duration
   filters: &256
     franchise: uchuu_senkan_yamato
-  threshold: 94.7%
+  threshold: 94.9%
   metadata: &257
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
@@ -2563,11 +2563,11 @@
     - 176
     - 4849
     - 12101
+    - 31137
     - 32316
     - 35501
     - 37933
     - 37934
-    - 31137
   threshold: 95%
   metadata: &275
     title_ru: Лиричная волшебница Наноха
@@ -2847,6 +2847,7 @@
     franchise: gegege_no_kitarou
     not_anime_ids:
     - 10584
+    - 39414
   threshold: 96.7%
   metadata: &306
     title_ru: Щелкунчик Китаро
@@ -2996,7 +2997,7 @@
     not_anime_ids:
     - 10736
     - 30103
-  threshold: 92.4%
+  threshold: 92.3%
   metadata: &324
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -3034,7 +3035,7 @@
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
-  threshold: 91.3%
+  threshold: 90.2%
   metadata: &328
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
@@ -3492,7 +3493,7 @@
     franchise: doraemon
     not_anime_ids:
     - 501
-  threshold: 94%
+  threshold: 94.2%
   metadata: &378
     title_ru: Дораэмон
     title_en: Doraemon
@@ -3509,7 +3510,7 @@
   algo: duration
   filters: &379
     franchise: captain_tsubasa
-  threshold: 97%
+  threshold: 97.1%
   metadata: &380
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
