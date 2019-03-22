@@ -412,9 +412,9 @@
   filters: &41
     franchise: chuunibyou_demo_koi_ga_shitai
     not_anime_ids:
-    - 36855
     - 19021
-  threshold: 87.8%
+    - 36855
+  threshold: 86.4%
   metadata: &42
     title_ru: Чудачества любви не помеха!
     title_en: Chuunibyou demo Koi ga Shitai!
