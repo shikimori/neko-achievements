@@ -894,7 +894,7 @@
     - 36240
     - 36241
     - 36242
-  threshold: 93.2%
+  threshold: 93.3%
   metadata: &95
     title_ru: Ван-Пис
     title_en: One Piece
@@ -2409,7 +2409,7 @@
     franchise: uchuu_senkan_yamato
     not_anime_ids:
     - 7122
-  threshold: 94.9%
+  threshold: 94.6%
   metadata: &257
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
