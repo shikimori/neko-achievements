@@ -2407,6 +2407,8 @@
   algo: duration
   filters: &256
     franchise: uchuu_senkan_yamato
+    not_anime_ids:
+    - 7122
   threshold: 94.9%
   metadata: &257
     title_ru: Космический линкор Ямато
