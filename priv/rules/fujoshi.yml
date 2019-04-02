@@ -20,7 +20,7 @@
   metadata:
     title_ru: Голубок
     text_ru: Поворачивать назад уже слишком поздно. Пора совершить каминг-аут и наконец-то признать свою любовь к "не очень традиционным" историям.
-    image: /assets/achievements/anime/fujoshi_2.png
+    image: /assets/achievements/anime/fujoshi_2.jpg
     border_color: "#e82a8d"
 
 - <<: *defaults
