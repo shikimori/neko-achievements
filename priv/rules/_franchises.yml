@@ -1081,6 +1081,9 @@
     franchise: full_metal_panic
     not_anime_ids:
     - 38149
+    - 36342
+    - 36343
+    - 36344
   threshold: 94.6%
   metadata: &116
     title_ru: Стальная тревога
