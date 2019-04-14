@@ -1889,6 +1889,7 @@
     franchise: selector_spread_wixoss
     not_anime_ids:
     - 31280
+    - 27613
   threshold: 98.7%
   metadata: &200
     title_ru: WIXOSS
