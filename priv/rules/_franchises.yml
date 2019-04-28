@@ -644,6 +644,9 @@
   algo: duration
   filters: &67
     franchise: k
+    not_anime_ids:
+    - 37308
+    - 31344
   threshold: 99.8%
   metadata: &68
     title_ru: Проект Кей
