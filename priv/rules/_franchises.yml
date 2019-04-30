@@ -258,7 +258,15 @@
     not_anime_ids:
     - 34161
     - 34428
-  threshold: 89.9%
+    - 31138
+    - 33372
+    - 36497
+    - 36683
+    - 37087
+    - 37264
+    - 37781
+    - 38693
+  threshold: 100%
   metadata: &27
     title_ru: Повелитель
     title_en: Overlord
