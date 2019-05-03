@@ -38,6 +38,7 @@
     - 36702
     - 39477
     - 39478
+    - 35122
   threshold: 95%
   metadata: &4
     title_ru: Вторжение гигантов
@@ -258,6 +259,8 @@
     not_anime_ids:
     - 34161
     - 34428
+    - 37264
+    - 36683
   threshold: 89.9%
   metadata: &27
     title_ru: Повелитель
@@ -1190,6 +1193,8 @@
     title_en: Seitokai Yakuindomo
     image: "/assets/achievements/anime/franchise/seitokai_yakuindomo.jpg"
     topic_id: 247360
+    generator:
+    threshold: 95%
 - neko_id: seitokai_yakuindomo
   level: 0
   algo: duration
