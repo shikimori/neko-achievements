@@ -1193,7 +1193,7 @@
     title_en: Seitokai Yakuindomo
     image: "/assets/achievements/anime/franchise/seitokai_yakuindomo.jpg"
     topic_id: 247360
-    generator:
+  generator:
     threshold: 95%
 - neko_id: seitokai_yakuindomo
   level: 0
