@@ -1297,6 +1297,7 @@
     not_anime_ids:
     - 10334
     - 37537
+    - 9716
   threshold: 95%
   metadata: &137
     title_ru: Бродяга Кэнсин
