@@ -421,6 +421,7 @@
     not_anime_ids:
     - 19021
     - 36855
+    - 37967
   threshold: 86.4%
   metadata: &42
     title_ru: Чудачества любви не помеха!
