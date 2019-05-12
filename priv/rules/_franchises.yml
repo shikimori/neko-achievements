@@ -599,7 +599,7 @@
     franchise: hellsing
     not_anime_ids:
     - 6904
-  threshold: 100%%
+  threshold: 100%
   metadata: &61
     title_ru: Хеллсинг
     title_en: Hellsing
@@ -843,7 +843,7 @@
   algo: duration
   filters: &85
     franchise: clannad
-  threshold: 100%%
+  threshold: 100%
   metadata: &86
     title_ru: Кланнад
     title_en: Clannad
@@ -2794,7 +2794,7 @@
   algo: duration
   filters: &295
     franchise: kiniro_no_corda
-  threshold: 100%%
+  threshold: 100%
   metadata: &296
     title_ru: Золотая струна
     title_en: Kiniro no Corda
@@ -2981,7 +2981,7 @@
     franchise: toriko
     not_anime_ids:
     - 11787
-  threshold: 100%%
+  threshold: 100%
   metadata: &317
     title_ru: Торико
     title_en: Toriko
@@ -3003,7 +3003,7 @@
     franchise: ookiku_furikabutte
     not_anime_ids:
     - 8423
-  threshold: 100%%
+  threshold: 100%
   metadata: &320
     title_ru: Замахнись сильнее
     title_en: Ookiku Furikabutte
