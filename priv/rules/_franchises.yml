@@ -14,6 +14,7 @@
     - 37362
     - 37831
     - 39239
+    - 28063
   threshold: 90.5%
   metadata: &2
     title_ru: Мастера Меча Онлайн
@@ -96,6 +97,8 @@
     franchise: fullmetal_alchemist
     not_anime_ids:
     - 10842
+    - 664
+    - 7902
   threshold: 95%
   metadata: &10
     title_ru: Стальной алхимик
@@ -596,7 +599,7 @@
     franchise: hellsing
     not_anime_ids:
     - 6904
-  threshold: 100%%
+  threshold: 100%
   metadata: &61
     title_ru: Хеллсинг
     title_en: Hellsing
@@ -749,12 +752,10 @@
   filters: &77
     franchise: ghost_in_the_shell
     not_anime_ids:
-    - 1566
     - 2448
     - 2449
     - 4672
     - 10870
-    - 10948
     - 10949
     - 10950
     - 17187
@@ -764,6 +765,7 @@
     - 22013
     - 31617
     - 38600
+    - 10090
   threshold: 95%
   metadata: &78
     title_ru: Призрак в доспехах
@@ -841,7 +843,7 @@
   algo: duration
   filters: &85
     franchise: clannad
-  threshold: 100%%
+  threshold: 100%
   metadata: &86
     title_ru: Кланнад
     title_en: Clannad
@@ -1124,6 +1126,8 @@
     franchise: kara_no_kyoukai
     not_anime_ids:
     - 6624
+    - 23697
+    - 22847
   threshold: 90.3%
   metadata: &118
     title_ru: Граница пустоты
@@ -1677,6 +1681,8 @@
   algo: duration
   filters: &177
     franchise: yuru_yuri
+    not_anime_ids:
+    - 12665
   threshold: 94.5%
   metadata: &178
     title_ru: Лилии на ветру
@@ -1971,12 +1977,16 @@
   algo: duration
   filters: &206
     franchise: hetalia
+    not_anime_ids:
+    - 9865
   threshold: 81.2%
   metadata: &207
     title_ru: Хеталия
     title_en: Hetalia
     image: "/assets/achievements/anime/franchise/hetalia.jpg"
     topic_id: 247360
+  generator:
+    threshold: 90%
 - neko_id: hetalia
   level: 0
   algo: duration
@@ -2784,7 +2794,7 @@
   algo: duration
   filters: &295
     franchise: kiniro_no_corda
-  threshold: 100%%
+  threshold: 100%
   metadata: &296
     title_ru: Золотая струна
     title_en: Kiniro no Corda
@@ -2971,7 +2981,7 @@
     franchise: toriko
     not_anime_ids:
     - 11787
-  threshold: 100%%
+  threshold: 100%
   metadata: &317
     title_ru: Торико
     title_en: Toriko
@@ -2993,11 +3003,11 @@
     franchise: ookiku_furikabutte
     not_anime_ids:
     - 8423
-  threshold: 100%%
+  threshold: 100%
   metadata: &320
     title_ru: Замахнись сильнее
     title_en: Ookiku Furikabutte
-    image: "/assets/achievements/anime/franchise/ookiku_furikabutte.jpg"
+    image: https://desu.shikimori.org/system/user_images/original/9560/744953.jpg
     topic_id: 247360
   generator: &321
     threshold: 100%
