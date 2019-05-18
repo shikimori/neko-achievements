@@ -498,6 +498,7 @@
   metadata:
     title_ru: Мамору Хосода
     title_en: Mamoru Hosoda
+    image: https://nyaa.shikimori.one/system/user_images/original/50587/788830.jpg
     topic_id: 276032
   generator:
     person_id: 5067
@@ -998,6 +999,7 @@
   metadata:
     title_ru: Исао Такахата
     title_en: Isao Takahata
+    image: https://dere.shikimori.one/system/user_images/original/50587/788829.jpg
     topic_id: 276032
   generator:
     person_id: 5579
@@ -1588,26 +1590,6 @@
     topic_id: 276032
   generator:
     person_id: 5957
-- neko_id: naoki_urasawa
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 19
-    - 691
-    - 1109
-    - 1483
-    - 1910
-    - 2008
-    - 2009
-    - 10629
-  metadata:
-    title_ru: Наоки Урасава
-    title_en: Naoki Urasawa
-    topic_id: 276032
-  generator:
-    person_id: 1867
 - neko_id: katsuhiro_otomo
   level: 1
   algo: count
@@ -1640,26 +1622,6 @@
     topic_id: 276032
   generator:
     person_id: 1872
-- neko_id: nobuo_uematsu
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 304
-    - 317
-    - 1157
-    - 2142
-    - 2952
-    - 4197
-    - 5041
-    - 31629
-  metadata:
-    title_ru: Нобуо Уэмацу
-    title_en: Nobuo Uematsu
-    topic_id: 276032
-  generator:
-    person_id: 5150
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: count
@@ -1823,6 +1785,7 @@
   metadata:
     title_ru: Румико Такахаси
     title_en: Rumiko Takahashi
+    image: https://moe.shikimori.one/system/user_images/original/50587/788827.jpg
     topic_id: 276032
   generator:
     person_id: 1891
@@ -1942,66 +1905,6 @@
     topic_id: 276032
   generator:
     person_id: 5393
-- neko_id: kunihiko_yuyama
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 518
-    - 527
-    - 528
-    - 842
-    - 1117
-    - 1118
-    - 1119
-    - 1120
-    - 1121
-    - 1122
-    - 1130
-    - 1526
-    - 1527
-    - 1564
-    - 1565
-    - 2098
-    - 2180
-    - 2196
-    - 2201
-    - 2333
-    - 2334
-    - 2510
-    - 2511
-    - 2737
-    - 2842
-    - 2847
-    - 3211
-    - 4026
-    - 5308
-    - 5673
-    - 5953
-    - 6178
-    - 7695
-    - 7808
-    - 9107
-    - 10740
-    - 10820
-    - 12671
-    - 16680
-    - 17115
-    - 21569
-    - 23301
-    - 24159
-    - 31231
-    - 31373
-    - 31592
-    - 34034
-    - 34540
-  metadata:
-    title_ru: Кунихико Юяма
-    title_en: Kunihiko Yuyama
-    topic_id: 276032
-  generator:
-    person_id: 5180
 - neko_id: leiji_matsumoto
   level: 1
   algo: count
@@ -2062,6 +1965,7 @@
   metadata:
     title_ru: Лэйдзи Мацумото
     title_en: Leiji Matsumoto
+    image: https://kawai.shikimori.one/system/user_images/original/50587/788831.jpg
     topic_id: 276032
   generator:
     person_id: 2597
@@ -2198,117 +2102,3 @@
     topic_id: 276032
   generator:
     person_id: 2478
-- neko_id: masami_kurumada
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 23
-    - 286
-    - 1253
-    - 1254
-    - 1255
-    - 1256
-    - 1257
-    - 1259
-    - 1260
-    - 1736
-    - 1771
-    - 3515
-    - 4854
-    - 4855
-    - 4856
-    - 6154
-    - 6171
-    - 7793
-    - 9130
-    - 10346
-    - 10687
-    - 12929
-    - 28215
-    - 34307
-    - 34539
-  metadata:
-    title_ru: Масами Курумада
-    title_en: Masami Kurumada
-    topic_id: 276032
-  generator:
-    person_id: 1999
-- neko_id: satoshi_dezaki
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 582
-    - 1901
-    - 1919
-    - 1924
-    - 2054
-    - 2423
-    - 2691
-    - 3448
-    - 4485
-    - 6060
-    - 8092
-    - 9905
-    - 9916
-    - 9931
-    - 10466
-    - 15141
-    - 16776
-    - 17117
-    - 17325
-    - 17439
-    - 18341
-    - 18567
-    - 18569
-    - 18583
-    - 18759
-    - 19167
-    - 19559
-    - 20147
-    - 20229
-    - 23523
-    - 23593
-    - 23819
-    - 25363
-    - 27579
-    - 32835
-    - 33828
-  metadata:
-    title_ru: Сатоси Дэдзаки
-    title_en: Satoshi Dezaki
-    topic_id: 276032
-  generator:
-    person_id: 16371
-- neko_id: mitsuteru_yokoyama
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 970
-    - 1664
-    - 1665
-    - 1666
-    - 1712
-    - 2036
-    - 2321
-    - 2337
-    - 2686
-    - 2906
-    - 3356
-    - 3399
-    - 3875
-    - 4208
-    - 10005
-    - 17719
-    - 32795
-  metadata:
-    title_ru: Мицутэру Ёкояма
-    title_en: Mitsuteru Yokoyama
-    topic_id: 276032
-  generator:
-    person_id: 3679
