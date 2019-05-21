@@ -1163,9 +1163,9 @@
   metadata:
     title_ru: Душа компании
     text_ru: Немного со странностями, зато с ним всегда весело.
-    topic_id: 227419
+    topic_id: 271370
     image: /assets/achievements/anime/genki_1.jpg
-    border_color: "#ff0000"
+    border_color: "#A63233"
 
 - <<: *defaults
   level: 2
@@ -1174,7 +1174,7 @@
     title_ru: Заводила
     text_ru: Втянет в самые захватывающие приключения!
     image: /assets/achievements/anime/genki_2.jpg
-    border_color: "#ff0000"
+    border_color: "#007276"
 
 - <<: *defaults
   level: 3
@@ -1183,4 +1183,4 @@
     title_ru: Человек-праздник
     text_ru: Способен растормошить весь этот скучный мир и взорвать фейерверком!
     image: /assets/achievements/anime/genki_3.gif
-border_color: "#ff0000"
+border_color: "#71566F"
