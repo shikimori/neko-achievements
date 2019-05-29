@@ -22,6 +22,8 @@
   metadata:
     title_ru: Женская дружба
     text_ru: Лишь невинные заигрывания, только и всего.
+    title_en: Female friendship
+    text_en: Just innocent flirtations, that's all.
     image: /assets/achievements/anime/yuuri_1.jpg
     border_color: "#d5a471"
     topic_id: 227432
@@ -32,6 +34,8 @@
   metadata:
     title_ru: Первые чувства
     text_ru: Быть может, это неправильно. Но кого это волнует?
+    title_en: First feelings
+    text_en: Maybe this is wrong. But who cares?
     image: /assets/achievements/anime/yuuri_2.png
     border_color: "#d293a2"
 
@@ -52,5 +56,7 @@
   metadata:
     title_ru: Счастливая семейная жизнь
     text_ru: Лилии цветут в вашем доме.
+    title_en: Happy family life
+    text_en: Lilies are blooming in your house.
     image: /assets/achievements/anime/yuuri_4.gif
     border_color: "#FDD9B5"
