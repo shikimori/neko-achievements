@@ -497,30 +497,20 @@
   threshold: 100%
   filters:
     anime_ids:
-    - 440
-    - 530
-    - 531
-    - 532
-    - 727
-    - 740
-    - 1002
-    - 1239
-    - 1698
-    - 2223
-    - 3588
-    - 5203
-    - 6164
-    - 6347
-    - 8194
-    - 10721
-    - 11887
-    - 12391
-    - 15605
-    - 22827
+    - 37426
     - 26165
+    - 10721
+    - 441
+    - 440
+    - 1239
+    - 532
+    - 531
+    - 740
   metadata:
     title_ru: Кунихико Икухара
     title_en: Kunihiko Ikuhara
+    image: https://desu.shikimori.org/system/user_images/original/34807/798103.jpg
+    border_color: "#EF795B"
     topic_id: 276032
   generator:
     person_id: 5082
