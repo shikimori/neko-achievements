@@ -48,7 +48,7 @@ config :logger, :console,
 # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
 config :neko, :shikimori,
   client: Neko.Shikimori.HTTPClient,
-  url: "https://shikimori.org/api/",
+  url: "https://shikimori.one/api/",
   # connect timeout (8_000 by default)
   conn_timeout: 20_000,
   # receive timeout (5_000 by default)
