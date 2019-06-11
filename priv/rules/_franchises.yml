@@ -1034,6 +1034,8 @@
     title_en: Saiki Kusuo no Ψ-nan
     image: "/assets/achievements/anime/franchise/saiki_kusuo_no_nan.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: saiki_kusuo_no_nan
   level: 0
   algo: duration
