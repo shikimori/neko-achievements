@@ -3065,12 +3065,6 @@
     title_en: Urusei Yatsura
     image: "/assets/achievements/anime/franchise/urusei_yatsura.jpg"
     topic_id: 247360
-- neko_id: urusei_yatsura
-  level: 0
-  algo: duration
-  filters: *328
-  threshold: 0.01
-  metadata: *329
 - neko_id: pripara
   level: 1
   algo: duration
@@ -3082,6 +3076,12 @@
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
     topic_id: 247360
+- neko_id: urusei_yatsura
+  level: 0
+  algo: duration
+  filters: *328
+  threshold: 0.01
+  metadata: *329
 - neko_id: pripara
   level: 0
   algo: duration
