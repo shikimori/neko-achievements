@@ -2219,10 +2219,9 @@
   filters: &234
     franchise: dragon_ball
     not_anime_ids:
-    - 502
-    - 892
     - 6714
     - 11359
+    - 22695
     - 22699
   threshold: 94.9%
   metadata: &235
