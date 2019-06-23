@@ -764,7 +764,7 @@
   metadata:
     title_ru: Кэндзи Накамура
     title_en: Kenji Nakamura
-    image: https://nyaa.shikimori.org/system/user_images/original/34807/805960.jpg
+    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
     border_color: "#C1A97E"
     topic_id: 276032
   generator:
@@ -948,7 +948,7 @@
   metadata:
     title_ru: Кэндзи Камияма
     title_en: Kenji Kamiyama
-    image: https://kawai.shikimori.org/system/user_images/original/34807/805961.jpg
+    image: "/assets/achievements/anime/author/kenji_kamiyama.jpg"
     border_color: "#795F42"
     topic_id: 276032
   generator:
@@ -981,7 +981,7 @@
   metadata:
     title_ru: Масамунэ Сиро
     title_en: Masamune Shirow
-    image: https://moe.shikimori.org/system/user_images/original/34807/805972.jpg
+    image: "/assets/achievements/anime/author/masamune_shirow.jpg"
     border_color: "#D08659"
     topic_id: 276032
   generator:
@@ -1020,7 +1020,7 @@
   metadata:
     title_ru: Синдзи Арамаки
     title_en: Shinji Aramaki
-    image: https://moe.shikimori.org/system/user_images/original/34807/805992.jpg
+    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
     border_color: "#02ACF4"
     topic_id: 276032
   generator:
