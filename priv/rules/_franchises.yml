@@ -2269,6 +2269,10 @@
     - 29716
     - 30481
     - 30483
+    - 27651
+    - 6653
+    - 6734
+    - 6735
   threshold: 90%
   metadata: &239
     title_ru: Галактический экспресс 999
@@ -2489,6 +2493,8 @@
     franchise: uchuu_senkan_yamato
     not_anime_ids:
     - 7122
+    - 711
+    - 23931
   threshold: 94.6%
   metadata: &264
     title_ru: Космический линкор Ямато
