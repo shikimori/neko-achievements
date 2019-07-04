@@ -3811,3 +3811,20 @@
   filters: *408
   threshold: 0.01
   metadata: *409
+- neko_id: bungou_stray_dogs
+  level: 1
+  algo: duration
+  filters: &408
+    franchise: bungou_stray_dogs
+  threshold: 100%
+  metadata: &409
+    title_ru: Проза бродячих псов
+    title_en: Bungou Stray Dogs
+    image: https://dere.shikimori.org/system/user_images/original/9560/809154.jpg
+    topic_id: 247360
+- neko_id: bungou_stray_dogs
+  level: 0
+  algo: duration
+  filters: *408
+  threshold: 0.01
+  metadata: *409
