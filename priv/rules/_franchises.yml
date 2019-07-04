@@ -1244,7 +1244,7 @@
     - 14267
     - 25257
     - 38937
-  threshold: 95%
+  threshold: 94.7%
   metadata: &132
     title_ru: Персона
     title_en: Persona
@@ -1954,7 +1954,7 @@
   algo: duration
   filters: &205
     franchise: detective_conan
-  threshold: 93.8%
+  threshold: 93.9%
   metadata: &206
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -2109,7 +2109,7 @@
     - 21409
     - 31894
     - 38271
-  threshold: 85.7%
+  threshold: 85.3%
   metadata: &223
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -2225,7 +2225,7 @@
     - 11359
     - 22695
     - 22699
-  threshold: 94.9%
+  threshold: 95.1%
   metadata: &235
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2260,19 +2260,19 @@
   filters: &238
     franchise: ginga_tetsudou
     not_anime_ids:
+    - 6653
     - 6733
+    - 6734
+    - 6735
     - 7285
     - 9344
     - 10118
     - 12163
+    - 27651
     - 28733
     - 29716
     - 30481
     - 30483
-    - 27651
-    - 6653
-    - 6734
-    - 6735
   threshold: 90%
   metadata: &239
     title_ru: Галактический экспресс 999
@@ -2492,10 +2492,10 @@
   filters: &263
     franchise: uchuu_senkan_yamato
     not_anime_ids:
-    - 7122
     - 711
+    - 7122
     - 23931
-  threshold: 94.6%
+  threshold: 95%
   metadata: &264
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
@@ -2863,7 +2863,7 @@
     - 16576
     - 21595
     - 32346
-  threshold: 88.5%
+  threshold: 88.6%
   metadata: &305
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
@@ -3072,23 +3072,23 @@
     title_en: Urusei Yatsura
     image: "/assets/achievements/anime/franchise/urusei_yatsura.jpg"
     topic_id: 247360
-- neko_id: pripara
-  level: 1
-  algo: duration
-  filters: &330
-    franchise: pripara
-  threshold: 94.2%
-  metadata: &331
-    title_ru: При Пара
-    title_en: PriPara
-    image: "/assets/achievements/anime/franchise/pripara.jpg"
-    topic_id: 247360
 - neko_id: urusei_yatsura
   level: 0
   algo: duration
   filters: *328
   threshold: 0.01
   metadata: *329
+- neko_id: pripara
+  level: 1
+  algo: duration
+  filters: &330
+    franchise: pripara
+  threshold: 94.3%
+  metadata: &331
+    title_ru: При Пара
+    title_en: PriPara
+    image: "/assets/achievements/anime/franchise/pripara.jpg"
+    topic_id: 247360
 - neko_id: pripara
   level: 0
   algo: duration
@@ -3507,6 +3507,7 @@
     franchise: time_bokan
     not_anime_ids:
     - 8921
+    - 39707
   threshold: 80%
   metadata: &377
     title_ru: Приключения во времени
@@ -3814,17 +3815,17 @@
 - neko_id: bungou_stray_dogs
   level: 1
   algo: duration
-  filters: &408
+  filters: &410
     franchise: bungou_stray_dogs
   threshold: 100%
-  metadata: &409
+  metadata: &411
     title_ru: Проза бродячих псов
     title_en: Bungou Stray Dogs
-    image: https://dere.shikimori.org/system/user_images/original/9560/809154.jpg
+    image: "/assets/achievements/anime/franchise/bungou_stray_dogs.jpg"
     topic_id: 247360
 - neko_id: bungou_stray_dogs
   level: 0
   algo: duration
-  filters: *408
+  filters: *410
   threshold: 0.01
-  metadata: *409
+  metadata: *411

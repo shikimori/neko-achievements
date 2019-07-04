@@ -1341,7 +1341,7 @@
   metadata:
     title_ru: Коити Масимо
     title_en: Kouichi Mashimo
-    image: https://moe.shikimori.org/system/user_images/original/46976/807387.jpg
+    image: "/assets/achievements/anime/author/kouichi_mashimo.jpg"
     border_color: "#72633F"
     topic_id: 276032
   generator:
@@ -1787,7 +1787,7 @@
   metadata:
     title_ru: Томохару Кацумата
     title_en: Tomoharu Katsumata
-    image: https://kawai.shikimori.org/system/user_images/original/34807/810986.jpg
+    image: "/assets/achievements/anime/author/tomoharu_katsumata.jpg"
     border_color: "#0C509E"
     topic_id: 276032
   generator:
