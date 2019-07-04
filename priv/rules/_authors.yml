@@ -747,28 +747,6 @@
     topic_id: 276032
   generator:
     person_id: 5067
-- neko_id: kenji_nakamura
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 21039
-    - 23703
-    - 18229
-    - 12883
-    - 10163
-    - 6774
-    - 2246
-    - 586
-  metadata:
-    title_ru: Кэндзи Накамура
-    title_en: Kenji Nakamura
-    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
-    border_color: "#C1A97E"
-    topic_id: 276032
-  generator:
-    person_id: 7217
 - neko_id: isao_takahata
   level: 1
   algo: count
@@ -957,45 +935,6 @@
     topic_id: 276032
   generator:
     person_id: 2609
-- neko_id: shinji_aramaki
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 36517
-    - 2152
-    - 1693
-    - 1247
-    - 442
-    - 971
-    - 1023
-    - 782
-    - 719
-    - 568
-    - 1347
-    - 3670
-    - 2068
-    - 1935
-    - 36871
-    - 28149
-    - 17269
-    - 36194
-    - 14629
-    - 6867
-    - 5505
-    - 22677
-    - 2969
-    - 54
-    - 2461
-  metadata:
-    title_ru: Синдзи Арамаки
-    title_en: Shinji Aramaki
-    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
-    border_color: "#02ACF4"
-    topic_id: 276032
-  generator:
-    person_id: 7454
 - neko_id: mamoru_oshii
   level: 1
   algo: count
@@ -1181,49 +1120,115 @@
     topic_id: 276032
   generator:
     person_id: 4580
-- neko_id: rintaro
+- neko_id: kenji_nakamura
   level: 1
   algo: count
   threshold: 100%
   filters:
     anime_ids:
-    - 3800
-    - 4481
-    - 1442
-    - 1016
-    - 2998
-    - 2999
-    - 3115
-    - 25265
-    - 13249
-    - 7314
-    - 1081
-    - 522
-    - 155
-    - 426
-    - 3152
-    - 1148
-    - 2556
-    - 9531
-    - 1951
-    - 5918
-    - 12141
-    - 3599
-    - 3595
-    - 1973
-    - 2997
-    - 496
-    - 1626
-    - 1302
-    - 1000
+    - 21039
+    - 23703
+    - 18229
+    - 12883
+    - 10163
+    - 6774
+    - 2246
+    - 586
   metadata:
-    title_ru: Ринтаро
-    title_en: Rintaro
-    image: "/assets/achievements/anime/author/rintaro.png"
-    border_color: "#3CB371"
+    title_ru: Кэндзи Накамура
+    title_en: Kenji Nakamura
+    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
+    border_color: "#C1A97E"
     topic_id: 276032
   generator:
-    person_id: 7305
+    person_id: 7217
+- neko_id: shinji_aramaki
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 36517
+    - 2152
+    - 1693
+    - 1247
+    - 442
+    - 971
+    - 1023
+    - 782
+    - 719
+    - 568
+    - 1347
+    - 3670
+    - 2068
+    - 1935
+    - 36871
+    - 28149
+    - 17269
+    - 36194
+    - 14629
+    - 6867
+    - 5505
+    - 22677
+    - 2969
+    - 54
+    - 2461
+  metadata:
+    title_ru: Синдзи Арамаки
+    title_en: Shinji Aramaki
+    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
+    border_color: "#02ACF4"
+    topic_id: 276032
+  generator:
+    person_id: 7454
+- neko_id: kouichi_mashimo
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 424
+    - 298
+    - 9996
+    - 6867
+    - 5682
+    - 4151
+    - 2030
+    - 2928
+    - 873
+    - 2620
+    - 2619
+    - 969
+    - 177
+    - 336
+    - 252
+    - 454
+    - 1487
+    - 56
+    - 1143
+    - 299
+    - 48
+    - 272
+    - 4191
+    - 1704
+    - 808
+    - 495
+    - 1168
+    - 569
+    - 1777
+    - 2543
+    - 1151
+    - 6055
+    - 1796
+    - 5053
+  metadata:
+    title_ru: Коити Масимо
+    title_en: Kouichi Mashimo
+    image: "/assets/achievements/anime/author/kouichi_mashimo.jpg"
+    border_color: "#72633F"
+    topic_id: 276032
+  generator:
+    person_id: 5094
 - neko_id: go_nagai
   level: 1
   algo: count
@@ -1298,54 +1303,6 @@
     topic_id: 276032
   generator:
     person_id: 2992
-- neko_id: kouichi_mashimo
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 424
-    - 298
-    - 9996
-    - 6867
-    - 5682
-    - 4151
-    - 2030
-    - 2928
-    - 873
-    - 2620
-    - 2619
-    - 969
-    - 177
-    - 336
-    - 252
-    - 454
-    - 1487
-    - 56
-    - 1143
-    - 299
-    - 48
-    - 272
-    - 4191
-    - 1704
-    - 808
-    - 495
-    - 1168
-    - 569
-    - 1777
-    - 2543
-    - 1151
-    - 6055
-    - 1796
-    - 5053
-  metadata:
-    title_ru: Коити Масимо
-    title_en: Kouichi Mashimo
-    image: "/assets/achievements/anime/author/kouichi_mashimo.jpg"
-    border_color: "#72633F"
-    topic_id: 276032
-  generator:
-    person_id: 5094
 - neko_id: ryousuke_takahashi
   level: 1
   algo: count
@@ -1677,35 +1634,6 @@
     topic_id: 276032
   generator:
     person_id: 5393
-- neko_id: yoshitaka_amano
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 6909
-    - 1793
-    - 3258
-    - 543
-    - 732
-    - 3671
-    - 3670
-    - 1458
-    - 2389
-    - 4210
-    - 5802
-    - 3914
-    - 2249
-    - 10639
-    - 5819
-  metadata:
-    title_ru: 'Ёситака Амано '
-    title_en: Yoshitaka Amano
-    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
-    border_color: "#8B4513"
-    topic_id: 276032
-  generator:
-    person_id: 2967
 - neko_id: leiji_matsumoto
   level: 1
   algo: count
@@ -1763,35 +1691,78 @@
     topic_id: 276032
   generator:
     person_id: 2597
-- neko_id: tomoharu_katsumata
+- neko_id: yoshitaka_amano
   level: 1
   algo: count
   threshold: 100%
   filters:
     anime_ids:
-    - 1287
-    - 3515
-    - 1253
-    - 1608
-    - 4876
-    - 589
-    - 2202
-    - 3069
-    - 2561
-    - 956
-    - 1985
-    - 3043
-    - 1661
-    - 2252
-    - 5006
+    - 6909
+    - 1793
+    - 3258
+    - 543
+    - 732
+    - 3671
+    - 3670
+    - 1458
+    - 2389
+    - 4210
+    - 5802
+    - 3914
+    - 2249
+    - 10639
+    - 5819
   metadata:
-    title_ru: Томохару Кацумата
-    title_en: Tomoharu Katsumata
-    image: "/assets/achievements/anime/author/tomoharu_katsumata.jpg"
-    border_color: "#0C509E"
+    title_ru: 'Ёситака Амано '
+    title_en: Yoshitaka Amano
+    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
+    border_color: "#8B4513"
     topic_id: 276032
   generator:
-    person_id: 6305
+    person_id: 2967
+- neko_id: rintaro
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 3800
+    - 4481
+    - 1442
+    - 1016
+    - 2998
+    - 2999
+    - 3115
+    - 25265
+    - 13249
+    - 7314
+    - 1081
+    - 522
+    - 155
+    - 426
+    - 3152
+    - 1148
+    - 2556
+    - 9531
+    - 1951
+    - 5918
+    - 12141
+    - 3599
+    - 3595
+    - 1973
+    - 2997
+    - 496
+    - 1626
+    - 1302
+    - 1000
+  metadata:
+    title_ru: Ринтаро
+    title_en: Rintaro
+    image: "/assets/achievements/anime/author/rintaro.png"
+    border_color: "#3CB371"
+    topic_id: 276032
+  generator:
+    person_id: 7305
 - neko_id: shoutarou_ishinomori
   level: 1
   algo: count
@@ -1838,3 +1809,32 @@
     topic_id: 276032
   generator:
     person_id: 2478
+- neko_id: tomoharu_katsumata
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 1287
+    - 3515
+    - 1253
+    - 1608
+    - 4876
+    - 589
+    - 2202
+    - 3069
+    - 2561
+    - 956
+    - 1985
+    - 3043
+    - 1661
+    - 2252
+    - 5006
+  metadata:
+    title_ru: Томохару Кацумата
+    title_en: Tomoharu Katsumata
+    image: "/assets/achievements/anime/author/tomoharu_katsumata.jpg"
+    border_color: "#0C509E"
+    topic_id: 276032
+  generator:
+    person_id: 6305
