@@ -1763,90 +1763,32 @@
     topic_id: 276032
   generator:
     person_id: 2597
-- neko_id: yoshikazu_yasuhiko
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 80
-    - 85
-    - 544
-    - 791
-    - 1068
-    - 1090
-    - 1091
-    - 1092
-    - 1637
-    - 1650
-    - 1938
-    - 1967
-    - 1968
-    - 1969
-    - 2128
-    - 2200
-    - 2389
-    - 2696
-    - 2722
-    - 3327
-    - 3811
-    - 3819
-    - 5933
-    - 6336
-    - 8240
-    - 10937
-    - 20147
-    - 21067
-    - 28149
-    - 32792
-    - 39156
-  metadata:
-    title_ru: Ёсикадзу Ясухико
-    title_en: Yoshikazu Yasuhiko
-    topic_id: 276032
-  generator:
-    person_id: 2220
 - neko_id: tomoharu_katsumata
   level: 1
   algo: count
   threshold: 100%
   filters:
     anime_ids:
-    - 589
-    - 956
-    - 967
-    - 1253
     - 1287
-    - 1337
-    - 1608
-    - 1661
-    - 1985
-    - 2202
-    - 2252
-    - 2253
-    - 2561
-    - 3021
-    - 3043
-    - 3069
     - 3515
-    - 3579
-    - 3932
-    - 4199
+    - 1253
+    - 1608
     - 4876
+    - 589
+    - 2202
+    - 3069
+    - 2561
+    - 956
+    - 1985
+    - 3043
+    - 1661
+    - 2252
     - 5006
-    - 5658
-    - 5832
-    - 7122
-    - 8554
-    - 18475
-    - 20223
-    - 22325
-    - 22329
-    - 23345
-    - 23707
   metadata:
     title_ru: Томохару Кацумата
     title_en: Tomoharu Katsumata
+    image: https://kawai.shikimori.org/system/user_images/original/34807/810986.jpg
+    border_color: "#0C509E"
     topic_id: 276032
   generator:
     person_id: 6305
