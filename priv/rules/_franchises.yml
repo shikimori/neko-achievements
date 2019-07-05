@@ -1085,6 +1085,7 @@
     not_anime_ids:
     - 33845
     - 35191
+    - 39014
   threshold: 90.3%
   metadata: &115
     title_ru: Вольный стиль!
@@ -1261,6 +1262,7 @@
     - 14267
     - 25257
     - 38937
+    - 32735
   threshold: 94.7%
   metadata: &134
     title_ru: Персона
