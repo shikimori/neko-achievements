@@ -179,7 +179,7 @@
   metadata:
     title_ru: Ёсиаки Кавадзири
     title_en: Yoshiaki Kawajiri
-    image: https://desu.shikimori.org/system/user_images/original/34807/813553.jpg
+    image: "/assets/achievements/anime/author/yoshiaki_kawajiri.jpg"
     border_color: "#C73674"
     topic_id: 276032
   generator:
@@ -1778,7 +1778,7 @@
   metadata:
     title_ru: Тосио Маэда
     title_en: Toshio Maeda
-    image: https://sjohnru.files.wordpress.com/2019/07/choujin-densetsu-urotsukidouji-1987-avatar.png
+    image: "/assets/achievements/anime/author/toshio_maeda.png"
     border_color: "#FF4F00"
     topic_id: 276032
   generator:
