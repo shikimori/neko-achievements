@@ -35,7 +35,7 @@
   metadata:
     title_ru: Хироюки Имаиси
     title_en: Hiroyuki Imaishi
-    image: https://nyaa.shikimori.one/system/user_images/original/34807/818435.jpg
+    image: "/assets/achievements/anime/author/hiroyuki_imaishi.jpg"
     border_color: "#D5713F"
     topic_id: 276032
   generator:
@@ -83,7 +83,7 @@
   metadata:
     title_ru: Тэнсай Окамура
     title_en: Tensai Okamura
-    image: https://moe.shikimori.org/system/user_images/original/34807/819632.jpg
+    image: "/assets/achievements/anime/author/tensai_okamura.jpg"
     border_color: "#AEA9DE"
     topic_id: 276032
   generator:
