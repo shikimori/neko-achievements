@@ -1,45 +1,4 @@
 ---
-- neko_id: hiroyuki_imaishi
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 8337
-    - 6675
-    - 3785
-    - 3784
-    - 1845
-    - 464
-    - 121
-    - 1424
-    - 271
-    - 1980
-    - 276
-    - 1413
-    - 1437
-    - 1158
-    - 1439
-    - 32
-    - 30
-    - 16774
-    - 3080
-    - 11285
-    - 2001
-    - 32681
-    - 28149
-    - 21659
-    - 18679
-    - 8795
-    - 974
-  metadata:
-    title_ru: Хироюки Имаиси
-    title_en: Hiroyuki Imaishi
-    image: "/assets/achievements/anime/author/hiroyuki_imaishi.jpg"
-    border_color: "#D5713F"
-    topic_id: 276032
-  generator:
-    person_id: 2349
 - neko_id: tensai_okamura
   level: 1
   algo: count
@@ -88,57 +47,47 @@
     topic_id: 276032
   generator:
     person_id: 2762
-- neko_id: yoshiaki_kawajiri
+- neko_id: hiroyuki_imaishi
   level: 1
   algo: count
   threshold: 100%
   filters:
     anime_ids:
-    - 4094
-    - 2178
-    - 1303
-    - 156
-    - 543
-    - 566
-    - 2500
-    - 617
-    - 1352
-    - 1951
-    - 1880
-    - 1879
-    - 499
-    - 2998
-    - 1107
-    - 2770
-    - 10629
+    - 8337
     - 6675
-    - 522
-    - 372
-    - 1462
-    - 3829
-    - 2456
-    - 3115
-    - 496
-    - 1825
-    - 1824
-    - 1626
-    - 2029
-    - 2427
-    - 2389
-    - 2755
-    - 595
-    - 1269
-    - 1793
-    - 3014
-    - 618
+    - 3785
+    - 3784
+    - 1845
+    - 464
+    - 121
+    - 1424
+    - 271
+    - 1980
+    - 276
+    - 1413
+    - 1437
+    - 1158
+    - 1439
+    - 32
+    - 30
+    - 16774
+    - 3080
+    - 11285
+    - 2001
+    - 32681
+    - 28149
+    - 21659
+    - 18679
+    - 8795
+    - 974
   metadata:
-    title_ru: Ёсиаки Кавадзири
-    title_en: Yoshiaki Kawajiri
-    image: "/assets/achievements/anime/author/yoshiaki_kawajiri.jpg"
-    border_color: "#C73674"
+    title_ru: Хироюки Имаиси
+    title_en: Hiroyuki Imaishi
+    image: "/assets/achievements/anime/author/hiroyuki_imaishi.jpg"
+    border_color: "#D5713F"
     topic_id: 276032
   generator:
-    person_id: 5812
+    person_id: 2349
 - neko_id: akiyuki_shinbou
   level: 1
   algo: count
@@ -1037,6 +986,57 @@
     topic_id: 276032
   generator:
     person_id: 4580
+- neko_id: yoshiaki_kawajiri
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 4094
+    - 2178
+    - 1303
+    - 156
+    - 543
+    - 566
+    - 2500
+    - 617
+    - 1352
+    - 1951
+    - 1880
+    - 1879
+    - 499
+    - 2998
+    - 1107
+    - 2770
+    - 10629
+    - 6675
+    - 522
+    - 372
+    - 1462
+    - 3829
+    - 2456
+    - 3115
+    - 496
+    - 1825
+    - 1824
+    - 1626
+    - 2029
+    - 2427
+    - 2389
+    - 2755
+    - 595
+    - 1269
+    - 1793
+    - 3014
+    - 618
+  metadata:
+    title_ru: Ёсиаки Кавадзири
+    title_en: Yoshiaki Kawajiri
+    image: "/assets/achievements/anime/author/yoshiaki_kawajiri.jpg"
+    border_color: "#C73674"
+    topic_id: 276032
+  generator:
+    person_id: 5812
 - neko_id: kenji_nakamura
   level: 1
   algo: count
