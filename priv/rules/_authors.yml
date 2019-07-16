@@ -613,38 +613,6 @@
     topic_id: 276032
   generator:
     person_id: 5067
-- neko_id: isao_takahata
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 1044
-    - 1412
-    - 512
-    - 513
-    - 572
-    - 1208
-    - 16664
-    - 3215
-    - 415
-    - 1030
-    - 1029
-    - 578
-    - 1049
-    - 3946
-    - 283
-    - 1663
-    - 2225
-    - 2611
-  metadata:
-    title_ru: Исао Такахата
-    title_en: Isao Takahata
-    image: "/assets/achievements/anime/author/isao_takahata.jpg"
-    border_color: "#4f5f53"
-    topic_id: 276032
-  generator:
-    person_id: 5579
 - neko_id: osamu_tezuka
   level: 1
   algo: count
@@ -731,6 +699,38 @@
     topic_id: 276032
   generator:
     person_id: 1938
+- neko_id: isao_takahata
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 1044
+    - 1412
+    - 512
+    - 513
+    - 572
+    - 1208
+    - 16664
+    - 3215
+    - 415
+    - 1030
+    - 1029
+    - 578
+    - 1049
+    - 3946
+    - 283
+    - 1663
+    - 2225
+    - 2611
+  metadata:
+    title_ru: Исао Такахата
+    title_en: Isao Takahata
+    image: "/assets/achievements/anime/author/isao_takahata.jpg"
+    border_color: "#4f5f53"
+    topic_id: 276032
+  generator:
+    person_id: 5579
 - neko_id: kenji_kamiyama
   level: 1
   algo: count
