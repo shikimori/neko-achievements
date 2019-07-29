@@ -1872,9 +1872,7 @@
   filters: &197
     franchise: macross
     not_anime_ids:
-    - 10050
     - 31494
-    - 35077
     - 38675
     - 38676
   threshold: 95%
