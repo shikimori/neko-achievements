@@ -3831,7 +3831,6 @@
   filters: *410
   threshold: 0.01
   metadata: *411
-
 - neko_id: black_lagoon
   level: 1
   algo: duration
@@ -3843,7 +3842,7 @@
     title_en: Black Lagoon
     image: https://kawai.shikimori.one/system/user_images/original/239508/828461.jpg
     topic_id: 247360
-- neko_id: haou_daikei_ryuu_knight
+- neko_id:black_lagoon
   level: 0
   algo: duration
   filters: *410
