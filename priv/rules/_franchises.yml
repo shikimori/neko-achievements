@@ -1872,7 +1872,9 @@
   filters: &197
     franchise: macross
     not_anime_ids:
+    - 10050
     - 31494
+    - 35077
     - 38675
     - 38676
   threshold: 95%
@@ -3832,11 +3834,17 @@
 - neko_id: black_lagoon
   level: 1
   algo: duration
-  filters:
+  filters: &412
     franchise: black_lagoon
-  threshold: 100%
-  metadata:
+  threshold: 97.2%
+  metadata: &413
     title_ru: Пираты «Чёрной лагуны»
     title_en: Black Lagoon
-    image: https://kawai.shikimori.one/system/user_images/original/239508/828461.jpg
+    image: "/assets/achievements/anime/franchise/black_lagoon.jpg"
     topic_id: 247360
+- neko_id: black_lagoon
+  level: 0
+  algo: duration
+  filters: *412
+  threshold: 0.01
+  metadata: *413
