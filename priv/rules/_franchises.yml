@@ -867,6 +867,8 @@
     title_en: Black Lagoon
     image: "/assets/achievements/anime/franchise/black_lagoon.jpg"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: black_lagoon
   level: 0
   algo: duration
@@ -1940,7 +1942,7 @@
   metadata: &204
     title_ru: Инициал Ди
     title_en: Initial D
-    image: "/assets/achievements/anime/franchise/initial_d.jpg"
+    image: https://desu.shikimori.one/system/user_images/original/239508/829933.jpg
     topic_id: 247360
 - neko_id: initial_d
   level: 0
