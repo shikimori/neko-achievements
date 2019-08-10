@@ -1897,6 +1897,7 @@
     - 35077
     - 38675
     - 38676
+    - 1211
   threshold: 95%
   metadata: &201
     title_ru: Макросс
@@ -3846,6 +3847,26 @@
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
     topic_id: 247360
 - neko_id: haou_daikei_ryuu_knight
+  level: 0
+  algo: duration
+  filters: *413
+  threshold: 0.01
+  metadata: *414
+- neko_id: koihime_musou
+  level: 1
+  algo: duration
+  filters: &413
+    franchise: koihime_musou
+    not_anime_ids:
+    - 15015
+    - 15095
+  threshold: 100%
+  metadata: &414
+    title_ru: Несравненная принцесса любви
+    title_en: Shin Koihime†Musou
+    image: https://nyaa.shikimori.one/system/user_images/original/9560/833670.jpg
+    topic_id: 247360
+- neko_id: koihime_musou
   level: 0
   algo: duration
   filters: *413
