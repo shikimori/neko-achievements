@@ -88,6 +88,40 @@
     topic_id: 276032
   generator:
     person_id: 2349
+- neko_id: makoto_shinkai
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 13675
+    - 21441
+    - 13691
+    - 25271
+    - 2832
+    - 1689
+    - 433
+    - 2953
+    - 1004
+    - 256
+    - 2210
+    - 32491
+    - 38826
+    - 32281
+    - 16782
+    - 17121
+    - 9760
+    - 22839
+    - 38065
+    - 25883
+  metadata:
+    title_ru: Макото Синкай
+    title_en: Makoto Shinkai
+    image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
+    border_color: "#ABCDEF"
+    topic_id: 276032
+  generator:
+    person_id: 1117
 - neko_id: akiyuki_shinbou
   level: 1
   algo: count
@@ -187,40 +221,6 @@
     topic_id: 276032
   generator:
     person_id: 5089
-- neko_id: makoto_shinkai
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 13675
-    - 21441
-    - 13691
-    - 25271
-    - 2832
-    - 1689
-    - 433
-    - 2953
-    - 1004
-    - 256
-    - 2210
-    - 32491
-    - 38826
-    - 32281
-    - 16782
-    - 17121
-    - 9760
-    - 22839
-    - 38065
-    - 25883
-  metadata:
-    title_ru: Макото Синкай
-    title_en: Makoto Shinkai
-    image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
-    border_color: "#ABCDEF"
-    topic_id: 276032
-  generator:
-    person_id: 1117
 - neko_id: hayao_miyazaki
   level: 1
   algo: count

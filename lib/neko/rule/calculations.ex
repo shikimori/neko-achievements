@@ -30,7 +30,7 @@ defmodule Neko.Rule.Calculations do
     |> Enum.map(fn rule ->
       duration =
         animes_by_id
-        |> Map.take(rule.anime_ids)
+        |> Map.take(Enum.to_list(rule.anime_ids))
         |> Enum.map(fn {_, v} -> v.total_duration end)
         |> Enum.sum()
 

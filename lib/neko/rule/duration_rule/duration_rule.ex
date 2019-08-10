@@ -38,7 +38,7 @@ defmodule Neko.Rule.DurationRule do
   @spec value(rule_t, MapSet.t(pos_integer), by_anime_id_t()) :: pos_integer
   def value(rule, _user_anime_ids, by_anime_id) do
     by_anime_id
-    |> Map.take(rule.anime_ids)
+    |> Map.take(Enum.to_list(rule.anime_ids))
     |> Enum.map(fn {_, %{user_rate: user_rate, anime: anime}} ->
       if user_rate.status == "watching" || user_rate.status == "on_hold" do
         anime.duration * user_rate.episodes
