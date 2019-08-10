@@ -287,7 +287,7 @@
     - 246
     - 11511
     - 12121
-  threshold: 96.6%
+  threshold: 96.7%
   metadata: &29
     title_ru: Сказка о Хвосте феи
     title_en: Fairy Tail
@@ -972,7 +972,7 @@
     - 36240
     - 36241
     - 36242
-  threshold: 93.5%
+  threshold: 93.9%
   metadata: &102
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1145,7 +1145,7 @@
   algo: duration
   filters: &121
     franchise: tales_of
-  threshold: 92.5%
+  threshold: 92.6%
   metadata: &122
     title_ru: Сказания
     title_en: Tales of
@@ -1758,7 +1758,7 @@
     - 33221
     - 35949
     - 36436
-  threshold: 89%
+  threshold: 89.7%
   metadata: &186
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -1892,12 +1892,12 @@
   filters: &200
     franchise: macross
     not_anime_ids:
+    - 1211
     - 10050
     - 31494
     - 35077
     - 38675
     - 38676
-    - 1211
   threshold: 95%
   metadata: &201
     title_ru: Макросс
@@ -2886,7 +2886,7 @@
     - 16576
     - 21595
     - 32346
-  threshold: 88.6%
+  threshold: 88.7%
   metadata: &308
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
@@ -2940,7 +2940,7 @@
   algo: duration
   filters: &313
     franchise: senki_zesshou_symphogear
-  threshold: 93.5%
+  threshold: 93.9%
   metadata: &314
     title_ru: Песня боевых принцесс
     title_en: Senki Zesshou Symphogear
@@ -2994,7 +2994,7 @@
     not_anime_ids:
     - 10584
     - 39414
-  threshold: 96.8%
+  threshold: 96%
   metadata: &320
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
@@ -3181,7 +3181,7 @@
     not_anime_ids:
     - 10736
     - 30103
-  threshold: 92.4%
+  threshold: 92.5%
   metadata: &342
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -3234,7 +3234,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 92.7%
+  threshold: 93.6%
   metadata: &348
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -3623,7 +3623,7 @@
     franchise: doraemon
     not_anime_ids:
     - 501
-  threshold: 94.2%
+  threshold: 94%
   metadata: &390
     title_ru: Дораэмон
     title_en: Doraemon
@@ -3855,20 +3855,20 @@
 - neko_id: koihime_musou
   level: 1
   algo: duration
-  filters: &413
+  filters: &415
     franchise: koihime_musou
     not_anime_ids:
     - 15015
     - 15095
-  threshold: 100%
-  metadata: &414
+  threshold: 95%
+  metadata: &416
     title_ru: Несравненная принцесса любви
     title_en: Shin Koihime†Musou
-    image: https://nyaa.shikimori.one/system/user_images/original/9560/833670.jpg
+    image: "/assets/achievements/anime/franchise/koihime_musou.jpg"
     topic_id: 247360
 - neko_id: koihime_musou
   level: 0
   algo: duration
-  filters: *413
+  filters: *415
   threshold: 0.01
-  metadata: *414
+  metadata: *416
