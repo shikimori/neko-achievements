@@ -136,7 +136,7 @@
   threshold: 2000
   metadata:
     title_ru: Маньяк
-    text_ru: Это так круто? Возможно вам следует обратиться к врачу.
+    text_ru: Это так круто? Возможно, вам следует обратиться к врачу.
     image: /assets/achievements/anime/animelist_15.jpg
     border_color: "#ED3CCA"
 
