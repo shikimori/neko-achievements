@@ -3552,7 +3552,7 @@
   metadata: &382
     title_ru: Приключения во времени
     title_en: Time Bokan
-    image: "/assets/achievements/anime/franchise/time_bokan.jpg"
+    image: https://kawai.shikimori.one/system/user_images/original/9560/840626.jpg
     topic_id: 247360
 - neko_id: time_bokan
   level: 0
