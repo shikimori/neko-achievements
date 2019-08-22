@@ -1105,11 +1105,11 @@
     not_anime_ids:
     - 33845
     - 35191
-    - 39014
     - 37858
     - 37859
     - 37860
-  threshold: 90.3%
+    - 39014
+  threshold: 94.7%
   metadata: &118
     title_ru: Вольный стиль!
     title_en: Free!
@@ -2023,6 +2023,12 @@
     title_en: WIXOSS
     image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
     topic_id: 247360
+- neko_id: selector_spread_wixoss
+  level: 0
+  algo: duration
+  filters: *212
+  threshold: 0.01
+  metadata: *213
 - neko_id: hetalia
   level: 1
   algo: duration
@@ -2038,12 +2044,6 @@
     topic_id: 247360
   generator: &216
     threshold: 90%
-- neko_id: selector_spread_wixoss
-  level: 0
-  algo: duration
-  filters: *212
-  threshold: 0.01
-  metadata: *213
 - neko_id: hetalia
   level: 0
   algo: duration
@@ -3555,7 +3555,7 @@
   metadata: &382
     title_ru: Приключения во времени
     title_en: Time Bokan
-    image: https://kawai.shikimori.one/system/user_images/original/9560/840626.jpg
+    image: "/assets/achievements/anime/franchise/time_bokan.jpg"
     topic_id: 247360
 - neko_id: time_bokan
   level: 0
@@ -3587,9 +3587,9 @@
     franchise: koihime_musou
     not_anime_ids:
     - 15015
+    - 15093
     - 15095
     - 31336
-    - 15093
   threshold: 95%
   metadata: &386
     title_ru: Несравненная принцесса любви
