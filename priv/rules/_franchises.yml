@@ -145,6 +145,9 @@
     title_en: Boku no Hero Academia
     image: "/assets/achievements/anime/franchise/boku_no_hero_academia.jpg"
     topic_id: 247360
+    generator:
+  ignore_latest_ids:
+    - 39565   
 - neko_id: boku_no_hero_academia
   level: 0
   algo: duration
@@ -190,6 +193,7 @@
     - 33155
     - 33156
     - 33360
+    - 40315
     - 34438
   threshold: 95%
   metadata: &19
@@ -198,6 +202,8 @@
     image: "/assets/achievements/anime/franchise/code_geass.png"
     topic_id: 247360
   generator: &20
+    ignore_latest_ids:
+    - 34437
     not_ignored_ids:
     - 34439
     - 34440
@@ -312,6 +318,10 @@
     image: "/assets/achievements/anime/franchise/fate.jpg"
     topic_id: 247360
   generator: &30
+    ignore_latest_ids:
+    - 33050
+    - 38086
+    - 38085
     not_ignored_ids:
     - 33049
     - 33050
@@ -491,6 +501,8 @@
     image: "/assets/achievements/anime/franchise/evangelion.jpg"
     topic_id: 247360
   generator: &49
+    ignore_latest_ids:
+    - 3786
     not_ignored_ids:
     - 3786
 - neko_id: evangelion
@@ -957,6 +969,9 @@
     title_en: One Piece
     image: "/assets/achievements/anime/franchise/one_piece.png"
     topic_id: 247360
+  generator:
+    ignore_latest_ids: 
+    - 38234 
 - neko_id: one_piece
   level: 0
   algo: duration
@@ -1115,6 +1130,9 @@
     title_en: Free!
     image: "/assets/achievements/anime/franchise/free.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids: 
+    - 38400
 - neko_id: free
   level: 0
   algo: duration
@@ -1617,6 +1635,8 @@
     image: "/assets/achievements/anime/franchise/sailor_moon.jpg"
     topic_id: 247360
   generator: &172
+    ignore_latest_ids:
+    - 40024
     not_ignored_ids:
     - 1240
 - neko_id: sailor_moon
@@ -1768,6 +1788,11 @@
     image: "/assets/achievements/anime/franchise/gundam.jpg"
     topic_id: 247360
   generator: &187
+    ignore_latest_ids:
+    - 38714
+    - 37765
+    - 38716
+    - 38717
     not_ignored_ids:
     - 14007
     - 20667
@@ -1812,6 +1837,8 @@
     image: "/assets/achievements/anime/franchise/uta_no_prince_sama.jpg"
     topic_id: 247360
   generator: &192
+    ignore_latest_ids:
+    - 35645
     not_ignored_ids:
     - 36684
     - 36685
@@ -1866,6 +1893,9 @@
     title_en: Pokemon
     image: "/assets/achievements/anime/franchise/pokemon.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids: 
+    - 37966
 - neko_id: pokemon
   level: 0
   algo: duration
@@ -1907,6 +1937,9 @@
     title_en: Macross
     image: "/assets/achievements/anime/franchise/macross.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids: 
+    - 38373
 - neko_id: macross
   level: 0
   algo: duration
@@ -1966,6 +1999,11 @@
     title_en: Ginga Eiyuu Densetsu
     image: "/assets/achievements/anime/franchise/ginga_eiyuu_densetsu.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids: 
+    - 36371
+    - 36370
+    - 36369
 - neko_id: ginga_eiyuu_densetsu
   level: 0
   algo: duration
@@ -1983,6 +2021,9 @@
     title_en: Detective Conan
     image: "/assets/achievements/anime/franchise/detective_conan.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 38770
 - neko_id: detective_conan
   level: 0
   algo: duration
@@ -2117,6 +2158,9 @@
     title_en: Strike Witches
     image: "/assets/achievements/anime/franchise/brave_witches.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 39987
 - neko_id: brave_witches
   level: 0
   algo: duration
@@ -2197,6 +2241,10 @@
     title_en: Lupin III
     image: "/assets/achievements/anime/franchise/lupin_iii.png"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 39487
+    - 40082
 - neko_id: lupin_iii
   level: 0
   algo: duration
@@ -2216,6 +2264,9 @@
     title_en: Osomatsu
     image: "/assets/achievements/anime/franchise/osomatsu_san.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 38201
 - neko_id: osomatsu_san
   level: 0
   algo: duration
@@ -2949,6 +3000,9 @@
     title_en: Tennis no Ouji-sama
     image: "/assets/achievements/anime/franchise/tennis_no_ouji_sama.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 38882 
 - neko_id: tennis_no_ouji_sama
   level: 0
   algo: duration
@@ -3020,6 +3074,9 @@
     title_en: City Hunter
     image: "/assets/achievements/anime/franchise/city_hunter.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids: 
+    - 37516    
 - neko_id: city_hunter
   level: 0
   algo: duration
@@ -3654,6 +3711,10 @@
     title_en: Doraemon
     image: "/assets/achievements/anime/franchise/doraemon.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 40044
+    - 38530
 - neko_id: doraemon
   level: 0
   algo: duration
