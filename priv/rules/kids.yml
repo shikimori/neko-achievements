@@ -6,6 +6,9 @@
   filters:
     genre_ids:
       - 15
+    or:
+      anime_ids:
+        - 523
   metadata:
     title_ru: Родом из детства
     text_ru: Аниме — это один из маленьких шансов вернуться в детство.
