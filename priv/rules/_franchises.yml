@@ -1456,6 +1456,7 @@
     not_anime_ids:
     - 31989
     - 35082
+    - 37577
   threshold: 93.2%
   metadata: &155
     title_ru: Звучи, эуфониум!
