@@ -1457,7 +1457,7 @@
     - 31989
     - 35082
     - 37577
-  threshold: 93.2%
+  threshold: 93%
   metadata: &155
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -2503,6 +2503,8 @@
   algo: duration
   filters: &267
     franchise: slayers
+    not_anime_ids:
+    - 40112
   threshold: 95%
   metadata: &268
     title_ru: Рубаки
