@@ -3956,3 +3956,22 @@
   filters: *428
   threshold: 0.01
   metadata: *429
+- neko_id: dungeon_ni_deai_wo_motomeru_no_wa_machigatteiru_darou_ka
+  level: 1
+  algo: duration
+  filters: &408
+    franchise: dungeon_ni_deai_wo_motomeru_no_wa_machigatteiru_darou_ka
+    not_anime_ids:
+    - 40064
+  threshold: 80%
+  metadata: &409
+    title_ru: Может, я встречу тебя в подземелье?
+    title_en: DanMachi
+    image: https://dere.shikimori.one/system/user_images/original/47216/866994.jpg
+    topic_id: 247360
+- neko_id: dungeon_ni_deai_wo_motomeru_no_wa_machigatteiru_darou_ka
+  level: 0
+  algo: duration
+  filters: *408
+  threshold: 0.01
+  metadata: *409
