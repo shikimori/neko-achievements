@@ -30,7 +30,7 @@ Neko.Anime.all_by_id()
 
 
 # get animes matched by rule
-user_id = 8
+user_id = 1
 Neko.UserRate.load(user_id)
 
 rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen" && &1.level == 1)) |> Enum.at(0)
