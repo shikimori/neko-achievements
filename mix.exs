@@ -74,8 +74,6 @@ defmodule Neko.Mixfile do
   end
 
   defp deploy(_) do
-    Mix.Task.run(:cmd, ["ssh devops@88.198.7.116 sudo rm /home/apps/neko/var/start_erl.data"])
-
     Mix.Task.run(:edeliver, ["update", "production"])
     Mix.shell().info("[neko updated]")
 
