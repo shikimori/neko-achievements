@@ -1484,6 +1484,9 @@
     title_en: Hibike! Euphonium
     image: "/assets/achievements/anime/franchise/hibike_euphonium.png"
     topic_id: 247360
+  generator: &177
+    ignore_latest_ids:
+    - 35678
 - neko_id: hibike_euphonium
   level: 0
   algo: duration
