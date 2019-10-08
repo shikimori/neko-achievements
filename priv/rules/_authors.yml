@@ -612,7 +612,7 @@
 - neko_id: osamu_tezuka
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 50%
   filters:
     anime_ids:
     - 4917
@@ -730,7 +730,7 @@
 - neko_id: kenji_kamiyama
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 56%
   filters:
     anime_ids:
     - 9629
@@ -767,7 +767,7 @@
 - neko_id: masamune_shirow
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 89%
   filters:
     anime_ids:
     - 43
@@ -800,7 +800,7 @@
 - neko_id: mamoru_oshii
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 68%
   filters:
     anime_ids:
     - 5386
@@ -1734,3 +1734,61 @@
     topic_id: 276032
   generator:
     person_id: 6414
+    - neko_id: mari_okada
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 23133
+    - 36884
+    - 31798
+    - 38753
+    - 9314
+    - 5356
+    - 11285
+    - 15039
+    - 9989
+    - 10447
+    - 14941
+    - 12149
+    - 9289
+    - 24629
+    - 28725
+    - 17635
+    - 4195
+    - 3121
+    - 2403
+    - 8426
+    - 14175
+    - 30313
+    - 2267
+    - 6758
+    - 1588
+    - 1882
+    - 1881
+    - 13203
+    - 5848
+    - 6707
+    - 4898
+    - 8425
+    - 8476
+    - 32438
+    - 11553
+    - 4224
+    - 2942
+    - 24037
+    - 22273
+    - 35851
+    - 682
+    - 16067
+    - 33051
+    - 31251
+  metadata:
+    title_ru: Мари Окада
+    title_en: Mari Okada
+    image: https://nyaa.shikimori.one/system/user_images/original/34807/870245.jpg
+    border_color: "#FAEEDD"
+    topic_id: 276032
+  generator:
+    person_id: 5978
