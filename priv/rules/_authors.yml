@@ -1734,7 +1734,7 @@
     topic_id: 276032
   generator:
     person_id: 6414
-    - neko_id: mari_okada
+- neko_id: mari_okada
   level: 1
   algo: count
   threshold: 100%
