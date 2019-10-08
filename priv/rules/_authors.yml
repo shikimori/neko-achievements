@@ -47,6 +47,64 @@
     topic_id: 276032
   generator:
     person_id: 2762
+- neko_id: mari_okada
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 23133
+    - 36884
+    - 31798
+    - 38753
+    - 9314
+    - 5356
+    - 11285
+    - 15039
+    - 9989
+    - 10447
+    - 14941
+    - 12149
+    - 9289
+    - 24629
+    - 28725
+    - 17635
+    - 4195
+    - 3121
+    - 2403
+    - 8426
+    - 14175
+    - 30313
+    - 2267
+    - 6758
+    - 1588
+    - 1882
+    - 1881
+    - 13203
+    - 5848
+    - 6707
+    - 4898
+    - 8425
+    - 8476
+    - 32438
+    - 11553
+    - 4224
+    - 2942
+    - 24037
+    - 22273
+    - 35851
+    - 682
+    - 16067
+    - 33051
+    - 31251
+  metadata:
+    title_ru: Мари Окада
+    title_en: Mari Okada
+    image: "/assets/achievements/anime/author/mari_okada.jpg"
+    border_color: "#FAEEDD"
+    topic_id: 276032
+  generator:
+    person_id: 5978
 - neko_id: hiroyuki_imaishi
   level: 1
   algo: count
@@ -1734,61 +1792,3 @@
     topic_id: 276032
   generator:
     person_id: 6414
-- neko_id: mari_okada
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 23133
-    - 36884
-    - 31798
-    - 38753
-    - 9314
-    - 5356
-    - 11285
-    - 15039
-    - 9989
-    - 10447
-    - 14941
-    - 12149
-    - 9289
-    - 24629
-    - 28725
-    - 17635
-    - 4195
-    - 3121
-    - 2403
-    - 8426
-    - 14175
-    - 30313
-    - 2267
-    - 6758
-    - 1588
-    - 1882
-    - 1881
-    - 13203
-    - 5848
-    - 6707
-    - 4898
-    - 8425
-    - 8476
-    - 32438
-    - 11553
-    - 4224
-    - 2942
-    - 24037
-    - 22273
-    - 35851
-    - 682
-    - 16067
-    - 33051
-    - 31251
-  metadata:
-    title_ru: Мари Окада
-    title_en: Mari Okada
-    image: "/assets/achievements/anime/author/mari_okada.jpg"
-    border_color: "#FAEEDD"
-    topic_id: 276032
-  generator:
-    person_id: 5978
