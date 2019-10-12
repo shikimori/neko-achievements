@@ -50,7 +50,7 @@
 - neko_id: mari_okada
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 50%
   filters:
     anime_ids:
     - 23133
@@ -897,7 +897,7 @@
 - neko_id: kouji_morimoto
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 88%
   filters:
     anime_ids:
     - 512
@@ -936,7 +936,7 @@
 - neko_id: clamp
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 54%
   filters:
     anime_ids:
     - 52
@@ -983,7 +983,7 @@
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 58%
   filters:
     anime_ids:
     - 415
@@ -1043,7 +1043,7 @@
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 62%
   filters:
     anime_ids:
     - 4094
@@ -1094,7 +1094,7 @@
 - neko_id: kenji_nakamura
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 87%
   filters:
     anime_ids:
     - 21039
@@ -1116,7 +1116,7 @@
 - neko_id: shinji_aramaki
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 68%
   filters:
     anime_ids:
     - 36517
@@ -1155,7 +1155,7 @@
 - neko_id: kouichi_mashimo
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 70%
   filters:
     anime_ids:
     - 424
@@ -1203,7 +1203,7 @@
 - neko_id: go_nagai
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 36%
   filters:
     anime_ids:
     - 35120
@@ -1345,7 +1345,7 @@
 - neko_id: kunihiko_ikuhara
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 77%
   filters:
     anime_ids:
     - 37426
@@ -1683,6 +1683,7 @@
     - 2249
     - 10639
     - 5819
+    - 885
   metadata:
     title_ru: 'Ёситака Амано '
     title_en: Yoshitaka Amano
