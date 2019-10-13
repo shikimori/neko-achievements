@@ -1602,6 +1602,36 @@
     topic_id: 276032
   generator:
     person_id: 5393
+- neko_id: yoshitaka_amano
+  level: 1
+  algo: count
+  threshold: 73%
+  filters:
+    anime_ids:
+    - 6909
+    - 1793
+    - 3258
+    - 543
+    - 732
+    - 3671
+    - 3670
+    - 1458
+    - 2389
+    - 4210
+    - 5802
+    - 3914
+    - 2249
+    - 10639
+    - 5819
+    - 885
+  metadata:
+    title_ru: 'Ёситака Амано '
+    title_en: Yoshitaka Amano
+    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
+    border_color: "#8B4513"
+    topic_id: 276032
+  generator:
+    person_id: 2967
 - neko_id: leiji_matsumoto
   level: 1
   algo: count
@@ -1659,36 +1689,6 @@
     topic_id: 276032
   generator:
     person_id: 2597
-- neko_id: yoshitaka_amano
-  level: 1
-  algo: count
-  threshold: 73%
-  filters:
-    anime_ids:
-    - 6909
-    - 1793
-    - 3258
-    - 543
-    - 732
-    - 3671
-    - 3670
-    - 1458
-    - 2389
-    - 4210
-    - 5802
-    - 3914
-    - 2249
-    - 10639
-    - 5819
-    - 885
-  metadata:
-    title_ru: 'Ёситака Амано '
-    title_en: Yoshitaka Amano
-    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
-    border_color: "#8B4513"
-    topic_id: 276032
-  generator:
-    person_id: 2967
 - neko_id: rintaro
   level: 1
   algo: count
