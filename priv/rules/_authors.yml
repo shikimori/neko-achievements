@@ -1,4 +1,33 @@
 ---
+- neko_id: tetsurou_araki
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 7193
+    - 1535
+    - 8074
+    - 9515
+    - 28623
+    - 34544
+    - 5039
+    - 10793
+    - 402
+    - 16498
+    - 18397
+    - 25781
+    - 25777
+    - 35760
+    - 38524
+  metadata:
+    title_ru: Тэцуро Араки
+    title_en: Tetsurou Araki
+    image: "/assets/achievements/anime/author/tetsurou_araki.jpg"
+    border_color: "#4285B4"
+    topic_id: 276032
+  generator:
+    person_id: 6414
 - neko_id: tensai_okamura
   level: 1
   algo: count
@@ -1780,35 +1809,6 @@
     title_en: Toshio Maeda
     image: "/assets/achievements/anime/author/toshio_maeda.png"
     border_color: "#FF4F00"
-    topic_id: 276032
-  generator:
-    person_id: 6414
-- neko_id: tetsurou_araki
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 7193
-    - 1535
-    - 8074
-    - 9515
-    - 28623
-    - 34544
-    - 5039
-    - 10793
-    - 402
-    - 16498
-    - 18397
-    - 25781
-    - 25777
-    - 35760
-    - 38524
-  metadata:
-    title_ru: Тэцуро Араки
-    title_en: Tetsurou Araki
-    image: https://kawai.shikimori.one/system/user_images/original/47216/873251.jpg
-    border_color: "#4285B4"
     topic_id: 276032
   generator:
     person_id: 6414
