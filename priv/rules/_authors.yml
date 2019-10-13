@@ -512,14 +512,11 @@
     - 5462
     - 306
     - 1034
-    - 474
     - 1089
-    - 1088
     - 2724
     - 3785
     - 3784
     - 2759
-    - 532
     - 531
     - 6090
     - 1148
@@ -1368,7 +1365,7 @@
 - neko_id: katsuhiro_otomo
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 76%
   filters:
     anime_ids:
     - 17677
@@ -1505,7 +1502,7 @@
 - neko_id: rumiko_takahashi
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 62%
   filters:
     anime_ids:
     - 210
@@ -1556,7 +1553,7 @@
 - neko_id: osamu_dezaki
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 55%
   filters:
     anime_ids:
     - 19973
@@ -1608,7 +1605,7 @@
 - neko_id: leiji_matsumoto
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 74%
   filters:
     anime_ids:
     - 731
@@ -1665,7 +1662,7 @@
 - neko_id: yoshitaka_amano
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 73%
   filters:
     anime_ids:
     - 6909
