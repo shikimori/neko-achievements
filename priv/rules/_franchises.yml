@@ -414,7 +414,7 @@
     franchise: danmachi
     not_anime_ids:
     - 40064
-  threshold: 98%
+  threshold: 100%
   metadata: &41
     title_ru: Может, я встречу тебя в подземелье?
     title_en: DanMachi
@@ -3986,30 +3986,43 @@
 - neko_id: ore_no_imouto
   level: 1
   algo: duration
-  filters:
+  filters: &433
     franchise: ore_no_imouto
     not_anime_ids:
+    - 10108
     - 19287
     - 19727
     - 19845
     - 23363
-    - 10108
-  threshold: 75.6%
-  metadata:
+  threshold: 100%
+  metadata: &434
     title_ru: Ну не может моя сестрёнка быть такой милой
     title_en: OreImo
-    image: https://shikimori.org/assets/achievements/anime/franchise/ore_no_imouto.jpg
+    image: "/assets/achievements/anime/franchise/ore_no_imouto.jpg"
     topic_id: 247360
-  generator:
-    threshold: 100% 
+  generator: &435
+    threshold: 100%
+- neko_id: ore_no_imouto
+  level: 0
+  algo: duration
+  filters: *433
+  threshold: 0.01
+  metadata: *434
+  generator: *435
 - neko_id: starmyu
   level: 1
   algo: duration
-  filters:
+  filters: &436
     franchise: starmyu
-  threshold: 100%
-  metadata:
+  threshold: 97.1%
+  metadata: &437
     title_ru: Музыкальная школа звёзд
     title_en: Starmyu
-    image: https://moe.shikimori.one/system/user_images/original/9560/873812.jpg
+    image: "/assets/achievements/anime/franchise/starmyu.jpg"
     topic_id: 247360
+- neko_id: starmyu
+  level: 0
+  algo: duration
+  filters: *436
+  threshold: 0.01
+  metadata: *437
