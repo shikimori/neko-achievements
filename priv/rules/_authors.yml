@@ -10,7 +10,6 @@
     - 5
     - 43
     - 30
-    - 998
     - 617
     - 4876
     - 1925
@@ -24,7 +23,6 @@
     - 3115
     - 14283
     - 1879
-    - 1825
     - 32245
     - 23755
     - 20973
@@ -115,13 +113,10 @@
     - 6675
     - 3785
     - 3784
-    - 1845
+    - 10739
     - 464
-    - 121
     - 1424
-    - 271
     - 1980
-    - 276
     - 1413
     - 1437
     - 1158
@@ -637,7 +632,6 @@
   threshold: 42%
   filters:
     anime_ids:
-    - 1153
     - 901
     - 36936
     - 28805
@@ -656,6 +650,7 @@
     - 1861
     - 883
     - 903
+    - 1278
   metadata:
     title_ru: Мамору Хосода
     title_en: Mamoru Hosoda
@@ -791,8 +786,6 @@
     - 9629
     - 6637
     - 405
-    - 347
-    - 2000
     - 767
     - 1822
     - 2733
@@ -1787,6 +1780,35 @@
     title_en: Toshio Maeda
     image: "/assets/achievements/anime/author/toshio_maeda.png"
     border_color: "#FF4F00"
+    topic_id: 276032
+  generator:
+    person_id: 6414
+- neko_id: tetsurou_araki
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 7193
+    - 1535
+    - 8074
+    - 9515
+    - 28623
+    - 34544
+    - 5039
+    - 10793
+    - 402
+    - 16498
+    - 18397
+    - 25781
+    - 25777
+    - 35760
+    - 38524
+  metadata:
+    title_ru: Тэцуро Араки
+    title_en: Tetsurou Araki
+    image: https://kawai.shikimori.one/system/user_images/original/47216/873251.jpg
+    border_color: "#4285B4"
     topic_id: 276032
   generator:
     person_id: 6414
