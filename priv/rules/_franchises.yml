@@ -3986,7 +3986,7 @@
 - neko_id: ore_no_imouto
   level: 1
   algo: duration
-  filters: &103
+  filters:
     franchise: ore_no_imouto
     not_anime_ids:
     - 19287
@@ -3995,33 +3995,21 @@
     - 23363
     - 10108
   threshold: 75.6%
-  metadata: &104
+  metadata:
     title_ru: Ну не может моя сестрёнка быть такой милой
     title_en: OreImo
     image: https://shikimori.org/assets/achievements/anime/franchise/ore_no_imouto.jpg
     topic_id: 247360
   generator:
     threshold: 100% 
-- neko_id: ore_no_imouto
-  level: 0
-  algo: duration
-  filters: *103
-  threshold: 0.01
-  metadata: *104
-  - neko_id: starmyu
+- neko_id: starmyu
   level: 1
   algo: duration
-  filters: &431
+  filters:
     franchise: starmyu
   threshold: 100%
-  metadata: &432
+  metadata:
     title_ru: Музыкальная школа звёзд
     title_en: Starmyu
     image: https://moe.shikimori.one/system/user_images/original/9560/873812.jpg
     topic_id: 247360
-- neko_id: starmyu
-  level: 0
-  algo: duration
-  filters: *431
-  threshold: 0.01
-  metadata: *432
