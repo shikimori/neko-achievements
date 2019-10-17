@@ -1,33 +1,4 @@
 ---
-- neko_id: tetsurou_araki
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 7193
-    - 1535
-    - 8074
-    - 9515
-    - 28623
-    - 34544
-    - 5039
-    - 10793
-    - 402
-    - 16498
-    - 18397
-    - 25781
-    - 25777
-    - 35760
-    - 38524
-  metadata:
-    title_ru: Тэцуро Араки
-    title_en: Tetsurou Araki
-    image: "/assets/achievements/anime/author/tetsurou_araki.jpg"
-    border_color: "#4285B4"
-    topic_id: 276032
-  generator:
-    person_id: 6414
 - neko_id: tensai_okamura
   level: 1
   algo: count
@@ -638,7 +609,6 @@
     - 14989
     - 15177
     - 21177
-    - 23133
     - 28013
     - 30381
     - 30382
@@ -1714,7 +1684,7 @@
 - neko_id: rintaro
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 41%
   filters:
     anime_ids:
     - 3800
@@ -1754,39 +1724,10 @@
     topic_id: 276032
   generator:
     person_id: 7305
-- neko_id: tomoharu_katsumata
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 1287
-    - 3515
-    - 1253
-    - 1608
-    - 4876
-    - 589
-    - 2202
-    - 3069
-    - 2561
-    - 956
-    - 1985
-    - 3043
-    - 1661
-    - 2252
-    - 5006
-  metadata:
-    title_ru: Томохару Кацумата
-    title_en: Tomoharu Katsumata
-    image: "/assets/achievements/anime/author/tomoharu_katsumata.jpg"
-    border_color: "#0C509E"
-    topic_id: 276032
-  generator:
-    person_id: 6305
 - neko_id: toshio_maeda
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 66%
   filters:
     anime_ids:
     - 2341
@@ -1812,3 +1753,88 @@
     topic_id: 276032
   generator:
     person_id: 6414
+- neko_id: tetsurou_araki
+  level: 1
+  algo: count
+  threshold: 80%
+  filters:
+    anime_ids:
+    - 7193
+    - 1535
+    - 8074
+    - 9515
+    - 28623
+    - 34544
+    - 5039
+    - 10793
+    - 402
+    - 16498
+    - 18397
+    - 25781
+    - 25777
+    - 35760
+    - 38524
+  metadata:
+    title_ru: Тэцуро Араки
+    title_en: Tetsurou Araki
+    image: https://kawai.shikimori.one/system/user_images/original/47216/873251.jpg
+    border_color: "#4285B4"
+    topic_id: 276032
+  generator:
+    person_id: 5088
+- neko_id: junichi_satou
+  level: 1
+  algo: count
+  threshold: 51%
+  filters:
+    anime_ids:
+    - 516
+    - 428
+    - 721
+    - 866
+    - 127
+    - 630
+    - 350
+    - 8156
+    - 9824
+    - 1116
+    - 530
+    - 3155
+    - 727
+    - 5203
+    - 2223
+    - 9981
+    - 36593
+    - 36800
+    - 31771
+    - 6129
+    - 29893
+    - 3297
+    - 2563
+    - 962
+    - 477
+    - 505
+    - 19953
+    - 23133
+    - 13283
+    - 29831
+    - 29830
+    - 25729
+    - 29829
+    - 15731
+    - 10232
+    - 9055
+    - 1501
+    - 429
+    - 427
+    - 100
+    - 171
+    - 629
+  metadata:
+    title_ru: Дзюнъити Сато
+    title_en: Junichi Satou
+    image: https://desu.shikimori.one/system/user_images/original/34807/877258.jpg
+    border_color: "#7482E1"
+    topic_id: 276032
+  generator:
+    person_id: 4002
