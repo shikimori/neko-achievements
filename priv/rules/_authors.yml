@@ -1777,7 +1777,7 @@
   metadata:
     title_ru: Тэцуро Араки
     title_en: Tetsurou Araki
-    image: https://kawai.shikimori.one/system/user_images/original/47216/873251.jpg
+    image: "/assets/achievements/anime/author/tetsurou_araki.jpg"
     border_color: "#4285B4"
     topic_id: 276032
   generator:
@@ -1833,7 +1833,7 @@
   metadata:
     title_ru: Дзюнъити Сато
     title_en: Junichi Satou
-    image: https://desu.shikimori.one/system/user_images/original/34807/877258.jpg
+    image: "/assets/achievements/anime/author/junichi_satou.jpg"
     border_color: "#7482E1"
     topic_id: 276032
   generator:
