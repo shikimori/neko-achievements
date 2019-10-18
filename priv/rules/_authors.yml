@@ -520,7 +520,7 @@
 - neko_id: hideaki_anno
   level: 1
   algo: count
-  threshold: 80%
+  threshold: 58%
   filters:
     anime_ids:
     - 151
@@ -1714,7 +1714,7 @@
 - neko_id: leiji_matsumoto
   level: 1
   algo: count
-  threshold: 74%
+  threshold: 68%
   filters:
     anime_ids:
     - 731
