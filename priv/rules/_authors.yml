@@ -1840,3 +1840,100 @@
     topic_id: 276032
   generator:
     person_id: 6414
+- neko_id: yasuhiro_takemoto
+  level: 1
+  algo: count
+  threshold: 64%
+  filters:
+    anime_ids:
+    - 22147
+    - 30206
+    - 73
+    - 1015
+    - 72
+    - 30415
+    - 12189
+    - 33206
+    - 35363
+    - 1887
+    - 4472
+    - 5957
+    - 7311
+    - 5118
+    - 1006
+    - 1135
+    - 1805
+    - 28675
+    - 2098
+    - 4382
+    - 253
+    - 13469
+    - 13259
+    - 13375
+    - 13373
+  metadata:
+    title_ru: Ясухиро Такэмото
+    title_en: Yasuhiro Takemoto
+    image: https://dere.shikimori.org/system/user_images/original/34807/879114.jpg
+    border_color: "#FFDC33"
+    topic_id: 276032
+  generator:
+    person_id: 6771    
+- neko_id: takahiro_oomori
+  level: 1
+  algo: count
+  threshold:59%
+  filters:
+    anime_ids:
+    - 1769
+    - 4591
+    - 19365
+    - 36538
+    - 36275
+    - 34591
+    - 34534
+    - 32983
+    - 18849
+    - 11665
+    - 10379
+    - 5300
+    - 20651
+    - 4081
+    - 604
+    - 8129
+    - 634
+    - 34966
+    - 1594
+    - 228
+    - 1180
+    - 10408
+    - 74
+    - 32915
+    - 27833
+    - 31552
+    - 27831
+    - 30191
+    - 23199
+    - 8408
+    - 6746
+    - 3901
+    - 2251
+    - 1485
+    - 1343
+    - 544
+    - 1924
+    - 2098
+    - 2461
+    - 4058
+    - 377
+    - 1795
+    - 2054
+    - 1468
+  metadata:
+    title_ru: Такахиро Омори
+    title_en: Takahiro Oomori
+    image: https://moe.shikimori.org/system/user_images/original/47216/884692.jpg
+    border_color: "#508090"
+    topic_id: 276032
+  generator:
+    person_id: 6671
