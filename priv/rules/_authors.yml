@@ -1882,7 +1882,7 @@
 - neko_id: takahiro_oomori
   level: 1
   algo: count
-  threshold:59%
+  threshold: 59%
   filters:
     anime_ids:
     - 1769
@@ -1937,3 +1937,78 @@
     topic_id: 276032
   generator:
     person_id: 6671
+- neko_id: morio_asaka
+  level: 1
+  algo: count
+  threshold: 66%
+  filters:
+    anime_ids:
+    - 5678
+    - 1078
+    - 28297
+    - 37379
+    - 14397
+    - 10800
+    - 7193
+    - 7972
+    - 877
+    - 408
+    - 134
+    - 596
+    - 59
+    - 652
+    - 383
+    - 33354
+    - 35320
+    - 372
+    - 371
+    - 232
+    - 2009
+    - 2274
+    - 2017
+    - 2093
+  metadata:
+    title_ru: Морио Асака
+    title_en: Morio Asaka
+    image: https://moe.shikimori.org/system/user_images/original/34807/883172.jpg
+    border_color: "#AE050D"
+    topic_id: 276032
+  generator:
+    person_id: 5921
+- neko_id: chiaki_kon
+  level: 1
+  algo: count
+  threshold: 65%
+  filters:
+    anime_ids:
+    - 934
+    - 1889
+    - 2899
+    - 6064
+    - 4896
+    - 3092
+    - 4814
+    - 25649
+    - 13767
+    - 8063
+    - 9926
+    - 11123
+    - 20371
+    - 4477
+    - 5690
+    - 5835
+    - 8476
+    - 12967
+    - 16890
+    - 21781
+    - 36873
+    - 17895
+    - 31733
+  metadata:
+    title_ru: Тиаки Кон
+    title_en: Chiaki Kon
+    image: https://kawai.shikimori.org/system/user_images/original/34807/884926.jpg
+    border_color: "#ED8859"
+    topic_id: 276032
+  generator:
+    person_id: 6831
