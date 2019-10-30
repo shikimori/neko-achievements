@@ -165,6 +165,48 @@
     topic_id: 276032
   generator:
     person_id: 1117
+- neko_id: hiroyuki_imaishi
+  level: 1
+  algo: count
+  threshold: 55%
+  filters:
+    anime_ids:
+    - 8337
+    - 6675
+    - 3785
+    - 3784
+    - 10739
+    - 464
+    - 1424
+    - 1980
+    - 1413
+    - 1437
+    - 1158
+    - 1439
+    - 32
+    - 30
+    - 16774
+    - 3080
+    - 11285
+    - 2001
+    - 32681
+    - 28149
+    - 21659
+    - 18679
+    - 8795
+    - 950
+    - 19489
+    - 1002
+    - 227
+    - 974
+  metadata:
+    title_ru: Хироюки Имаиси
+    title_en: Hiroyuki Imaishi
+    image: "/assets/achievements/anime/author/hiroyuki_imaishi.jpg"
+    border_color: "#D5713F"
+    topic_id: 276032
+  generator:
+    person_id: 2349
 - neko_id: akiyuki_shinbou
   level: 1
   algo: count
@@ -264,48 +306,6 @@
     topic_id: 276032
   generator:
     person_id: 5089
-- neko_id: hiroyuki_imaishi
-  level: 1
-  algo: count
-  threshold: 55%
-  filters:
-    anime_ids:
-    - 8337
-    - 6675
-    - 3785
-    - 3784
-    - 10739
-    - 464
-    - 1424
-    - 1980
-    - 1413
-    - 1437
-    - 1158
-    - 1439
-    - 32
-    - 30
-    - 16774
-    - 3080
-    - 11285
-    - 2001
-    - 32681
-    - 28149
-    - 21659
-    - 18679
-    - 8795
-    - 950
-    - 19489
-    - 1002
-    - 227
-    - 974
-  metadata:
-    title_ru: Хироюки Имаиси
-    title_en: Hiroyuki Imaishi
-    image: "/assets/achievements/anime/author/hiroyuki_imaishi.jpg"
-    border_color: "#D5713F"
-    topic_id: 276032
-  generator:
-    person_id: 2349
 - neko_id: hayao_miyazaki
   level: 1
   algo: count
@@ -1874,11 +1874,11 @@
   metadata:
     title_ru: Ясухиро Такэмото
     title_en: Yasuhiro Takemoto
-    image: https://dere.shikimori.org/system/user_images/original/34807/879114.jpg
+    image: "/assets/achievements/anime/author/yasuhiro_takemoto.jpg"
     border_color: "#FFDC33"
     topic_id: 276032
   generator:
-    person_id: 6771    
+    person_id: 6771
 - neko_id: takahiro_oomori
   level: 1
   algo: count
@@ -1932,7 +1932,7 @@
   metadata:
     title_ru: Такахиро Омори
     title_en: Takahiro Oomori
-    image: https://moe.shikimori.org/system/user_images/original/47216/884692.jpg
+    image: "/assets/achievements/anime/author/takahiro_oomori.jpg"
     border_color: "#508090"
     topic_id: 276032
   generator:
@@ -1970,7 +1970,7 @@
   metadata:
     title_ru: Морио Асака
     title_en: Morio Asaka
-    image: https://moe.shikimori.org/system/user_images/original/34807/883172.jpg
+    image: "/assets/achievements/anime/author/morio_asaka.jpg"
     border_color: "#AE050D"
     topic_id: 276032
   generator:
@@ -2007,7 +2007,7 @@
   metadata:
     title_ru: Тиаки Кон
     title_en: Chiaki Kon
-    image: https://kawai.shikimori.org/system/user_images/original/34807/884926.jpg
+    image: "/assets/achievements/anime/author/chiaki_kon.jpg"
     border_color: "#ED8859"
     topic_id: 276032
   generator:
