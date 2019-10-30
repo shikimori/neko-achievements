@@ -425,6 +425,103 @@
     topic_id: 276032
   generator:
     person_id: 2885
+- neko_id: takahiro_oomori
+  level: 1
+  algo: count
+  threshold: 59%
+  filters:
+    anime_ids:
+    - 1769
+    - 4591
+    - 19365
+    - 36538
+    - 36275
+    - 34591
+    - 34534
+    - 32983
+    - 18849
+    - 11665
+    - 10379
+    - 5300
+    - 20651
+    - 4081
+    - 604
+    - 8129
+    - 634
+    - 34966
+    - 1594
+    - 228
+    - 1180
+    - 10408
+    - 74
+    - 32915
+    - 27833
+    - 31552
+    - 27831
+    - 30191
+    - 23199
+    - 8408
+    - 6746
+    - 3901
+    - 2251
+    - 1485
+    - 1343
+    - 544
+    - 1924
+    - 2098
+    - 2461
+    - 4058
+    - 377
+    - 1795
+    - 2054
+    - 1468
+  metadata:
+    title_ru: Такахиро Омори
+    title_en: Takahiro Oomori
+    image: "/assets/achievements/anime/author/takahiro_oomori.jpg"
+    border_color: "#508090"
+    topic_id: 276032
+  generator:
+    person_id: 6671
+- neko_id: yasuhiro_takemoto
+  level: 1
+  algo: count
+  threshold: 64%
+  filters:
+    anime_ids:
+    - 22147
+    - 30206
+    - 73
+    - 1015
+    - 72
+    - 30415
+    - 12189
+    - 33206
+    - 35363
+    - 1887
+    - 4472
+    - 5957
+    - 7311
+    - 5118
+    - 1006
+    - 1135
+    - 1805
+    - 28675
+    - 2098
+    - 4382
+    - 253
+    - 13469
+    - 13259
+    - 13375
+    - 13373
+  metadata:
+    title_ru: Ясухиро Такэмото
+    title_en: Yasuhiro Takemoto
+    image: "/assets/achievements/anime/author/yasuhiro_takemoto.jpg"
+    border_color: "#FFDC33"
+    topic_id: 276032
+  generator:
+    person_id: 6771
 - neko_id: shinichiro_watanabe
   level: 1
   algo: count
@@ -455,6 +552,43 @@
     topic_id: 276032
   generator:
     person_id: 2009
+- neko_id: chiaki_kon
+  level: 1
+  algo: count
+  threshold: 65%
+  filters:
+    anime_ids:
+    - 934
+    - 1889
+    - 2899
+    - 6064
+    - 4896
+    - 3092
+    - 4814
+    - 25649
+    - 13767
+    - 8063
+    - 9926
+    - 11123
+    - 20371
+    - 4477
+    - 5690
+    - 5835
+    - 8476
+    - 12967
+    - 16890
+    - 21781
+    - 36873
+    - 17895
+    - 31733
+  metadata:
+    title_ru: Тиаки Кон
+    title_en: Chiaki Kon
+    image: "/assets/achievements/anime/author/chiaki_kon.jpg"
+    border_color: "#ED8859"
+    topic_id: 276032
+  generator:
+    person_id: 6831
 - neko_id: type_moon
   level: 1
   algo: count
@@ -690,6 +824,44 @@
     topic_id: 276032
   generator:
     person_id: 5067
+- neko_id: morio_asaka
+  level: 1
+  algo: count
+  threshold: 66%
+  filters:
+    anime_ids:
+    - 5678
+    - 1078
+    - 28297
+    - 37379
+    - 14397
+    - 10800
+    - 7193
+    - 7972
+    - 877
+    - 408
+    - 134
+    - 596
+    - 59
+    - 652
+    - 383
+    - 33354
+    - 35320
+    - 372
+    - 371
+    - 232
+    - 2009
+    - 2274
+    - 2017
+    - 2093
+  metadata:
+    title_ru: Морио Асака
+    title_en: Morio Asaka
+    image: "/assets/achievements/anime/author/morio_asaka.jpg"
+    border_color: "#AE050D"
+    topic_id: 276032
+  generator:
+    person_id: 5921
 - neko_id: osamu_tezuka
   level: 1
   algo: count
@@ -1840,175 +2012,3 @@
     topic_id: 276032
   generator:
     person_id: 6414
-- neko_id: yasuhiro_takemoto
-  level: 1
-  algo: count
-  threshold: 64%
-  filters:
-    anime_ids:
-    - 22147
-    - 30206
-    - 73
-    - 1015
-    - 72
-    - 30415
-    - 12189
-    - 33206
-    - 35363
-    - 1887
-    - 4472
-    - 5957
-    - 7311
-    - 5118
-    - 1006
-    - 1135
-    - 1805
-    - 28675
-    - 2098
-    - 4382
-    - 253
-    - 13469
-    - 13259
-    - 13375
-    - 13373
-  metadata:
-    title_ru: Ясухиро Такэмото
-    title_en: Yasuhiro Takemoto
-    image: "/assets/achievements/anime/author/yasuhiro_takemoto.jpg"
-    border_color: "#FFDC33"
-    topic_id: 276032
-  generator:
-    person_id: 6771
-- neko_id: takahiro_oomori
-  level: 1
-  algo: count
-  threshold: 59%
-  filters:
-    anime_ids:
-    - 1769
-    - 4591
-    - 19365
-    - 36538
-    - 36275
-    - 34591
-    - 34534
-    - 32983
-    - 18849
-    - 11665
-    - 10379
-    - 5300
-    - 20651
-    - 4081
-    - 604
-    - 8129
-    - 634
-    - 34966
-    - 1594
-    - 228
-    - 1180
-    - 10408
-    - 74
-    - 32915
-    - 27833
-    - 31552
-    - 27831
-    - 30191
-    - 23199
-    - 8408
-    - 6746
-    - 3901
-    - 2251
-    - 1485
-    - 1343
-    - 544
-    - 1924
-    - 2098
-    - 2461
-    - 4058
-    - 377
-    - 1795
-    - 2054
-    - 1468
-  metadata:
-    title_ru: Такахиро Омори
-    title_en: Takahiro Oomori
-    image: "/assets/achievements/anime/author/takahiro_oomori.jpg"
-    border_color: "#508090"
-    topic_id: 276032
-  generator:
-    person_id: 6671
-- neko_id: morio_asaka
-  level: 1
-  algo: count
-  threshold: 66%
-  filters:
-    anime_ids:
-    - 5678
-    - 1078
-    - 28297
-    - 37379
-    - 14397
-    - 10800
-    - 7193
-    - 7972
-    - 877
-    - 408
-    - 134
-    - 596
-    - 59
-    - 652
-    - 383
-    - 33354
-    - 35320
-    - 372
-    - 371
-    - 232
-    - 2009
-    - 2274
-    - 2017
-    - 2093
-  metadata:
-    title_ru: Морио Асака
-    title_en: Morio Asaka
-    image: "/assets/achievements/anime/author/morio_asaka.jpg"
-    border_color: "#AE050D"
-    topic_id: 276032
-  generator:
-    person_id: 5921
-- neko_id: chiaki_kon
-  level: 1
-  algo: count
-  threshold: 65%
-  filters:
-    anime_ids:
-    - 934
-    - 1889
-    - 2899
-    - 6064
-    - 4896
-    - 3092
-    - 4814
-    - 25649
-    - 13767
-    - 8063
-    - 9926
-    - 11123
-    - 20371
-    - 4477
-    - 5690
-    - 5835
-    - 8476
-    - 12967
-    - 16890
-    - 21781
-    - 36873
-    - 17895
-    - 31733
-  metadata:
-    title_ru: Тиаки Кон
-    title_en: Chiaki Kon
-    image: "/assets/achievements/anime/author/chiaki_kon.jpg"
-    border_color: "#ED8859"
-    topic_id: 276032
-  generator:
-    person_id: 6831
