@@ -4030,3 +4030,22 @@
   filters: *436
   threshold: 0.01
   metadata: *437
+- neko_id: psycho_pass
+  level: 1
+  algo: duration
+  filters: &436
+    franchise: psycho_pass
+    not_anime_ids:
+    - 17901
+  threshold: 100%
+  metadata: &437
+    title_ru: Психопаспорт
+    title_en: Psycho-Pass 
+    image: https://nyaa.shikimori.org/system/user_images/original/47216/881455.jpg
+    topic_id: 247360
+- neko_id: psycho_pass
+  level: 0
+  algo: duration
+  filters: *436
+  threshold: 0.01
+  metadata: *437
