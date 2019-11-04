@@ -1856,7 +1856,7 @@
 - neko_id: yoshitaka_amano
   level: 1
   algo: count
-  threshold: 73%
+  threshold: 68%
   filters:
     anime_ids:
     - 6909
