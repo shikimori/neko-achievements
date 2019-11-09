@@ -1734,6 +1734,8 @@
     title_en: Hoozuki no Reitetsu
     image: "/assets/achievements/anime/franchise/hoozuki_no_reitetsu.jpg"
     topic_id: 247360
+  generator:
+    threshold: 92%
 - neko_id: hoozuki_no_reitetsu
   level: 0
   algo: duration
@@ -3494,6 +3496,8 @@
   algo: duration
   filters: &379
     franchise: ranma
+    not_anime_ids:
+    - 10825
   threshold: 95%
   metadata: &380
     title_ru: Ранма ½
@@ -4044,6 +4048,23 @@
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
     topic_id: 247360
 - neko_id: haou_daikei_ryuu_knight
+  level: 0
+  algo: duration
+  filters: *438
+  threshold: 0.01
+  metadata: *439
+- neko_id: strike_the_blood
+  level: 1
+  algo: duration
+  filters: &438
+    franchise: strike_the_blood
+  threshold: 100%
+  metadata: &439
+    title_ru: Удар крови
+    title_en: Strike the Blood
+    image: https://dere.shikimori.one/system/user_images/original/434854/891429.jpg
+    topic_id: 247360
+- neko_id: strike_the_blood
   level: 0
   algo: duration
   filters: *438
