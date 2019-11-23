@@ -4071,3 +4071,26 @@
   filters: *441
   threshold: 0.01
   metadata: *442
+- neko_id: stitch
+  level: 1
+  algo: duration
+  filters: &441
+    franchise: stitch
+    not_anime_ids:
+    - 31238
+    - 28921
+    - 25891
+    - 25889
+  threshold: 100%
+  metadata: &442
+    title_ru: Стич
+    title_en: Stitch
+    image: https://nyaa.shikimori.org/system/user_images/original/358/899480.jpg
+    topic_id: 247360
+- neko_id: stitch
+  level: 0
+  algo: duration
+  filters: *441
+  threshold: 0.01
+  metadata: *442
+
