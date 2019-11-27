@@ -3587,6 +3587,8 @@
     not_anime_ids:
     - 5783
     - 8180
+    - 2535
+    - 2537
   threshold: 95%
   metadata: &391
     title_ru: Анжелика
