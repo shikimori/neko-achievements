@@ -242,7 +242,7 @@
     franchise: psycho_pass
     not_anime_ids:
     - 17901
-  threshold: 100%
+  threshold: 95%
   metadata: &25
     title_ru: Психопаспорт
     title_en: Psycho-Pass
@@ -265,7 +265,7 @@
     - 36725
     - 36796
     - 38971
-  threshold: 94.1%
+  threshold: 95%
   metadata: &27
     title_ru: Цикл историй
     title_en: Monogatari Series
@@ -996,6 +996,7 @@
     franchise: one_piece
     not_anime_ids:
     - 8171
+    - 12001
     - 16143
     - 32437
     - 34165
@@ -1005,8 +1006,7 @@
     - 36241
     - 36242
     - 40181
-    - 12001
-  threshold: 94%
+  threshold: 93.7%
   metadata: &104
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1503,9 +1503,9 @@
     not_anime_ids:
     - 30953
     - 31128
-    - 36498
     - 32412
-  threshold: 98.3%
+    - 36498
+  threshold: 100%
   metadata: &160
     title_ru: Сказание об Арслане
     title_en: Arslan Senki
@@ -1881,7 +1881,7 @@
     - 33221
     - 35949
     - 36436
-  threshold: 89.7%
+  threshold: 89.6%
   metadata: &200
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2025,7 +2025,7 @@
   algo: duration
   filters: &215
     franchise: ginga_eiyuu_densetsu
-  threshold: 95.5%
+  threshold: 90%
   metadata: &216
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
@@ -2118,7 +2118,7 @@
   algo: duration
   filters: &225
     franchise: detective_conan
-  threshold: 93.9%
+  threshold: 93.3%
   metadata: &226
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -2369,7 +2369,7 @@
     - 11359
     - 22695
     - 22699
-  threshold: 95.1%
+  threshold: 95.2%
   metadata: &254
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2492,10 +2492,10 @@
   filters: &266
     franchise: sengoku_basara
     not_anime_ids:
-    - 18549
     - 7857
     - 9630
-  threshold: 91.1%
+    - 18549
+  threshold: 95%
   metadata: &267
     title_ru: Эпоха смут
     title_en: Sengoku Basara
@@ -3166,7 +3166,7 @@
     not_anime_ids:
     - 10584
     - 39414
-  threshold: 96%
+  threshold: 96.1%
   metadata: &342
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
@@ -3183,7 +3183,7 @@
   algo: duration
   filters: &343
     franchise: starmyu
-  threshold: 97.1%
+  threshold: 94.8%
   metadata: &344
     title_ru: Музыкальная школа звёзд
     title_en: Starmyu
@@ -3313,7 +3313,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 97.8%
+  threshold: 97.4%
   metadata: &360
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -3391,7 +3391,7 @@
     not_anime_ids:
     - 10736
     - 30103
-  threshold: 92.2%
+  threshold: 92.3%
   metadata: &369
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -3590,10 +3590,10 @@
   filters: &390
     franchise: angelique
     not_anime_ids:
-    - 5783
-    - 8180
     - 2535
     - 2537
+    - 5783
+    - 8180
   threshold: 95%
   metadata: &391
     title_ru: Анжелика
@@ -4081,23 +4081,22 @@
 - neko_id: stitch
   level: 1
   algo: duration
-  filters: &441
+  filters: &443
     franchise: stitch
     not_anime_ids:
-    - 31238
-    - 28921
-    - 25891
     - 25889
-  threshold: 100%
-  metadata: &442
+    - 25891
+    - 28921
+    - 31238
+  threshold: 97.9%
+  metadata: &444
     title_ru: Стич
     title_en: Stitch
-    image: https://nyaa.shikimori.org/system/user_images/original/358/899480.jpg
+    image: "/assets/achievements/anime/franchise/stitch.jpg"
     topic_id: 247360
 - neko_id: stitch
   level: 0
   algo: duration
-  filters: *441
+  filters: *443
   threshold: 0.01
-  metadata: *442
-
+  metadata: *444
