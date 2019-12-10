@@ -1004,6 +1004,8 @@
     - 36240
     - 36241
     - 36242
+    - 40181
+    - 12001
   threshold: 94%
   metadata: &104
     title_ru: Ван-Пис
@@ -1502,6 +1504,7 @@
     - 30953
     - 31128
     - 36498
+    - 32412
   threshold: 98.3%
   metadata: &160
     title_ru: Сказание об Арслане
@@ -2490,6 +2493,8 @@
     franchise: sengoku_basara
     not_anime_ids:
     - 18549
+    - 7857
+    - 9630
   threshold: 91.1%
   metadata: &267
     title_ru: Эпоха смут
