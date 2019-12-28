@@ -43,7 +43,7 @@
     - 37831
     - 39239
     - 40489
-  threshold: 95%
+  threshold: 85%
   metadata: &4
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
