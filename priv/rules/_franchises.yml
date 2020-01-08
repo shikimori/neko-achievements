@@ -187,6 +187,7 @@
     - 5163
     - 6768
     - 8728
+    - 9591
     - 17277
     - 18881
     - 23359
@@ -197,9 +198,7 @@
     - 33360
     - 34438
     - 40334
-    - 40315
-    - 9591
-  threshold: 93.6%
+  threshold: 94.1%
   metadata: &20
     title_ru: Код Гиас
     title_en: Code Geass
@@ -2958,11 +2957,9 @@
   filters: &317
     franchise: senki_zesshou_symphogear
     not_anime_ids:
-    - 36692
     - 32151
     - 36692
-    - 40659
-  threshold: 94.6%
+  threshold: 98.3%
   metadata: &318
     title_ru: Песня боевых принцесс
     title_en: Senki Zesshou Symphogear
@@ -3038,7 +3035,7 @@
   threshold: 100%
   metadata: &327
     title_ru: Красавцы из клуба защитников Земли
-    title_en: Binan Koukou Chikyuu Boueibu 
+    title_en: Binan Koukou Chikyuu Boueibu
     image: "/assets/achievements/anime/franchise/binan_koukou_chikyuu_boueibu_love.jpg"
     topic_id: 247360
 - neko_id: binan_koukou_chikyuu_boueibu_love
@@ -3379,11 +3376,11 @@
   filters: &366
     franchise: maria_sama
     not_anime_ids:
+    - 2954
     - 3468
     - 3469
-    - 2954
     - 6299
-  threshold: 96.7%
+  threshold: 100%
   metadata: &367
     title_ru: Дева Мария смотрит за вами
     title_en: Maria-sama ga Miteru
