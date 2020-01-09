@@ -1392,15 +1392,15 @@
     franchise: love_live
     not_anime_ids:
     - 21853
+    - 25897
     - 30829
-    - 36473
-    - 40245
+    - 30896
     - 32476
     - 32481
     - 32730
-    - 25897
-    - 30896
-  threshold: 95%
+    - 36473
+    - 40245
+  threshold: 96%
   metadata: &149
     title_ru: Живая любовь!
     title_en: Love Live!
