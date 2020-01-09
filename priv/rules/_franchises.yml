@@ -708,7 +708,7 @@
     franchise: danganronpa
     not_anime_ids:
     - 37103
-  threshold: 96.3%
+  threshold: 97.3%
   metadata: &73
     title_ru: Данганронпа
     title_en: Danganronpa
