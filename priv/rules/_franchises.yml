@@ -706,6 +706,8 @@
   algo: duration
   filters: &72
     franchise: danganronpa
+    not_anime_ids:
+    - 37103
   threshold: 96.3%
   metadata: &73
     title_ru: Данганронпа
@@ -2590,6 +2592,8 @@
   algo: duration
   filters: &276
     franchise: genshiken
+    not_anime_ids:
+    - 7882
   threshold: 95%
   metadata: &277
     title_ru: Гэнсикэн
