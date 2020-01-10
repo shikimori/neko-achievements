@@ -16,7 +16,7 @@
   metadata:
     title_ru: Это всего лишь начало
     text_ru: Ставки начинают расти. Кто-то уже сдался, но вы... Вы ещё в строю.
-    image: /assets/achievements/anime/animelist_2.png
+    image: https://storage.myseldon.com/news_pict_8C/8CB1F81BC5A8DA134CC964214340B2E6
     border_color: "#a5260a"
 
 - <<: *defaults
