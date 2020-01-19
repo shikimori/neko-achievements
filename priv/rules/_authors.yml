@@ -1507,7 +1507,7 @@
   metadata:
     title_ru: Рёсукэ Такахаси
     title_en: Ryousuke Takahashi
-    image: https://desu.shikimori.one/system/user_images/original/210/945448.jpg
+    image: "/assets/achievements/anime/author/ryousuke_takahashi.jpg"
     border_color: "#414833"
     topic_id: 276032
   generator:
@@ -1940,7 +1940,7 @@
   metadata:
     title_ru: Хироси Хамасаки
     title_en: Hiroshi Hamasaki
-    image: https://dere.shikimori.one/system/user_images/original/47216/896264.jpg
+    image: "/assets/achievements/anime/author/hiroshi_hamasaki.jpg"
     border_color: "#C4B3AC"
     topic_id: 276032
   generator:
