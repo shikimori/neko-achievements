@@ -333,6 +333,7 @@
     - 36327
     - 36729
     - 38784
+    - 40761
   threshold: 90%
   metadata: &32
     title_ru: Судьба
@@ -1095,7 +1096,7 @@
     - 39738
   threshold: 92.6%
   metadata: &115
-    title_ru: Мастер муси
+    title_ru: Знаток муси
     title_en: Mushishi
     image: "/assets/achievements/anime/franchise/mushishi.png"
     topic_id: 247360
@@ -1680,7 +1681,7 @@
     franchise: chihayafuru
   threshold: 100%
   metadata: &178
-    title_ru: Яркая Чихая
+    title_ru: Яркая Тихая
     title_en: Chihayafuru
     image: "/assets/achievements/anime/franchise/chihayafuru.jpg"
     topic_id: 247360
