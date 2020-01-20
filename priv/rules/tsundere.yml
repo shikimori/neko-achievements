@@ -1049,3 +1049,30 @@
     text_ru: Ну, если только совсем чуть-чуть...
     image: /assets/achievements/anime/tsundere_3.gif
     border_color: "#cd7f32"
+    
+    - <<: *defaults
+      level: 4
+    threshold: 50%
+    metadata:
+    title_ru: Дурак!
+    text_ru: Заткнись! Заткнись! Заткнись!
+    image: /assets/achievements/anime/tsundere_2.jpg
+    border_color: "#D5713F"
+    
+    - <<: *defaults
+  level: 5
+  threshold: 75%
+  metadata:
+    title_ru: Цундере мне вовсе не интересны!
+    text_ru: Ну, если только совсем чуть-чуть...
+    image: /assets/achievements/anime/tsundere_3.gif
+    border_color: "#cd7f32"
+    
+     - <<: *defaults
+  level: 6
+  threshold: 100%
+  metadata:
+    title_ru: Цундере мне вовсе не интересны!
+    text_ru: Ну, если только совсем чуть-чуть...
+    image: /assets/achievements/anime/tsundere_3.gif
+    border_color: "#cd7f32"
