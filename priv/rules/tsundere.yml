@@ -1031,8 +1031,7 @@
     image: /assets/achievements/anime/tsundere_1.jpg
     border_color: "#FCD975"
     topic_id: 227430
-
-- <<: *defaults
+    
   level: 2
   threshold: 15%
   metadata:
@@ -1041,7 +1040,6 @@
     image: /assets/achievements/anime/tsundere_2.jpg
     border_color: "#D5713F"
 
-- <<: *defaults
   level: 3
   threshold: 25%
   metadata:
