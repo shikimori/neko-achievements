@@ -734,7 +734,7 @@
     - 35110
     - 35111
     - 35321
-  threshold: 96.8%
+  threshold: 96.9%
   metadata: &75
     title_ru: Волейбол!!
     title_en: Haikyuu!!
@@ -1138,6 +1138,8 @@
   algo: duration
   filters: &119
     franchise: strike_the_blood
+    not_anime_ids:
+    - 41138
   threshold: 100%
   metadata: &120
     title_ru: Удар крови
@@ -1875,7 +1877,7 @@
     - 33221
     - 35949
     - 36436
-  threshold: 88.5%
+  threshold: 88.9%
   metadata: &198
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2407,7 +2409,7 @@
     franchise: osomatsu_san
     not_anime_ids:
     - 38056
-  threshold: 93.4%
+  threshold: 93.3%
   metadata: &256
     title_ru: Осомацу
     title_en: Osomatsu
@@ -4132,20 +4134,20 @@
 - neko_id: harukanaru_toki_no_naka_de
   level: 1
   algo: duration
-  filters: &443
+  filters: &445
     franchise: harukanaru_toki_no_naka_de
     not_anime_ids:
-    - 30145
     - 4190
-  threshold: 100%
-  metadata: &444
+    - 30145
+  threshold: 95%
+  metadata: &446
     title_ru: В далёкие времена
     title_en: Harukanaru Toki no Naka de
-    image: https://dere.shikimori.org/system/user_images/original/34807/948674.jpg
+    image: "/assets/achievements/anime/franchise/harukanaru_toki_no_naka_de.jpg"
     topic_id: 247360
 - neko_id: harukanaru_toki_no_naka_de
   level: 0
   algo: duration
-  filters: *443
+  filters: *445
   threshold: 0.01
-  metadata: *444
+  metadata: *446
