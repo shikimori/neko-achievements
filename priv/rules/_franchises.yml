@@ -1681,6 +1681,8 @@
   algo: duration
   filters: &177
     franchise: chihayafuru
+    not_anime_ids:
+    - 41105
   threshold: 100%
   metadata: &178
     title_ru: Яркая Тихая
