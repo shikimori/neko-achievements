@@ -704,6 +704,39 @@
     topic_id: 276032
   generator:
     person_id: 2582
+- neko_id: mamoru_hosoda
+  level: 1
+  algo: count
+  threshold: 42%
+  filters:
+    anime_ids:
+    - 901
+    - 36936
+    - 28805
+    - 12355
+    - 5681
+    - 2236
+    - 464
+    - 2290
+    - 2397
+    - 2961
+    - 3602
+    - 893
+    - 1240
+    - 2499
+    - 2498
+    - 1861
+    - 883
+    - 903
+    - 1278
+  metadata:
+    title_ru: Мамору Хосода
+    title_en: Mamoru Hosoda
+    image: "/assets/achievements/anime/author/mamoru_hosoda.jpg"
+    border_color: "#314357"
+    topic_id: 276032
+  generator:
+    person_id: 5067
 - neko_id: hideaki_anno
   level: 1
   algo: count
@@ -749,39 +782,6 @@
     topic_id: 276032
   generator:
     person_id: 5111
-- neko_id: mamoru_hosoda
-  level: 1
-  algo: count
-  threshold: 42%
-  filters:
-    anime_ids:
-    - 901
-    - 36936
-    - 28805
-    - 12355
-    - 5681
-    - 2236
-    - 464
-    - 2290
-    - 2397
-    - 2961
-    - 3602
-    - 893
-    - 1240
-    - 2499
-    - 2498
-    - 1861
-    - 883
-    - 903
-    - 1278
-  metadata:
-    title_ru: Мамору Хосода
-    title_en: Mamoru Hosoda
-    image: "/assets/achievements/anime/author/mamoru_hosoda.jpg"
-    border_color: "#314357"
-    topic_id: 276032
-  generator:
-    person_id: 5067
 - neko_id: morio_asaka
   level: 1
   algo: count
