@@ -982,7 +982,7 @@
     - 16143
     - 32437
     - 34165
-    - 36215
+    - 38419
     - 36239
     - 36240
     - 36241
@@ -4151,3 +4151,20 @@
   filters: *445
   threshold: 0.01
   metadata: *446
+  - neko_id: grisaia
+  level: 1
+  algo: duration
+  filters: 
+    franchise: grisaia
+  threshold: 100%
+  metadata: 
+    title_ru: Плод Грисайи
+    title_en: Grisaia no Kajitsu
+    image: https://desu.shikimori.one/system/user_images/original/58951/948373.jpg
+    topic_id: 247360
+- neko_id: grisaia
+  level: 
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata: 
