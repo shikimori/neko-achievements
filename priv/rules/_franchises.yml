@@ -1895,6 +1895,7 @@
     - 33221
     - 35949
     - 36436
+    - 32158
   threshold: 88.9%
   metadata: &200
     title_ru: Мобильный воин Гандам
@@ -3856,7 +3857,7 @@
   threshold: 95%
   metadata: &415
     title_ru: Несравненная принцесса любви
-    title_en: Shin Koihime†Musou
+    title_en: Koihime†Musou
     image: "/assets/achievements/anime/franchise/koihime_musou.jpg"
     topic_id: 247360
 - neko_id: koihime_musou
