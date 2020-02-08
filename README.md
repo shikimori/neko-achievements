@@ -30,13 +30,13 @@ Neko.Anime.all_by_id()
 
 
 # get animes matched by rule
-user_id = 8
+user_id = 1
 Neko.UserRate.load(user_id)
 
 rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen" && &1.level == 1)) |> Enum.at(0)
-rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "sword_art_online" && &1.level == 1)) |> Enum.at(0)
+rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "darker_than_black" && &1.level == 1)) |> Enum.at(0)
 
-user_anime_ids = user_id |> Neko.UserRate.all() |> Enum.map(& &1.target_id) |> MapSet.new()
+user_anime_ids = user_id |> Neko.UserRate.all() |> Map.values() |> Enum.map(& &1.target_id) |> MapSet.new()
 user_animes_by_id = Neko.Anime.all_by_id() |> Map.take(user_anime_ids)
 user_anime_ids |> MapSet.intersection(rule.anime_ids)
 ```
