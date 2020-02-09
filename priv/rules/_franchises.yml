@@ -426,6 +426,8 @@
     title_en: DanMachi
     image: "/assets/achievements/anime/franchise/danmachi.jpg"
     topic_id: 247360
+  generator:
+    threshold: 95%
 - neko_id: danmachi
   level: 0
   algo: duration
@@ -1767,6 +1769,7 @@
   generator: &187
     ignore_latest_ids:
     - 40024
+    - 40429
     not_ignored_ids:
     - 1240
 - neko_id: sailor_moon
@@ -3211,6 +3214,20 @@
     not_anime_ids:
     - 10584
     - 39414
+    - 5688
+    - 8149
+    - 6971
+    - 7307
+    - 8154
+    - 7619
+    - 8493
+    - 28087
+    - 2165
+    - 10584
+    - 28103
+    - 37668
+    - 39414
+    - 24677
   threshold: 96.6%
   metadata: &344
     title_ru: Щелкунчик Китаро
@@ -3425,6 +3442,9 @@
     title_en: Futari wa Precure
     image: "/assets/achievements/anime/franchise/pretty_cure.jpg"
     topic_id: 247360
+  generator:
+     ignore_latest_ids:
+     - 38850
 - neko_id: pretty_cure
   level: 0
   algo: duration
@@ -3466,6 +3486,9 @@
     title_en: Digimon Adventure
     image: "/assets/achievements/anime/franchise/digimon.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 38088
 - neko_id: digimon
   level: 0
   algo: duration
