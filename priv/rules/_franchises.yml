@@ -2087,37 +2087,16 @@
   filters: *219
   threshold: 0.01
   metadata: *220
-- neko_id: yowamushi_pedal
-  level: 1
-  algo: duration
-  filters: &221
-    franchise: yowamushi_pedal
-    not_anime_ids:
-    - 25755
-    - 30790
-    - 35880
-  threshold: 95%
-  metadata: &222
-    title_ru: Трусливый велосипедист
-    title_en: Yowamushi Pedal
-    image: "/assets/achievements/anime/franchise/yowamushi_pedal.jpg"
-    topic_id: 247360
-- neko_id: yowamushi_pedal
-  level: 0
-  algo: duration
-  filters: *221
-  threshold: 0.01
-  metadata: *222
 - neko_id: initial_d
   level: 1
   algo: duration
-  filters: &223
+  filters: &221
     franchise: initial_d
     not_anime_ids:
     - 821
     - 12725
   threshold: 95%
-  metadata: &224
+  metadata: &222
     title_ru: Инициал Ди
     title_en: Initial D
     image: "/assets/achievements/anime/franchise/initial_d.jpg"
@@ -2125,13 +2104,13 @@
 - neko_id: initial_d
   level: 0
   algo: duration
-  filters: *223
+  filters: *221
   threshold: 0.01
-  metadata: *224
+  metadata: *222
 - neko_id: macross
   level: 1
   algo: duration
-  filters: &225
+  filters: &223
     franchise: macross
     not_anime_ids:
     - 1211
@@ -2145,25 +2124,25 @@
     - 38675
     - 38676
   threshold: 95%
-  metadata: &226
+  metadata: &224
     title_ru: Макросс
     title_en: Macross
     image: "/assets/achievements/anime/franchise/macross.jpg"
     topic_id: 247360
-  generator: &227
+  generator: &225
     ignore_latest_ids:
     - 38373
 - neko_id: macross
   level: 0
   algo: duration
-  filters: *225
+  filters: *223
   threshold: 0.01
-  metadata: *226
-  generator: *227
+  metadata: *224
+  generator: *225
 - neko_id: tenchi_muyou
   level: 1
   algo: duration
-  filters: &228
+  filters: &226
     franchise: tenchi_muyou
     not_anime_ids:
     - 1503
@@ -2171,7 +2150,7 @@
     - 28531
     - 37789
   threshold: 90%
-  metadata: &229
+  metadata: &227
     title_ru: Тэнти — лишний!
     title_en: Tenchi Muyou!
     image: "/assets/achievements/anime/franchise/tenchi_muyou.jpg"
@@ -2179,19 +2158,19 @@
 - neko_id: tenchi_muyou
   level: 0
   algo: duration
-  filters: *228
+  filters: *226
   threshold: 0.01
-  metadata: *229
+  metadata: *227
 - neko_id: utawarerumono
   level: 1
   algo: duration
-  filters: &230
+  filters: &228
     franchise: utawarerumono
     not_anime_ids:
     - 6226
     - 6743
   threshold: 93.3%
-  metadata: &231
+  metadata: &229
     title_ru: Прославленный
     title_en: Utawarerumono
     image: "/assets/achievements/anime/franchise/utawarerumono.jpg"
@@ -2199,39 +2178,39 @@
 - neko_id: utawarerumono
   level: 0
   algo: duration
-  filters: *230
+  filters: *228
   threshold: 0.01
-  metadata: *231
+  metadata: *229
 - neko_id: detective_conan
   level: 1
   algo: duration
-  filters: &232
+  filters: &230
     franchise: detective_conan
     not_anime_ids:
     - 1365
   threshold: 93.6%
-  metadata: &233
+  metadata: &231
     title_ru: Детектив Конан
     title_en: Detective Conan
     image: "/assets/achievements/anime/franchise/detective_conan.jpg"
     topic_id: 247360
-  generator: &234
+  generator: &232
     ignore_latest_ids:
     - 38770
 - neko_id: detective_conan
   level: 0
   algo: duration
-  filters: *232
+  filters: *230
   threshold: 0.01
-  metadata: *233
-  generator: *234
+  metadata: *231
+  generator: *232
 - neko_id: hajime_no_ippo
   level: 1
   algo: duration
-  filters: &235
+  filters: &233
     franchise: hajime_no_ippo
   threshold: 96.2%
-  metadata: &236
+  metadata: &234
     title_ru: Первый шаг
     title_en: Hajime no Ippo
     image: "/assets/achievements/anime/franchise/hajime_no_ippo.jpg"
@@ -2239,41 +2218,41 @@
 - neko_id: hajime_no_ippo
   level: 0
   algo: duration
-  filters: *235
+  filters: *233
   threshold: 0.01
-  metadata: *236
+  metadata: *234
 - neko_id: hetalia
   level: 1
   algo: duration
-  filters: &237
+  filters: &235
     franchise: hetalia
     not_anime_ids:
     - 9865
   threshold: 90%
-  metadata: &238
+  metadata: &236
     title_ru: Хеталия
     title_en: Hetalia
     image: "/assets/achievements/anime/franchise/hetalia.jpg"
     topic_id: 247360
-  generator: &239
+  generator: &237
     threshold: 90%
 - neko_id: hetalia
   level: 0
   algo: duration
-  filters: *237
+  filters: *235
   threshold: 0.01
-  metadata: *238
-  generator: *239
+  metadata: *236
+  generator: *237
 - neko_id: selector_spread_wixoss
   level: 1
   algo: duration
-  filters: &240
+  filters: &238
     franchise: selector_spread_wixoss
     not_anime_ids:
     - 27613
     - 31280
   threshold: 100%
-  metadata: &241
+  metadata: &239
     title_ru: WIXOSS
     title_en: WIXOSS
     image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
@@ -2281,16 +2260,16 @@
 - neko_id: selector_spread_wixoss
   level: 0
   algo: duration
-  filters: *240
+  filters: *238
   threshold: 0.01
-  metadata: *241
+  metadata: *239
 - neko_id: yozakura_quartet
   level: 1
   algo: duration
-  filters: &242
+  filters: &240
     franchise: yozakura_quartet
   threshold: 99.2%
-  metadata: &243
+  metadata: &241
     title_ru: Вишнёвый квартет
     title_en: Yozakura Quartet
     image: "/assets/achievements/anime/franchise/yozakura_quartet.png"
@@ -2298,42 +2277,63 @@
 - neko_id: yozakura_quartet
   level: 0
   algo: duration
-  filters: *242
+  filters: *240
   threshold: 0.01
-  metadata: *243
+  metadata: *241
 - neko_id: brave_witches
   level: 1
   algo: duration
-  filters: &244
+  filters: &242
     franchise: brave_witches
   threshold: 95%
-  metadata: &245
+  metadata: &243
     title_ru: Штурмовые ведьмы
     title_en: Strike Witches
     image: "/assets/achievements/anime/franchise/brave_witches.jpg"
     topic_id: 247360
-  generator: &246
+  generator: &244
     ignore_latest_ids:
     - 39987
 - neko_id: brave_witches
   level: 0
   algo: duration
-  filters: *244
+  filters: *242
   threshold: 0.01
-  metadata: *245
-  generator: *246
+  metadata: *243
+  generator: *244
 - neko_id: inuyasha
   level: 1
   algo: duration
-  filters: &247
+  filters: &245
     franchise: inuyasha
   threshold: 95.7%
-  metadata: &248
+  metadata: &246
     title_ru: Инуяся
     title_en: InuYasha
     image: "/assets/achievements/anime/franchise/inuyasha.jpg"
     topic_id: 247360
 - neko_id: inuyasha
+  level: 0
+  algo: duration
+  filters: *245
+  threshold: 0.01
+  metadata: *246
+- neko_id: yowamushi_pedal
+  level: 1
+  algo: duration
+  filters: &247
+    franchise: yowamushi_pedal
+    not_anime_ids:
+    - 25755
+    - 30790
+    - 35880
+  threshold: 95%
+  metadata: &248
+    title_ru: Трусливый велосипедист
+    title_en: Yowamushi Pedal
+    image: "/assets/achievements/anime/franchise/yowamushi_pedal.jpg"
+    topic_id: 247360
+- neko_id: yowamushi_pedal
   level: 0
   algo: duration
   filters: *247
