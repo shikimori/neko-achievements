@@ -2935,6 +2935,9 @@
   algo: duration
   filters: &312
     franchise: aquarion
+    not_anime_ids:
+    - 6032
+    - 16415
   threshold: 95%
   metadata: &313
     title_ru: Акварион
