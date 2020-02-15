@@ -2193,6 +2193,12 @@
     franchise: detective_conan
     not_anime_ids:
     - 1365
+    - 40348
+    - 36269
+    - 9786
+    - 33151
+    - 33150
+    - 36760
   threshold: 93.6%
   metadata: &231
     title_ru: Детектив Конан
@@ -2311,6 +2317,8 @@
   algo: duration
   filters: &245
     franchise: inuyasha
+    not_anime_ids:
+    - 31133
   threshold: 95.7%
   metadata: &246
     title_ru: Инуяся
