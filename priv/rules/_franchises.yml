@@ -2423,12 +2423,16 @@
   filters: &256
     franchise: dragon_ball
     not_anime_ids:
-    - 502
+    - 33947
     - 892
     - 6714
     - 11359
     - 22695
     - 22699
+    - 18603
+    - 11659
+    - 23933
+    - 23935
   threshold: 95.2%
   metadata: &257
     title_ru: Драконий жемчуг
