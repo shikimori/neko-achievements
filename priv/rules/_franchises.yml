@@ -1432,7 +1432,7 @@
     - 41188
     - 41189
     - 41204
-  threshold: 95.7%
+  threshold: 95.6%
   metadata: &152
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2258,6 +2258,7 @@
     franchise: selector_spread_wixoss
     not_anime_ids:
     - 27613
+    - 31280
     - 36083
   threshold: 100%
   metadata: &239
@@ -2423,16 +2424,17 @@
   filters: &256
     franchise: dragon_ball
     not_anime_ids:
-    - 33947
+    - 502
     - 892
     - 6714
     - 11359
+    - 11659
+    - 18603
     - 22695
     - 22699
-    - 18603
-    - 11659
     - 23933
     - 23935
+    - 33947
   threshold: 95.2%
   metadata: &257
     title_ru: Драконий жемчуг
@@ -3423,7 +3425,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 97.4%
+  threshold: 97.5%
   metadata: &366
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -3507,7 +3509,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.3%
+  threshold: 94.2%
   metadata: &375
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -3965,7 +3967,7 @@
     franchise: doraemon
     not_anime_ids:
     - 501
-  threshold: 93.7%
+  threshold: 94%
   metadata: &424
     title_ru: Дораэмон
     title_en: Doraemon
