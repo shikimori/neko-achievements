@@ -2189,7 +2189,6 @@
   filters: &230
     franchise: detective_conan
     not_anime_ids:
-    - 1365
     - 9786
     - 33150
     - 33151
@@ -2234,8 +2233,6 @@
   algo: duration
   filters: &235
     franchise: hetalia
-    not_anime_ids:
-    - 9865
   threshold: 90%
   metadata: &236
     title_ru: Хеталия
