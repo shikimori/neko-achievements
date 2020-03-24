@@ -2189,7 +2189,6 @@
   filters: &230
     franchise: detective_conan
     not_anime_ids:
-    - 1365
     - 9786
     - 33150
     - 33151
