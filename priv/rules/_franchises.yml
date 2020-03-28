@@ -3009,11 +3009,11 @@
   filters: &318
     franchise: senki_zesshou_symphogear
     not_anime_ids:
+    - 20843
     - 32151
     - 36692
-    - 20843
     - 40659
-  threshold: 95%
+  threshold: 100%
   metadata: &319
     title_ru: Песня боевых принцесс
     title_en: Senki Zesshou Symphogear
