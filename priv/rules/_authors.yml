@@ -227,6 +227,7 @@
     - 8337
     - 6675
     - 3785
+    - 35848
     - 3784
     - 10739
     - 464
@@ -288,12 +289,10 @@
     - 1732
     - 1852
     - 2605
-    - 2924
     - 3165
     - 3228
     - 3604
     - 4188
-    - 4789
     - 4872
     - 5030
     - 6984
@@ -486,6 +485,7 @@
     anime_ids:
     - 1769
     - 4591
+    - 37522
     - 19365
     - 36538
     - 36275
@@ -649,6 +649,11 @@
   filters:
     anime_ids:
     - 356
+    - 33049
+    - 38897
+    - 38959
+    - 40206
+    - 38084
     - 2593
     - 3782
     - 3783
@@ -1094,10 +1099,11 @@
 - neko_id: kouji_morimoto
   level: 1
   algo: count
-  threshold: 88%
+  threshold: 75%
   filters:
     anime_ids:
     - 512
+    - 40480
     - 1951
     - 1760
     - 875
@@ -1133,10 +1139,11 @@
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
-  threshold: 58%
+  threshold: 50%
   filters:
     anime_ids:
     - 415
+    - 39792
     - 27653
     - 8364
     - 8362
@@ -1407,7 +1414,7 @@
 - neko_id: kouichi_mashimo
   level: 1
   algo: count
-  threshold: 70%
+  threshold: 58%
   filters:
     anime_ids:
     - 424
