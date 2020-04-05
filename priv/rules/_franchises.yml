@@ -424,7 +424,7 @@
     - 40064
   threshold: 95%
   metadata: &41
-    title_ru: Может, я встречу тебя в подземелье?
+    title_ru: Разве плохо искать себе пару в подземелье?
     title_en: DanMachi
     image: "/assets/achievements/anime/franchise/danmachi.jpg"
     topic_id: 247360
@@ -4259,6 +4259,10 @@
   algo: duration
   filters: &1
     franchise: baka_to_test_to_shoukanjuu
+    not_anime_ids:
+    - 31298
+    - 10834
+    - 24727
   threshold: 95%
   metadata: &2
     title_ru: Дурни, тесты, аватары
