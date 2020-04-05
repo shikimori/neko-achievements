@@ -4224,3 +4224,61 @@
   filters: *450
   threshold: 0.01
   metadata: *451
+- neko_id: puella_magi_sonico_magica
+  level: 1
+  algo: duration
+  filters: &1
+    franchise: puella_magi_sonico_magica
+    not_anime_ids:
+    - 10519
+    - 11977
+    - 11979
+    - 23831
+    - 35300
+  threshold: 95%
+  metadata: &2
+    title_ru: Девочка-волшебница Мадока★Волшебство
+    title_en: Mahou Shoujo Madoka★Magica
+    image: https://kawai.shikimori.one/system/user_images/original/34807/1012396.jpg
+    topic_id: 247360
+- neko_id: puella_magi_sonico_magica
+- neko_id: terra_formars
+  level: 1
+  algo: duration
+  filters: &1
+    franchise: terra_formars
+  threshold: 95%
+  metadata: &2
+    title_ru: Терраформирование
+    title_en: Terra Formars
+    image: https://desu.shikimori.one/system/user_images/original/9560/1012603.jpg
+    topic_id: 247360
+- neko_id: terra_formars
+- neko_id: baka_to_test_to_shoukanjuu
+  level: 1
+  algo: duration
+  filters: &1
+    franchise: baka_to_test_to_shoukanjuu
+  threshold: 95%
+  metadata: &2
+    title_ru: Дурни, тесты, аватары
+    title_en: Baka to Test to Shoukanjuu
+    image: https://desu.shikimori.one/system/user_images/original/34807/1012423.jpg
+    topic_id: 247360
+- neko_id: baka_to_test_to_shoukanjuu
+- neko_id: show_by_rock
+  level: 1
+  algo: duration
+  filters: &1
+    franchise: show_by_rock
+    not_anime_ids:
+    - 31072
+    - 31073
+    - 33855
+  threshold: 95%
+  metadata: &2
+    title_ru: Рок-шоу!
+    title_en: Show By Rock!! 
+    image: https://moe.shikimori.one/system/user_images/original/9560/1012662.jpg
+    topic_id: 247360
+- neko_id: show_by_rock
