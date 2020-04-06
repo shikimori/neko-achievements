@@ -4227,7 +4227,7 @@
 - neko_id: puella_magi_sonico_magica
   level: 1
   algo: duration
-  filters:
+  filters: &452
     franchise: puella_magi_sonico_magica
     not_anime_ids:
     - 10519
@@ -4235,50 +4235,74 @@
     - 11979
     - 23831
     - 35300
-  threshold: 95%
-  metadata:
+  threshold: 100%
+  metadata: &453
     title_ru: Девочка-волшебница Мадока★Волшебство
     title_en: Mahou Shoujo Madoka★Magica
-    image: https://kawai.shikimori.one/system/user_images/original/34807/1012396.jpg
+    image: "/assets/achievements/anime/franchise/puella_magi_sonico_magica.jpg"
     topic_id: 247360
+- neko_id: puella_magi_sonico_magica
+  level: 0
+  algo: duration
+  filters: *452
+  threshold: 0.01
+  metadata: *453
 - neko_id: terra_formars
   level: 1
   algo: duration
-  filters:
+  filters: &454
     franchise: terra_formars
-  threshold: 95%
-  metadata:
+  threshold: 100%
+  metadata: &455
     title_ru: Терраформирование
     title_en: Terra Formars
-    image: https://desu.shikimori.one/system/user_images/original/9560/1012603.jpg
+    image: "/assets/achievements/anime/franchise/terra_formars.jpg"
     topic_id: 247360
+- neko_id: terra_formars
+  level: 0
+  algo: duration
+  filters: *454
+  threshold: 0.01
+  metadata: *455
 - neko_id: baka_to_test_to_shoukanjuu
   level: 1
   algo: duration
-  filters: &1
+  filters: &456
     franchise: baka_to_test_to_shoukanjuu
     not_anime_ids:
-    - 31298
     - 10834
     - 24727
-  threshold: 95%
-  metadata: &2
+    - 31298
+  threshold: 95.8%
+  metadata: &457
     title_ru: Дурни, тесты, аватары
     title_en: Baka to Test to Shoukanjuu
-    image: https://desu.shikimori.one/system/user_images/original/34807/1012423.jpg
+    image: "/assets/achievements/anime/franchise/baka_to_test_to_shoukanjuu.jpg"
     topic_id: 247360
+- neko_id: baka_to_test_to_shoukanjuu
+  level: 0
+  algo: duration
+  filters: *456
+  threshold: 0.01
+  metadata: *457
 - neko_id: show_by_rock
   level: 1
   algo: duration
-  filters:
+  filters: &458
     franchise: show_by_rock
     not_anime_ids:
     - 31072
     - 31073
     - 33855
-  threshold: 95%
-  metadata:
+  threshold: 100%
+  metadata: &459
     title_ru: Рок-шоу!
-    title_en: Show By Rock!! 
-    image: https://moe.shikimori.one/system/user_images/original/9560/1012662.jpg
+    title_en: Show By Rock!!
+    image: "/assets/achievements/anime/franchise/show_by_rock.jpg"
     topic_id: 247360
+- neko_id: show_by_rock
+  level: 0
+  algo: duration
+  filters: *458
+  threshold: 0.01
+  metadata: *459
