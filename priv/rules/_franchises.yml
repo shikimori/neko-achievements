@@ -4306,3 +4306,20 @@
   filters: *458
   threshold: 0.01
   metadata: *459
+  - neko_id: kono_subarashii_sekai_ni_shukufuku_wo
+  level: 1
+  algo: duration
+  filters: &460
+    franchise: kono_subarashii_sekai_ni_shukufuku_wo
+  threshold: 100%
+  metadata: &461
+    title_ru: Этот замечательный мир!
+    title_en: Kono Subarashii Sekai ni Shukufuku wo!
+    image: "/assets/achievements/anime/franchise/kono_subarashii_sekai_ni_shukufuku_wo.jpg"
+    topic_id: 247360
+- neko_id: kono_subarashii_sekai_ni_shukufuku_wo
+  level: 0
+  algo: duration
+  filters: *460
+  threshold: 0.01
+  metadata: *461
