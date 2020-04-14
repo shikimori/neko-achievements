@@ -1329,10 +1329,10 @@
     franchise: tales_of
     not_anime_ids:
     - 8754
-    - 38110
     - 34939
     - 37230
-  threshold: 92.6%
+    - 38110
+  threshold: 93%
   metadata: &141
     title_ru: Сказания
     title_en: Tales of
@@ -2246,7 +2246,7 @@
     - 36269
     - 36760
     - 40348
-  threshold: 93.3%
+  threshold: 93.7%
   metadata: &235
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3423,7 +3423,7 @@
   algo: duration
   filters: &364
     franchise: pripara
-  threshold: 93.9%
+  threshold: 94.9%
   metadata: &365
     title_ru: При Пара
     title_en: PriPara
@@ -3481,7 +3481,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 97.5%
+  threshold: 97.4%
   metadata: &372
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -3520,7 +3520,7 @@
     not_anime_ids:
     - 10736
     - 30103
-  threshold: 91.4%
+  threshold: 91.5%
   metadata: &376
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -3597,7 +3597,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 94.2%
+  threshold: 94%
   metadata: &383
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
