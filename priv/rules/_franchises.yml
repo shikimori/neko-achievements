@@ -1327,6 +1327,11 @@
   algo: duration
   filters: &140
     franchise: tales_of
+    not_anime_ids:
+    - 8754
+    - 38110
+    - 34939
+    - 37230
   threshold: 92.6%
   metadata: &141
     title_ru: Сказания
