@@ -554,6 +554,8 @@
     title_en: Chuunibyou demo Koi ga Shitai!
     image: "/assets/achievements/anime/franchise/chuunibyou_demo_koi_ga_shitai.jpg"
     topic_id: 247360
+  generator:
+    threshold: 90%
 - neko_id: chuunibyou_demo_koi_ga_shitai
   level: 0
   algo: duration
@@ -1174,6 +1176,8 @@
     title_en: Grisaia no Kajitsu
     image: "/assets/achievements/anime/franchise/grisaia.jpg"
     topic_id: 247360
+  generator:
+    threshold: 99%
 - neko_id: grisaia
   level: 0
   algo: duration
@@ -1359,6 +1363,8 @@
     title_en: Kara no Kyoukai
     image: "/assets/achievements/anime/franchise/kara_no_kyoukai.png"
     topic_id: 247360
+  generator:
+    threshold: 100%
 - neko_id: kara_no_kyoukai
   level: 0
   algo: duration
@@ -1623,6 +1629,7 @@
     image: "/assets/achievements/anime/franchise/hibike_euphonium.png"
     topic_id: 247360
   generator: &170
+    threshold: 85%
     ignore_latest_ids:
     - 35678
 - neko_id: hibike_euphonium
@@ -1683,6 +1690,8 @@
     title_en: Baka to Test to Shoukanjuu
     image: "/assets/achievements/anime/franchise/baka_to_test_to_shoukanjuu.jpg"
     topic_id: 247360
+  generator:
+    threshold: 98%
 - neko_id: baka_to_test_to_shoukanjuu
   level: 0
   algo: duration
@@ -2454,6 +2463,12 @@
     - 21409
     - 31894
     - 38271
+    - 38211
+    - 40693
+    - 18781
+    - 37124
+    - 35805
+    - 36942
   threshold: 85%
   metadata: &259
     title_ru: Идолмастер
@@ -2605,6 +2620,8 @@
   algo: duration
   filters: &273
     franchise: gatchaman
+    not_anime_ids:
+    - 3153
   threshold: 90.4%
   metadata: &274
     title_ru: Гатчамен
@@ -3136,6 +3153,7 @@
     franchise: saint_seiya
     not_anime_ids:
     - 6153
+    - 6154
   threshold: 90%
   metadata: &331
     title_ru: Рыцари Зодиака
@@ -3727,6 +3745,8 @@
     franchise: ranma
     not_anime_ids:
     - 10825
+    - 10822
+    - 10823
   threshold: 95%
   metadata: &398
     title_ru: Ранма ½
@@ -4311,3 +4331,73 @@
   filters: *458
   threshold: 0.01
   metadata: *459
+- neko_id: mob_psycho
+  level: 1
+  algo: duration
+  filters: &458
+    franchise: mob_psycho
+  threshold: 100%
+  metadata: &459
+    title_ru: Моб Психо 100
+    title_en: Mob Psycho 100
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/1022260.jpg
+    topic_id: 247360
+  generator:
+    threshold: 100%
+- neko_id: one_punch_man
+  level: 1
+  algo: duration
+  filters: &450
+    franchise: one_punch_man
+    not_anime_ids:
+    - 39652
+  threshold: 97.9%
+  metadata: &451
+    title_ru: Ванпанчмен
+    title_en: One Punch Man
+    image: https://desu.shikimori.org/system/user_images/original/34807/1021853.jpg
+    topic_id: 247360
+  generator:
+    threshold: 100%
+- neko_id: majutsushi_orphen
+  level: 1
+  algo: duration
+  filters: &450
+    franchise: majutsushi_orphen
+  threshold: 97.9%
+  metadata: &451
+    title_ru: Волшебник-воин Орфен
+    title_en: Majutsushi Orphen
+    image: https://desu.shikimori.org/system/user_images/original/359688/1021368.jpg
+    topic_id: 247360
+  generator:
+    threshold: 100%
+- neko_id: bang_dream
+  level: 1
+  algo: duration
+  filters: &450
+    franchise: bang_dream
+  threshold: 97.9%
+  metadata: &451
+    title_ru: Ура мечте!
+    title_en: BanG Dream!
+    image: https://desu.shikimori.org/system/user_images/original/9560/1021263.jpg
+    topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 38986
+    - 38392
+    - 37955
+    - 40294
+    - 40293
+    - 40292
+    - 40291
+    - 37954
+    - 36919
+    - 36918
+    - 36921
+    - 36922
+    - 36920
+    - 34412
+    - 34252
+    - 32338
