@@ -571,8 +571,8 @@
   threshold: 95%
   metadata: &57
     title_ru: Невероятное приключение ДжоДжо
-    title_en: JoJo no Kimyou na Bouken
-    image: "/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg"
+ title_en: JoJo no Kimyou na Bouken
+ image: https://1.bp.blogspot.com/-WteITpQqXfw/XYJKKE9MKTI/AAAAAAAADIo/13_BnuKnnzUYY0FcLZ3c7PAYXjZ-_kvBQCNcBGAsYHQ/s1600/jjba-stardust-crusaders-crusaders.jpg
     topic_id: 247360
 - neko_id: jojo_no_kimyou_na_bouken
   level: 0
