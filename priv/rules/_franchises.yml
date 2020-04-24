@@ -4036,6 +4036,10 @@
     franchise: cyborg
     not_anime_ids:
     - 40250
+    - 32737
+    - 33163
+    - 32736
+    - 8394
   threshold: 95%
   metadata: &430
     title_ru: Киборг 009
