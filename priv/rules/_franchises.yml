@@ -43,6 +43,7 @@
     - 37831
     - 39239
     - 40489
+    - 41341
   threshold: 95%
   metadata: &4
     title_ru: Мастера Меча Онлайн
@@ -698,6 +699,9 @@
   algo: duration
   filters: &71
     franchise: k_on
+    not_anime_ids:
+    - 7017
+    - 9203
   threshold: 92.3%
   metadata: &72
     title_ru: Кэйон!
