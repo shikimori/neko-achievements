@@ -4342,10 +4342,10 @@
 - neko_id: mob_psycho
   level: 1
   algo: duration
-  filters: &458
+  filters:
     franchise: mob_psycho
   threshold: 100%
-  metadata: &459
+  metadata:
     title_ru: Моб Психо 100
     title_en: Mob Psycho 100
     image: https://nyaa.shikimori.org/system/user_images/original/34807/1022260.jpg
@@ -4355,12 +4355,12 @@
 - neko_id: one_punch_man
   level: 1
   algo: duration
-  filters: &450
+  filters:
     franchise: one_punch_man
     not_anime_ids:
     - 39652
   threshold: 97.9%
-  metadata: &451
+  metadata:
     title_ru: Ванпанчмен
     title_en: One Punch Man
     image: https://desu.shikimori.org/system/user_images/original/34807/1021853.jpg
@@ -4370,10 +4370,10 @@
 - neko_id: majutsushi_orphen
   level: 1
   algo: duration
-  filters: &450
+  filters:
     franchise: majutsushi_orphen
   threshold: 97.9%
-  metadata: &451
+  metadata:
     title_ru: Волшебник-воин Орфен
     title_en: Majutsushi Orphen
     image: https://desu.shikimori.org/system/user_images/original/359688/1021368.jpg
@@ -4383,10 +4383,10 @@
 - neko_id: bang_dream
   level: 1
   algo: duration
-  filters: &450
+  filters:
     franchise: bang_dream
   threshold: 97.9%
-  metadata: &451
+  metadata:
     title_ru: Ура мечте!
     title_en: BanG Dream!
     image: https://desu.shikimori.org/system/user_images/original/9560/1021263.jpg
