@@ -536,6 +536,36 @@
     topic_id: 276032
   generator:
     person_id: 6671
+- neko_id: shinichiro_watanabe
+  level: 1
+  algo: count
+  threshold: 62%
+  filters:
+    anime_ids:
+    - 2053
+    - 474
+    - 1
+    - 5
+    - 1303
+    - 3508
+    - 205
+    - 12531
+    - 20057
+    - 23327
+    - 23283
+    - 36308
+    - 37435
+    - 875
+    - 4087
+    - 13203
+  metadata:
+    title_ru: Синъитиро Ватанабэ
+    title_en: Shinichiro Watanabe
+    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
+    border_color: "#000000"
+    topic_id: 276032
+  generator:
+    person_id: 2009
 - neko_id: yasuhiro_takemoto
   level: 1
   algo: count
@@ -575,36 +605,6 @@
     topic_id: 276032
   generator:
     person_id: 6771
-- neko_id: shinichiro_watanabe
-  level: 1
-  algo: count
-  threshold: 62%
-  filters:
-    anime_ids:
-    - 2053
-    - 474
-    - 1
-    - 5
-    - 1303
-    - 3508
-    - 205
-    - 12531
-    - 20057
-    - 23327
-    - 23283
-    - 36308
-    - 37435
-    - 875
-    - 4087
-    - 13203
-  metadata:
-    title_ru: Синъитиро Ватанабэ
-    title_en: Shinichiro Watanabe
-    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
-    border_color: "#000000"
-    topic_id: 276032
-  generator:
-    person_id: 2009
 - neko_id: chiaki_kon
   level: 1
   algo: count
@@ -1096,6 +1096,45 @@
     topic_id: 276032
   generator:
     person_id: 4097
+- neko_id: masaaki_yuasa
+  level: 1
+  algo: count
+  threshold: 50%
+  filters:
+    anime_ids:
+    - 415
+    - 39792
+    - 27653
+    - 8364
+    - 8362
+    - 6460
+    - 6217
+    - 9878
+    - 9348
+    - 2677
+    - 601
+    - 1978
+    - 38594
+    - 35120
+    - 34792
+    - 34537
+    - 22135
+    - 16149
+    - 8985
+    - 7785
+    - 3701
+    - 3508
+    - 1454
+    - 875
+    - 4420
+  metadata:
+    title_ru: Масааки Юаса
+    title_en: Masaaki Yuasa
+    image: "/assets/achievements/anime/author/masaaki_yuasa.png"
+    border_color: "#FA8072"
+    topic_id: 276032
+  generator:
+    person_id: 5068
 - neko_id: kouji_morimoto
   level: 1
   algo: count
@@ -1136,45 +1175,6 @@
     topic_id: 276032
   generator:
     person_id: 5066
-- neko_id: masaaki_yuasa
-  level: 1
-  algo: count
-  threshold: 50%
-  filters:
-    anime_ids:
-    - 415
-    - 39792
-    - 27653
-    - 8364
-    - 8362
-    - 6460
-    - 6217
-    - 9878
-    - 9348
-    - 2677
-    - 601
-    - 1978
-    - 38594
-    - 35120
-    - 34792
-    - 34537
-    - 22135
-    - 16149
-    - 8985
-    - 7785
-    - 3701
-    - 3508
-    - 1454
-    - 875
-    - 4420
-  metadata:
-    title_ru: Масааки Юаса
-    title_en: Masaaki Yuasa
-    image: "/assets/achievements/anime/author/masaaki_yuasa.png"
-    border_color: "#FA8072"
-    topic_id: 276032
-  generator:
-    person_id: 5068
 - neko_id: clamp
   level: 1
   algo: count
