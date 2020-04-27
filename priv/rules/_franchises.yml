@@ -87,7 +87,7 @@
     image: "/assets/achievements/anime/franchise/one_punch_man.jpg"
     topic_id: 247360
   generator: &9
-    threshold: 100%
+    threshold: 96%
 - neko_id: one_punch_man
   level: 0
   algo: duration
@@ -492,6 +492,8 @@
     topic_id: 247360
   generator: &50
     threshold: 100%
+    not_ignored_ids:
+    - 36616
 - neko_id: mob_psycho
   level: 0
   algo: duration
@@ -2674,6 +2676,8 @@
     franchise: gatchaman
     not_anime_ids:
     - 3153
+    - 38705
+    - 31517
   threshold: 92.1%
   metadata: &284
     title_ru: Гатчамен
