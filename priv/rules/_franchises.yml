@@ -80,7 +80,7 @@
     franchise: one_punch_man
     not_anime_ids:
     - 39652
-  threshold: 100%
+  threshold: 96%
   metadata: &8
     title_ru: Ванпанчмен
     title_en: One Punch Man
@@ -482,8 +482,6 @@
   algo: duration
   filters: &48
     franchise: mob_psycho
-    not_anime_ids:
-    - 36616
   threshold: 100%
   metadata: &49
     title_ru: Моб Психо 100
@@ -2676,8 +2674,8 @@
     franchise: gatchaman
     not_anime_ids:
     - 3153
-    - 38705
     - 31517
+    - 38705
   threshold: 92.1%
   metadata: &284
     title_ru: Гатчамен
