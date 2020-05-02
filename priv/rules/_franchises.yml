@@ -2304,6 +2304,13 @@
     - 36269
     - 36760
     - 40348
+    - 33145
+    - 33146
+    - 33148
+    - 33149
+    - 33152
+    - 38788
+    - 10766
   threshold: 93.7%
   metadata: &245
     title_ru: Детектив Конан
@@ -3359,6 +3366,8 @@
   algo: duration
   filters: &357
     franchise: major
+    not_anime_ids:
+    - 32324
   threshold: 95%
   metadata: &358
     title_ru: Мэйджор
