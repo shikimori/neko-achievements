@@ -2298,8 +2298,10 @@
     franchise: detective_conan
     not_anime_ids:
     - 1365
+    - 6115
     - 9786
     - 10766
+    - 18429
     - 33145
     - 33146
     - 33148
@@ -2311,9 +2313,7 @@
     - 36760
     - 38788
     - 40348
-    - 6115
-    - 18429
-  threshold: 93.3%
+  threshold: 93.6%
   metadata: &245
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -2376,6 +2376,7 @@
     franchise: selector_spread_wixoss
     not_anime_ids:
     - 27613
+    - 31280
     - 36083
   threshold: 100%
   metadata: &253
@@ -2501,7 +2502,7 @@
     franchise: tiger_bunny
     not_anime_ids:
     - 30178
-  threshold: 91.7%
+  threshold: 92.3%
   metadata: &267
     title_ru: Тигр и кролик
     title_en: Tiger & Bunny
