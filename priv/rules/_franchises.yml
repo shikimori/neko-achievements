@@ -2311,6 +2311,8 @@
     - 36760
     - 38788
     - 40348
+    - 6115
+    - 18429
   threshold: 93.3%
   metadata: &245
     title_ru: Детектив Конан
@@ -2374,7 +2376,6 @@
     franchise: selector_spread_wixoss
     not_anime_ids:
     - 27613
-    - 31280
     - 36083
   threshold: 100%
   metadata: &253
@@ -2499,7 +2500,6 @@
   filters: &266
     franchise: tiger_bunny
     not_anime_ids:
-    - 12015
     - 30178
   threshold: 91.7%
   metadata: &267
