@@ -2384,6 +2384,9 @@
     title_en: WIXOSS
     image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 31280
 - neko_id: selector_spread_wixoss
   level: 0
   algo: duration
@@ -4455,3 +4458,14 @@
   filters: *474
   threshold: 0.01
   metadata: *475
+- neko_id: jigoku_sensei_nube
+  level: 1
+  algo: duration
+  filters: &474
+    franchise: jigoku_sensei_nube
+  threshold: 100%
+  metadata: &475
+    title_ru: Адский учитель Нубэ
+    title_en: Jigoku Sensei Nube
+    image: https://dere.shikimori.org/system/user_images/original/28551/1036129.jpg
+    topic_id: 247360
