@@ -2291,10 +2291,54 @@
   filters: *242
   threshold: 0.01
   metadata: *243
-- neko_id: detective_conan
+- neko_id: utawarerumono
   level: 1
   algo: duration
   filters: &244
+    franchise: utawarerumono
+    not_anime_ids:
+    - 6226
+    - 6743
+  threshold: 93.3%
+  metadata: &245
+    title_ru: Прославленный
+    title_en: Utawarerumono
+    image: "/assets/achievements/anime/franchise/utawarerumono.jpg"
+    topic_id: 247360
+- neko_id: utawarerumono
+  level: 0
+  algo: duration
+  filters: *244
+  threshold: 0.01
+  metadata: *245
+- neko_id: selector_spread_wixoss
+  level: 1
+  algo: duration
+  filters: &246
+    franchise: selector_spread_wixoss
+    not_anime_ids:
+    - 27613
+    - 36083
+  threshold: 100%
+  metadata: &247
+    title_ru: WIXOSS
+    title_en: WIXOSS
+    image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
+    topic_id: 247360
+  generator: &248
+    not_ignored_ids:
+    - 31280
+- neko_id: selector_spread_wixoss
+  level: 0
+  algo: duration
+  filters: *246
+  threshold: 0.01
+  metadata: *247
+  generator: *248
+- neko_id: detective_conan
+  level: 1
+  algo: duration
+  filters: &249
     franchise: detective_conan
     not_anime_ids:
     - 1365
@@ -2314,79 +2358,35 @@
     - 38788
     - 40348
   threshold: 93.6%
-  metadata: &245
+  metadata: &250
     title_ru: Детектив Конан
     title_en: Detective Conan
     image: "/assets/achievements/anime/franchise/detective_conan.jpg"
     topic_id: 247360
-  generator: &246
+  generator: &251
     ignore_latest_ids:
     - 38770
 - neko_id: detective_conan
-  level: 0
-  algo: duration
-  filters: *244
-  threshold: 0.01
-  metadata: *245
-  generator: *246
-- neko_id: utawarerumono
-  level: 1
-  algo: duration
-  filters: &247
-    franchise: utawarerumono
-    not_anime_ids:
-    - 6226
-    - 6743
-  threshold: 93.3%
-  metadata: &248
-    title_ru: Прославленный
-    title_en: Utawarerumono
-    image: "/assets/achievements/anime/franchise/utawarerumono.jpg"
-    topic_id: 247360
-- neko_id: utawarerumono
-  level: 0
-  algo: duration
-  filters: *247
-  threshold: 0.01
-  metadata: *248
-- neko_id: hetalia
-  level: 1
-  algo: duration
-  filters: &249
-    franchise: hetalia
-  threshold: 90%
-  metadata: &250
-    title_ru: Хеталия
-    title_en: Hetalia
-    image: "/assets/achievements/anime/franchise/hetalia.jpg"
-    topic_id: 247360
-  generator: &251
-    threshold: 90%
-- neko_id: hetalia
   level: 0
   algo: duration
   filters: *249
   threshold: 0.01
   metadata: *250
   generator: *251
-- neko_id: selector_spread_wixoss
+- neko_id: hetalia
   level: 1
   algo: duration
   filters: &252
-    franchise: selector_spread_wixoss
-    not_anime_ids:
-    - 27613
-    - 36083
-  threshold: 100%
+    franchise: hetalia
+  threshold: 90%
   metadata: &253
-    title_ru: WIXOSS
-    title_en: WIXOSS
-    image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
+    title_ru: Хеталия
+    title_en: Hetalia
+    image: "/assets/achievements/anime/franchise/hetalia.jpg"
     topic_id: 247360
   generator: &254
-    not_ignored_ids:
-    - 31280
-- neko_id: selector_spread_wixoss
+    threshold: 90%
+- neko_id: hetalia
   level: 0
   algo: duration
   filters: *252
@@ -2477,41 +2477,41 @@
   threshold: 0.01
   metadata: *263
   generator: *264
-- neko_id: yowamushi_pedal
+- neko_id: tiger_bunny
   level: 1
   algo: duration
   filters: &265
+    franchise: tiger_bunny
+    not_anime_ids:
+    - 30178
+  threshold: 92.3%
+  metadata: &266
+    title_ru: Тигр и кролик
+    title_en: Tiger & Bunny
+    image: "/assets/achievements/anime/franchise/tiger_bunny.jpg"
+    topic_id: 247360
+- neko_id: tiger_bunny
+  level: 0
+  algo: duration
+  filters: *265
+  threshold: 0.01
+  metadata: *266
+- neko_id: yowamushi_pedal
+  level: 1
+  algo: duration
+  filters: &267
     franchise: yowamushi_pedal
     not_anime_ids:
     - 25755
     - 30790
     - 35880
   threshold: 95%
-  metadata: &266
+  metadata: &268
     title_ru: Трусливый велосипедист
     title_en: Yowamushi Pedal
     image: "/assets/achievements/anime/franchise/yowamushi_pedal.jpg"
     topic_id: 247360
 - neko_id: yowamushi_pedal
-  level: 0
-  algo: duration
-  filters: *265
-  threshold: 0.01
-  metadata: *266
-- neko_id: tiger_bunny
-  level: 1
-  algo: duration
-  filters: &267
-    franchise: tiger_bunny
-    not_anime_ids:
-    - 30178
-  threshold: 92.3%
-  metadata: &268
-    title_ru: Тигр и кролик
-    title_en: Tiger & Bunny
-    image: "/assets/achievements/anime/franchise/tiger_bunny.jpg"
-    topic_id: 247360
-- neko_id: tiger_bunny
   level: 0
   algo: duration
   filters: *267
@@ -4390,13 +4390,30 @@
   filters: *467
   threshold: 0.01
   metadata: *468
-- neko_id: saber_marionette_j
+- neko_id: jigoku_sensei_nube
   level: 1
   algo: duration
   filters: &469
-    franchise: saber_marionette_j
+    franchise: jigoku_sensei_nube
   threshold: 100%
   metadata: &470
+    title_ru: Адский учитель Нубэ
+    title_en: Jigoku Sensei Nube
+    image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
+    topic_id: 247360
+- neko_id: jigoku_sensei_nube
+  level: 0
+  algo: duration
+  filters: *469
+  threshold: 0.01
+  metadata: *470
+- neko_id: saber_marionette_j
+  level: 1
+  algo: duration
+  filters: &471
+    franchise: saber_marionette_j
+  threshold: 100%
+  metadata: &472
     title_ru: Воины-марионетки Джей
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
@@ -4404,16 +4421,16 @@
 - neko_id: saber_marionette_j
   level: 0
   algo: duration
-  filters: *469
+  filters: *471
   threshold: 0.01
-  metadata: *470
+  metadata: *472
 - neko_id: di_gi_charat
   level: 1
   algo: duration
-  filters: &471
+  filters: &473
     franchise: di_gi_charat
   threshold: 92.6%
-  metadata: &472
+  metadata: &474
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
     image: "/assets/achievements/anime/franchise/di_gi_charat.jpg"
@@ -4421,16 +4438,16 @@
 - neko_id: di_gi_charat
   level: 0
   algo: duration
-  filters: *471
+  filters: *473
   threshold: 0.01
-  metadata: *472
+  metadata: *474
 - neko_id: galaxy_angel
   level: 1
   algo: duration
-  filters: &473
+  filters: &475
     franchise: galaxy_angel
   threshold: 95%
-  metadata: &474
+  metadata: &476
     title_ru: Галактический ангел
     title_en: Galaxy Angel
     image: "/assets/achievements/anime/franchise/galaxy_angel.jpg"
@@ -4438,38 +4455,21 @@
 - neko_id: galaxy_angel
   level: 0
   algo: duration
-  filters: *473
+  filters: *475
   threshold: 0.01
-  metadata: *474
+  metadata: *476
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &475
+  filters: &477
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &476
+  metadata: &478
     title_ru: Властелин властелинов Рыцарь Рю
     title_en: Haou Daikei Ryuu Knight
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
     topic_id: 247360
 - neko_id: haou_daikei_ryuu_knight
-  level: 0
-  algo: duration
-  filters: *475
-  threshold: 0.01
-  metadata: *476
-- neko_id: jigoku_sensei_nube
-  level: 1
-  algo: duration
-  filters: &477
-    franchise: jigoku_sensei_nube
-  threshold: 100%
-  metadata: &478
-    title_ru: Адский учитель Нубэ
-    title_en: Jigoku Sensei Nube
-    image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
-    topic_id: 247360
-- neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
   filters: *477
