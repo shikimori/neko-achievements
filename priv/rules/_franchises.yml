@@ -1035,7 +1035,6 @@
     franchise: one_piece
     not_anime_ids:
     - 8171
-    - 12001
     - 16143
     - 32437
     - 34165
@@ -1265,6 +1264,8 @@
     title_en: Strike the Blood
     image: "/assets/achievements/anime/franchise/strike_the_blood.jpg"
     topic_id: 247360
+  generator: &134
+    threshold: 95%
 - neko_id: strike_the_blood
   level: 0
   algo: duration
@@ -4214,30 +4215,6 @@
   filters: *448
   threshold: 0.01
   metadata: *449
-- neko_id: doraemon
-  level: 1
-  algo: duration
-  filters: &450
-    franchise: doraemon
-    not_anime_ids:
-    - 501
-  threshold: 94%
-  metadata: &451
-    title_ru: Дораэмон
-    title_en: Doraemon
-    image: "/assets/achievements/anime/franchise/doraemon.jpg"
-    topic_id: 247360
-  generator: &452
-    ignore_latest_ids:
-    - 40044
-    - 38530
-- neko_id: doraemon
-  level: 0
-  algo: duration
-  filters: *450
-  threshold: 0.01
-  metadata: *451
-  generator: *452
 - neko_id: transformers
   level: 1
   algo: duration
