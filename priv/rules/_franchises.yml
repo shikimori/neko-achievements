@@ -2020,7 +2020,7 @@
     - 33221
     - 35949
     - 36436
-  threshold: 89%
+  threshold: 88.7%
   metadata: &216
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -4046,7 +4046,7 @@
     franchise: mazinkaiser
     not_anime_ids:
     - 18365
-  threshold: 90.7%
+  threshold: 93.4%
   metadata: &434
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
