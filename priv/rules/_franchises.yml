@@ -1944,6 +1944,7 @@
     franchise: yuru_yuri
     not_anime_ids:
     - 12665
+    - 40369
   threshold: 93.1%
   metadata: &210
     title_ru: Лилии на ветру
@@ -2858,6 +2859,7 @@
     franchise: dog_days
     not_anime_ids:
     - 29413
+    - 35063
   threshold: 95.6%
   metadata: &304
     title_ru: Собачьи дни
@@ -4267,6 +4269,7 @@
     franchise: to_heart
     not_anime_ids:
     - 1624
+    - 3977
   threshold: 95%
   metadata: &456
     title_ru: Для сердца
