@@ -1945,7 +1945,7 @@
     not_anime_ids:
     - 12665
     - 40369
-  threshold: 93.1%
+  threshold: 95%
   metadata: &210
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
@@ -2264,6 +2264,7 @@
     - 10351
     - 28531
     - 37789
+    - 40779
   threshold: 90%
   metadata: &242
     title_ru: Тэнти — лишний!
@@ -2860,7 +2861,7 @@
     not_anime_ids:
     - 29413
     - 35063
-  threshold: 95.6%
+  threshold: 96.9%
   metadata: &304
     title_ru: Собачьи дни
     title_en: Dog Days
