@@ -499,7 +499,7 @@
   level: 2
   threshold: 15%
   metadata:
-    title_ru: Буря тестостерона
+    title_ru: Тестостероновый шторм
     text_ru: Вы больше не помещаетесь в зеркалах.
     image: /assets/achievements/anime/gar_2.jpg
     border_color: "#c79001"
