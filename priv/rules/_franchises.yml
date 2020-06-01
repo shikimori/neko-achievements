@@ -4461,11 +4461,17 @@
 - neko_id: ze_tian_ji
   level: 1
   algo: duration
-  filters:
+  filters: &477
     franchise: ze_tian_ji
   threshold: 100%
-  metadata:
+  metadata: &478
     title_ru: Путь выбора
     title_en: Ze Tian Ji
-    image: https://desu.shikimori.one/system/user_images/original/45319/1074238.jpg
+    image: "/assets/achievements/anime/franchise/ze_tian_ji.jpg"
     topic_id: 247360
+- neko_id: ze_tian_ji
+  level: 0
+  algo: duration
+  filters: *477
+  threshold: 0.01
+  metadata: *478
