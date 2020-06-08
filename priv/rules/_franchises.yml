@@ -2603,6 +2603,8 @@
     title_en: Grappler Baki
     image: "/assets/achievements/anime/franchise/baki.jpg"
     topic_id: 247360
+  generator:
+    threshold: 95%
 - neko_id: baki
   level: 0
   algo: duration
