@@ -2344,7 +2344,6 @@
   filters: &250
     franchise: detective_conan
     not_anime_ids:
-    - 1365
     - 6115
     - 9786
     - 10766
@@ -2604,6 +2603,8 @@
     title_en: Grappler Baki
     image: "/assets/achievements/anime/franchise/baki.jpg"
     topic_id: 247360
+  generator:
+    threshold: 95%
 - neko_id: baki
   level: 0
   algo: duration
@@ -3678,6 +3679,7 @@
     - 28103
     - 37668
     - 39414
+    - 8155
   threshold: 95%
   metadata: &394
     title_ru: Щелкунчик Китаро
@@ -4475,3 +4477,14 @@
   filters: *477
   threshold: 0.01
   metadata: *478
+- neko_id: doupo_cangqiong
+  level: 1
+  algo: duration
+  filters:
+    franchise: doupo_cangqiong
+  threshold: 100%
+  metadata:
+    title_ru: Расколотая битвой синева небес
+    title_en: Doupo Cangqiong
+    image: https://desu.shikimori.one/system/user_images/original/45319/1081893.jpg
+    topic_id: 247360
