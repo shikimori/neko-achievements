@@ -4480,12 +4480,11 @@
 - neko_id: doupo_cangqiong
   level: 1
   algo: duration
-  filters: &477
+  filters:
     franchise: doupo_cangqiong
   threshold: 100%
-  metadata: &478
+  metadata:
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
-    image: https://desu.shikimori.org/system/user_images/original/45319/1081893.jpg
+    image: https://desu.shikimori.one/system/user_images/original/45319/1081893.jpg
     topic_id: 247360
-- neko_id: doupo_cangqiong
