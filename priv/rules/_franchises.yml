@@ -877,7 +877,7 @@
     - 22013
     - 31617
     - 38600
-  threshold: 90.8%
+  threshold: 91.9%
   metadata: &91
     title_ru: Призрак в доспехах
     title_en: Ghost in the Shell
@@ -2166,7 +2166,7 @@
   algo: duration
   filters: &230
     franchise: uta_no_prince_sama
-  threshold: 92.3%
+  threshold: 95%
   metadata: &231
     title_ru: Поющий принц
     title_en: Uta no☆Prince-sama♪
@@ -3327,7 +3327,7 @@
     - 21595
     - 32346
     - 33997
-  threshold: 88.4%
+  threshold: 88.3%
   metadata: &354
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
@@ -3461,7 +3461,6 @@
     franchise: teekyuu
     not_anime_ids:
     - 31669
-    - 36054
   threshold: 89.9%
   metadata: &370
     title_ru: Теннис
@@ -3575,7 +3574,7 @@
   algo: duration
   filters: &383
     franchise: pripara
-  threshold: 94.9%
+  threshold: 94.5%
   metadata: &384
     title_ru: При Пара
     title_en: PriPara
@@ -3652,7 +3651,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 97.1%
+  threshold: 97%
   metadata: &393
     title_ru: Айкацу!
     title_en: Aikatsu!
