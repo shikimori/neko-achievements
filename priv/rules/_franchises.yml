@@ -16,7 +16,7 @@
     - 39478
   threshold: 95%
   metadata: &2
-    title_ru: Вторжение гигантов
+    title_ru: Атака титанов
     title_en: Shingeki no Kyojin
     image: "/assets/achievements/anime/franchise/shingeki_no_kyojin.jpg"
     topic_id: 247360
@@ -1560,6 +1560,7 @@
     - 39944
     - 40245
     - 41202
+    - 41319
 - neko_id: love_live
   level: 0
   algo: duration
