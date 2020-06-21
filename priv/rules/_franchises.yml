@@ -2114,6 +2114,13 @@
     - 36371
     - 36370
     - 36369
+- neko_id: ginga_eiyuu_densetsu
+  level: 0
+  algo: duration
+  filters: *223
+  threshold: 0.01
+  metadata: *224
+  generator: *225
 - neko_id: initial_d
   level: 1
   algo: duration
@@ -2128,13 +2135,6 @@
     title_en: Initial D
     image: "/assets/achievements/anime/franchise/initial_d.jpg"
     topic_id: 247360
-- neko_id: ginga_eiyuu_densetsu
-  level: 0
-  algo: duration
-  filters: *223
-  threshold: 0.01
-  metadata: *224
-  generator: *225
 - neko_id: initial_d
   level: 0
   algo: duration
@@ -2364,7 +2364,6 @@
   filters: &252
     franchise: detective_conan
     not_anime_ids:
-    - 1365
     - 6115
     - 9786
     - 10766
@@ -4501,24 +4500,36 @@
 - neko_id: huyao_xiao_hongniang
   level: 1
   algo: duration
-  filters:
+  filters: &482
     franchise: huyao_xiao_hongniang
-  threshold: 100%
-  metadata:
-    title_ru: "Сводники духов: Лисьи свахи"
+  threshold: 95%
+  metadata: &483
+    title_ru: 'Сводники духов: Лисьи свахи'
     title_en: Huyao Xiao Hongniang
-    image: https://moe.shikimori.one/system/user_images/original/34807/1089592.jpg
+    image: "/assets/achievements/anime/franchise/huyao_xiao_hongniang.jpg"
     topic_id: 247360
+- neko_id: huyao_xiao_hongniang
+  level: 0
+  algo: duration
+  filters: *482
+  threshold: 0.01
+  metadata: *483
 - neko_id: hitori_no_shita
   level: 1
   algo: duration
-  filters:
+  filters: &484
     franchise: hitori_no_shita
     not_anime_ids:
     - 37090
   threshold: 100%
-  metadata:
-    title_ru: "Один из отвергнутых: Изгой"
-    title_en: "Hitori no Shita: The Outcast"
-    image: https://dere.shikimori.one/system/user_images/original/45319/1089699.jpg
+  metadata: &485
+    title_ru: 'Один из отвергнутых: Изгой'
+    title_en: 'Hitori no Shita: The Outcast'
+    image: "/assets/achievements/anime/franchise/hitori_no_shita.jpg"
     topic_id: 247360
+- neko_id: hitori_no_shita
+  level: 0
+  algo: duration
+  filters: *484
+  threshold: 0.01
+  metadata: *485
