@@ -2370,6 +2370,8 @@
   generator: &252
     ignore_latest_ids:
     - 38770
+    not_ignored_ids:
+    - 1365
 - neko_id: detective_conan
   level: 0
   algo: duration
@@ -4497,3 +4499,27 @@
   filters: *480
   threshold: 0.01
   metadata: *481
+- neko_id: huyao_xiao_hongniang
+  level: 1
+  algo: duration
+  filters:
+    franchise: huyao_xiao_hongniang
+  threshold: 100%
+  metadata:
+    title_ru: Сводники духов: Лисьи свахи
+    title_en: Huyao Xiao Hongniang
+    image: https://moe.shikimori.org/system/user_images/original/34807/1089592.jpg
+    topic_id: 247360
+- neko_id: hitori_no_shita
+  level: 1
+  algo: duration
+  filters:
+    franchise: hitori_no_shita
+    not_anime_ids:
+    - 37090
+  threshold: 100%
+  metadata:
+    title_ru: Один из отвергнутых: Изгой
+    title_en: Hitori no Shita: The Outcast
+    image: https://dere.shikimori.one/system/user_images/original/45319/1089699.jpg
+    topic_id: 247360
