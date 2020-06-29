@@ -4533,3 +4533,15 @@
   filters: *484
   threshold: 0.01
   metadata: *485
+- neko_id: quanzhi_fashi
+  level: 1
+  algo: duration
+  filters: &484
+    franchise: quanzhi_fashi
+  threshold: 100%
+  metadata: &485
+    title_ru: Маг на полную ставку
+    title_en: Quanzhi Fashi
+    image: https://moe.shikimori.one/system/user_images/original/45319/1106447.jpg
+    topic_id: 247360
+- neko_id: quanzhi_fashi
