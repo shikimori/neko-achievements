@@ -43,6 +43,7 @@
     - 37831
     - 39239
     - 40489
+    - 41341
   threshold: 95%
   metadata: &4
     title_ru: Мастера Меча Онлайн
@@ -1088,6 +1089,8 @@
   algo: duration
   filters: &114
     franchise: bakuman
+    not_anime_ids:
+    - 15711
   threshold: 96.7%
   metadata: &115
     title_ru: Бакуман
