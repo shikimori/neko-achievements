@@ -152,7 +152,7 @@
     title_en: Boku no Hero Academia
     image: "/assets/achievements/anime/franchise/boku_no_hero_academia.jpg"
     topic_id: 247360
-    generator: 
+    generator:
   ignore_latest_ids: &17
   - 39565
 - neko_id: boku_no_hero_academia
@@ -169,7 +169,7 @@
     franchise: naruto
     not_anime_ids:
     - 40971
-  threshold: 96.6%
+  threshold: 96.7%
   metadata: &19
     title_ru: Наруто
     title_en: Naruto
@@ -375,7 +375,6 @@
     - 22847
     - 23697
     - 36064
-    - 36327
     - 36729
     - 38784
     - 40761
@@ -1045,7 +1044,7 @@
     - 36242
     - 38419
     - 40181
-  threshold: 93%
+  threshold: 93.2%
   metadata: &109
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1089,8 +1088,6 @@
   algo: duration
   filters: &114
     franchise: bakuman
-    not_anime_ids:
-    - 15711
   threshold: 96.7%
   metadata: &115
     title_ru: Бакуман
@@ -1412,7 +1409,6 @@
     not_anime_ids:
     - 8754
     - 34939
-    - 37230
     - 38110
   threshold: 93%
   metadata: &153
@@ -1543,7 +1539,7 @@
     - 41188
     - 41189
     - 41204
-  threshold: 95.6%
+  threshold: 95.1%
   metadata: &166
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2085,7 +2081,7 @@
     - 35552
     - 36835
     - 37865
-  threshold: 92%
+  threshold: 92.6%
   metadata: &221
     title_ru: Покемон
     title_en: Pokemon
@@ -2104,29 +2100,35 @@
 - neko_id: initial_d
   level: 1
   algo: duration
-  filters: &226
+  filters: &223
     franchise: initial_d
     not_anime_ids:
     - 821
     - 12725
   threshold: 95%
-  metadata: &227
+  metadata: &224
     title_ru: Инициал Ди
     title_en: Initial D
     image: "/assets/achievements/anime/franchise/initial_d.jpg"
     topic_id: 247360
+- neko_id: initial_d
+  level: 0
+  algo: duration
+  filters: *223
+  threshold: 0.01
+  metadata: *224
 - neko_id: ginga_eiyuu_densetsu
   level: 1
   algo: duration
-  filters: &223
+  filters: &225
     franchise: ginga_eiyuu_densetsu
   threshold: 90%
-  metadata: &224
+  metadata: &226
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
     image: "/assets/achievements/anime/franchise/ginga_eiyuu_densetsu.jpg"
     topic_id: 247360
-  generator: &225
+  generator: &227
     ignore_latest_ids:
     - 36371
     - 36370
@@ -2134,16 +2136,10 @@
 - neko_id: ginga_eiyuu_densetsu
   level: 0
   algo: duration
-  filters: *223
+  filters: *225
   threshold: 0.01
-  metadata: *224
-  generator: *225
-- neko_id: initial_d
-  level: 0
-  algo: duration
-  filters: *226
-  threshold: 0.01
-  metadata: *227
+  metadata: *226
+  generator: *227
 - neko_id: garo
   level: 1
   algo: duration
@@ -2259,7 +2255,6 @@
     - 31494
     - 33806
     - 35077
-    - 38675
     - 38676
   threshold: 95%
   metadata: &241
@@ -3265,7 +3260,7 @@
   algo: duration
   filters: &347
     franchise: bang_dream
-  threshold: 96.7%
+  threshold: 96.8%
   metadata: &348
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -3365,7 +3360,7 @@
     - 21595
     - 32346
     - 33997
-  threshold: 88.3%
+  threshold: 88%
   metadata: &358
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
@@ -3629,7 +3624,7 @@
   algo: duration
   filters: &389
     franchise: pripara
-  threshold: 94.5%
+  threshold: 94.2%
   metadata: &390
     title_ru: При Пара
     title_en: PriPara
@@ -3787,7 +3782,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.6%
+  threshold: 93.4%
   metadata: &406
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4539,11 +4534,17 @@
 - neko_id: quanzhi_fashi
   level: 1
   algo: duration
-  filters:
+  filters: &486
     franchise: quanzhi_fashi
   threshold: 100%
-  metadata:
+  metadata: &487
     title_ru: Маг на полную ставку
     title_en: Quanzhi Fashi
-    image: https://moe.shikimori.one/system/user_images/original/45319/1106447.jpg
+    image: "/assets/achievements/anime/franchise/quanzhi_fashi.jpg"
     topic_id: 247360
+- neko_id: quanzhi_fashi
+  level: 0
+  algo: duration
+  filters: *486
+  threshold: 0.01
+  metadata: *487
