@@ -1339,28 +1339,6 @@
     topic_id: 276032
   generator:
     person_id: 7454
-- neko_id: kenji_nakamura
-  level: 1
-  algo: count
-  threshold: 87%
-  filters:
-    anime_ids:
-    - 21039
-    - 23703
-    - 18229
-    - 12883
-    - 10163
-    - 6774
-    - 2246
-    - 586
-  metadata:
-    title_ru: Кэндзи Накамура
-    title_en: Kenji Nakamura
-    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
-    border_color: "#C1A97E"
-    topic_id: 276032
-  generator:
-    person_id: 7217
 - neko_id: junichi_satou
   level: 1
   algo: count
@@ -1418,6 +1396,28 @@
     topic_id: 276032
   generator:
     person_id: 4002
+- neko_id: kenji_nakamura
+  level: 1
+  algo: count
+  threshold: 87%
+  filters:
+    anime_ids:
+    - 21039
+    - 23703
+    - 18229
+    - 12883
+    - 10163
+    - 6774
+    - 2246
+    - 586
+  metadata:
+    title_ru: Кэндзи Накамура
+    title_en: Kenji Nakamura
+    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
+    border_color: "#C1A97E"
+    topic_id: 276032
+  generator:
+    person_id: 7217
 - neko_id: go_nagai
   level: 1
   algo: count
