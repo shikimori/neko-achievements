@@ -14,6 +14,7 @@
     - 36702
     - 39477
     - 39478
+    - 42091
   threshold: 95%
   metadata: &2
     title_ru: Атака титанов
@@ -3763,6 +3764,8 @@
   generator: &404
     ignore_latest_ids:
     - 38850
+    - 42422
+    - 40587
 - neko_id: pretty_cure
   level: 0
   algo: duration
