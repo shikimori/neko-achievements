@@ -2756,6 +2756,9 @@
     title_en: Aria
     image: "/assets/achievements/anime/franchise/aria.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 41674
 - neko_id: aria
   level: 0
   algo: duration
