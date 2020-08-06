@@ -3920,6 +3920,11 @@
   algo: duration
   filters: &421
     franchise: glass_no_kamen
+    not_anime_ids:
+    - 35070
+    - 34336
+    - 27621
+    - 17707
   threshold: 95%
   metadata: &422
     title_ru: Стеклянная маска
@@ -4203,6 +4208,15 @@
     not_anime_ids:
     - 8921
     - 39707
+    - 29739
+    - 5475
+    - 5344
+    - 8011
+    - 4154
+    - 8553
+    - 6889
+    - 3915
+    - 3008
   threshold: 80%
   metadata: &452
     title_ru: Приключения во времени
