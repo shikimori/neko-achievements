@@ -3921,11 +3921,11 @@
   filters: &421
     franchise: glass_no_kamen
     not_anime_ids:
-    - 35070
-    - 34336
-    - 27621
     - 17707
-  threshold: 95%
+    - 27621
+    - 34336
+    - 35070
+  threshold: 97.4%
   metadata: &422
     title_ru: Стеклянная маска
     title_en: Glass no Kamen
@@ -4206,18 +4206,18 @@
   filters: &451
     franchise: time_bokan
     not_anime_ids:
-    - 8921
-    - 39707
-    - 29739
-    - 5475
-    - 5344
-    - 8011
-    - 4154
-    - 8553
-    - 6889
-    - 3915
     - 3008
-  threshold: 80%
+    - 3915
+    - 4154
+    - 5344
+    - 5475
+    - 6889
+    - 8011
+    - 8553
+    - 8921
+    - 29739
+    - 39707
+  threshold: 95%
   metadata: &452
     title_ru: Приключения во времени
     title_en: Time Bokan
