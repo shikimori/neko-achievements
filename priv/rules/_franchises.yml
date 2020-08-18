@@ -922,6 +922,9 @@
     title_en: Date A Live
     image: "/assets/achievements/anime/franchise/date_a_live.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 40416
 - neko_id: date_a_live
   level: 0
   algo: duration
@@ -3324,6 +3327,7 @@
     not_anime_ids:
     - 6153
     - 6154
+    - 35326
   threshold: 90%
   metadata: &354
     title_ru: Рыцари Зодиака
