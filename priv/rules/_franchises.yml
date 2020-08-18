@@ -923,6 +923,7 @@
     image: "/assets/achievements/anime/franchise/date_a_live.jpg"
     topic_id: 247360
   generator:
+    threshold: 95%
     ignore_latest_ids:
     - 40416
 - neko_id: date_a_live
