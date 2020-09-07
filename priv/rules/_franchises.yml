@@ -2951,6 +2951,10 @@
   algo: duration
   filters: &314
     franchise: black_jack
+    not_anime_ids:
+    - 35859
+    - 4941
+    - 7229
   threshold: 95%
   metadata: &315
     title_ru: Черный Джек
@@ -3082,6 +3086,8 @@
   algo: duration
   filters: &329
     franchise: hack
+    not_anime_ids:
+    - 36646
   threshold: 94.7%
   metadata: &330
     title_ru: ".хак//"
@@ -3277,6 +3283,9 @@
   algo: duration
   filters: &349
     franchise: cardfight_vanguard
+    not_anime_ids:
+    - 20999
+    - 31410
   threshold: 80%
   metadata: &350
     title_ru: Карточные бои Авангарда
@@ -3403,6 +3412,8 @@
     title_en: Yu☆Gi☆Oh!
     image: "/assets/achievements/anime/franchise/yu_gi_oh.png"
     topic_id: 247360
+  generator: 
+    threshold: 87.7%
 - neko_id: yu_gi_oh
   level: 0
   algo: duration
@@ -3491,6 +3502,12 @@
     - 5996
     - 6749
     - 29697
+    - 10276
+    - 6999
+    - 24457
+    - 10862
+    - 13073
+    - 36952
   threshold: 90%
   metadata: &373
     title_ru: Принц тенниса
@@ -3569,6 +3586,9 @@
   algo: duration
   filters: &382
     franchise: starmyu
+    not_anime_ids:
+    - 35774
+    - 40431
   threshold: 94.8%
   metadata: &383
     title_ru: Музыкальная школа звёзд
@@ -3611,6 +3631,8 @@
     title_en: Soukyuu no Fafner
     image: "/assets/achievements/anime/franchise/soukyuu_no_fafner.jpg"
     topic_id: 247360
+  generator: 
+    threshold: 92.1%
 - neko_id: soukyuu_no_fafner
   level: 0
   algo: duration
@@ -3646,6 +3668,8 @@
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
+    - 16964
+    - 36913
   threshold: 90%
   metadata: &392
     title_ru: Инадзума 11
@@ -3680,6 +3704,15 @@
   algo: duration
   filters: &395
     franchise: pripara
+    not_anime_ids:
+    - 31055
+    - 22215
+    - 21707
+    - 32989
+    - 37960
+    - 38646
+    - 38647
+    - 38648
   threshold: 94.3%
   metadata: &396
     title_ru: При Пара
@@ -3774,6 +3807,9 @@
     not_anime_ids:
     - 10736
     - 30103
+    - 11569
+    - 33669
+    - 37051
   threshold: 91.6%
   metadata: &405
     title_ru: Хорошенькое лекарство
@@ -3842,12 +3878,16 @@
   algo: duration
   filters: &412
     franchise: fushigi_yuugi
+    not_anime_ids:
+    - 27567
   threshold: 99.7%
   metadata: &413
     title_ru: Таинственная игра
     title_en: Fushigi Yuugi
     image: "/assets/achievements/anime/franchise/fushigi_yuugi.jpg"
     topic_id: 247360
+  generator: 
+    threshold: 100%
 - neko_id: fushigi_yuugi
   level: 0
   algo: duration
@@ -3915,6 +3955,9 @@
   algo: duration
   filters: &420
     franchise: ad_police
+    not_anime_ids:
+    - 5036
+    - 5043
   threshold: 95%
   metadata: &421
     title_ru: Кризис каждый день
@@ -3958,6 +4001,8 @@
     - 10822
     - 10823
     - 10825
+    - 10819
+    - 10824
   threshold: 95%
   metadata: &425
     title_ru: Ранма ½
@@ -3977,6 +4022,7 @@
     franchise: d_c
     not_anime_ids:
     - 4508
+    - 17020
   threshold: 95%
   metadata: &427
     title_ru: С начала
@@ -3996,6 +4042,7 @@
     franchise: mai_hime
     not_anime_ids:
     - 8518
+    - 673
   threshold: 95.8%
   metadata: &429
     title_ru: Май-Химэ
