@@ -4634,6 +4634,17 @@
   filters: *491
   threshold: 0.01
   metadata: *492
+- neko_id: ling_yu
+  level: 1
+  algo: duration
+  filters: &491
+    franchise: ling_yu
+  threshold: 100%
+  metadata: 
+    title_ru: Край основателей
+    title_en: Ling Yu
+    image: https://desu.shikimori.one/system/user_images/original/34807/1206243.jpg
+    topic_id: 247360
 - neko_id: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
   level: 1
   algo: duration
