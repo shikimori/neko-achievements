@@ -4634,3 +4634,43 @@
   filters: *491
   threshold: 0.01
   metadata: *492
+- neko_id: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
+  level: 1
+  algo: duration
+  filters: 
+    franchise: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
+  threshold: 100%
+  metadata: 
+    title_ru: Как и ожидалось, моя школьная романтическая жизнь не удалась
+    title_en: Oregairu
+    image: https://nyaa.shikimori.one/system/user_images/original/667404/1217735.jpg
+    topic_id: 247360
+- neko_id: re_zero
+  level: 1
+  algo: duration
+  filters: 
+    franchise: re_zero
+    not_anime_ids:
+    - 38389
+    - 42364
+    - 41590
+    - 39921
+    - 33569
+    - 33142
+  threshold: 100%
+  metadata: 
+    title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
+    title_en: Re:Zero kara Hajimeru Isekai Seikatsu
+    image: https://moe.shikimori.one/system/user_images/original/667404/1217737.jpg
+    topic_id: 247360
+- neko_id: yao_shen_ji
+  level: 1
+  algo: duration
+  filters: 
+    franchise: yao_shen_ji
+  threshold: 100%
+  metadata: 
+    title_ru: Сказания о демонах и богах
+    title_en: Yao Shen Ji 
+    image: https://moe.shikimori.org/system/user_images/original/45319/1201357.jpg
+    topic_id: 247360
