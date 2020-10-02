@@ -834,44 +834,6 @@
     topic_id: 276032
   generator:
     person_id: 2501
-- neko_id: morio_asaka
-  level: 1
-  algo: count
-  threshold: 66%
-  filters:
-    anime_ids:
-    - 5678
-    - 1078
-    - 28297
-    - 37379
-    - 14397
-    - 10800
-    - 7193
-    - 7972
-    - 877
-    - 408
-    - 134
-    - 596
-    - 59
-    - 652
-    - 383
-    - 33354
-    - 35320
-    - 372
-    - 371
-    - 232
-    - 2009
-    - 2274
-    - 2017
-    - 2093
-  metadata:
-    title_ru: Морио Асака
-    title_en: Morio Asaka
-    image: "/assets/achievements/anime/author/morio_asaka.jpg"
-    border_color: "#AE050D"
-    topic_id: 276032
-  generator:
-    person_id: 5921
 - neko_id: osamu_tezuka
   level: 1
   algo: count
@@ -959,6 +921,44 @@
     topic_id: 276032
   generator:
     person_id: 1938
+- neko_id: morio_asaka
+  level: 1
+  algo: count
+  threshold: 66%
+  filters:
+    anime_ids:
+    - 5678
+    - 1078
+    - 28297
+    - 37379
+    - 14397
+    - 10800
+    - 7193
+    - 7972
+    - 877
+    - 408
+    - 134
+    - 596
+    - 59
+    - 652
+    - 383
+    - 33354
+    - 35320
+    - 372
+    - 371
+    - 232
+    - 2009
+    - 2274
+    - 2017
+    - 2093
+  metadata:
+    title_ru: Морио Асака
+    title_en: Morio Asaka
+    image: "/assets/achievements/anime/author/morio_asaka.jpg"
+    border_color: "#AE050D"
+    topic_id: 276032
+  generator:
+    person_id: 5921
 - neko_id: isao_takahata
   level: 1
   algo: count
@@ -1061,45 +1061,6 @@
     topic_id: 276032
   generator:
     person_id: 2609
-- neko_id: mamoru_oshii
-  level: 1
-  algo: count
-  threshold: 68%
-  filters:
-    anime_ids:
-    - 5386
-    - 405
-    - 570
-    - 1289
-    - 801
-    - 2733
-    - 324
-    - 1981
-    - 9629
-    - 9001
-    - 6867
-    - 3089
-    - 2832
-    - 3336
-    - 468
-    - 43
-    - 4639
-    - 1096
-    - 1095
-    - 1288
-    - 885
-    - 3060
-    - 1921
-    - 1920
-    - 1293
-  metadata:
-    title_ru: Мамору Оси
-    title_en: Mamoru Oshii
-    image: "/assets/achievements/anime/author/mamoru_oshii.png"
-    border_color: "#B22222"
-    topic_id: 276032
-  generator:
-    person_id: 4097
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
@@ -1140,6 +1101,45 @@
     topic_id: 276032
   generator:
     person_id: 5068
+- neko_id: mamoru_oshii
+  level: 1
+  algo: count
+  threshold: 68%
+  filters:
+    anime_ids:
+    - 5386
+    - 405
+    - 570
+    - 1289
+    - 801
+    - 2733
+    - 324
+    - 1981
+    - 9629
+    - 9001
+    - 6867
+    - 3089
+    - 2832
+    - 3336
+    - 468
+    - 43
+    - 4639
+    - 1096
+    - 1095
+    - 1288
+    - 885
+    - 3060
+    - 1921
+    - 1920
+    - 1293
+  metadata:
+    title_ru: Мамору Оси
+    title_en: Mamoru Oshii
+    image: "/assets/achievements/anime/author/mamoru_oshii.png"
+    border_color: "#B22222"
+    topic_id: 276032
+  generator:
+    person_id: 4097
 - neko_id: kouji_morimoto
   level: 1
   algo: count
@@ -1299,46 +1299,6 @@
     topic_id: 276032
   generator:
     person_id: 5812
-- neko_id: shinji_aramaki
-  level: 1
-  algo: count
-  threshold: 68%
-  filters:
-    anime_ids:
-    - 36517
-    - 2152
-    - 1693
-    - 1247
-    - 442
-    - 971
-    - 1023
-    - 782
-    - 719
-    - 568
-    - 1347
-    - 3670
-    - 2068
-    - 1935
-    - 36871
-    - 28149
-    - 17269
-    - 36194
-    - 14629
-    - 6867
-    - 5505
-    - 22677
-    - 2969
-    - 54
-    - 2461
-    - 38799
-  metadata:
-    title_ru: Синдзи Арамаки
-    title_en: Shinji Aramaki
-    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
-    border_color: "#02ACF4"
-    topic_id: 276032
-  generator:
-    person_id: 7454
 - neko_id: junichi_satou
   level: 1
   algo: count
@@ -1396,6 +1356,46 @@
     topic_id: 276032
   generator:
     person_id: 4002
+- neko_id: shinji_aramaki
+  level: 1
+  algo: count
+  threshold: 68%
+  filters:
+    anime_ids:
+    - 36517
+    - 2152
+    - 1693
+    - 1247
+    - 442
+    - 971
+    - 1023
+    - 782
+    - 719
+    - 568
+    - 1347
+    - 3670
+    - 2068
+    - 1935
+    - 36871
+    - 28149
+    - 17269
+    - 36194
+    - 14629
+    - 6867
+    - 5505
+    - 22677
+    - 2969
+    - 54
+    - 2461
+    - 38799
+  metadata:
+    title_ru: Синдзи Арамаки
+    title_en: Shinji Aramaki
+    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
+    border_color: "#02ACF4"
+    topic_id: 276032
+  generator:
+    person_id: 7454
 - neko_id: kenji_nakamura
   level: 1
   algo: count
