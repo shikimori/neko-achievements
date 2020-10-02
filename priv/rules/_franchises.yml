@@ -3305,7 +3305,7 @@
     franchise: bang_dream
     not_anime_ids:
     - 40352
-  threshold: 96.8%
+  threshold: 96.9%
   metadata: &352
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -3445,7 +3445,7 @@
     franchise: major
     not_anime_ids:
     - 32324
-  threshold: 95%
+  threshold: 90%
   metadata: &367
     title_ru: Мэйджор
     title_en: Major
@@ -3812,7 +3812,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.3%
+  threshold: 91.4%
   metadata: &407
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -3859,7 +3859,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.5%
+  threshold: 91.9%
   metadata: &412
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
