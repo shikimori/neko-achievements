@@ -156,7 +156,7 @@
   metadata: &16
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
     title_en: Re:Zero kara Hajimeru Isekai Seikatsu
-    image: https://kawai.shikimori.org/system/user_images/original/34807/1209101.jpg
+    image: "/assets/achievements/anime/franchise/re_zero.jpg"
     topic_id: 247360
 - neko_id: re_zero
   level: 0
@@ -532,7 +532,7 @@
   metadata: &54
     title_ru: Как и ожидалось, моя школьная романтическая жизнь не удалась
     title_en: Oregairu
-    image: https://dere.shikimori.org/system/user_images/original/34807/1209099.jpg
+    image: "/assets/achievements/anime/franchise/yahari_ore_no_seishun_love_comedy_wa_machigatteiru.jpg"
     topic_id: 247360
 - neko_id: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
   level: 0
