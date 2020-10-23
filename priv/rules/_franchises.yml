@@ -1841,7 +1841,7 @@
     image: "/assets/achievements/anime/franchise/ashita_no_joe.jpg"
     topic_id: 247360
   generator: &197
-    threshold: 99.3%
+    threshold: 100%
 - neko_id: ashita_no_joe
   level: 0
   algo: duration
@@ -2996,12 +2996,16 @@
     not_anime_ids:
     - 29413
     - 35063
+    - 31967
+    - 17419
   threshold: 96.9%
   metadata: &319
     title_ru: Собачьи дни
     title_en: Dog Days
     image: "/assets/achievements/anime/franchise/dog_days.jpg"
     topic_id: 247360
+  generator: 
+    threshold: 100%
 - neko_id: dog_days
   level: 0
   algo: duration
