@@ -483,6 +483,36 @@
     topic_id: 276032
   generator:
     person_id: 2885
+- neko_id: shinichiro_watanabe
+  level: 1
+  algo: count
+  threshold: 62%
+  filters:
+    anime_ids:
+    - 2053
+    - 474
+    - 1
+    - 5
+    - 1303
+    - 3508
+    - 205
+    - 12531
+    - 20057
+    - 23327
+    - 23283
+    - 36308
+    - 37435
+    - 875
+    - 4087
+    - 13203
+  metadata:
+    title_ru: Синъитиро Ватанабэ
+    title_en: Shinichiro Watanabe
+    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
+    border_color: "#000000"
+    topic_id: 276032
+  generator:
+    person_id: 2009
 - neko_id: takahiro_oomori
   level: 1
   algo: count
@@ -542,36 +572,6 @@
     topic_id: 276032
   generator:
     person_id: 6671
-- neko_id: shinichiro_watanabe
-  level: 1
-  algo: count
-  threshold: 62%
-  filters:
-    anime_ids:
-    - 2053
-    - 474
-    - 1
-    - 5
-    - 1303
-    - 3508
-    - 205
-    - 12531
-    - 20057
-    - 23327
-    - 23283
-    - 36308
-    - 37435
-    - 875
-    - 4087
-    - 13203
-  metadata:
-    title_ru: Синъитиро Ватанабэ
-    title_en: Shinichiro Watanabe
-    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
-    border_color: "#000000"
-    topic_id: 276032
-  generator:
-    person_id: 2009
 - neko_id: yasuhiro_takemoto
   level: 1
   algo: count
@@ -715,39 +715,6 @@
     topic_id: 276032
   generator:
     person_id: 2582
-- neko_id: mamoru_hosoda
-  level: 1
-  algo: count
-  threshold: 42%
-  filters:
-    anime_ids:
-    - 901
-    - 36936
-    - 28805
-    - 12355
-    - 5681
-    - 2236
-    - 464
-    - 2290
-    - 2397
-    - 2961
-    - 3602
-    - 893
-    - 1240
-    - 2499
-    - 2498
-    - 1861
-    - 883
-    - 903
-    - 1278
-  metadata:
-    title_ru: Мамору Хосода
-    title_en: Mamoru Hosoda
-    image: "/assets/achievements/anime/author/mamoru_hosoda.jpg"
-    border_color: "#314357"
-    topic_id: 276032
-  generator:
-    person_id: 5067
 - neko_id: hideaki_anno
   level: 1
   algo: count
@@ -793,6 +760,39 @@
     topic_id: 276032
   generator:
     person_id: 5111
+- neko_id: mamoru_hosoda
+  level: 1
+  algo: count
+  threshold: 42%
+  filters:
+    anime_ids:
+    - 901
+    - 36936
+    - 28805
+    - 12355
+    - 5681
+    - 2236
+    - 464
+    - 2290
+    - 2397
+    - 2961
+    - 3602
+    - 893
+    - 1240
+    - 2499
+    - 2498
+    - 1861
+    - 883
+    - 903
+    - 1278
+  metadata:
+    title_ru: Мамору Хосода
+    title_en: Mamoru Hosoda
+    image: "/assets/achievements/anime/author/mamoru_hosoda.jpg"
+    border_color: "#314357"
+    topic_id: 276032
+  generator:
+    person_id: 5067
 - neko_id: shoji_kawamori
   level: 1
   algo: count
@@ -1595,6 +1595,37 @@
     topic_id: 276032
   generator:
     person_id: 1872
+- neko_id: yoshitaka_amano
+  level: 1
+  algo: count
+  threshold: 68%
+  filters:
+    anime_ids:
+    - 6909
+    - 1793
+    - 3258
+    - 543
+    - 732
+    - 3671
+    - 3670
+    - 1458
+    - 2389
+    - 4210
+    - 5802
+    - 3914
+    - 2249
+    - 10639
+    - 5819
+    - 885
+    - 40074
+  metadata:
+    title_ru: 'Ёситака Амано '
+    title_en: Yoshitaka Amano
+    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
+    border_color: "#8B4513"
+    topic_id: 276032
+  generator:
+    person_id: 2967
 - neko_id: rumiko_takahashi
   level: 1
   algo: count
@@ -1700,37 +1731,6 @@
     topic_id: 276032
   generator:
     person_id: 5393
-- neko_id: yoshitaka_amano
-  level: 1
-  algo: count
-  threshold: 68%
-  filters:
-    anime_ids:
-    - 6909
-    - 1793
-    - 3258
-    - 543
-    - 732
-    - 3671
-    - 3670
-    - 1458
-    - 2389
-    - 4210
-    - 5802
-    - 3914
-    - 2249
-    - 10639
-    - 5819
-    - 885
-    - 40074
-  metadata:
-    title_ru: 'Ёситака Амано '
-    title_en: Yoshitaka Amano
-    image: "/assets/achievements/anime/author/yoshitaka_amano.png"
-    border_color: "#8B4513"
-    topic_id: 276032
-  generator:
-    person_id: 2967
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: count
