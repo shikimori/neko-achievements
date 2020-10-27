@@ -729,7 +729,7 @@
   algo: duration
   filters: &75
     franchise: bleach
-  threshold: 98.1%
+  threshold: 97.5%
   metadata: &76
     title_ru: Блич
     title_en: Bleach
@@ -1091,7 +1091,7 @@
     - 36242
     - 38419
     - 40181
-  threshold: 93.6%
+  threshold: 93.7%
   metadata: &114
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1586,7 +1586,7 @@
     - 41188
     - 41189
     - 41204
-  threshold: 95.1%
+  threshold: 95.4%
   metadata: &171
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2106,7 +2106,7 @@
     - 42380
     - 42432
     - 42439
-  threshold: 88.7%
+  threshold: 88.4%
   metadata: &224
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2390,7 +2390,7 @@
     franchise: inuyasha
     not_anime_ids:
     - 31133
-  threshold: 95.7%
+  threshold: 93.9%
   metadata: &255
     title_ru: Инуяся
     title_en: InuYasha
@@ -2443,7 +2443,7 @@
     - 36760
     - 38788
     - 40348
-  threshold: 93.5%
+  threshold: 93.6%
   metadata: &259
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -2711,7 +2711,7 @@
     not_anime_ids:
     - 36865
     - 38056
-  threshold: 94.2%
+  threshold: 94.6%
   metadata: &289
     title_ru: Осомацу
     title_en: Osomatsu
