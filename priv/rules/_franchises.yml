@@ -1142,7 +1142,7 @@
     image: "/assets/achievements/anime/franchise/bakuman.jpg"
     topic_id: 247360
   generator: &121
-    not_ignored_ids:
+    not_anime_ids:
     - 15711
 - neko_id: bakuman
   level: 0
