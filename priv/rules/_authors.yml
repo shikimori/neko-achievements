@@ -133,59 +133,56 @@
     topic_id: 276032
   generator:
     person_id: 5978
-- neko_id: hiroshi_hamasaki
+- neko_id: hayao_miyazaki
   level: 1
   algo: count
-  threshold: 42%
+  threshold: 55%
   filters:
     anime_ids:
-    - 39806
-    - 1462
-    - 420
-    - 2998
-    - 1303
-    - 437
-    - 1290
-    - 3889
-    - 372
-    - 1107
-    - 155
-    - 4106
-    - 6675
-    - 522
-    - 499
-    - 1089
-    - 617
-    - 2178
-    - 1352
-    - 543
-    - 1940
-    - 1880
-    - 1879
-    - 5918
-    - 1494
-    - 1269
-    - 2688
-    - 26
-    - 22689
-    - 22687
-    - 11577
-    - 10863
-    - 9253
-    - 2216
-    - 34136
-    - 32729
-    - 15847
-    - 22547
-    - 2387
+    - 1044
+    - 2279
+    - 2811
+    - 3842
+    - 3843
+    - 2553
+    - 15347
+    - 1430
+    - 302
+    - 15021
+    - 1412
+    - 199
+    - 164
+    - 2616
+    - 2897
+    - 416
+    - 512
+    - 523
+    - 513
+    - 1972
+    - 572
+    - 16662
+    - 9798
+    - 2890
+    - 4306
+    - 24975
+    - 431
+    - 2488
+    - 10029
+    - 7711
+    - 585
+    - 2611
+    - 597
+    - 1030
+    - 1029
+    - 1047
   metadata:
-    title_ru: Хироси Хамасаки
-    title_en: Hiroshi Hamasaki
-    image: "/assets/achievements/anime/author/hiroshi_hamasaki.jpg"
-    border_color: "#C4B3AC"
+    title_ru: Хаяо Миядзаки
+    title_en: Hayao Miyazaki
+    image: "/assets/achievements/anime/author/hayao_miyazaki.jpg"
+    border_color: "#C48D5E"
     topic_id: 276032
   generator:
-    person_id: 6369
+    person_id: 1870
 - neko_id: makoto_shinkai
   level: 1
   algo: count
@@ -263,56 +260,166 @@
     topic_id: 276032
   generator:
     person_id: 2349
-- neko_id: hayao_miyazaki
+- neko_id: hiroshi_hamasaki
   level: 1
   algo: count
-  threshold: 55%
+  threshold: 42%
   filters:
     anime_ids:
-    - 1044
-    - 2279
-    - 2811
-    - 3842
-    - 3843
-    - 2553
-    - 15347
-    - 1430
-    - 302
-    - 15021
-    - 1412
-    - 199
-    - 164
-    - 2616
-    - 2897
-    - 416
-    - 512
-    - 523
-    - 513
-    - 1972
-    - 572
-    - 16662
-    - 9798
-    - 2890
-    - 4306
-    - 24975
-    - 431
-    - 2488
-    - 10029
-    - 7711
-    - 585
-    - 2611
-    - 597
-    - 1030
-    - 1029
-    - 1047
+    - 39806
+    - 1462
+    - 420
+    - 2998
+    - 1303
+    - 437
+    - 1290
+    - 3889
+    - 372
+    - 1107
+    - 155
+    - 4106
+    - 6675
+    - 522
+    - 499
+    - 1089
+    - 617
+    - 2178
+    - 1352
+    - 543
+    - 1940
+    - 1880
+    - 1879
+    - 5918
+    - 1494
+    - 1269
+    - 2688
+    - 26
+    - 22689
+    - 22687
+    - 11577
+    - 10863
+    - 9253
+    - 2216
+    - 34136
+    - 32729
+    - 15847
+    - 22547
+    - 2387
   metadata:
-    title_ru: Хаяо Миядзаки
-    title_en: Hayao Miyazaki
-    image: "/assets/achievements/anime/author/hayao_miyazaki.jpg"
-    border_color: "#C48D5E"
+    title_ru: Хироси Хамасаки
+    title_en: Hiroshi Hamasaki
+    image: "/assets/achievements/anime/author/hiroshi_hamasaki.jpg"
+    border_color: "#C4B3AC"
     topic_id: 276032
   generator:
-    person_id: 1870
+    person_id: 6369
+- neko_id: key
+  level: 1
+  algo: count
+  threshold: 75%
+  filters:
+    anime_ids:
+    - 101
+    - 144
+    - 656
+    - 704
+    - 713
+    - 1530
+    - 1723
+    - 2167
+    - 4059
+    - 4181
+    - 6351
+    - 6547
+    - 9062
+    - 10067
+    - 13655
+    - 17643
+    - 18195
+    - 20517
+    - 28999
+    - 31553
+    - 31716
+    - 33091
+    - 33190
+    - 34126
+  metadata:
+    title_ru: Key
+    title_en: Key
+    image: "/assets/achievements/anime/author/key.png"
+    border_color: "#000000"
+    topic_id: 276032
+  generator:
+    person_id: 2885
+- neko_id: shinichiro_watanabe
+  level: 1
+  algo: count
+  threshold: 62%
+  filters:
+    anime_ids:
+    - 2053
+    - 474
+    - 1
+    - 5
+    - 1303
+    - 3508
+    - 205
+    - 12531
+    - 20057
+    - 23327
+    - 23283
+    - 36308
+    - 37435
+    - 875
+    - 4087
+    - 13203
+  metadata:
+    title_ru: Синъитиро Ватанабэ
+    title_en: Shinichiro Watanabe
+    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
+    border_color: "#000000"
+    topic_id: 276032
+  generator:
+    person_id: 2009
+- neko_id: yasuhiro_takemoto
+  level: 1
+  algo: count
+  threshold: 64%
+  filters:
+    anime_ids:
+    - 22147
+    - 30206
+    - 73
+    - 1015
+    - 72
+    - 30415
+    - 12189
+    - 33206
+    - 35363
+    - 1887
+    - 4472
+    - 5957
+    - 7311
+    - 5118
+    - 1006
+    - 1135
+    - 1805
+    - 28675
+    - 2098
+    - 4382
+    - 253
+    - 13469
+    - 13259
+    - 13375
+    - 13373
+  metadata:
+    title_ru: Ясухиро Такэмото
+    title_en: Yasuhiro Takemoto
+    image: "/assets/achievements/anime/author/yasuhiro_takemoto.jpg"
+    border_color: "#FFDC33"
+    topic_id: 276032
+  generator:
+    person_id: 6771
 - neko_id: akiyuki_shinbou
   level: 1
   algo: count
@@ -445,74 +552,6 @@
     topic_id: 276032
   generator:
     person_id: 10308
-- neko_id: key
-  level: 1
-  algo: count
-  threshold: 75%
-  filters:
-    anime_ids:
-    - 101
-    - 144
-    - 656
-    - 704
-    - 713
-    - 1530
-    - 1723
-    - 2167
-    - 4059
-    - 4181
-    - 6351
-    - 6547
-    - 9062
-    - 10067
-    - 13655
-    - 17643
-    - 18195
-    - 20517
-    - 28999
-    - 31553
-    - 31716
-    - 33091
-    - 33190
-    - 34126
-  metadata:
-    title_ru: Key
-    title_en: Key
-    image: "/assets/achievements/anime/author/key.png"
-    border_color: "#000000"
-    topic_id: 276032
-  generator:
-    person_id: 2885
-- neko_id: shinichiro_watanabe
-  level: 1
-  algo: count
-  threshold: 62%
-  filters:
-    anime_ids:
-    - 2053
-    - 474
-    - 1
-    - 5
-    - 1303
-    - 3508
-    - 205
-    - 12531
-    - 20057
-    - 23327
-    - 23283
-    - 36308
-    - 37435
-    - 875
-    - 4087
-    - 13203
-  metadata:
-    title_ru: Синъитиро Ватанабэ
-    title_en: Shinichiro Watanabe
-    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
-    border_color: "#000000"
-    topic_id: 276032
-  generator:
-    person_id: 2009
 - neko_id: takahiro_oomori
   level: 1
   algo: count
@@ -572,45 +611,6 @@
     topic_id: 276032
   generator:
     person_id: 6671
-- neko_id: yasuhiro_takemoto
-  level: 1
-  algo: count
-  threshold: 64%
-  filters:
-    anime_ids:
-    - 22147
-    - 30206
-    - 73
-    - 1015
-    - 72
-    - 30415
-    - 12189
-    - 33206
-    - 35363
-    - 1887
-    - 4472
-    - 5957
-    - 7311
-    - 5118
-    - 1006
-    - 1135
-    - 1805
-    - 28675
-    - 2098
-    - 4382
-    - 253
-    - 13469
-    - 13259
-    - 13375
-    - 13373
-  metadata:
-    title_ru: Ясухиро Такэмото
-    title_en: Yasuhiro Takemoto
-    image: "/assets/achievements/anime/author/yasuhiro_takemoto.jpg"
-    border_color: "#FFDC33"
-    topic_id: 276032
-  generator:
-    person_id: 6771
 - neko_id: chiaki_kon
   level: 1
   algo: count
@@ -648,6 +648,84 @@
     topic_id: 276032
   generator:
     person_id: 6831
+- neko_id: mamoru_hosoda
+  level: 1
+  algo: count
+  threshold: 42%
+  filters:
+    anime_ids:
+    - 901
+    - 36936
+    - 28805
+    - 12355
+    - 5681
+    - 2236
+    - 464
+    - 2290
+    - 2397
+    - 2961
+    - 3602
+    - 893
+    - 1240
+    - 2499
+    - 2498
+    - 1861
+    - 883
+    - 903
+    - 1278
+  metadata:
+    title_ru: Мамору Хосода
+    title_en: Mamoru Hosoda
+    image: "/assets/achievements/anime/author/mamoru_hosoda.jpg"
+    border_color: "#314357"
+    topic_id: 276032
+  generator:
+    person_id: 5067
+- neko_id: hideaki_anno
+  level: 1
+  algo: count
+  threshold: 58%
+  filters:
+    anime_ids:
+    - 151
+    - 3080
+    - 32
+    - 30
+    - 1251
+    - 22943
+    - 34930
+    - 34929
+    - 34549
+    - 28149
+    - 327
+    - 2050
+    - 145
+    - 5462
+    - 306
+    - 1034
+    - 1089
+    - 2724
+    - 3785
+    - 3784
+    - 2759
+    - 531
+    - 6090
+    - 1148
+    - 1468
+    - 578
+    - 2461
+    - 2972
+    - 1935
+    - 1922
+    - 2607
+    - 949
+  metadata:
+    title_ru: Хидэаки Анно
+    title_en: Hideaki Anno
+    image: "/assets/achievements/anime/author/hideaki_anno.jpg"
+    topic_id: 276032
+  generator:
+    person_id: 5111
 - neko_id: type_moon
   level: 1
   algo: count
@@ -715,129 +793,38 @@
     topic_id: 276032
   generator:
     person_id: 2582
-- neko_id: hideaki_anno
+- neko_id: isao_takahata
   level: 1
   algo: count
-  threshold: 58%
+  threshold: 72%
   filters:
     anime_ids:
-    - 151
-    - 3080
-    - 32
-    - 30
-    - 1251
-    - 22943
-    - 34930
-    - 34929
-    - 34549
-    - 28149
-    - 327
-    - 2050
-    - 145
-    - 5462
-    - 306
-    - 1034
-    - 1089
-    - 2724
-    - 3785
-    - 3784
-    - 2759
-    - 531
-    - 6090
-    - 1148
-    - 1468
+    - 1044
+    - 1412
+    - 512
+    - 513
+    - 572
+    - 1208
+    - 16664
+    - 3215
+    - 415
+    - 1030
+    - 1029
     - 578
-    - 2461
-    - 2972
-    - 1935
-    - 1922
-    - 2607
-    - 949
+    - 1049
+    - 3946
+    - 283
+    - 1663
+    - 2225
+    - 2611
   metadata:
-    title_ru: Хидэаки Анно
-    title_en: Hideaki Anno
-    image: "/assets/achievements/anime/author/hideaki_anno.jpg"
+    title_ru: Исао Такахата
+    title_en: Isao Takahata
+    image: "/assets/achievements/anime/author/isao_takahata.jpg"
+    border_color: "#4f5f53"
     topic_id: 276032
   generator:
-    person_id: 5111
-- neko_id: mamoru_hosoda
-  level: 1
-  algo: count
-  threshold: 42%
-  filters:
-    anime_ids:
-    - 901
-    - 36936
-    - 28805
-    - 12355
-    - 5681
-    - 2236
-    - 464
-    - 2290
-    - 2397
-    - 2961
-    - 3602
-    - 893
-    - 1240
-    - 2499
-    - 2498
-    - 1861
-    - 883
-    - 903
-    - 1278
-  metadata:
-    title_ru: Мамору Хосода
-    title_en: Mamoru Hosoda
-    image: "/assets/achievements/anime/author/mamoru_hosoda.jpg"
-    border_color: "#314357"
-    topic_id: 276032
-  generator:
-    person_id: 5067
-- neko_id: shoji_kawamori
-  level: 1
-  algo: count
-  threshold: 60%
-  filters:
-    anime_ids:
-    - 393
-    - 30382
-    - 15177
-    - 33531
-    - 1962
-    - 21177
-    - 6032
-    - 36077
-    - 1398
-    - 812
-    - 1400
-    - 1504
-    - 7152
-    - 2170
-    - 478
-    - 1397
-    - 10447
-    - 1206
-    - 28013
-    - 5675
-    - 12149
-    - 194
-    - 14941
-    - 182
-    - 474
-    - 5310
-    - 3572
-    - 7222
-    - 1088
-    - 1089
-    - 1
-  metadata:
-    title_ru: Сёдзи Кавамори
-    title_en: Shoji Kawamori
-    image: "/assets/achievements/anime/author/shoji_kawamori.jpg"
-    border_color: "#6483B8"
-    topic_id: 276032
-  generator:
-    person_id: 2501
+    person_id: 5579
 - neko_id: osamu_tezuka
   level: 1
   algo: count
@@ -925,6 +912,51 @@
     topic_id: 276032
   generator:
     person_id: 1938
+- neko_id: shoji_kawamori
+  level: 1
+  algo: count
+  threshold: 60%
+  filters:
+    anime_ids:
+    - 393
+    - 30382
+    - 15177
+    - 33531
+    - 1962
+    - 21177
+    - 6032
+    - 36077
+    - 1398
+    - 812
+    - 1400
+    - 1504
+    - 7152
+    - 2170
+    - 478
+    - 1397
+    - 10447
+    - 1206
+    - 28013
+    - 5675
+    - 12149
+    - 194
+    - 14941
+    - 182
+    - 474
+    - 5310
+    - 3572
+    - 7222
+    - 1088
+    - 1089
+    - 1
+  metadata:
+    title_ru: Сёдзи Кавамори
+    title_en: Shoji Kawamori
+    image: "/assets/achievements/anime/author/shoji_kawamori.jpg"
+    border_color: "#6483B8"
+    topic_id: 276032
+  generator:
+    person_id: 2501
 - neko_id: morio_asaka
   level: 1
   algo: count
@@ -963,108 +995,46 @@
     topic_id: 276032
   generator:
     person_id: 5921
-- neko_id: isao_takahata
+- neko_id: kouji_morimoto
   level: 1
   algo: count
-  threshold: 72%
+  threshold: 75%
   filters:
     anime_ids:
-    - 1044
-    - 1412
     - 512
-    - 513
-    - 572
-    - 1208
-    - 16664
-    - 3215
-    - 415
-    - 1030
-    - 1029
-    - 578
-    - 1049
-    - 3946
-    - 283
-    - 1663
-    - 2225
-    - 2611
+    - 40480
+    - 1951
+    - 1760
+    - 875
+    - 38162
+    - 35248
+    - 19573
+    - 9667
+    - 6795
+    - 1303
+    - 1105
+    - 3506
+    - 3684
+    - 3507
+    - 32247
+    - 3685
+    - 1978
+    - 1106
+    - 1462
+    - 3525
+    - 1979
+    - 2387
+    - 2314
+    - 9045
+    - 2182
   metadata:
-    title_ru: Исао Такахата
-    title_en: Isao Takahata
-    image: "/assets/achievements/anime/author/isao_takahata.jpg"
-    border_color: "#4f5f53"
+    title_ru: Кодзи Моримото
+    title_en: Kouji Morimoto
+    image: "/assets/achievements/anime/author/kouji_morimoto.png"
+    border_color: "#2E8B57"
     topic_id: 276032
   generator:
-    person_id: 5579
-- neko_id: kenji_kamiyama
-  level: 1
-  algo: count
-  threshold: 56%
-  filters:
-    anime_ids:
-    - 9629
-    - 6637
-    - 405
-    - 767
-    - 1822
-    - 2733
-    - 570
-    - 36871
-    - 33204
-    - 21587
-    - 10405
-    - 33687
-    - 33686
-    - 33685
-    - 11755
-    - 6372
-    - 5630
-    - 1827
-    - 1566
-    - 801
-    - 467
-    - 38799
-  metadata:
-    title_ru: Кэндзи Камияма
-    title_en: Kenji Kamiyama
-    image: "/assets/achievements/anime/author/kenji_kamiyama.jpg"
-    border_color: "#795F42"
-    topic_id: 276032
-  generator:
-    person_id: 5348
-- neko_id: masamune_shirow
-  level: 1
-  algo: count
-  threshold: 89%
-  filters:
-    anime_ids:
-    - 43
-    - 54
-    - 467
-    - 468
-    - 801
-    - 937
-    - 1151
-    - 1152
-    - 1270
-    - 2181
-    - 2596
-    - 2969
-    - 3363
-    - 9737
-    - 18989
-    - 21575
-    - 22677
-    - 27411
-    - 32214
-    - 38799
-  metadata:
-    title_ru: Масамунэ Сиро
-    title_en: Masamune Shirow
-    image: "/assets/achievements/anime/author/masamune_shirow.jpg"
-    border_color: "#D08659"
-    topic_id: 276032
-  generator:
-    person_id: 2609
+    person_id: 5066
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
@@ -1145,93 +1115,116 @@
     topic_id: 276032
   generator:
     person_id: 4097
-- neko_id: kouji_morimoto
+- neko_id: masamune_shirow
   level: 1
   algo: count
-  threshold: 75%
+  threshold: 89%
   filters:
     anime_ids:
-    - 512
-    - 40480
-    - 1951
-    - 1760
-    - 875
-    - 38162
-    - 35248
-    - 19573
-    - 9667
-    - 6795
-    - 1303
-    - 1105
-    - 3506
-    - 3684
-    - 3507
-    - 32247
-    - 3685
-    - 1978
-    - 1106
-    - 1462
-    - 3525
-    - 1979
-    - 2387
-    - 2314
-    - 9045
-    - 2182
+    - 43
+    - 54
+    - 467
+    - 468
+    - 801
+    - 937
+    - 1151
+    - 1152
+    - 1270
+    - 2181
+    - 2596
+    - 2969
+    - 3363
+    - 9737
+    - 18989
+    - 21575
+    - 22677
+    - 27411
+    - 32214
+    - 38799
   metadata:
-    title_ru: Кодзи Моримото
-    title_en: Kouji Morimoto
-    image: "/assets/achievements/anime/author/kouji_morimoto.png"
-    border_color: "#2E8B57"
+    title_ru: Масамунэ Сиро
+    title_en: Masamune Shirow
+    image: "/assets/achievements/anime/author/masamune_shirow.jpg"
+    border_color: "#D08659"
     topic_id: 276032
   generator:
-    person_id: 5066
-- neko_id: clamp
+    person_id: 2609
+- neko_id: shinji_aramaki
   level: 1
   algo: count
-  threshold: 54%
+  threshold: 68%
   filters:
     anime_ids:
-    - 52
-    - 59
-    - 155
-    - 156
-    - 177
-    - 232
-    - 371
-    - 372
-    - 435
-    - 439
-    - 595
-    - 596
-    - 793
-    - 807
-    - 861
-    - 969
-    - 1043
-    - 1078
-    - 1496
-    - 1563
-    - 1844
-    - 1954
-    - 2424
-    - 2685
-    - 3091
-    - 4918
-    - 4938
-    - 5678
-    - 6864
-    - 10490
-    - 10681
-    - 33354
-    - 35320
+    - 36517
+    - 2152
+    - 1693
+    - 1247
+    - 442
+    - 971
+    - 1023
+    - 782
+    - 719
+    - 568
+    - 1347
+    - 3670
+    - 2068
+    - 1935
+    - 36871
+    - 28149
+    - 17269
+    - 36194
+    - 14629
+    - 6867
+    - 5505
+    - 22677
+    - 2969
+    - 54
+    - 2461
+    - 38799
   metadata:
-    title_ru: CLAMP
-    title_en: CLAMP
-    image: "/assets/achievements/anime/author/clamp.jpg"
-    border_color: "#007276"
+    title_ru: Синдзи Арамаки
+    title_en: Shinji Aramaki
+    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
+    border_color: "#02ACF4"
     topic_id: 276032
   generator:
-    person_id: 1877
+    person_id: 7454
+- neko_id: kenji_kamiyama
+  level: 1
+  algo: count
+  threshold: 56%
+  filters:
+    anime_ids:
+    - 9629
+    - 6637
+    - 405
+    - 767
+    - 1822
+    - 2733
+    - 570
+    - 36871
+    - 33204
+    - 21587
+    - 10405
+    - 33687
+    - 33686
+    - 33685
+    - 11755
+    - 6372
+    - 5630
+    - 1827
+    - 1566
+    - 801
+    - 467
+    - 38799
+  metadata:
+    title_ru: Кэндзи Камияма
+    title_en: Kenji Kamiyama
+    image: "/assets/achievements/anime/author/kenji_kamiyama.jpg"
+    border_color: "#795F42"
+    topic_id: 276032
+  generator:
+    person_id: 5348
 - neko_id: satoshi_kon
   level: 1
   algo: count
@@ -1304,6 +1297,53 @@
     topic_id: 276032
   generator:
     person_id: 5812
+- neko_id: clamp
+  level: 1
+  algo: count
+  threshold: 54%
+  filters:
+    anime_ids:
+    - 52
+    - 59
+    - 155
+    - 156
+    - 177
+    - 232
+    - 371
+    - 372
+    - 435
+    - 439
+    - 595
+    - 596
+    - 793
+    - 807
+    - 861
+    - 969
+    - 1043
+    - 1078
+    - 1496
+    - 1563
+    - 1844
+    - 1954
+    - 2424
+    - 2685
+    - 3091
+    - 4918
+    - 4938
+    - 5678
+    - 6864
+    - 10490
+    - 10681
+    - 33354
+    - 35320
+  metadata:
+    title_ru: CLAMP
+    title_en: CLAMP
+    image: "/assets/achievements/anime/author/clamp.jpg"
+    border_color: "#007276"
+    topic_id: 276032
+  generator:
+    person_id: 1877
 - neko_id: junichi_satou
   level: 1
   algo: count
@@ -1361,68 +1401,6 @@
     topic_id: 276032
   generator:
     person_id: 4002
-- neko_id: shinji_aramaki
-  level: 1
-  algo: count
-  threshold: 68%
-  filters:
-    anime_ids:
-    - 36517
-    - 2152
-    - 1693
-    - 1247
-    - 442
-    - 971
-    - 1023
-    - 782
-    - 719
-    - 568
-    - 1347
-    - 3670
-    - 2068
-    - 1935
-    - 36871
-    - 28149
-    - 17269
-    - 36194
-    - 14629
-    - 6867
-    - 5505
-    - 22677
-    - 2969
-    - 54
-    - 2461
-    - 38799
-  metadata:
-    title_ru: Синдзи Арамаки
-    title_en: Shinji Aramaki
-    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
-    border_color: "#02ACF4"
-    topic_id: 276032
-  generator:
-    person_id: 7454
-- neko_id: kenji_nakamura
-  level: 1
-  algo: count
-  threshold: 87%
-  filters:
-    anime_ids:
-    - 21039
-    - 23703
-    - 18229
-    - 12883
-    - 10163
-    - 6774
-    - 2246
-    - 586
-  metadata:
-    title_ru: Кэндзи Накамура
-    title_en: Kenji Nakamura
-    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
-    border_color: "#C1A97E"
-    topic_id: 276032
-  generator:
-    person_id: 7217
 - neko_id: go_nagai
   level: 1
   algo: count
@@ -1497,6 +1475,55 @@
     topic_id: 276032
   generator:
     person_id: 2992
+- neko_id: kenji_nakamura
+  level: 1
+  algo: count
+  threshold: 87%
+  filters:
+    anime_ids:
+    - 21039
+    - 23703
+    - 18229
+    - 12883
+    - 10163
+    - 6774
+    - 2246
+    - 586
+  metadata:
+    title_ru: Кэндзи Накамура
+    title_en: Kenji Nakamura
+    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
+    border_color: "#C1A97E"
+    topic_id: 276032
+  generator:
+    person_id: 7217
+- neko_id: katsuhiro_otomo
+  level: 1
+  algo: count
+  threshold: 76%
+  filters:
+    anime_ids:
+    - 17677
+    - 22985
+    - 22983
+    - 7723
+    - 4471
+    - 420
+    - 522
+    - 2000
+    - 13639
+    - 565
+    - 23877
+    - 1951
+    - 47
+  metadata:
+    title_ru: Кацухиро Отомо
+    title_en: Katsuhiro Otomo
+    image: "/assets/achievements/anime/author/katsuhiro_otomo.png"
+    border_color: "#ff0000"
+    topic_id: 276032
+  generator:
+    person_id: 1872
 - neko_id: kouichi_mashimo
   level: 1
   algo: count
@@ -1568,33 +1595,6 @@
     topic_id: 276032
   generator:
     person_id: 5082
-- neko_id: katsuhiro_otomo
-  level: 1
-  algo: count
-  threshold: 76%
-  filters:
-    anime_ids:
-    - 17677
-    - 22985
-    - 22983
-    - 7723
-    - 4471
-    - 420
-    - 522
-    - 2000
-    - 13639
-    - 565
-    - 23877
-    - 1951
-    - 47
-  metadata:
-    title_ru: Кацухиро Отомо
-    title_en: Katsuhiro Otomo
-    image: "/assets/achievements/anime/author/katsuhiro_otomo.png"
-    border_color: "#ff0000"
-    topic_id: 276032
-  generator:
-    person_id: 1872
 - neko_id: yoshitaka_amano
   level: 1
   algo: count
@@ -1626,57 +1626,6 @@
     topic_id: 276032
   generator:
     person_id: 2967
-- neko_id: rumiko_takahashi
-  level: 1
-  algo: count
-  threshold: 62%
-  filters:
-    anime_ids:
-    - 210
-    - 249
-    - 418
-    - 449
-    - 450
-    - 451
-    - 452
-    - 620
-    - 792
-    - 1007
-    - 1008
-    - 1010
-    - 1011
-    - 1293
-    - 1328
-    - 1453
-    - 1481
-    - 1919
-    - 1920
-    - 1921
-    - 1922
-    - 1923
-    - 1924
-    - 1925
-    - 2016
-    - 2017
-    - 2018
-    - 2459
-    - 2460
-    - 2486
-    - 2973
-    - 3787
-    - 6567
-    - 6811
-    - 28423
-    - 31610
-    - 34106
-  metadata:
-    title_ru: Румико Такахаси
-    title_en: Rumiko Takahashi
-    image: "/assets/achievements/anime/author/rumiko_takahashi.jpg"
-    border_color: "#e3b288"
-    topic_id: 276032
-  generator:
-    person_id: 1891
 - neko_id: osamu_dezaki
   level: 1
   algo: count
@@ -1731,6 +1680,114 @@
     topic_id: 276032
   generator:
     person_id: 5393
+- neko_id: rumiko_takahashi
+  level: 1
+  algo: count
+  threshold: 62%
+  filters:
+    anime_ids:
+    - 210
+    - 249
+    - 418
+    - 449
+    - 450
+    - 451
+    - 452
+    - 620
+    - 792
+    - 1007
+    - 1008
+    - 1010
+    - 1011
+    - 1293
+    - 1328
+    - 1453
+    - 1481
+    - 1919
+    - 1920
+    - 1921
+    - 1922
+    - 1923
+    - 1924
+    - 1925
+    - 2016
+    - 2017
+    - 2018
+    - 2459
+    - 2460
+    - 2486
+    - 2973
+    - 3787
+    - 6567
+    - 6811
+    - 28423
+    - 31610
+    - 34106
+  metadata:
+    title_ru: Румико Такахаси
+    title_en: Rumiko Takahashi
+    image: "/assets/achievements/anime/author/rumiko_takahashi.jpg"
+    border_color: "#e3b288"
+    topic_id: 276032
+  generator:
+    person_id: 1891
+- neko_id: leiji_matsumoto
+  level: 1
+  algo: count
+  threshold: 68%
+  filters:
+    anime_ids:
+    - 731
+    - 3072
+    - 1652
+    - 3069
+    - 1651
+    - 1650
+    - 3854
+    - 3602
+    - 1302
+    - 1301
+    - 1491
+    - 37082
+    - 3071
+    - 3067
+    - 2470
+    - 1000
+    - 5515
+    - 8707
+    - 17165
+    - 8939
+    - 23249
+    - 17269
+    - 12029
+    - 12677
+    - 1377
+    - 2717
+    - 1490
+    - 1713
+    - 1081
+    - 1706
+    - 1677
+    - 1676
+    - 1495
+    - 9344
+    - 1645
+    - 2019
+    - 1553
+    - 2500
+    - 7156
+    - 2203
+    - 2202
+    - 1549
+    - 1548
+  metadata:
+    title_ru: Лэйдзи Мацумото
+    title_en: Leiji Matsumoto
+    image: "/assets/achievements/anime/author/leiji_matsumoto.jpg"
+    border_color: "#e5ebe3"
+    topic_id: 276032
+  generator:
+    person_id: 2597
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: count
@@ -1799,63 +1856,6 @@
     topic_id: 276032
   generator:
     person_id: 2337
-- neko_id: leiji_matsumoto
-  level: 1
-  algo: count
-  threshold: 68%
-  filters:
-    anime_ids:
-    - 731
-    - 3072
-    - 1652
-    - 3069
-    - 1651
-    - 1650
-    - 3854
-    - 3602
-    - 1302
-    - 1301
-    - 1491
-    - 37082
-    - 3071
-    - 3067
-    - 2470
-    - 1000
-    - 5515
-    - 8707
-    - 17165
-    - 8939
-    - 23249
-    - 17269
-    - 12029
-    - 12677
-    - 1377
-    - 2717
-    - 1490
-    - 1713
-    - 1081
-    - 1706
-    - 1677
-    - 1676
-    - 1495
-    - 9344
-    - 1645
-    - 2019
-    - 1553
-    - 2500
-    - 7156
-    - 2203
-    - 2202
-    - 1549
-    - 1548
-  metadata:
-    title_ru: Лэйдзи Мацумото
-    title_en: Leiji Matsumoto
-    image: "/assets/achievements/anime/author/leiji_matsumoto.jpg"
-    border_color: "#e5ebe3"
-    topic_id: 276032
-  generator:
-    person_id: 2597
 - neko_id: rintaro
   level: 1
   algo: count
