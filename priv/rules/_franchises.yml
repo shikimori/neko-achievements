@@ -68,6 +68,9 @@
     title_en: Sword Art Online
     image: "/assets/achievements/anime/franchise/sword_art_online.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 42916
 - neko_id: sword_art_online
   level: 0
   algo: duration
@@ -146,6 +149,7 @@
     franchise: boku_no_hero_academia
     not_anime_ids:
     - 35262
+    - 43683
   threshold: 95%
   metadata: &15
     title_ru: Моя геройская академия
@@ -290,6 +294,8 @@
     - 34438
     - 40315
     - 40334
+    - 41075
+    - 40836
   threshold: 95%
   metadata: &29
     title_ru: Код Гиас
@@ -896,6 +902,7 @@
     threshold: 95%
     ignore_latest_ids:
     - 40416
+    - 42423
 - neko_id: date_a_live
   level: 0
   algo: duration
