@@ -468,6 +468,8 @@
     - 38055
     - 43745
     - 43751
+    - 43745
+    - 43751
   threshold: 93.4%
   metadata: &49
     title_ru: Евангелион
@@ -544,6 +546,7 @@
     - 32869
     - 32870
     - 32871
+    - 35327
   threshold: 92.8%
   metadata: &57
     title_ru: Баскетбол Куроко
@@ -611,6 +614,7 @@
     - 33050
     - 38086
     - 38085
+    - 42030
     not_ignored_ids:
     - 33049
     - 33050
@@ -1020,6 +1024,7 @@
     not_anime_ids:
     - 27829
     - 32264
+    - 43483
   threshold: 95%
   metadata: &109
     title_ru: Индекс волшебства
@@ -1049,6 +1054,12 @@
     - 36242
     - 38419
     - 40181
+    - 28683
+    - 2680
+    - 12001
+    - 15323
+    - 19123
+    - 37902
   threshold: 93.7%
   metadata: &111
     title_ru: Ван-Пис
@@ -1216,6 +1227,9 @@
     title_en: Grisaia no Kajitsu
     image: "/assets/achievements/anime/franchise/grisaia.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 42392
   generator: &131
     threshold: 99%
 - neko_id: grisaia
@@ -1265,6 +1279,9 @@
     title_en: Gintama
     image: "/assets/achievements/anime/franchise/gintama.png"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 39486
 - neko_id: gintama
   level: 0
   algo: duration
@@ -1362,6 +1379,7 @@
     franchise: devilman
     not_anime_ids:
     - 35952
+    - 37590
   threshold: 95%
   metadata: &147
     title_ru: Человек-дьявол
@@ -1379,6 +1397,8 @@
   algo: duration
   filters: &148
     franchise: natsume_yuujinchou
+    not_anime_ids:
+    - 19945
   threshold: 95%
   metadata: &149
     title_ru: Тетрадь дружбы Нацумэ
@@ -1482,6 +1502,7 @@
     - 8754
     - 34939
     - 38110
+    - 38112
   threshold: 93%
   metadata: &160
     title_ru: Сказания
@@ -1591,12 +1612,15 @@
     franchise: blood
     not_anime_ids:
     - 14077
+    - 14117
   threshold: 97%
   metadata: &171
     title_ru: Кровь
     title_en: Blood
     image: "/assets/achievements/anime/franchise/blood.png"
     topic_id: 247360
+  generator: 
+    threshold: 100%
 - neko_id: blood
   level: 0
   algo: duration
@@ -1608,6 +1632,8 @@
   algo: duration
   filters: &172
     franchise: junjou_romantica
+    not_anime_ids:
+    - 6553
   threshold: 95%
   metadata: &173
     title_ru: Чистая романтика
@@ -1791,6 +1817,7 @@
     - 35552
     - 36835
     - 37865
+    - 42136
   threshold: 92.9%
   metadata: &192
     title_ru: Покемон
@@ -1875,12 +1902,8 @@
   filters: &201
     franchise: shakugan_no_shana
     not_anime_ids:
-    - 1066
     - 1815
-    - 3221
-    - 3956
     - 6330
-    - 7375
     - 14957
     - 17551
     - 28603
@@ -1925,6 +1948,7 @@
     - 25257
     - 32735
     - 38937
+    - 31676
   threshold: 94.7%
   metadata: &206
     title_ru: Персона
@@ -2302,6 +2326,32 @@
     - 42380
     - 42432
     - 42439
+    - 33228
+    - 9087
+    - 40888
+    - 34519
+    - 19977
+    - 30840
+    - 2305
+    - 83
+    - 33225
+    - 33226
+    - 14007
+    - 9098
+    - 6792
+    - 91
+    - 39592
+    - 40464
+    - 40890
+    - 38714
+    - 33871
+    - 35975
+    - 20355
+    - 24371
+    - 20667
+    - 27907
+    - 2743
+    - 39674
   threshold: 88.4%
   metadata: &246
     title_ru: Мобильный воин Гандам
@@ -2420,6 +2470,7 @@
     - 23933
     - 23935
     - 33947
+    - 38653
   threshold: 95.2%
   metadata: &258
     title_ru: Драконий жемчуг
@@ -2440,6 +2491,7 @@
     not_anime_ids:
     - 6226
     - 6743
+    - 33208
   threshold: 93.3%
   metadata: &260
     title_ru: Прославленный
@@ -2471,8 +2523,12 @@
     - 33152
     - 36269
     - 36760
-    - 38788
     - 40348
+    - 7471
+    - 7305
+    - 7303
+    - 9839
+    - 42476
   threshold: 93.6%
   metadata: &262
     title_ru: Детектив Конан
@@ -2499,12 +2555,16 @@
     not_anime_ids:
     - 1631
     - 36232
+    - 15979
   threshold: 95%
   metadata: &265
     title_ru: Эврика 7
     title_en: Eureka Seven
     image: "/assets/achievements/anime/franchise/eureka_seven.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 35136
 - neko_id: eureka_seven
   level: 0
   algo: duration
@@ -2526,6 +2586,8 @@
     - 33806
     - 35077
     - 38676
+    - 4454
+    - 1504
   threshold: 95%
   metadata: &267
     title_ru: Макросс
@@ -2775,6 +2837,27 @@
     not_anime_ids:
     - 36865
     - 38056
+    - 9884
+    - 6468
+    - 11268
+    - 19961
+    - 32088
+    - 24373
+    - 32087
+    - 19879
+    - 19305
+    - 30144
+    - 34239
+    - 36714
+    - 36664
+    - 33903
+    - 32383
+    - 36761
+    - 36890
+    - 35018
+    - 38001
+    - 38087
+    - 37818
   threshold: 94.3%
   metadata: &295
     title_ru: Осомацу
@@ -2903,7 +2986,7 @@
     not_anime_ids:
     - 4941
     - 7229
-    - 35859
+    - 18669
   threshold: 95%
   metadata: &310
     title_ru: Черный Джек
@@ -2933,23 +3016,6 @@
   filters: *311
   threshold: 0.01
   metadata: *312
-- neko_id: tegamibachi
-  level: 1
-  algo: duration
-  filters: &313
-    franchise: tegamibachi
-  threshold: 84.9%
-  metadata: &314
-    title_ru: Почтовая пчела
-    title_en: Tegamibachi
-    image: "/assets/achievements/anime/franchise/tegamibachi.jpg"
-    topic_id: 247360
-- neko_id: tegamibachi
-  level: 0
-  algo: duration
-  filters: *313
-  threshold: 0.01
-  metadata: *314
 - neko_id: genshiken
   level: 1
   algo: duration
@@ -3062,6 +3128,12 @@
     - 38211
     - 38271
     - 40693
+    - 37215
+    - 38562
+    - 30218
+    - 3406
+    - 39046
+    - 40753
   threshold: 86.1%
   metadata: &327
     title_ru: Идолмастер
@@ -3159,6 +3231,8 @@
     franchise: hack
     not_anime_ids:
     - 36646
+    - 1994
+    - 10390
   threshold: 95%
   metadata: &338
     title_ru: ".хак//"
@@ -3287,6 +3361,7 @@
     - 12585
     - 16964
     - 36913
+    - 24347
   threshold: 90%
   metadata: &351
     title_ru: Инадзума 11
@@ -3571,7 +3646,6 @@
   filters: &381
     franchise: cardfight_vanguard
     not_anime_ids:
-    - 20999
     - 31410
   threshold: 80%
   metadata: &382
@@ -3848,6 +3922,8 @@
   algo: duration
   filters: &412
     franchise: soukyuu_no_fafner
+    not_anime_ids:
+    - 9494
   threshold: 92.1%
   metadata: &413
     title_ru: Небесный Фафнир
@@ -3856,6 +3932,8 @@
     topic_id: 247360
   generator: &414
     threshold: 92.1%
+    ignore_latest_ids:
+    - 41714
 - neko_id: soukyuu_no_fafner
   level: 0
   algo: duration
@@ -4023,6 +4101,10 @@
   algo: duration
   filters: &431
     franchise: beyblade
+    not_anime_ids:
+    - 21479
+    - 10370
+    - 8410
   threshold: 80%
   metadata: &432
     title_ru: Бейблэйд
@@ -4454,6 +4536,9 @@
   algo: duration
   filters: &473
     franchise: captain_tsubasa
+    not_anime_ids:
+    - 39227
+    - 39226
   threshold: 97.1%
   metadata: &474
     title_ru: Капитан Цубаса
