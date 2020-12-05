@@ -1873,27 +1873,6 @@
   filters: *199
   threshold: 0.01
   metadata: *200
-- neko_id: nurarihyon_no_mago
-  level: 1
-  algo: duration
-  filters: &201
-    franchise: nurarihyon_no_mago
-    not_anime_ids:
-    - 9731
-    - 10886
-    - 11083
-  threshold: 100%
-  metadata: &202
-    title_ru: Внук Нурарихёна
-    title_en: Nurarihyon no Mago
-    image: "/assets/achievements/anime/franchise/nurarihyon_no_mago.jpg"
-    topic_id: 247360
-- neko_id: nurarihyon_no_mago
-  level: 0
-  algo: duration
-  filters: *201
-  threshold: 0.01
-  metadata: *202
 - neko_id: shakugan_no_shana
   level: 1
   algo: duration
