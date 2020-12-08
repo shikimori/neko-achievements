@@ -160,6 +160,7 @@
     generator:
   ignore_latest_ids: &17
   - 39565
+  - 44200
 - neko_id: boku_no_hero_academia
   level: 0
   algo: duration
@@ -1058,6 +1059,7 @@
     - 37902
     - 38419
     - 40181
+    - 2107
   threshold: 94.7%
   metadata: &111
     title_ru: Ван-Пис
@@ -1084,10 +1086,6 @@
     - 2449
     - 4672
     - 10090
-    - 10870
-    - 10948
-    - 10949
-    - 10950
     - 17187
     - 19191
     - 19193
@@ -1227,6 +1225,8 @@
     topic_id: 247360
   generator: &131
     threshold: 99%
+    ignore_latest_ids:
+    - 42392
 - neko_id: grisaia
   level: 0
   algo: duration
@@ -1404,6 +1404,7 @@
   generator: &151
     ignore_latest_ids:
     - 36538
+    - 42894
 - neko_id: natsume_yuujinchou
   level: 0
   algo: duration
@@ -1872,27 +1873,6 @@
   filters: *199
   threshold: 0.01
   metadata: *200
-- neko_id: nurarihyon_no_mago
-  level: 1
-  algo: duration
-  filters: &201
-    franchise: nurarihyon_no_mago
-    not_anime_ids:
-    - 9731
-    - 10886
-    - 11083
-  threshold: 100%
-  metadata: &202
-    title_ru: Внук Нурарихёна
-    title_en: Nurarihyon no Mago
-    image: "/assets/achievements/anime/franchise/nurarihyon_no_mago.jpg"
-    topic_id: 247360
-- neko_id: nurarihyon_no_mago
-  level: 0
-  algo: duration
-  filters: *201
-  threshold: 0.01
-  metadata: *202
 - neko_id: shakugan_no_shana
   level: 1
   algo: duration
@@ -2349,6 +2329,10 @@
     - 42380
     - 42432
     - 42439
+    - 14007
+    - 2695
+    - 20667
+    - 24371
   threshold: 87.8%
   metadata: &248
     title_ru: Мобильный воин Гандам
@@ -2456,8 +2440,6 @@
   filters: &259
     franchise: dragon_ball
     not_anime_ids:
-    - 502
-    - 892
     - 6714
     - 11359
     - 11659
@@ -2690,6 +2672,9 @@
     title_en: Little Busters!
     image: "/assets/achievements/anime/franchise/little_busters.jpg"
     topic_id: 247360
+  generator: &291
+    ignore_latest_ids:
+    - 35960
 - neko_id: little_busters
   level: 0
   algo: duration
@@ -2856,6 +2841,8 @@
     - 38001
     - 38056
     - 38087
+    - 39339
+    - 25987
   threshold: 95%
   metadata: &298
     title_ru: Осомацу
@@ -3538,6 +3525,11 @@
     - 34412
     - 34252
     - 32338
+    ignore_latest_ids:
+    - 41462
+    - 41781
+    - 41780
+    - 41782
 - neko_id: bang_dream
   level: 0
   algo: duration
@@ -4103,6 +4095,7 @@
     - 8410
     - 10370
     - 21479
+    - 13231
   threshold: 90%
   metadata: &433
     title_ru: Бейблэйд
