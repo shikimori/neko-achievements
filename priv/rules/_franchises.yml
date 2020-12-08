@@ -157,16 +157,17 @@
     title_en: Boku no Hero Academia
     image: "/assets/achievements/anime/franchise/boku_no_hero_academia.jpg"
     topic_id: 247360
-    generator:
-      ignore_latest_ids:
-      - 39565
-      - 44200
+  generator: &9877
+    ignore_latest_ids:
+    - 39565
+    - 44200
 - neko_id: boku_no_hero_academia
   level: 0
   algo: duration
   filters: *15
   threshold: 0.01
   metadata: *16
+  generator: *9877
 - neko_id: fullmetal_alchemist
   level: 1
   algo: duration
