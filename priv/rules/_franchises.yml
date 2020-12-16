@@ -1744,7 +1744,6 @@
     not_anime_ids:
     - 30953
     - 31128
-    - 32412
     - 36498
   threshold: 100%
   metadata: &186
