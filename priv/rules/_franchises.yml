@@ -4803,3 +4803,51 @@
   filters: *501
   threshold: 0.01
   metadata: *502
+- neko_id: quanzhi_gaoshou
+  level: 1
+  algo: duration
+  filters: 
+    franchise: quanzhi_gaoshou
+  threshold: 100%
+  metadata: 
+    title_ru: Аватар короля
+    title_en: Quanzhi Gaoshou
+    image: https://kawai.shikimori.org/system/user_images/thumbnail/34807/1226876.jpg
+    topic_id: 247360
+- neko_id: idolish7
+  level: 1
+  algo: duration
+  filters: 
+    franchise: idolish7
+    not_anime_ids:
+    - 37710
+  threshold: 100%
+  metadata: 
+    title_ru: Семёрка идолов
+    title_en: IDOLiSH7
+    image: https://kawai.shikimori.org/system/user_images/original/3807/1278071.jpg
+    topic_id: 247360
+- neko_id: golden_kamuy
+  level: 1
+  algo: duration
+  filters: 
+    franchise: golden_kamuy
+    not_anime_ids:
+    - 37755
+  threshold: 100%
+  metadata: 
+    title_ru: Золотое божество
+    title_en: Golden Kamuy
+    image: https://dere.shikimori.org/system/user_images/original/45319/1310524.jpg
+    topic_id: 247360 
+- neko_id: gochuumon_wa_usagi_desu_ka
+  level: 1
+  algo: duration
+  filters: 
+    franchise: gochuumon_wa_usagi_desu_ka
+  threshold: 100%
+  metadata: 
+    title_ru: Заказывали кролика?
+    title_en: Gochuumon wa Usagi Desu ka?
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/1310500.jpg
+    topic_id: 247360
