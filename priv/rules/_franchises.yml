@@ -942,7 +942,7 @@
   metadata: &99
     title_ru: Аватар короля
     title_en: Quanzhi Gaoshou
-    image: "/assets/achievements/anime/franchise/quanzhi_gaoshou.jpg"
+    image: https://kawai.shikimori.org/system/user_images/original/34807/1226876.jpg
     topic_id: 247360
 - neko_id: quanzhi_gaoshou
   level: 0
@@ -3847,26 +3847,28 @@
   filters: &405
     franchise: idolish7
     not_anime_ids:
-    - 32030
-    - 32031
-    - 32446
-    - 33420
-    - 35654
-    - 36289
-    - 37679
     - 37710
-    - 37863
-    - 38052
-    - 40900
-    - 40967
-    - 41099
-    - 41167
   threshold: 100%
   metadata: &406
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
     image: "/assets/achievements/anime/franchise/idolish7.jpg"
     topic_id: 247360
+  generator: 
+    not_ignored_ids:
+    - 32446
+    - 32030
+    - 32031
+    - 33420
+    - 35654
+    - 36289
+    - 37679
+    - 37863
+    - 38052
+    - 40900
+    - 40967
+    - 41099
+    - 41167
 - neko_id: idolish7
   level: 0
   algo: duration
