@@ -3331,12 +3331,16 @@
     - 711
     - 7122
     - 23931
+    - 40554
   threshold: 95%
   metadata: &350
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
     image: "/assets/achievements/anime/franchise/uchuu_senkan_yamato.jpg"
     topic_id: 247360
+  generator: &355
+    ignore_latest_ids:
+    - 40389
 - neko_id: uchuu_senkan_yamato
   level: 0
   algo: duration
