@@ -1913,6 +1913,12 @@
     title_en: Shakugan no Shana
     image: "/assets/achievements/anime/franchise/shakugan_no_shana.png"
     topic_id: 247360
+  generator: 
+    not_ignored_ids:
+    - 1066
+    - 3221
+    - 3956
+    - 7375
 - neko_id: shakugan_no_shana
   level: 0
   algo: duration
@@ -4895,3 +4901,14 @@
   filters: *510
   threshold: 0.01
   metadata: *511
+- neko_id: douluo_dalu
+  level: 1
+  algo: duration
+  filters: 
+    franchise: douluo_dalu
+  threshold: 100%
+  metadata: 
+    title_ru: Боевой континент
+    title_en: Douluo Dalu
+    image: https://nyaa.shikimori.one/system/user_images/original/45319/1323505.jpg
+    topic_id: 247360
