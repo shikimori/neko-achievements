@@ -1800,6 +1800,50 @@
     topic_id: 276032
   generator:
     person_id: 2597
+- neko_id: rintaro
+  level: 1
+  algo: count
+  threshold: 41%
+  filters:
+    anime_ids:
+    - 3800
+    - 4481
+    - 1442
+    - 1016
+    - 2998
+    - 2999
+    - 3115
+    - 25265
+    - 13249
+    - 7314
+    - 1081
+    - 522
+    - 155
+    - 426
+    - 3152
+    - 1148
+    - 2556
+    - 9531
+    - 1951
+    - 5918
+    - 12141
+    - 3599
+    - 3595
+    - 1973
+    - 2997
+    - 496
+    - 1626
+    - 1302
+    - 1000
+    - 6087
+  metadata:
+    title_ru: Ринтаро
+    title_en: Rintaro
+    image: "/assets/achievements/anime/author/rintaro.png"
+    border_color: "#3CB371"
+    topic_id: 276032
+  generator:
+    person_id: 7305
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: count
@@ -1868,50 +1912,6 @@
     topic_id: 276032
   generator:
     person_id: 2337
-- neko_id: rintaro
-  level: 1
-  algo: count
-  threshold: 41%
-  filters:
-    anime_ids:
-    - 3800
-    - 4481
-    - 1442
-    - 1016
-    - 2998
-    - 2999
-    - 3115
-    - 25265
-    - 13249
-    - 7314
-    - 1081
-    - 522
-    - 155
-    - 426
-    - 3152
-    - 1148
-    - 2556
-    - 9531
-    - 1951
-    - 5918
-    - 12141
-    - 3599
-    - 3595
-    - 1973
-    - 2997
-    - 496
-    - 1626
-    - 1302
-    - 1000
-    - 6087
-  metadata:
-    title_ru: Ринтаро
-    title_en: Rintaro
-    image: "/assets/achievements/anime/author/rintaro.png"
-    border_color: "#3CB371"
-    topic_id: 276032
-  generator:
-    person_id: 7305
 - neko_id: ryousuke_takahashi
   level: 1
   algo: count
