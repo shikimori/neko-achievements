@@ -238,12 +238,16 @@
     franchise: nanatsu_no_taizai
     not_anime_ids:
     - 36923
+    - 45567
   threshold: 95.1%
   metadata: &26
     title_ru: Семь смертных грехов
     title_en: Nanatsu no Taizai
     image: "/assets/achievements/anime/franchise/nanatsu_no_taizai.jpg"
     topic_id: 247360
+  generator: &31
+    ignore_latest_ids:
+    - 46420
 - neko_id: nanatsu_no_taizai
   level: 0
   algo: duration
@@ -3260,6 +3264,9 @@
     title_en: Slam Dunk
     image: "/assets/achievements/anime/franchise/slam_dunk.jpg"
     topic_id: 247360
+  generator: &352
+    ignore_latest_ids:
+    - 45649
 - neko_id: slam_dunk
   level: 0
   algo: duration
