@@ -474,7 +474,6 @@
     - 38055
     - 43745
     - 43751
-    - 47307
   threshold: 93.4%
   metadata: &50
     title_ru: Евангелион
@@ -3116,6 +3115,12 @@
     title_en: Hayate no Gotoku!
     image: "/assets/achievements/anime/franchise/hayate_no_gotoku.jpg"
     topic_id: 247360
+- neko_id: hayate_no_gotoku
+  level: 0
+  algo: duration
+  filters: *328
+  threshold: 0.01
+  metadata: *329
 - neko_id: cardcaptor_sakura
   level: 1
   algo: duration
@@ -3129,12 +3134,6 @@
     title_en: Cardcaptor Sakura
     image: "/assets/achievements/anime/franchise/cardcaptor_sakura.jpg"
     topic_id: 247360
-- neko_id: hayate_no_gotoku
-  level: 0
-  algo: duration
-  filters: *328
-  threshold: 0.01
-  metadata: *329
 - neko_id: cardcaptor_sakura
   level: 0
   algo: duration
@@ -4310,6 +4309,12 @@
     title_en: Taiho Shichau zo
     image: "/assets/achievements/anime/franchise/taiho_shichau_zo.jpg"
     topic_id: 247360
+- neko_id: taiho_shichau_zo
+  level: 0
+  algo: duration
+  filters: *454
+  threshold: 0.01
+  metadata: *455
 - neko_id: ad_police
   level: 1
   algo: duration
@@ -4324,12 +4329,6 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
-- neko_id: taiho_shichau_zo
-  level: 0
-  algo: duration
-  filters: *454
-  threshold: 0.01
-  metadata: *455
 - neko_id: ad_police
   level: 0
   algo: duration
@@ -4630,11 +4629,11 @@
     franchise: cyborg
     not_anime_ids:
     - 8394
+    - 31050
     - 32736
     - 32737
     - 33163
     - 40250
-    - 31050
   threshold: 95%
   metadata: &487
     title_ru: Киборг 009
@@ -4715,6 +4714,7 @@
     - 3008
     - 3915
     - 4154
+    - 4578
     - 5344
     - 5475
     - 6889
@@ -4723,7 +4723,6 @@
     - 8921
     - 29739
     - 39707
-    - 4578
   threshold: 95%
   metadata: &495
     title_ru: Приключения во времени
@@ -4813,11 +4812,11 @@
   filters: &504
     franchise: mazinkaiser
     not_anime_ids:
-    - 18365
     - 3898
     - 4385
     - 4386
-  threshold: 93.4%
+    - 18365
+  threshold: 92.4%
   metadata: &505
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
@@ -4906,7 +4905,7 @@
   metadata: &515
     title_ru: Галактический ангел
     title_en: Galaxy Angel
-    image: https://nyaa.shikimori.one/system/user_images/original/34807/1386095.jpg
+    image: "/assets/achievements/anime/franchise/galaxy_angel.jpg"
     topic_id: 247360
 - neko_id: galaxy_angel
   level: 0
