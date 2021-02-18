@@ -2641,6 +2641,7 @@
   generator: &277
     ignore_latest_ids:
     - 38373
+    - 47409
 - neko_id: macross
   level: 0
   algo: duration
@@ -4633,6 +4634,7 @@
     - 32737
     - 33163
     - 40250
+    - 31050
   threshold: 95%
   metadata: &487
     title_ru: Киборг 009
@@ -4721,6 +4723,7 @@
     - 8921
     - 29739
     - 39707
+    - 4578
   threshold: 95%
   metadata: &495
     title_ru: Приключения во времени
@@ -4811,6 +4814,9 @@
     franchise: mazinkaiser
     not_anime_ids:
     - 18365
+    - 3898
+    - 4385
+    - 4386
   threshold: 93.4%
   metadata: &505
     title_ru: Мазинкайзер
@@ -4900,7 +4906,7 @@
   metadata: &515
     title_ru: Галактический ангел
     title_en: Galaxy Angel
-    image: "/assets/achievements/anime/franchise/galaxy_angel.jpg"
+    image: https://nyaa.shikimori.one/system/user_images/original/34807/1386095.jpg
     topic_id: 247360
 - neko_id: galaxy_angel
   level: 0
