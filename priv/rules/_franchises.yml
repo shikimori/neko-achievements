@@ -1599,6 +1599,8 @@
     - 41189
     - 41204
     - 42600
+    - 42783
+    - 42889
   threshold: 95.9%
   metadata: &172
     title_ru: Живая любовь!
@@ -1716,7 +1718,7 @@
     - 8756
     - 13931
     - 25375
-  threshold: 90%
+  threshold: 90.4%
   metadata: &184
     title_ru: Красавица-воин Сейлор Мун
     title_en: Bishoujo Senshi Sailor Moon
@@ -2578,7 +2580,7 @@
     franchise: inuyasha
     not_anime_ids:
     - 31133
-  threshold: 94.2%
+  threshold: 94.3%
   metadata: &271
     title_ru: Инуяся
     title_en: InuYasha
@@ -3935,7 +3937,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 92.1%
+  threshold: 92.2%
   metadata: &417
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4130,7 +4132,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.8%
+  threshold: 91.2%
   metadata: &437
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4224,7 +4226,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 96.7%
+  threshold: 96.2%
   metadata: &447
     title_ru: Айкацу!
     title_en: Aikatsu!
