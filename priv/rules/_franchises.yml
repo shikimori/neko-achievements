@@ -448,8 +448,6 @@
   generator: &47
     ignore_latest_ids:
     - 3786
-    not_ignored_ids:
-    - 3786
 - neko_id: evangelion
   level: 0
   algo: duration
