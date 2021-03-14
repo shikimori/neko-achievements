@@ -439,7 +439,7 @@
     - 43745
     - 43751
     - 47307
-  threshold: 93.4%
+  threshold: 81.7%
   metadata: &46
     title_ru: Евангелион
     title_en: Evangelion
@@ -1060,7 +1060,7 @@
     - 37902
     - 38419
     - 40181
-  threshold: 95.4%
+  threshold: 95.5%
   metadata: &112
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1817,7 +1817,7 @@
     - 37865
     - 42136
     - 42984
-  threshold: 92.9%
+  threshold: 93%
   metadata: &194
     title_ru: Покемон
     title_en: Pokemon
@@ -3935,7 +3935,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 92.2%
+  threshold: 93.1%
   metadata: &417
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4130,7 +4130,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.2%
+  threshold: 91.4%
   metadata: &437
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4224,7 +4224,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 96.2%
+  threshold: 95.8%
   metadata: &447
     title_ru: Айкацу!
     title_en: Aikatsu!
