@@ -1995,6 +1995,7 @@
     not_anime_ids:
     - 821
     - 12725
+    - 47410
   threshold: 95%
   metadata: &214
     title_ru: Инициал Ди
