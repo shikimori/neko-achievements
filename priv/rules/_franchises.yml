@@ -1115,7 +1115,6 @@
     not_anime_ids:
     - 27829
     - 32264
-    - 43483
   threshold: 95%
   metadata: &117
     title_ru: Индекс волшебства
@@ -3450,6 +3449,7 @@
   generator: &364
     ignore_latest_ids:
     - 41674
+    - 48411
 - neko_id: aria
   level: 0
   algo: duration
