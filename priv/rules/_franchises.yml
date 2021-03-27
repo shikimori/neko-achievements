@@ -1115,7 +1115,6 @@
     not_anime_ids:
     - 27829
     - 32264
-    - 43483
   threshold: 95%
   metadata: &117
     title_ru: Индекс волшебства
@@ -2908,6 +2907,8 @@
     - 38056
     - 38087
     - 39339
+    - 46735
+    - 48409
   threshold: 95%
   metadata: &305
     title_ru: Осомацу
@@ -3448,6 +3449,7 @@
   generator: &364
     ignore_latest_ids:
     - 41674
+    - 48411
 - neko_id: aria
   level: 0
   algo: duration
