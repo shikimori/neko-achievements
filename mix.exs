@@ -24,7 +24,8 @@ defmodule Neko.Mixfile do
     # appsignal must be started before application
     # (extra_applications are started before applications)
     [
-      extra_applications: [:logger, :appsignal],
+      # extra_applications: [:logger, :appsignal],
+      extra_applications: [:logger],
       mod: {Neko.Application, []}
     ]
   end
@@ -59,7 +60,7 @@ defmodule Neko.Mixfile do
         :yamler,
         git: "https://github.com/tap349/yamler", branch: "mapping_as_map"
       },
-      {:appsignal, "~> 1.0"},
+      # {:appsignal, "~> 1.0"},
       {:poolboy, "~> 1.5"},
       {:credo, "~> 0.9", only: [:dev, :test], runtime: false}
     ]

@@ -82,6 +82,6 @@ config :neko, :rule_worker_pool,
   # how long poolboy waits for a worker (5_000 by default)
   wait_timeout: 10_000
 
-import_config "appsignal.exs"
+# import_config "appsignal.exs"
 
 import_config "#{Mix.env()}.exs"

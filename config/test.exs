@@ -7,4 +7,4 @@ config :neko, :cowboy, listen_port: 4004
 config :neko, :shikimori, client: Neko.Shikimori.ClientMock
 config :neko, :rules, reader: Neko.Rule.ReaderMock
 
-config :appsignal, :config, active: false
+# config :appsignal, :config, active: false

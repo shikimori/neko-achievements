@@ -9,4 +9,4 @@ else
   config :neko, :shikimori, url: "https://shikimori.one/api/"
 end
 
-config :appsignal, :config, active: false
+# config :appsignal, :config, active: false

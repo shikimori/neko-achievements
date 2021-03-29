@@ -67,5 +67,5 @@ defmodule Neko.Router do
   end
 
   # https://docs.appsignal.com/elixir/integrations/plug.html#incoming-http-requests
-  use Appsignal.Plug
+  # use Appsignal.Plug
 end
