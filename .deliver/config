@@ -17,6 +17,6 @@ post_extract_release_archive() {
     [ -f ~/.profile ] && source ~/.profile
     set -e
     cd $DELIVER_TO/$APP/var $SILENCE
-    rm start_erl.data
+    rm -f start_erl.data
   "
 }
