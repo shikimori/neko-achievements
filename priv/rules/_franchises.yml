@@ -1213,10 +1213,30 @@
   threshold: 0.01
   metadata: *127
   generator: *128
-- neko_id: puella_magi_sonico_magica
+- neko_id: strike_the_blood
   level: 1
   algo: duration
   filters: &129
+    franchise: strike_the_blood
+  threshold: 95%
+  metadata: &130
+    title_ru: Удар крови
+    title_en: Strike the Blood
+    image: "/assets/achievements/anime/franchise/strike_the_blood.jpg"
+    topic_id: 247360
+  generator: &131
+    threshold: 95%
+- neko_id: strike_the_blood
+  level: 0
+  algo: duration
+  filters: *129
+  threshold: 0.01
+  metadata: *130
+  generator: *131
+- neko_id: puella_magi_sonico_magica
+  level: 1
+  algo: duration
+  filters: &132
     franchise: puella_magi_sonico_magica
     not_anime_ids:
     - 10519
@@ -1225,7 +1245,7 @@
     - 23831
     - 35300
   threshold: 100%
-  metadata: &130
+  metadata: &133
     title_ru: Девочка-волшебница Мадока★Волшебство
     title_en: Mahou Shoujo Madoka★Magica
     image: "/assets/achievements/anime/franchise/puella_magi_sonico_magica.jpg"
@@ -1233,29 +1253,9 @@
 - neko_id: puella_magi_sonico_magica
   level: 0
   algo: duration
-  filters: *129
+  filters: *132
   threshold: 0.01
-  metadata: *130
-- neko_id: strike_the_blood
-  level: 1
-  algo: duration
-  filters: &131
-    franchise: strike_the_blood
-  threshold: 95%
-  metadata: &132
-    title_ru: Удар крови
-    title_en: Strike the Blood
-    image: "/assets/achievements/anime/franchise/strike_the_blood.jpg"
-    topic_id: 247360
-  generator: &133
-    threshold: 95%
-- neko_id: strike_the_blood
-  level: 0
-  algo: duration
-  filters: *131
-  threshold: 0.01
-  metadata: *132
-  generator: *133
+  metadata: *133
 - neko_id: grisaia
   level: 1
   algo: duration
@@ -3477,34 +3477,17 @@
   filters: *365
   threshold: 0.01
   metadata: *366
-- neko_id: douluo_dalu
-  level: 1
-  algo: duration
-  filters: &367
-    franchise: douluo_dalu
-  threshold: 95%
-  metadata: &368
-    title_ru: Боевой континент
-    title_en: Douluo Dalu
-    image: "/assets/achievements/anime/franchise/douluo_dalu.jpg"
-    topic_id: 247360
-- neko_id: douluo_dalu
-  level: 0
-  algo: duration
-  filters: *367
-  threshold: 0.01
-  metadata: *368
 - neko_id: show_by_rock
   level: 1
   algo: duration
-  filters: &369
+  filters: &367
     franchise: show_by_rock
     not_anime_ids:
     - 31072
     - 31073
     - 33855
   threshold: 100%
-  metadata: &370
+  metadata: &368
     title_ru: Рок-шоу!
     title_en: Show By Rock!!
     image: "/assets/achievements/anime/franchise/show_by_rock.jpg"
@@ -3512,13 +3495,13 @@
 - neko_id: show_by_rock
   level: 0
   algo: duration
-  filters: *369
+  filters: *367
   threshold: 0.01
-  metadata: *370
+  metadata: *368
 - neko_id: yu_gi_oh
   level: 1
   algo: duration
-  filters: &371
+  filters: &369
     franchise: yu_gi_oh
     not_anime_ids:
     - 5298
@@ -3528,20 +3511,37 @@
     - 32346
     - 33997
   threshold: 87.7%
-  metadata: &372
+  metadata: &370
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
     image: "/assets/achievements/anime/franchise/yu_gi_oh.png"
     topic_id: 247360
-  generator: &373
+  generator: &371
     threshold: 87.7%
 - neko_id: yu_gi_oh
   level: 0
   algo: duration
-  filters: *371
+  filters: *369
   threshold: 0.01
-  metadata: *372
-  generator: *373
+  metadata: *370
+  generator: *371
+- neko_id: douluo_dalu
+  level: 1
+  algo: duration
+  filters: &372
+    franchise: douluo_dalu
+  threshold: 95%
+  metadata: &373
+    title_ru: Боевой континент
+    title_en: Douluo Dalu
+    image: "/assets/achievements/anime/franchise/douluo_dalu.jpg"
+    topic_id: 247360
+- neko_id: douluo_dalu
+  level: 0
+  algo: duration
+  filters: *372
+  threshold: 0.01
+  metadata: *373
 - neko_id: yuu_yuu_hakusho
   level: 1
   algo: duration
@@ -3563,30 +3563,10 @@
   filters: *374
   threshold: 0.01
   metadata: *375
-- neko_id: majutsushi_orphen
-  level: 1
-  algo: duration
-  filters: &376
-    franchise: majutsushi_orphen
-  threshold: 100%
-  metadata: &377
-    title_ru: Волшебник-воин Орфен
-    title_en: Majutsushi Orphen
-    image: "/assets/achievements/anime/franchise/majutsushi_orphen.jpg"
-    topic_id: 247360
-  generator: &378
-    threshold: 100%
-- neko_id: majutsushi_orphen
-  level: 0
-  algo: duration
-  filters: *376
-  threshold: 0.01
-  metadata: *377
-  generator: *378
 - neko_id: mahou_shoujo_lyrical_nanoha
   level: 1
   algo: duration
-  filters: &379
+  filters: &376
     franchise: mahou_shoujo_lyrical_nanoha
     not_anime_ids:
     - 176
@@ -3598,7 +3578,7 @@
     - 37933
     - 37934
   threshold: 95%
-  metadata: &380
+  metadata: &377
     title_ru: Лиричная волшебница Наноха
     title_en: Mahou Shoujo Lyrical Nanoha
     image: "/assets/achievements/anime/franchise/mahou_shoujo_lyrical_nanoha.jpg"
@@ -3606,9 +3586,29 @@
 - neko_id: mahou_shoujo_lyrical_nanoha
   level: 0
   algo: duration
-  filters: *379
+  filters: *376
   threshold: 0.01
-  metadata: *380
+  metadata: *377
+- neko_id: majutsushi_orphen
+  level: 1
+  algo: duration
+  filters: &378
+    franchise: majutsushi_orphen
+  threshold: 100%
+  metadata: &379
+    title_ru: Волшебник-воин Орфен
+    title_en: Majutsushi Orphen
+    image: "/assets/achievements/anime/franchise/majutsushi_orphen.jpg"
+    topic_id: 247360
+  generator: &380
+    threshold: 100%
+- neko_id: majutsushi_orphen
+  level: 0
+  algo: duration
+  filters: *378
+  threshold: 0.01
+  metadata: *379
+  generator: *380
 - neko_id: bang_dream
   level: 1
   algo: duration
@@ -4105,10 +4105,30 @@
   filters: *432
   threshold: 0.01
   metadata: *433
-- neko_id: pretty_cure
+- neko_id: saki
   level: 1
   algo: duration
   filters: &434
+    franchise: saki
+    not_anime_ids:
+    - 7759
+    - 30292
+  threshold: 91%
+  metadata: &435
+    title_ru: Саки
+    title_en: Saki
+    image: "/assets/achievements/anime/franchise/saki.jpg"
+    topic_id: 247360
+- neko_id: saki
+  level: 0
+  algo: duration
+  filters: *434
+  threshold: 0.01
+  metadata: *435
+- neko_id: pretty_cure
+  level: 1
+  algo: duration
+  filters: &436
     franchise: pretty_cure
     not_anime_ids:
     - 10736
@@ -4117,12 +4137,12 @@
     - 33669
     - 37051
   threshold: 91.3%
-  metadata: &435
+  metadata: &437
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
     image: "/assets/achievements/anime/franchise/pretty_cure.jpg"
     topic_id: 247360
-  generator: &436
+  generator: &438
     ignore_latest_ids:
     - 38850
     - 42422
@@ -4130,30 +4150,10 @@
 - neko_id: pretty_cure
   level: 0
   algo: duration
-  filters: *434
+  filters: *436
   threshold: 0.01
-  metadata: *435
-  generator: *436
-- neko_id: saki
-  level: 1
-  algo: duration
-  filters: &437
-    franchise: saki
-    not_anime_ids:
-    - 7759
-    - 30292
-  threshold: 91%
-  metadata: &438
-    title_ru: Саки
-    title_en: Saki
-    image: "/assets/achievements/anime/franchise/saki.jpg"
-    topic_id: 247360
-- neko_id: saki
-  level: 0
-  algo: duration
-  filters: *437
-  threshold: 0.01
-  metadata: *438
+  metadata: *437
+  generator: *438
 - neko_id: transformers
   level: 1
   algo: duration
@@ -4242,39 +4242,17 @@
   filters: *446
   threshold: 0.01
   metadata: *447
-- neko_id: beyblade
-  level: 1
-  algo: duration
-  filters: &448
-    franchise: beyblade
-    not_anime_ids:
-    - 8410
-    - 10370
-    - 13231
-    - 21479
-  threshold: 90%
-  metadata: &449
-    title_ru: Бейблэйд
-    title_en: Beyblade
-    image: "/assets/achievements/anime/franchise/beyblade.jpg"
-    topic_id: 247360
-- neko_id: beyblade
-  level: 0
-  algo: duration
-  filters: *448
-  threshold: 0.01
-  metadata: *449
 - neko_id: seikai_no_senki
   level: 1
   algo: duration
-  filters: &450
+  filters: &448
     franchise: seikai_no_senki
     not_anime_ids:
     - 399
     - 1381
     - 39333
   threshold: 97.5%
-  metadata: &451
+  metadata: &449
     title_ru: Звёздный герб
     title_en: Seikai no Monshou
     image: "/assets/achievements/anime/franchise/seikai_no_senki.png"
@@ -4282,24 +4260,46 @@
 - neko_id: seikai_no_senki
   level: 0
   algo: duration
-  filters: *450
+  filters: *448
   threshold: 0.01
-  metadata: *451
+  metadata: *449
 - neko_id: d_c
   level: 1
   algo: duration
-  filters: &452
+  filters: &450
     franchise: d_c
     not_anime_ids:
     - 4508
     - 17020
   threshold: 95%
-  metadata: &453
+  metadata: &451
     title_ru: С начала
     title_en: Da Capo
     image: "/assets/achievements/anime/franchise/d_c.png"
     topic_id: 247360
 - neko_id: d_c
+  level: 0
+  algo: duration
+  filters: *450
+  threshold: 0.01
+  metadata: *451
+- neko_id: beyblade
+  level: 1
+  algo: duration
+  filters: &452
+    franchise: beyblade
+    not_anime_ids:
+    - 8410
+    - 10370
+    - 13231
+    - 21479
+  threshold: 90%
+  metadata: &453
+    title_ru: Бейблэйд
+    title_en: Beyblade
+    image: "/assets/achievements/anime/franchise/beyblade.jpg"
+    topic_id: 247360
+- neko_id: beyblade
   level: 0
   algo: duration
   filters: *452
@@ -4791,12 +4791,6 @@
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
     topic_id: 247360
-- neko_id: konjiki_no_gash_bell
-  level: 0
-  algo: duration
-  filters: *500
-  threshold: 0.01
-  metadata: *501
 - neko_id: el_hazard
   level: 1
   algo: duration
@@ -4808,6 +4802,12 @@
     title_en: El Hazard
     image: "/assets/achievements/anime/franchise/el_hazard.jpg"
     topic_id: 247360
+- neko_id: konjiki_no_gash_bell
+  level: 0
+  algo: duration
+  filters: *500
+  threshold: 0.01
+  metadata: *501
 - neko_id: el_hazard
   level: 0
   algo: duration
