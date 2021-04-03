@@ -1846,6 +1846,7 @@
   generator: &198
     ignore_latest_ids:
     - 35645
+    - 48573
     not_ignored_ids:
     - 36684
     - 36685
@@ -2474,6 +2475,7 @@
     - 23935
     - 33947
     - 38653
+    - 48617
   threshold: 95.1%
   metadata: &261
     title_ru: Драконий жемчуг
@@ -2553,6 +2555,7 @@
     - 36760
     - 40348
     - 42476
+    - 47413
   threshold: 94.1%
   metadata: &268
     title_ru: Детектив Конан
