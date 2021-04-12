@@ -3,7 +3,7 @@ APP="neko"
 # https://github.com/edeliver/edeliver/wiki/Auto-Versioning
 AUTO_VERSION=build-date+git-branch+git-revision
 
-BUILD_HOST="88.198.7.116"
+BUILD_HOST="135.181.210.175"
 BUILD_USER="neko"
 BUILD_AT="/tmp/edeliver/neko/builds"
 
