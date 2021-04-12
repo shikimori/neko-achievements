@@ -78,7 +78,7 @@ defmodule Neko.Mixfile do
     Mix.Task.run(:edeliver, ["update", "production"])
     Mix.shell().info("[neko updated]")
 
-    Mix.Task.run(:cmd, ["ssh devops@88.198.7.116 sudo systemctl restart neko"])
+    Mix.Task.run(:cmd, ["ssh devops@shiki sudo systemctl restart neko"])
     Mix.shell().info("[neko restarted]")
 
     # Mix.Task.rerun(:edeliver, ["ping", "production"])

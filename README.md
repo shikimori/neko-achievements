@@ -2,9 +2,21 @@
 
 [![CircleCI](https://circleci.com/gh/shikimori/neko-achievements.svg?style=svg)](https://circleci.com/gh/shikimori/neko-achievements)
 
-## local start
+## installation
+
+Install `asfg` in your system.
+
+Install dependencies.
 
 ```sh
+asdf install elixir
+asdf install erlang
+```
+
+
+## local run
+
+```
 # with REPL
 $ iex -S mix
 # without REPL
