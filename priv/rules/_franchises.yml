@@ -1866,7 +1866,7 @@
     - 2920
     - 2922
     - 37703
-  threshold: 100%
+  threshold: 95%
   metadata: &200
     title_ru: Завтрашний Джо
     title_en: Ashita no Joe
@@ -3982,7 +3982,7 @@
   algo: duration
   filters: &421
     franchise: doupo_cangqiong
-  threshold: 100%
+  threshold: 95%
   metadata: &422
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
@@ -4938,3 +4938,27 @@
   filters: *516
   threshold: 0.01
   metadata: *517
+- neko_id: danball_senki
+  level: 1
+  algo: duration
+  filters: 
+    franchise: danball_senki
+    not_anime_ids:
+    - 15785
+  threshold: 100%
+  metadata: 
+    title_ru: Хроники карточных битв
+    title_en: Danball Senki
+    image: https://dere.shikimori.org/system/user_images/original/358/1441239.jpg
+    topic_id: 247360
+- neko_id: non_non_biyori
+  level: 1
+  algo: duration
+  filters: 
+    franchise: non_non_biyori
+  threshold: 100%
+  metadata: 
+    title_ru: Деревенская глубинка
+    title_en: Non Non Biyori
+    image: https://dere.shikimori.org/system/user_images/original/50587/1451634.jpg
+    topic_id: 247360
