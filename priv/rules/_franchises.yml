@@ -1598,6 +1598,8 @@
     - 42600
     - 42783
     - 42889
+    - 48377
+    - 48378
   threshold: 95.9%
   metadata: &172
     title_ru: Живая любовь!
@@ -1866,7 +1868,7 @@
     - 2920
     - 2922
     - 37703
-  threshold: 95%
+  threshold: 100%
   metadata: &200
     title_ru: Завтрашний Джо
     title_en: Ashita no Joe
@@ -3551,7 +3553,7 @@
     - 2125
     - 2126
     - 6964
-  threshold: 98.9%
+  threshold: 98.2%
   metadata: &375
     title_ru: Отчёт о буйстве духов
     title_en: Yuu☆Yuu☆Hakusho
@@ -3982,7 +3984,7 @@
   algo: duration
   filters: &421
     franchise: doupo_cangqiong
-  threshold: 95%
+  threshold: 100%
   metadata: &422
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
@@ -4168,7 +4170,7 @@
     - 39101
     - 39102
     - 39162
-  threshold: 90%
+  threshold: 99.3%
   metadata: &440
     title_ru: Трансформеры
     title_en: Transformers
@@ -4230,7 +4232,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 95.5%
+  threshold: 95.4%
   metadata: &447
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -4409,7 +4411,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 88.5%
+  threshold: 84.7%
   metadata: &463
     title_ru: При Пара
     title_en: PriPara
@@ -4791,6 +4793,12 @@
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
     topic_id: 247360
+- neko_id: konjiki_no_gash_bell
+  level: 0
+  algo: duration
+  filters: *500
+  threshold: 0.01
+  metadata: *501
 - neko_id: el_hazard
   level: 1
   algo: duration
@@ -4802,12 +4810,6 @@
     title_en: El Hazard
     image: "/assets/achievements/anime/franchise/el_hazard.jpg"
     topic_id: 247360
-- neko_id: konjiki_no_gash_bell
-  level: 0
-  algo: duration
-  filters: *500
-  threshold: 0.01
-  metadata: *501
 - neko_id: el_hazard
   level: 0
   algo: duration
@@ -4941,24 +4943,36 @@
 - neko_id: danball_senki
   level: 1
   algo: duration
-  filters: 
+  filters: &518
     franchise: danball_senki
     not_anime_ids:
     - 15785
-  threshold: 100%
-  metadata: 
+  threshold: 99.7%
+  metadata: &519
     title_ru: Хроники карточных битв
     title_en: Danball Senki
-    image: https://dere.shikimori.org/system/user_images/original/358/1441239.jpg
+    image: "/assets/achievements/anime/franchise/danball_senki.jpg"
     topic_id: 247360
+- neko_id: danball_senki
+  level: 0
+  algo: duration
+  filters: *518
+  threshold: 0.01
+  metadata: *519
 - neko_id: non_non_biyori
   level: 1
   algo: duration
-  filters: 
+  filters: &520
     franchise: non_non_biyori
   threshold: 100%
-  metadata: 
+  metadata: &521
     title_ru: Деревенская глубинка
     title_en: Non Non Biyori
-    image: https://dere.shikimori.org/system/user_images/original/50587/1451634.jpg
+    image: "/assets/achievements/anime/franchise/non_non_biyori.jpg"
     topic_id: 247360
+- neko_id: non_non_biyori
+  level: 0
+  algo: duration
+  filters: *520
+  threshold: 0.01
+  metadata: *521
