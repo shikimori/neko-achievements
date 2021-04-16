@@ -314,6 +314,36 @@
     topic_id: 276032
   generator:
     person_id: 6369
+- neko_id: shinichiro_watanabe
+  level: 1
+  algo: count
+  threshold: 62%
+  filters:
+    anime_ids:
+    - 2053
+    - 474
+    - 1
+    - 5
+    - 1303
+    - 3508
+    - 205
+    - 12531
+    - 20057
+    - 23327
+    - 23283
+    - 36308
+    - 37435
+    - 875
+    - 4087
+    - 13203
+  metadata:
+    title_ru: Синъитиро Ватанабэ
+    title_en: Shinichiro Watanabe
+    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
+    border_color: "#000000"
+    topic_id: 276032
+  generator:
+    person_id: 2009
 - neko_id: key
   level: 1
   algo: count
@@ -353,36 +383,6 @@
     topic_id: 276032
   generator:
     person_id: 2885
-- neko_id: shinichiro_watanabe
-  level: 1
-  algo: count
-  threshold: 62%
-  filters:
-    anime_ids:
-    - 2053
-    - 474
-    - 1
-    - 5
-    - 1303
-    - 3508
-    - 205
-    - 12531
-    - 20057
-    - 23327
-    - 23283
-    - 36308
-    - 37435
-    - 875
-    - 4087
-    - 13203
-  metadata:
-    title_ru: Синъитиро Ватанабэ
-    title_en: Shinichiro Watanabe
-    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
-    border_color: "#000000"
-    topic_id: 276032
-  generator:
-    person_id: 2009
 - neko_id: yasuhiro_takemoto
   level: 1
   algo: count
@@ -523,38 +523,6 @@
     topic_id: 276032
   generator:
     person_id: 5089
-- neko_id: gen_urobuchi
-  level: 1
-  algo: count
-  threshold: 76%
-  filters:
-    anime_ids:
-    - 438
-    - 5682
-    - 9756
-    - 10087
-    - 11741
-    - 11977
-    - 11979
-    - 11981
-    - 13391
-    - 13601
-    - 16524
-    - 21339
-    - 22729
-    - 23319
-    - 33783
-    - 36816
-    - 37897
-    - 40438
-  metadata:
-    title_ru: Гэн Уробути
-    title_en: Gen Urobuchi
-    image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
-    border_color: "#F00100"
-    topic_id: 276032
-  generator:
-    person_id: 10308
 - neko_id: takahiro_oomori
   level: 1
   algo: count
@@ -614,6 +582,38 @@
     topic_id: 276032
   generator:
     person_id: 6671
+- neko_id: gen_urobuchi
+  level: 1
+  algo: count
+  threshold: 76%
+  filters:
+    anime_ids:
+    - 438
+    - 5682
+    - 9756
+    - 10087
+    - 11741
+    - 11977
+    - 11979
+    - 11981
+    - 13391
+    - 13601
+    - 16524
+    - 21339
+    - 22729
+    - 23319
+    - 33783
+    - 36816
+    - 37897
+    - 40438
+  metadata:
+    title_ru: Гэн Уробути
+    title_en: Gen Urobuchi
+    image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
+    border_color: "#F00100"
+    topic_id: 276032
+  generator:
+    person_id: 10308
 - neko_id: chiaki_kon
   level: 1
   algo: count
@@ -1493,28 +1493,6 @@
     topic_id: 276032
   generator:
     person_id: 2992
-- neko_id: kenji_nakamura
-  level: 1
-  algo: count
-  threshold: 87%
-  filters:
-    anime_ids:
-    - 21039
-    - 23703
-    - 18229
-    - 12883
-    - 10163
-    - 6774
-    - 2246
-    - 586
-  metadata:
-    title_ru: Кэндзи Накамура
-    title_en: Kenji Nakamura
-    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
-    border_color: "#C1A97E"
-    topic_id: 276032
-  generator:
-    person_id: 7217
 - neko_id: katsuhiro_otomo
   level: 1
   algo: count
@@ -1543,6 +1521,28 @@
     topic_id: 276032
   generator:
     person_id: 1872
+- neko_id: kenji_nakamura
+  level: 1
+  algo: count
+  threshold: 87%
+  filters:
+    anime_ids:
+    - 21039
+    - 23703
+    - 18229
+    - 12883
+    - 10163
+    - 6774
+    - 2246
+    - 586
+  metadata:
+    title_ru: Кэндзи Накамура
+    title_en: Kenji Nakamura
+    image: "/assets/achievements/anime/author/kenji_nakamura.jpg"
+    border_color: "#C1A97E"
+    topic_id: 276032
+  generator:
+    person_id: 7217
 - neko_id: kouichi_mashimo
   level: 1
   algo: count
