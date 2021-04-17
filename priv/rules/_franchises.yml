@@ -2009,14 +2009,15 @@
   algo: duration
   filters: &215
     franchise: golden_kamuy
-    not_anime_ids:
-    - 37755
   threshold: 100%
   metadata: &216
     title_ru: Золотое божество
     title_en: Golden Kamuy
     image: "/assets/achievements/anime/franchise/golden_kamuy.jpg"
     topic_id: 247360
+  generator: &20
+    not_ignored_ids:
+    - 37755
 - neko_id: golden_kamuy
   level: 0
   algo: duration
