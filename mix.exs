@@ -46,7 +46,14 @@ defmodule Neko.Mixfile do
       {:poison, "~> 4.0"},
       {:httpoison, "~> 1.0"},
       {:edeliver, "~> 1.4"},
-      {:distillery, "~> 2.0"},
+      # https://github.com/bitwalker/distillery/pull/718#issuecomment-660108166
+      # start_erl.data fix was merged into master in 2020 ago but there were no releases since that time
+      {
+        :distillery,
+        github: "bitwalker/distillery",
+        branch: "master",
+        override: true
+      },
       {:mox, "~> 0.4", only: :test},
       # other yaml parsers don't support merging maps
       # (except for Yomel but it fails to start in production)
@@ -58,7 +65,8 @@ defmodule Neko.Mixfile do
       # production and on CircleCI)
       {
         :yamler,
-        git: "https://github.com/tap349/yamler", branch: "mapping_as_map"
+        github: "tap349/yamler",
+        branch: "mapping_as_map"
       },
       # {:appsignal, "~> 1.0"},
       {:poolboy, "~> 1.5"},

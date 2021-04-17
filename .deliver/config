@@ -11,14 +11,14 @@ PRODUCTION_HOSTS="135.181.210.175"
 PRODUCTION_USER="neko"
 DELIVER_TO="/home/apps"
 
-post_extract_release_archive() {
-  status "Removing start_erl.data"
-  __remote "
-    [ -f ~/.profile ] && source ~/.profile
-    set -e
-    if [ -d DELIVER_TO/$APP/var ]; then
-      cd $DELIVER_TO/$APP/var $SILENCE
-      rm -f start_erl.data
-    fi
-  "
-}
+# post_extract_release_archive() {
+#   status "Removing start_erl.data"
+#   __remote "
+#     [ -f ~/.profile ] && source ~/.profile
+#     set -e
+#     if [ -d DELIVER_TO/$APP/var ]; then
+#       cd $DELIVER_TO/$APP/var $SILENCE
+#       rm -f start_erl.data
+#     fi
+#   "
+# }
