@@ -1328,6 +1328,7 @@
   generator: &142
     ignore_latest_ids:
     - 38400
+    - 48830
 - neko_id: free
   level: 0
   algo: duration
@@ -1428,6 +1429,7 @@
     ignore_latest_ids:
     - 36538
     - 42894
+    - 48829
 - neko_id: natsume_yuujinchou
   level: 0
   algo: duration
