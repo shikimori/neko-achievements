@@ -1232,6 +1232,9 @@
     title_en: Mahou Shoujo Madoka★Magica
     image: "/assets/achievements/anime/franchise/puella_magi_sonico_magica.jpg"
     topic_id: 247360
+  generator: &139
+    ignore_latest_ids:
+    - 48820
 - neko_id: puella_magi_sonico_magica
   level: 0
   algo: duration
