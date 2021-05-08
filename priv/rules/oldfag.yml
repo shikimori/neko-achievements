@@ -8,6 +8,8 @@
   metadata:
     title_ru: Ценитель классики
     text_ru: "Раньше было лучше: деревья — выше, трава — зеленее, а аниме — интереснее."
+    title_en: A connoisseur of classics
+    text_en: "It used to be better: the trees were taller, the grass was greener, and the anime was more interesting." 
     image: /assets/achievements/anime/oldfag_1.jpg
     border_color: "#c5d0e6"
     topic_id: 227424
@@ -18,6 +20,8 @@
   metadata:
     title_ru: Золотая коллекция
     text_ru: Запах целлулоида, полароиды, стереорадиолы… Вы помните всё так, как будто это было вчера.
+    title_en: Golden Collection
+    text_en: The smell of celluloid, Polaroids, stereo radios... You remember everything as if it were yesterday.
     image: /assets/achievements/anime/oldfag_2.jpg
     border_color: "#887468"
 
@@ -27,6 +31,8 @@
   metadata:
     title_ru: Ветер ностальгии
     text_ru: Серьезно, сколько вам лет?
+    title_en: The Wind of Nostalgia
+    text_en: Seriously, how old are you?
     image: /assets/achievements/anime/oldfag_3.jpg
     border_color: "#1c1c1c"
 
@@ -36,5 +42,7 @@
   metadata:
     title_ru: Часть минувшей эпохи
     text_ru: Живая легенда. Носишь шляпу кота Перро и здоровался с Осаму Тедзукой.
+    title_en: A part of a bygone era
+    text_en: A living legend. Wearing a Perro cat hat and saying hello to Osamu Tezuka.
     image: /assets/achievements/anime/oldfag_4.gif
     border_color: "#a5a5a5"
