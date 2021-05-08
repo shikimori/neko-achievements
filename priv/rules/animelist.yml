@@ -5,7 +5,9 @@
   threshold: 15
   metadata:
     title_ru: Добро пожаловать!
-    text_ru: Легкой поступью вы вошли в этот мир.
+    text_ru: Легкой поступью Вы вошли в этот мир.
+    title_en: Welcome to the world!
+    text_en: You entered this world with a light footsteps.
     image: /assets/achievements/anime/animelist_1.png
     border_color: "#e52b50"
     topic_id: 227416
@@ -16,6 +18,8 @@
   metadata:
     title_ru: Это всего лишь начало
     text_ru: Ставки начинают расти. Кто-то уже сдался, но вы... Вы ещё в строю.
+    title_en: This is only the beginning
+    text_en: The stakes are beginning to rise. Some have already given up, but you... You're still in line.
     image: /assets/achievements/anime/animelist_2.png
     border_color: "#a5260a"
 
@@ -25,6 +29,8 @@
   metadata:
     title_ru: Мои силы растут!
     text_ru: Вы достигли магического трехзначного числа. Но не время останавливаться, все еще впереди!
+    title_en: My powers are growing!
+    text_en: You have reached the magic three-digit number. But it's not time to stop, everything is still ahead of you!
     image: /assets/achievements/anime/animelist_3.jpg
     border_color: "#6a5acd"
 
@@ -34,6 +40,8 @@
   metadata:
     title_ru: Беззаботный зритель
     text_ru: Ничего серьёзного. Вы лишь успели привыкнуть к тому, что глаза у персонажей больше, чем нос. Если у них вообще есть нос.
+    title_en: Carefree viewer
+    text_en: Nothing serious. You just got used to the fact that the characters' eyes are bigger than their noses. If they have a nose at all.
     image: /assets/achievements/anime/animelist_4.jpg
     border_color: "#6495ED"
 
@@ -43,6 +51,8 @@
   metadata:
      title_ru: Легкая прогулка
      text_ru: В дорогу дальнюю идем по неизведанным тропинкам. Сколько впереди ещё интересного!
+     title_en: A cakewalk
+     text_en: We are going on a long journey along uncharted paths. How many interesting things lie ahead!
      image: /assets/achievements/anime/animelist_5.jpg
      border_color: "#FFDC33"
 
@@ -52,6 +62,8 @@
   metadata:
     title_ru: Эстет
     text_ru: Качественная графика, прекрасное музыкальное сопровождение, интересные сюжеты... эти японские мультики весьма хороши.
+    title_en: Aesthete
+    text_en: High-quality graphics, great music, interesting plots... these Japanese cartoons are quite good.
     image: /assets/achievements/anime/animelist_6.jpg
     border_color: "#C5D0E6"
 
@@ -61,6 +73,8 @@
   metadata:
     title_ru: Есть чем похвастаться
     text_ru: Просмотрено 400 аниме. Это... солидно. Вы можете гордиться собой, определённо.
+    title_en: Something to brag about
+    text_en: Watched 400 anime. That's... trustworthy. You can be proud of yourself, definitely.
     image: /assets/achievements/anime/animelist_7.jpg
     border_color: "#ACB78E"
 
@@ -70,6 +84,8 @@
   metadata:
     title_ru: Много свободного времени?
     text_ru: Одно увлечение может затянуть с головой, но помните, что в мире ещё много приятных вещей...
+    title_en: Lots of free time?
+    text_en: One hobby can suck you in, but remember that there are many more pleasant things in the world...
     image: /assets/achievements/anime/animelist_8.jpg
     border_color: "#3F888F"
 
@@ -79,6 +95,8 @@
   metadata:
     title_ru: Сатанинский предел?
     text_ru: Стремишься стать частью той силы, что вечно хочет зла и вечно совершает благо? Что ж, только внимательно читай те условия контракта, что мелким шрифтом.
+    title_en: Satan's limit?
+    text_en: Do you aspire to be part of that force that always wants evil and always does good? Well, just read the terms of the contract carefully in the fine print.
     image: /assets/achievements/anime/animelist_9.jpg
     border_color: "#ab274f"
 
@@ -88,6 +106,8 @@
   metadata:
     title_ru: Это даже не финальная форма
     text_ru: Ваш единственный путь — вверх. Пора учиться доброй снисходительности.
+    title_en: It's not even the final form.
+    text_en: Your only way is up. It's time to learn good condescension.
     image: /assets/achievements/anime/animelist_10.gif
     border_color: "#20B2AA"
 
@@ -97,6 +117,8 @@
   metadata:
     title_ru: Бесконечное путешествие
     text_ru: У каждого свои звезды. Одним они указывают путь, для других это просто маленькие огоньки. Дорога вперед бесконечна. Хотите ли вы продолжать идти по ней?
+    title_en: Endless Journey
+    text_en: Everyone has their own stars. To some they show the way, to others they are just little lights. The road ahead is endless. Do you want to keep going down it?
     image: /assets/achievements/anime/animelist_11.jpg
     border_color: "#002f55"
 
@@ -106,6 +128,8 @@
   metadata:
     title_ru: Точка невозврата
     text_ru: Вы достигли четырёхзначного числа. Довольны?
+    title_en: Point of no return
+    text_en: You have reached a four-digit number. Are you satisfied? 
     image: /assets/achievements/anime/animelist_12.jpg
     border_color: "#a2a2d0"
 
@@ -119,6 +143,12 @@
       Два котенок — самый смелый
       Три котенок — самый умный
       А четыре — самый шумный
+    title_en: One, two, three, four
+    text_en: |-
+      The first kitten is the whitest
+      The second kitten is the bravest
+      The third kitten is the smartest
+      And the fourth is the noisiest
     image: /assets/achievements/anime/animelist_13.jpg
     border_color: "#C7D0CC"
 
@@ -128,6 +158,8 @@
   metadata:
     title_ru: Гурман
     text_ru: Ваша неразборчивость в потреблении аниме-блюд вызывает трепет, а способность переваривать любой контент — восхищение.
+    title_en: Gourmet
+    text_en: Your indiscriminate consumption of anime food is awe-inspiring, and your ability to digest any content is admirable.
     image: /assets/achievements/anime/animelist_14.jpg
     border_color: "#F64A46"
 
@@ -137,6 +169,8 @@
   metadata:
     title_ru: Маньяк
     text_ru: Это так круто? Возможно, вам следует обратиться к врачу.
+    title_en: Maniac
+    text_en: Is that so cool? Perhaps you should see a doctor.
     image: /assets/achievements/anime/animelist_15.jpg
     border_color: "#ED3CCA"
 
@@ -146,6 +180,8 @@
   metadata:
     title_ru: Герой
     text_ru: Результат интенсивных тренировок на поприще аниме-просмотра — необычный внешний вид, а побочный эффект — стильный костюмчик.
+    title_en: Hero
+    text_en: The result of intensive training in the field of anime-viewing - an unusual appearance, and a side effect - a stylish suit.
     image: /assets/achievements/anime/animelist_16.jpg
     border_color: "#FFDB58"
 
@@ -155,6 +191,8 @@
   metadata:
     title_ru: Голубая кровь
     text_ru: Вы находитесь так высоко! Кто-то восхищается вами, кто-то завидует, и это — заслуженно. Но не стоит задирать нос, помните, что и вы начинали с малого.
+    title_en: Blue Blood
+    text_en: You are so high up! Someone admires you, someone envies you, and it is well-deserved. But don't get cocky, remember that you also started out small.
     image: /assets/achievements/anime/animelist_17.jpg
     border_color: "#fce883"
 
@@ -166,6 +204,10 @@
     text_ru: |-
       Мастер познается в самоограничении.
       И в долгой созерцательной практике.
+    title_en: Enlightened
+    text_en: |-
+      A master is learned through self-restraint.
+      And in long contemplative practice.
     image: /assets/achievements/anime/animelist_18.jpg
     border_color: "#FFBA00"
 
@@ -175,6 +217,8 @@
   metadata:
     title_ru: Легенда
     text_ru: Вы один из избранных. Вам уже даже не нужно хвастаться, потому что все и так слышали о вас.
+    title_en: The Legend
+    text_en: You are one of the chosen ones. You don't even have to brag anymore, because everyone has heard about you.
     image: /assets/achievements/anime/animelist_19.jpg
     border_color: "#003153"
 
@@ -184,5 +228,7 @@
   metadata:
     title_ru: "SlotAchieveName_0020: NULL"
     text_ru: "Description: Теперь вам не нужно аниме, чтобы смотреть аниме."
+    title_en: "SlotAchieveName_0020: NULL"
+    text_en: "Description: Now you don't need anime to watch anime."
     image: /assets/achievements/anime/animelist_20.gif
     border_color: "#231A24"
