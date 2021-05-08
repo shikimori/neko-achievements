@@ -8,6 +8,8 @@
   metadata:
     title_ru: Миг, и ты ее потерял
     text_ru: Все закончилось не успев начаться, остались лишь приятные воспоминания.
+    title_en: A moment, and you lost it.
+    text_en: It was over before it started, leaving only pleasant memories.
     image: /assets/achievements/anime/shortie_1.jpg
     border_color: "#6E5160"
     topic_id: 245151
@@ -18,6 +20,8 @@
   metadata:
     title_ru: Зависимость
     text_ru: Сколько раз вы уже произнесли «еще один» за последние девять часов?
+    title_en: Dependence
+    text_en: How many times have you said "one more" in the last nine hours?
     image: /assets/achievements/anime/shortie_2.jpg
     border_color: "#FAE7B5"
 
@@ -27,6 +31,8 @@
   metadata:
     title_ru: Блок за блоком
     text_ru: Вы, как при игре в тетрис, строите грандиозное из маленьких кусочков.
+    title_en: Block by block
+    text_en: You, as in a game of tetris, build the grandiose out of small pieces.
     image: /assets/achievements/anime/shortie_3.jpg
     border_color: "#425e17"
 
@@ -36,5 +42,7 @@
   metadata:
     title_ru: Великое в малом
     text_ru: Вы узнали, что некоторые из лучших аниме выходят в коротком формате.
+    title_en: The Greatness in Smallness
+    text_en: You've learned that some of the best anime are coming out in a short format.
     image: /assets/achievements/anime/shortie_4.gif
     border_color: "#474a51"
