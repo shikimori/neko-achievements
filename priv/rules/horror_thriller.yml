@@ -10,6 +10,8 @@
   metadata:
     title_ru: Смерть дышит в спину
     text_ru: Практически всё в этом мире умирает. Жизнь — всего лишь незначительная частичка, не более чем секундное явление. Смерть повсеместна.
+    title_en: Death breathes in the back
+    text_en: Almost everything in this world dies. Life is but an insignificant speck, no more than a moment. Death is ubiquitous.
     image: /assets/achievements/anime/horror_thriller_1.jpg
     border_color: "#821d60"
     topic_id: 227420
@@ -20,6 +22,8 @@
   metadata:
     title_ru: Ночной кошмар
     text_ru: Птицей Гермеса меня называют, крылья свои пожирая, сам я себя укрощаю.
+    title_en: Nightmare
+    text_en: The bird of Hermes is my name eating my wings to make me tame.
     image: /assets/achievements/anime/horror_thriller_2.png
     border_color: "#510a0b"
 
@@ -29,7 +33,8 @@
   metadata:
     title_ru: Все чудовища — это люди
     text_ru: Только люди могут смотреть на убийство себе подобных ради развлечения.
-    title_en: All monsters are human
+    title_en: All monsters are humans
+    text_en: Only human beings can watch the killing of their own kind for the sake of entertainment.
     image: /assets/achievements/anime/horror_thriller_3.png
     border_color: "#d7adb1"
 
@@ -39,5 +44,7 @@
   metadata:
     title_ru: Hell
     text_ru: Смотри! Внутри меня ничего нет — там пустота, я даже боль не чувствую.
+    title_en: The Seventh Circle
+    text_en: Look! There's nothing inside me - there's empty, I don't even feel pain.
     image: /assets/achievements/anime/horror_thriller_4.gif
     border_color: "#2a2a2a"
