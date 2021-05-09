@@ -9,6 +9,8 @@
   metadata:
     title_ru: But then I lol'd
     text_ru: Неужели вам понравился японский юмор?
+    title_en: But then I lol'd
+    text_en: Did you really enjoy Japanese humor?
     image: /assets/achievements/anime/comedy_1.jpg
     border_color: "#F08080"
     topic_id: 222035
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Комедиант
     text_ru: Теперь вам известны основы комедии.
+    title_en: Comedian
+    text_en: Now you know the basics of comedy.
     image: /assets/achievements/anime/comedy_2.jpg
     border_color: "#8B0000"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: До колик в животе!
     text_ru: Пародия, каламбур, ирония, сарказм, гротеск — отныне ни одна шутка не проскользнет мимо вас.
+    title_en: Till the stomach cramps
+    text_en: Parody, puns, irony, sarcasm, grotesque - from now on no joke will slip past you.
     image: /assets/achievements/anime/comedy_3.jpg
     border_color: "#2E8B57"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Праздник без конца
     text_ru: Жизнь серьезна всегда, но жить всегда серьезно — нельзя!
+    title_en: A celebration without end
+    text_en: Life is always serious, but living always seriously is impossible!
     image: /assets/achievements/anime/comedy_4.gif
     border_color: "#FFA500"
