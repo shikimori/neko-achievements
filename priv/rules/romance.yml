@@ -9,6 +9,8 @@
   metadata:
     title_ru: Сталкер
     text_ru: Почему ты меня не замечаешь?
+    title_en: Stalker
+    text_en: Why don't you notice me?
     image: /assets/achievements/anime/romance_1.jpg
     border_color: "#e2b801"
     topic_id: 222064
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Первое признание в любви
     text_ru: Если ты не признаешься, она никогда не узнает о твоих чувствах.
+    title_en: First confession of love
+    text_en: If you don't confess, she'll never know how you feel.
     image: /assets/achievements/anime/romance_2.jpg
     border_color: "#DC143C"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Конфетно-букетный период
     text_ru: Любовь — это желание отдавать.
+    title_en: Confetti and Bouquet Period
+    text_en: Love is the desire to give.
     image: /assets/achievements/anime/romance_3.jpg
     border_color: "#f16251"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Эксперт в отношениях
     text_ru: Сердце, полное любви.
+    title_en: Relationship expert
+    text_en: A heart full of love.
     image: /assets/achievements/anime/romance_4.gif
     border_color: "#FAE7B5"
