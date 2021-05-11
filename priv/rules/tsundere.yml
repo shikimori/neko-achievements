@@ -1042,6 +1042,8 @@
   metadata:
     title_ru: Это не то, о чем ты подумал
     text_ru: Н-не то, чтобы я волновалась о тебе, я-ясно?
+    title_en: It's not what you think.
+    text_en: N-not that I'm worried about you, o-okay?
     image: /assets/achievements/anime/tsundere_1.jpg
     border_color: "#FCD975"
     topic_id: 227430
@@ -1052,6 +1054,8 @@
   metadata:
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
+    title_en: Baka!
+    text_en: Shut up! Shut up! Shut up!
     image: /assets/achievements/anime/tsundere_2.jpg
     border_color: "#D5713F"
 
@@ -1061,5 +1065,7 @@
   metadata:
     title_ru: Цундере мне вовсе не интересны!
     text_ru: Ну, если только совсем чуть-чуть...
+    title_en: I'm not interested in tsundere at all!
+    text_en: Well, if only just a little bit...
     image: /assets/achievements/anime/tsundere_3.gif
     border_color: "#cd7f32"
