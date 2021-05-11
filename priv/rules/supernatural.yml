@@ -9,6 +9,8 @@
   metadata:
     title_ru: Первая встреча с духами
     text_ru: Слабое сердце манит демонов. Хотите жить — никогда не расслабляйтесь.
+    title_en: First encounter with spirits
+    text_en: A weak heart beckons demons. If you want to live, never relax.
     image: /assets/achievements/anime/supernatural_1.png
     border_color: "#93bc3c"
     topic_id: 222068
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Обнаружили у себя странные силы?
     text_ru: Сила есть в каждом из нас. Но, когда она пробуждается, важно решить, как её использовать. Иногда мы совсем не готовы к этому.
+    title_en: Have you found strange powers?
+    text_en: The power is in all of us. But when it awakens, it is important to decide how to use it. Sometimes we are not at all ready for it.
     image: /assets/achievements/anime/supernatural_2.png
     border_color: "#070c0e"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: В поисках Ёкаев
     text_ru: Если услышите колокольный звон в горах и, пойдя на звук, увидите дичь, значит, это был рев бога гор.
+    title_en: In Search of the Yokai
+    text_en: If you hear bells ringing in the mountains and go to the sound and see game, it means it was the roar of the mountain god.
     image: /assets/achievements/anime/supernatural_3.png
     border_color: "#b28ec0"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Унесённые призраками
     text_ru: Если забудешь своё имя, то не сможешь вернуться домой.
+    title_en: Gone with the Ghosts
+    text_en: If you forget your name, you can't go home.
     image: /assets/achievements/anime/supernatural_4.gif
     border_color: "#800000"
