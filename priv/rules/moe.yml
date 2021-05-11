@@ -456,6 +456,8 @@
   metadata:
     title_ru: Начинающий моэфаг
     text_ru: Позволь проводить тебя в очаровательный 2D-мир.
+    title_en: Beginning moe-fan
+    text_en: Let me escort you into the enchanted 2D world.
     image: /assets/achievements/anime/moe_1.jpg
     border_color: "#FBCEB1"
     topic_id: 227423
@@ -466,6 +468,8 @@
   metadata:
     title_ru: Лучи кавая
     text_ru: Поражают в самое сердце.
+    title_en: Kawaii Rays
+    text_en: Striking at the heart.
     image: /assets/achievements/anime/moe_2.jpg
     border_color: "#fdbdba"
 
@@ -475,5 +479,7 @@
   metadata:
     title_ru: Первоклассная моэта
     text_ru: Вы приняли слишком большую дозу тортиков и сами стали излучать моэ.
+    title_en: A first-rate moe
+    text_en: You've taken too large a dose of cakes and you've begun to radiate moe yourself.
     image: /assets/achievements/anime/moe_3.gif
     border_color: "#ff0000"
