@@ -9,6 +9,8 @@
   metadata:
     title_ru: Скупая слеза
     text_ru: Это всего лишь дождь.
+    title_en: A stingy tear
+    text_en: It's only rain.
     image: /assets/achievements/anime/drama_1.jpg
     border_color: "#4682B4"
     topic_id: 222044
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Эмпатия среднего уровня
     text_ru: Ну давай, расскажи нам, как плакал над Хатико.
+    title_en: Mid-level empathy
+    text_en: Come on, tell us how you cried over Hachiko.
     image: /assets/achievements/anime/drama_2.jpg
     border_color: "#8B4513"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Идеальная грусть
     text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
+    title_en: Perfect blue
+    text_en: You should show emotion when you want to. There's no need to pretend.
     image: /assets/achievements/anime/drama_3.png
     border_color: "#000000"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Максимальная эмоциональная отзывчивость
     text_ru: Шрамы на сердце других становятся твоими.
+    title_en: Maximum emotional responsiveness
+    text_en: The scars on the heart of others become yours.
     image: /assets/achievements/anime/drama_4.gif
     border_color: "#00008B"
