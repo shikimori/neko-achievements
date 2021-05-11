@@ -9,6 +9,8 @@
   metadata:
     title_ru: Давным-давно, в далекой-далекой галактике...
     text_ru: Как только первый шаг сделаете вы по Тёмному Пути, то свернуть уже не сможете с него.
+    title_en: Once upon a time, in a galaxy far, far away...
+    text_en: Once you take the first step along the Dark Path, you cannot turn away from it.
     image: /assets/achievements/anime/scifi_1.jpg
     border_color: "#923a6c"
     topic_id: 222059
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Изобретатель
     text_ru: Вероятно, вы способны сделать пригодным для использования даже то, что является кучей мусора в глазах других.
+    title_en: Inventor
+    text_en: You are probably able to make usable even what is a pile of garbage in the eyes of others.
     image: /assets/achievements/anime/scifi_2.jpg
     border_color: "#876464"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Безумный ученый
     text_ru: В ваших руках рождается гармония между фантастикой, научными фактами и мистикой.
+    title_en: Mad Scientist
+    text_en: In your hands, a harmony between fiction, scientific fact and mysticism is born.
     image: /assets/achievements/anime/scifi_3.jpg
     border_color: "#423c63"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Великий Разум
     text_ru: Фантастика — это реальность. Всё, о чём вы подумали, осуществляется.
+    title_en: Great Intelligence
+    text_en: Fiction is reality. Everything you thought about is happening.
     image: /assets/achievements/anime/scifi_4.gif
     border_color: "#DAA520"
