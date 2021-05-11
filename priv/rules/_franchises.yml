@@ -440,6 +440,7 @@
     - 43745
     - 43751
     - 47307
+    - 41030
   threshold: 81.7%
   metadata: &46
     title_ru: Евангелион
@@ -2510,6 +2511,9 @@
     title_en: Dragon Ball
     image: "/assets/achievements/anime/franchise/dragon_ball.png"
     topic_id: 247360
+  generator: &268
+    not_ignored_ids:
+    - 502
 - neko_id: dragon_ball
   level: 0
   algo: duration
@@ -3990,7 +3994,7 @@
   algo: duration
   filters: &423
     franchise: doupo_cangqiong
-  threshold: 100%
+  threshold: 95%
   metadata: &424
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
