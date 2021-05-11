@@ -9,6 +9,8 @@
   metadata:
     title_ru: Обычный японский школьник
     text_ru: Довольно заурядно.
+    title_en: The average Japanese schoolboy (or schoolgirl).
+    text_en: Pretty ordinary.
     image: /assets/achievements/anime/slice_of_life_1.png
     border_color: "#1a5369"
     topic_id: 222056
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Житейские мелочи
     text_ru: Полностью погрязли в повседневных делах и симпатичных вещах.
+    title_en: The little things of life
+    text_en: Totally bogged down in the day-to-day business and pretty things.
     image: /assets/achievements/anime/slice_of_life_2.jpg
     border_color: "#884467"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Дзэн
     text_ru: Предельная концентрация на будничной жизни. Когда вы перестали задумыватьcя о прошлом, будущем и начали жить этим моментом?
+    title_en: Zen
+    text_en: The ultimate concentration on everyday life. When did you stop thinking about the past, the future, and start living in the moment?
     image: /assets/achievements/anime/slice_of_life_3.png
     border_color: "#ddada5"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Прима ундина
     text_ru: Вы способны на чудо. Продлить незабываемые мгновения навечно для вас ничего не стоит.
+    title_en: Prima undine
+    text_en: You are capable of a miracle. It costs you nothing to prolong unforgettable moments forever.
     image: /assets/achievements/anime/slice_of_life_4.gif
     border_color: "#597fb9"
