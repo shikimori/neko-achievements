@@ -10,6 +10,8 @@
   metadata:
     title_ru: Эскапизм
     text_ru: Иллюзии захватывают ваш разум.
+    title_en: Escapism
+    text_en: Illusions take over your mind.
     image: /assets/achievements/anime/otaku_1.jpg
     border_color: "#FFDC33"
     topic_id: 227426
@@ -20,6 +22,8 @@
   metadata:
     title_ru: Фетишизм
     text_ru: Как рыба в воде.
+    title_en: Fetishism
+    text_en: Like a duck to water.
     image: /assets/achievements/anime/otaku_2.jpg
     border_color: "#474a51"
 
@@ -29,6 +33,8 @@
   metadata:
     title_ru: NEET
     text_ru: Увлечение эротическим контентом начинает сказываться на вашей реальной жизни.
+    title_en: NEET
+    text_en: The fascination with erotic content is beginning to affect your real life.
     image: /assets/achievements/anime/otaku_3.jpg
     border_color: "#2f4f4f"
 
@@ -38,5 +44,7 @@
   metadata:
     title_ru: Хикикомори
     text_ru: Уровень вашего либидо достиг максимально возможного. Окружающие трепещут.
+    title_en: Hikikomori
+    text_en: Your libido has reached its maximum level. Those around you are in awe.
     image: /assets/achievements/anime/otaku_4.gif
     border_color: "#ff496c"
