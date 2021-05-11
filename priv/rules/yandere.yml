@@ -283,6 +283,7 @@
     title_ru: Ураган
     text_ru: Ураганы имеют одну интересную особенность — в их центре всегда спокойно.
     title_en: Hurricane
+    text_en: Hurricanes have one interesting feature - it is always quiet at their center.
     image: /assets/achievements/anime/yandere_2.png
     border_color: "#9a4cb7"
 
@@ -293,5 +294,6 @@
     title_ru: Безумие
     text_ru: Умри, пожалуйста!
     title_en: Insanity
+    text_en: Die, please!
     image: /assets/achievements/anime/yandere_3.gif
     border_color: "#2F2E2D"
