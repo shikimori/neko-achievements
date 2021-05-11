@@ -9,6 +9,8 @@
   metadata:
     title_ru: Попаданец
     text_ru: Первый шаг в новом мире.
+    title_en: Where am I?
+    text_en: First step in a new world.
     image: /assets/achievements/anime/fantasy_1.png
     border_color: "#de3c20"
     topic_id: 222041
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Искатель приключений
     text_ru: Диковинные вещицы, верные друзья и великие свершения ждут тебя!
+    title_en: Adventurer
+    text_en: Outlandish things, loyal friends, and great accomplishments await you!
     image: /assets/achievements/anime/fantasy_2.png
     border_color: "#472a18"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Герой
     text_ru: Ваши подвиги войдут в историю.
+    title_en: The Hero
+    text_en: Your exploits will go down in history.
     image: /assets/achievements/anime/fantasy_3.jpg
     border_color: "#C5D0E6"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Вершитель
     text_ru: Жизнь, смерть и судьбы народов вы держите в своих руках.
+    title_en: Hooded Justice
+    text_en: You hold the life, death and destinies of nations in your hands.
     image: /assets/achievements/anime/fantasy_4.gif
     border_color: "#003153"
