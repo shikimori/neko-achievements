@@ -393,6 +393,8 @@
   metadata:
     title_ru: Тишина
     text_ru: Кудере молчит только потому что того хочет.
+    title_en: Silence
+    text_en: Kudere is silent only because she wants.
     image: /assets/achievements/anime/kuudere_1.jpg
     border_color: "#9ad1ee"
     topic_id: 227421
@@ -403,6 +405,8 @@
   metadata:
     title_ru: Мудрость
     text_ru: Умный менее всего одинок тогда, когда он находится в одиночестве.
+    title_en: Wisdom
+    text_en: The clever one is least alone when he is alone.
     image: /assets/achievements/anime/kuudere_2.jpg
     border_color: "#4a4a40"
 
@@ -414,5 +418,9 @@
     text_ru: |-
       - Как вы можете оставаться таким холодным?
       - Практика.
+    title_en: Coolness
+    text_en: |-
+      - How can you stay so cold?
+      - Practice.
     image: /assets/achievements/anime/kuudere_3.jpg
     border_color: "#533e41"
