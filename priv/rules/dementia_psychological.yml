@@ -10,6 +10,8 @@
   metadata:
     title_ru: Оно существует
     text_ru: Вы открыли новый и странный мир. Продолжайте просмотр дальше.
+    title_en: It does exist
+    text_en: You have discovered a new and strange world. Keep watching.
     image: /assets/achievements/anime/dementia_psychological_1.jpg
     border_color: "#c71585"
     topic_id: 227417
@@ -20,6 +22,8 @@
   metadata:
     title_ru: Это вообще реально?
     text_ru: Ориентация в пространстве нарушена. Стало трудно отличить реальность и вымысел.
+    title_en: Is it even real?
+    text_en: Orientation in space was disturbed. It became difficult to distinguish between reality and fiction.
     image: /assets/achievements/anime/dementia_psychological_2.jpg
     border_color: "#000000"
 
@@ -29,6 +33,8 @@
   metadata:
     title_ru: Вынос мозга
     text_ru: "*fatal error."
+    title_en: Blew my mind.
+    text_en: "*fatal error."
     image: /assets/achievements/anime/dementia_psychological_3.png
     border_color: "#DC143C"
 
@@ -38,5 +44,7 @@
   metadata:
     title_ru: Вы видели слишком много
     text_ru: Вы превзошли свою природу и теперь находитесь на совершенно другом уровне.
+    title_en: You have seen too much
+    text_en: You have surpassed your nature and are now on a completely different level.
     image: /assets/achievements/anime/dementia_psychological_4.gif
     border_color: "#20B2AA"
