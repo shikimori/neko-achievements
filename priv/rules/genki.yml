@@ -1202,6 +1202,8 @@
   metadata:
     title_ru: Душа компании
     text_ru: Немного со странностями, зато с ним всегда весело.
+    title_en: Soul of the company
+    text_en: He's a little weird, but he's always fun to be with.
     topic_id: 271370
     image: /assets/achievements/anime/genki_1.jpg
     border_color: "#A63233"
@@ -1212,6 +1214,8 @@
   metadata:
     title_ru: Заводила
     text_ru: Втянет в самые захватывающие приключения!
+    title_en: Firestarter
+    text_en: Will pull you into the most exciting adventures!
     image: /assets/achievements/anime/genki_2.jpg
     border_color: "#007276"
 
@@ -1221,5 +1225,7 @@
   metadata:
     title_ru: Человек-праздник
     text_ru: Способен растормошить весь этот скучный мир и взорвать фейерверком!
+    title_en: The Holiday Man
+    text_en: Able to stir up this whole boring world and explode with fireworks!
     image: /assets/achievements/anime/genki_3.gif
     border_color: "#71566F"
