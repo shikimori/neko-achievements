@@ -2531,7 +2531,7 @@
     title_en: Nodame Cantabile
     image: "/assets/achievements/anime/franchise/nodame_cantabile.jpg"
     topic_id: 247360
-  generator: &268
+  generator: &528
     not_ignored_ids:
     - 5656
 - neko_id: nodame_cantabile
@@ -2540,7 +2540,7 @@
   filters: *266
   threshold: 0.01
   metadata: *267
-  generator: *268
+  generator: *528
 - neko_id: utawarerumono
   level: 1
   algo: duration
