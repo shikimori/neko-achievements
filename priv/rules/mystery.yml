@@ -9,6 +9,8 @@
   metadata:
     title_ru: Первое дело
     text_ru: Было непросто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
+    title_en: First case
+    text_en: It wasn't easy, but you managed to catch your first offender. Congratulations, keep up the good work!
     image: /assets/achievements/anime/mystery_1.jpg
     border_color: "#4c514a"
     topic_id: 222047
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Убийца — дворецкий!
     text_ru: Вы не понаслышке знакомы с дедукцией. Вам нет равных среди юных детективов.
+    title_en: The murderer is a butler!
+    text_en: You are no stranger to deduction. You have no equal among young detectives.
     image: /assets/achievements/anime/mystery_2.jpg
     border_color: "#3a59a8"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: За семью печатями
     text_ru: Мэтры детективного дела обращаются к вам за советами.
+    title_en: Behind the Seven Seals
+    text_en: The masters of detective work turn to you for advice.
     image: /assets/achievements/anime/mystery_3.jpg
     border_color: "#3D2B1F"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Великий детектив
     text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
+    title_en: The Grand Detective
+    text_en: Interesting cases are disastrously few! In the field of detective you have achieved everything.
     image: /assets/achievements/anime/mystery_4.gif
     border_color: "#919192"
