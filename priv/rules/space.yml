@@ -9,6 +9,8 @@
   metadata:
     title_ru: 3–2–1... Пуск!
     text_ru: Маленький шаг для одного человека, но гигантский скачок для всего человечества.
+    title_en: 3-2-1... Launch!
+    text_en: That's one small step for man, one giant leap for mankind
     image: /assets/achievements/anime/space_1.png
     border_color: "#172d91"
     topic_id: 227428
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Земля отсюда совсем крошечная
     text_ru: До чего же прекрасна Земля, если глядеть на неё сверху! Однако, не слишком ли тесно? Вашему миру пора расширяться — от маленькой Земли до целой вселенной.
+    title_en: The earth is tiny from here
+    text_en: From this distant vantage point, the Earth might not seem of particular interest. But for us, it's different.
     image: /assets/achievements/anime/space_2.png
     border_color: "#58a6e8"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Межзвездный скиталец
     text_ru: Космос. Он так пуст, но в то же время полон жизни.
+    title_en: Interstellar Wanderer
+    text_en: Space. It is so empty, but at the same time full of life.
     image: /assets/achievements/anime/space_3.png
     border_color: "#bb7171"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Император галактики
     text_ru: Вы правитель всей Вселенной. Неизменный и победоносный. Нет никого с большей силой, чем у вас.
+    title_en: Emperor of the Galaxy
+    text_en: You are the ruler of the entire universe. Unchanging and victorious. There is no one with more power than you.
     image: /assets/achievements/anime/space_4.gif
     border_color: "#e4bd3d"
