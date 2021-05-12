@@ -497,6 +497,8 @@
   metadata:
     title_ru: Так мужественно, что не вздохнуть
     text_ru: Ваши первые шаги в жанре, а борода уже не сбривается.
+    title_en: So courageous that you can't breathe.
+    text_en: Your first steps in the genre, and your beard is no longer shaved off.
     topic_id: 227419
     image: /assets/achievements/anime/gar_1.jpg
     border_color: "#755C48"
@@ -507,6 +509,8 @@
   metadata:
     title_ru: Тестостероновый шторм
     text_ru: Вы больше не помещаетесь в зеркалах.
+    title_en: Testosterone storm
+    text_en: You no longer fit in mirrors.
     image: /assets/achievements/anime/gar_2.jpg
     border_color: "#c79001"
 
@@ -516,5 +520,7 @@
   metadata:
     title_ru: Альфа-самец
     text_ru: Физика играет по вашим правилам.
+    title_en: Alpha male
+    text_en: Physics plays by your rules.
     image: /assets/achievements/anime/gar_3.gif
     border_color: "#c537a3"
