@@ -449,6 +449,8 @@
   metadata:
     title_ru: Контракт заключён
     text_ru: My master, положено начало вашего становления юной волшебницей.
+    title_en: The contract is signed
+    text_en: My master, the beginning of your development as a young sorceress has been laid.
     image: /assets/achievements/anime/mahou_shoujo_1.png
     border_color: "#DC143C"
     topic_id: 222067
@@ -459,6 +461,8 @@
   metadata:
     title_ru: Магия — второе имя
     text_ru: Не важно, какой ваш пол и сколько вам лет, если ваше призвание — нести любовь и справедливость.
+    title_en: Magic is a Second Name
+    text_en: It doesn't matter what your gender or how old you are, as long as your calling is to bring love and justice.
     image: /assets/achievements/anime/mahou_shoujo_2.jpg
     border_color: "#DB7093"
 
@@ -468,6 +472,8 @@
   metadata:
     title_ru: Все враги побеждены
     text_ru: Опасность миновала! Можно возвращаться к семье и школьным друзьям.
+    title_en: All enemies defeated
+    text_en: The danger is over! You can go back to your family and school friends.
     image: /assets/achievements/anime/mahou_shoujo_3.jpg
     border_color: "#4169E1"
 
@@ -477,5 +483,7 @@
   metadata:
     title_ru: Настоящее волшебство?
     text_ru: Вашим силам теперь подвластно само мироздание.
+    title_en: Real magic?
+    text_en: Your powers allow to change the universe
     image: /assets/achievements/anime/mahou_shoujo_4.gif
     border_color: "#FE28A2"
