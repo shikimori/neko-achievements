@@ -8,6 +8,8 @@
   metadata:
     title_ru: Марафонец
     text_ru: 10, 20, 30... 100 эпизодов! Я только разогреваюсь!
+    title_en: Marathoner
+    text_en: 10, 20, 30... 100 episodes! I'm just warming up!
     image: /assets/achievements/anime/longshounen_1.jpg
     border_color: "#A25F2A"
     topic_id: 227422
@@ -18,5 +20,7 @@
   metadata:
     title_ru: Собиратель Колоссов
     text_ru: Вас интересуют только монументальные произведения, ведь на мелочи вы не размениваетесь.
+    title_en: Colossus Collector
+    text_en: You are only interested in monumental works, because you do not change it for trifles.
     image: /assets/achievements/anime/longshounen_2.jpg
     border_color: "#F0D698"
