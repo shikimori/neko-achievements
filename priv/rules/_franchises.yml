@@ -272,6 +272,9 @@
     title_en: Overlord
     image: "/assets/achievements/anime/franchise/overlord.jpg"
     topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 48896
 - neko_id: overlord
   level: 0
   algo: duration
@@ -2512,6 +2515,8 @@
     image: "/assets/achievements/anime/franchise/dragon_ball.png"
     topic_id: 247360
   generator: &268
+    ignore_latest_ids:
+    - 48903
     not_ignored_ids:
     - 502
 - neko_id: dragon_ball
