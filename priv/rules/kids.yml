@@ -13,6 +13,8 @@
   metadata:
     title_ru: Родом из детства
     text_ru: Аниме — это один из маленьких шансов вернуться в детство.
+    title_en: From childhood
+    text_en: Anime is one small chance to go back to childhood.
     image: /assets/achievements/anime/kids_1.jpg
     border_color: "#228b22"
     topic_id: 245150
