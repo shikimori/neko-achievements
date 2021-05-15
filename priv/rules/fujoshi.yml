@@ -10,6 +10,8 @@
   metadata:
     title_ru: Вуайерист-любитель
     text_ru: Поздравляем! В тебе проснулась внутренняя фудзёси!
+    title_en: Amateur Voyeurist
+    text_en: Congratulations! The inner fujoshi has awakened in you!
     image: /assets/achievements/anime/fujoshi_1.png
     border_color: "#e82a8d"
     topic_id: 227418
@@ -20,6 +22,9 @@
   metadata:
     title_ru: Голубок
     text_ru: Поворачивать назад уже слишком поздно. Пора совершить каминг-аут и наконец-то признать свою любовь к "не очень традиционным" историям.
+    # сюда подойдет австралийский вариант moffie, но он будет понятен не всем
+    title_en: Dove
+    text_en: It's too late to turn back now. It's time to make a cameo and finally admit your love for "not so traditional" stories.
     image: /assets/achievements/anime/fujoshi_2.jpg
     border_color: "#e82a8d"
 
@@ -29,6 +34,8 @@
   metadata:
     title_ru: Шиппер
     text_ru: Мужская дружба? Не, не слышали.
+    title_en: Shipper
+    text_en: Male friendship? No, you haven't.
     image: /assets/achievements/anime/fujoshi_3.png
     border_color: "#e82a8d"
 
@@ -38,5 +45,7 @@
   metadata:
     title_ru: Яойный бог
     text_ru: Яой — не жанр. Яой — это стиль жизни.
+    title_en: Yaoi God
+    text_en: Yaoi is not a genre. Yaoi is a way of life.
     image: /assets/achievements/anime/fujoshi_4.gif
     border_color: "#915274"
