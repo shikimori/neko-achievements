@@ -9,6 +9,8 @@
   metadata:
     title_ru: Пилот Evangelion Unit
     text_ru: ОЯШ, полезай в робота!
+    title_en: Evangelion Unit Pilot
+    text_en: Get In The Freaking Robot Shinji
     image: /assets/achievements/anime/mecha_1.jpg
     border_color: "#708090"
     topic_id: 222036
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Hasshin!
     text_ru: Некогда непривычный костюм пилота теперь сидит как влитой. Вы — ас, впереди — бесконечные сражения.
+    title_en: Hasshin!
+    text_en: The once unfamiliar pilot's suit now fits like a glove. You're an ace, with endless battles ahead of you.
     image: /assets/achievements/anime/mecha_2.jpg
     border_color: "#4682B4"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Man of Steel
     text_ru: Можете взять яйцо не раздавив, можете исполнить танцевальное па... но боевой доспех стал вашей второй кожей не для этого.
+    title_en: Man of Steel
+    text_en: You can take an egg without crushing it, you can do a dance move... but that's not what the battle armor was your second skin for.
     image: /assets/achievements/anime/mecha_3.jpg
     border_color: "#B22222"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Ньютайп
     text_ru: ORE WA GUNDAM
+    title_en: Newtype
+    text_en: ORE WA GUNDAM
     image: /assets/achievements/anime/mecha_4.gif
     border_color: "#20B2AA"
