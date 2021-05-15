@@ -9,6 +9,8 @@
   metadata:
     title_ru: Уроки истории
     text_ru: История может быть захватывающей... Вот только не стоит учить ее по аниме.
+    title_en: History Lessons
+    text_en: A history can be fascinating... But don't learn it from an anime.
     image: /assets/achievements/anime/historical_1.jpg
     border_color: "#C5D0E6"
     topic_id: 222065
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Оглянувшись назад
     text_ru: Не знающий своего прошлого, не имеет будущего.
+    title_en: In hindsight
+    text_en: Who does not know his past has no future
     image: /assets/achievements/anime/historical_2.jpg
     border_color: "#4f3542"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Археолог
     text_ru: Разбитая посуда приносит счастье только археологам.
+    title_en: Archaeologist
+    text_en: Broken crockery brings happiness only to archaeologists.
     image: /assets/achievements/anime/historical_3.jpg
     border_color: "#353a58"
 
@@ -36,7 +42,8 @@
   threshold: 100
   metadata:
     title_ru: Путешественник во времени
-    text_ru: |-
-      Машина времени есть у каждого. Для путешествия в прошлое есть воспоминания, а для путешествия в будущее — мечты.
+    text_ru: Машина времени есть у каждого. Для путешествия в прошлое есть воспоминания, а для путешествия в будущее — мечты.
+    title_en: Time Traveler
+    text_en: Everyone has a time machine. There are memories for traveling to the past and dreams for traveling to the future.
     image: /assets/achievements/anime/historical_4.gif
     border_color: "#003153"
