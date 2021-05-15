@@ -9,6 +9,8 @@
   metadata:
     title_ru: Первый заезд
     text_ru: Стартовый свисток дан — вперед!
+    title_en: First race
+    text_en: The starting whistle is blown - go!
     image: /assets/achievements/anime/sports_1.jpg
     border_color: "#FFDC33"
     topic_id: 227429
@@ -19,6 +21,8 @@
   metadata:
     title_ru: С головой ушел в игру
     text_ru: Борьба в самом разгаре, пора войти в Зону.
+    title_en: Got into the game
+    text_en: The fight is in full swing, it's time to enter the Zone.
     image: /assets/achievements/anime/sports_2.jpg
     border_color: "#cc1111"
 
@@ -27,7 +31,9 @@
   threshold: 60
   metadata:
     title_ru: Добро пожаловать в Высшую лигу
-    text_ru: Остался последний рывок до победы.
+    text_ru: Остался последний рывок до победы!
+    title_en: Welcome to the Major League
+    text_en: One last push to win!
     image: /assets/achievements/anime/sports_3.jpg
     border_color: "#82c54f"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Олимпийский чемпион
     text_ru: На вершине пьедестала. Отличная работа!
+    title_en: Olympic champion
+    text_en: On top of the pedestal. Great job!
     image: /assets/achievements/anime/sports_4.gif
     border_color: "#c45812"
