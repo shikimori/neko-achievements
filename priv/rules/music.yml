@@ -9,6 +9,8 @@
   metadata:
     title_ru: Звуки музыки
     text_ru: Они раскрашивают этот мир в яркие цвета.
+    title_en: Sounds of music
+    text_en: They bring brightness to our lives.
     image: /assets/achievements/anime/music_1.jpg
     border_color: "#FBCEB1"
     topic_id: 222061
@@ -19,6 +21,8 @@
   metadata:
     title_ru: Там, где слова бессильны
     text_ru: Музыка – это язык, на котором душа общается с душою, стирая границы условностей.
+    title_en: Where words are powerless.
+    text_en: Music is a language in which the soul communicates with the soul, erasing the boundaries of convention.
     image: /assets/achievements/anime/music_2.jpg
     border_color: "#9DB1CC"
 
@@ -28,6 +32,8 @@
   metadata:
     title_ru: Новая мелодия
     text_ru: В буре страстей и море эмоций рождаются композиции, способные изменить мир.
+    title_en: New Tune
+    text_en: In the storm of passion and the sea of emotion, compositions capable of changing the world are born.
     image: /assets/achievements/anime/music_3.jpg
     border_color: "#7FC7FF"
 
@@ -37,5 +43,7 @@
   metadata:
     title_ru: Играя на струнах души
     text_ru: Музыка – это не просто красивые мелодии, без нее сама жизнь была бы ошибкой.
+    title_en: Playing on the soul's strings
+    text_en: Music is not just beautiful melodies; without it, life itself would be a mistake.
     image: /assets/achievements/anime/music_4.gif
     border_color: "#4D4234"
