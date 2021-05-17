@@ -648,9 +648,6 @@
     - 38086
     - 38085
     - 42030
-    not_ignored_ids:
-    - 33049
-    - 33050
 - neko_id: fate
   level: 0
   algo: duration
@@ -2947,7 +2944,6 @@
     - 38056
     - 38087
     - 39339
-    - 46735
     - 48409
   threshold: 95%
   metadata: &311
