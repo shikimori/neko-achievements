@@ -3361,8 +3361,6 @@
   algo: duration
   filters: &356
     franchise: teekyuu
-    not_anime_ids:
-    - 31669
   threshold: 89.9%
   metadata: &357
     title_ru: Теннис
