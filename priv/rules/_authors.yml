@@ -967,44 +967,6 @@
     topic_id: 276032
   generator:
     person_id: 2501
-- neko_id: morio_asaka
-  level: 1
-  algo: count
-  threshold: 66%
-  filters:
-    anime_ids:
-    - 5678
-    - 1078
-    - 28297
-    - 37379
-    - 14397
-    - 10800
-    - 7193
-    - 7972
-    - 877
-    - 408
-    - 134
-    - 596
-    - 59
-    - 652
-    - 383
-    - 33354
-    - 35320
-    - 372
-    - 371
-    - 232
-    - 2009
-    - 2274
-    - 2017
-    - 2093
-  metadata:
-    title_ru: Морио Асака
-    title_en: Morio Asaka
-    image: "/assets/achievements/anime/author/morio_asaka.jpg"
-    border_color: "#AE050D"
-    topic_id: 276032
-  generator:
-    person_id: 5921
 - neko_id: kouji_morimoto
   level: 1
   algo: count
@@ -1046,6 +1008,44 @@
     topic_id: 276032
   generator:
     person_id: 5066
+- neko_id: morio_asaka
+  level: 1
+  algo: count
+  threshold: 66%
+  filters:
+    anime_ids:
+    - 5678
+    - 1078
+    - 28297
+    - 37379
+    - 14397
+    - 10800
+    - 7193
+    - 7972
+    - 877
+    - 408
+    - 134
+    - 596
+    - 59
+    - 652
+    - 383
+    - 33354
+    - 35320
+    - 372
+    - 371
+    - 232
+    - 2009
+    - 2274
+    - 2017
+    - 2093
+  metadata:
+    title_ru: Морио Асака
+    title_en: Morio Asaka
+    image: "/assets/achievements/anime/author/morio_asaka.jpg"
+    border_color: "#AE050D"
+    topic_id: 276032
+  generator:
+    person_id: 5921
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
@@ -1206,6 +1206,28 @@
     topic_id: 276032
   generator:
     person_id: 7454
+- neko_id: satoshi_kon
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 2832
+    - 1943
+    - 323
+    - 759
+    - 1033
+    - 437
+    - 1462
+    - 2000
+  metadata:
+    title_ru: Сатоси Кон
+    title_en: Satoshi Kon
+    image: "/assets/achievements/anime/author/satoshi_kon.png"
+    border_color: "#FF0000"
+    topic_id: 276032
+  generator:
+    person_id: 4580
 - neko_id: kenji_kamiyama
   level: 1
   algo: count
@@ -1242,28 +1264,6 @@
     topic_id: 276032
   generator:
     person_id: 5348
-- neko_id: satoshi_kon
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 2832
-    - 1943
-    - 323
-    - 759
-    - 1033
-    - 437
-    - 1462
-    - 2000
-  metadata:
-    title_ru: Сатоси Кон
-    title_en: Satoshi Kon
-    image: "/assets/achievements/anime/author/satoshi_kon.png"
-    border_color: "#FF0000"
-    topic_id: 276032
-  generator:
-    person_id: 4580
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: count
