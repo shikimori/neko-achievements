@@ -444,7 +444,7 @@
     - 43745
     - 43751
     - 47307
-  threshold: 81.7%
+  threshold: 81.8%
   metadata: &47
     title_ru: Евангелион
     title_en: Evangelion
@@ -636,7 +636,7 @@
     - 36729
     - 38784
     - 40761
-  threshold: 89.5%
+  threshold: 88.1%
   metadata: &65
     title_ru: Судьба
     title_en: Fate
@@ -1866,8 +1866,8 @@
     - 36835
     - 37865
     - 42136
-    - 42984
     - 42914
+    - 42984
   threshold: 93%
   metadata: &201
     title_ru: Покемон
@@ -2427,7 +2427,7 @@
     - 42380
     - 42432
     - 42439
-  threshold: 88.4%
+  threshold: 87.8%
   metadata: &259
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2591,7 +2591,7 @@
     - 40348
     - 42476
     - 47413
-  threshold: 94.1%
+  threshold: 93.8%
   metadata: &274
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3222,7 +3222,7 @@
     - 39046
     - 40693
     - 40753
-  threshold: 89%
+  threshold: 88.1%
   metadata: &341
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3361,7 +3361,7 @@
   algo: duration
   filters: &356
     franchise: teekyuu
-  threshold: 89.9%
+  threshold: 89.6%
   metadata: &357
     title_ru: Теннис
     title_en: Teekyuu
@@ -3973,7 +3973,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.1%
+  threshold: 93.2%
   metadata: &423
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4126,7 +4126,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.3%
+  threshold: 91.4%
   metadata: &439
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4214,7 +4214,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 95.4%
+  threshold: 94.7%
   metadata: &449
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -4378,7 +4378,6 @@
     - 6971
     - 7307
     - 7619
-    - 8149
     - 8154
     - 8155
     - 8493
@@ -4415,7 +4414,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 84.7%
+  threshold: 84.5%
   metadata: &467
     title_ru: При Пара
     title_en: PriPara
