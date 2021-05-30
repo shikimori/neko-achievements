@@ -5006,3 +5006,14 @@
   filters: *526
   threshold: 0.01
   metadata: *527
+- neko_id: guyver
+  level: 1
+  algo: duration
+  filters: 
+    franchise: guyver
+  threshold: 100%
+  metadata: 
+    title_ru: Гайвер
+    title_en: Guyver
+    image: https://nyaa.shikimori.org/system/user_images/original/34807/1504530.jpg
+    topic_id: 247360
