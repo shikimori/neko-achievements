@@ -4013,7 +4013,7 @@
   algo: duration
   filters: &427
     franchise: doupo_cangqiong
-  threshold: 100%
+  threshold: 97%
   metadata: &428
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
