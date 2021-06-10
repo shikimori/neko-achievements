@@ -1002,6 +1002,7 @@
     - 37902
     - 38419
     - 40181
+    - 46171
   threshold: 95.5%
   metadata: &103
     title_ru: Ван-Пис
@@ -1680,6 +1681,7 @@
     - 42600
     - 48377
     - 48378
+    - 47635
 - neko_id: love_live
   level: 0
   algo: duration
@@ -3021,6 +3023,8 @@
   generator: &312
     ignore_latest_ids:
     - 38201
+    - 49119
+    - 49120
 - neko_id: osomatsu_san
   level: 0
   algo: duration
@@ -3762,6 +3766,7 @@
     - 41781
     - 41780
     - 41782
+    - 45731
 - neko_id: bang_dream
   level: 0
   algo: duration
