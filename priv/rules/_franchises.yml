@@ -15,6 +15,7 @@
     - 39477
     - 39478
     - 42091
+    - 48583
   threshold: 95%
   metadata: &2
     title_ru: Атака титанов
@@ -85,6 +86,7 @@
     - 40489
     - 41341
     - 42128
+    - 42916
   threshold: 95%
   metadata: &9
     title_ru: Мастера Меча Онлайн
@@ -152,6 +154,7 @@
     not_anime_ids:
     - 35262
     - 43683
+    - 44200
   threshold: 95%
   metadata: &16
     title_ru: Моя геройская академия
@@ -220,8 +223,9 @@
     franchise: nanatsu_no_taizai
     not_anime_ids:
     - 36923
-    - 45567
     - 42490
+    - 45567
+    - 46420
   threshold: 95%
   metadata: &24
     title_ru: Семь смертных грехов
@@ -267,6 +271,8 @@
     - 34428
     - 36683
     - 37264
+    - 48895
+    - 48896
   threshold: 92.9%
   metadata: &29
     title_ru: Повелитель
@@ -309,6 +315,7 @@
     - 40334
     - 40836
     - 41075
+    - 44304
   threshold: 95%
   metadata: &32
     title_ru: Код Гиас
@@ -376,6 +383,7 @@
     franchise: danmachi
     not_anime_ids:
     - 40064
+    - 47164
   threshold: 95%
   metadata: &40
     title_ru: Разве плохо искать себе пару в подземелье?
@@ -470,6 +478,7 @@
     not_anime_ids:
     - 3603
     - 38972
+    - 48661
   threshold: 95%
   metadata: &50
     title_ru: Невероятное приключение ДжоДжо
@@ -487,6 +496,8 @@
   algo: duration
   filters: &51
     franchise: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
+    not_anime_ids:
+    - 46431
   threshold: 100%
   metadata: &52
     title_ru: Как и ожидалось, моя школьная романтическая жизнь не удалась
@@ -620,9 +631,11 @@
     - 36064
     - 36729
     - 38784
-    - 40761
     - 40469
-  threshold: 88.1%
+    - 40761
+    - 41497
+    - 42030
+  threshold: 88.3%
   metadata: &63
     title_ru: Судьба
     title_en: Fate
@@ -741,6 +754,8 @@
   algo: duration
   filters: &76
     franchise: bleach
+    not_anime_ids:
+    - 41467
   threshold: 97.5%
   metadata: &77
     title_ru: Блич
@@ -907,6 +922,8 @@
   algo: duration
   filters: &95
     franchise: date_a_live
+    not_anime_ids:
+    - 41461
   threshold: 95%
   metadata: &96
     title_ru: Рандеву с жизнью
@@ -930,6 +947,8 @@
   algo: duration
   filters: &98
     franchise: when_they_cry
+    not_anime_ids:
+    - 48488
   threshold: 95%
   metadata: &99
     title_ru: Когда плачут цикады
@@ -1229,6 +1248,8 @@
     - 11979
     - 23831
     - 35300
+    - 41530
+    - 48820
   threshold: 100%
   metadata: &131
     title_ru: Девочка-волшебница Мадока★Волшебство
@@ -1325,7 +1346,9 @@
     - 37858
     - 37859
     - 37860
+    - 38400
     - 39014
+    - 48830
   threshold: 94.7%
   metadata: &143
     title_ru: Вольный стиль!
@@ -1426,7 +1449,7 @@
     franchise: natsume_yuujinchou
     not_anime_ids:
     - 19945
-  threshold: 95%
+  threshold: 94.4%
   metadata: &155
     title_ru: Тетрадь дружбы Нацумэ
     title_en: Natsume Yuujinchou
@@ -1625,16 +1648,13 @@
     - 32481
     - 32730
     - 36473
+    - 41169
     - 41182
     - 41188
     - 41189
     - 41204
-    - 42600
-    - 42783
-    - 42889
-    - 48377
-    - 48378
-  threshold: 95.9%
+    - 48916
+  threshold: 95.4%
   metadata: &177
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -1798,6 +1818,8 @@
   algo: duration
   filters: &193
     franchise: quanzhi_fashi
+    not_anime_ids:
+    - 48941
   threshold: 100%
   metadata: &194
     title_ru: Маг на полную ставку
@@ -1819,6 +1841,7 @@
     - 2920
     - 2922
     - 37703
+    - 48678
   threshold: 100%
   metadata: &196
     title_ru: Завтрашний Джо
@@ -1874,9 +1897,9 @@
     - 36835
     - 37865
     - 42136
+    - 42174
     - 42914
     - 42984
-    - 42174
   threshold: 93%
   metadata: &201
     title_ru: Покемон
@@ -1898,6 +1921,8 @@
   algo: duration
   filters: &203
     franchise: uta_no_prince_sama
+    not_anime_ids:
+    - 48573
   threshold: 95%
   metadata: &204
     title_ru: Поющий принц
@@ -2114,6 +2139,7 @@
     - 31989
     - 35082
     - 37577
+    - 39894
   threshold: 85%
   metadata: &227
     title_ru: Звучи, эуфониум!
@@ -2211,6 +2237,8 @@
   algo: duration
   filters: &238
     franchise: baki
+    not_anime_ids:
+    - 42940
   threshold: 95%
   metadata: &239
     title_ru: Боец Баки
@@ -2310,6 +2338,8 @@
   algo: duration
   filters: &249
     franchise: hetalia
+    not_anime_ids:
+    - 48627
   threshold: 90%
   metadata: &250
     title_ru: Хеталия
@@ -2427,7 +2457,11 @@
     - 35949
     - 35975
     - 36436
+    - 37765
     - 38714
+    - 38716
+    - 38717
+    - 38982
     - 39592
     - 39674
     - 40464
@@ -2436,7 +2470,9 @@
     - 42380
     - 42432
     - 42439
-  threshold: 87.8%
+    - 43204
+    - 49073
+  threshold: 87.6%
   metadata: &259
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2498,8 +2534,9 @@
     - 23935
     - 33947
     - 38653
-    - 48617
     - 42449
+    - 48617
+    - 48903
   threshold: 95.1%
   metadata: &264
     title_ru: Драконий жемчуг
@@ -2565,6 +2602,7 @@
     - 6226
     - 6743
     - 33208
+    - 40590
   threshold: 95%
   metadata: &272
     title_ru: Прославленный
@@ -2598,6 +2636,7 @@
     - 33150
     - 33151
     - 33152
+    - 35901
     - 36269
     - 36760
     - 40348
@@ -2628,6 +2667,7 @@
     franchise: inuyasha
     not_anime_ids:
     - 31133
+    - 48505
   threshold: 94.4%
   metadata: &277
     title_ru: Инуяся
@@ -2655,9 +2695,12 @@
     - 28809
     - 31494
     - 33806
+    - 34832
     - 35077
+    - 38373
     - 38676
     - 42748
+    - 47409
   threshold: 95%
   metadata: &279
     title_ru: Макросс
@@ -2683,6 +2726,7 @@
     not_anime_ids:
     - 1631
     - 15979
+    - 35136
     - 36232
   threshold: 95%
   metadata: &282
@@ -2710,6 +2754,7 @@
     - 9035
     - 16183
     - 31984
+    - 49040
   threshold: 80%
   metadata: &285
     title_ru: Люпен III
@@ -2767,6 +2812,9 @@
     - 29716
     - 30481
     - 30483
+    - 35853
+    - 35854
+    - 35855
   threshold: 90%
   metadata: &291
     title_ru: Галактический экспресс 999
@@ -2826,6 +2874,8 @@
   algo: duration
   filters: &297
     franchise: ginga_eiyuu_densetsu
+    not_anime_ids:
+    - 42886
   threshold: 91.8%
   metadata: &298
     title_ru: Легенда о героях Галактики
@@ -2894,6 +2944,7 @@
     franchise: tiger_bunny
     not_anime_ids:
     - 30178
+    - 41595
   threshold: 92.3%
   metadata: &306
     title_ru: Тигр и кролик
@@ -2911,6 +2962,8 @@
   algo: duration
   filters: &307
     franchise: brave_witches
+    not_anime_ids:
+    - 38006
   threshold: 95%
   metadata: &308
     title_ru: Штурмовые ведьмы
@@ -3235,6 +3288,7 @@
     - 39046
     - 40693
     - 40753
+    - 42385
     - 42882
   threshold: 88.1%
   metadata: &341
@@ -3294,6 +3348,8 @@
   algo: duration
   filters: &347
     franchise: slam_dunk
+    not_anime_ids:
+    - 45649
   threshold: 98.7%
   metadata: &348
     title_ru: Слэм-данк
@@ -3413,6 +3469,8 @@
     - 711
     - 7122
     - 23931
+    - 40389
+    - 40554
   threshold: 95%
   metadata: &361
     title_ru: Космический линкор Ямато
@@ -3444,6 +3502,7 @@
     - 24457
     - 29697
     - 36952
+    - 38882
   threshold: 90%
   metadata: &364
     title_ru: Принц тенниса
@@ -3489,6 +3548,7 @@
     franchise: aria
     not_anime_ids:
     - 5196
+    - 48411
   threshold: 93.2%
   metadata: &369
     title_ru: Ария
@@ -3661,8 +3721,14 @@
   filters: &387
     franchise: bang_dream
     not_anime_ids:
-    - 40352
-  threshold: 96.9%
+    - 41377
+    - 41462
+    - 41781
+    - 41782
+    - 45731
+    - 48772
+    - 48773
+  threshold: 93.8%
   metadata: &388
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -3710,6 +3776,8 @@
     franchise: idolish7
     not_anime_ids:
     - 37710
+    - 45577
+    - 46654
   threshold: 97%
   metadata: &391
     title_ru: Семёрка идолов
@@ -3990,6 +4058,8 @@
   algo: duration
   filters: &422
     franchise: saiyuki
+    not_anime_ids:
+    - 45783
   threshold: 95%
   metadata: &423
     title_ru: Саюки
@@ -4030,7 +4100,7 @@
   algo: duration
   filters: &427
     franchise: doupo_cangqiong
-  threshold: 97%
+  threshold: 100%
   metadata: &428
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
@@ -4112,6 +4182,7 @@
     franchise: soukyuu_no_fafner
     not_anime_ids:
     - 9494
+    - 41814
   threshold: 92.1%
   metadata: &436
     title_ru: Небесный Фафнир
@@ -4162,7 +4233,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.4%
+  threshold: 91.7%
   metadata: &441
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4250,7 +4321,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.7%
+  threshold: 94.5%
   metadata: &451
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -4358,6 +4429,12 @@
     title_en: Taiho Shichau zo
     image: "/assets/achievements/anime/franchise/taiho_shichau_zo.jpg"
     topic_id: 247360
+- neko_id: taiho_shichau_zo
+  level: 0
+  algo: duration
+  filters: *460
+  threshold: 0.01
+  metadata: *461
 - neko_id: ad_police
   level: 1
   algo: duration
@@ -4372,12 +4449,6 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
-- neko_id: taiho_shichau_zo
-  level: 0
-  algo: duration
-  filters: *460
-  threshold: 0.01
-  metadata: *461
 - neko_id: ad_police
   level: 0
   algo: duration
@@ -4423,6 +4494,7 @@
     - 28103
     - 37668
     - 39414
+    - 48426
   threshold: 95.6%
   metadata: &467
     title_ru: Щелкунчик Китаро
@@ -4450,7 +4522,9 @@
     - 38647
     - 38648
     - 40543
-  threshold: 84.5%
+    - 44376
+    - 48859
+  threshold: 84.6%
   metadata: &469
     title_ru: При Пара
     title_en: PriPara
@@ -4737,7 +4811,7 @@
     not_anime_ids:
     - 39226
     - 39227
-  threshold: 96.7%
+  threshold: 96.6%
   metadata: &499
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
