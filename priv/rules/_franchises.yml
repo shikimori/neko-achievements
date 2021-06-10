@@ -221,6 +221,7 @@
     not_anime_ids:
     - 36923
     - 45567
+    - 42490
   threshold: 95%
   metadata: &24
     title_ru: Семь смертных грехов
@@ -620,6 +621,7 @@
     - 36729
     - 38784
     - 40761
+    - 40469
   threshold: 88.1%
   metadata: &63
     title_ru: Судьба
@@ -1653,6 +1655,11 @@
     - 40245
     - 41202
     - 41319
+    - 42889
+    - 42783
+    - 42600
+    - 48377
+    - 48378
 - neko_id: love_live
   level: 0
   algo: duration
@@ -1869,6 +1876,7 @@
     - 42136
     - 42914
     - 42984
+    - 42174
   threshold: 93%
   metadata: &201
     title_ru: Покемон
@@ -2461,6 +2469,7 @@
     - 13143
     - 21523
     - 33708
+    - 40395
   threshold: 90%
   metadata: &262
     title_ru: Бакуган
@@ -2490,6 +2499,7 @@
     - 33947
     - 38653
     - 48617
+    - 42449
   threshold: 95.1%
   metadata: &264
     title_ru: Драконий жемчуг
@@ -2647,6 +2657,7 @@
     - 33806
     - 35077
     - 38676
+    - 42748
   threshold: 95%
   metadata: &279
     title_ru: Макросс
@@ -3224,6 +3235,7 @@
     - 39046
     - 40693
     - 40753
+    - 42882
   threshold: 88.1%
   metadata: &341
     title_ru: Идолмастер
@@ -3674,6 +3686,11 @@
     - 34412
     - 34252
     - 32338
+    - 40352
+    - 41069
+    - 41070
+    - 41072
+    - 41316
     ignore_latest_ids:
     - 41462
     - 41781
@@ -4013,7 +4030,7 @@
   algo: duration
   filters: &427
     franchise: doupo_cangqiong
-  threshold: 100%
+  threshold: 97%
   metadata: &428
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
