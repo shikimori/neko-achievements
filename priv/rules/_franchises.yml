@@ -220,8 +220,8 @@
     franchise: nanatsu_no_taizai
     not_anime_ids:
     - 36923
-    - 45567
     - 42490
+    - 45567
   threshold: 95%
   metadata: &24
     title_ru: Семь смертных грехов
@@ -620,8 +620,8 @@
     - 36064
     - 36729
     - 38784
-    - 40761
     - 40469
+    - 40761
   threshold: 88.1%
   metadata: &63
     title_ru: Судьба
@@ -1629,11 +1629,6 @@
     - 41188
     - 41189
     - 41204
-    - 42600
-    - 42783
-    - 42889
-    - 48377
-    - 48378
   threshold: 95.9%
   metadata: &177
     title_ru: Живая любовь!
@@ -1655,11 +1650,9 @@
     - 40245
     - 41202
     - 41319
-    - 42889
-    - 42783
     - 42600
+    - 42889
     - 48377
-    - 48378
 - neko_id: love_live
   level: 0
   algo: duration
@@ -1874,9 +1867,9 @@
     - 36835
     - 37865
     - 42136
+    - 42174
     - 42914
     - 42984
-    - 42174
   threshold: 93%
   metadata: &201
     title_ru: Покемон
@@ -2498,8 +2491,8 @@
     - 23935
     - 33947
     - 38653
-    - 48617
     - 42449
+    - 48617
   threshold: 95.1%
   metadata: &264
     title_ru: Драконий жемчуг
@@ -3661,7 +3654,9 @@
   filters: &387
     franchise: bang_dream
     not_anime_ids:
-    - 40352
+    - 41377
+    - 48772
+    - 48773
   threshold: 96.9%
   metadata: &388
     title_ru: Ура мечте!
@@ -4358,6 +4353,12 @@
     title_en: Taiho Shichau zo
     image: "/assets/achievements/anime/franchise/taiho_shichau_zo.jpg"
     topic_id: 247360
+- neko_id: taiho_shichau_zo
+  level: 0
+  algo: duration
+  filters: *460
+  threshold: 0.01
+  metadata: *461
 - neko_id: ad_police
   level: 1
   algo: duration
@@ -4372,12 +4373,6 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
-- neko_id: taiho_shichau_zo
-  level: 0
-  algo: duration
-  filters: *460
-  threshold: 0.01
-  metadata: *461
 - neko_id: ad_police
   level: 0
   algo: duration
