@@ -1426,7 +1426,7 @@
     franchise: natsume_yuujinchou
     not_anime_ids:
     - 19945
-  threshold: 94.4%
+  threshold: 93.8%
   metadata: &155
     title_ru: Тетрадь дружбы Нацумэ
     title_en: Natsume Yuujinchou
