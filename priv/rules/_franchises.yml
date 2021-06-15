@@ -1533,7 +1533,7 @@
     - 34939
     - 38110
     - 38112
-  threshold: 92.7%
+  threshold: 91.8%
   metadata: &166
     title_ru: Сказания
     title_en: Tales of
@@ -2393,6 +2393,7 @@
     - 2269
     - 2294
     - 2305
+    - 2391
     - 2695
     - 2743
     - 3626
@@ -2433,8 +2434,7 @@
     - 42380
     - 42432
     - 42439
-    - 2391
-  threshold: 87.6%
+  threshold: 87.9%
   metadata: &259
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
