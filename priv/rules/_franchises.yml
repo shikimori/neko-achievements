@@ -986,7 +986,7 @@
     - 38419
     - 40181
     - 46171
-  threshold: 95.5%
+  threshold: 95.6%
   metadata: &103
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1633,7 +1633,7 @@
     - 41188
     - 41189
     - 41204
-  threshold: 95.5%
+  threshold: 95.2%
   metadata: &177
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -1733,7 +1733,7 @@
     - 8756
     - 13931
     - 25375
-  threshold: 90.4%
+  threshold: 90%
   metadata: &186
     title_ru: Красавица-воин Сейлор Мун
     title_en: Bishoujo Senshi Sailor Moon
@@ -3716,7 +3716,7 @@
     franchise: idolish7
     not_anime_ids:
     - 37710
-  threshold: 97%
+  threshold: 97.1%
   metadata: &391
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4015,7 +4015,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.2%
+  threshold: 93.3%
   metadata: &425
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4259,7 +4259,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.5%
+  threshold: 94.4%
   metadata: &452
     title_ru: Айкацу!
     title_en: Aikatsu!
