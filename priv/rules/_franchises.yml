@@ -5065,7 +5065,6 @@
     title_en: Tensei shitara Slime Datta Ken
     image: https://kawai.shikimori.one/system/user_images/original/45319/1542916.jpg
     topic_id: 247360
-- neko_id: tensei_shitara_slime_datta_ken
 - neko_id: fruits_basket
   level: 1
   algo: duration
@@ -5077,4 +5076,3 @@
     title_en: Fruits Basket
     image: https://desu.shikimori.one/system/user_images/original/34807/1535888.jpg
     topic_id: 247360
-- neko_id: fruits_basket
