@@ -972,7 +972,6 @@
     - 15323
     - 16143
     - 19123
-    - 20871
     - 28683
     - 32437
     - 34165
@@ -1536,6 +1535,7 @@
     - 38110
     - 38112
     - 38361
+    - 46089
   threshold: 92%
   metadata: &166
     title_ru: Сказания
@@ -5050,3 +5050,29 @@
   filters: *529
   threshold: 0.01
   metadata: *530
+- neko_id: tensei_shitara_slime_datta_ken
+  level: 1
+  algo: duration
+  filters: 
+    franchise: tensei_shitara_slime_datta_ken
+    not_anime_ids:
+    - 45753
+    - 39607
+    - 49318
+  threshold: 100%
+  metadata: 
+    title_ru: О моём перерождении в слизь
+    title_en: Tensei shitara Slime Datta Ken
+    image: https://kawai.shikimori.one/system/user_images/original/45319/1542916.jpg
+    topic_id: 247360
+- neko_id: fruits_basket
+  level: 1
+  algo: duration
+  filters: 
+    franchise: fruits_basket
+  threshold: 100%
+  metadata: 
+    title_ru: Корзинка фруктов
+    title_en: Fruits Basket
+    image: https://desu.shikimori.one/system/user_images/original/34807/1535888.jpg
+    topic_id: 247360
