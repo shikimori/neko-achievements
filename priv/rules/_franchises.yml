@@ -972,6 +972,7 @@
     - 15323
     - 16143
     - 19123
+    - 20871
     - 28683
     - 32437
     - 34165
@@ -1536,7 +1537,7 @@
     - 38112
     - 38361
     - 46089
-  threshold: 92%
+  threshold: 92.2%
   metadata: &166
     title_ru: Сказания
     title_en: Tales of
@@ -2437,7 +2438,7 @@
     - 42380
     - 42432
     - 42439
-  threshold: 87.9%
+  threshold: 87.2%
   metadata: &259
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -3667,7 +3668,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 93.8%
+  threshold: 92.3%
   metadata: &388
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4171,7 +4172,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.7%
+  threshold: 91.8%
   metadata: &442
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4259,7 +4260,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.4%
+  threshold: 94.2%
   metadata: &452
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -5053,26 +5054,38 @@
 - neko_id: tensei_shitara_slime_datta_ken
   level: 1
   algo: duration
-  filters: 
+  filters: &531
     franchise: tensei_shitara_slime_datta_ken
     not_anime_ids:
-    - 45753
     - 39607
+    - 45753
     - 49318
   threshold: 100%
-  metadata: 
+  metadata: &532
     title_ru: О моём перерождении в слизь
     title_en: Tensei shitara Slime Datta Ken
-    image: https://kawai.shikimori.one/system/user_images/original/45319/1542916.jpg
+    image: "/assets/achievements/anime/franchise/tensei_shitara_slime_datta_ken.jpg"
     topic_id: 247360
+- neko_id: tensei_shitara_slime_datta_ken
+  level: 0
+  algo: duration
+  filters: *531
+  threshold: 0.01
+  metadata: *532
 - neko_id: fruits_basket
   level: 1
   algo: duration
-  filters: 
+  filters: &533
     franchise: fruits_basket
   threshold: 100%
-  metadata: 
+  metadata: &534
     title_ru: Корзинка фруктов
     title_en: Fruits Basket
-    image: https://desu.shikimori.one/system/user_images/original/34807/1535888.jpg
+    image: "/assets/achievements/anime/franchise/fruits_basket.jpg"
     topic_id: 247360
+- neko_id: fruits_basket
+  level: 0
+  algo: duration
+  filters: *533
+  threshold: 0.01
+  metadata: *534
