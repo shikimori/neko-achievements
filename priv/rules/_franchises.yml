@@ -1807,7 +1807,7 @@
     image: "/assets/achievements/anime/franchise/ashita_no_joe.jpg"
     topic_id: 247360
   generator: &194
-    threshold: 100%
+    threshold: 94%
 - neko_id: ashita_no_joe
   level: 0
   algo: duration
@@ -4221,6 +4221,7 @@
     - 38850
     - 42422
     - 40587
+    - 49426
 - neko_id: pretty_cure
   level: 0
   algo: duration
