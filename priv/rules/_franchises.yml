@@ -989,9 +989,11 @@
     - 2107
     - 2680
     - 8171
+    - 12001
     - 15323
     - 16143
     - 19123
+    - 20871
     - 28683
     - 32437
     - 34165
@@ -1799,7 +1801,7 @@
     - 2920
     - 2922
     - 37703
-  threshold: 100%
+  threshold: 94%
   metadata: &193
     title_ru: Завтрашний Джо
     title_en: Ashita no Joe
@@ -3274,6 +3276,7 @@
     - 38271
     - 38562
     - 39046
+    - 40693
     - 40753
     - 42882
   threshold: 88.1%
@@ -4389,6 +4392,12 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
+- neko_id: ad_police
+  level: 0
+  algo: duration
+  filters: *463
+  threshold: 0.01
+  metadata: *464
 - neko_id: d_c
   level: 1
   algo: duration
@@ -4403,12 +4412,6 @@
     title_en: Da Capo
     image: "/assets/achievements/anime/franchise/d_c.png"
     topic_id: 247360
-- neko_id: ad_police
-  level: 0
-  algo: duration
-  filters: *463
-  threshold: 0.01
-  metadata: *464
 - neko_id: d_c
   level: 0
   algo: duration
