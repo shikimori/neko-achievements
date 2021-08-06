@@ -693,6 +693,8 @@
     title_en: Tensei shitara Slime Datta Ken
     image: "/assets/achievements/anime/franchise/tensei_shitara_slime_datta_ken.jpg"
     topic_id: 247360
+  generator:
+    threshold: 99%
 - neko_id: tensei_shitara_slime_datta_ken
   level: 0
   algo: duration
@@ -4774,6 +4776,8 @@
     title_en: Wan Jie Xian Zong
     image: "/assets/achievements/anime/franchise/wan_jie_xian_zong.jpg"
     topic_id: 247360
+  generator:
+    threshold: 99%
 - neko_id: wan_jie_xian_zong
   level: 0
   algo: duration
