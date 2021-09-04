@@ -622,6 +622,7 @@
     - 38784
     - 40469
     - 40761
+    - 49633
   threshold: 88.3%
   metadata: &63
     title_ru: Судьба
@@ -2655,6 +2656,7 @@
   generator: &280
     ignore_latest_ids:
     - 38770
+    - 49320
     not_ignored_ids:
     - 1365
 - neko_id: detective_conan
@@ -3281,6 +3283,7 @@
     - 40693
     - 40753
     - 42882
+    - 49735
   threshold: 88.1%
   metadata: &346
     title_ru: Идолмастер
