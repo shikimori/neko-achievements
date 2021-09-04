@@ -623,7 +623,7 @@
     - 40469
     - 40761
     - 49633
-  threshold: 88.3%
+  threshold: 90%
   metadata: &63
     title_ru: Судьба
     title_en: Fate
