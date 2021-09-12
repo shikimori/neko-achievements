@@ -108,7 +108,7 @@
     franchise: naruto
     not_anime_ids:
     - 40971
-  threshold: 96.8%
+  threshold: 96.9%
   metadata: &12
     title_ru: Наруто
     title_en: Naruto
@@ -152,7 +152,7 @@
     not_anime_ids:
     - 35262
     - 43683
-  threshold: 95%
+  threshold: 94.5%
   metadata: &16
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -178,7 +178,7 @@
     - 664
     - 7902
     - 10842
-  threshold: 97.2%
+  threshold: 97.3%
   metadata: &19
     title_ru: Стальной алхимик
     title_en: Fullmetal Alchemist
@@ -732,7 +732,7 @@
   algo: duration
   filters: &75
     franchise: high_school_dxd
-  threshold: 91.3%
+  threshold: 91.4%
   metadata: &76
     title_ru: Старшая школа DxD
     title_en: High School DxD
@@ -1010,7 +1010,7 @@
     - 38419
     - 40181
     - 46171
-  threshold: 95.5%
+  threshold: 95.6%
   metadata: &106
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1126,7 +1126,6 @@
     - 22013
     - 31617
     - 38600
-    - 49402
   threshold: 91.5%
   metadata: &119
     title_ru: Призрак в доспехах
@@ -1660,7 +1659,7 @@
     - 41188
     - 41189
     - 41204
-  threshold: 95.2%
+  threshold: 95.5%
   metadata: &180
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -1904,7 +1903,7 @@
     - 42174
     - 42914
     - 42984
-  threshold: 93%
+  threshold: 92.7%
   metadata: &204
     title_ru: Покемон
     title_en: Pokemon
@@ -2482,7 +2481,7 @@
     - 42432
     - 42439
     - 43204
-  threshold: 87.2%
+  threshold: 87.3%
   metadata: &264
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -3556,7 +3555,7 @@
     franchise: aria
     not_anime_ids:
     - 5196
-  threshold: 93.2%
+  threshold: 89.3%
   metadata: &376
     title_ru: Ария
     title_en: Aria
@@ -3714,7 +3713,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 92.3%
+  threshold: 88.5%
   metadata: &393
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -3764,7 +3763,7 @@
     franchise: idolish7
     not_anime_ids:
     - 37710
-  threshold: 97.1%
+  threshold: 97.6%
   metadata: &396
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4063,7 +4062,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.3%
+  threshold: 93.4%
   metadata: &430
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4150,7 +4149,7 @@
     - 10823
     - 10824
     - 10825
-  threshold: 96.1%
+  threshold: 96%
   metadata: &440
     title_ru: Ранма ½
     title_en: Ranma ½
@@ -4219,7 +4218,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.8%
+  threshold: 91.2%
   metadata: &447
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4330,7 +4329,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.2%
+  threshold: 94.3%
   metadata: &459
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -4508,7 +4507,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 84.6%
+  threshold: 93.2%
   metadata: &475
     title_ru: При Пара
     title_en: PriPara
