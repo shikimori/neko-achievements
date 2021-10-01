@@ -696,6 +696,8 @@
     topic_id: 247360
   generator: &71
     threshold: 99%
+    ignore_latest_ids:
+    - 49877
 - neko_id: tensei_shitara_slime_datta_ken
   level: 0
   algo: duration
@@ -2482,6 +2484,7 @@
     - 42432
     - 42439
     - 43204
+    - 49941
   threshold: 87.3%
   metadata: &264
     title_ru: Мобильный воин Гандам
@@ -5103,3 +5106,18 @@
   filters: *535
   threshold: 0.01
   metadata: *536
+- neko_id: mahouka_koukou_no_rettousei
+  level: 1
+  algo: duration
+  filters: 
+    franchise: mahouka_koukou_no_rettousei
+    not_anime_ids:
+    - 23341
+    - 31448
+    - 35631
+  threshold: 100%
+  metadata: 
+    title_ru: Непутёвый ученик в школе магии
+    title_en: Mahouka Koukou no Rettousei
+    image: https://nyaa.shikimori.one/system/user_images/original/661284/1634455.jpg
+    topic_id: 247360
