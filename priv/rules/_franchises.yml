@@ -5109,15 +5109,21 @@
 - neko_id: mahouka_koukou_no_rettousei
   level: 1
   algo: duration
-  filters: 
+  filters: &537
     franchise: mahouka_koukou_no_rettousei
     not_anime_ids:
     - 23341
     - 31448
     - 35631
   threshold: 100%
-  metadata: 
+  metadata: &538
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
-    image: https://nyaa.shikimori.one/system/user_images/original/661284/1634455.jpg
+    image: "/assets/achievements/anime/franchise/mahouka_koukou_no_rettousei.jpg"
     topic_id: 247360
+- neko_id: mahouka_koukou_no_rettousei
+  level: 0
+  algo: duration
+  filters: *537
+  threshold: 0.01
+  metadata: *538
