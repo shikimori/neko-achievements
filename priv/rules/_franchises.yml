@@ -1378,7 +1378,7 @@
     - 37859
     - 37860
     - 39014
-  threshold: 94.7%
+  threshold: 88.1%
   metadata: &148
     title_ru: Вольный стиль!
     title_en: Free!
@@ -3893,34 +3893,34 @@
 - neko_id: queen_s_blade
   level: 1
   algo: duration
-  filters: &411
+  filters: &409
     franchise: queen_s_blade
   threshold: 90.8%
-  metadata: &412
+  metadata: &410
     title_ru: Клинок королевы
     title_en: Queen's Blade
     image: "/assets/achievements/anime/franchise/queen_s_blade.jpg"
     topic_id: 247360
-- neko_id: cardfight_vanguard
-  level: 1
-  algo: duration
-  filters: &409
-    franchise: cardfight_vanguard
-    not_anime_ids:
-    - 31410
-  threshold: 80%
-  metadata: &410
-    title_ru: Карточные бои Авангарда
-    title_en: Cardfight!! Vanguard
-    image: "/assets/achievements/anime/franchise/cardfight_vanguard.jpg"
-    topic_id: 247360
-- neko_id: cardfight_vanguard
+- neko_id: queen_s_blade
   level: 0
   algo: duration
   filters: *409
   threshold: 0.01
   metadata: *410
-- neko_id: queen_s_blade
+- neko_id: cardfight_vanguard
+  level: 1
+  algo: duration
+  filters: &411
+    franchise: cardfight_vanguard
+    not_anime_ids:
+    - 31410
+  threshold: 80%
+  metadata: &412
+    title_ru: Карточные бои Авангарда
+    title_en: Cardfight!! Vanguard
+    image: "/assets/achievements/anime/franchise/cardfight_vanguard.jpg"
+    topic_id: 247360
+- neko_id: cardfight_vanguard
   level: 0
   algo: duration
   filters: *411
@@ -5045,32 +5045,32 @@
 - neko_id: saber_marionette_j
   level: 1
   algo: duration
-  filters: &531
+  filters: &529
     franchise: saber_marionette_j
   threshold: 100%
-  metadata: &532
+  metadata: &530
     title_ru: Воины-марионетки Джей
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
     topic_id: 247360
-- neko_id: jigoku_sensei_nube
-  level: 1
-  algo: duration
-  filters: &529
-    franchise: jigoku_sensei_nube
-  threshold: 100%
-  metadata: &530
-    title_ru: Адский учитель Нубэ
-    title_en: Jigoku Sensei Nube
-    image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
-    topic_id: 247360
-- neko_id: jigoku_sensei_nube
+- neko_id: saber_marionette_j
   level: 0
   algo: duration
   filters: *529
   threshold: 0.01
   metadata: *530
-- neko_id: saber_marionette_j
+- neko_id: jigoku_sensei_nube
+  level: 1
+  algo: duration
+  filters: &531
+    franchise: jigoku_sensei_nube
+  threshold: 100%
+  metadata: &532
+    title_ru: Адский учитель Нубэ
+    title_en: Jigoku Sensei Nube
+    image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
+    topic_id: 247360
+- neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
   filters: *531
