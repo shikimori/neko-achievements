@@ -5132,3 +5132,14 @@
   filters: *537
   threshold: 0.01
   metadata: *538
+- neko_id: mo_dao_zu_shi
+  level: 1
+  algo: duration
+  filters: 
+    franchise: mo_dao_zu_shi
+  threshold: 100%
+  metadata: 
+    title_ru: Магистр дьявольского культа
+    title_en: Mo Dao Zu Shi
+    image: https://desu.shikimori.one/system/user_images/original/9560/1625433.jpg
+    topic_id: 247360
