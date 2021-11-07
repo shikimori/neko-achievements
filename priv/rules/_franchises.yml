@@ -95,6 +95,7 @@
   generator: &10
     ignore_latest_ids:
     - 42916
+    - 50275
 - neko_id: sword_art_online
   level: 0
   algo: duration
