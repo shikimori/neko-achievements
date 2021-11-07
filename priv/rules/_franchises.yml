@@ -4267,7 +4267,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.2%
+  threshold: 91.5%
   metadata: &451
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5068,10 +5068,10 @@
 - neko_id: saber_marionette_j
   level: 1
   algo: duration
-  filters: &533
+  filters: &531
     franchise: saber_marionette_j
   threshold: 100%
-  metadata: &534
+  metadata: &532
     title_ru: Воины-марионетки Джей
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
@@ -5079,21 +5079,21 @@
 - neko_id: jigoku_sensei_nube
   level: 1
   algo: duration
-  filters: &531
+  filters: &533
     franchise: jigoku_sensei_nube
   threshold: 100%
-  metadata: &532
+  metadata: &534
     title_ru: Адский учитель Нубэ
     title_en: Jigoku Sensei Nube
     image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
     topic_id: 247360
-- neko_id: jigoku_sensei_nube
+- neko_id: saber_marionette_j
   level: 0
   algo: duration
   filters: *531
   threshold: 0.01
   metadata: *532
-- neko_id: saber_marionette_j
+- neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
   filters: *533
