@@ -2805,7 +2805,6 @@
     not_anime_ids:
     - 1631
     - 15979
-    - 36232
   threshold: 95%
   metadata: &294
     title_ru: Эврика 7
