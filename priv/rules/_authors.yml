@@ -618,47 +618,6 @@
     topic_id: 276032
   generator:
     person_id: 10308
-- neko_id: chiaki_kon
-  level: 1
-  algo: count
-  threshold: 65%
-  filters:
-    anime_ids:
-    - 934
-    - 1889
-    - 2899
-    - 6064
-    - 4896
-    - 3092
-    - 4814
-    - 25649
-    - 13767
-    - 8063
-    - 9926
-    - 11123
-    - 20371
-    - 4477
-    - 5690
-    - 5835
-    - 8476
-    - 12967
-    - 16890
-    - 21781
-    - 36873
-    - 17895
-    - 31733
-    - 43692
-    - 40024
-    - 48707
-    - 40429
-  metadata:
-    title_ru: Тиаки Кон
-    title_en: Chiaki Kon
-    image: "/assets/achievements/anime/author/chiaki_kon.jpg"
-    border_color: "#ED8859"
-    topic_id: 276032
-  generator:
-    person_id: 6831
 - neko_id: hideaki_anno
   level: 1
   algo: count
@@ -705,6 +664,46 @@
     topic_id: 276032
   generator:
     person_id: 5111
+- neko_id: chiaki_kon
+  level: 1
+  algo: count
+  threshold: 65%
+  filters:
+    anime_ids:
+    - 934
+    - 1889
+    - 2899
+    - 6064
+    - 4896
+    - 3092
+    - 4814
+    - 25649
+    - 13767
+    - 8063
+    - 9926
+    - 11123
+    - 20371
+    - 4477
+    - 5690
+    - 5835
+    - 8476
+    - 12967
+    - 16890
+    - 21781
+    - 36873
+    - 17895
+    - 31733
+    - 43692
+    - 40024
+    - 48707
+  metadata:
+    title_ru: Тиаки Кон
+    title_en: Chiaki Kon
+    image: "/assets/achievements/anime/author/chiaki_kon.jpg"
+    border_color: "#ED8859"
+    topic_id: 276032
+  generator:
+    person_id: 6831
 - neko_id: mamoru_hosoda
   level: 1
   algo: count
@@ -1142,6 +1141,28 @@
     topic_id: 276032
   generator:
     person_id: 4097
+- neko_id: satoshi_kon
+  level: 1
+  algo: count
+  threshold: 100%
+  filters:
+    anime_ids:
+    - 2832
+    - 1943
+    - 323
+    - 759
+    - 1033
+    - 437
+    - 1462
+    - 2000
+  metadata:
+    title_ru: Сатоси Кон
+    title_en: Satoshi Kon
+    image: "/assets/achievements/anime/author/satoshi_kon.png"
+    border_color: "#FF0000"
+    topic_id: 276032
+  generator:
+    person_id: 4580
 - neko_id: masamune_shirow
   level: 1
   algo: count
@@ -1176,28 +1197,6 @@
     topic_id: 276032
   generator:
     person_id: 2609
-- neko_id: satoshi_kon
-  level: 1
-  algo: count
-  threshold: 100%
-  filters:
-    anime_ids:
-    - 2832
-    - 1943
-    - 323
-    - 759
-    - 1033
-    - 437
-    - 1462
-    - 2000
-  metadata:
-    title_ru: Сатоси Кон
-    title_en: Satoshi Kon
-    image: "/assets/achievements/anime/author/satoshi_kon.png"
-    border_color: "#FF0000"
-    topic_id: 276032
-  generator:
-    person_id: 4580
 - neko_id: shinji_aramaki
   level: 1
   algo: count

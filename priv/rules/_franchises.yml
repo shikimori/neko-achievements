@@ -86,7 +86,7 @@
     - 40489
     - 41341
     - 42128
-  threshold: 95%
+  threshold: 93%
   metadata: &9
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
@@ -154,7 +154,7 @@
     not_anime_ids:
     - 35262
     - 43683
-  threshold: 94.5%
+  threshold: 94.7%
   metadata: &16
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -625,7 +625,7 @@
     - 40469
     - 40761
     - 49633
-  threshold: 90%
+  threshold: 88.9%
   metadata: &63
     title_ru: Судьба
     title_en: Fate
@@ -1704,6 +1704,8 @@
     - 41188
     - 41189
     - 41204
+    - 50059
+    - 50066
   threshold: 95.5%
   metadata: &184
     title_ru: Живая любовь!
@@ -1966,7 +1968,7 @@
     - 42174
     - 42914
     - 42984
-  threshold: 92.7%
+  threshold: 92.6%
   metadata: &210
     title_ru: Покемон
     title_en: Pokemon
@@ -2432,7 +2434,7 @@
     - 38653
     - 42449
     - 48617
-  threshold: 95.1%
+  threshold: 95.2%
   metadata: &262
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2566,6 +2568,7 @@
     - 42439
     - 43204
     - 49941
+    - 50084
   threshold: 87.3%
   metadata: &271
     title_ru: Мобильный воин Гандам
@@ -2696,7 +2699,7 @@
     - 40348
     - 42476
     - 47413
-  threshold: 93.8%
+  threshold: 93.9%
   metadata: &283
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3333,7 +3336,7 @@
     - 40753
     - 42882
     - 49735
-  threshold: 88.1%
+  threshold: 87.8%
   metadata: &350
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3761,7 +3764,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 88.5%
+  threshold: 88.3%
   metadata: &397
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4093,7 +4096,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93.4%
+  threshold: 92.7%
   metadata: &432
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4266,7 +4269,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.5%
+  threshold: 91.6%
   metadata: &451
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4825,6 +4828,7 @@
     - 12337
     - 12439
     - 12441
+    - 49936
   threshold: 95%
   metadata: &508
     title_ru: Бронированные воины Вотомы
