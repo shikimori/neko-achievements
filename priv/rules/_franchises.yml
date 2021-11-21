@@ -3926,6 +3926,12 @@
     title_en: Queen's Blade
     image: "/assets/achievements/anime/franchise/queen_s_blade.jpg"
     topic_id: 247360
+- neko_id: queen_s_blade
+  level: 0
+  algo: duration
+  filters: *411
+  threshold: 0.01
+  metadata: *412
 - neko_id: cardfight_vanguard
   level: 1
   algo: duration
@@ -3939,12 +3945,6 @@
     title_en: Cardfight!! Vanguard
     image: "/assets/achievements/anime/franchise/cardfight_vanguard.jpg"
     topic_id: 247360
-- neko_id: queen_s_blade
-  level: 0
-  algo: duration
-  filters: *411
-  threshold: 0.01
-  metadata: *412
 - neko_id: cardfight_vanguard
   level: 0
   algo: duration
@@ -5079,6 +5079,12 @@
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
     topic_id: 247360
+- neko_id: saber_marionette_j
+  level: 0
+  algo: duration
+  filters: *531
+  threshold: 0.01
+  metadata: *532
 - neko_id: jigoku_sensei_nube
   level: 1
   algo: duration
@@ -5090,12 +5096,6 @@
     title_en: Jigoku Sensei Nube
     image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
     topic_id: 247360
-- neko_id: saber_marionette_j
-  level: 0
-  algo: duration
-  filters: *531
-  threshold: 0.01
-  metadata: *532
 - neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
