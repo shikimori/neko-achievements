@@ -1044,6 +1044,7 @@
   generator: &109
     ignore_latest_ids:
     - 38234
+    - 50410
 - neko_id: one_piece
   level: 0
   algo: duration
@@ -4537,6 +4538,9 @@
     title_en: Gegege no Kitarou
     image: "/assets/achievements/anime/franchise/gegege_no_kitarou.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 48426
 - neko_id: gegege_no_kitarou
   level: 0
   algo: duration
