@@ -5158,3 +5158,19 @@
   filters: *540
   threshold: 0.01
   metadata: *541
+- neko_id: black_clover
+  level: 1
+  algo: duration
+  filters: 
+    franchise: black_clover
+    not_anime_ids:
+    - 39864
+  threshold: 100%
+  metadata: 
+    title_ru: Чёрный клевер
+    title_en: Black Clover
+    image: https://nyaa.shikimori.one/system/user_images/original/34807/1693680.jpg
+    topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 48585
