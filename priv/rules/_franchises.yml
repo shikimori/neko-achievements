@@ -2683,7 +2683,6 @@
     franchise: utawarerumono
     not_anime_ids:
     - 6226
-    - 6743
     - 33208
   threshold: 95%
   metadata: &284
