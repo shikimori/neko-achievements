@@ -1059,7 +1059,7 @@
     franchise: black_clover
     not_anime_ids:
     - 39864
-  threshold: 99.4%
+  threshold: 100%
   metadata: &111
     title_ru: Чёрный клевер
     title_en: Black Clover
@@ -2684,6 +2684,7 @@
     franchise: utawarerumono
     not_anime_ids:
     - 6226
+    - 6743
     - 33208
   threshold: 95%
   metadata: &284
