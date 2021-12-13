@@ -1066,6 +1066,7 @@
     image: "/assets/achievements/anime/franchise/black_clover.jpg"
     topic_id: 247360
   generator: &112
+    threshold: 100%
     ignore_latest_ids:
     - 48585
 - neko_id: black_clover
@@ -2683,7 +2684,6 @@
     franchise: utawarerumono
     not_anime_ids:
     - 6226
-    - 6743
     - 33208
   threshold: 95%
   metadata: &284
