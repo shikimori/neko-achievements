@@ -3917,6 +3917,8 @@
     title_en: Yao Shen Ji
     image: "/assets/achievements/anime/franchise/yao_shen_ji.jpg"
     topic_id: 247360
+  generator: 
+    threshold: 99%
 - neko_id: yao_shen_ji
   level: 0
   algo: duration
