@@ -5184,3 +5184,18 @@
   filters: *543
   threshold: 0.01
   metadata: *544
+- neko_id: yuki_yuna_is_a_hero
+  level: 1
+  algo: duration
+  filters: 
+    franchise: yuki_yuna_is_a_hero
+    not_anime_ids:
+    - 36798
+    - 32826
+    - 34284
+  threshold: 100%
+  metadata: 
+    title_ru: Герой Юки Юна
+    title_en: Yuuki Yuuna wa Yuusha de Aru
+    image: https://nyaa.shikimori.one/system/user_images/original/9560/1669380.jpg
+    topic_id: 247360
