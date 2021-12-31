@@ -889,6 +889,9 @@
     title_en: Mahouka Koukou no Rettousei
     image: "/assets/achievements/anime/franchise/mahouka_koukou_no_rettousei.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 48375
 - neko_id: mahouka_koukou_no_rettousei
   level: 0
   algo: duration
@@ -3547,6 +3550,7 @@
   generator: &374
     ignore_latest_ids:
     - 40389
+    - 50706
 - neko_id: uchuu_senkan_yamato
   level: 0
   algo: duration
