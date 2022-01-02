@@ -4278,6 +4278,7 @@
     threshold: 92.1%
     ignore_latest_ids:
     - 41714
+    - 50675
 - neko_id: soukyuu_no_fafner
   level: 0
   algo: duration
