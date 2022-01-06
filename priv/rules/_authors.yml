@@ -219,7 +219,6 @@
     anime_ids:
     - 13675
     - 21441
-    - 13691
     - 25271
     - 2832
     - 1689
@@ -913,6 +912,7 @@
     - 33050
     - 38085
     - 49361
+    - 38086
   metadata: &50
     title_ru: Type-Moon
     title_en: Type-Moon
