@@ -311,11 +311,7 @@
   filters: &19
     anime_ids:
     - 39806
-    - 1462
-    - 420
-    - 2998
     - 3889
-    - 372
     - 1107
     - 155
     - 4106
@@ -1149,6 +1145,7 @@
     - 9045
     - 2182
     - 9846
+    - 1462
   metadata: &62
     title_ru: Кодзи Моримото
     title_en: Kouji Morimoto
@@ -1512,6 +1509,8 @@
     - 1793
     - 3014
     - 618
+    - 372
+    - 2998
   metadata: &86
     title_ru: Ёсиаки Кавадзири
     title_en: Yoshiaki Kawajiri
@@ -1753,6 +1752,7 @@
     - 1951
     - 47
     - 1462
+    - 420
   metadata: &98
     title_ru: Кацухиро Отомо
     title_en: Katsuhiro Otomo
