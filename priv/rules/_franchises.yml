@@ -1339,7 +1339,7 @@
   metadata: &143
     title_ru: Плод Грисайи
     title_en: Grisaia no Kajitsu
-    image: "/assets/achievements/anime/franchise/grisaia.jpg"
+    image: https://nyaa.shikimori.one/system/user_images/original/607810/1746680.jpg
     topic_id: 247360
   generator: &144
     threshold: 99%
@@ -5213,14 +5213,3 @@
   filters: *547
   threshold: 0.01
   metadata: *548
-- neko_id: grisaia
-  level: 1
-  algo: duration
-  filters: 
-    franchise: grisaia
-  threshold: 100%
-  metadata: 
-    title_ru: Грисайя
-    title_en: Grisaia
-    image: https://nyaa.shikimori.one/system/user_images/original/607810/1746680.jpg
-    topic_id: 247360
