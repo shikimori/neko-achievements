@@ -1339,7 +1339,7 @@
   metadata: &143
     title_ru: Плод Грисайи
     title_en: Grisaia no Kajitsu
-    image: https://nyaa.shikimori.one/system/user_images/original/607810/1746680.jpg
+    image: "/assets/achievements/anime/franchise/grisaia.jpg"
     topic_id: 247360
   generator: &144
     threshold: 99%
@@ -1511,7 +1511,7 @@
     franchise: natsume_yuujinchou
     not_anime_ids:
     - 19945
-  threshold: 93.8%
+  threshold: 95%
   metadata: &164
     title_ru: Тетрадь дружбы Нацумэ
     title_en: Natsume Yuujinchou
@@ -5084,6 +5084,12 @@
     title_en: Dirty Pair
     image: "/assets/achievements/anime/franchise/dirty_pair.jpg"
     topic_id: 247360
+- neko_id: dirty_pair
+  level: 0
+  algo: duration
+  filters: *533
+  threshold: 0.01
+  metadata: *534
 - neko_id: el_hazard
   level: 1
   algo: duration
@@ -5095,12 +5101,6 @@
     title_en: El Hazard
     image: "/assets/achievements/anime/franchise/el_hazard.jpg"
     topic_id: 247360
-- neko_id: dirty_pair
-  level: 0
-  algo: duration
-  filters: *533
-  threshold: 0.01
-  metadata: *534
 - neko_id: el_hazard
   level: 0
   algo: duration
