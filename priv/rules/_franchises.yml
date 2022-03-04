@@ -3850,6 +3850,7 @@
     franchise: idolish7
     not_anime_ids:
     - 37710
+    - 49442
   threshold: 97.6%
   metadata: &404
     title_ru: Семёрка идолов
