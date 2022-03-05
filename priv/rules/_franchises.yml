@@ -5222,12 +5222,17 @@
 - neko_id: demon_slayer
   level: 1
   algo: duration
-  filters: 
+  filters: &549
     franchise: demon_slayer
-  threshold: 100%
-  metadata: 
+  threshold: 99.3%
+  metadata: &550
     title_ru: Клинок, рассекающий демонов
     title_en: Kimetsu no Yaiba
-    image: https://nyaa.shikimori.one/system/user_images/original/607810/1653945.jpg
+    image: "/assets/achievements/anime/franchise/demon_slayer.jpg"
     topic_id: 247360
 - neko_id: demon_slayer
+  level: 0
+  algo: duration
+  filters: *549
+  threshold: 0.01
+  metadata: *550
