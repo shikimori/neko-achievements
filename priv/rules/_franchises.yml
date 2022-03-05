@@ -1039,7 +1039,7 @@
     - 38419
     - 40181
     - 46171
-  threshold: 95.5%
+  threshold: 95.6%
   metadata: &109
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1977,7 +1977,7 @@
     - 42174
     - 42914
     - 42984
-  threshold: 92.6%
+  threshold: 92.7%
   metadata: &212
     title_ru: Покемон
     title_en: Pokemon
@@ -2739,7 +2739,7 @@
     franchise: inuyasha
     not_anime_ids:
     - 31133
-  threshold: 93%
+  threshold: 93.2%
   metadata: &290
     title_ru: Инуяся
     title_en: InuYasha
@@ -2757,10 +2757,12 @@
   filters: &291
     franchise: detective_conan
     not_anime_ids:
+    - 1369
     - 6115
     - 7303
     - 7305
     - 7471
+    - 9785
     - 9786
     - 9839
     - 10766
@@ -2777,9 +2779,7 @@
     - 40348
     - 42476
     - 47413
-    - 1369
-    - 9785
-  threshold: 93.9%
+  threshold: 93.7%
   metadata: &292
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3642,7 +3642,7 @@
     franchise: aria
     not_anime_ids:
     - 5196
-  threshold: 89.3%
+  threshold: 89.7%
   metadata: &384
     title_ru: Ария
     title_en: Aria
@@ -3800,7 +3800,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 88.7%
+  threshold: 85.2%
   metadata: &401
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -3851,7 +3851,7 @@
     not_anime_ids:
     - 37710
     - 49442
-  threshold: 97.6%
+  threshold: 97.7%
   metadata: &404
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4177,7 +4177,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 92.8%
+  threshold: 92.9%
   metadata: &442
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4331,7 +4331,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.7%
+  threshold: 90.8%
   metadata: &458
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
