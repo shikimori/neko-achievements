@@ -1853,6 +1853,7 @@
     - 8756
     - 13931
     - 25375
+    - 50239
   threshold: 90%
   metadata: &199
     title_ru: Красавица-воин Сейлор Мун
@@ -2777,6 +2778,7 @@
     - 42476
     - 47413
     - 1369
+    - 9785
   threshold: 93.9%
   metadata: &292
     title_ru: Детектив Конан
@@ -3848,6 +3850,7 @@
     franchise: idolish7
     not_anime_ids:
     - 37710
+    - 49442
   threshold: 97.6%
   metadata: &404
     title_ru: Семёрка идолов
@@ -5216,3 +5219,15 @@
   filters: *547
   threshold: 0.01
   metadata: *548
+- neko_id: demon_slayer
+  level: 1
+  algo: duration
+  filters: 
+    franchise: demon_slayer
+  threshold: 100%
+  metadata: 
+    title_ru: Клинок, рассекающий демонов
+    title_en: Kimetsu no Yaiba
+    image: https://nyaa.shikimori.one/system/user_images/original/607810/1653945.jpg
+    topic_id: 247360
+- neko_id: demon_slayer
