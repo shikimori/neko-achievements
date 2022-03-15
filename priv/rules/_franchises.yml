@@ -1855,7 +1855,7 @@
   algo: duration
   filters: &198
     franchise: fruits_basket
-  threshold: 100%
+  threshold: 95%
   metadata: &199
     title_ru: Корзинка фруктов
     title_en: Fruits Basket
