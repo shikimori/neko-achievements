@@ -16,6 +16,7 @@
     - 39478
     - 42091
     - 49739
+    - 49627
   threshold: 95%
   metadata: &2
     title_ru: Атака титанов
@@ -1080,6 +1081,9 @@
     - 38419
     - 40181
     - 46171
+    - 51162
+    - 50696
+    - 51163
   threshold: 95.6%
   metadata: &114
     title_ru: Ван-Пис
@@ -1490,6 +1494,8 @@
   algo: duration
   filters: &161
     franchise: to_love_ru
+    not_anime_ids:
+    - 51193
   threshold: 95%
   metadata: &162
     title_ru: Любовные неприятности
@@ -1855,6 +1861,9 @@
     title_en: Fruits Basket
     image: "/assets/achievements/anime/franchise/fruits_basket.jpg"
     topic_id: 247360
+  generator: &205
+    ignore_latest_ids:
+    - 49310
 - neko_id: fruits_basket
   level: 0
   algo: duration
@@ -1994,6 +2003,8 @@
     - 42174
     - 42914
     - 42984
+    - 50840
+    - 51150
   threshold: 92.7%
   metadata: &214
     title_ru: Покемон
@@ -3614,6 +3625,7 @@
     - 16964
     - 24347
     - 36913
+    - 51221
   threshold: 90%
   metadata: &381
     title_ru: Инадзума 11
@@ -3635,6 +3647,7 @@
     - 711
     - 7122
     - 23931
+    - 40554
   threshold: 95%
   metadata: &383
     title_ru: Космический линкор Ямато
@@ -3722,6 +3735,8 @@
   algo: duration
   filters: &393
     franchise: huyao_xiao_hongniang
+    not_anime_ids:
+    - 51194
   threshold: 95%
   metadata: &394
     title_ru: 'Сводники духов: Лисьи свахи'
