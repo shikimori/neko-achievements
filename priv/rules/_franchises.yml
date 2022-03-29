@@ -3852,6 +3852,7 @@
     - 41782
     - 45731
     - 49471
+    - 45731
 - neko_id: bang_dream
   level: 0
   algo: duration
@@ -5256,3 +5257,17 @@
   filters: *550
   threshold: 0.01
   metadata: *551
+- neko_id: karakai_jouzu_no_takagi_san
+  level: 1
+  algo: duration
+  filters: 
+    franchise: karakai_jouzu_no_takagi_san
+  threshold: 100%
+  metadata: 
+    title_ru: Озорная Такаги
+    title_en: Karakai Jouzu no Takagi-san
+    image: https://dere.shikimori.one/system/user_images/original/498922/1769914.jpg
+    topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 49722
