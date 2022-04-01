@@ -353,8 +353,6 @@
   algo: duration
   filters: &36
     franchise: ansatsu_kyoushitsu
-    not_anime_ids:
-    - 33511
   threshold: 94.1%
   metadata: &37
     title_ru: Класс убийц
@@ -401,7 +399,6 @@
     - 32311
     - 32739
     - 34085
-    - 38055
     - 41030
     - 43745
     - 43751
@@ -2797,7 +2794,6 @@
     - 7471
     - 9785
     - 9786
-    - 9839
     - 10766
     - 18429
     - 33145
@@ -3741,8 +3737,6 @@
   algo: duration
   filters: &394
     franchise: huyao_xiao_hongniang
-    not_anime_ids:
-    - 51194
   threshold: 95%
   metadata: &395
     title_ru: 'Сводники духов: Лисьи свахи'
