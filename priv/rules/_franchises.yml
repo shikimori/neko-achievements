@@ -2004,7 +2004,6 @@
     - 42984
     - 50840
     - 51150
-    - 41612
     - 51424
   threshold: 92.7%
   metadata: &215
@@ -2606,10 +2605,10 @@
     - 42432
     - 42439
     - 43204
-    - 49941
-    - 50084
     - 43205
     - 43206
+    - 49941
+    - 50084
   threshold: 87.1%
   metadata: &276
     title_ru: Мобильный воин Гандам
@@ -5256,14 +5255,21 @@
 - neko_id: karakai_jouzu_no_takagi_san
   level: 1
   algo: duration
-  filters: 
+  filters: &552
     franchise: karakai_jouzu_no_takagi_san
   threshold: 100%
-  metadata: 
+  metadata: &553
     title_ru: Озорная Такаги
     title_en: Karakai Jouzu no Takagi-san
-    image: https://dere.shikimori.one/system/user_images/original/498922/1769914.jpg
+    image: "/assets/achievements/anime/franchise/karakai_jouzu_no_takagi_san.jpg"
     topic_id: 247360
-  generator:
+  generator: &554
     ignore_latest_ids:
     - 49722
+- neko_id: karakai_jouzu_no_takagi_san
+  level: 0
+  algo: duration
+  filters: *552
+  threshold: 0.01
+  metadata: *553
+  generator: *554
