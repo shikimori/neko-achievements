@@ -2006,6 +2006,8 @@
     - 42984
     - 50840
     - 51150
+    - 41612
+    - 51424
   threshold: 92.7%
   metadata: &215
     title_ru: Покемон
@@ -2608,6 +2610,8 @@
     - 43204
     - 49941
     - 50084
+    - 43205
+    - 43206
   threshold: 87.1%
   metadata: &276
     title_ru: Мобильный воин Гандам
@@ -3136,6 +3140,7 @@
     - 38087
     - 39339
     - 48409
+    - 51266
   threshold: 95%
   metadata: &329
     title_ru: Осомацу
@@ -3848,6 +3853,7 @@
     - 41782
     - 45731
     - 49471
+    - 45731
 - neko_id: bang_dream
   level: 0
   algo: duration
@@ -5252,3 +5258,17 @@
   filters: *550
   threshold: 0.01
   metadata: *551
+- neko_id: karakai_jouzu_no_takagi_san
+  level: 1
+  algo: duration
+  filters: 
+    franchise: karakai_jouzu_no_takagi_san
+  threshold: 100%
+  metadata: 
+    title_ru: Озорная Такаги
+    title_en: Karakai Jouzu no Takagi-san
+    image: https://dere.shikimori.one/system/user_images/original/498922/1769914.jpg
+    topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 49722
