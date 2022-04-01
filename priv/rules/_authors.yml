@@ -154,11 +154,51 @@
   filters: *7
   metadata: *8
   generator: *9
+- neko_id: makoto_shinkai
+  level: 1
+  algo: count
+  threshold: 70%
+  filters: &10
+    anime_ids:
+    - 13675
+    - 21441
+    - 25271
+    - 2832
+    - 1689
+    - 433
+    - 2953
+    - 1004
+    - 256
+    - 2210
+    - 32491
+    - 38826
+    - 32281
+    - 16782
+    - 17121
+    - 9760
+    - 22839
+    - 38065
+    - 25883
+  metadata: &11
+    title_ru: Макото Синкай
+    title_en: Makoto Shinkai
+    image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
+    border_color: "#ABCDEF"
+    topic_id: 276032
+  generator: &12
+    person_id: 1117
+- neko_id: makoto_shinkai
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *10
+  metadata: *11
+  generator: *12
 - neko_id: hayao_miyazaki
   level: 1
   algo: count
   threshold: 55%
-  filters: &10
+  filters: &13
     anime_ids:
     - 1044
     - 2279
@@ -196,55 +236,15 @@
     - 1030
     - 1029
     - 1047
-  metadata: &11
+  metadata: &14
     title_ru: Хаяо Миядзаки
     title_en: Hayao Miyazaki
     image: "/assets/achievements/anime/author/hayao_miyazaki.jpg"
     border_color: "#C48D5E"
     topic_id: 276032
-  generator: &12
+  generator: &15
     person_id: 1870
 - neko_id: hayao_miyazaki
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *10
-  metadata: *11
-  generator: *12
-- neko_id: makoto_shinkai
-  level: 1
-  algo: count
-  threshold: 70%
-  filters: &13
-    anime_ids:
-    - 13675
-    - 21441
-    - 25271
-    - 2832
-    - 1689
-    - 433
-    - 2953
-    - 1004
-    - 256
-    - 2210
-    - 32491
-    - 38826
-    - 32281
-    - 16782
-    - 17121
-    - 9760
-    - 22839
-    - 38065
-    - 25883
-  metadata: &14
-    title_ru: Макото Синкай
-    title_en: Makoto Shinkai
-    image: "/assets/achievements/anime/author/makoto_shinkai.jpg"
-    border_color: "#ABCDEF"
-    topic_id: 276032
-  generator: &15
-    person_id: 1117
-- neko_id: makoto_shinkai
   level: 0
   algo: count
   threshold: 0.01
@@ -304,11 +304,49 @@
   filters: *16
   metadata: *17
   generator: *18
+- neko_id: shinichiro_watanabe
+  level: 1
+  algo: count
+  threshold: 62%
+  filters: &19
+    anime_ids:
+    - 2053
+    - 474
+    - 1
+    - 5
+    - 1303
+    - 3508
+    - 205
+    - 12531
+    - 20057
+    - 23327
+    - 23283
+    - 36308
+    - 37435
+    - 875
+    - 4087
+    - 13203
+    - 39815
+  metadata: &20
+    title_ru: Синъитиро Ватанабэ
+    title_en: Shinichiro Watanabe
+    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
+    border_color: "#000000"
+    topic_id: 276032
+  generator: &21
+    person_id: 2009
+- neko_id: shinichiro_watanabe
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *19
+  metadata: *20
+  generator: *21
 - neko_id: hiroshi_hamasaki
   level: 1
   algo: count
   threshold: 42%
-  filters: &19
+  filters: &22
     anime_ids:
     - 39806
     - 3889
@@ -342,53 +380,15 @@
     - 15847
     - 22547
     - 2387
-  metadata: &20
+  metadata: &23
     title_ru: Хироси Хамасаки
     title_en: Hiroshi Hamasaki
     image: "/assets/achievements/anime/author/hiroshi_hamasaki.jpg"
     border_color: "#C4B3AC"
     topic_id: 276032
-  generator: &21
+  generator: &24
     person_id: 6369
 - neko_id: hiroshi_hamasaki
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *19
-  metadata: *20
-  generator: *21
-- neko_id: shinichiro_watanabe
-  level: 1
-  algo: count
-  threshold: 62%
-  filters: &22
-    anime_ids:
-    - 2053
-    - 474
-    - 1
-    - 5
-    - 1303
-    - 3508
-    - 205
-    - 12531
-    - 20057
-    - 23327
-    - 23283
-    - 36308
-    - 37435
-    - 875
-    - 4087
-    - 13203
-    - 39815
-  metadata: &23
-    title_ru: Синъитиро Ватанабэ
-    title_en: Shinichiro Watanabe
-    image: "/assets/achievements/anime/author/shinichiro_watanabe.jpg"
-    border_color: "#000000"
-    topic_id: 276032
-  generator: &24
-    person_id: 2009
-- neko_id: shinichiro_watanabe
   level: 0
   algo: count
   threshold: 0.01
@@ -1529,69 +1529,11 @@
   filters: *85
   metadata: *86
   generator: *87
-- neko_id: clamp
-  level: 1
-  algo: count
-  threshold: 54%
-  filters: &88
-    anime_ids:
-    - 52
-    - 59
-    - 155
-    - 156
-    - 177
-    - 232
-    - 371
-    - 372
-    - 435
-    - 439
-    - 595
-    - 596
-    - 793
-    - 807
-    - 861
-    - 969
-    - 1043
-    - 1078
-    - 1496
-    - 1563
-    - 1844
-    - 1954
-    - 2424
-    - 2685
-    - 3091
-    - 4918
-    - 4938
-    - 5678
-    - 6864
-    - 10490
-    - 10681
-    - 33354
-    - 35320
-    - 1958
-    - 2274
-    - 2768
-    - 1890
-  metadata: &89
-    title_ru: CLAMP
-    title_en: CLAMP
-    image: "/assets/achievements/anime/author/clamp.jpg"
-    border_color: "#007276"
-    topic_id: 276032
-  generator: &90
-    person_id: 1877
-- neko_id: clamp
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *88
-  metadata: *89
-  generator: *90
 - neko_id: junichi_satou
   level: 1
   algo: count
   threshold: 51%
-  filters: &91
+  filters: &88
     anime_ids:
     - 516
     - 428
@@ -1638,15 +1580,73 @@
     - 41168
     - 39585
     - 41674
-  metadata: &92
+  metadata: &89
     title_ru: Дзюнъити Сато
     title_en: Junichi Satou
     image: "/assets/achievements/anime/author/junichi_satou.jpg"
     border_color: "#7482E1"
     topic_id: 276032
-  generator: &93
+  generator: &90
     person_id: 4002
 - neko_id: junichi_satou
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *88
+  metadata: *89
+  generator: *90
+- neko_id: clamp
+  level: 1
+  algo: count
+  threshold: 54%
+  filters: &91
+    anime_ids:
+    - 52
+    - 59
+    - 155
+    - 156
+    - 177
+    - 232
+    - 371
+    - 372
+    - 435
+    - 439
+    - 595
+    - 596
+    - 793
+    - 807
+    - 861
+    - 969
+    - 1043
+    - 1078
+    - 1496
+    - 1563
+    - 1844
+    - 1954
+    - 2424
+    - 2685
+    - 3091
+    - 4918
+    - 4938
+    - 5678
+    - 6864
+    - 10490
+    - 10681
+    - 33354
+    - 35320
+    - 1958
+    - 2274
+    - 2768
+    - 1890
+  metadata: &92
+    title_ru: CLAMP
+    title_en: CLAMP
+    image: "/assets/achievements/anime/author/clamp.jpg"
+    border_color: "#007276"
+    topic_id: 276032
+  generator: &93
+    person_id: 1877
+- neko_id: clamp
   level: 0
   algo: count
   threshold: 0.01
