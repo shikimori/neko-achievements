@@ -111,7 +111,7 @@
     franchise: naruto
     not_anime_ids:
     - 40971
-  threshold: 96.9%
+  threshold: 97%
   metadata: &12
     title_ru: Наруто
     title_en: Naruto
@@ -1409,7 +1409,7 @@
     - 37859
     - 37860
     - 39014
-  threshold: 88.1%
+  threshold: 88.2%
   metadata: &151
     title_ru: Вольный стиль!
     title_en: Free!
@@ -1835,7 +1835,7 @@
   algo: duration
   filters: &196
     franchise: non_non_biyori
-  threshold: 100%
+  threshold: 95%
   metadata: &197
     title_ru: Деревенская глубинка
     title_en: Non Non Biyori
@@ -1997,6 +1997,7 @@
     - 35552
     - 36835
     - 37865
+    - 41612
     - 42136
     - 42174
     - 42914
@@ -2769,7 +2770,7 @@
     franchise: inuyasha
     not_anime_ids:
     - 31133
-  threshold: 93.2%
+  threshold: 93.3%
   metadata: &293
     title_ru: Инуяся
     title_en: InuYasha
@@ -2891,7 +2892,7 @@
   algo: duration
   filters: &303
     franchise: ginga_eiyuu_densetsu
-  threshold: 91.8%
+  threshold: 90%
   metadata: &304
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
@@ -3811,7 +3812,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 85.2%
+  threshold: 85.3%
   metadata: &402
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4339,7 +4340,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 90.9%
+  threshold: 91.2%
   metadata: &458
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4434,7 +4435,7 @@
     - 10370
     - 13231
     - 21479
-  threshold: 90%
+  threshold: 80%
   metadata: &469
     title_ru: Бейблэйд
     title_en: Beyblade
@@ -4679,7 +4680,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 93.2%
+  threshold: 90.4%
   metadata: &492
     title_ru: При Пара
     title_en: PriPara
