@@ -1079,11 +1079,11 @@
     - 37902
     - 38419
     - 40181
+    - 40970
     - 46171
     - 50696
     - 51162
     - 51163
-    - 40970
   threshold: 95.7%
   metadata: &114
     title_ru: Ван-Пис
@@ -2001,18 +2001,18 @@
     - 36835
     - 37865
     - 41612
+    - 42135
     - 42136
+    - 42137
+    - 42138
+    - 42139
     - 42174
     - 42914
     - 42984
+    - 49321
     - 50840
     - 51150
     - 51424
-    - 42137
-    - 42139
-    - 42138
-    - 42135
-    - 49321
   threshold: 92.7%
   metadata: &215
     title_ru: Покемон
@@ -3437,6 +3437,12 @@
     title_en: The iDOLM@STER
     image: "/assets/achievements/anime/franchise/idolmaster.jpg"
     topic_id: 247360
+- neko_id: idolmaster
+  level: 0
+  algo: duration
+  filters: *359
+  threshold: 0.01
+  metadata: *360
 - neko_id: slam_dunk
   level: 1
   algo: duration
@@ -3451,12 +3457,6 @@
   generator: &363
     ignore_latest_ids:
     - 45649
-- neko_id: idolmaster
-  level: 0
-  algo: duration
-  filters: *359
-  threshold: 0.01
-  metadata: *360
 - neko_id: slam_dunk
   level: 0
   algo: duration
