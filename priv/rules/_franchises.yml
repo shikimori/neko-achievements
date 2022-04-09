@@ -4431,6 +4431,7 @@
   generator: &468
     ignore_latest_ids:
     - 37516
+    - 51585
 - neko_id: city_hunter
   level: 0
   algo: duration
