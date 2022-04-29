@@ -1915,6 +1915,7 @@
     ignore_latest_ids:
     - 40024
     - 40429
+    - 51716
     not_ignored_ids:
     - 1240
 - neko_id: sailor_moon
