@@ -4114,6 +4114,12 @@
     title_en: Yuuki Yuuna wa Yuusha de Aru
     image: "/assets/achievements/anime/franchise/yuki_yuna_is_a_hero.jpg"
     topic_id: 247360
+- neko_id: yuki_yuna_is_a_hero
+  level: 0
+  algo: duration
+  filters: *430
+  threshold: 0.01
+  metadata: *431
 - neko_id: doupo_cangqiong
   level: 1
   algo: duration
@@ -4129,12 +4135,6 @@
     topic_id: 247360
   generator: &434
     threshold: 97%
-- neko_id: yuki_yuna_is_a_hero
-  level: 0
-  algo: duration
-  filters: *430
-  threshold: 0.01
-  metadata: *431
 - neko_id: doupo_cangqiong
   level: 0
   algo: duration
@@ -5028,6 +5028,12 @@
     title_en: Ling Yu
     image: "/assets/achievements/anime/franchise/ling_yu.jpg"
     topic_id: 247360
+- neko_id: ling_yu
+  level: 0
+  algo: duration
+  filters: *527
+  threshold: 0.01
+  metadata: *528
 - neko_id: cyborg
   level: 1
   algo: duration
@@ -5046,12 +5052,6 @@
     title_en: Cyborg 009
     image: "/assets/achievements/anime/franchise/cyborg.jpg"
     topic_id: 247360
-- neko_id: ling_yu
-  level: 0
-  algo: duration
-  filters: *527
-  threshold: 0.01
-  metadata: *528
 - neko_id: cyborg
   level: 0
   algo: duration
@@ -5159,6 +5159,12 @@
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
     topic_id: 247360
+- neko_id: konjiki_no_gash_bell
+  level: 0
+  algo: duration
+  filters: *539
+  threshold: 0.01
+  metadata: *540
 - neko_id: to_heart
   level: 1
   algo: duration
@@ -5173,12 +5179,6 @@
     title_en: To Heart
     image: "/assets/achievements/anime/franchise/to_heart.jpg"
     topic_id: 247360
-- neko_id: konjiki_no_gash_bell
-  level: 0
-  algo: duration
-  filters: *539
-  threshold: 0.01
-  metadata: *540
 - neko_id: to_heart
   level: 0
   algo: duration
@@ -5295,11 +5295,17 @@
 - neko_id: xingchen_bian
   level: 1
   algo: duration
-  filters: 
+  filters: &555
     franchise: xingchen_bian
   threshold: 100%
-  metadata:
+  metadata: &556
     title_ru: Дорогой звёзд
     title_en: Xingchen Bian
-    image: https://dere.shikimori.one/system/user_images/original/45319/1830194.jpg
+    image: "/assets/achievements/anime/franchise/xingchen_bian.jpg"
     topic_id: 247360
+- neko_id: xingchen_bian
+  level: 0
+  algo: duration
+  filters: *555
+  threshold: 0.01
+  metadata: *556
