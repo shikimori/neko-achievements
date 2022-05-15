@@ -4115,6 +4115,12 @@
     title_en: Yuuki Yuuna wa Yuusha de Aru
     image: "/assets/achievements/anime/franchise/yuki_yuna_is_a_hero.jpg"
     topic_id: 247360
+- neko_id: yuki_yuna_is_a_hero
+  level: 0
+  algo: duration
+  filters: *430
+  threshold: 0.01
+  metadata: *431
 - neko_id: doupo_cangqiong
   level: 1
   algo: duration
@@ -4130,12 +4136,6 @@
     topic_id: 247360
   generator: &434
     threshold: 97%
-- neko_id: yuki_yuna_is_a_hero
-  level: 0
-  algo: duration
-  filters: *430
-  threshold: 0.01
-  metadata: *431
 - neko_id: doupo_cangqiong
   level: 0
   algo: duration
@@ -5046,6 +5046,12 @@
     title_en: Ling Yu
     image: "/assets/achievements/anime/franchise/ling_yu.jpg"
     topic_id: 247360
+- neko_id: ling_yu
+  level: 0
+  algo: duration
+  filters: *529
+  threshold: 0.01
+  metadata: *530
 - neko_id: cyborg
   level: 1
   algo: duration
@@ -5064,12 +5070,6 @@
     title_en: Cyborg 009
     image: "/assets/achievements/anime/franchise/cyborg.jpg"
     topic_id: 247360
-- neko_id: ling_yu
-  level: 0
-  algo: duration
-  filters: *529
-  threshold: 0.01
-  metadata: *530
 - neko_id: cyborg
   level: 0
   algo: duration
@@ -5177,6 +5177,12 @@
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
     topic_id: 247360
+- neko_id: konjiki_no_gash_bell
+  level: 0
+  algo: duration
+  filters: *541
+  threshold: 0.01
+  metadata: *542
 - neko_id: to_heart
   level: 1
   algo: duration
@@ -5191,12 +5197,6 @@
     title_en: To Heart
     image: "/assets/achievements/anime/franchise/to_heart.jpg"
     topic_id: 247360
-- neko_id: konjiki_no_gash_bell
-  level: 0
-  algo: duration
-  filters: *541
-  threshold: 0.01
-  metadata: *542
 - neko_id: to_heart
   level: 0
   algo: duration
