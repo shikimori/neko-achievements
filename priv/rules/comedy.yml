@@ -7,9 +7,9 @@
     genre_ids:
       - 4
   metadata:
-    title_ru: But then I lol'd
+    title_ru: But then I tol'd
     text_ru: Неужели вам понравился японский юмор?
-    title_en: But then I lol'd
+    title_en: But then I tol'd
     text_en: Did you really enjoy Japanese humor?
     image: /assets/achievements/anime/comedy_1.jpg
     border_color: "#F08080"
