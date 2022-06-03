@@ -4478,7 +4478,6 @@
     franchise: saki
     not_anime_ids:
     - 7759
-    - 30292
   threshold: 91%
   metadata: &472
     title_ru: Саки
