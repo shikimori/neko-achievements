@@ -7,12 +7,12 @@
     genre_ids:
       - 4
   metadata:
-    title_ru: But then I lol'd
-    text_ru: Неужели вам понравился японский юмор?
-    title_en: But then I lol'd
-    text_en: Did you really enjoy Japanese humor?
-    image: /assets/achievements/anime/comedy_1.jpg
-    border_color: "#F08080"
+    title_ru: Ахахахаха!
+    text_ru: Теперь вы понимаете японский юмор и вам это нравится!
+    title_en: Ahahahaha!
+    text_en: Now you understand the japanese humour and you like it!
+    image: https://c.tenor.com/MGwUzGm8yxsAAAAC/aho-girl.gif
+    border_color: "#f75b00"
     topic_id: 222035
 
 - <<: *defaults
