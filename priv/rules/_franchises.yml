@@ -3924,6 +3924,7 @@
     - 40967
     - 41099
     - 41167
+    - 51741
 - neko_id: idolish7
   level: 0
   algo: duration
@@ -4477,7 +4478,6 @@
     franchise: saki
     not_anime_ids:
     - 7759
-    - 30292
   threshold: 91%
   metadata: &472
     title_ru: Саки
