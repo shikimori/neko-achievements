@@ -5313,3 +5313,16 @@
   filters: *555
   threshold: 0.01
   metadata: *556
+- neko_id: puso_ni_comi
+  level: 1
+  algo: duration
+  filters: 
+    franchise: puso_ni_comi
+    not_anime_ids:
+    - 40948
+  threshold: 100%
+  metadata: 
+    title_ru: Фантастическая Звезда Онлайн
+    title_en: Phantasy Star Online
+    image: https://kawai.shikimori.one/system/user_images/original/607810/1859866.jpg
+    topic_id: 247360
