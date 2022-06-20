@@ -5327,3 +5327,16 @@
     title_en: Phantasy Star Online
     image: https://kawai.shikimori.one/system/user_images/original/607810/1859866.jpg
     topic_id: 247360
+- neko_id: honzuki_no_gekokujou
+  level: 1
+  algo: duration
+  filters: 
+    franchise: honzuki_no_gekokujou
+    not_anime_ids:
+    - 51616
+  threshold: 100%
+  metadata: 
+    title_ru: Власть книжного червя
+    title_en: Honzuki no Gekokujou
+    image: https://moe.shikimori.one/system/user_images/original/498922/1859147.jpg
+    topic_id: 247360
