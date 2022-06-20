@@ -91,14 +91,14 @@
 
 - <<: *defaults
   level: 9
-  threshold: 666
+  threshold: 599
   metadata:
-    title_ru: Сатанинский предел?
-    text_ru: Стремишься стать частью той силы, что вечно хочет зла и вечно совершает благо? Что ж, только внимательно читай те условия контракта, что мелким шрифтом.
-    title_en: Satan's limit?
-    text_en: Do you aspire to be part of that force that always wants evil and always does good? Well, just read the terms of the contract carefully in the fine print.
-    image: /assets/achievements/anime/animelist_9.jpg
-    border_color: "#ab274f"
+    title_ru: Чирно ⑨
+    text_ru: Сильнейшая в аниме!
+    title_en: Cirno ⑨
+    text_en: The strongest in anime
+    image: https://3.bp.blogspot.com/-qpJX95woY4A/VA8Sitbt7MI/AAAAAAAAJdo/0fCt2eUrDiY/s1600/Konachan.com%2B-%2B141621%2Bblue%2Bblue_eyes%2Bblue_hair%2Bblush%2Bbow%2Bcirno%2Bdress%2Bkurot%2Bshort_hair%2Btouhou%2Bwings.jpg
+    border_color: "#00BFFF"
 
 - <<: *defaults
   level: 10
@@ -130,8 +130,8 @@
     text_ru: Вы достигли четырёхзначного числа. Довольны?
     title_en: Point of no return
     text_en: You have reached a four-digit number. Are you satisfied? 
-    image: /assets/achievements/anime/animelist_12.jpg
-    border_color: "#a2a2d0"
+    image: https://www.fonstola.ru/download.php?file=201308/1920x1200/fonstola.ru-105133.jpg
+    border_color: "#71F9E4"
 
 - <<: *defaults
   level: 13
@@ -167,12 +167,12 @@
   level: 15
   threshold: 2000
   metadata:
-    title_ru: Маньяк
-    text_ru: Это так круто? Возможно, вам следует обратиться к врачу.
-    title_en: Maniac
-    text_en: Is that so cool? Perhaps you should see a doctor.
-    image: /assets/achievements/anime/animelist_15.jpg
-    border_color: "#ED3CCA"
+    title_ru: Windows 2000
+    text_ru: Здорово, вы теперь Otaku Geek 2000 Advanced Server Limited Edition!
+    title_en: Windows 2000
+    text_en: Awesome, now you are an Otaku Geek 2000 Advanced Server Limited Edition
+    image: https://konachan.net/image/2caeefe515f3ce8104056eae69254039/Konachan.com%20-%2015562%202000%20anthropomorphism%20os-tan%20windows.jpg
+    border_color: "#1E90FF"
 
 - <<: *defaults
   level: 16
@@ -189,12 +189,12 @@
   level: 17
   threshold: 3500
   metadata:
-    title_ru: Голубая кровь
-    text_ru: Вы находитесь так высоко! Кто-то восхищается вами, кто-то завидует, и это — заслуженно. Но не стоит задирать нос, помните, что и вы начинали с малого.
-    title_en: Blue Blood
-    text_en: You are so high up! Someone admires you, someone envies you, and it is well-deserved. But don't get cocky, remember that you also started out small.
-    image: /assets/achievements/anime/animelist_17.jpg
-    border_color: "#fce883"
+    title_ru: Голубой город будущего
+    text_ru: Вы находитесь так высоко! Кто-то восхищается вами и это — заслуженно. Но не стоит задирать нос, помните, что и вы начинали с малого.
+    title_en: Light-blue city of the future
+    text_en: You are so high up! Someone admires you and it is well-deserved. But don't get cocky, remember that you also started out small.
+    image: https://kartinkin.net/uploads/posts/2021-07/1626812295_28-kartinkin-com-p-anime-art-budushchee-anime-krasivo-34.jpg
+    border_color: "#7DF9FF"
 
 - <<: *defaults
   level: 18
