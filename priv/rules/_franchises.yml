@@ -5317,26 +5317,38 @@
 - neko_id: puso_ni_comi
   level: 1
   algo: duration
-  filters: 
+  filters: &557
     franchise: puso_ni_comi
     not_anime_ids:
     - 40948
   threshold: 100%
-  metadata: 
+  metadata: &558
     title_ru: Фантастическая Звезда Онлайн
     title_en: Phantasy Star Online
-    image: https://kawai.shikimori.one/system/user_images/original/607810/1859866.jpg
+    image: "/assets/achievements/anime/franchise/puso_ni_comi.jpg"
     topic_id: 247360
+- neko_id: puso_ni_comi
+  level: 0
+  algo: duration
+  filters: *557
+  threshold: 0.01
+  metadata: *558
 - neko_id: honzuki_no_gekokujou
   level: 1
   algo: duration
-  filters: 
+  filters: &559
     franchise: honzuki_no_gekokujou
     not_anime_ids:
     - 51616
   threshold: 100%
-  metadata: 
+  metadata: &560
     title_ru: Власть книжного червя
     title_en: Honzuki no Gekokujou
-    image: https://moe.shikimori.one/system/user_images/original/498922/1859147.jpg
+    image: "/assets/achievements/anime/franchise/honzuki_no_gekokujou.jpg"
     topic_id: 247360
+- neko_id: honzuki_no_gekokujou
+  level: 0
+  algo: duration
+  filters: *559
+  threshold: 0.01
+  metadata: *560
