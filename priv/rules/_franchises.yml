@@ -1141,7 +1141,7 @@
     - 31617
     - 38600
     - 49402
-  threshold: 91.5%
+  threshold: 92.4%
   metadata: &120
     title_ru: Призрак в доспехах
     title_en: Ghost in the Shell
@@ -1412,6 +1412,7 @@
     - 37858
     - 37859
     - 37860
+    - 39014
   threshold: 88.2%
   metadata: &151
     title_ru: Вольный стиль!
@@ -1759,7 +1760,7 @@
     - 49189
     - 50059
     - 50066
-  threshold: 95.4%
+  threshold: 95.7%
   metadata: &190
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2015,10 +2016,10 @@
     - 50840
     - 51150
     - 51424
-    - 51889
     - 51870
     - 51887
-  threshold: 92.7%
+    - 51889
+  threshold: 92.8%
   metadata: &215
     title_ru: Покемон
     title_en: Pokemon
@@ -2060,7 +2061,7 @@
   algo: duration
   filters: &219
     franchise: karakai_jouzu_no_takagi_san
-  threshold: 100%
+  threshold: 92.2%
   metadata: &220
     title_ru: Озорная Такаги
     title_en: Karakai Jouzu no Takagi-san
@@ -2644,7 +2645,7 @@
     - 49941
     - 50084
     - 50473
-  threshold: 87.1%
+  threshold: 87.4%
   metadata: &279
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2843,7 +2844,7 @@
     - 40348
     - 42476
     - 47413
-  threshold: 93.9%
+  threshold: 93.8%
   metadata: &298
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3458,6 +3459,7 @@
     - 40753
     - 42882
     - 49735
+    - 51842
   threshold: 87.8%
   metadata: &363
     title_ru: Идолмастер
@@ -3687,7 +3689,7 @@
     - 23931
     - 40554
     - 49311
-  threshold: 93%
+  threshold: 93.1%
   metadata: &387
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
@@ -3822,7 +3824,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 89.5%
+  threshold: 93.3%
   metadata: &403
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4315,7 +4317,7 @@
     not_anime_ids:
     - 673
     - 8518
-  threshold: 97.6%
+  threshold: 97.8%
   metadata: &455
     title_ru: Май-Химэ
     title_en: Mai-HiME
@@ -4479,7 +4481,7 @@
     franchise: saki
     not_anime_ids:
     - 7759
-  threshold: 91%
+  threshold: 90.2%
   metadata: &472
     title_ru: Саки
     title_en: Saki
