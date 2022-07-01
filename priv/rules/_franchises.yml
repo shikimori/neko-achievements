@@ -5358,13 +5358,19 @@
 - neko_id: kaguya_sama
   level: 1
   algo: duration
-  filters: 
+  filters: &561
     franchise: kaguya_sama
     not_anime_ids:
     - 44270
   threshold: 100%
-  metadata: 
-    title_ru: Госпожа Кагуя: в любви как на войне
-    title_en: Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen
-    image: https://nyaa.shikimori.one/system/user_images/original/498922/1859255.jpg
+  metadata: &562
+    title_ru: 'Госпожа Кагуя: в любви как на войне'
+    title_en: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
+    image: "/assets/achievements/anime/franchise/kaguya_sama.jpg"
     topic_id: 247360
+- neko_id: kaguya_sama
+  level: 0
+  algo: duration
+  filters: *561
+  threshold: 0.01
+  metadata: *562
