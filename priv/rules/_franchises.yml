@@ -1780,6 +1780,8 @@
     - 49189
     - 50059
     - 50066
+    - 52011
+    - 52010
   threshold: 95.7%
   metadata: &192
     title_ru: Живая любовь!
@@ -2524,6 +2526,7 @@
     - 38653
     - 42449
     - 48617
+    - 52282
   threshold: 95.2%
   metadata: &271
     title_ru: Драконий жемчуг
@@ -3438,6 +3441,8 @@
   algo: duration
   filters: &361
     franchise: slam_dunk
+    not_anime_ids:
+    - 52159
   threshold: 98.7%
   metadata: &362
     title_ru: Слэм-данк
