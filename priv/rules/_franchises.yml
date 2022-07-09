@@ -464,6 +464,7 @@
     franchise: danmachi
     not_anime_ids:
     - 40064
+    - 52357
   threshold: 95%
   metadata: &49
     title_ru: Разве плохо искать себе пару в подземелье?
@@ -623,6 +624,9 @@
     title_en: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
     image: "/assets/achievements/anime/franchise/kaguya_sama.jpg"
     topic_id: 247360
+    generator:
+    ignore_latest_ids:
+    - 52198
 - neko_id: kaguya_sama
   level: 0
   algo: duration
