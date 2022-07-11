@@ -464,6 +464,7 @@
     franchise: danmachi
     not_anime_ids:
     - 40064
+    - 52357
   threshold: 95%
   metadata: &49
     title_ru: Разве плохо искать себе пару в подземелье?
@@ -623,6 +624,9 @@
     title_en: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
     image: "/assets/achievements/anime/franchise/kaguya_sama.jpg"
     topic_id: 247360
+    generator:
+    ignore_latest_ids:
+    - 52198
 - neko_id: kaguya_sama
   level: 0
   algo: duration
@@ -1780,6 +1784,8 @@
     - 49189
     - 50059
     - 50066
+    - 52011
+    - 52010
   threshold: 95.7%
   metadata: &192
     title_ru: Живая любовь!
@@ -2524,6 +2530,7 @@
     - 38653
     - 42449
     - 48617
+    - 52282
   threshold: 95.2%
   metadata: &271
     title_ru: Драконий жемчуг
@@ -3438,6 +3445,8 @@
   algo: duration
   filters: &361
     franchise: slam_dunk
+    not_anime_ids:
+    - 52159
   threshold: 98.7%
   metadata: &362
     title_ru: Слэм-данк
