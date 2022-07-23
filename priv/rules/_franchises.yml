@@ -3249,7 +3249,7 @@
   metadata: &339
     title_ru: Сила тысячи
     title_en: Ikkitousen
-    image: "/assets/achievements/anime/franchise/ikkitousen.jpg"
+    image: https://dere.shikimori.one/system/user_images/original/380582/1915919.jpg
     topic_id: 247360
 - neko_id: ikkitousen
   level: 0
