@@ -3434,6 +3434,8 @@
   algo: duration
   filters: &359
     franchise: hayate_no_gotoku
+    not_anime_ids:
+    - 52687
   threshold: 95%
   metadata: &360
     title_ru: Боевой дворецкий Хаятэ!
