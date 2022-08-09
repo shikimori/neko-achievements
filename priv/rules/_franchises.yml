@@ -17,10 +17,10 @@
     - 42091
     - 49627
     - 49739
-    - 51618
     - 51239
     - 51240
     - 51241
+    - 51618
   threshold: 95%
   metadata: &2
     title_ru: Атака титанов
@@ -159,7 +159,7 @@
     not_anime_ids:
     - 35262
     - 43683
-  threshold: 94.5%
+  threshold: 95%
   metadata: &16
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -337,7 +337,7 @@
     - 36683
     - 37264
     - 51168
-  threshold: 92.9%
+  threshold: 89.8%
   metadata: &34
     title_ru: Повелитель
     title_en: Overlord
@@ -1097,7 +1097,7 @@
     - 51162
     - 51163
     - 52199
-  threshold: 95.7%
+  threshold: 95.3%
   metadata: &114
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1790,9 +1790,9 @@
     - 49189
     - 50059
     - 50066
-    - 52011
     - 52010
-  threshold: 95.7%
+    - 52011
+  threshold: 95.9%
   metadata: &192
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2051,7 +2051,7 @@
     - 51870
     - 51887
     - 51889
-  threshold: 92.8%
+  threshold: 92.7%
   metadata: &217
     title_ru: Покемон
     title_en: Pokemon
@@ -2097,7 +2097,7 @@
     - 30953
     - 31128
     - 36498
-  threshold: 98.3%
+  threshold: 97.7%
   metadata: &223
     title_ru: Сказание об Арслане
     title_en: Arslan Senki
@@ -2857,7 +2857,7 @@
     - 6226
     - 6743
     - 33208
-  threshold: 95%
+  threshold: 95.6%
   metadata: &300
     title_ru: Прославленный
     title_en: Utawarerumono
@@ -2896,7 +2896,7 @@
     - 40348
     - 42476
     - 47413
-  threshold: 93.8%
+  threshold: 93.9%
   metadata: &302
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -2958,7 +2958,7 @@
     not_anime_ids:
     - 1631
     - 15979
-  threshold: 95%
+  threshold: 92.9%
   metadata: &308
     title_ru: Эврика 7
     title_en: Eureka Seven
@@ -3255,7 +3255,7 @@
   metadata: &339
     title_ru: Сила тысячи
     title_en: Ikkitousen
-    image: https://dere.shikimori.one/system/user_images/original/380582/1915919.jpg
+    image: "/assets/achievements/anime/franchise/ikkitousen.jpg"
     topic_id: 247360
 - neko_id: ikkitousen
   level: 0
@@ -3882,7 +3882,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 93.3%
+  threshold: 88.1%
   metadata: &407
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4112,7 +4112,7 @@
   algo: duration
   filters: &428
     franchise: queen_s_blade
-  threshold: 90.8%
+  threshold: 91.2%
   metadata: &429
     title_ru: Клинок королевы
     title_en: Queen's Blade
@@ -4331,7 +4331,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
-  threshold: 93%
+  threshold: 93.1%
   metadata: &454
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4460,7 +4460,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.2%
+  threshold: 91.3%
   metadata: &467
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
