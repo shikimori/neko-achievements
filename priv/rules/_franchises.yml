@@ -504,6 +504,9 @@
     title_en: Haikyuu!!
     image: "/assets/achievements/anime/franchise/haikyuu.jpg"
     topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 52742
 - neko_id: haikyuu
   level: 0
   algo: duration
@@ -628,6 +631,9 @@
     title_en: Psycho-Pass
     image: "/assets/achievements/anime/franchise/psycho_pass.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 52747
 - neko_id: psycho_pass
   level: 0
   algo: duration
@@ -3662,23 +3668,6 @@
   filters: *380
   threshold: 0.01
   metadata: *381
-- neko_id: douluo_dalu
-  level: 1
-  algo: duration
-  filters: &382
-    franchise: douluo_dalu
-  threshold: 95%
-  metadata: &383
-    title_ru: Боевой континент
-    title_en: Douluo Dalu
-    image: "/assets/achievements/anime/franchise/douluo_dalu.jpg"
-    topic_id: 247360
-- neko_id: douluo_dalu
-  level: 0
-  algo: duration
-  filters: *382
-  threshold: 0.01
-  metadata: *383
 - neko_id: teekyuu
   level: 1
   algo: duration
@@ -3857,6 +3846,7 @@
     - 41377
     - 48772
     - 48773
+    - 40838
   threshold: 88.1%
   metadata: &404
     title_ru: Ура мечте!
