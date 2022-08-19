@@ -2902,6 +2902,7 @@
     - 40348
     - 42476
     - 47413
+    - 51782
   threshold: 93.9%
   metadata: &302
     title_ru: Детектив Конан
@@ -3123,6 +3124,8 @@
   algo: duration
   filters: &325
     franchise: brave_witches
+    not_anime_ids:
+    - 52748
   threshold: 95%
   metadata: &326
     title_ru: Штурмовые ведьмы
