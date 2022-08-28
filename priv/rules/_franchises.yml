@@ -3955,6 +3955,7 @@
     - 41167
     - 51741
     - 52042
+    - 43601
 - neko_id: idolish7
   level: 0
   algo: duration
@@ -5387,3 +5388,16 @@
   filters: *561
   threshold: 0.01
   metadata: *562
+- neko_id: touch
+  level: 1
+  algo: duration
+  filters:
+    franchise: touch
+    not_anime_ids:
+    - 39352
+  threshold: 100%
+  metadata:
+    title_ru: Касание
+    title_en: Touch
+    image: https://desu.shikimori.one/system/user_images/original/607810/1930293.jpg
+    topic_id: 247360
