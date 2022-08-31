@@ -176,6 +176,7 @@
     not_anime_ids:
     - 35262
     - 43683
+    - 52930
   threshold: 95%
   metadata: &18
     title_ru: Моя геройская академия
