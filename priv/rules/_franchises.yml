@@ -176,6 +176,7 @@
     not_anime_ids:
     - 35262
     - 43683
+    - 52930
   threshold: 95%
   metadata: &18
     title_ru: Моя геройская академия
@@ -504,6 +505,9 @@
     title_en: Haikyuu!!
     image: "/assets/achievements/anime/franchise/haikyuu.jpg"
     topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 52742
 - neko_id: haikyuu
   level: 0
   algo: duration
@@ -628,6 +632,9 @@
     title_en: Psycho-Pass
     image: "/assets/achievements/anime/franchise/psycho_pass.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 52747
 - neko_id: psycho_pass
   level: 0
   algo: duration
@@ -1080,6 +1087,7 @@
     - 51162
     - 51163
     - 52199
+    - 52921
   threshold: 95.3%
   metadata: &112
     title_ru: Ван-Пис
@@ -2896,6 +2904,7 @@
     - 40348
     - 42476
     - 47413
+    - 51782
   threshold: 93.9%
   metadata: &302
     title_ru: Детектив Конан
@@ -3117,6 +3126,8 @@
   algo: duration
   filters: &325
     franchise: brave_witches
+    not_anime_ids:
+    - 52748
   threshold: 95%
   metadata: &326
     title_ru: Штурмовые ведьмы
@@ -3662,23 +3673,6 @@
   filters: *380
   threshold: 0.01
   metadata: *381
-- neko_id: douluo_dalu
-  level: 1
-  algo: duration
-  filters: &382
-    franchise: douluo_dalu
-  threshold: 95%
-  metadata: &383
-    title_ru: Боевой континент
-    title_en: Douluo Dalu
-    image: "/assets/achievements/anime/franchise/douluo_dalu.jpg"
-    topic_id: 247360
-- neko_id: douluo_dalu
-  level: 0
-  algo: duration
-  filters: *382
-  threshold: 0.01
-  metadata: *383
 - neko_id: teekyuu
   level: 1
   algo: duration
@@ -3857,6 +3851,7 @@
     - 41377
     - 48772
     - 48773
+    - 40838
   threshold: 88.1%
   metadata: &404
     title_ru: Ура мечте!
@@ -3962,6 +3957,7 @@
     - 41167
     - 51741
     - 52042
+    - 43601
 - neko_id: idolish7
   level: 0
   algo: duration
@@ -5394,3 +5390,16 @@
   filters: *561
   threshold: 0.01
   metadata: *562
+- neko_id: touch
+  level: 1
+  algo: duration
+  filters:
+    franchise: touch
+    not_anime_ids:
+    - 39352
+  threshold: 100%
+  metadata:
+    title_ru: Касание
+    title_en: Touch
+    image: https://desu.shikimori.one/system/user_images/original/607810/1930293.jpg
+    topic_id: 247360
