@@ -5413,3 +5413,34 @@
   filters: *563
   threshold: 0.01
   metadata: *564
+- neko_id: tsukipro_the_animation
+  level: 1
+  algo: duration
+  filters: 
+    franchise: tsukipro_the_animation
+  threshold: 100%
+  metadata: 
+    title_ru: Лунная песнь
+    title_en: Tsukiuta
+    image: https://moe.shikimori.one/system/user_images/original/50587/1729562.jpg
+    topic_id: 247360
+- neko_id: atom
+  level: 1
+  algo: duration
+  filters: 
+    franchise: atom
+    not_anime_ids:
+    - 40377
+    - 2747
+    - 10342
+    - 39360
+    - 17961
+    - 17959
+    - 18637
+    - 17963
+  threshold: 100%
+  metadata: 
+    title_ru: Могучий Атом
+    title_en: Tetsuwan Atom
+    image: https://dere.shikimori.one/system/user_images/original/661284/1961029.jpg
+    topic_id: 247360  
