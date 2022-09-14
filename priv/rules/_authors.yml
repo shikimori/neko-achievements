@@ -161,8 +161,6 @@
   threshold: 70%
   filters: &10
     anime_ids:
-    - 13675
-    - 21441
     - 25271
     - 2832
     - 1689
@@ -178,8 +176,6 @@
     - 17121
     - 9760
     - 22839
-    - 38065
-    - 25883
   metadata: &11
     title_ru: Макото Синкай
     title_en: Makoto Shinkai
@@ -290,6 +286,7 @@
     - 4103
     - 3786
     - 49357
+    - 42310
   metadata: &17
     title_ru: Хироюки Имаиси
     title_en: Hiroyuki Imaishi
