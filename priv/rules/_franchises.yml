@@ -293,7 +293,7 @@
     - 36683
     - 37264
     - 51168
-  threshold: 90%
+  threshold: 91.5%
   metadata: &31
     title_ru: Повелитель
     title_en: Overlord
@@ -1822,7 +1822,7 @@
     - 50066
     - 52010
     - 52011
-  threshold: 95.9%
+  threshold: 96%
   metadata: &197
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2653,6 +2653,7 @@
     - 8839
     - 9087
     - 9098
+    - 17655
     - 19977
     - 20355
     - 22435
@@ -2846,7 +2847,7 @@
     - 6226
     - 6743
     - 33208
-  threshold: 95.7%
+  threshold: 95.9%
   metadata: &300
     title_ru: Прославленный
     title_en: Utawarerumono
@@ -3318,6 +3319,12 @@
     title_en: Minami-ke
     image: "/assets/achievements/anime/franchise/minami_ke.jpg"
     topic_id: 247360
+- neko_id: minami_ke
+  level: 0
+  algo: duration
+  filters: *346
+  threshold: 0.01
+  metadata: *347
 - neko_id: black_jack
   level: 1
   algo: duration
@@ -3334,12 +3341,6 @@
     title_en: Black Jack
     image: "/assets/achievements/anime/franchise/black_jack.jpg"
     topic_id: 247360
-- neko_id: minami_ke
-  level: 0
-  algo: duration
-  filters: *346
-  threshold: 0.01
-  metadata: *347
 - neko_id: black_jack
   level: 0
   algo: duration
@@ -3851,7 +3852,7 @@
     - 41377
     - 48772
     - 48773
-  threshold: 93.4%
+  threshold: 93.5%
   metadata: &404
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4092,7 +4093,7 @@
   algo: duration
   filters: &426
     franchise: queen_s_blade
-  threshold: 91.2%
+  threshold: 91.9%
   metadata: &427
     title_ru: Клинок королевы
     title_en: Queen's Blade
@@ -5414,31 +5415,32 @@
 - neko_id: tsukipro_the_animation
   level: 1
   algo: duration
-  filters: 
+  filters: &565
     franchise: tsukipro_the_animation
   threshold: 100%
-  metadata: 
+  metadata: &566
     title_ru: Лунная песнь
     title_en: Tsukiuta
-    image: https://moe.shikimori.one/system/user_images/original/50587/1729562.jpg
+    image: "/assets/achievements/anime/franchise/tsukipro_the_animation.jpg"
     topic_id: 247360
 - neko_id: atom
   level: 1
   algo: duration
-  filters: 
+  filters: &567
     franchise: atom
     not_anime_ids:
-    - 40377
     - 2747
     - 10342
-    - 39360
-    - 17961
     - 17959
-    - 18637
+    - 17961
     - 17963
-  threshold: 100%
-  metadata: 
+    - 17965
+    - 18637
+    - 39360
+    - 40377
+  threshold: 97.9%
+  metadata: &568
     title_ru: Могучий Атом
     title_en: Tetsuwan Atom
-    image: https://dere.shikimori.one/system/user_images/original/661284/1961029.jpg
-    topic_id: 247360  
+    image: "/assets/achievements/anime/franchise/atom.jpg"
+    topic_id: 247360
