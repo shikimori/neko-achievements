@@ -5423,6 +5423,12 @@
     title_en: Tsukiuta
     image: "/assets/achievements/anime/franchise/tsukipro_the_animation.jpg"
     topic_id: 247360
+- neko_id: tsukipro_the_animation
+  level: 0
+  algo: duration
+  filters: *565
+  threshold: 0.01
+  metadata: *566
 - neko_id: atom
   level: 1
   algo: duration
@@ -5444,3 +5450,9 @@
     title_en: Tetsuwan Atom
     image: "/assets/achievements/anime/franchise/atom.jpg"
     topic_id: 247360
+- neko_id: atom
+  level: 0
+  algo: duration
+  filters: *567
+  threshold: 0.01
+  metadata: *568
