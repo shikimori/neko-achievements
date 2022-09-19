@@ -3958,6 +3958,11 @@
     - 51741
     - 52042
     - 43601
+    - 43601
+    - 53071
+    - 52948
+    - 52042
+    - 51741
 - neko_id: idolish7
   level: 0
   algo: duration
@@ -4753,6 +4758,8 @@
   algo: duration
   filters: &497
     franchise: tsukipro_the_animation
+    not_anime_ids:
+    - 43288
   threshold: 100%
   metadata: &498
     title_ru: Лунная песнь
@@ -4776,10 +4783,14 @@
     - 17959
     - 17961
     - 17963
-    - 17965
     - 18637
     - 39360
     - 40377
+    - 39362
+    - 39363
+    - 39361
+    - 39358
+    - 39359
   threshold: 97.9%
   metadata: &500
     title_ru: Могучий Атом
