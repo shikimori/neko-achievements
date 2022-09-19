@@ -1471,7 +1471,7 @@
     - 37859
     - 37860
     - 39014
-  threshold: 88.2%
+  threshold: 95%
   metadata: &158
     title_ru: Вольный стиль!
     title_en: Free!
@@ -3574,6 +3574,12 @@
     title_en: Gatchaman
     image: "/assets/achievements/anime/franchise/gatchaman.jpg"
     topic_id: 247360
+- neko_id: gatchaman
+  level: 0
+  algo: duration
+  filters: *373
+  threshold: 0.01
+  metadata: *374
 - neko_id: tennis_no_ouji_sama
   level: 1
   algo: duration
@@ -3599,12 +3605,6 @@
   generator: &377
     ignore_latest_ids:
     - 38882
-- neko_id: gatchaman
-  level: 0
-  algo: duration
-  filters: *373
-  threshold: 0.01
-  metadata: *374
 - neko_id: tennis_no_ouji_sama
   level: 0
   algo: duration
@@ -4783,15 +4783,16 @@
     - 17959
     - 17961
     - 17963
+    - 17965
     - 18637
-    - 39360
-    - 40377
-    - 39362
-    - 39363
-    - 39361
     - 39358
     - 39359
-  threshold: 97.9%
+    - 39360
+    - 39361
+    - 39362
+    - 39363
+    - 40377
+  threshold: 99.2%
   metadata: &500
     title_ru: Могучий Атом
     title_en: Tetsuwan Atom
