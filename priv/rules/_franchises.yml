@@ -548,6 +548,7 @@
     generator:
     ignore_latest_ids:
     - 52198
+    - 52198
 - neko_id: kaguya_sama
   level: 0
   algo: duration
