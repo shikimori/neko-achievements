@@ -293,7 +293,7 @@
     - 36683
     - 37264
     - 51168
-  threshold: 91.5%
+  threshold: 91.3%
   metadata: &31
     title_ru: Повелитель
     title_en: Overlord
@@ -2849,7 +2849,7 @@
     - 6226
     - 6743
     - 33208
-  threshold: 95.9%
+  threshold: 96%
   metadata: &300
     title_ru: Прославленный
     title_en: Utawarerumono
@@ -4336,6 +4336,7 @@
     franchise: digimon
     not_anime_ids:
     - 4712
+    - 51780
   threshold: 93.2%
   metadata: &454
     title_ru: Приключения Дигимонов
@@ -4487,7 +4488,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.3%
+  threshold: 91.7%
   metadata: &470
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
