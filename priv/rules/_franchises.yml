@@ -156,6 +156,7 @@
     - 39921
     - 41590
     - 42364
+    - 42776
   threshold: 100%
   metadata: &16
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
@@ -247,6 +248,7 @@
     - 36923
     - 42490
     - 45567
+    - 41059
   threshold: 95%
   metadata: &26
     title_ru: Семь смертных грехов
@@ -391,6 +393,8 @@
   algo: duration
   filters: &39
     franchise: mob_psycho
+    not_anime_ids:
+    - 52134
   threshold: 100%
   metadata: &40
     title_ru: Моб Психо 100
@@ -863,6 +867,7 @@
     not_anime_ids:
     - 35009
     - 35676
+    - 52976
   threshold: 100%
   metadata: &90
     title_ru: Берсерк
@@ -2132,7 +2137,7 @@
     image: "/assets/achievements/anime/franchise/golden_kamuy.jpg"
     topic_id: 247360
   generator: &228
-    not_ignored_ids:
+    ignore_latest_ids:
     - 37755
 - neko_id: golden_kamuy
   level: 0
