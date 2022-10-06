@@ -115,6 +115,8 @@
     franchise: naruto
     not_anime_ids:
     - 40971
+    - 10075
+    - 53236
   threshold: 97%
   metadata: &12
     title_ru: Наруто
@@ -138,6 +140,8 @@
     title_en: Kimetsu no Yaiba
     image: "/assets/achievements/anime/franchise/demon_slayer.jpg"
     topic_id: 247360
+  generator:
+    threshold: 99%
 - neko_id: demon_slayer
   level: 0
   algo: duration
@@ -381,6 +385,7 @@
   generator: &38
     ignore_latest_ids:
     - 3786
+    - 53246
 - neko_id: evangelion
   level: 0
   algo: duration
@@ -1095,6 +1100,7 @@
     - 51163
     - 52199
     - 52921
+    - 53235
   threshold: 95.3%
   metadata: &114
     title_ru: Ван-Пис
