@@ -407,8 +407,8 @@
     title_en: Mob Psycho 100
     image: "/assets/achievements/anime/franchise/mob_psycho.jpg"
     topic_id: 247360
-  generator: &42
-    threshold: 100%
+  generator:
+    threshold: 96,93%
     not_ignored_ids:
     - 36616
 - neko_id: mob_psycho
@@ -3980,6 +3980,9 @@
     - 52948
     - 52042
     - 51741
+    - 52948
+    - 53071
+    - 53242
 - neko_id: idolish7
   level: 0
   algo: duration
@@ -5489,3 +5492,29 @@
   filters: *568
   threshold: 0.01
   metadata: *569
+- neko_id: jashin_chan_dropkick
+  level: 1
+  algo: duration
+  filters:
+    franchise: jashin_chan_dropkick
+    not_anime_ids:
+    - 52006
+  threshold: 100%
+  metadata:
+    title_ru: Дропкик злого духа
+    title_en: Jashin-chan Dropkick
+    image: https://moe.shikimori.one/system/user_images/original/607810/1965487.jpg
+    topic_id: 247360
+- neko_id: kingdom
+  level: 1
+  algo: duration
+  filters:
+    franchise: kingdom
+    not_anime_ids:
+    - 48877
+  threshold: 100%
+  metadata:
+    title_ru: Царство
+    title_en: Kingdom
+    image: https://nyaa.shikimori.one/system/user_images/original/45319/1963435.jpg
+    topic_id: 247360
