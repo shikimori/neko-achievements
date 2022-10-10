@@ -408,7 +408,7 @@
     image: "/assets/achievements/anime/franchise/mob_psycho.jpg"
     topic_id: 247360
   generator:
-    threshold: 96,93%
+    threshold: 96.93%
     not_ignored_ids:
     - 36616
 - neko_id: mob_psycho
