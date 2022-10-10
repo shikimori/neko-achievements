@@ -300,7 +300,7 @@
     - 36683
     - 37264
     - 51168
-  threshold: 91.3%
+  threshold: 94.4%
   metadata: &32
     title_ru: Повелитель
     title_en: Overlord
@@ -401,7 +401,7 @@
     franchise: mob_psycho
     not_anime_ids:
     - 52134
-  threshold: 100%
+  threshold: 96.93%
   metadata: &41
     title_ru: Моб Психо 100
     title_en: Mob Psycho 100
@@ -1835,7 +1835,8 @@
     - 50066
     - 52010
     - 52011
-  threshold: 96%
+    - 52745
+  threshold: 95.9%
   metadata: &198
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2140,7 +2141,7 @@
   algo: duration
   filters: &227
     franchise: golden_kamuy
-  threshold: 100%
+  threshold: 95.2%
   metadata: &228
     title_ru: Золотое божество
     title_en: Golden Kamuy
@@ -2702,7 +2703,7 @@
     - 49941
     - 50084
     - 50473
-  threshold: 87.4%
+  threshold: 87.3%
   metadata: &283
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2864,7 +2865,7 @@
     - 6226
     - 6743
     - 33208
-  threshold: 96%
+  threshold: 96.1%
   metadata: &301
     title_ru: Прославленный
     title_en: Utawarerumono
@@ -3192,7 +3193,7 @@
     franchise: tiger_bunny
     not_anime_ids:
     - 30178
-  threshold: 93.9%
+  threshold: 94.9%
   metadata: &335
     title_ru: Тигр и кролик
     title_en: Tiger & Bunny
@@ -5499,7 +5500,7 @@
     franchise: jashin_chan_dropkick
     not_anime_ids:
     - 52006
-  threshold: 100%
+  threshold: 97.2%
   metadata: &571
     title_ru: Дропкик злого духа
     title_en: Jashin-chan Dropkick
