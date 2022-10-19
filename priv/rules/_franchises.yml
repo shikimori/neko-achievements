@@ -4744,6 +4744,9 @@
     title_en: Aikatsu!
     image: "/assets/achievements/anime/franchise/aikatsu.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 52992
 - neko_id: aikatsu
   level: 0
   algo: duration
