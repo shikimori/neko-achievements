@@ -4780,6 +4780,7 @@
     franchise: urusei_yatsura
     not_anime_ids:
     - 1481
+    - 53402
   threshold: 93.4%
   metadata: &499
     title_ru: Несносные пришельцы
