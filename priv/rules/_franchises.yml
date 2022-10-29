@@ -4744,6 +4744,9 @@
     title_en: Aikatsu!
     image: "/assets/achievements/anime/franchise/aikatsu.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 52992
 - neko_id: aikatsu
   level: 0
   algo: duration
@@ -4777,6 +4780,7 @@
     franchise: urusei_yatsura
     not_anime_ids:
     - 1481
+    - 53402
   threshold: 93.4%
   metadata: &499
     title_ru: Несносные пришельцы
