@@ -91,7 +91,7 @@
     - 40489
     - 41341
     - 42128
-  threshold: 93%
+  threshold: 95%
   metadata: &9
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
@@ -1099,7 +1099,15 @@
     - 50696
     - 51162
     - 51163
+    - 52139
     - 52199
+    - 52832
+    - 52846
+    - 52847
+    - 52871
+    - 52872
+    - 52873
+    - 52893
     - 52921
     - 53235
   threshold: 95.3%
@@ -1830,6 +1838,8 @@
     - 41188
     - 41189
     - 41204
+    - 49882
+    - 49988
     - 52010
     - 52011
     - 52745
@@ -2044,13 +2054,16 @@
     - 42914
     - 42984
     - 49321
+    - 50815
     - 50840
+    - 51015
     - 51150
     - 51424
     - 51870
     - 51887
     - 51889
-  threshold: 92.7%
+    - 52897
+  threshold: 93.9%
   metadata: &217
     title_ru: Покемон
     title_en: Pokemon
@@ -2217,7 +2230,7 @@
   algo: duration
   filters: &237
     franchise: uta_no_prince_sama
-  threshold: 95%
+  threshold: 88.8%
   metadata: &238
     title_ru: Поющий принц
     title_en: Uta no☆Prince-sama♪
@@ -2920,7 +2933,7 @@
     - 42476
     - 47413
     - 51782
-  threshold: 93.2%
+  threshold: 93.4%
   metadata: &305
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3523,6 +3536,7 @@
     franchise: jashin_chan_dropkick
     not_anime_ids:
     - 52006
+    - 52649
   threshold: 97.2%
   metadata: &370
     title_ru: Дропкик злого духа
@@ -3579,8 +3593,9 @@
     - 40753
     - 42882
     - 49735
+    - 51509
     - 51842
-  threshold: 87.8%
+  threshold: 86.5%
   metadata: &374
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3754,7 +3769,7 @@
     - 24347
     - 36913
     - 51221
-  threshold: 90%
+  threshold: 96%
   metadata: &392
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
@@ -3905,7 +3920,11 @@
     - 41377
     - 48772
     - 48773
-  threshold: 93.5%
+    - 50563
+    - 50735
+    - 51087
+    - 51478
+  threshold: 91.4%
   metadata: &409
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -3960,7 +3979,7 @@
     not_anime_ids:
     - 37710
     - 49442
-  threshold: 97.7%
+  threshold: 97.8%
   metadata: &412
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4738,7 +4757,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.3%
+  threshold: 95.9%
   metadata: &495
     title_ru: Айкацу!
     title_en: Aikatsu!
