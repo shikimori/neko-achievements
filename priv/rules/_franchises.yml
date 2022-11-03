@@ -776,7 +776,7 @@
   algo: duration
   filters: &79
     franchise: bleach
-  threshold: 97.5%
+  threshold: 96.7%
   metadata: &80
     title_ru: Блич
     title_en: Bleach
@@ -1843,7 +1843,7 @@
     - 52010
     - 52011
     - 52745
-  threshold: 95.9%
+  threshold: 96%
   metadata: &198
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2130,7 +2130,7 @@
   algo: duration
   filters: &224
     franchise: golden_kamuy
-  threshold: 95.2%
+  threshold: 95%
   metadata: &225
     title_ru: Золотое божество
     title_en: Golden Kamuy
@@ -2713,7 +2713,7 @@
     - 49941
     - 50084
     - 50473
-  threshold: 87.3%
+  threshold: 86.8%
   metadata: &283
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2875,7 +2875,7 @@
     - 6226
     - 6743
     - 33208
-  threshold: 96.1%
+  threshold: 96.3%
   metadata: &301
     title_ru: Прославленный
     title_en: Utawarerumono
@@ -3917,12 +3917,16 @@
     not_anime_ids:
     - 40838
     - 41377
+    - 45108
+    - 45109
     - 48772
     - 48773
+    - 49669
     - 50563
     - 50735
     - 51087
     - 51478
+    - 53330
   threshold: 91.4%
   metadata: &409
     title_ru: Ура мечте!
@@ -3978,7 +3982,8 @@
     not_anime_ids:
     - 37710
     - 49442
-  threshold: 97.8%
+    - 53396
+  threshold: 97.6%
   metadata: &412
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4410,7 +4415,8 @@
     not_anime_ids:
     - 4712
     - 51780
-  threshold: 93.2%
+    - 53265
+  threshold: 93.3%
   metadata: &459
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4561,7 +4567,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 92%
+  threshold: 91.4%
   metadata: &475
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4756,7 +4762,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 95.9%
+  threshold: 94.7%
   metadata: &495
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -4800,7 +4806,7 @@
     not_anime_ids:
     - 1481
     - 53402
-  threshold: 93.4%
+  threshold: 94%
   metadata: &500
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -5488,7 +5494,7 @@
   algo: duration
   filters: &567
     franchise: di_gi_charat
-  threshold: 92.6%
+  threshold: 92.7%
   metadata: &568
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
