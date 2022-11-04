@@ -759,7 +759,7 @@
   algo: duration
   filters: &77
     franchise: bleach
-  threshold: 96.7%
+  threshold: 97.4%
   metadata: &78
     title_ru: Блич
     title_en: Bleach
@@ -2159,6 +2159,13 @@
     topic_id: 247360
   generator: &229
     threshold: 98%
+- neko_id: baka_to_test_to_shoukanjuu
+  level: 0
+  algo: duration
+  filters: *227
+  threshold: 0.01
+  metadata: *228
+  generator: *229
 - neko_id: karakai_jouzu_no_takagi_san
   level: 1
   algo: duration
@@ -2173,13 +2180,6 @@
   generator: &232
     ignore_latest_ids:
     - 49722
-- neko_id: baka_to_test_to_shoukanjuu
-  level: 0
-  algo: duration
-  filters: *227
-  threshold: 0.01
-  metadata: *228
-  generator: *229
 - neko_id: karakai_jouzu_no_takagi_san
   level: 0
   algo: duration
