@@ -4769,6 +4769,7 @@
   generator: &496
     ignore_latest_ids:
     - 52992
+    - 53499
 - neko_id: aikatsu
   level: 0
   algo: duration
