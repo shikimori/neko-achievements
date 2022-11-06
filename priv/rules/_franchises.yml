@@ -759,7 +759,7 @@
   algo: duration
   filters: &77
     franchise: bleach
-  threshold: 97.4%
+  threshold: 97.1%
   metadata: &78
     title_ru: Блич
     title_en: Bleach
