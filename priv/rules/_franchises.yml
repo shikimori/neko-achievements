@@ -101,6 +101,7 @@
     ignore_latest_ids:
     - 42916
     - 50275
+    - 53529
 - neko_id: sword_art_online
   level: 0
   algo: duration
@@ -2690,6 +2691,7 @@
     - 49941
     - 50084
     - 50473
+    - 51569
   threshold: 86.8%
   metadata: &281
     title_ru: Мобильный воин Гандам
