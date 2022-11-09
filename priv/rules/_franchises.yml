@@ -2945,6 +2945,7 @@
     ignore_latest_ids:
     - 38770
     - 49320
+    - 53540
     not_ignored_ids:
     - 1365
 - neko_id: detective_conan
