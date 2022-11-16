@@ -101,6 +101,7 @@
     ignore_latest_ids:
     - 42916
     - 50275
+    - 53529
 - neko_id: sword_art_online
   level: 0
   algo: duration
@@ -2690,6 +2691,8 @@
     - 49941
     - 50084
     - 50473
+    - 51569
+    - 53603
   threshold: 86.8%
   metadata: &281
     title_ru: Мобильный воин Гандам
@@ -2943,6 +2946,7 @@
     ignore_latest_ids:
     - 38770
     - 49320
+    - 53540
     not_ignored_ids:
     - 1365
 - neko_id: detective_conan
@@ -3808,6 +3812,7 @@
     - 23931
     - 40554
     - 49311
+    - 53604
   threshold: 93.1%
   metadata: &396
     title_ru: Космический линкор Ямато
