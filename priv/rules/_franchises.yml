@@ -3971,7 +3971,7 @@
     image: "/assets/achievements/anime/franchise/majutsushi_orphen.jpg"
     topic_id: 247360
   generator: &410
-    threshold: 100%
+    threshold: 95%
 - neko_id: majutsushi_orphen
   level: 0
   algo: duration
