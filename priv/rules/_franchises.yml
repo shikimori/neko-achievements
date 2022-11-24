@@ -3964,7 +3964,7 @@
   algo: duration
   filters: &408
     franchise: majutsushi_orphen
-  threshold: 100%
+  threshold: 95%
   metadata: &409
     title_ru: Волшебник-воин Орфен
     title_en: Majutsushi Orphen
