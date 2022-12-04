@@ -577,6 +577,7 @@
     - 45753
     - 49318
     - 51309
+    - 44269
   threshold: 99%
   metadata: &60
     title_ru: О моём перерождении в слизь
@@ -1188,6 +1189,8 @@
   algo: duration
   filters: &124
     franchise: saiki_kusuo_no_nan
+    not_anime_ids:
+    - 53712
   threshold: 100%
   metadata: &125
     title_ru: Ох уж этот экстрасенс Сайки Кусуо!
@@ -1844,6 +1847,7 @@
     - 52010
     - 52011
     - 52745
+    - 42753
   threshold: 96%
   metadata: &198
     title_ru: Живая любовь!
