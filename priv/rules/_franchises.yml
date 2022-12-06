@@ -571,10 +571,10 @@
     franchise: tensei_shitara_slime_datta_ken
     not_anime_ids:
     - 39607
+    - 44269
     - 45753
     - 49318
     - 51309
-    - 44269
   threshold: 99%
   metadata: &60
     title_ru: О моём перерождении в слизь
@@ -758,7 +758,7 @@
   algo: duration
   filters: &77
     franchise: bleach
-  threshold: 97.1%
+  threshold: 97.2%
   metadata: &78
     title_ru: Блич
     title_en: Bleach
@@ -1110,7 +1110,7 @@
     - 52893
     - 52921
     - 53235
-  threshold: 95.3%
+  threshold: 95.4%
   metadata: &115
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1837,12 +1837,13 @@
     - 36473
     - 41182
     - 41188
+    - 42753
+    - 48828
     - 49882
     - 49988
     - 52010
     - 52011
     - 52745
-    - 42753
   threshold: 96%
   metadata: &198
     title_ru: Живая любовь!
@@ -2691,8 +2692,9 @@
     - 50084
     - 50473
     - 51569
+    - 53286
     - 53603
-  threshold: 87.3%
+  threshold: 87.2%
   metadata: &281
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2877,7 +2879,7 @@
     - 6226
     - 6743
     - 33208
-  threshold: 96.3%
+  threshold: 96.5%
   metadata: &301
     title_ru: Прославленный
     title_en: Utawarerumono
@@ -2935,7 +2937,7 @@
     - 42476
     - 47413
     - 51782
-  threshold: 93.4%
+  threshold: 93.3%
   metadata: &305
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -2995,7 +2997,7 @@
   algo: duration
   filters: &310
     franchise: ginga_eiyuu_densetsu
-  threshold: 90%
+  threshold: 89.3%
   metadata: &311
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
@@ -3023,7 +3025,7 @@
     not_anime_ids:
     - 1631
     - 15979
-  threshold: 92.9%
+  threshold: 95%
   metadata: &314
     title_ru: Эврика 7
     title_en: Eureka Seven
@@ -3494,7 +3496,7 @@
     franchise: slam_dunk
     not_anime_ids:
     - 52159
-  threshold: 98.7%
+  threshold: 95%
   metadata: &365
     title_ru: Слэм-данк
     title_en: Slam Dunk
@@ -3874,7 +3876,7 @@
     franchise: aria
     not_anime_ids:
     - 5196
-  threshold: 89.7%
+  threshold: 93.8%
   metadata: &403
     title_ru: Ария
     title_en: Aria
@@ -3985,7 +3987,7 @@
     - 37710
     - 49442
     - 53396
-  threshold: 97.6%
+  threshold: 97.7%
   metadata: &412
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4182,7 +4184,7 @@
     not_anime_ids:
     - 1481
     - 53402
-  threshold: 94%
+  threshold: 93.6%
   metadata: &432
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -4567,7 +4569,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.4%
+  threshold: 91.5%
   metadata: &474
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4762,7 +4764,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.7%
+  threshold: 96%
   metadata: &495
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -5458,7 +5460,7 @@
   algo: duration
   filters: &563
     franchise: di_gi_charat
-  threshold: 92.7%
+  threshold: 92.8%
   metadata: &564
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
