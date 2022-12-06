@@ -846,91 +846,11 @@
   filters: *46
   metadata: *47
   generator: *48
-- neko_id: type_moon
-  level: 1
-  algo: count
-  threshold: 72%
-  filters: &49
-    anime_ids:
-    - 356
-    - 33049
-    - 38897
-    - 38959
-    - 40206
-    - 38084
-    - 2593
-    - 3782
-    - 3783
-    - 4280
-    - 4282
-    - 5204
-    - 5205
-    - 5356
-    - 6922
-    - 6954
-    - 10012
-    - 10087
-    - 11741
-    - 12187
-    - 12255
-    - 12565
-    - 13263
-    - 14807
-    - 14829
-    - 15927
-    - 18851
-    - 19109
-    - 20509
-    - 22297
-    - 25011
-    - 25537
-    - 26057
-    - 27525
-    - 27821
-    - 28701
-    - 31389
-    - 31706
-    - 33047
-    - 34321
-    - 34662
-    - 22763
-    - 31056
-    - 34100
-    - 33456
-    - 38958
-    - 38936
-    - 36914
-    - 36915
-    - 36833
-    - 37033
-    - 37651
-    - 169
-    - 33050
-    - 38085
-    - 49361
-    - 38086
-    - 41497
-    - 42030
-  metadata: &50
-    title_ru: Type-Moon
-    title_en: Type-Moon
-    image: "/assets/achievements/anime/author/type_moon.jpg"
-    border_color: "#4285B4"
-    topic_id: 276032
-  generator: &51
-    person_id: 2582
-- neko_id: type_moon
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *49
-  metadata: *50
-  generator: *51
 - neko_id: osamu_tezuka
   level: 1
   algo: count
   threshold: 50%
-  filters: &52
+  filters: &49
     anime_ids:
     - 4917
     - 2550
@@ -1012,15 +932,95 @@
     - 14247
     - 11537
     - 14231
-  metadata: &53
+  metadata: &50
     title_ru: Осаму Тэдзука
     title_en: Osamu Tezuka
     image: "/assets/achievements/anime/author/osamu_tezuka.png"
     border_color: "#ff0000"
     topic_id: 276032
-  generator: &54
+  generator: &51
     person_id: 1938
 - neko_id: osamu_tezuka
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *49
+  metadata: *50
+  generator: *51
+- neko_id: type_moon
+  level: 1
+  algo: count
+  threshold: 72%
+  filters: &52
+    anime_ids:
+    - 356
+    - 33049
+    - 38897
+    - 38959
+    - 40206
+    - 38084
+    - 2593
+    - 3782
+    - 3783
+    - 4280
+    - 4282
+    - 5204
+    - 5205
+    - 5356
+    - 6922
+    - 6954
+    - 10012
+    - 10087
+    - 11741
+    - 12187
+    - 12255
+    - 12565
+    - 13263
+    - 14807
+    - 14829
+    - 15927
+    - 18851
+    - 19109
+    - 20509
+    - 22297
+    - 25011
+    - 25537
+    - 26057
+    - 27525
+    - 27821
+    - 28701
+    - 31389
+    - 31706
+    - 33047
+    - 34321
+    - 34662
+    - 22763
+    - 31056
+    - 34100
+    - 33456
+    - 38958
+    - 38936
+    - 36914
+    - 36915
+    - 36833
+    - 37033
+    - 37651
+    - 169
+    - 33050
+    - 38085
+    - 49361
+    - 38086
+    - 41497
+    - 42030
+  metadata: &53
+    title_ru: Type-Moon
+    title_en: Type-Moon
+    image: "/assets/achievements/anime/author/type_moon.jpg"
+    border_color: "#4285B4"
+    topic_id: 276032
+  generator: &54
+    person_id: 2582
+- neko_id: type_moon
   level: 0
   algo: count
   threshold: 0.01
@@ -1168,56 +1168,11 @@
   filters: *61
   metadata: *62
   generator: *63
-- neko_id: morio_asaka
-  level: 1
-  algo: count
-  threshold: 66%
-  filters: &64
-    anime_ids:
-    - 5678
-    - 1078
-    - 28297
-    - 37379
-    - 14397
-    - 10800
-    - 7193
-    - 7972
-    - 877
-    - 408
-    - 134
-    - 596
-    - 59
-    - 652
-    - 383
-    - 33354
-    - 35320
-    - 372
-    - 371
-    - 232
-    - 2009
-    - 2274
-    - 2017
-    - 2093
-  metadata: &65
-    title_ru: Морио Асака
-    title_en: Morio Asaka
-    image: "/assets/achievements/anime/author/morio_asaka.jpg"
-    border_color: "#AE050D"
-    topic_id: 276032
-  generator: &66
-    person_id: 5921
-- neko_id: morio_asaka
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *64
-  metadata: *65
-  generator: *66
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
   threshold: 50%
-  filters: &67
+  filters: &64
     anime_ids:
     - 415
     - 39792
@@ -1251,15 +1206,60 @@
     - 25029
     - 8359
     - 51092
-  metadata: &68
+  metadata: &65
     title_ru: Масааки Юаса
     title_en: Masaaki Yuasa
     image: "/assets/achievements/anime/author/masaaki_yuasa.png"
     border_color: "#FA8072"
     topic_id: 276032
-  generator: &69
+  generator: &66
     person_id: 5068
 - neko_id: masaaki_yuasa
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *64
+  metadata: *65
+  generator: *66
+- neko_id: morio_asaka
+  level: 1
+  algo: count
+  threshold: 66%
+  filters: &67
+    anime_ids:
+    - 5678
+    - 1078
+    - 28297
+    - 37379
+    - 14397
+    - 10800
+    - 7193
+    - 7972
+    - 877
+    - 408
+    - 134
+    - 596
+    - 59
+    - 652
+    - 383
+    - 33354
+    - 35320
+    - 372
+    - 371
+    - 232
+    - 2009
+    - 2274
+    - 2017
+    - 2093
+  metadata: &68
+    title_ru: Морио Асака
+    title_en: Morio Asaka
+    image: "/assets/achievements/anime/author/morio_asaka.jpg"
+    border_color: "#AE050D"
+    topic_id: 276032
+  generator: &69
+    person_id: 5921
+- neko_id: morio_asaka
   level: 0
   algo: count
   threshold: 0.01
