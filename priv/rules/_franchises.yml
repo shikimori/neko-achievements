@@ -1116,9 +1116,6 @@
     topic_id: 247360
   generator: &116
     threshold: 95%
-    ignore_latest_ids:
-    - 40416
-    - 42423
 - neko_id: date_a_live
   level: 0
   algo: duration
@@ -1398,8 +1395,6 @@
     topic_id: 247360
   generator: &148
     threshold: 99%
-    ignore_latest_ids:
-    - 42392
 - neko_id: grisaia
   level: 0
   algo: duration
@@ -2335,8 +2330,6 @@
     topic_id: 247360
   generator: &249
     threshold: 85%
-    ignore_latest_ids:
-    - 35678
 - neko_id: hibike_euphonium
   level: 0
   algo: duration
@@ -4676,14 +4669,13 @@
     franchise: soukyuu_no_fafner
     not_anime_ids:
     - 9494
-  threshold: 92.1%
+  threshold: 94.9%
   metadata: &486
     title_ru: Небесный Фафнир
     title_en: Soukyuu no Fafner
     image: "/assets/achievements/anime/franchise/soukyuu_no_fafner.jpg"
     topic_id: 247360
   generator: &487
-    threshold: 92.1%
     ignore_latest_ids:
     - 41714
     - 50675
