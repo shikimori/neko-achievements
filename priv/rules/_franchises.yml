@@ -582,7 +582,6 @@
     image: "/assets/achievements/anime/franchise/tensei_shitara_slime_datta_ken.jpg"
     topic_id: 247360
   generator: &61
-    threshold: 99%
     ignore_latest_ids:
     - 49877
 - neko_id: tensei_shitara_slime_datta_ken
