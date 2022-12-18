@@ -557,7 +557,6 @@
     generator:
     ignore_latest_ids:
     - 52198
-    - 52198
 - neko_id: kaguya_sama
   level: 0
   algo: duration
@@ -1782,6 +1781,8 @@
   algo: duration
   filters: &191
     franchise: fruits_basket
+    not_anime_ids:
+    - 53751
   threshold: 95%
   metadata: &192
     title_ru: Корзинка фруктов
@@ -2411,6 +2412,7 @@
     not_anime_ids:
     - 3674
     - 8317
+    - 42972
   threshold: 95%
   metadata: &257
     title_ru: Прощай, унылый учитель
@@ -3774,6 +3776,8 @@
     - 24347
     - 36913
     - 51221
+    - 51123
+    - 51156
   threshold: 96%
   metadata: &392
     title_ru: Инадзума 11
