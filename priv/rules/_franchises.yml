@@ -2035,6 +2035,8 @@
   algo: duration
   filters: &217
     franchise: baki
+    not_anime_ids:
+    - 54022
   threshold: 95%
   metadata: &218
     title_ru: Боец Баки
