@@ -466,6 +466,8 @@
     title_en: Bungou Stray Dogs
     image: "/assets/achievements/anime/franchise/bungou_stray_dogs.jpg"
     topic_id: 247360
+  generator:
+    threshold: 97%
 - neko_id: bungou_stray_dogs
   level: 0
   algo: duration
@@ -3885,6 +3887,7 @@
     franchise: aria
     not_anime_ids:
     - 5196
+    - 54062
   threshold: 93.8%
   metadata: &403
     title_ru: Ария
@@ -4932,6 +4935,7 @@
     - 39362
     - 39363
     - 40377
+    - 54081
   threshold: 99.2%
   metadata: &509
     title_ru: Могучий Атом
