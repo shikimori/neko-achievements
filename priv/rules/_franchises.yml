@@ -90,6 +90,7 @@
     - 40489
     - 41341
     - 42128
+    - 53588
   threshold: 93.1%
   metadata: &9
     title_ru: Мастера Меча Онлайн
@@ -799,6 +800,10 @@
   algo: duration
   filters: &82
     franchise: bleach
+    not_anime_ids:
+    - 54171
+    - 54170
+    - 54116
   threshold: 97.2%
   metadata: &83
     title_ru: Блич
@@ -970,6 +975,7 @@
     - 23341
     - 31448
     - 35631
+    - 50097
   threshold: 89.5%
   metadata: &102
     title_ru: Непутёвый ученик в школе магии
@@ -2114,6 +2120,7 @@
     - 51887
     - 51889
     - 52897
+    - 50878
   threshold: 93.9%
   metadata: &223
     title_ru: Покемон
@@ -2677,6 +2684,7 @@
     - 51569
     - 53286
     - 53603
+    - 52390
   threshold: 87.2%
   metadata: &279
     title_ru: Мобильный воин Гандам
