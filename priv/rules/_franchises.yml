@@ -2710,20 +2710,20 @@
   threshold: 0.01
   metadata: *279
   generator: *280
-- neko_id: hitori_no_shita
+- neko_id: yi_ren_zhi_xia
   level: 1
   algo: duration
   filters: &281
-    franchise: hitori_no_shita
+    franchise: yi_ren_zhi_xia
     not_anime_ids:
     - 37090
   threshold: 100%
   metadata: &282
     title_ru: 'Один из отвергнутых: Изгой'
     title_en: 'Hitori no Shita: The Outcast'
-    image: "/assets/achievements/anime/franchise/hitori_no_shita.jpg"
+    image: "/assets/achievements/anime/franchise/yi_ren_zhi_xia.jpg"
     topic_id: 247360
-- neko_id: hitori_no_shita
+- neko_id: yi_ren_zhi_xia
   level: 0
   algo: duration
   filters: *281
