@@ -5597,3 +5597,40 @@
   filters: *575
   threshold: 0.01
   metadata: *576
+- neko_id: schwarzesmarken
+  level: 1
+  algo: duration
+  filters:
+    franchise: schwarzesmarken
+    not_anime_ids:
+    - 16335
+  threshold: 100%
+  metadata: 
+    title_ru: Мув-Лув: Альтернатива
+    title_en: Muv-Luv Alternative
+    image: "https://dere.shikimori.one/system/user_images/original/661284/2072819.jpg"
+    topic_id: 247360
+- neko_id: yama_no_susume
+  level: 1
+  algo: duration
+  filters:
+    franchise: yama_no_susume
+  threshold: 100%
+  metadata: 
+    title_ru: Манящие горы
+    title_en: Yama no Susume
+    image: "https://moe.shikimori.one/system/user_images/original/588250/2073817.jpg"
+    topic_id: 247360
+- neko_id: wu_geng_ji
+  level: 1
+  algo: duration
+  filters:
+    franchise: wu_geng_ji
+  threshold: 100%
+  metadata: 
+    title_ru: Легенды и герои
+    title_en: Wu Geng Ji
+    image: "https://moe.shikimori.one/system/user_images/original/45319/2081702.jpg"
+    topic_id: 247360
+  generator: 
+    threshold: 98%
