@@ -182,6 +182,7 @@
     franchise: boku_no_hero_academia
     not_anime_ids:
     - 35262
+    - 38699
     - 43683
   threshold: 95%
   metadata: &19
@@ -1645,7 +1646,7 @@
     franchise: mushishi
     not_anime_ids:
     - 39738
-  threshold: 92.6%
+  threshold: 92.3%
   metadata: &178
     title_ru: Мастер муси
     title_en: Mushishi
@@ -1854,7 +1855,7 @@
     - 52010
     - 52011
     - 52745
-  threshold: 95.8%
+  threshold: 95.7%
   metadata: &200
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2124,7 +2125,7 @@
     - 51887
     - 51889
     - 52897
-  threshold: 94.1%
+  threshold: 94%
   metadata: &225
     title_ru: Покемон
     title_en: Pokemon
@@ -2264,7 +2265,7 @@
   algo: duration
   filters: &241
     franchise: uta_no_prince_sama
-  threshold: 88.8%
+  threshold: 91%
   metadata: &242
     title_ru: Поющий принц
     title_en: Uta no☆Prince-sama♪
@@ -3834,7 +3835,7 @@
     - 49311
     - 53604
     - 53625
-  threshold: 93.1%
+  threshold: 95%
   metadata: &398
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
@@ -3900,7 +3901,7 @@
     - 1481
     - 53402
     - 53433
-  threshold: 93.7%
+  threshold: 93.8%
   metadata: &405
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -3976,6 +3977,7 @@
     - 51478
     - 53330
     - 54262
+    - 54274
   threshold: 94.9%
   metadata: &413
     title_ru: Ура мечте!
@@ -4625,7 +4627,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.5%
+  threshold: 91.6%
   metadata: &479
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4711,7 +4713,7 @@
     franchise: soukyuu_no_fafner
     not_anime_ids:
     - 9494
-  threshold: 94.9%
+  threshold: 92%
   metadata: &488
     title_ru: Небесный Фафнир
     title_en: Soukyuu no Fafner
@@ -5601,37 +5603,57 @@
 - neko_id: schwarzesmarken
   level: 1
   algo: duration
-  filters:
+  filters: &577
     franchise: schwarzesmarken
     not_anime_ids:
     - 16335
+    - 53216
   threshold: 100%
-  metadata:
+  metadata: &578
     title_ru: 'Мув-Лув: Альтернатива'
     title_en: Muv-Luv Alternative
-    image: "https://dere.shikimori.one/system/user_images/original/661284/2072819.jpg"
+    image: "/assets/achievements/anime/franchise/schwarzesmarken.jpg"
     topic_id: 247360
+- neko_id: schwarzesmarken
+  level: 0
+  algo: duration
+  filters: *577
+  threshold: 0.01
+  metadata: *578
 - neko_id: yama_no_susume
   level: 1
   algo: duration
-  filters:
+  filters: &579
     franchise: yama_no_susume
-  threshold: 100%
-  metadata: 
+  threshold: 95%
+  metadata: &580
     title_ru: Манящие горы
     title_en: Yama no Susume
-    image: "https://moe.shikimori.one/system/user_images/original/588250/2073817.jpg"
+    image: "/assets/achievements/anime/franchise/yama_no_susume.jpg"
     topic_id: 247360
+- neko_id: yama_no_susume
+  level: 0
+  algo: duration
+  filters: *579
+  threshold: 0.01
+  metadata: *580
 - neko_id: wu_geng_ji
   level: 1
   algo: duration
-  filters:
+  filters: &581
     franchise: wu_geng_ji
-  threshold: 100%
-  metadata: 
+  threshold: 98%
+  metadata: &582
     title_ru: Легенды и герои
     title_en: Wu Geng Ji
-    image: "https://moe.shikimori.one/system/user_images/original/45319/2081702.jpg"
+    image: "/assets/achievements/anime/franchise/wu_geng_ji.jpg"
     topic_id: 247360
-  generator: 
+  generator: &583
     threshold: 98%
+- neko_id: wu_geng_ji
+  level: 0
+  algo: duration
+  filters: *581
+  threshold: 0.01
+  metadata: *582
+  generator: *583
