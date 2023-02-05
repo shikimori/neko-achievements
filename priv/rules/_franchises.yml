@@ -5606,8 +5606,8 @@
     not_anime_ids:
     - 16335
   threshold: 100%
-  metadata: 
-    title_ru: Мув-Лув: Альтернатива
+  metadata:
+    title_ru: 'Мув-Лув: Альтернатива'
     title_en: Muv-Luv Alternative
     image: "https://dere.shikimori.one/system/user_images/original/661284/2072819.jpg"
     topic_id: 247360
