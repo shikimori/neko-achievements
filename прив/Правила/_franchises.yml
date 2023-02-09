@@ -41,7 +41,7 @@
   metadata: &4
     title_ru: Токийский гуль
     title_en: Tokyo Ghoul
-    image: "/assets/achievements/anime/franchise/tokyo_ghoul.jpg"
+    image: "https://media.tenor.com/-reKLlPeLMoAAAAC/tokyo-ghoul.gif"
     topic_id: 247360
 - neko_id: tokyo_ghoul
   level: 0
@@ -829,7 +829,7 @@
   metadata: &87
     title_ru: Приятно познакомиться, Бог
     title_en: Kamisama Hajimemashita
-    image: "/assets/achievements/anime/franchise/kamisama_hajimemashita.jpg"
+    image: "/https://media.tenor.com/E-8VV78Sr9MAAAAC/nanami-nanami-momozono.gif"
     topic_id: 247360
 - neko_id: kamisama_hajimemashita
   level: 0
