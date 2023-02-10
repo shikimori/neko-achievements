@@ -4371,6 +4371,8 @@
   algo: duration
   filters: &450
     franchise: mobile_police_patlabor
+    not_anime_ids:
+    - 54399
   threshold: 95%
   metadata: &451
     title_ru: Полиция будущего
