@@ -2,6 +2,9 @@
 
 [![CircleCI](https://circleci.com/gh/shikimori/neko-achievements.svg?style=svg)](https://circleci.com/gh/shikimori/neko-achievements)
 
+## Pull rrequests / Внесение изменений
+Возможено только по согласованию с админами клуба ачивок https://shikimori.one/clubs/315-achivki-dostizheniya
+
 ## installation
 
 Install `asfg` in your system.
