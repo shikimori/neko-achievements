@@ -2847,6 +2847,7 @@
     - 31984
     - 49368
     - 53183
+    - 53109
   threshold: 80%
   metadata: &297
     title_ru: Люпен III
@@ -3368,6 +3369,8 @@
   algo: duration
   filters: &349
     franchise: yozakura_quartet
+    not_anime_ids:
+    - 32861
   threshold: 99.2%
   metadata: &350
     title_ru: Вишнёвый квартет
