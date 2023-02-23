@@ -1728,7 +1728,7 @@
     franchise: fruits_basket
     not_anime_ids:
     - 53751
-  threshold: 95%
+  threshold: 95.9%
   metadata: &186
     title_ru: Корзинка фруктов
     title_en: Fruits Basket
@@ -2849,8 +2849,8 @@
     - 16183
     - 31984
     - 49368
-    - 53183
     - 53109
+    - 53183
   threshold: 80%
   metadata: &297
     title_ru: Люпен III
@@ -5665,14 +5665,20 @@
   filters: *582
   threshold: 0.01
   metadata: *583
-  - neko_id: aggressive_retsuko
+- neko_id: aggressive_retsuko
   level: 1
   algo: duration
-  filters: 
+  filters: &584
     franchise: aggressive_retsuko
-  threshold: 100%
-  metadata: 
+  threshold: 95%
+  metadata: &585
     title_ru: Агрессивная Рэцуко
     title_en: Aggressive Retsuko
-    image: https://dere.shikimori.one/system/user_images/original/677017/2139709.jpg
+    image: "/assets/achievements/anime/franchise/aggressive_retsuko.jpg"
     topic_id: 247360
+- neko_id: aggressive_retsuko
+  level: 0
+  algo: duration
+  filters: *584
+  threshold: 0.01
+  metadata: *585
