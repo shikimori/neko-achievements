@@ -20,6 +20,7 @@
     - 51240
     - 51241
     - 51618
+    - 54468
   threshold: 95%
   metadata: &2
     title_ru: Атака титанов
@@ -135,6 +136,8 @@
   algo: duration
   filters: &13
     franchise: demon_slayer
+    not_anime_ids:
+    - 54591
   threshold: 99%
   metadata: &14
     title_ru: Клинок, рассекающий демонов
@@ -5662,3 +5665,14 @@
   filters: *582
   threshold: 0.01
   metadata: *583
+  - neko_id: aggressive_retsuko
+  level: 1
+  algo: duration
+  filters: 
+    franchise: aggressive_retsuko
+  threshold: 100%
+  metadata: 
+    title_ru: Агрессивная Рэцуко
+    title_en: Aggressive Retsuko
+    image: https://dere.shikimori.one/system/user_images/original/677017/2139709.jpg
+    topic_id: 247360
