@@ -1108,6 +1108,7 @@
     - 37262
     - 47409
     - 3508
+    - 38373
   metadata: &59
     title_ru: Сёдзи Кавамори
     title_en: Shoji Kawamori
@@ -1780,6 +1781,7 @@
     - 47
     - 1462
     - 420
+    - 4540
   metadata: &98
     title_ru: Кацухиро Отомо
     title_en: Katsuhiro Otomo
@@ -1913,7 +1915,7 @@
 - neko_id: yoshitaka_amano
   level: 1
   algo: count
-  threshold: 68%
+  threshold: 30%
   filters: &109
     anime_ids:
     - 6909
@@ -1934,6 +1936,11 @@
     - 885
     - 40074
     - 49163
+    - 4808
+    - 11221
+    - 4578
+    - 4810
+    - 6374
   metadata: &110
     title_ru: 'Ёситака Амано '
     title_en: Yoshitaka Amano
@@ -2303,6 +2310,8 @@
     - 2257
     - 9972
     - 2258
+    - 4690
+    - 5755
   metadata: &128
     title_ru: Рёсукэ Такахаси
     title_en: Ryousuke Takahashi
