@@ -785,8 +785,6 @@
   filters: &81
     franchise: bleach
     not_anime_ids:
-    - 54116
-    - 54170
     - 54171
   threshold: 97.2%
   metadata: &82
@@ -1859,6 +1857,7 @@
     - 49988
     - 52010
     - 52011
+    - 52571
     - 52745
   threshold: 95.7%
   metadata: &200
@@ -2130,7 +2129,7 @@
     - 51887
     - 51889
     - 52897
-  threshold: 94%
+  threshold: 93.9%
   metadata: &225
     title_ru: Покемон
     title_en: Pokemon
@@ -2961,7 +2960,7 @@
     - 51782
     - 53517
     - 53976
-  threshold: 92.7%
+  threshold: 92.8%
   metadata: &307
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -4016,7 +4015,7 @@
     - 54045
     - 54046
     - 54047
-  threshold: 97.8%
+  threshold: 97.9%
   metadata: &417
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4691,7 +4690,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.6%
+  threshold: 91.9%
   metadata: &485
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4863,7 +4862,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 96%
+  threshold: 94.3%
   metadata: &503
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -5604,7 +5603,7 @@
     - 4385
     - 4386
     - 18365
-  threshold: 92.4%
+  threshold: 95%
   metadata: &577
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
