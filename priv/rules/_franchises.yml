@@ -2726,7 +2726,7 @@
     franchise: yi_ren_zhi_xia
     not_anime_ids:
     - 37090
-  threshold: 100%
+  threshold: 98%
   metadata: &284
     title_ru: 'Один из отвергнутых: Изгой'
     title_en: 'Hitori no Shita: The Outcast'
@@ -5101,7 +5101,7 @@
   algo: duration
   filters: &524
     franchise: xingchen_bian
-  threshold: 100%
+  threshold: 98%
   metadata: &525
     title_ru: Дорогой звёзд
     title_en: Xingchen Bian
