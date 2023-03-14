@@ -21,7 +21,7 @@
     - 51241
     - 51618
     - 54468
-  threshold: 95%
+  threshold: 93.6%
   metadata: &2
     title_ru: Атака титанов
     title_en: Shingeki no Kyojin
@@ -382,7 +382,7 @@
     - 43745
     - 43751
     - 47307
-  threshold: 94.2%
+  threshold: 92.6%
   metadata: &38
     title_ru: Евангелион
     title_en: Evangelion
@@ -2726,7 +2726,7 @@
     franchise: yi_ren_zhi_xia
     not_anime_ids:
     - 37090
-  threshold: 98%
+  threshold: 100%
   metadata: &284
     title_ru: 'Один из отвергнутых: Изгой'
     title_en: 'Hitori no Shita: The Outcast'
@@ -3945,7 +3945,7 @@
     - 1481
     - 53402
     - 53433
-  threshold: 93.8%
+  threshold: 93.9%
   metadata: &409
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -4015,7 +4015,7 @@
     - 54045
     - 54046
     - 54047
-  threshold: 97.9%
+  threshold: 98%
   metadata: &417
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -4522,7 +4522,7 @@
     - 51780
     - 53265
     - 54282
-  threshold: 93.4%
+  threshold: 93.5%
   metadata: &467
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
