@@ -1457,6 +1457,7 @@
     - 37864
     - 40323
     - 48436
+    - 54761
   threshold: 90%
   metadata: &155
     title_ru: Гинтама
@@ -4703,6 +4704,7 @@
     - 40587
     - 49426
     - 50963
+    - 54650
 - neko_id: pretty_cure
   level: 0
   algo: duration
@@ -5603,6 +5605,8 @@
     - 4385
     - 4386
     - 18365
+    - 51431
+    - 51432
   threshold: 95%
   metadata: &577
     title_ru: Мазинкайзер
