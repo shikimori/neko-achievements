@@ -4630,6 +4630,12 @@
     title_en: Starmyu
     image: "/assets/achievements/anime/franchise/starmyu.jpg"
     topic_id: 247360
+- neko_id: starmyu
+  level: 0
+  algo: duration
+  filters: *477
+  threshold: 0.01
+  metadata: *478
 - neko_id: maria_sama
   level: 1
   algo: duration
@@ -4646,12 +4652,6 @@
     title_en: Maria-sama ga Miteru
     image: "/assets/achievements/anime/franchise/maria_sama.jpg"
     topic_id: 247360
-- neko_id: starmyu
-  level: 0
-  algo: duration
-  filters: *477
-  threshold: 0.01
-  metadata: *478
 - neko_id: maria_sama
   level: 0
   algo: duration
@@ -5607,7 +5607,7 @@
     - 18365
     - 51431
     - 51432
-  threshold: 95%
+  threshold: 92.4%
   metadata: &577
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
