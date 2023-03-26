@@ -2,7 +2,7 @@
 - neko_id: tetsurou_araki
   level: 1
   algo: count
-  threshold: 80%
+  threshold: 43%
   filters: &1
     anime_ids:
     - 7193
@@ -40,7 +40,7 @@
 - neko_id: tensai_okamura
   level: 1
   algo: count
-  threshold: 61%
+  threshold: 21%
   filters: &4
     anime_ids:
     - 936
@@ -93,7 +93,7 @@
 - neko_id: makoto_shinkai
   level: 1
   algo: count
-  threshold: 70%
+  threshold: 33%
   filters: &7
     anime_ids:
     - 25271
@@ -129,7 +129,7 @@
 - neko_id: mari_okada
   level: 1
   algo: count
-  threshold: 50%
+  threshold: 15%
   filters: &10
     anime_ids:
     - 36884
@@ -196,7 +196,7 @@
 - neko_id: hayao_miyazaki
   level: 1
   algo: count
-  threshold: 55%
+  threshold: 22%
   filters: &13
     anime_ids:
     - 1044
@@ -253,7 +253,7 @@
 - neko_id: hiroyuki_imaishi
   level: 1
   algo: count
-  threshold: 55%
+  threshold: 21%
   filters: &16
     anime_ids:
     - 8337
@@ -307,7 +307,7 @@
 - neko_id: shinichiro_watanabe
   level: 1
   algo: count
-  threshold: 62%
+  threshold: 23%
   filters: &19
     anime_ids:
     - 2053
@@ -345,7 +345,7 @@
 - neko_id: hiroshi_hamasaki
   level: 1
   algo: count
-  threshold: 42%
+  threshold: 15%
   filters: &22
     anime_ids:
     - 39806
@@ -398,7 +398,7 @@
 - neko_id: key
   level: 1
   algo: count
-  threshold: 75%
+  threshold: 23%
   filters: &25
     anime_ids:
     - 101
@@ -449,7 +449,7 @@
 - neko_id: yasuhiro_takemoto
   level: 1
   algo: count
-  threshold: 64%
+  threshold: 24%
   filters: &28
     anime_ids:
     - 22147
@@ -495,7 +495,7 @@
 - neko_id: akiyuki_shinbou
   level: 1
   algo: count
-  threshold: 57%
+  threshold: 18%
   filters: &31
     anime_ids:
     - 1175
@@ -603,7 +603,7 @@
 - neko_id: takahiro_oomori
   level: 1
   algo: count
-  threshold: 59%
+  threshold: 23%
   filters: &34
     anime_ids:
     - 1769
@@ -670,7 +670,7 @@
 - neko_id: gen_urobuchi
   level: 1
   algo: count
-  threshold: 76%
+  threshold: 29%
   filters: &37
     anime_ids:
     - 438
@@ -709,7 +709,7 @@
 - neko_id: hideaki_anno
   level: 1
   algo: count
-  threshold: 58%
+  threshold: 21%
   filters: &40
     anime_ids:
     - 151
@@ -762,7 +762,7 @@
 - neko_id: chiaki_kon
   level: 1
   algo: count
-  threshold: 65%
+  threshold: 25%
   filters: &43
     anime_ids:
     - 934
@@ -811,7 +811,7 @@
 - neko_id: mamoru_hosoda
   level: 1
   algo: count
-  threshold: 42%
+  threshold: 19%
   filters: &46
     anime_ids:
     - 901
@@ -853,7 +853,7 @@
 - neko_id: osamu_tezuka
   level: 1
   algo: count
-  threshold: 50%
+  threshold: 10%
   filters: &49
     anime_ids:
     - 4917
@@ -954,7 +954,7 @@
 - neko_id: type_moon
   level: 1
   algo: count
-  threshold: 72%
+  threshold: 31%
   filters: &52
     anime_ids:
     - 356
@@ -1034,7 +1034,7 @@
 - neko_id: isao_takahata
   level: 1
   algo: count
-  threshold: 72%
+  threshold: 27%
   filters: &55
     anime_ids:
     - 1044
@@ -1073,7 +1073,7 @@
 - neko_id: shoji_kawamori
   level: 1
   algo: count
-  threshold: 60%
+  threshold: 20%
   filters: &58
     anime_ids:
     - 393
@@ -1130,7 +1130,7 @@
 - neko_id: kouji_morimoto
   level: 1
   algo: count
-  threshold: 75%
+  threshold: 18%
   filters: &61
     anime_ids:
     - 512
@@ -1178,7 +1178,7 @@
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
-  threshold: 50%
+  threshold: 20%
   filters: &64
     anime_ids:
     - 415
@@ -1232,7 +1232,7 @@
 - neko_id: morio_asaka
   level: 1
   algo: count
-  threshold: 66%
+  threshold: 20%
   filters: &67
     anime_ids:
     - 5678
@@ -1277,7 +1277,7 @@
 - neko_id: satoshi_kon
   level: 1
   algo: count
-  threshold: 100%
+  threshold: 37%
   filters: &70
     anime_ids:
     - 2832
@@ -1306,7 +1306,7 @@
 - neko_id: mamoru_oshii
   level: 1
   algo: count
-  threshold: 68%
+  threshold: 17%
   filters: &73
     anime_ids:
     - 5386
@@ -1357,7 +1357,7 @@
 - neko_id: masamune_shirow
   level: 1
   algo: count
-  threshold: 89%
+  threshold: 22%
   filters: &76
     anime_ids:
     - 43
@@ -1400,7 +1400,7 @@
 - neko_id: shinji_aramaki
   level: 1
   algo: count
-  threshold: 68%
+  threshold: 17%
   filters: &79
     anime_ids:
     - 36517
@@ -1450,7 +1450,7 @@
 - neko_id: kenji_kamiyama
   level: 1
   algo: count
-  threshold: 56%
+  threshold: 17%
   filters: &82
     anime_ids:
     - 9629
@@ -1499,7 +1499,7 @@
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: count
-  threshold: 62%
+  threshold: 13%
   filters: &85
     anime_ids:
     - 4094
@@ -1557,7 +1557,7 @@
 - neko_id: junichi_satou
   level: 1
   algo: count
-  threshold: 51%
+  threshold: 16%
   filters: &88
     anime_ids:
     - 516
@@ -1627,7 +1627,7 @@
 - neko_id: clamp
   level: 1
   algo: count
-  threshold: 54%
+  threshold: 16%
   filters: &91
     anime_ids:
     - 52
@@ -1685,7 +1685,7 @@
 - neko_id: go_nagai
   level: 1
   algo: count
-  threshold: 36%
+  threshold: 7%
   filters: &94
     anime_ids:
     - 35120
@@ -1768,7 +1768,7 @@
 - neko_id: katsuhiro_otomo
   level: 1
   algo: count
-  threshold: 76%
+  threshold: 26%
   filters: &97
     anime_ids:
     - 17677
@@ -1805,7 +1805,7 @@
 - neko_id: kenji_nakamura
   level: 1
   algo: count
-  threshold: 87%
+  threshold: 37%
   filters: &100
     anime_ids:
     - 21039
@@ -1834,7 +1834,7 @@
 - neko_id: kouichi_mashimo
   level: 1
   algo: count
-  threshold: 58%
+  threshold: 14%
   filters: &103
     anime_ids:
     - 424
@@ -1890,7 +1890,7 @@
 - neko_id: kunihiko_ikuhara
   level: 1
   algo: count
-  threshold: 77%
+  threshold: 33%
   filters: &106
     anime_ids:
     - 37426
@@ -1920,7 +1920,7 @@
 - neko_id: yoshitaka_amano
   level: 1
   algo: count
-  threshold: 30%
+  threshold: 13%
   filters: &109
     anime_ids:
     - 6909
@@ -1964,7 +1964,7 @@
 - neko_id: osamu_dezaki
   level: 1
   algo: count
-  threshold: 55%
+  threshold: 13%
   filters: &112
     anime_ids:
     - 19973
@@ -2029,7 +2029,7 @@
 - neko_id: rumiko_takahashi
   level: 1
   algo: count
-  threshold: 62%
+  threshold: 15%
   filters: &115
     anime_ids:
     - 210
@@ -2091,7 +2091,7 @@
 - neko_id: leiji_matsumoto
   level: 1
   algo: count
-  threshold: 68%
+  threshold: 11%
   filters: &118
     anime_ids:
     - 731
@@ -2155,7 +2155,7 @@
 - neko_id: rintaro
   level: 1
   algo: count
-  threshold: 41%
+  threshold: 10%
   filters: &121
     anime_ids:
     - 3800
@@ -2206,7 +2206,7 @@
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: count
-  threshold: 80%
+  threshold: 20%
   filters: &124
     anime_ids:
     - 2760
@@ -2288,7 +2288,7 @@
 - neko_id: ryousuke_takahashi
   level: 1
   algo: count
-  threshold: 60%
+  threshold: 13%
   filters: &127
     anime_ids:
     - 8250
@@ -2338,7 +2338,7 @@
 - neko_id: toshio_maeda
   level: 1
   algo: count
-  threshold: 66%
+  threshold: 23%
   filters: &130
     anime_ids:
     - 2341
