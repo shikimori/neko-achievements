@@ -3164,6 +3164,7 @@
     not_anime_ids:
     - 16335
     - 53216
+    - 54749
   threshold: 100%
   metadata: &328
     title_ru: 'Мув-Лув: Альтернатива'
