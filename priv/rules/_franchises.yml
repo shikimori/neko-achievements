@@ -5357,9 +5357,6 @@
   filters: &552
     franchise: touch
     not_anime_ids:
-    - 2491
-    - 2492
-    - 2493
     - 39352
   threshold: 94.4%
   metadata: &553
