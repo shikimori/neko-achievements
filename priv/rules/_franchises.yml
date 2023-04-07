@@ -3926,7 +3926,6 @@
   filters: &406
     franchise: urusei_yatsura
     not_anime_ids:
-    - 1481
     - 53402
     - 53433
   threshold: 93.9%
