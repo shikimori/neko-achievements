@@ -600,11 +600,50 @@
   filters: *31
   metadata: *32
   generator: *33
+- neko_id: gen_urobuchi
+  level: 1
+  algo: count
+  threshold: 29%
+  filters: &34
+    anime_ids:
+    - 438
+    - 5682
+    - 9756
+    - 10087
+    - 11741
+    - 11981
+    - 13391
+    - 13601
+    - 16524
+    - 21339
+    - 22729
+    - 23319
+    - 33783
+    - 36816
+    - 37897
+    - 40438
+    - 50549
+    - 53213
+  metadata: &35
+    title_ru: Гэн Уробути
+    title_en: Gen Urobuchi
+    image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
+    border_color: "#F00100"
+    topic_id: 276032
+  generator: &36
+    person_id: 10308
+- neko_id: gen_urobuchi
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *34
+  metadata: *35
+  generator: *36
 - neko_id: takahiro_oomori
   level: 1
   algo: count
   threshold: 23%
-  filters: &34
+  filters: &37
     anime_ids:
     - 1769
     - 4591
@@ -652,54 +691,15 @@
     - 2054
     - 1468
     - 42894
-  metadata: &35
+  metadata: &38
     title_ru: Такахиро Омори
     title_en: Takahiro Oomori
     image: "/assets/achievements/anime/author/takahiro_oomori.jpg"
     border_color: "#508090"
     topic_id: 276032
-  generator: &36
+  generator: &39
     person_id: 6671
 - neko_id: takahiro_oomori
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *34
-  metadata: *35
-  generator: *36
-- neko_id: gen_urobuchi
-  level: 1
-  algo: count
-  threshold: 29%
-  filters: &37
-    anime_ids:
-    - 438
-    - 5682
-    - 9756
-    - 10087
-    - 11741
-    - 11981
-    - 13391
-    - 13601
-    - 16524
-    - 21339
-    - 22729
-    - 23319
-    - 33783
-    - 36816
-    - 37897
-    - 40438
-    - 50549
-    - 53213
-  metadata: &38
-    title_ru: Гэн Уробути
-    title_en: Gen Urobuchi
-    image: "/assets/achievements/anime/author/gen_urobuchi.jpg"
-    border_color: "#F00100"
-    topic_id: 276032
-  generator: &39
-    person_id: 10308
-- neko_id: gen_urobuchi
   level: 0
   algo: count
   threshold: 0.01
@@ -1888,41 +1888,11 @@
   filters: *103
   metadata: *104
   generator: *105
-- neko_id: kunihiko_ikuhara
-  level: 1
-  algo: count
-  threshold: 33%
-  filters: &106
-    anime_ids:
-    - 37426
-    - 26165
-    - 10721
-    - 441
-    - 440
-    - 1239
-    - 532
-    - 531
-    - 740
-  metadata: &107
-    title_ru: Кунихико Икухара
-    title_en: Kunihiko Ikuhara
-    image: "/assets/achievements/anime/author/kunihiko_ikuhara.jpg"
-    border_color: "#EF795B"
-    topic_id: 276032
-  generator: &108
-    person_id: 5082
-- neko_id: kunihiko_ikuhara
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *106
-  metadata: *107
-  generator: *108
 - neko_id: yoshitaka_amano
   level: 1
   algo: count
   threshold: 13%
-  filters: &109
+  filters: &106
     anime_ids:
     - 6909
     - 1793
@@ -1947,15 +1917,45 @@
     - 4578
     - 4810
     - 6374
-  metadata: &110
+  metadata: &107
     title_ru: 'Ёситака Амано '
     title_en: Yoshitaka Amano
     image: "/assets/achievements/anime/author/yoshitaka_amano.png"
     border_color: "#8B4513"
     topic_id: 276032
-  generator: &111
+  generator: &108
     person_id: 2967
 - neko_id: yoshitaka_amano
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *106
+  metadata: *107
+  generator: *108
+- neko_id: kunihiko_ikuhara
+  level: 1
+  algo: count
+  threshold: 33%
+  filters: &109
+    anime_ids:
+    - 37426
+    - 26165
+    - 10721
+    - 441
+    - 440
+    - 1239
+    - 532
+    - 531
+    - 740
+  metadata: &110
+    title_ru: Кунихико Икухара
+    title_en: Kunihiko Ikuhara
+    image: "/assets/achievements/anime/author/kunihiko_ikuhara.jpg"
+    border_color: "#EF795B"
+    topic_id: 276032
+  generator: &111
+    person_id: 5082
+- neko_id: kunihiko_ikuhara
   level: 0
   algo: count
   threshold: 0.01
@@ -2153,62 +2153,11 @@
   filters: *118
   metadata: *119
   generator: *120
-- neko_id: rintaro
-  level: 1
-  algo: count
-  threshold: 10%
-  filters: &121
-    anime_ids:
-    - 3800
-    - 4481
-    - 1442
-    - 1016
-    - 2998
-    - 2999
-    - 3115
-    - 25265
-    - 13249
-    - 7314
-    - 1081
-    - 522
-    - 155
-    - 426
-    - 3152
-    - 1148
-    - 2556
-    - 9531
-    - 1951
-    - 5918
-    - 12141
-    - 3599
-    - 3595
-    - 1973
-    - 2997
-    - 496
-    - 1626
-    - 1302
-    - 1000
-    - 6087
-  metadata: &122
-    title_ru: Ринтаро
-    title_en: Rintaro
-    image: "/assets/achievements/anime/author/rintaro.png"
-    border_color: "#3CB371"
-    topic_id: 276032
-  generator: &123
-    person_id: 7305
-- neko_id: rintaro
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *121
-  metadata: *122
-  generator: *123
 - neko_id: yoshiyuki_tomino
   level: 1
   algo: count
   threshold: 20%
-  filters: &124
+  filters: &121
     anime_ids:
     - 2760
     - 2761
@@ -2271,15 +2220,66 @@
     - 49828
     - 87
     - 52168
-  metadata: &125
+  metadata: &122
     title_ru: Ёсиюки Томино
     title_en: Yoshiyuki Tomino
     image: "/assets/achievements/anime/author/yoshiyuki_tomino.jpg"
     border_color: "#6495ED"
     topic_id: 276032
-  generator: &126
+  generator: &123
     person_id: 2337
 - neko_id: yoshiyuki_tomino
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *121
+  metadata: *122
+  generator: *123
+- neko_id: rintaro
+  level: 1
+  algo: count
+  threshold: 10%
+  filters: &124
+    anime_ids:
+    - 3800
+    - 4481
+    - 1442
+    - 1016
+    - 2998
+    - 2999
+    - 3115
+    - 25265
+    - 13249
+    - 7314
+    - 1081
+    - 522
+    - 155
+    - 426
+    - 3152
+    - 1148
+    - 2556
+    - 9531
+    - 1951
+    - 5918
+    - 12141
+    - 3599
+    - 3595
+    - 1973
+    - 2997
+    - 496
+    - 1626
+    - 1302
+    - 1000
+    - 6087
+  metadata: &125
+    title_ru: Ринтаро
+    title_en: Rintaro
+    image: "/assets/achievements/anime/author/rintaro.png"
+    border_color: "#3CB371"
+    topic_id: 276032
+  generator: &126
+    person_id: 7305
+- neko_id: rintaro
   level: 0
   algo: count
   threshold: 0.01
