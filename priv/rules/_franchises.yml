@@ -844,7 +844,7 @@
   algo: duration
   filters: &88
     franchise: high_school_dxd
-  threshold: 91.4%
+  threshold: 91.8%
   metadata: &89
     title_ru: Старшая школа DxD
     title_en: High School DxD
@@ -1507,7 +1507,7 @@
     - 37859
     - 37860
     - 39014
-  threshold: 87.5%
+  threshold: 95%
   metadata: &161
     title_ru: Вольный стиль!
     title_en: Free!
@@ -2131,7 +2131,7 @@
     - 51887
     - 51889
     - 52897
-  threshold: 93.9%
+  threshold: 94%
   metadata: &225
     title_ru: Покемон
     title_en: Pokemon
@@ -2569,9 +2569,7 @@
     - 22699
     - 23933
     - 23935
-    - 33947
     - 38653
-    - 42449
     - 48617
     - 52282
   threshold: 94.4%
@@ -2674,7 +2672,7 @@
     - 52390
     - 53286
     - 53603
-  threshold: 87.2%
+  threshold: 87.5%
   metadata: &279
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2962,7 +2960,7 @@
     - 51782
     - 53517
     - 53976
-  threshold: 92.8%
+  threshold: 92.5%
   metadata: &307
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3647,7 +3645,7 @@
     - 49735
     - 51509
     - 51842
-  threshold: 86.5%
+  threshold: 85.5%
   metadata: &378
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3926,6 +3924,7 @@
   filters: &406
     franchise: urusei_yatsura
     not_anime_ids:
+    - 1481
     - 53402
     - 53433
   threshold: 93.9%
@@ -4078,7 +4077,7 @@
     - 53330
     - 54262
     - 54274
-  threshold: 94.9%
+  threshold: 91.8%
   metadata: &420
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4692,7 +4691,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.9%
+  threshold: 91.6%
   metadata: &485
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -4865,7 +4864,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 94.3%
+  threshold: 94.8%
   metadata: &503
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -4892,7 +4891,7 @@
     - 27621
     - 34336
     - 35070
-  threshold: 97.4%
+  threshold: 100%
   metadata: &506
     title_ru: Стеклянная маска
     title_en: Glass no Kamen
@@ -5357,8 +5356,11 @@
   filters: &552
     franchise: touch
     not_anime_ids:
+    - 2491
+    - 2492
+    - 2493
     - 39352
-  threshold: 94.4%
+  threshold: 94.6%
   metadata: &553
     title_ru: Касание
     title_en: Touch
