@@ -3926,7 +3926,6 @@
   filters: &406
     franchise: urusei_yatsura
     not_anime_ids:
-    - 1481
     - 53402
     - 53433
   threshold: 93.9%
@@ -4986,6 +4985,7 @@
     - 37668
     - 39414
     - 53968
+    - 55041
   threshold: 95.6%
   metadata: &514
     title_ru: Щелкунчик Китаро
@@ -5357,9 +5357,6 @@
   filters: &552
     franchise: touch
     not_anime_ids:
-    - 2491
-    - 2492
-    - 2493
     - 39352
   threshold: 94.4%
   metadata: &553
