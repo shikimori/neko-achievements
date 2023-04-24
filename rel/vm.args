@@ -21,5 +21,7 @@
 ## Tweak GC to run more often
 ##-env ERL_FULLSWEEP_AFTER 10
 
+-env ERL_EPMD_ADDRESS 127.0.0.1
+
 # Enable SMP automatically based on availability
 -smp auto
