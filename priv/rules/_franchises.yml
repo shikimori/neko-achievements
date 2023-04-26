@@ -145,7 +145,7 @@
     image: "/assets/achievements/anime/franchise/demon_slayer.jpg"
     topic_id: 247360
   generator: &15
-    threshold: 99%
+    threshold: 96%
 - neko_id: demon_slayer
   level: 0
   algo: duration
