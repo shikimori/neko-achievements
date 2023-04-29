@@ -138,7 +138,7 @@
     franchise: demon_slayer
     not_anime_ids:
     - 54591
-  threshold: 99%
+  threshold: 96%
   metadata: &14
     title_ru: Клинок, рассекающий демонов
     title_en: Kimetsu no Yaiba
@@ -4369,6 +4369,12 @@
     title_en: Binan Koukou Chikyuu Boueibu
     image: "/assets/achievements/anime/franchise/binan_koukou_chikyuu_boueibu_love.jpg"
     topic_id: 247360
+- neko_id: binan_koukou_chikyuu_boueibu_love
+  level: 0
+  algo: duration
+  filters: *448
+  threshold: 0.01
+  metadata: *449
 - neko_id: mobile_police_patlabor
   level: 1
   algo: duration
@@ -4382,12 +4388,6 @@
     title_en: Kidou Keisatsu Patlabor
     image: "/assets/achievements/anime/franchise/mobile_police_patlabor.jpg"
     topic_id: 247360
-- neko_id: binan_koukou_chikyuu_boueibu_love
-  level: 0
-  algo: duration
-  filters: *448
-  threshold: 0.01
-  metadata: *449
 - neko_id: mobile_police_patlabor
   level: 0
   algo: duration
@@ -4654,6 +4654,13 @@
     ignore_latest_ids:
     - 37516
     - 51585
+- neko_id: city_hunter
+  level: 0
+  algo: duration
+  filters: *479
+  threshold: 0.01
+  metadata: *480
+  generator: *481
 - neko_id: pretty_cure
   level: 1
   algo: duration
@@ -4679,13 +4686,6 @@
     - 49426
     - 50963
     - 54650
-- neko_id: city_hunter
-  level: 0
-  algo: duration
-  filters: *479
-  threshold: 0.01
-  metadata: *480
-  generator: *481
 - neko_id: pretty_cure
   level: 0
   algo: duration
@@ -4875,6 +4875,13 @@
     ignore_latest_ids:
     - 52992
     - 53499
+- neko_id: aikatsu
+  level: 0
+  algo: duration
+  filters: *502
+  threshold: 0.01
+  metadata: *503
+  generator: *504
 - neko_id: glass_no_kamen
   level: 1
   algo: duration
@@ -4891,13 +4898,6 @@
     title_en: Glass no Kamen
     image: "/assets/achievements/anime/franchise/glass_no_kamen.jpg"
     topic_id: 247360
-- neko_id: aikatsu
-  level: 0
-  algo: duration
-  filters: *502
-  threshold: 0.01
-  metadata: *503
-  generator: *504
 - neko_id: glass_no_kamen
   level: 0
   algo: duration
