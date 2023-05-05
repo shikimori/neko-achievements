@@ -3857,9 +3857,10 @@
   filters: &399
     franchise: urusei_yatsura
     not_anime_ids:
-    - 1481
     - 53402
     - 53433
+    not_ignored_ids:
+    - 1481
   threshold: 93.9%
   metadata: &400
     title_ru: Несносные пришельцы
@@ -5357,10 +5358,11 @@
   filters: &552
     franchise: touch
     not_anime_ids:
+    - 39352
+    not_ignored_ids:
     - 2491
     - 2492
     - 2493
-    - 39352
   threshold: 94.6%
   metadata: &553
     title_ru: Касание
