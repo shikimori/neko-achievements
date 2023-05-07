@@ -5692,3 +5692,20 @@
   filters: *584
   threshold: 0.01
   metadata: *585
+- neko_id: touken_ranbu
+  level: 1
+  algo: duration
+  filters:
+    franchise: touken_ranbu
+    not_anime_ids:
+    - 36444
+    - 40124
+  threshold: 100%
+  metadata:
+    title_ru: Танец мечей
+    title_en: Touken Ranbu
+    image: https://nyaa.shikimori.me/system/user_images/original/607810/1792485.jpg
+    topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 36419
