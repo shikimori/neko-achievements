@@ -3882,9 +3882,9 @@
   filters: &402
     franchise: urusei_yatsura
     not_anime_ids:
-    - 1481
     - 53402
     - 53433
+  generator:
     not_ignored_ids:
     - 1481
   threshold: 93.9%
@@ -5384,10 +5384,8 @@
   filters: &555
     franchise: touch
     not_anime_ids:
-    - 2491
-    - 2492
-    - 2493
     - 39352
+  generator:
     not_ignored_ids:
     - 2491
     - 2492
