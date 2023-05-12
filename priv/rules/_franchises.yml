@@ -4959,8 +4959,6 @@
   filters: &513
     franchise: stitch
     not_anime_ids:
-    - 25889
-    - 25891
     - 28921
     - 31238
   threshold: 97.9%
