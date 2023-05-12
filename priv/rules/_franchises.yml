@@ -3165,6 +3165,7 @@
     - 16335
     - 53216
     - 54749
+    - 54748
   threshold: 100%
   metadata: &328
     title_ru: 'Мув-Лув: Альтернатива'
@@ -4958,8 +4959,6 @@
   filters: &513
     franchise: stitch
     not_anime_ids:
-    - 25889
-    - 25891
     - 28921
     - 31238
   threshold: 97.9%
