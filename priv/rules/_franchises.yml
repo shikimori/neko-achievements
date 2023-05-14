@@ -2989,7 +2989,7 @@
   algo: duration
   filters: &309
     franchise: ginga_eiyuu_densetsu
-  threshold: 89.3%
+  threshold: 90%
   metadata: &310
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
