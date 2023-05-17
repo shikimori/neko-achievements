@@ -4383,6 +4383,12 @@
     title_en: Senki Zesshou Symphogear
     image: "/assets/achievements/anime/franchise/senki_zesshou_symphogear.jpg"
     topic_id: 247360
+- neko_id: senki_zesshou_symphogear
+  level: 0
+  algo: duration
+  filters: *450
+  threshold: 0.01
+  metadata: *451
 - neko_id: mobile_police_patlabor
   level: 1
   algo: duration
@@ -4396,12 +4402,6 @@
     title_en: Kidou Keisatsu Patlabor
     image: "/assets/achievements/anime/franchise/mobile_police_patlabor.jpg"
     topic_id: 247360
-- neko_id: senki_zesshou_symphogear
-  level: 0
-  algo: duration
-  filters: *450
-  threshold: 0.01
-  metadata: *451
 - neko_id: mobile_police_patlabor
   level: 0
   algo: duration
@@ -4760,6 +4760,12 @@
     title_en: Starmyu
     image: "/assets/achievements/anime/franchise/starmyu.jpg"
     topic_id: 247360
+- neko_id: starmyu
+  level: 0
+  algo: duration
+  filters: *491
+  threshold: 0.01
+  metadata: *492
 - neko_id: ad_police
   level: 1
   algo: duration
@@ -4774,12 +4780,6 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
-- neko_id: starmyu
-  level: 0
-  algo: duration
-  filters: *491
-  threshold: 0.01
-  metadata: *492
 - neko_id: ad_police
   level: 0
   algo: duration
