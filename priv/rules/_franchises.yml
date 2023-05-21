@@ -4049,7 +4049,7 @@
     - 54046
     - 54047
     - 55006
-  threshold: 98%
+  threshold: 95%
   metadata: &421
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
