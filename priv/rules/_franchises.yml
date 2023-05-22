@@ -1505,6 +1505,7 @@
     not_anime_ids:
     - 35952
     - 37590
+    - 55324
   threshold: 95%
   metadata: &161
     title_ru: Человек-дьявол
