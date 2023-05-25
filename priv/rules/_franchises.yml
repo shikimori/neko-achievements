@@ -1236,6 +1236,7 @@
     - 38600
     - 49402
     - 54860
+    - 55316
   threshold: 92.4%
   metadata: &130
     title_ru: Призрак в доспехах
@@ -2134,7 +2135,7 @@
     - 51887
     - 51889
     - 52897
-  threshold: 94.1%
+  threshold: 94%
   metadata: &225
     title_ru: Покемон
     title_en: Pokemon
@@ -2656,7 +2657,7 @@
     - 53286
     - 53603
     - 55283
-  threshold: 87.2%
+  threshold: 87%
   metadata: &277
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -3071,6 +3072,7 @@
     not_anime_ids:
     - 1631
     - 15979
+    - 55328
   threshold: 95%
   metadata: &318
     title_ru: Эврика 7
@@ -3630,7 +3632,7 @@
     - 49735
     - 51509
     - 51842
-  threshold: 85.8%
+  threshold: 86%
   metadata: &376
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4111,6 +4113,7 @@
     - 53330
     - 54262
     - 54274
+    - 55297
   threshold: 91.8%
   metadata: &424
     title_ru: Ура мечте!
@@ -5731,45 +5734,63 @@
 - neko_id: ultraman
   level: 1
   algo: duration
-  filters:
+  filters: &592
     franchise: ultraman
     not_anime_ids:
-    - 30122
+    - 6731
     - 8753
     - 11695
-    - 6731
-  threshold: 100%
-  metadata: 
+    - 30122
+  threshold: 95%
+  metadata: &593
     title_ru: Ультрамен
     title_en: Ultraman
-    image: https://nyaa.shikimori.me/system/user_images/original/607810/2238750.jpg
+    image: "/assets/achievements/anime/franchise/ultraman.jpg"
     topic_id: 247360
+- neko_id: ultraman
+  level: 0
+  algo: duration
+  filters: *592
+  threshold: 0.01
+  metadata: *593
 - neko_id: ojamajo_doremi
   level: 1
   algo: duration
-  filters:
+  filters: &594
     franchise: ojamajo_doremi
     not_anime_ids:
-    - 50848
+    - 12591
     - 49670
     - 49671
-    - 12591
-  threshold: 100%
-  metadata: 
+    - 50848
+  threshold: 96.8%
+  metadata: &595
     title_ru: Невезучая ведьма Дореми
     title_en: Ojamajo Doremi
-    image: https://moe.shikimori.me/system/user_images/original/607810/2231532.jpg
+    image: "/assets/achievements/anime/franchise/ojamajo_doremi.jpg"
     topic_id: 247360
+- neko_id: ojamajo_doremi
+  level: 0
+  algo: duration
+  filters: *594
+  threshold: 0.01
+  metadata: *595
 - neko_id: uma_musume
   level: 1
   algo: duration
-  filters:
+  filters: &596
     franchise: uma_musume
     not_anime_ids:
     - 34453
-  threshold: 100%
-  metadata: 
+  threshold: 84.9%
+  metadata: &597
     title_ru: Девушки-пони
     title_en: Uma Musume
-    image: https://kawai.shikimori.me/system/user_images/original/34807/2239461.jpg
+    image: "/assets/achievements/anime/franchise/uma_musume.jpg"
     topic_id: 247360
+- neko_id: uma_musume
+  level: 0
+  algo: duration
+  filters: *596
+  threshold: 0.01
+  metadata: *597
