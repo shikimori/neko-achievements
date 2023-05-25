@@ -5728,3 +5728,48 @@
   filters: *590
   threshold: 0.01
   metadata: *591
+- neko_id: ultraman
+  level: 1
+  algo: duration
+  filters:
+    franchise: ultraman
+    not_anime_ids:
+    - 30122
+    - 8753
+    - 11695
+    - 6731
+  threshold: 100%
+  metadata: 
+    title_ru: Ультрамен
+    title_en: Ultraman
+    image: https://nyaa.shikimori.me/system/user_images/original/607810/2238750.jpg
+    topic_id: 247360
+- neko_id: ojamajo_doremi
+  level: 1
+  algo: duration
+  filters:
+    franchise: ojamajo_doremi
+    not_anime_ids:
+    - 50848
+    - 49670
+    - 49671
+    - 12591
+  threshold: 100%
+  metadata: 
+    title_ru: Невезучая ведьма Дореми
+    title_en: Ojamajo Doremi
+    image: https://moe.shikimori.me/system/user_images/original/607810/2231532.jpg
+    topic_id: 247360
+- neko_id: uma_musume
+  level: 1
+  algo: duration
+  filters:
+    franchise: uma_musume
+    not_anime_ids:
+    - 34453
+  threshold: 100%
+  metadata: 
+    title_ru: Девушки-пони
+    title_en: Uma Musume
+    image: https://kawai.shikimori.me/system/user_images/original/34807/2239461.jpg
+    topic_id: 247360
