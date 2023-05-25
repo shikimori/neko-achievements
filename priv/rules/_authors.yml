@@ -1448,61 +1448,11 @@
   filters: *79
   metadata: *80
   generator: *81
-- neko_id: kenji_kamiyama
-  level: 1
-  algo: count
-  threshold: 17%
-  filters: &82
-    anime_ids:
-    - 9629
-    - 6637
-    - 405
-    - 767
-    - 1822
-    - 2733
-    - 570
-    - 36871
-    - 33204
-    - 21587
-    - 10405
-    - 33687
-    - 33686
-    - 33685
-    - 11755
-    - 6372
-    - 5630
-    - 1827
-    - 1566
-    - 801
-    - 467
-    - 38799
-    - 34893
-    - 49357
-    - 49532
-    - 38749
-    - 39935
-    - 41750
-    - 51653
-  metadata: &83
-    title_ru: Кэндзи Камияма
-    title_en: Kenji Kamiyama
-    image: "/assets/achievements/anime/author/kenji_kamiyama.jpg"
-    border_color: "#795F42"
-    topic_id: 276032
-  generator: &84
-    person_id: 5348
-- neko_id: kenji_kamiyama
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *82
-  metadata: *83
-  generator: *84
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: count
   threshold: 13%
-  filters: &85
+  filters: &82
     anime_ids:
     - 4094
     - 2178
@@ -1541,15 +1491,65 @@
     - 372
     - 2998
     - 54017
-  metadata: &86
+  metadata: &83
     title_ru: Ёсиаки Кавадзири
     title_en: Yoshiaki Kawajiri
     image: "/assets/achievements/anime/author/yoshiaki_kawajiri.jpg"
     border_color: "#C73674"
     topic_id: 276032
-  generator: &87
+  generator: &84
     person_id: 5812
 - neko_id: yoshiaki_kawajiri
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *82
+  metadata: *83
+  generator: *84
+- neko_id: kenji_kamiyama
+  level: 1
+  algo: count
+  threshold: 17%
+  filters: &85
+    anime_ids:
+    - 9629
+    - 6637
+    - 405
+    - 767
+    - 1822
+    - 2733
+    - 570
+    - 36871
+    - 33204
+    - 21587
+    - 10405
+    - 33687
+    - 33686
+    - 33685
+    - 11755
+    - 6372
+    - 5630
+    - 1827
+    - 1566
+    - 801
+    - 467
+    - 38799
+    - 34893
+    - 49357
+    - 49532
+    - 38749
+    - 39935
+    - 41750
+    - 51653
+  metadata: &86
+    title_ru: Кэндзи Камияма
+    title_en: Kenji Kamiyama
+    image: "/assets/achievements/anime/author/kenji_kamiyama.jpg"
+    border_color: "#795F42"
+    topic_id: 276032
+  generator: &87
+    person_id: 5348
+- neko_id: kenji_kamiyama
   level: 0
   algo: count
   threshold: 0.01
