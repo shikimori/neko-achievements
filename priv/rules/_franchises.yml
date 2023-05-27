@@ -5153,10 +5153,10 @@
 - neko_id: ze_tian_ji
   level: 1
   algo: duration
-  filters: &533
+  filters: &531
     franchise: ze_tian_ji
   threshold: 100%
-  metadata: &534
+  metadata: &532
     title_ru: Путь выбора
     title_en: Ze Tian Ji
     image: "/assets/achievements/anime/franchise/ze_tian_ji.jpg"
@@ -5164,7 +5164,7 @@
 - neko_id: pripara
   level: 1
   algo: duration
-  filters: &531
+  filters: &533
     franchise: pripara
     not_anime_ids:
     - 21707
@@ -5177,18 +5177,18 @@
     - 38648
     - 40543
   threshold: 90.4%
-  metadata: &532
+  metadata: &534
     title_ru: При Пара
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
     topic_id: 247360
-- neko_id: pripara
+- neko_id: ze_tian_ji
   level: 0
   algo: duration
   filters: *531
   threshold: 0.01
   metadata: *532
-- neko_id: ze_tian_ji
+- neko_id: pripara
   level: 0
   algo: duration
   filters: *533
