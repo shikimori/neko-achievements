@@ -5162,6 +5162,12 @@
     title_en: Ze Tian Ji
     image: "/assets/achievements/anime/franchise/ze_tian_ji.jpg"
     topic_id: 247360
+- neko_id: ze_tian_ji
+  level: 0
+  algo: duration
+  filters: *531
+  threshold: 0.01
+  metadata: *532
 - neko_id: pripara
   level: 1
   algo: duration
@@ -5183,12 +5189,6 @@
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
     topic_id: 247360
-- neko_id: ze_tian_ji
-  level: 0
-  algo: duration
-  filters: *531
-  threshold: 0.01
-  metadata: *532
 - neko_id: pripara
   level: 0
   algo: duration
