@@ -2654,12 +2654,12 @@
     - 50473
     - 51569
     - 52390
+    - 52520
     - 53286
     - 53603
     - 55283
     - 55404
-    - 52520
-  threshold: 87%
+  threshold: 86.4%
   metadata: &277
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
