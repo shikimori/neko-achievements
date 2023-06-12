@@ -2157,7 +2157,7 @@
   algo: duration
   filters: &227
     franchise: karakai_jouzu_no_takagi_san
-  threshold: 92.2%
+  threshold: 100%
   metadata: &228
     title_ru: Озорная Такаги
     title_en: Karakai Jouzu no Takagi-san
@@ -2577,7 +2577,7 @@
     - 38653
     - 48617
     - 52282
-  threshold: 94.4%
+  threshold: 94.9%
   metadata: &274
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2660,7 +2660,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 86.4%
+  threshold: 86.7%
   metadata: &277
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2882,7 +2882,7 @@
   algo: duration
   filters: &299
     franchise: nodame_cantabile
-  threshold: 94.1%
+  threshold: 94.2%
   metadata: &300
     title_ru: Нодамэ Кантабиле
     title_en: Nodame Cantabile
@@ -3655,7 +3655,7 @@
     - 51509
     - 51842
     - 55517
-  threshold: 86%
+  threshold: 86.2%
   metadata: &378
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -5655,6 +5655,7 @@
     franchise: ultraman
     not_anime_ids:
     - 6731
+    - 8753
     - 11695
     - 30122
     - 39309
