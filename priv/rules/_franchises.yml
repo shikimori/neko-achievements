@@ -1044,14 +1044,13 @@
     franchise: black_clover
     not_anime_ids:
     - 39864
-  threshold: 100%
+  threshold: 96.7%
   metadata: &111
     title_ru: Чёрный клевер
     title_en: Black Clover
     image: "/assets/achievements/anime/franchise/black_clover.jpg"
     topic_id: 247360
   generator: &112
-    threshold: 100%
     ignore_latest_ids:
     - 48585
 - neko_id: black_clover
