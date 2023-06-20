@@ -1861,7 +1861,7 @@
     - 42753
     - 52010
     - 52011
-  threshold: 95.4%
+  threshold: 95%
   metadata: &200
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -3655,8 +3655,8 @@
     - 49735
     - 51509
     - 51842
-    - 55517
     - 55393
+    - 55517
   threshold: 86.2%
   metadata: &378
     title_ru: Идолмастер
