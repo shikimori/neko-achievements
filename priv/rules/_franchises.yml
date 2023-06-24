@@ -1898,6 +1898,8 @@
     - 49988
     - 52571
     - 52745
+    ignore_latest_ids:
+    - 55748
 - neko_id: love_live
   level: 0
   algo: duration
