@@ -3,7 +3,7 @@
   neko_id: gar
   level: 1
   algo: count
-  threshold: 10%
+  threshold: 50
   filters:
     anime_ids:
       - 1
@@ -499,6 +499,8 @@
       - 11061
       - 13271
       - 19951
+      - 51367
+      - 53273
   metadata:
     title_ru: Так мужественно, что не вздохнуть
     text_ru: Ваши первые шаги в жанре, а борода уже не сбривается.
@@ -510,7 +512,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 15%
+  threshold: 75
   metadata:
     title_ru: Тестостероновый шторм
     text_ru: Вы больше не помещаетесь в зеркалах.
@@ -521,7 +523,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 25%
+  threshold: 125
   metadata:
     title_ru: Альфа-самец
     text_ru: Физика играет по вашим правилам.
