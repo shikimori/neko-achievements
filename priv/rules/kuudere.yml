@@ -2,7 +2,7 @@
   neko_id: kuudere
   level: 1
   algo: count
-  threshold: 15%
+  threshold: 70
   filters:
     anime_ids:
       - 7088
@@ -494,7 +494,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 20%
+  threshold: 95
   metadata:
     title_ru: Мудрость
     text_ru: Умный менее всего одинок тогда, когда он находится в одиночестве.
@@ -505,7 +505,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 28%
+  threshold: 135
   metadata:
     title_ru: Хладнокровие
     text_ru: |-
