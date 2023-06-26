@@ -2,7 +2,7 @@
   neko_id: tsundere
   level: 1
   algo: count
-  threshold: 10%
+  threshold: 85
   filters:
     anime_ids:
       - 10165
@@ -1143,7 +1143,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 15%
+  threshold: 140
   metadata:
     title_ru: Дурак!
     text_ru: Заткнись! Заткнись! Заткнись!
@@ -1154,7 +1154,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 25%
+  threshold: 250
   metadata:
     title_ru: Цундере мне вовсе не интересны!
     text_ru: Ну, если только совсем чуть-чуть...
