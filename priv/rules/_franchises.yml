@@ -5660,7 +5660,6 @@
     franchise: ultraman
     not_anime_ids:
     - 6731
-    - 8753
     - 11695
     - 30122
     - 39309
@@ -5670,6 +5669,9 @@
     title_en: Ultraman
     image: "/assets/achievements/anime/franchise/ultraman.jpg"
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 8753
 - neko_id: ultraman
   level: 0
   algo: duration
