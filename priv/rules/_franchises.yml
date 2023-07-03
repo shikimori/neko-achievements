@@ -764,8 +764,8 @@
     - 38784
     - 40469
     - 40761
-    - 49633
     - 40982
+    - 49633
   threshold: 90%
   metadata: &79
     title_ru: Судьба
@@ -2117,6 +2117,7 @@
     - 31373
     - 31750
     - 33898
+    - 35551
     - 35552
     - 36835
     - 37865
@@ -2140,10 +2141,9 @@
     - 51870
     - 51887
     - 51889
-    - 52897
     - 52497
-    - 35551
-  threshold: 94%
+    - 52897
+  threshold: 93.8%
   metadata: &225
     title_ru: Покемон
     title_en: Pokemon
@@ -3664,7 +3664,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 86.2%
+  threshold: 87.4%
   metadata: &378
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3920,13 +3920,13 @@
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
+    - 15785
     - 16964
     - 24347
     - 36913
     - 51123
     - 51156
     - 51221
-    - 15785
   threshold: 90%
   metadata: &406
     title_ru: Инадзума 11
@@ -5674,7 +5674,7 @@
     title_en: Ultraman
     image: "/assets/achievements/anime/franchise/ultraman.jpg"
     topic_id: 247360
-  generator:
+  generator: &584
     not_ignored_ids:
     - 8753
 - neko_id: ultraman
@@ -5683,15 +5683,16 @@
   filters: *582
   threshold: 0.01
   metadata: *583
+  generator: *584
 - neko_id: konjiki_no_gash_bell
   level: 1
   algo: duration
-  filters: &584
+  filters: &585
     franchise: konjiki_no_gash_bell
     not_anime_ids:
     - 52605
   threshold: 99.5%
-  metadata: &585
+  metadata: &586
     title_ru: Златовласый Гаш Белл
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
@@ -5699,16 +5700,16 @@
 - neko_id: konjiki_no_gash_bell
   level: 0
   algo: duration
-  filters: *584
+  filters: *585
   threshold: 0.01
-  metadata: *585
+  metadata: *586
 - neko_id: di_gi_charat
   level: 1
   algo: duration
-  filters: &586
+  filters: &587
     franchise: di_gi_charat
   threshold: 92.9%
-  metadata: &587
+  metadata: &588
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
     image: "/assets/achievements/anime/franchise/di_gi_charat.jpg"
@@ -5716,13 +5717,13 @@
 - neko_id: di_gi_charat
   level: 0
   algo: duration
-  filters: *586
+  filters: *587
   threshold: 0.01
-  metadata: *587
+  metadata: *588
 - neko_id: mazinkaiser
   level: 1
   algo: duration
-  filters: &588
+  filters: &589
     franchise: mazinkaiser
     not_anime_ids:
     - 3898
@@ -5732,7 +5733,7 @@
     - 51431
     - 51432
   threshold: 92.4%
-  metadata: &589
+  metadata: &590
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
     image: "/assets/achievements/anime/franchise/mazinkaiser.jpg"
@@ -5740,16 +5741,16 @@
 - neko_id: mazinkaiser
   level: 0
   algo: duration
-  filters: *588
+  filters: *589
   threshold: 0.01
-  metadata: *589
+  metadata: *590
 - neko_id: jigoku_sensei_nube
   level: 1
   algo: duration
-  filters: &590
+  filters: &591
     franchise: jigoku_sensei_nube
   threshold: 100%
-  metadata: &591
+  metadata: &592
     title_ru: Адский учитель Нубэ
     title_en: Jigoku Sensei Nube
     image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
@@ -5757,16 +5758,16 @@
 - neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
-  filters: *590
+  filters: *591
   threshold: 0.01
-  metadata: *591
+  metadata: *592
 - neko_id: saber_marionette_j
   level: 1
   algo: duration
-  filters: &592
+  filters: &593
     franchise: saber_marionette_j
   threshold: 100%
-  metadata: &593
+  metadata: &594
     title_ru: Воины-марионетки Джей
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
@@ -5774,16 +5775,16 @@
 - neko_id: saber_marionette_j
   level: 0
   algo: duration
-  filters: *592
+  filters: *593
   threshold: 0.01
-  metadata: *593
+  metadata: *594
 - neko_id: galaxy_angel
   level: 1
   algo: duration
-  filters: &594
+  filters: &595
     franchise: galaxy_angel
   threshold: 95%
-  metadata: &595
+  metadata: &596
     title_ru: Галактический ангел
     title_en: Galaxy Angel
     image: "/assets/achievements/anime/franchise/galaxy_angel.jpg"
@@ -5791,16 +5792,16 @@
 - neko_id: galaxy_angel
   level: 0
   algo: duration
-  filters: *594
+  filters: *595
   threshold: 0.01
-  metadata: *595
+  metadata: *596
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &596
+  filters: &597
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &597
+  metadata: &598
     title_ru: Властелин властелинов Рыцарь Рю
     title_en: Haou Daikei Ryuu Knight
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
@@ -5808,6 +5809,6 @@
 - neko_id: haou_daikei_ryuu_knight
   level: 0
   algo: duration
-  filters: *596
+  filters: *597
   threshold: 0.01
-  metadata: *597
+  metadata: *598
