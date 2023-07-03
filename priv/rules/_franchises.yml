@@ -765,6 +765,7 @@
     - 40469
     - 40761
     - 49633
+    - 40982
   threshold: 90%
   metadata: &79
     title_ru: Судьба
@@ -1898,6 +1899,8 @@
     - 49988
     - 52571
     - 52745
+    ignore_latest_ids:
+    - 55748
 - neko_id: love_live
   level: 0
   algo: duration
@@ -2138,6 +2141,8 @@
     - 51887
     - 51889
     - 52897
+    - 52497
+    - 35551
   threshold: 94%
   metadata: &225
     title_ru: Покемон
@@ -3654,6 +3659,7 @@
     - 40753
     - 42882
     - 49735
+    - 51234
     - 51509
     - 51842
     - 55393
@@ -3920,6 +3926,7 @@
     - 51123
     - 51156
     - 51221
+    - 15785
   threshold: 90%
   metadata: &406
     title_ru: Инадзума 11
@@ -5658,7 +5665,6 @@
     franchise: ultraman
     not_anime_ids:
     - 6731
-    - 8753
     - 11695
     - 30122
     - 39309
@@ -5668,6 +5674,9 @@
     title_en: Ultraman
     image: "/assets/achievements/anime/franchise/ultraman.jpg"
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 8753
 - neko_id: ultraman
   level: 0
   algo: duration

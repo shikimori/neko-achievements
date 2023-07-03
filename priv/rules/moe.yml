@@ -2,7 +2,7 @@
   neko_id: moe
   level: 1
   algo: count
-  threshold: 10%
+  threshold: 50
   filters:
     anime_ids:
       - 10012
@@ -501,6 +501,9 @@
       - 7770
       - 10258
       - 5304
+      - 53671
+      - 53077
+      - 34208
   metadata:
     title_ru: Начинающий моэфаг
     text_ru: Позволь проводить тебя в очаровательный 2D-мир.
@@ -512,7 +515,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 15%
+  threshold: 75
   metadata:
     title_ru: Лучи кавая
     text_ru: Поражают в самое сердце.
@@ -523,7 +526,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 25%
+  threshold: 125
   metadata:
     title_ru: Первоклассная моэта
     text_ru: Вы приняли слишком большую дозу тортиков и сами стали излучать моэ.
