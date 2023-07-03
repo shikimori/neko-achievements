@@ -5811,4 +5811,58 @@
   algo: duration
   filters: *597
   threshold: 0.01
-  metadata: *598
+  metadata: *597
+- neko_id: dr_stone
+  level: 1
+  algo: duration
+  filters:
+    franchise: dr_stone
+    not_anime_ids:
+    - 43555
+    - 43349
+  threshold: 100%
+  metadata:
+    title_ru: Доктор Стоун
+    title_en: Dr. Stone
+    image: https://shikimori.me/system/user_images/original/498922/2021942.jpg
+    topic_id: 247360
+- neko_id: mahoyome
+  level: 1
+  algo: duration
+  filters:
+    franchise: mahoyome
+    not_anime_ids:
+    - 37031
+    - 40134
+    - 36501
+    - 35062
+  threshold: 100%
+  metadata:
+    title_ru: Невеста чародея
+    title_en: Mahoutsukai no Yome
+    image: https://shikimori.me/system/user_images/original/34807/2283697.jpg
+    topic_id: 247360
+- neko_id: konosuba
+  level: 1
+  algo: duration
+  filters:
+    franchise: konosuba
+  threshold: 100%
+  metadata:
+    title_ru: Этот замечательный мир!
+    title_en: KonoSuba
+    image: https://shikimori.me/system/user_images/original/607810/2201799.jpg
+    topic_id: 247360
+- neko_id: dragon_quest
+  level: 1
+  algo: duration
+  filters:
+    franchise: dragon_quest
+    not_anime_ids:
+    - 49228
+  threshold: 100%
+  metadata:
+    title_ru: Драгон Квест
+    title_en: Dragon Quest
+    image: https://shikimori.me/system/user_images/original/34807/2283801.jpg
+    topic_id: 247360
