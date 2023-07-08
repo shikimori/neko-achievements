@@ -1714,6 +1714,7 @@
   filters: &183
     franchise: mahoyome
     not_anime_ids:
+    - 35062
     - 36501
     - 37031
     - 40134
@@ -2039,7 +2040,7 @@
     not_anime_ids:
     - 44627
     - 44628
-  threshold: 95%
+  threshold: 98%
   metadata: &217
     title_ru: Маг на полную ставку
     title_en: Quanzhi Fashi
