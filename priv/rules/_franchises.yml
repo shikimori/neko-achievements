@@ -1714,10 +1714,10 @@
   filters: &183
     franchise: mahoyome
     not_anime_ids:
-    - 35062
     - 36501
     - 37031
     - 40134
+    - 51097
   threshold: 100%
   metadata: &184
     title_ru: Невеста чародея
@@ -2036,6 +2036,9 @@
   algo: duration
   filters: &216
     franchise: quanzhi_fashi
+     not_anime_ids:
+    - 44627
+    - 44628
   threshold: 95%
   metadata: &217
     title_ru: Маг на полную ставку
