@@ -2036,7 +2036,7 @@
   algo: duration
   filters: &216
     franchise: quanzhi_fashi
-     not_anime_ids:
+    not_anime_ids:
     - 44627
     - 44628
   threshold: 95%
