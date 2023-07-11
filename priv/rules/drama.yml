@@ -2,7 +2,7 @@
   neko_id: drama
   level: 1
   algo: count
-  threshold: 40
+  threshold: 50
   filters:
     genre_ids:
       - 8
@@ -17,10 +17,10 @@
 
 - <<: *defaults
   level: 2
-  threshold: 90
+  threshold: 100
   metadata:
     title_ru: Эмпатия среднего уровня
-    text_ru: Ну давай, расскажи нам, как плакал над Хатико.
+    text_ru: Ого, у других людей тоже есть чувства!
     title_en: Mid-level empathy
     text_en: Come on, tell us how you cried over Hachiko.
     image: /assets/achievements/anime/drama_2.jpg
@@ -28,10 +28,10 @@
 
 - <<: *defaults
   level: 3
-  threshold: 140
+  threshold: 150
   metadata:
     title_ru: Идеальная грусть
-    text_ru: Вам стоит проявлять эмоции тогда, когда хотите. Незачем притворяться.
+    text_ru: А не пора ли к специалисту?
     title_en: Perfect blue
     text_en: You should show emotion when you want to. There's no need to pretend.
     image: /assets/achievements/anime/drama_3.png
@@ -42,7 +42,7 @@
   threshold: 200
   metadata:
     title_ru: Максимальная эмоциональная отзывчивость
-    text_ru: Шрамы на сердце других становятся твоими.
+    text_ru: Смотри не захлебнись. 
     title_en: Maximum emotional responsiveness
     text_en: The scars on the heart of others become yours.
     image: /assets/achievements/anime/drama_4.gif
