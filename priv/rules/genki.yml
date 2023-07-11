@@ -2,7 +2,7 @@
   neko_id: genki
   level: 1
   algo: count
-  threshold: 85
+  threshold: 100
   filters:
     anime_ids:
     - 2928
@@ -1306,7 +1306,7 @@
     - 52736
     - 4983
   metadata:
-    title_ru: Душа компании
+    title_ru: Не подумайте, я не экстраверт!
     text_ru: Немного со странностями, зато с ним всегда весело.
     title_en: Soul of the company
     text_en: He's a little weird, but he's always fun to be with.
@@ -1316,10 +1316,10 @@
 
 - <<: *defaults
   level: 2
-  threshold: 140
+  threshold: 175
   metadata:
-    title_ru: Заводила
-    text_ru: Втянет в самые захватывающие приключения!
+    title_ru: Латентный экстраверт
+    text_ru: Втянет в самые захватывающие приключения! (хотите вы этого или нет)
     title_en: Firestarter
     text_en: Will pull you into the most exciting adventures!
     image: /assets/achievements/anime/genki_2.jpg
@@ -1327,10 +1327,10 @@
 
 - <<: *defaults
   level: 3
-  threshold: 250
+  threshold: 290
   metadata:
-    title_ru: Человек-праздник
-    text_ru: Способен растормошить весь этот скучный мир и взорвать фейерверком!
+    title_ru: Человек-экстраверт
+    text_ru: Способен растормошить весь этот скучный мир и взорвать фейерверком! (или устроить апокалипсис)
     title_en: The Holiday Man
     text_en: Able to stir up this whole boring world and explode with fireworks!
     image: /assets/achievements/anime/genki_3.gif
