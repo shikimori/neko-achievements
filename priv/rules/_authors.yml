@@ -205,7 +205,6 @@
     - 2811
     - 3842
     - 3843
-    - 2553
     - 15347
     - 1430
     - 302
@@ -380,6 +379,7 @@
     - 15847
     - 22547
     - 2387
+    - 2998
   metadata: &23
     title_ru: Хироси Хамасаки
     title_en: Hiroshi Hamasaki
@@ -691,6 +691,7 @@
     - 2054
     - 1468
     - 42894
+    - 43780
   metadata: &38
     title_ru: Такахиро Омори
     title_en: Takahiro Oomori
@@ -1622,6 +1623,7 @@
     - 5290
     - 40078
     - 42228
+    - 4772
   metadata: &89
     title_ru: Дзюнъити Сато
     title_en: Junichi Satou

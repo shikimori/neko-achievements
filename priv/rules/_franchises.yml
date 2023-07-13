@@ -158,7 +158,7 @@
   algo: duration
   filters: &16
     franchise: konosuba
-  threshold: 98%
+  threshold: 100%
   metadata: &17
     title_ru: Этот замечательный мир!
     title_en: KonoSuba
@@ -646,7 +646,7 @@
     - 43349
     - 43555
     - 55216
-  threshold: 95.2%
+  threshold: 95.3%
   metadata: &69
     title_ru: Доктор Стоун
     title_en: Dr. Stone
@@ -762,7 +762,7 @@
     franchise: bleach
     not_anime_ids:
     - 54171
-  threshold: 97.2%
+  threshold: 97%
   metadata: &81
     title_ru: Блич
     title_en: Bleach
@@ -1146,7 +1146,7 @@
     - 55289
     - 55647
     - 55871
-  threshold: 95.4%
+  threshold: 95.5%
   metadata: &118
     title_ru: Ван-Пис
     title_en: One Piece
@@ -2044,7 +2044,7 @@
     not_anime_ids:
     - 44627
     - 44628
-  threshold: 98%
+  threshold: 100%
   metadata: &217
     title_ru: Маг на полную ставку
     title_en: Quanzhi Fashi
@@ -2065,7 +2065,7 @@
     - 9716
     - 10334
     - 37537
-  threshold: 95.1%
+  threshold: 95%
   metadata: &219
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -2211,7 +2211,7 @@
     - 51889
     - 52497
     - 52897
-  threshold: 93.8%
+  threshold: 93.9%
   metadata: &231
     title_ru: Покемон
     title_en: Pokemon
@@ -3044,7 +3044,7 @@
     - 53517
     - 53976
     - 55134
-  threshold: 92.4%
+  threshold: 92.5%
   metadata: &313
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3732,7 +3732,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 87.4%
+  threshold: 87.7%
   metadata: &384
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4153,6 +4153,7 @@
     - 54046
     - 54047
     - 55006
+    - 55617
   threshold: 95%
   metadata: &429
     title_ru: Семёрка идолов
@@ -4215,7 +4216,8 @@
     - 54262
     - 54274
     - 55297
-  threshold: 91.8%
+    - 55883
+  threshold: 91.6%
   metadata: &432
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4916,7 +4918,7 @@
     franchise: soukyuu_no_fafner
     not_anime_ids:
     - 9494
-  threshold: 92%
+  threshold: 92.1%
   metadata: &506
     title_ru: Небесный Фафнир
     title_en: Soukyuu no Fafner
@@ -4940,7 +4942,7 @@
     franchise: saki
     not_anime_ids:
     - 7759
-  threshold: 90.2%
+  threshold: 90.3%
   metadata: &509
     title_ru: Саки
     title_en: Saki
