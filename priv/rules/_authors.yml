@@ -1131,11 +1131,57 @@
   filters: *58
   metadata: *59
   generator: *60
+- neko_id: morio_asaka
+  level: 1
+  algo: count
+  threshold: 20%
+  filters: &61
+    anime_ids:
+    - 5678
+    - 1078
+    - 28297
+    - 37379
+    - 14397
+    - 10800
+    - 7193
+    - 7972
+    - 877
+    - 408
+    - 134
+    - 596
+    - 59
+    - 652
+    - 383
+    - 33354
+    - 35320
+    - 372
+    - 371
+    - 232
+    - 2009
+    - 2274
+    - 2017
+    - 2093
+    - 53126
+  metadata: &62
+    title_ru: Морио Асака
+    title_en: Morio Asaka
+    image: "/assets/achievements/anime/author/morio_asaka.jpg"
+    border_color: "#AE050D"
+    topic_id: 276032
+  generator: &63
+    person_id: 5921
+- neko_id: morio_asaka
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *61
+  metadata: *62
+  generator: *63
 - neko_id: kouji_morimoto
   level: 1
   algo: count
   threshold: 18%
-  filters: &61
+  filters: &64
     anime_ids:
     - 512
     - 40480
@@ -1164,26 +1210,26 @@
     - 2182
     - 9846
     - 1462
-  metadata: &62
+  metadata: &65
     title_ru: Кодзи Моримото
     title_en: Kouji Morimoto
     image: "/assets/achievements/anime/author/kouji_morimoto.png"
     border_color: "#2E8B57"
     topic_id: 276032
-  generator: &63
+  generator: &66
     person_id: 5066
 - neko_id: kouji_morimoto
   level: 0
   algo: count
   threshold: 0.01
-  filters: *61
-  metadata: *62
-  generator: *63
+  filters: *64
+  metadata: *65
+  generator: *66
 - neko_id: masaaki_yuasa
   level: 1
   algo: count
   threshold: 20%
-  filters: &64
+  filters: &67
     anime_ids:
     - 415
     - 39792
@@ -1218,61 +1264,15 @@
     - 8359
     - 51092
     - 39938
-  metadata: &65
+  metadata: &68
     title_ru: Масааки Юаса
     title_en: Masaaki Yuasa
     image: "/assets/achievements/anime/author/masaaki_yuasa.png"
     border_color: "#FA8072"
     topic_id: 276032
-  generator: &66
+  generator: &69
     person_id: 5068
 - neko_id: masaaki_yuasa
-  level: 0
-  algo: count
-  threshold: 0.01
-  filters: *64
-  metadata: *65
-  generator: *66
-- neko_id: morio_asaka
-  level: 1
-  algo: count
-  threshold: 20%
-  filters: &67
-    anime_ids:
-    - 5678
-    - 1078
-    - 28297
-    - 37379
-    - 14397
-    - 10800
-    - 7193
-    - 7972
-    - 877
-    - 408
-    - 134
-    - 596
-    - 59
-    - 652
-    - 383
-    - 33354
-    - 35320
-    - 372
-    - 371
-    - 232
-    - 2009
-    - 2274
-    - 2017
-    - 2093
-    - 53126
-  metadata: &68
-    title_ru: Морио Асака
-    title_en: Morio Asaka
-    image: "/assets/achievements/anime/author/morio_asaka.jpg"
-    border_color: "#AE050D"
-    topic_id: 276032
-  generator: &69
-    person_id: 5921
-- neko_id: morio_asaka
   level: 0
   algo: count
   threshold: 0.01
