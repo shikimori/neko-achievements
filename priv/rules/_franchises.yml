@@ -5909,75 +5909,107 @@
 - neko_id: lodoss_tou_senki
   level: 1
   algo: duration
-  filters: 
+  filters: &608
     franchise: lodoss_tou_senki
     not_anime_ids:
-    - 23229
     - 2840
+    - 23229
   threshold: 100%
-  metadata: 
+  metadata: &609
     title_ru: Летопись войн острова Лодосс
     title_en: Lodoss-tou Senki
-    image: https://desu.shikimori.me/system/user_images/original/34807/2309334.jpg
+    image: "/assets/achievements/anime/franchise/lodoss_tou_senki.jpg"
     topic_id: 247360
+- neko_id: lodoss_tou_senki
+  level: 0
+  algo: duration
+  filters: *608
+  threshold: 0.01
+  metadata: *609
 - neko_id: muumin
   level: 1
   algo: duration
-  filters: 
+  filters: &610
     franchise: muumin
     not_anime_ids:
+    - 8234
+    - 8235
+    - 53963
     - 53964
     - 53965
-    - 53963
-    - 8235
-    - 8234
-  threshold: 100%
-  metadata: 
+  threshold: 99.9%
+  metadata: &611
     title_ru: Муми-тролли
     title_en: Tanoshii Muumin Ikka
-    image: https://desu.shikimori.me/system/user_images/original/34807/2309347.jpg
+    image: "/assets/achievements/anime/franchise/muumin.jpg"
     topic_id: 247360
+- neko_id: muumin
+  level: 0
+  algo: duration
+  filters: *610
+  threshold: 0.01
+  metadata: *611
 - neko_id: jungle_taitei
   level: 1
   algo: duration
-  filters: 
+  filters: &612
     franchise: jungle_taitei
     not_anime_ids:
-    - 20381
-    - 2565
     - 1572
-  threshold: 100%
-  metadata: 
+    - 2565
+    - 20381
+  threshold: 94.1%
+  metadata: &613
     title_ru: Император джунглей
     title_en: Jungle Taitei
-    image: https://desu.shikimori.me/system/user_images/original/34807/2309348.jpg
+    image: "/assets/achievements/anime/franchise/jungle_taitei.jpg"
     topic_id: 247360
+- neko_id: jungle_taitei
+  level: 0
+  algo: duration
+  filters: *612
+  threshold: 0.01
+  metadata: *613
 - neko_id: jewelpet
   level: 1
   algo: duration
-  filters: 
+  filters: &614
     franchise: jewelpet
     not_anime_ids:
     - 6008
-    - 40808
     - 36757
-  threshold: 100%
-  metadata: 
+    - 38539
+    - 40808
+  threshold: 90%
+  metadata: &615
     title_ru: Свет драгоценных зверушек
     title_en: Jewelpet
-    image: https://desu.shikimori.me/system/user_images/original/607810/2242488.jpg
+    image: "/assets/achievements/anime/franchise/jewelpet.jpg"
     topic_id: 247360
-  generator:
+  generator: &616
     ignore_latest_ids:
     - 40813
+- neko_id: jewelpet
+  level: 0
+  algo: duration
+  filters: *614
+  threshold: 0.01
+  metadata: *615
+  generator: *616
 - neko_id: shaonian_ge_xing
   level: 1
   algo: duration
-  filters: 
+  filters: &617
     franchise: shaonian_ge_xing
   threshold: 100%
-  metadata: 
+  metadata: &618
     title_ru: Ювенильная песня
     title_en: Shaonian Ge Xing
-    image: https://desu.shikimori.me/system/user_images/original/607810/2242733.jpg
+    image: "/assets/achievements/anime/franchise/shaonian_ge_xing.jpg"
     topic_id: 247360
+- neko_id: shaonian_ge_xing
+  level: 0
+  algo: duration
+  filters: *617
+  threshold: 0.01
+  metadata: *618
