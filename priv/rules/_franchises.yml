@@ -190,6 +190,7 @@
     ignore_latest_ids:
     - 39565
     - 44200
+    - 56196
 - neko_id: boku_no_hero_academia
   level: 0
   algo: duration
