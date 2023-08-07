@@ -6016,3 +6016,14 @@
   filters: *617
   threshold: 0.01
   metadata: *618
+- neko_id: bastard
+  level: 1
+  algo: duration
+  filters:
+    franchise: bastard
+  threshold: 100%
+  metadata:
+    title_ru: Ублюдок!!
+    title_en: Bastard!!
+    image: https://desu.shikimori.me/system/user_images/original/34807/2331935.jpg
+    topic_id: 247360
