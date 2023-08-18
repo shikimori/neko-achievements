@@ -5202,7 +5202,6 @@
     - 4088
     - 10342
     - 17959
-    - 17961
     - 17963
     - 17965
     - 18637
@@ -5221,6 +5220,9 @@
     title_en: Tetsuwan Atom
     image: "/assets/achievements/anime/franchise/atom.jpg"
     topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 17961
 - neko_id: atom
   level: 0
   algo: duration
