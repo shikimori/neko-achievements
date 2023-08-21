@@ -1944,7 +1944,7 @@
     - 9716
     - 10334
     - 37537
-  threshold: 95%
+  threshold: 93.2%
   metadata: &210
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -2216,7 +2216,7 @@
     - 52497
     - 52897
     - 56064
-  threshold: 93.9%
+  threshold: 94%
   metadata: &232
     title_ru: Покемон
     title_en: Pokemon
@@ -2322,7 +2322,7 @@
     - 30953
     - 31128
     - 36498
-  threshold: 97.7%
+  threshold: 97.8%
   metadata: &245
     title_ru: Сказание об Арслане
     title_en: Arslan Senki
@@ -4224,7 +4224,7 @@
     - 54274
     - 55297
     - 55883
-  threshold: 91.9%
+  threshold: 92.1%
   metadata: &433
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -5180,7 +5180,7 @@
   algo: duration
   filters: &533
     franchise: xingchen_bian
-  threshold: 98%
+  threshold: 100%
   metadata: &534
     title_ru: Дорогой звёзд
     title_en: Xingchen Bian
