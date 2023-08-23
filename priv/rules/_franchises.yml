@@ -117,6 +117,7 @@
     franchise: naruto
     not_anime_ids:
     - 10075
+    - 12935
     - 40971
     - 53236
   threshold: 96.7%
@@ -529,6 +530,8 @@
   algo: duration
   filters: &55
     franchise: hunter_x_hunter
+    not_anime_ids:
+    - 22049
   threshold: 93.1%
   metadata: &56
     title_ru: Охотник х Охотник
@@ -2375,6 +2378,8 @@
   algo: duration
   filters: &250
     franchise: uta_no_prince_sama
+    not_anime_ids:
+    - 39644
   threshold: 91%
   metadata: &251
     title_ru: Поющий принц
@@ -2686,7 +2691,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 86.7%
+  threshold: 86.6%
   metadata: &278
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -4821,6 +4826,13 @@
     ignore_latest_ids:
     - 37516
     - 51585
+- neko_id: city_hunter
+  level: 0
+  algo: duration
+  filters: *494
+  threshold: 0.01
+  metadata: *495
+  generator: *496
 - neko_id: ad_police
   level: 1
   algo: duration
@@ -4835,13 +4847,6 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
-- neko_id: city_hunter
-  level: 0
-  algo: duration
-  filters: *494
-  threshold: 0.01
-  metadata: *495
-  generator: *496
 - neko_id: ad_police
   level: 0
   algo: duration
@@ -5326,6 +5331,12 @@
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
     topic_id: 247360
+- neko_id: pripara
+  level: 0
+  algo: duration
+  filters: *545
+  threshold: 0.01
+  metadata: *546
 - neko_id: ze_tian_ji
   level: 1
   algo: duration
@@ -5337,12 +5348,6 @@
     title_en: Ze Tian Ji
     image: "/assets/achievements/anime/franchise/ze_tian_ji.jpg"
     topic_id: 247360
-- neko_id: pripara
-  level: 0
-  algo: duration
-  filters: *545
-  threshold: 0.01
-  metadata: *546
 - neko_id: ze_tian_ji
   level: 0
   algo: duration
