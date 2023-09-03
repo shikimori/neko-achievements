@@ -735,6 +735,7 @@
     franchise: bleach
     not_anime_ids:
     - 54171
+    - 56442
   threshold: 96.3%
   metadata: &78
     title_ru: Блич
