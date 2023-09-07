@@ -2381,7 +2381,7 @@
     franchise: uta_no_prince_sama
     not_anime_ids:
     - 39644
-  threshold: 91%
+  threshold: 95%
   metadata: &251
     title_ru: Поющий принц
     title_en: Uta no☆Prince-sama♪
@@ -2691,7 +2691,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 86.6%
+  threshold: 86.5%
   metadata: &278
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -6047,13 +6047,19 @@
 - neko_id: a_mortal_s_journey
   level: 1
   algo: duration
-  filters: 
+  filters: &622
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
   threshold: 100%
-  metadata:
+  metadata: &623
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
-    image: https://desu.shikimori.me/system/user_images/original/607810/2362668.jpg
+    image: "/assets/achievements/anime/franchise/a_mortal_s_journey.jpg"
     topic_id: 247360
+- neko_id: a_mortal_s_journey
+  level: 0
+  algo: duration
+  filters: *622
+  threshold: 0.01
+  metadata: *623
