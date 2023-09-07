@@ -6044,3 +6044,16 @@
   filters: *620
   threshold: 0.01
   metadata: *621
+- neko_id: a_mortal_s_journey
+  level: 1
+  algo: duration
+  filters: 
+    franchise: a_mortal_s_journey
+    not_anime_ids:
+    - 54444
+  threshold: 100%
+  metadata:
+    title_ru: Путешествие к бессмертию
+    title_en: Fanren Xiu Xian Chuan
+    image: https://desu.shikimori.me/system/user_images/original/607810/2362668.jpg
+    topic_id: 247360
