@@ -1162,7 +1162,6 @@
   filters: &67
     anime_ids:
     - 39792
-    - 27653
     - 601
     - 1978
     - 38594
@@ -1385,7 +1384,7 @@
 - neko_id: yoshiaki_kawajiri
   level: 1
   algo: count
-  threshold: 13%
+  threshold: 17%
   filters: &82
     anime_ids:
     - 4094
