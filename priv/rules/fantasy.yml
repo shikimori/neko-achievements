@@ -28,7 +28,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 150
+  threshold: 200
   metadata:
     title_ru: Герой
     text_ru: Ваши подвиги войдут в историю.
@@ -39,7 +39,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 250
+  threshold: 300
   metadata:
     title_ru: Вершитель
     text_ru: Жизнь, смерть и судьбы народов вы держите в своих руках.
