@@ -5664,6 +5664,7 @@
     not_anime_ids:
     - 39226
     - 39227
+    - 1674
   threshold: 96.6%
   metadata: &583
     title_ru: Капитан Цубаса
@@ -5964,6 +5965,7 @@
     franchise: dragon_quest
     not_anime_ids:
     - 49228
+    - 36112
   threshold: 97.4%
   metadata: &613
     title_ru: Драгон Квест
