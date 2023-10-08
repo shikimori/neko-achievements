@@ -217,6 +217,7 @@
     - 39565
     - 44200
     - 56196
+    - 56685
 - neko_id: boku_no_hero_academia
   level: 0
   algo: duration
@@ -1513,6 +1514,7 @@
     - 40323
     - 48436
     - 54761
+    - 56544
   threshold: 90%
   metadata: &159
     title_ru: Гинтама
@@ -3070,6 +3072,7 @@
     - 49320
     - 53540
     - 53780
+    - 56785
     not_ignored_ids:
     - 1365
 - neko_id: detective_conan
@@ -5662,6 +5665,7 @@
     not_anime_ids:
     - 39226
     - 39227
+    - 1674
   threshold: 96.6%
   metadata: &583
     title_ru: Капитан Цубаса
@@ -5962,6 +5966,7 @@
     franchise: dragon_quest
     not_anime_ids:
     - 49228
+    - 36112
   threshold: 97.4%
   metadata: &613
     title_ru: Драгон Квест
