@@ -1117,7 +1117,7 @@
     - 37031
     - 40134
     - 51097
-  threshold: 100%
+  threshold: 98%
   metadata: &118
     title_ru: Невеста чародея
     title_en: Mahoutsukai no Yome
@@ -1951,7 +1951,8 @@
     - 9716
     - 10334
     - 37537
-  threshold: 93.2%
+    - 56621
+  threshold: 93.6%
   metadata: &210
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -1982,7 +1983,7 @@
     - 42753
     - 52010
     - 52011
-  threshold: 95%
+  threshold: 95.2%
   metadata: &212
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2223,7 +2224,7 @@
     - 52497
     - 52897
     - 56064
-  threshold: 94%
+  threshold: 94.2%
   metadata: &232
     title_ru: Покемон
     title_en: Pokemon
@@ -2694,7 +2695,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 86.5%
+  threshold: 87%
   metadata: &278
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -3690,7 +3691,7 @@
     franchise: uma_musume
     not_anime_ids:
     - 34453
-  threshold: 84.9%
+  threshold: 82.8%
   metadata: &381
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -4171,6 +4172,8 @@
     - 54047
     - 55006
     - 55617
+    - 56493
+    - 56682
   threshold: 90.9%
   metadata: &430
     title_ru: Семёрка идолов
@@ -4233,8 +4236,9 @@
     - 54262
     - 54274
     - 55297
+    - 55378
     - 55883
-  threshold: 92.1%
+  threshold: 92.3%
   metadata: &433
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4831,6 +4835,13 @@
     ignore_latest_ids:
     - 37516
     - 51585
+- neko_id: city_hunter
+  level: 0
+  algo: duration
+  filters: *494
+  threshold: 0.01
+  metadata: *495
+  generator: *496
 - neko_id: ad_police
   level: 1
   algo: duration
@@ -4845,13 +4856,6 @@
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
     topic_id: 247360
-- neko_id: city_hunter
-  level: 0
-  algo: duration
-  filters: *494
-  threshold: 0.01
-  metadata: *495
-  generator: *496
 - neko_id: ad_police
   level: 0
   algo: duration
@@ -4911,7 +4915,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.8%
+  threshold: 91.4%
   metadata: &504
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5330,12 +5334,18 @@
     - 38647
     - 38648
     - 40543
-  threshold: 90.4%
+  threshold: 89.7%
   metadata: &546
     title_ru: При Пара
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
     topic_id: 247360
+- neko_id: pripara
+  level: 0
+  algo: duration
+  filters: *545
+  threshold: 0.01
+  metadata: *546
 - neko_id: ze_tian_ji
   level: 1
   algo: duration
@@ -5347,12 +5357,6 @@
     title_en: Ze Tian Ji
     image: "/assets/achievements/anime/franchise/ze_tian_ji.jpg"
     topic_id: 247360
-- neko_id: pripara
-  level: 0
-  algo: duration
-  filters: *545
-  threshold: 0.01
-  metadata: *546
 - neko_id: ze_tian_ji
   level: 0
   algo: duration
@@ -5663,9 +5667,9 @@
   filters: &582
     franchise: captain_tsubasa
     not_anime_ids:
+    - 1674
     - 39226
     - 39227
-    - 1674
   threshold: 96.6%
   metadata: &583
     title_ru: Капитан Цубаса
@@ -5965,9 +5969,9 @@
   filters: &612
     franchise: dragon_quest
     not_anime_ids:
-    - 49228
     - 36112
-  threshold: 97.4%
+    - 49228
+  threshold: 96.7%
   metadata: &613
     title_ru: Драгон Квест
     title_en: Dragon Quest
