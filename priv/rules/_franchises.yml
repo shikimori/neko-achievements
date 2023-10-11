@@ -1126,6 +1126,7 @@
   generator: &119
     not_ignored_ids:
     - 35062
+    threshold: 95%
 - neko_id: mahoyome
   level: 0
   algo: duration
@@ -6073,3 +6074,14 @@
   filters: *622
   threshold: 0.01
   metadata: *623
+- neko_id: mushoku_tensei
+  level: 1
+  algo: duration
+  filters:
+    franchise: mushoku_tensei
+  threshold: 100%
+  metadata:
+    title_ru: Реинкарнация безработного
+    title_en: Mushoku Tensei
+    image: https://desu.shikimori.me/system/user_images/original/498922/2304429.jpg
+    topic_id: 247360
