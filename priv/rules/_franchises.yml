@@ -1117,7 +1117,7 @@
     - 37031
     - 40134
     - 51097
-  threshold: 98%
+  threshold: 95%
   metadata: &118
     title_ru: Невеста чародея
     title_en: Mahoutsukai no Yome
@@ -3487,6 +3487,12 @@
     title_en: Yozakura Quartet
     image: "/assets/achievements/anime/franchise/yozakura_quartet.png"
     topic_id: 247360
+- neko_id: yozakura_quartet
+  level: 0
+  algo: duration
+  filters: *356
+  threshold: 0.01
+  metadata: *357
 - neko_id: slam_dunk
   level: 1
   algo: duration
@@ -3503,12 +3509,6 @@
   generator: &360
     ignore_latest_ids:
     - 45649
-- neko_id: yozakura_quartet
-  level: 0
-  algo: duration
-  filters: *356
-  threshold: 0.01
-  metadata: *357
 - neko_id: slam_dunk
   level: 0
   algo: duration
@@ -5614,6 +5614,12 @@
     title_en: Tantei Opera Milky Holmes
     image: "/assets/achievements/anime/franchise/futari_wa_milky_holmes.png"
     topic_id: 247360
+- neko_id: futari_wa_milky_holmes
+  level: 0
+  algo: duration
+  filters: *575
+  threshold: 0.01
+  metadata: *576
 - neko_id: touch
   level: 1
   algo: duration
@@ -5632,12 +5638,6 @@
     title_en: Touch
     image: "/assets/achievements/anime/franchise/touch.jpg"
     topic_id: 247360
-- neko_id: futari_wa_milky_holmes
-  level: 0
-  algo: duration
-  filters: *575
-  threshold: 0.01
-  metadata: *576
 - neko_id: touch
   level: 0
   algo: duration
@@ -6077,11 +6077,17 @@
 - neko_id: mushoku_tensei
   level: 1
   algo: duration
-  filters:
+  filters: &624
     franchise: mushoku_tensei
-  threshold: 100%
-  metadata:
+  threshold: 94.4%
+  metadata: &625
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
-    image: https://desu.shikimori.me/system/user_images/original/498922/2304429.jpg
+    image: "/assets/achievements/anime/franchise/mushoku_tensei.jpg"
     topic_id: 247360
+- neko_id: mushoku_tensei
+  level: 0
+  algo: duration
+  filters: *624
+  threshold: 0.01
+  metadata: *625
