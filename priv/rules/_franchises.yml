@@ -3494,28 +3494,35 @@
 - neko_id: slam_dunk
   level: 1
   algo: duration
-  filters: &360
+  filters: &358
     franchise: slam_dunk
     not_anime_ids:
     - 52159
   threshold: 95%
-  metadata: &361
+  metadata: &359
     title_ru: Слэм-данк
     title_en: Slam Dunk
     image: "/assets/achievements/anime/franchise/slam_dunk.jpg"
     topic_id: 247360
-  generator: &362
+  generator: &360
     ignore_latest_ids:
     - 45649
+- neko_id: slam_dunk
+  level: 0
+  algo: duration
+  filters: *358
+  threshold: 0.01
+  metadata: *359
+  generator: *360
 - neko_id: yozakura_quartet
   level: 1
   algo: duration
-  filters: &358
+  filters: &361
     franchise: yozakura_quartet
     not_anime_ids:
     - 32861
   threshold: 99.2%
-  metadata: &359
+  metadata: &362
     title_ru: Вишнёвый квартет
     title_en: Yozakura Quartet
     image: "/assets/achievements/anime/franchise/yozakura_quartet.png"
@@ -3523,16 +3530,9 @@
 - neko_id: yozakura_quartet
   level: 0
   algo: duration
-  filters: *358
+  filters: *361
   threshold: 0.01
-  metadata: *359
-- neko_id: slam_dunk
-  level: 0
-  algo: duration
-  filters: *360
-  threshold: 0.01
-  metadata: *361
-  generator: *362
+  metadata: *362
 - neko_id: minami_ke
   level: 1
   algo: duration
@@ -5631,6 +5631,12 @@
     title_en: Tantei Opera Milky Holmes
     image: "/assets/achievements/anime/franchise/futari_wa_milky_holmes.png"
     topic_id: 247360
+- neko_id: futari_wa_milky_holmes
+  level: 0
+  algo: duration
+  filters: *577
+  threshold: 0.01
+  metadata: *578
 - neko_id: touch
   level: 1
   algo: duration
@@ -5649,12 +5655,6 @@
     title_en: Touch
     image: "/assets/achievements/anime/franchise/touch.jpg"
     topic_id: 247360
-- neko_id: futari_wa_milky_holmes
-  level: 0
-  algo: duration
-  filters: *577
-  threshold: 0.01
-  metadata: *578
 - neko_id: touch
   level: 0
   algo: duration
