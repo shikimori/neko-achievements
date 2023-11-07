@@ -92,7 +92,7 @@
     - 41341
     - 42128
     - 53588
-  threshold: 93.1%
+  threshold: 95%
   metadata: &9
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
@@ -609,7 +609,7 @@
     - 51309
     - 54050
     - 55720
-  threshold: 93.2%
+  threshold: 93.5%
   metadata: &64
     title_ru: О моём перерождении в слизь
     title_en: Tensei shitara Slime Datta Ken
@@ -651,7 +651,7 @@
     - 43349
     - 43555
     - 55216
-  threshold: 95.3%
+  threshold: 95.6%
   metadata: &69
     title_ru: Доктор Стоун
     title_en: Dr. Stone
@@ -1946,7 +1946,7 @@
     - 10334
     - 37537
     - 56621
-  threshold: 93.6%
+  threshold: 93.8%
   metadata: &210
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -2242,7 +2242,7 @@
     - 52497
     - 52897
     - 56064
-  threshold: 94.2%
+  threshold: 93.9%
   metadata: &234
     title_ru: Покемон
     title_en: Pokemon
@@ -2694,7 +2694,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 87%
+  threshold: 86.8%
   metadata: &278
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -3709,7 +3709,7 @@
     franchise: uma_musume
     not_anime_ids:
     - 34453
-  threshold: 82.8%
+  threshold: 83.1%
   metadata: &383
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -3768,7 +3768,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 87.7%
+  threshold: 87.4%
   metadata: &387
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4719,7 +4719,7 @@
     - 51780
     - 53265
     - 54282
-  threshold: 93.5%
+  threshold: 93%
   metadata: &484
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -4872,7 +4872,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.4%
+  threshold: 91.3%
   metadata: &500
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5374,7 +5374,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 89.7%
+  threshold: 89.6%
   metadata: &550
     title_ru: При Пара
     title_en: PriPara
@@ -5689,7 +5689,7 @@
     - 1674
     - 39226
     - 39227
-  threshold: 96.6%
+  threshold: 96%
   metadata: &585
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
@@ -6063,7 +6063,7 @@
   algo: duration
   filters: &622
     franchise: shaonian_ge_xing
-  threshold: 100%
+  threshold: 98.4%
   metadata: &623
     title_ru: Ювенильная песня
     title_en: Shaonian Ge Xing
