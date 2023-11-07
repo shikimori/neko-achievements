@@ -4728,6 +4728,7 @@
   generator: &485
     ignore_latest_ids:
     - 38088
+    - 49523
 - neko_id: digimon
   level: 0
   algo: duration
