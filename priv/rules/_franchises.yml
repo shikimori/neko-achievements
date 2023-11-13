@@ -3427,8 +3427,6 @@
   algo: duration
   filters: &353
     franchise: ikkitousen
-    not_anime_ids:
-    - 8507
   threshold: 95%
   metadata: &354
     title_ru: Сила тысячи
