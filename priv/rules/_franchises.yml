@@ -3427,8 +3427,6 @@
   algo: duration
   filters: &353
     franchise: ikkitousen
-    not_anime_ids:
-    - 8507
   threshold: 95%
   metadata: &354
     title_ru: Сила тысячи
@@ -5303,6 +5301,7 @@
     - 39414
     - 53968
     - 55041
+    - 57107
   threshold: 95.6%
   metadata: &543
     title_ru: Щелкунчик Китаро
