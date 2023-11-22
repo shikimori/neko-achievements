@@ -6154,3 +6154,30 @@
     title_en: Porong Porong Pororo
     image: https://desu.shikimori.one/system/user_images/original/34807/2427337.jpg
     topic_id: 247360
+- neko_id: street_fighter_ii
+  level: 1
+  algo: duration
+  filters:
+    franchise: street_fighter_ii
+    not_anime_ids:
+    - 30042
+  threshold: 100%
+  metadata:
+    title_ru: Уличный боец
+    title_en: Street Fighter
+    image: https://desu.shikimori.one/system/user_images/original/607810/2240103.jpg
+    topic_id: 247360
+- neko_id: getter_robo
+  level: 1
+  algo: duration
+  filters:
+    franchise: getter_robo
+    not_anime_ids:
+    - 5292
+    - 42153
+  threshold: 100%
+  metadata:
+    title_ru: Робот Геттер
+    title_en: Getter Robo
+    image: https://desu.shikimori.one/system/user_images/original/34807/2435568.jpg
+    topic_id: 247360
