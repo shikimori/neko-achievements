@@ -6097,86 +6097,122 @@
 - neko_id: sonic
   level: 1
   algo: duration
-  filters:
+  filters: &627
     franchise: sonic
     not_anime_ids:
     - 10263
   threshold: 100%
-  metadata: 
+  metadata: &628
     title_ru: Соник
     title_en: Sonic
-    image: https://desu.shikimori.one/system/user_images/original/34807/2427240.jpg
+    image: "/assets/achievements/anime/franchise/sonic.jpg"
     topic_id: 247360
+- neko_id: sonic
+  level: 0
+  algo: duration
+  filters: *627
+  threshold: 0.01
+  metadata: *628
 - neko_id: zhen_hun_jie
   level: 1
   algo: duration
-  filters:
+  filters: &629
     franchise: zhen_hun_jie
   threshold: 100%
-  metadata:
+  metadata: &630
     title_ru: Улица демонов
     title_en: Zhen Hun Jie
-    image: https://desu.shikimori.one/system/user_images/original/45319/2426657.jpg
+    image: "/assets/achievements/anime/franchise/zhen_hun_jie.jpg"
     topic_id: 247360
+- neko_id: zhen_hun_jie
+  level: 0
+  algo: duration
+  filters: *629
+  threshold: 0.01
+  metadata: *630
 - neko_id: xia_lan
   level: 1
   algo: duration
-  filters:
+  filters: &631
     franchise: xia_lan
     not_anime_ids:
     - 34129
     - 44606
-  threshold: 100%
-  metadata:
+  threshold: 90%
+  metadata: &632
     title_ru: Портрет Цзянху
     title_en: Hua Jianghu
-    image: https://desu.shikimori.one/system/user_images/original/607810/2240474.jpg
+    image: "/assets/achievements/anime/franchise/xia_lan.jpg"
     topic_id: 247360
+- neko_id: xia_lan
+  level: 0
+  algo: duration
+  filters: *631
+  threshold: 0.01
+  metadata: *632
 - neko_id: yoligongju_loopy
   level: 1
   algo: duration
-  filters:
+  filters: &633
     franchise: yoligongju_loopy
     not_anime_ids:
-    - 48250
-    - 56909
-    - 48245
-    - 36530
-    - 27465
-    - 27461
-    - 27467
     - 6524
     - 27453
-  threshold: 100%
-  metadata:
+    - 27461
+    - 27465
+    - 27467
+    - 36530
+    - 48245
+    - 48250
+    - 56909
+  threshold: 95%
+  metadata: &634
     title_ru: Пингвинёнок Пороро
     title_en: Porong Porong Pororo
-    image: https://desu.shikimori.one/system/user_images/original/34807/2427337.jpg
+    image: "/assets/achievements/anime/franchise/yoligongju_loopy.jpg"
     topic_id: 247360
+- neko_id: yoligongju_loopy
+  level: 0
+  algo: duration
+  filters: *633
+  threshold: 0.01
+  metadata: *634
 - neko_id: street_fighter_ii
   level: 1
   algo: duration
-  filters:
+  filters: &635
     franchise: street_fighter_ii
     not_anime_ids:
     - 30042
-  threshold: 100%
-  metadata:
+  threshold: 95%
+  metadata: &636
     title_ru: Уличный боец
     title_en: Street Fighter
-    image: https://desu.shikimori.one/system/user_images/original/607810/2240103.jpg
+    image: "/assets/achievements/anime/franchise/street_fighter_ii.jpg"
     topic_id: 247360
+- neko_id: street_fighter_ii
+  level: 0
+  algo: duration
+  filters: *635
+  threshold: 0.01
+  metadata: *636
 - neko_id: getter_robo
   level: 1
   algo: duration
-  filters:
+  filters: &637
     franchise: getter_robo
     not_anime_ids:
     - 5292
     - 42153
-  threshold: 100%
-  metadata:
+  threshold: 95%
+  metadata: &638
     title_ru: Робот Геттер
     title_en: Getter Robo
-    image: https://desu.shikimori.one/system/user_images/original/661284/2439118.jpg
+    image: "/assets/achievements/anime/franchise/getter_robo.jpg"
     topic_id: 247360
+- neko_id: getter_robo
+  level: 0
+  algo: duration
+  filters: *637
+  threshold: 0.01
+  metadata: *638
