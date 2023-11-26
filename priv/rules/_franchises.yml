@@ -3321,10 +3321,8 @@
   filters: &340
     franchise: dog_days
     not_anime_ids:
-    - 17419
     - 29413
     - 31967
-    - 35063
   threshold: 100%
   metadata: &341
     title_ru: Собачьи дни
