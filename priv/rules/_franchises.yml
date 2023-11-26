@@ -21,7 +21,7 @@
     - 51241
     - 51618
     - 54468
-  threshold: 93.6%
+  threshold: 90.5%
   metadata: &2
     title_ru: Атака титанов
     title_en: Shingeki no Kyojin
@@ -609,7 +609,7 @@
     - 51309
     - 54050
     - 55720
-  threshold: 93.5%
+  threshold: 95%
   metadata: &64
     title_ru: О моём перерождении в слизь
     title_en: Tensei shitara Slime Datta Ken
@@ -668,7 +668,7 @@
     - 43349
     - 43555
     - 55216
-  threshold: 95.6%
+  threshold: 95.8%
   metadata: &71
     title_ru: Доктор Стоун
     title_en: Dr. Stone
@@ -3106,7 +3106,7 @@
   algo: duration
   filters: &318
     franchise: ginga_eiyuu_densetsu
-  threshold: 90%
+  threshold: 90.9%
   metadata: &319
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
@@ -3710,7 +3710,7 @@
     franchise: uma_musume
     not_anime_ids:
     - 34453
-  threshold: 83.1%
+  threshold: 84.2%
   metadata: &384
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -3769,7 +3769,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 87.4%
+  threshold: 87.7%
   metadata: &388
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -5248,7 +5248,7 @@
     - 39363
     - 40377
     - 54081
-  threshold: 98.7%
+  threshold: 95%
   metadata: &539
     title_ru: Могучий Атом
     title_en: Tetsuwan Atom
@@ -5305,7 +5305,7 @@
     - 53968
     - 55041
     - 57107
-  threshold: 95.6%
+  threshold: 95%
   metadata: &544
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
