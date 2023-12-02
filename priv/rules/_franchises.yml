@@ -733,7 +733,7 @@
     not_anime_ids:
     - 54171
     - 56442
-  threshold: 96.3%
+  threshold: 96.7%
   metadata: &78
     title_ru: Блич
     title_en: Bleach
@@ -5630,6 +5630,12 @@
     title_en: Kindaichi Shounen no Jikenbo
     image: "/assets/achievements/anime/franchise/kindaichi_shounen_no_jikenbo.jpg"
     topic_id: 247360
+- neko_id: kindaichi_shounen_no_jikenbo
+  level: 0
+  algo: duration
+  filters: *577
+  threshold: 0.01
+  metadata: *578
 - neko_id: wu_geng_ji
   level: 1
   algo: duration
@@ -5643,12 +5649,6 @@
     topic_id: 247360
   generator: &581
     threshold: 98%
-- neko_id: kindaichi_shounen_no_jikenbo
-  level: 0
-  algo: duration
-  filters: *577
-  threshold: 0.01
-  metadata: *578
 - neko_id: wu_geng_ji
   level: 0
   algo: duration
@@ -5682,28 +5682,34 @@
 - neko_id: futari_wa_milky_holmes
   level: 1
   algo: duration
-  filters: &587
+  filters: &584
     franchise: futari_wa_milky_holmes
   threshold: 95%
-  metadata: &588
+  metadata: &585
     title_ru: Детективное агентство Милки Холмс
     title_en: Tantei Opera Milky Holmes
     image: "/assets/achievements/anime/franchise/futari_wa_milky_holmes.png"
     topic_id: 247360
+- neko_id: futari_wa_milky_holmes
+  level: 0
+  algo: duration
+  filters: *584
+  threshold: 0.01
+  metadata: *585
 - neko_id: touch
   level: 1
   algo: duration
-  filters: &584
+  filters: &586
     franchise: touch
     not_anime_ids:
     - 39352
-  generator: &585
+  generator: &587
     not_ignored_ids:
     - 2491
     - 2492
     - 2493
   threshold: 95%
-  metadata: &586
+  metadata: &588
     title_ru: Касание
     title_en: Touch
     image: "/assets/achievements/anime/franchise/touch.jpg"
@@ -5711,14 +5717,8 @@
 - neko_id: touch
   level: 0
   algo: duration
-  filters: *584
-  generator: *585
-  threshold: 0.01
-  metadata: *586
-- neko_id: futari_wa_milky_holmes
-  level: 0
-  algo: duration
-  filters: *587
+  filters: *586
+  generator: *587
   threshold: 0.01
   metadata: *588
 - neko_id: space_cobra
