@@ -325,7 +325,6 @@
     - 5918
     - 1494
     - 1269
-    - 2688
     - 26
     - 22689
     - 22687
@@ -1271,7 +1270,7 @@
     - 53754
     - 43760
   metadata: &74
-    title_ru: Мамору Оси
+    title_ru: Мамору Осии
     title_en: Mamoru Oshii
     image: "/assets/achievements/anime/author/mamoru_oshii.png"
     border_color: "#B22222"
