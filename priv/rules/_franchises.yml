@@ -552,7 +552,7 @@
     franchise: kaguya_sama
     not_anime_ids:
     - 44270
-  threshold: 90.5%
+  threshold: 100%
   metadata: &58
     title_ru: 'Госпожа Кагуя: в любви как на войне'
     title_en: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
@@ -668,7 +668,7 @@
     - 43349
     - 43555
     - 55216
-  threshold: 95.8%
+  threshold: 96.1%
   metadata: &71
     title_ru: Доктор Стоун
     title_en: Dr. Stone
@@ -1923,7 +1923,7 @@
     - 10334
     - 37537
     - 56621
-  threshold: 93.8%
+  threshold: 94%
   metadata: &207
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -2001,6 +2001,7 @@
     - 42753
     - 52010
     - 52011
+    - 57236
   threshold: 95.2%
   metadata: &214
     title_ru: Живая любовь!
@@ -2242,6 +2243,7 @@
     - 52497
     - 52897
     - 56064
+    - 57199
   threshold: 93.9%
   metadata: &234
     title_ru: Покемон
@@ -3057,6 +3059,7 @@
     - 1369
     - 6115
     - 7303
+    - 7304
     - 7305
     - 7471
     - 9785
@@ -3079,7 +3082,7 @@
     - 53517
     - 53976
     - 55134
-  threshold: 92.5%
+  threshold: 92.6%
   metadata: &316
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3493,7 +3496,7 @@
     - 39339
     - 48409
     - 51266
-  threshold: 95%
+  threshold: 90%
   metadata: &359
     title_ru: Осомацу
     title_en: Osomatsu
@@ -3518,7 +3521,7 @@
     franchise: slam_dunk
     not_anime_ids:
     - 52159
-  threshold: 95%
+  threshold: 97.3%
   metadata: &362
     title_ru: Слэм-данк
     title_en: Slam Dunk
@@ -3747,7 +3750,7 @@
     not_anime_ids:
     - 34453
     - 55392
-  threshold: 84.2%
+  threshold: 85.1%
   metadata: &388
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -3806,7 +3809,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 87.7%
+  threshold: 88%
   metadata: &392
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4903,7 +4906,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.3%
+  threshold: 91.4%
   metadata: &503
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5270,7 +5273,7 @@
   algo: duration
   filters: &541
     franchise: xingchen_bian
-  threshold: 100%
+  threshold: 95%
   metadata: &542
     title_ru: Дорогой звёзд
     title_en: Xingchen Bian
@@ -5747,7 +5750,7 @@
     - 1674
     - 39226
     - 39227
-  threshold: 96%
+  threshold: 96.1%
   metadata: &592
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
@@ -6107,7 +6110,7 @@
     - 2565
     - 20381
     - 42399
-  threshold: 94.1%
+  threshold: 92.9%
   metadata: &628
     title_ru: Император джунглей
     title_en: Jungle Taitei
