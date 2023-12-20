@@ -552,7 +552,7 @@
     franchise: kaguya_sama
     not_anime_ids:
     - 44270
-  threshold: 100%
+  threshold: 95%
   metadata: &58
     title_ru: 'Госпожа Кагуя: в любви как на войне'
     title_en: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
