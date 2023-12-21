@@ -3521,6 +3521,7 @@
     franchise: slam_dunk
     not_anime_ids:
     - 52159
+    - 45649
   threshold: 97.3%
   metadata: &362
     title_ru: Слэм-данк
@@ -3528,8 +3529,6 @@
     image: "/assets/achievements/anime/franchise/slam_dunk.jpg"
     topic_id: 247360
   generator: &363
-    ignore_latest_ids:
-    - 45649
 - neko_id: slam_dunk
   level: 0
   algo: duration
