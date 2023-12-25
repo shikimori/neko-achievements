@@ -5962,27 +5962,32 @@
     - 8921
     - 29739
     - 39707
-  threshold: 95%
+  threshold: 90.2%
   metadata: &612
     title_ru: Приключения во времени
     title_en: Time Bokan
     image: "/assets/achievements/anime/franchise/time_bokan.jpg"
     topic_id: 247360
+  generator: &613
+    not_ignored_ids:
+    - 3008
+    - 4578
 - neko_id: time_bokan
   level: 0
   algo: duration
   filters: *611
   threshold: 0.01
   metadata: *612
+  generator: *613
 - neko_id: konjiki_no_gash_bell
   level: 1
   algo: duration
-  filters: &613
+  filters: &614
     franchise: konjiki_no_gash_bell
     not_anime_ids:
     - 52605
   threshold: 99.5%
-  metadata: &614
+  metadata: &615
     title_ru: Златовласый Гаш Белл
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
@@ -5990,13 +5995,13 @@
 - neko_id: konjiki_no_gash_bell
   level: 0
   algo: duration
-  filters: *613
+  filters: *614
   threshold: 0.01
-  metadata: *614
+  metadata: *615
 - neko_id: jewelpet
   level: 1
   algo: duration
-  filters: &615
+  filters: &616
     franchise: jewelpet
     not_anime_ids:
     - 6008
@@ -6004,25 +6009,25 @@
     - 38539
     - 40808
   threshold: 90%
-  metadata: &616
+  metadata: &617
     title_ru: Свет драгоценных зверушек
     title_en: Jewelpet
     image: "/assets/achievements/anime/franchise/jewelpet.jpg"
     topic_id: 247360
-  generator: &617
+  generator: &618
     ignore_latest_ids:
     - 40813
 - neko_id: jewelpet
   level: 0
   algo: duration
-  filters: *615
+  filters: *616
   threshold: 0.01
-  metadata: *616
-  generator: *617
+  metadata: *617
+  generator: *618
 - neko_id: mazinkaiser
   level: 1
   algo: duration
-  filters: &618
+  filters: &619
     franchise: mazinkaiser
     not_anime_ids:
     - 3898
@@ -6032,7 +6037,7 @@
     - 51431
     - 51432
   threshold: 92.4%
-  metadata: &619
+  metadata: &620
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
     image: "/assets/achievements/anime/franchise/mazinkaiser.jpg"
@@ -6040,16 +6045,16 @@
 - neko_id: mazinkaiser
   level: 0
   algo: duration
-  filters: *618
+  filters: *619
   threshold: 0.01
-  metadata: *619
+  metadata: *620
 - neko_id: jigoku_sensei_nube
   level: 1
   algo: duration
-  filters: &620
+  filters: &621
     franchise: jigoku_sensei_nube
   threshold: 100%
-  metadata: &621
+  metadata: &622
     title_ru: Адский учитель Нубэ
     title_en: Jigoku Sensei Nube
     image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
@@ -6057,19 +6062,19 @@
 - neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
-  filters: *620
+  filters: *621
   threshold: 0.01
-  metadata: *621
+  metadata: *622
 - neko_id: dragon_quest
   level: 1
   algo: duration
-  filters: &622
+  filters: &623
     franchise: dragon_quest
     not_anime_ids:
     - 36112
     - 49228
   threshold: 96.7%
-  metadata: &623
+  metadata: &624
     title_ru: Драгон Квест
     title_en: Dragon Quest
     image: "/assets/achievements/anime/franchise/dragon_quest.jpg"
@@ -6077,16 +6082,16 @@
 - neko_id: dragon_quest
   level: 0
   algo: duration
-  filters: *622
+  filters: *623
   threshold: 0.01
-  metadata: *623
+  metadata: *624
 - neko_id: saber_marionette_j
   level: 1
   algo: duration
-  filters: &624
+  filters: &625
     franchise: saber_marionette_j
   threshold: 100%
-  metadata: &625
+  metadata: &626
     title_ru: Воины-марионетки Джей
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
@@ -6094,13 +6099,13 @@
 - neko_id: saber_marionette_j
   level: 0
   algo: duration
-  filters: *624
+  filters: *625
   threshold: 0.01
-  metadata: *625
+  metadata: *626
 - neko_id: jungle_taitei
   level: 1
   algo: duration
-  filters: &626
+  filters: &627
     franchise: jungle_taitei
     not_anime_ids:
     - 1572
@@ -6108,7 +6113,7 @@
     - 20381
     - 42399
   threshold: 92.9%
-  metadata: &627
+  metadata: &628
     title_ru: Император джунглей
     title_en: Jungle Taitei
     image: "/assets/achievements/anime/franchise/jungle_taitei.jpg"
@@ -6116,19 +6121,19 @@
 - neko_id: jungle_taitei
   level: 0
   algo: duration
-  filters: *626
+  filters: *627
   threshold: 0.01
-  metadata: *627
+  metadata: *628
 - neko_id: getter_robo
   level: 1
   algo: duration
-  filters: &628
+  filters: &629
     franchise: getter_robo
     not_anime_ids:
     - 5292
     - 42153
   threshold: 95%
-  metadata: &629
+  metadata: &630
     title_ru: Робот Геттер
     title_en: Getter Robo
     image: "/assets/achievements/anime/franchise/getter_robo.jpg"
@@ -6136,16 +6141,16 @@
 - neko_id: getter_robo
   level: 0
   algo: duration
-  filters: *628
+  filters: *629
   threshold: 0.01
-  metadata: *629
+  metadata: *630
 - neko_id: shaonian_ge_xing
   level: 1
   algo: duration
-  filters: &630
+  filters: &631
     franchise: shaonian_ge_xing
   threshold: 98.4%
-  metadata: &631
+  metadata: &632
     title_ru: Ювенильная песня
     title_en: Shaonian Ge Xing
     image: "/assets/achievements/anime/franchise/shaonian_ge_xing.jpg"
@@ -6153,16 +6158,16 @@
 - neko_id: shaonian_ge_xing
   level: 0
   algo: duration
-  filters: *630
+  filters: *631
   threshold: 0.01
-  metadata: *631
+  metadata: *632
 - neko_id: galaxy_angel
   level: 1
   algo: duration
-  filters: &632
+  filters: &633
     franchise: galaxy_angel
   threshold: 95%
-  metadata: &633
+  metadata: &634
     title_ru: Галактический ангел
     title_en: Galaxy Angel
     image: "/assets/achievements/anime/franchise/galaxy_angel.jpg"
@@ -6170,13 +6175,13 @@
 - neko_id: galaxy_angel
   level: 0
   algo: duration
-  filters: *632
+  filters: *633
   threshold: 0.01
-  metadata: *633
+  metadata: *634
 - neko_id: yoligongju_loopy
   level: 1
   algo: duration
-  filters: &634
+  filters: &635
     franchise: yoligongju_loopy
     not_anime_ids:
     - 6524
@@ -6189,7 +6194,7 @@
     - 48250
     - 56909
   threshold: 95%
-  metadata: &635
+  metadata: &636
     title_ru: Пингвинёнок Пороро
     title_en: Porong Porong Pororo
     image: "/assets/achievements/anime/franchise/yoligongju_loopy.jpg"
@@ -6197,16 +6202,16 @@
 - neko_id: yoligongju_loopy
   level: 0
   algo: duration
-  filters: *634
+  filters: *635
   threshold: 0.01
-  metadata: *635
+  metadata: *636
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &636
+  filters: &637
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &637
+  metadata: &638
     title_ru: Властелин властелинов Рыцарь Рю
     title_en: Haou Daikei Ryuu Knight
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
@@ -6214,6 +6219,6 @@
 - neko_id: haou_daikei_ryuu_knight
   level: 0
   algo: duration
-  filters: *636
+  filters: *637
   threshold: 0.01
-  metadata: *637
+  metadata: *638
