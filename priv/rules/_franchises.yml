@@ -1170,6 +1170,7 @@
     - 55647
     - 55871
     - 56015
+    - 57556
   threshold: 95.9%
   metadata: &120
     title_ru: Ван-Пис
@@ -2414,6 +2415,7 @@
     ignore_latest_ids:
     - 35645
     - 48573
+    - 57622
     not_ignored_ids:
     - 36684
     - 36685
