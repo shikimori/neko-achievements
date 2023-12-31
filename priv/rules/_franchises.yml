@@ -5956,6 +5956,7 @@
     not_anime_ids:
     - 3915
     - 4154
+    - 4578
     - 5344
     - 5475
     - 6889
@@ -5973,7 +5974,6 @@
   generator: &613
     not_ignored_ids:
     - 3008
-    - 4578
 - neko_id: time_bokan
   level: 0
   algo: duration
