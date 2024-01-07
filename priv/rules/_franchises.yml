@@ -21,7 +21,7 @@
     - 51241
     - 51618
     - 54468
-  threshold: 90.5%
+  threshold: 95%
   metadata: &2
     title_ru: Атака титанов
     title_en: Shingeki no Kyojin
@@ -629,7 +629,7 @@
   algo: duration
   filters: &66
     franchise: mushoku_tensei
-  threshold: 94.4%
+  threshold: 97.3%
   metadata: &67
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
@@ -667,7 +667,7 @@
     - 43349
     - 43555
     - 55216
-  threshold: 96.1%
+  threshold: 100%
   metadata: &71
     title_ru: Доктор Стоун
     title_en: Dr. Stone
@@ -709,7 +709,7 @@
     not_anime_ids:
     - 54171
     - 56442
-  threshold: 96.7%
+  threshold: 96.4%
   metadata: &75
     title_ru: Блич
     title_en: Bleach
@@ -991,7 +991,7 @@
     franchise: danganronpa
     not_anime_ids:
     - 37103
-  threshold: 97.3%
+  threshold: 100%
   metadata: &104
     title_ru: Данганронпа
     title_en: Danganronpa
@@ -1070,7 +1070,7 @@
     - 31448
     - 35631
     - 50097
-  threshold: 94.7%
+  threshold: 100%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
@@ -1171,7 +1171,7 @@
     - 55871
     - 56015
     - 57556
-  threshold: 95.9%
+  threshold: 97.5%
   metadata: &120
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1333,7 +1333,7 @@
     - 49402
     - 54860
     - 55316
-  threshold: 92.6%
+  threshold: 95%
   metadata: &139
     title_ru: Призрак в доспехах
     title_en: Ghost in the Shell
@@ -1752,7 +1752,7 @@
     franchise: mushishi
     not_anime_ids:
     - 39738
-  threshold: 92.3%
+  threshold: 100%
   metadata: &187
     title_ru: Мастер муси
     title_en: Mushishi
@@ -1970,7 +1970,7 @@
     - 38112
     - 38361
     - 46089
-  threshold: 92.2%
+  threshold: 94.1%
   metadata: &212
     title_ru: Сказания
     title_en: Tales of
@@ -2542,7 +2542,7 @@
   algo: duration
   filters: &267
     franchise: rozen_maiden
-  threshold: 94.1%
+  threshold: 99.2%
   metadata: &268
     title_ru: Девы Розена
     title_en: Rozen Maiden
@@ -2741,7 +2741,7 @@
     - 38653
     - 48617
     - 52282
-  threshold: 94.9%
+  threshold: 95.2%
   metadata: &281
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -3084,7 +3084,7 @@
     - 53976
     - 55134
     - 57441
-  threshold: 92.9%
+  threshold: 93.3%
   metadata: &316
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3636,7 +3636,7 @@
   algo: duration
   filters: &373
     franchise: aa_megami_sama
-  threshold: 95%
+  threshold: 93.8%
   metadata: &374
     title_ru: Моя богиня!
     title_en: Aa! Megami-sama!
@@ -3752,7 +3752,7 @@
     not_anime_ids:
     - 34453
     - 55392
-  threshold: 85.1%
+  threshold: 85.7%
   metadata: &387
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -3811,7 +3811,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 88%
+  threshold: 88.1%
   metadata: &391
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4262,7 +4262,7 @@
     - 55297
     - 55378
     - 55883
-  threshold: 92.3%
+  threshold: 92.4%
   metadata: &439
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -5081,7 +5081,7 @@
     franchise: soukyuu_no_fafner
     not_anime_ids:
     - 9494
-  threshold: 92.1%
+  threshold: 95%
   metadata: &520
     title_ru: Небесный Фафнир
     title_en: Soukyuu no Fafner
@@ -5126,7 +5126,7 @@
     - 399
     - 1381
     - 39333
-  threshold: 97.5%
+  threshold: 100%
   metadata: &525
     title_ru: Звёздный герб
     title_en: Seikai no Monshou
@@ -5938,7 +5938,7 @@
   algo: duration
   filters: &609
     franchise: di_gi_charat
-  threshold: 92.9%
+  threshold: 93.9%
   metadata: &610
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
