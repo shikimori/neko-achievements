@@ -552,6 +552,7 @@
     franchise: kaguya_sama
     not_anime_ids:
     - 44270
+    - 50325
   threshold: 95%
   metadata: &58
     title_ru: 'Госпожа Кагуя: в любви как на войне'
@@ -1394,6 +1395,7 @@
   filters: &145
     franchise: toaru_majutsu_no_index
     not_anime_ids:
+    - 27509
     - 27829
     - 32264
   threshold: 95%
@@ -1727,6 +1729,7 @@
     franchise: natsume_yuujinchou
     not_anime_ids:
     - 19945
+    - 48953
   threshold: 95%
   metadata: &184
     title_ru: Тетрадь дружбы Нацумэ
@@ -2210,6 +2213,7 @@
     - 11009
     - 11019
     - 11073
+    - 14123
     - 21703
     - 23849
     - 29419
@@ -2244,7 +2248,7 @@
     - 52897
     - 56064
     - 57199
-  threshold: 93.9%
+  threshold: 93.7%
   metadata: &234
     title_ru: Покемон
     title_en: Pokemon
@@ -3792,8 +3796,10 @@
     - 3406
     - 18781
     - 21409
+    - 29801
     - 30218
     - 31894
+    - 35081
     - 35805
     - 36942
     - 37124
@@ -3811,7 +3817,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 88.1%
+  threshold: 86.4%
   metadata: &391
     title_ru: Идолмастер
     title_en: The iDOLM@STER
