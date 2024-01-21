@@ -27,7 +27,7 @@
     title_en: Shingeki no Kyojin
     image: "/assets/achievements/anime/franchise/shingeki_no_kyojin.jpg"
     topic_id: 247360
-  generator: 
+  generator: &3
     threshold: 90.5%
 - neko_id: shingeki_no_kyojin
   level: 0
@@ -35,13 +35,14 @@
   filters: *1
   threshold: 0.01
   metadata: *2
+  generator: *3
 - neko_id: tokyo_ghoul
   level: 1
   algo: duration
-  filters: &3
+  filters: &4
     franchise: tokyo_ghoul
   threshold: 100%
-  metadata: &4
+  metadata: &5
     title_ru: Токийский гуль
     title_en: Tokyo Ghoul
     image: "/assets/achievements/anime/franchise/tokyo_ghoul.jpg"
@@ -49,35 +50,35 @@
 - neko_id: tokyo_ghoul
   level: 0
   algo: duration
-  filters: *3
+  filters: *4
   threshold: 0.01
-  metadata: *4
+  metadata: *5
 - neko_id: one_punch_man
   level: 1
   algo: duration
-  filters: &5
+  filters: &6
     franchise: one_punch_man
     not_anime_ids:
     - 39652
   threshold: 96%
-  metadata: &6
+  metadata: &7
     title_ru: Ванпанчмен
     title_en: One Punch Man
     image: "/assets/achievements/anime/franchise/one_punch_man.jpg"
     topic_id: 247360
-  generator: &7
+  generator: &8
     threshold: 96%
 - neko_id: one_punch_man
   level: 0
   algo: duration
-  filters: *5
+  filters: *6
   threshold: 0.01
-  metadata: *6
-  generator: *7
+  metadata: *7
+  generator: *8
 - neko_id: sword_art_online
   level: 1
   algo: duration
-  filters: &8
+  filters: &9
     franchise: sword_art_online
     not_anime_ids:
     - 16099
@@ -95,12 +96,12 @@
     - 42128
     - 53588
   threshold: 95%
-  metadata: &9
+  metadata: &10
     title_ru: Мастера Меча Онлайн
     title_en: Sword Art Online
     image: "/assets/achievements/anime/franchise/sword_art_online.jpg"
     topic_id: 247360
-  generator: &10
+  generator: &11
     ignore_latest_ids:
     - 42916
     - 50275
@@ -108,14 +109,14 @@
 - neko_id: sword_art_online
   level: 0
   algo: duration
-  filters: *8
+  filters: *9
   threshold: 0.01
-  metadata: *9
-  generator: *10
+  metadata: *10
+  generator: *11
 - neko_id: naruto
   level: 1
   algo: duration
-  filters: &11
+  filters: &12
     franchise: naruto
     not_anime_ids:
     - 10075
@@ -123,7 +124,7 @@
     - 40971
     - 53236
   threshold: 96.7%
-  metadata: &12
+  metadata: &13
     title_ru: Наруто
     title_en: Naruto
     image: "/assets/achievements/anime/franchise/naruto.jpg"
@@ -131,38 +132,38 @@
 - neko_id: naruto
   level: 0
   algo: duration
-  filters: *11
+  filters: *12
   threshold: 0.01
-  metadata: *12
+  metadata: *13
 - neko_id: demon_slayer
   level: 1
   algo: duration
-  filters: &13
+  filters: &14
     franchise: demon_slayer
     not_anime_ids:
     - 54591
   threshold: 96%
-  metadata: &14
+  metadata: &15
     title_ru: Клинок, рассекающий демонов
     title_en: Kimetsu no Yaiba
     image: "/assets/achievements/anime/franchise/demon_slayer.jpg"
     topic_id: 247360
-  generator: &15
+  generator: &16
     threshold: 96%
 - neko_id: demon_slayer
   level: 0
   algo: duration
-  filters: *13
+  filters: *14
   threshold: 0.01
-  metadata: *14
-  generator: *15
+  metadata: *15
+  generator: *16
 - neko_id: konosuba
   level: 1
   algo: duration
-  filters: &16
+  filters: &17
     franchise: konosuba
   threshold: 100%
-  metadata: &17
+  metadata: &18
     title_ru: Этот замечательный мир!
     title_en: KonoSuba
     image: "/assets/achievements/anime/franchise/konosuba.jpg"
@@ -170,13 +171,13 @@
 - neko_id: konosuba
   level: 0
   algo: duration
-  filters: *16
+  filters: *17
   threshold: 0.01
-  metadata: *17
+  metadata: *18
 - neko_id: re_zero
   level: 1
   algo: duration
-  filters: &18
+  filters: &19
     franchise: re_zero
     not_anime_ids:
     - 33142
@@ -187,7 +188,7 @@
     - 42364
     - 42776
   threshold: 100%
-  metadata: &19
+  metadata: &20
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
     title_en: Re:Zero kara Hajimeru Isekai Seikatsu
     image: "/assets/achievements/anime/franchise/re_zero.jpg"
@@ -195,13 +196,13 @@
 - neko_id: re_zero
   level: 0
   algo: duration
-  filters: *18
+  filters: *19
   threshold: 0.01
-  metadata: *19
+  metadata: *20
 - neko_id: boku_no_hero_academia
   level: 1
   algo: duration
-  filters: &20
+  filters: &21
     franchise: boku_no_hero_academia
     not_anime_ids:
     - 35262
@@ -209,12 +210,12 @@
     - 43683
     - 54624
   threshold: 95%
-  metadata: &21
+  metadata: &22
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
     image: "/assets/achievements/anime/franchise/boku_no_hero_academia.jpg"
     topic_id: 247360
-  generator: &22
+  generator: &23
     ignore_latest_ids:
     - 39565
     - 44200
@@ -223,44 +224,44 @@
 - neko_id: boku_no_hero_academia
   level: 0
   algo: duration
-  filters: *20
+  filters: *21
   threshold: 0.01
-  metadata: *21
-  generator: *22
+  metadata: *22
+  generator: *23
 - neko_id: fullmetal_alchemist
   level: 1
   algo: duration
-  filters: &23
+  filters: &24
     franchise: fullmetal_alchemist
     not_anime_ids:
     - 664
     - 7902
     - 10842
   threshold: 97.3%
-  metadata: &24
+  metadata: &25
     title_ru: Стальной алхимик
     title_en: Fullmetal Alchemist
     image: "/assets/achievements/anime/franchise/fullmetal_alchemist.jpg"
     topic_id: 247360
-  generator: &25
+  generator: &26
     not_ignored_ids:
     - 908
 - neko_id: fullmetal_alchemist
   level: 0
   algo: duration
-  filters: *23
+  filters: *24
   threshold: 0.01
-  metadata: *24
-  generator: *25
+  metadata: *25
+  generator: *26
 - neko_id: science_adventure
   level: 1
   algo: duration
-  filters: &26
+  filters: &27
     franchise: science_adventure
     not_anime_ids:
     - 34753
   threshold: 95%
-  metadata: &27
+  metadata: &28
     title_ru: Научные приключения
     title_en: Science Adventure
     image: "/assets/achievements/anime/franchise/science_adventure.jpg"
@@ -268,13 +269,13 @@
 - neko_id: science_adventure
   level: 0
   algo: duration
-  filters: *26
+  filters: *27
   threshold: 0.01
-  metadata: *27
+  metadata: *28
 - neko_id: nanatsu_no_taizai
   level: 1
   algo: duration
-  filters: &28
+  filters: &29
     franchise: nanatsu_no_taizai
     not_anime_ids:
     - 36923
@@ -283,25 +284,25 @@
     - 45567
     - 54778
   threshold: 95%
-  metadata: &29
+  metadata: &30
     title_ru: Семь смертных грехов
     title_en: Nanatsu no Taizai
     image: "/assets/achievements/anime/franchise/nanatsu_no_taizai.jpg"
     topic_id: 247360
-  generator: &30
+  generator: &31
     ignore_latest_ids:
     - 46420
 - neko_id: nanatsu_no_taizai
   level: 0
   algo: duration
-  filters: *28
+  filters: *29
   threshold: 0.01
-  metadata: *29
-  generator: *30
+  metadata: *30
+  generator: *31
 - neko_id: evangelion
   level: 1
   algo: duration
-  filters: &31
+  filters: &32
     franchise: evangelion
     not_anime_ids:
     - 31
@@ -315,26 +316,26 @@
     - 43751
     - 47307
   threshold: 92.6%
-  metadata: &32
+  metadata: &33
     title_ru: Евангелион
     title_en: Evangelion
     image: "/assets/achievements/anime/franchise/evangelion.jpg"
     topic_id: 247360
-  generator: &33
+  generator: &34
     ignore_latest_ids:
     - 3786
     - 53246
 - neko_id: evangelion
   level: 0
   algo: duration
-  filters: *31
+  filters: *32
   threshold: 0.01
-  metadata: *32
-  generator: *33
+  metadata: *33
+  generator: *34
 - neko_id: code_geass
   level: 1
   algo: duration
-  filters: &34
+  filters: &35
     franchise: code_geass
     not_anime_ids:
     - 1953
@@ -359,12 +360,12 @@
     - 41075
     - 54249
   threshold: 95%
-  metadata: &35
+  metadata: &36
     title_ru: Код Гиас
     title_en: Code Geass
     image: "/assets/achievements/anime/franchise/code_geass.png"
     topic_id: 247360
-  generator: &36
+  generator: &37
     ignore_latest_ids:
     - 34437
     not_ignored_ids:
@@ -373,14 +374,14 @@
 - neko_id: code_geass
   level: 0
   algo: duration
-  filters: *34
+  filters: *35
   threshold: 0.01
-  metadata: *35
-  generator: *36
+  metadata: *36
+  generator: *37
 - neko_id: overlord
   level: 1
   algo: duration
-  filters: &37
+  filters: &38
     franchise: overlord
     not_anime_ids:
     - 34161
@@ -389,30 +390,30 @@
     - 37264
     - 51168
   threshold: 94.4%
-  metadata: &38
+  metadata: &39
     title_ru: Повелитель
     title_en: Overlord
     image: "/assets/achievements/anime/franchise/overlord.jpg"
     topic_id: 247360
-  generator: &39
+  generator: &40
     ignore_latest_ids:
     - 48896
 - neko_id: overlord
   level: 0
   algo: duration
-  filters: *37
+  filters: *38
   threshold: 0.01
-  metadata: *38
-  generator: *39
+  metadata: *39
+  generator: *40
 - neko_id: ao_no_exorcist
   level: 1
   algo: duration
-  filters: &40
+  filters: &41
     franchise: ao_no_exorcist
     not_anime_ids:
     - 13677
   threshold: 96.7%
-  metadata: &41
+  metadata: &42
     title_ru: Синий экзорцист
     title_en: Ao no Exorcist
     image: "/assets/achievements/anime/franchise/ao_no_exorcist.jpg"
@@ -420,40 +421,40 @@
 - neko_id: ao_no_exorcist
   level: 0
   algo: duration
-  filters: *40
+  filters: *41
   threshold: 0.01
-  metadata: *41
+  metadata: *42
 - neko_id: mob_psycho
   level: 1
   algo: duration
-  filters: &42
+  filters: &43
     franchise: mob_psycho
     not_anime_ids:
     - 52134
   threshold: 96.93%
-  metadata: &43
+  metadata: &44
     title_ru: Моб Психо 100
     title_en: Mob Psycho 100
     image: "/assets/achievements/anime/franchise/mob_psycho.jpg"
     topic_id: 247360
-  generator: &44
+  generator: &45
     threshold: 96.93%
     not_ignored_ids:
     - 36616
 - neko_id: mob_psycho
   level: 0
   algo: duration
-  filters: *42
+  filters: *43
   threshold: 0.01
-  metadata: *43
-  generator: *44
+  metadata: *44
+  generator: *45
 - neko_id: ansatsu_kyoushitsu
   level: 1
   algo: duration
-  filters: &45
+  filters: &46
     franchise: ansatsu_kyoushitsu
   threshold: 94.1%
-  metadata: &46
+  metadata: &47
     title_ru: Класс убийц
     title_en: Ansatsu Kyoushitsu
     image: "/assets/achievements/anime/franchise/ansatsu_kyoushitsu.jpg"
@@ -461,20 +462,20 @@
 - neko_id: ansatsu_kyoushitsu
   level: 0
   algo: duration
-  filters: *45
+  filters: *46
   threshold: 0.01
-  metadata: *46
+  metadata: *47
 - neko_id: jojo_no_kimyou_na_bouken
   level: 1
   algo: duration
-  filters: &47
+  filters: &48
     franchise: jojo_no_kimyou_na_bouken
     not_anime_ids:
     - 3603
     - 38972
     - 52593
   threshold: 95%
-  metadata: &48
+  metadata: &49
     title_ru: Невероятное приключение ДжоДжо
     title_en: JoJo no Kimyou na Bouken
     image: "/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg"
@@ -482,38 +483,38 @@
 - neko_id: jojo_no_kimyou_na_bouken
   level: 0
   algo: duration
-  filters: *47
+  filters: *48
   threshold: 0.01
-  metadata: *48
+  metadata: *49
 - neko_id: bungou_stray_dogs
   level: 1
   algo: duration
-  filters: &49
+  filters: &50
     franchise: bungou_stray_dogs
   threshold: 97%
-  metadata: &50
+  metadata: &51
     title_ru: Великий из бродячих псов
     title_en: Bungou Stray Dogs
     image: "/assets/achievements/anime/franchise/bungou_stray_dogs.jpg"
     topic_id: 247360
-  generator: &51
+  generator: &52
     threshold: 97%
 - neko_id: bungou_stray_dogs
   level: 0
   algo: duration
-  filters: *49
+  filters: *50
   threshold: 0.01
-  metadata: *50
-  generator: *51
+  metadata: *51
+  generator: *52
 - neko_id: hunter_x_hunter
   level: 1
   algo: duration
-  filters: &52
+  filters: &53
     franchise: hunter_x_hunter
     not_anime_ids:
     - 22049
   threshold: 93.1%
-  metadata: &53
+  metadata: &54
     title_ru: Охотник х Охотник
     title_en: Hunter x Hunter
     image: "/assets/achievements/anime/franchise/hunter_x_hunter.jpg"
@@ -521,59 +522,59 @@
 - neko_id: hunter_x_hunter
   level: 0
   algo: duration
-  filters: *52
+  filters: *53
   threshold: 0.01
-  metadata: *53
+  metadata: *54
 - neko_id: danmachi
   level: 1
   algo: duration
-  filters: &54
+  filters: &55
     franchise: danmachi
     not_anime_ids:
     - 40064
     - 52357
   threshold: 95%
-  metadata: &55
+  metadata: &56
     title_ru: Разве плохо искать себе пару в подземелье?
     title_en: DanMachi
     image: "/assets/achievements/anime/franchise/danmachi.jpg"
     topic_id: 247360
-  generator: &56
+  generator: &57
     threshold: 95%
 - neko_id: danmachi
   level: 0
   algo: duration
-  filters: *54
+  filters: *55
   threshold: 0.01
-  metadata: *55
-  generator: *56
+  metadata: *56
+  generator: *57
 - neko_id: kaguya_sama
   level: 1
   algo: duration
-  filters: &57
+  filters: &58
     franchise: kaguya_sama
     not_anime_ids:
     - 44270
     - 50325
   threshold: 95%
-  metadata: &58
+  metadata: &59
     title_ru: 'Госпожа Кагуя: в любви как на войне'
     title_en: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
     image: "/assets/achievements/anime/franchise/kaguya_sama.jpg"
     topic_id: 247360
-  generator: &59
+  generator: &60
     threshold: 95%
 - neko_id: kaguya_sama
   level: 0
   algo: duration
-  filters: *57
+  filters: *58
   threshold: 0.01
-  metadata: *58
-  generator: *59
+  metadata: *59
+  generator: *60
 - neko_id: haikyuu
   level: 1
   algo: duration
-  filters: &60
+  filters: &61
     franchise: haikyuu
     not_anime_ids:
     - 29755
@@ -584,25 +585,25 @@
     - 35321
     - 40372
   threshold: 95%
-  metadata: &61
+  metadata: &62
     title_ru: Волейбол!!
     title_en: Haikyuu!!
     image: "/assets/achievements/anime/franchise/haikyuu.jpg"
     topic_id: 247360
-  generator: &62
+  generator: &63
     ignore_latest_ids:
     - 52742
 - neko_id: haikyuu
   level: 0
   algo: duration
-  filters: *60
+  filters: *61
   threshold: 0.01
-  metadata: *61
-  generator: *62
+  metadata: *62
+  generator: *63
 - neko_id: tensei_shitara_slime_datta_ken
   level: 1
   algo: duration
-  filters: &63
+  filters: &64
     franchise: tensei_shitara_slime_datta_ken
     not_anime_ids:
     - 39607
@@ -612,47 +613,48 @@
     - 54050
     - 55720
   threshold: 95%
-  metadata: &64
+  metadata: &65
     title_ru: О моём перерождении в слизь
     title_en: Tensei shitara Slime Datta Ken
     image: "/assets/achievements/anime/franchise/tensei_shitara_slime_datta_ken.jpg"
     topic_id: 247360
-  generator: &65
+  generator: &66
     ignore_latest_ids:
     - 49877
 - neko_id: tensei_shitara_slime_datta_ken
   level: 0
   algo: duration
-  filters: *63
+  filters: *64
   threshold: 0.01
-  metadata: *64
-  generator: *65
+  metadata: *65
+  generator: *66
 - neko_id: mushoku_tensei
   level: 1
   algo: duration
-  filters: &66
+  filters: &67
     franchise: mushoku_tensei
   threshold: 94.4%
-  metadata: &67
+  metadata: &68
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
     image: "/assets/achievements/anime/franchise/mushoku_tensei.jpg"
     topic_id: 247360
-  generator: 
+  generator: &69
     threshold: 94.4%
 - neko_id: mushoku_tensei
   level: 0
   algo: duration
-  filters: *66
+  filters: *67
   threshold: 0.01
-  metadata: *67
+  metadata: *68
+  generator: *69
 - neko_id: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
   level: 1
   algo: duration
-  filters: &68
+  filters: &70
     franchise: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
   threshold: 96.5%
-  metadata: &69
+  metadata: &71
     title_ru: Как и ожидалось, моя школьная романтическая жизнь не удалась
     title_en: Oregairu
     image: "/assets/achievements/anime/franchise/yahari_ore_no_seishun_love_comedy_wa_machigatteiru.jpg"
@@ -660,36 +662,37 @@
 - neko_id: yahari_ore_no_seishun_love_comedy_wa_machigatteiru
   level: 0
   algo: duration
-  filters: *68
+  filters: *70
   threshold: 0.01
-  metadata: *69
+  metadata: *71
 - neko_id: dr_stone
   level: 1
   algo: duration
-  filters: &70
+  filters: &72
     franchise: dr_stone
     not_anime_ids:
     - 43349
     - 43555
     - 55216
   threshold: 96.1%
-  metadata: &71
+  metadata: &73
     title_ru: Доктор Стоун
     title_en: Dr. Stone
     image: "/assets/achievements/anime/franchise/dr_stone.jpg"
     topic_id: 247360
-  generator: 
+  generator: &74
     threshold: 96.1%
 - neko_id: dr_stone
   level: 0
   algo: duration
-  filters: *70
+  filters: *72
   threshold: 0.01
-  metadata: *71
+  metadata: *73
+  generator: *74
 - neko_id: kuroko_no_basket
   level: 1
   algo: duration
-  filters: &72
+  filters: &75
     franchise: kuroko_no_basket
     not_anime_ids:
     - 32869
@@ -697,7 +700,7 @@
     - 32871
     - 35327
   threshold: 92.8%
-  metadata: &73
+  metadata: &76
     title_ru: Баскетбол Куроко
     title_en: Kuroko no Basket
     image: "/assets/achievements/anime/franchise/kuroko_no_basket.png"
@@ -705,19 +708,19 @@
 - neko_id: kuroko_no_basket
   level: 0
   algo: duration
-  filters: *72
+  filters: *75
   threshold: 0.01
-  metadata: *73
+  metadata: *76
 - neko_id: bleach
   level: 1
   algo: duration
-  filters: &74
+  filters: &77
     franchise: bleach
     not_anime_ids:
     - 54171
     - 56442
   threshold: 96.4%
-  metadata: &75
+  metadata: &78
     title_ru: Блич
     title_en: Bleach
     image: "/assets/achievements/anime/franchise/bleach.jpg"
@@ -725,43 +728,43 @@
 - neko_id: bleach
   level: 0
   algo: duration
-  filters: *74
+  filters: *77
   threshold: 0.01
-  metadata: *75
+  metadata: *78
 - neko_id: psycho_pass
   level: 1
   algo: duration
-  filters: &76
+  filters: &79
     franchise: psycho_pass
     not_anime_ids:
     - 17901
   threshold: 92.8%
-  metadata: &77
+  metadata: &80
     title_ru: Психопаспорт
     title_en: Psycho-Pass
     image: "/assets/achievements/anime/franchise/psycho_pass.jpg"
     topic_id: 247360
-  generator: &78
+  generator: &81
     ignore_latest_ids:
     - 52747
 - neko_id: psycho_pass
   level: 0
   algo: duration
-  filters: *76
+  filters: *79
   threshold: 0.01
-  metadata: *77
-  generator: *78
+  metadata: *80
+  generator: *81
 - neko_id: fairy_tail
   level: 1
   algo: duration
-  filters: &79
+  filters: &82
     franchise: fairy_tail
     not_anime_ids:
     - 246
     - 11511
     - 12121
   threshold: 96.8%
-  metadata: &80
+  metadata: &83
     title_ru: Хвост Феи
     title_en: Fairy Tail
     image: "/assets/achievements/anime/franchise/fairy_tail.jpg"
@@ -769,13 +772,13 @@
 - neko_id: fairy_tail
   level: 0
   algo: duration
-  filters: *79
+  filters: *82
   threshold: 0.01
-  metadata: *80
+  metadata: *83
 - neko_id: bakemonogatari
   level: 1
   algo: duration
-  filters: &81
+  filters: &84
     franchise: bakemonogatari
     not_anime_ids:
     - 6948
@@ -787,12 +790,12 @@
     - 54209
     - 56609
   threshold: 95%
-  metadata: &82
+  metadata: &85
     title_ru: Цикл историй
     title_en: Monogatari Series
     image: "/assets/achievements/anime/franchise/bakemonogatari.png"
     topic_id: 247360
-  generator: &83
+  generator: &86
     not_ignored_ids:
     - 36999
     ignore_latest_ids:
@@ -800,14 +803,14 @@
 - neko_id: bakemonogatari
   level: 0
   algo: duration
-  filters: *81
+  filters: *84
   threshold: 0.01
-  metadata: *82
-  generator: *83
+  metadata: *85
+  generator: *86
 - neko_id: fate
   level: 1
   algo: duration
-  filters: &84
+  filters: &87
     franchise: fate
     not_anime_ids:
     - 169
@@ -835,12 +838,12 @@
     - 40982
     - 49633
   threshold: 90%
-  metadata: &85
+  metadata: &88
     title_ru: Судьба
     title_en: Fate
     image: "/assets/achievements/anime/franchise/fate.jpg"
     topic_id: 247360
-  generator: &86
+  generator: &89
     ignore_latest_ids:
     - 33050
     - 38086
@@ -849,17 +852,17 @@
 - neko_id: fate
   level: 0
   algo: duration
-  filters: *84
+  filters: *87
   threshold: 0.01
-  metadata: *85
-  generator: *86
+  metadata: *88
+  generator: *89
 - neko_id: shokugeki_no_souma
   level: 1
   algo: duration
-  filters: &87
+  filters: &90
     franchise: shokugeki_no_souma
   threshold: 95%
-  metadata: &88
+  metadata: &91
     title_ru: Повар-боец Сома
     title_en: Shokugeki no Souma
     image: "/assets/achievements/anime/franchise/shokugeki_no_souma.jpg"
@@ -867,20 +870,20 @@
 - neko_id: shokugeki_no_souma
   level: 0
   algo: duration
-  filters: *87
+  filters: *90
   threshold: 0.01
-  metadata: *88
+  metadata: *91
 - neko_id: berserk
   level: 1
   algo: duration
-  filters: &89
+  filters: &92
     franchise: berserk
     not_anime_ids:
     - 35009
     - 35676
     - 52976
   threshold: 100%
-  metadata: &90
+  metadata: &93
     title_ru: Берсерк
     title_en: Berserk
     image: "/assets/achievements/anime/franchise/berserk.jpg"
@@ -888,40 +891,40 @@
 - neko_id: berserk
   level: 0
   algo: duration
-  filters: *89
+  filters: *92
   threshold: 0.01
-  metadata: *90
+  metadata: *93
 - neko_id: chuunibyou_demo_koi_ga_shitai
   level: 1
   algo: duration
-  filters: &91
+  filters: &94
     franchise: chuunibyou_demo_koi_ga_shitai
     not_anime_ids:
     - 19021
     - 36855
     - 37967
   threshold: 90%
-  metadata: &92
+  metadata: &95
     title_ru: Чудачества любви не помеха!
     title_en: Chuunibyou demo Koi ga Shitai!
     image: "/assets/achievements/anime/franchise/chuunibyou_demo_koi_ga_shitai.jpg"
     topic_id: 247360
-  generator: &93
+  generator: &96
     threshold: 90%
 - neko_id: chuunibyou_demo_koi_ga_shitai
   level: 0
   algo: duration
-  filters: *91
+  filters: *94
   threshold: 0.01
-  metadata: *92
-  generator: *93
+  metadata: *95
+  generator: *96
 - neko_id: kamisama_hajimemashita
   level: 1
   algo: duration
-  filters: &94
+  filters: &97
     franchise: kamisama_hajimemashita
   threshold: 100%
-  metadata: &95
+  metadata: &98
     title_ru: Приятно познакомиться, Бог
     title_en: Kamisama Hajimemashita
     image: "/assets/achievements/anime/franchise/kamisama_hajimemashita.jpg"
@@ -929,16 +932,16 @@
 - neko_id: kamisama_hajimemashita
   level: 0
   algo: duration
-  filters: *94
+  filters: *97
   threshold: 0.01
-  metadata: *95
+  metadata: *98
 - neko_id: high_school_dxd
   level: 1
   algo: duration
-  filters: &96
+  filters: &99
     franchise: high_school_dxd
   threshold: 91.8%
-  metadata: &97
+  metadata: &100
     title_ru: Старшая школа DxD
     title_en: High School DxD
     image: "/assets/achievements/anime/franchise/high_school_dxd.jpg"
@@ -946,19 +949,19 @@
 - neko_id: high_school_dxd
   level: 0
   algo: duration
-  filters: *96
+  filters: *99
   threshold: 0.01
-  metadata: *97
+  metadata: *100
 - neko_id: kuroshitsuji
   level: 1
   algo: duration
-  filters: &98
+  filters: &101
     franchise: kuroshitsuji
     not_anime_ids:
     - 6163
     - 8068
   threshold: 95%
-  metadata: &99
+  metadata: &102
     title_ru: Тёмный дворецкий
     title_en: Kuroshitsuji
     image: "/assets/achievements/anime/franchise/kuroshitsuji.jpg"
@@ -966,59 +969,60 @@
 - neko_id: kuroshitsuji
   level: 0
   algo: duration
-  filters: *98
+  filters: *101
   threshold: 0.01
-  metadata: *99
+  metadata: *102
 - neko_id: hellsing
   level: 1
   algo: duration
-  filters: &100
+  filters: &103
     franchise: hellsing
     not_anime_ids:
     - 6904
   threshold: 100%
-  metadata: &101
+  metadata: &104
     title_ru: Хеллсинг
     title_en: Hellsing
     image: "/assets/achievements/anime/franchise/hellsing.jpg"
     topic_id: 247360
-  generator: &102
+  generator: &105
     threshold: 100%
 - neko_id: hellsing
-  level: 0
-  algo: duration
-  filters: *100
-  threshold: 0.01
-  metadata: *101
-  generator: *102
-- neko_id: danganronpa
-  level: 1
-  algo: duration
-  filters: &103
-    franchise: danganronpa
-    not_anime_ids:
-    - 37103
-  threshold: 97.3%
-  metadata: &104
-    title_ru: Данганронпа
-    title_en: Danganronpa
-    image: "/assets/achievements/anime/franchise/danganronpa.jpg"
-    topic_id: 247360
-  generator: 
-    threshold: 97.3%
-- neko_id: danganronpa
   level: 0
   algo: duration
   filters: *103
   threshold: 0.01
   metadata: *104
+  generator: *105
+- neko_id: danganronpa
+  level: 1
+  algo: duration
+  filters: &106
+    franchise: danganronpa
+    not_anime_ids:
+    - 37103
+  threshold: 97.3%
+  metadata: &107
+    title_ru: Данганронпа
+    title_en: Danganronpa
+    image: "/assets/achievements/anime/franchise/danganronpa.jpg"
+    topic_id: 247360
+  generator: &108
+    threshold: 97.3%
+- neko_id: danganronpa
+  level: 0
+  algo: duration
+  filters: *106
+  threshold: 0.01
+  metadata: *107
+  generator: *108
 - neko_id: durarara
   level: 1
   algo: duration
-  filters: &105
+  filters: &109
     franchise: durarara
   threshold: 95%
-  metadata: &106
+  metadata: &110
     title_ru: Дюрарара!!
     title_en: Durarara!!
     image: "/assets/achievements/anime/franchise/durarara.jpg"
@@ -1026,16 +1030,16 @@
 - neko_id: durarara
   level: 0
   algo: duration
-  filters: *105
+  filters: *109
   threshold: 0.01
-  metadata: *106
+  metadata: *110
 - neko_id: darker_than_black
   level: 1
   algo: duration
-  filters: &107
+  filters: &111
     franchise: darker_than_black
   threshold: 100%
-  metadata: &108
+  metadata: &112
     title_ru: Темнее чёрного
     title_en: Darker than Black
     image: "/assets/achievements/anime/franchise/darker_than_black.jpg"
@@ -1043,36 +1047,36 @@
 - neko_id: darker_than_black
   level: 0
   algo: duration
-  filters: *107
+  filters: *111
   threshold: 0.01
-  metadata: *108
+  metadata: *112
 - neko_id: black_clover
   level: 1
   algo: duration
-  filters: &109
+  filters: &113
     franchise: black_clover
     not_anime_ids:
     - 39864
   threshold: 96.7%
-  metadata: &110
+  metadata: &114
     title_ru: Чёрный клевер
     title_en: Black Clover
     image: "/assets/achievements/anime/franchise/black_clover.jpg"
     topic_id: 247360
-  generator: &111
+  generator: &115
     ignore_latest_ids:
     - 48585
 - neko_id: black_clover
   level: 0
   algo: duration
-  filters: *109
+  filters: *113
   threshold: 0.01
-  metadata: *110
-  generator: *111
+  metadata: *114
+  generator: *115
 - neko_id: mahouka_koukou_no_rettousei
   level: 1
   algo: duration
-  filters: &112
+  filters: &116
     franchise: mahouka_koukou_no_rettousei
     not_anime_ids:
     - 23341
@@ -1080,29 +1084,29 @@
     - 35631
     - 50097
   threshold: 94.7%
-  metadata: &113
+  metadata: &117
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
     image: "/assets/achievements/anime/franchise/mahouka_koukou_no_rettousei.jpg"
     topic_id: 247360
-  generator: &114
+  generator: &118
     threshold: 94.7%
     ignore_latest_ids:
     - 48375
 - neko_id: mahouka_koukou_no_rettousei
   level: 0
   algo: duration
-  filters: *112
+  filters: *116
   threshold: 0.01
-  metadata: *113
-  generator: *114
+  metadata: *117
+  generator: *118
 - neko_id: suzumiya_haruhi_no_yuuutsu
   level: 1
   algo: duration
-  filters: &115
+  filters: &119
     franchise: suzumiya_haruhi_no_yuuutsu
   threshold: 92.3%
-  metadata: &116
+  metadata: &120
     title_ru: Меланхолия Харухи Судзумии
     title_en: Suzumiya Haruhi no Yuuutsu
     image: "/assets/achievements/anime/franchise/suzumiya_haruhi_no_yuuutsu.png"
@@ -1110,19 +1114,19 @@
 - neko_id: suzumiya_haruhi_no_yuuutsu
   level: 0
   algo: duration
-  filters: *115
+  filters: *119
   threshold: 0.01
-  metadata: *116
+  metadata: *120
 - neko_id: k_on
   level: 1
   algo: duration
-  filters: &117
+  filters: &121
     franchise: k_on
     not_anime_ids:
     - 7017
     - 9203
   threshold: 95.7%
-  metadata: &118
+  metadata: &122
     title_ru: Кэйон!
     title_en: K-On!
     image: "/assets/achievements/anime/franchise/k_on.jpg"
@@ -1130,13 +1134,13 @@
 - neko_id: k_on
   level: 0
   algo: duration
-  filters: *117
+  filters: *121
   threshold: 0.01
-  metadata: *118
+  metadata: *122
 - neko_id: one_piece
   level: 1
   algo: duration
-  filters: &119
+  filters: &123
     franchise: one_piece
     not_anime_ids:
     - 2107
@@ -1182,26 +1186,26 @@
     - 56015
     - 57556
   threshold: 97.5%
-  metadata: &120
+  metadata: &124
     title_ru: Ван-Пис
     title_en: One Piece
     image: "/assets/achievements/anime/franchise/one_piece.png"
     topic_id: 247360
-  generator: &121
+  generator: &125
     ignore_latest_ids:
     - 38234
     - 50410
 - neko_id: one_piece
   level: 0
   algo: duration
-  filters: *119
+  filters: *123
   threshold: 0.01
-  metadata: *120
-  generator: *121
+  metadata: *124
+  generator: *125
 - neko_id: mahoyome
   level: 1
   algo: duration
-  filters: &122
+  filters: &126
     franchise: mahoyome
     not_anime_ids:
     - 36501
@@ -1209,69 +1213,69 @@
     - 40134
     - 51097
   threshold: 95%
-  metadata: &123
+  metadata: &127
     title_ru: Невеста чародея
     title_en: Mahoutsukai no Yome
     image: "/assets/achievements/anime/franchise/mahoyome.jpg"
     topic_id: 247360
-  generator: &124
+  generator: &128
     not_ignored_ids:
     - 35062
     threshold: 95%
 - neko_id: mahoyome
   level: 0
   algo: duration
-  filters: *122
+  filters: *126
   threshold: 0.01
-  metadata: *123
-  generator: *124
+  metadata: *127
+  generator: *128
 - neko_id: black_lagoon
   level: 1
   algo: duration
-  filters: &125
+  filters: &129
     franchise: black_lagoon
   threshold: 100%
-  metadata: &126
+  metadata: &130
     title_ru: Пираты «Чёрной лагуны»
     title_en: Black Lagoon
     image: "/assets/achievements/anime/franchise/black_lagoon.jpg"
     topic_id: 247360
-  generator: &127
+  generator: &131
     threshold: 100%
 - neko_id: black_lagoon
   level: 0
   algo: duration
-  filters: *125
+  filters: *129
   threshold: 0.01
-  metadata: *126
-  generator: *127
+  metadata: *130
+  generator: *131
 - neko_id: date_a_live
   level: 1
   algo: duration
-  filters: &128
+  filters: &132
     franchise: date_a_live
   threshold: 95%
-  metadata: &129
+  metadata: &133
     title_ru: Рандеву с жизнью
     title_en: Date A Live
     image: "/assets/achievements/anime/franchise/date_a_live.jpg"
     topic_id: 247360
-  generator: &130
+  generator: &134
     threshold: 95%
 - neko_id: date_a_live
   level: 0
   algo: duration
-  filters: *128
+  filters: *132
   threshold: 0.01
-  metadata: *129
-  generator: *130
+  metadata: *133
+  generator: *134
 - neko_id: quanzhi_gaoshou
   level: 1
   algo: duration
-  filters: &131
+  filters: &135
     franchise: quanzhi_gaoshou
   threshold: 100%
-  metadata: &132
+  metadata: &136
     title_ru: Аватар короля
     title_en: Quanzhi Gaoshou
     image: "/assets/achievements/anime/franchise/quanzhi_gaoshou.jpg"
@@ -1279,16 +1283,16 @@
 - neko_id: quanzhi_gaoshou
   level: 0
   algo: duration
-  filters: *131
+  filters: *135
   threshold: 0.01
-  metadata: *132
+  metadata: *136
 - neko_id: when_they_cry
   level: 1
   algo: duration
-  filters: &133
+  filters: &137
     franchise: when_they_cry
   threshold: 95%
-  metadata: &134
+  metadata: &138
     title_ru: Когда плачут цикады
     title_en: Higurashi no Naku Koro ni
     image: "/assets/achievements/anime/franchise/when_they_cry.jpg"
@@ -1296,35 +1300,35 @@
 - neko_id: when_they_cry
   level: 0
   algo: duration
-  filters: *133
+  filters: *137
   threshold: 0.01
-  metadata: *134
+  metadata: *138
 - neko_id: saiki_kusuo_no_nan
   level: 1
   algo: duration
-  filters: &135
+  filters: &139
     franchise: saiki_kusuo_no_nan
     not_anime_ids:
     - 53712
   threshold: 100%
-  metadata: &136
+  metadata: &140
     title_ru: Ох уж этот экстрасенс Сайки Кусуо!
     title_en: Saiki Kusuo no Ψ-nan
     image: "/assets/achievements/anime/franchise/saiki_kusuo_no_nan.jpg"
     topic_id: 247360
-  generator: &137
+  generator: &141
     threshold: 100%
 - neko_id: saiki_kusuo_no_nan
   level: 0
   algo: duration
-  filters: *135
+  filters: *139
   threshold: 0.01
-  metadata: *136
-  generator: *137
+  metadata: *140
+  generator: *141
 - neko_id: ghost_in_the_shell
   level: 1
   algo: duration
-  filters: &138
+  filters: &142
     franchise: ghost_in_the_shell
     not_anime_ids:
     - 2448
@@ -1344,7 +1348,7 @@
     - 54860
     - 55316
   threshold: 95%
-  metadata: &139
+  metadata: &143
     title_ru: Призрак в доспехах
     title_en: Ghost in the Shell
     image:
@@ -1353,41 +1357,41 @@
 - neko_id: ghost_in_the_shell
   level: 0
   algo: duration
-  filters: *138
+  filters: *142
   threshold: 0.01
-  metadata: *139
+  metadata: *143
 - neko_id: nisekoi
   level: 1
   algo: duration
-  filters: &140
+  filters: &144
     franchise: nisekoi
     not_anime_ids:
     - 30514
   threshold: 100%
-  metadata: &141
+  metadata: &145
     title_ru: Притворная любовь
     title_en: Nisekoi
     image: "/assets/achievements/anime/franchise/nisekoi.jpg"
     topic_id: 247360
-  generator: &142
+  generator: &146
     not_ignored_ids:
     - 24227
 - neko_id: nisekoi
   level: 0
   algo: duration
-  filters: *140
+  filters: *144
   threshold: 0.01
-  metadata: *141
-  generator: *142
+  metadata: *145
+  generator: *146
 - neko_id: zero_no_tsukaima
   level: 1
   algo: duration
-  filters: &143
+  filters: &147
     franchise: zero_no_tsukaima
     not_anime_ids:
     - 6489
   threshold: 98%
-  metadata: &144
+  metadata: &148
     title_ru: Подручный Луизы-Нулизы
     title_en: Zero no Tsukaima
     image: "/assets/achievements/anime/franchise/zero_no_tsukaima.png"
@@ -1395,20 +1399,20 @@
 - neko_id: zero_no_tsukaima
   level: 0
   algo: duration
-  filters: *143
+  filters: *147
   threshold: 0.01
-  metadata: *144
+  metadata: *148
 - neko_id: toaru_majutsu_no_index
   level: 1
   algo: duration
-  filters: &145
+  filters: &149
     franchise: toaru_majutsu_no_index
     not_anime_ids:
     - 27509
     - 27829
     - 32264
   threshold: 95%
-  metadata: &146
+  metadata: &150
     title_ru: Индекс волшебства
     title_en: Toaru Majutsu no Index
     image: "/assets/achievements/anime/franchise/toaru_majutsu_no_index.png"
@@ -1416,19 +1420,19 @@
 - neko_id: toaru_majutsu_no_index
   level: 0
   algo: duration
-  filters: *145
+  filters: *149
   threshold: 0.01
-  metadata: *146
+  metadata: *150
 - neko_id: k
   level: 1
   algo: duration
-  filters: &147
+  filters: &151
     franchise: k
     not_anime_ids:
     - 31344
     - 37308
   threshold: 95%
-  metadata: &148
+  metadata: &152
     title_ru: Проект Кей
     title_en: K
     image: "/assets/achievements/anime/franchise/k.jpg"
@@ -1436,16 +1440,16 @@
 - neko_id: k
   level: 0
   algo: duration
-  filters: *147
+  filters: *151
   threshold: 0.01
-  metadata: *148
+  metadata: *152
 - neko_id: magi
   level: 1
   algo: duration
-  filters: &149
+  filters: &153
     franchise: magi
   threshold: 100%
-  metadata: &150
+  metadata: &154
     title_ru: Маги
     title_en: Magi
     image: "/assets/achievements/anime/franchise/magi.jpg"
@@ -1453,36 +1457,36 @@
 - neko_id: magi
   level: 0
   algo: duration
-  filters: *149
+  filters: *153
   threshold: 0.01
-  metadata: *150
+  metadata: *154
 - neko_id: bakuman
   level: 1
   algo: duration
-  filters: &151
+  filters: &155
     franchise: bakuman
     not_anime_ids:
     - 15711
   threshold: 99.4%
-  metadata: &152
+  metadata: &156
     title_ru: Бакуман
     title_en: Bakuman
     image: "/assets/achievements/anime/franchise/bakuman.jpg"
     topic_id: 247360
-  generator: &153
+  generator: &157
     not_anime_ids:
     - 15711
 - neko_id: bakuman
   level: 0
   algo: duration
-  filters: *151
+  filters: *155
   threshold: 0.01
-  metadata: *152
-  generator: *153
+  metadata: *156
+  generator: *157
 - neko_id: puella_magi_sonico_magica
   level: 1
   algo: duration
-  filters: &154
+  filters: &158
     franchise: puella_magi_sonico_magica
     not_anime_ids:
     - 10519
@@ -1495,45 +1499,45 @@
     - 50029
     - 53932
   threshold: 90.2%
-  metadata: &155
+  metadata: &159
     title_ru: Девочка-волшебница Мадока★Волшебство
     title_en: Mahou Shoujo Madoka★Magica
     image: "/assets/achievements/anime/franchise/puella_magi_sonico_magica.jpg"
     topic_id: 247360
-  generator: &156
+  generator: &160
     ignore_latest_ids:
     - 48820
 - neko_id: puella_magi_sonico_magica
   level: 0
   algo: duration
-  filters: *154
+  filters: *158
   threshold: 0.01
-  metadata: *155
-  generator: *156
+  metadata: *159
+  generator: *160
 - neko_id: grisaia
   level: 1
   algo: duration
-  filters: &157
+  filters: &161
     franchise: grisaia
   threshold: 99%
-  metadata: &158
+  metadata: &162
     title_ru: Плод Грисайи
     title_en: Grisaia no Kajitsu
     image: "/assets/achievements/anime/franchise/grisaia.jpg"
     topic_id: 247360
-  generator: &159
+  generator: &163
     threshold: 99%
 - neko_id: grisaia
   level: 0
   algo: duration
-  filters: *157
+  filters: *161
   threshold: 0.01
-  metadata: *158
-  generator: *159
+  metadata: *162
+  generator: *163
 - neko_id: gintama
   level: 1
   algo: duration
-  filters: &160
+  filters: &164
     franchise: gintama
     not_anime_ids:
     - 7472
@@ -1545,32 +1549,32 @@
     - 54761
     - 56544
   threshold: 90%
-  metadata: &161
+  metadata: &165
     title_ru: Гинтама
     title_en: Gintama
     image: "/assets/achievements/anime/franchise/gintama.png"
     topic_id: 247360
-  generator: &162
+  generator: &166
     ignore_latest_ids:
     - 39486
 - neko_id: gintama
   level: 0
   algo: duration
-  filters: *160
+  filters: *164
   threshold: 0.01
-  metadata: *161
-  generator: *162
+  metadata: *165
+  generator: *166
 - neko_id: devilman
   level: 1
   algo: duration
-  filters: &163
+  filters: &167
     franchise: devilman
     not_anime_ids:
     - 35952
     - 37590
     - 55324
   threshold: 95%
-  metadata: &164
+  metadata: &168
     title_ru: Человек-дьявол
     title_en: Devilman
     image: "/assets/achievements/anime/franchise/devilman.jpg"
@@ -1578,13 +1582,13 @@
 - neko_id: devilman
   level: 0
   algo: duration
-  filters: *163
+  filters: *167
   threshold: 0.01
-  metadata: *164
+  metadata: *168
 - neko_id: ore_no_imouto
   level: 1
   algo: duration
-  filters: &165
+  filters: &169
     franchise: ore_no_imouto
     not_anime_ids:
     - 10108
@@ -1593,44 +1597,44 @@
     - 19845
     - 23363
   threshold: 100%
-  metadata: &166
+  metadata: &170
     title_ru: Ну не может моя сестрёнка быть такой милой
     title_en: OreImo
     image: "/assets/achievements/anime/franchise/ore_no_imouto.jpg"
     topic_id: 247360
-  generator: &167
+  generator: &171
     threshold: 100%
 - neko_id: ore_no_imouto
   level: 0
   algo: duration
-  filters: *165
+  filters: *169
   threshold: 0.01
-  metadata: *166
-  generator: *167
+  metadata: *170
+  generator: *171
 - neko_id: clannad
   level: 1
   algo: duration
-  filters: &168
+  filters: &172
     franchise: clannad
   threshold: 100%
-  metadata: &169
+  metadata: &173
     title_ru: Кланнад
     title_en: Clannad
     image: "/assets/achievements/anime/franchise/clannad.jpg"
     topic_id: 247360
-  generator: &170
+  generator: &174
     threshold: 100%
 - neko_id: clannad
   level: 0
   algo: duration
-  filters: *168
+  filters: *172
   threshold: 0.01
-  metadata: *169
-  generator: *170
+  metadata: *173
+  generator: *174
 - neko_id: free
   level: 1
   algo: duration
-  filters: &171
+  filters: &175
     franchise: free
     not_anime_ids:
     - 33845
@@ -1640,51 +1644,51 @@
     - 37860
     - 39014
   threshold: 95%
-  metadata: &172
+  metadata: &176
     title_ru: Вольный стиль!
     title_en: Free!
     image: "/assets/achievements/anime/franchise/free.jpg"
     topic_id: 247360
-  generator: &173
+  generator: &177
     ignore_latest_ids:
     - 38400
     - 48830
 - neko_id: free
   level: 0
   algo: duration
-  filters: *171
+  filters: *175
   threshold: 0.01
-  metadata: *172
-  generator: *173
+  metadata: *176
+  generator: *177
 - neko_id: strike_the_blood
   level: 1
   algo: duration
-  filters: &174
+  filters: &178
     franchise: strike_the_blood
   threshold: 95%
-  metadata: &175
+  metadata: &179
     title_ru: Удар крови
     title_en: Strike the Blood
     image: "/assets/achievements/anime/franchise/strike_the_blood.jpg"
     topic_id: 247360
-  generator: &176
+  generator: &180
     threshold: 95%
 - neko_id: strike_the_blood
   level: 0
   algo: duration
-  filters: *174
+  filters: *178
   threshold: 0.01
-  metadata: *175
-  generator: *176
+  metadata: *179
+  generator: *180
 - neko_id: to_love_ru
   level: 1
   algo: duration
-  filters: &177
+  filters: &181
     franchise: to_love_ru
     not_anime_ids:
     - 51193
   threshold: 95%
-  metadata: &178
+  metadata: &182
     title_ru: Любовные неприятности
     title_en: To LOVE-Ru
     image: "/assets/achievements/anime/franchise/to_love_ru.jpg"
@@ -1692,16 +1696,16 @@
 - neko_id: to_love_ru
   level: 0
   algo: duration
-  filters: *177
+  filters: *181
   threshold: 0.01
-  metadata: *178
+  metadata: *182
 - neko_id: mo_dao_zu_shi
   level: 1
   algo: duration
-  filters: &179
+  filters: &183
     franchise: mo_dao_zu_shi
   threshold: 100%
-  metadata: &180
+  metadata: &184
     title_ru: Магистр дьявольского культа
     title_en: Mo Dao Zu Shi
     image: "/assets/achievements/anime/franchise/mo_dao_zu_shi.jpg"
@@ -1709,18 +1713,18 @@
 - neko_id: mo_dao_zu_shi
   level: 0
   algo: duration
-  filters: *179
+  filters: *183
   threshold: 0.01
-  metadata: *180
+  metadata: *184
 - neko_id: shingeki_no_bahamut
   level: 1
   algo: duration
-  filters: &181
+  filters: &185
     franchise: shingeki_no_bahamut
     not_anime_ids:
     - 28447
   threshold: 100%
-  metadata: &182
+  metadata: &186
     title_ru: Ярость Бахамута
     title_en: Shingeki no Bahamut
     image: "/assets/achievements/anime/franchise/shingeki_no_bahamut.jpg"
@@ -1728,24 +1732,24 @@
 - neko_id: shingeki_no_bahamut
   level: 0
   algo: duration
-  filters: *181
+  filters: *185
   threshold: 0.01
-  metadata: *182
+  metadata: *186
 - neko_id: natsume_yuujinchou
   level: 1
   algo: duration
-  filters: &183
+  filters: &187
     franchise: natsume_yuujinchou
     not_anime_ids:
     - 19945
     - 48953
   threshold: 95%
-  metadata: &184
+  metadata: &188
     title_ru: Тетрадь дружбы Нацумэ
     title_en: Natsume Yuujinchou
     image: "/assets/achievements/anime/franchise/natsume_yuujinchou.jpg"
     topic_id: 247360
-  generator: &185
+  generator: &189
     ignore_latest_ids:
     - 36538
     - 42894
@@ -1753,35 +1757,36 @@
 - neko_id: natsume_yuujinchou
   level: 0
   algo: duration
-  filters: *183
+  filters: *187
   threshold: 0.01
-  metadata: *184
-  generator: *185
+  metadata: *188
+  generator: *189
 - neko_id: mushishi
   level: 1
   algo: duration
-  filters: &186
+  filters: &190
     franchise: mushishi
     not_anime_ids:
     - 39738
   threshold: 92.3%
-  metadata: &187
+  metadata: &191
     title_ru: Мастер муси
     title_en: Mushishi
     image: "/assets/achievements/anime/franchise/mushishi.png"
     topic_id: 247360
-  generator: 
+  generator: &192
     threshold: 92.3%
 - neko_id: mushishi
   level: 0
   algo: duration
-  filters: *186
+  filters: *190
   threshold: 0.01
-  metadata: *187
+  metadata: *191
+  generator: *192
 - neko_id: full_metal_panic
   level: 1
   algo: duration
-  filters: &188
+  filters: &193
     franchise: full_metal_panic
     not_anime_ids:
     - 36342
@@ -1789,7 +1794,7 @@
     - 36344
     - 38149
   threshold: 97.6%
-  metadata: &189
+  metadata: &194
     title_ru: Стальная тревога
     title_en: Full Metal Panic!
     image: "/assets/achievements/anime/franchise/full_metal_panic.jpg"
@@ -1797,43 +1802,43 @@
 - neko_id: full_metal_panic
   level: 0
   algo: duration
-  filters: *188
+  filters: *193
   threshold: 0.01
-  metadata: *189
+  metadata: *194
 - neko_id: fruits_basket
   level: 1
   algo: duration
-  filters: &190
+  filters: &195
     franchise: fruits_basket
     not_anime_ids:
     - 53751
   threshold: 95.9%
-  metadata: &191
+  metadata: &196
     title_ru: Корзинка фруктов
     title_en: Fruits Basket
     image: "/assets/achievements/anime/franchise/fruits_basket.jpg"
     topic_id: 247360
-  generator: &192
+  generator: &197
     ignore_latest_ids:
     - 49310
 - neko_id: fruits_basket
   level: 0
   algo: duration
-  filters: *190
+  filters: *195
   threshold: 0.01
-  metadata: *191
-  generator: *192
+  metadata: *196
+  generator: *197
 - neko_id: kami_nomi_zo_shiru_sekai
   level: 1
   algo: duration
-  filters: &193
+  filters: &198
     franchise: kami_nomi_zo_shiru_sekai
     not_anime_ids:
     - 11507
     - 11583
     - 51133
   threshold: 95%
-  metadata: &194
+  metadata: &199
     title_ru: Одному лишь Богу ведомый мир
     title_en: Kami nomi zo Shiru Sekai
     image: "/assets/achievements/anime/franchise/kami_nomi_zo_shiru_sekai.jpg"
@@ -1841,62 +1846,62 @@
 - neko_id: kami_nomi_zo_shiru_sekai
   level: 0
   algo: duration
-  filters: *193
+  filters: *198
   threshold: 0.01
-  metadata: *194
+  metadata: *199
 - neko_id: baki
   level: 1
   algo: duration
-  filters: &195
+  filters: &200
     franchise: baki
     not_anime_ids:
     - 54022
   threshold: 95%
-  metadata: &196
+  metadata: &201
     title_ru: Боец Баки
     title_en: Grappler Baki
     image: "/assets/achievements/anime/franchise/baki.jpg"
     topic_id: 247360
-  generator: &197
+  generator: &202
     threshold: 95%
 - neko_id: baki
   level: 0
   algo: duration
-  filters: *195
+  filters: *200
   threshold: 0.01
-  metadata: *196
-  generator: *197
+  metadata: *201
+  generator: *202
 - neko_id: kara_no_kyoukai
   level: 1
   algo: duration
-  filters: &198
+  filters: &203
     franchise: kara_no_kyoukai
     not_anime_ids:
     - 6624
     - 22847
     - 23697
   threshold: 100%
-  metadata: &199
+  metadata: &204
     title_ru: Граница пустоты
     title_en: Kara no Kyoukai
     image: "/assets/achievements/anime/franchise/kara_no_kyoukai.png"
     topic_id: 247360
-  generator: &200
+  generator: &205
     threshold: 100%
 - neko_id: kara_no_kyoukai
   level: 0
   algo: duration
-  filters: *198
+  filters: *203
   threshold: 0.01
-  metadata: *199
-  generator: *200
+  metadata: *204
+  generator: *205
 - neko_id: sora_no_otoshimono
   level: 1
   algo: duration
-  filters: &201
+  filters: &206
     franchise: sora_no_otoshimono
   threshold: 100%
-  metadata: &202
+  metadata: &207
     title_ru: Утраченное небесами
     title_en: Sora no Otoshimono
     image: "/assets/achievements/anime/franchise/sora_no_otoshimono.jpg"
@@ -1904,13 +1909,13 @@
 - neko_id: sora_no_otoshimono
   level: 0
   algo: duration
-  filters: *201
+  filters: *206
   threshold: 0.01
-  metadata: *202
+  metadata: *207
 - neko_id: rurouni_kenshin
   level: 1
   algo: duration
-  filters: &203
+  filters: &208
     franchise: rurouni_kenshin
     not_anime_ids:
     - 9716
@@ -1918,7 +1923,7 @@
     - 37537
     - 56621
   threshold: 94%
-  metadata: &204
+  metadata: &209
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
     image: "/assets/achievements/anime/franchise/rurouni_kenshin.png"
@@ -1926,56 +1931,56 @@
 - neko_id: rurouni_kenshin
   level: 0
   algo: duration
-  filters: *203
+  filters: *208
   threshold: 0.01
-  metadata: *204
+  metadata: *209
 - neko_id: seitokai_yakuindomo
   level: 1
   algo: duration
-  filters: &205
+  filters: &210
     franchise: seitokai_yakuindomo
   threshold: 95%
-  metadata: &206
+  metadata: &211
     title_ru: Члены школьного совета
     title_en: Seitokai Yakuindomo
     image: "/assets/achievements/anime/franchise/seitokai_yakuindomo.jpg"
     topic_id: 247360
-  generator: &207
+  generator: &212
     threshold: 95%
 - neko_id: seitokai_yakuindomo
   level: 0
   algo: duration
-  filters: *205
+  filters: *210
   threshold: 0.01
-  metadata: *206
-  generator: *207
+  metadata: *211
+  generator: *212
 - neko_id: blood
   level: 1
   algo: duration
-  filters: &208
+  filters: &213
     franchise: blood
     not_anime_ids:
     - 14077
     - 14117
   threshold: 100%
-  metadata: &209
+  metadata: &214
     title_ru: Кровь
     title_en: Blood
     image: "/assets/achievements/anime/franchise/blood.png"
     topic_id: 247360
-  generator: &210
+  generator: &215
     threshold: 100%
 - neko_id: blood
   level: 0
   algo: duration
-  filters: *208
+  filters: *213
   threshold: 0.01
-  metadata: *209
-  generator: *210
+  metadata: *214
+  generator: *215
 - neko_id: tales_of
   level: 1
   algo: duration
-  filters: &211
+  filters: &216
     franchise: tales_of
     not_anime_ids:
     - 8754
@@ -1985,7 +1990,7 @@
     - 38361
     - 46089
   threshold: 94.1%
-  metadata: &212
+  metadata: &217
     title_ru: Сказания
     title_en: Tales of
     image: "/assets/achievements/anime/franchise/tales_of.jpg"
@@ -1993,13 +1998,13 @@
 - neko_id: tales_of
   level: 0
   algo: duration
-  filters: *211
+  filters: *216
   threshold: 0.01
-  metadata: *212
+  metadata: *217
 - neko_id: initial_d
   level: 1
   algo: duration
-  filters: &213
+  filters: &218
     franchise: initial_d
     not_anime_ids:
     - 821
@@ -2007,7 +2012,7 @@
     - 47410
     - 50846
   threshold: 95%
-  metadata: &214
+  metadata: &219
     title_ru: Инициал Ди
     title_en: Initial D
     image: "/assets/achievements/anime/franchise/initial_d.jpg"
@@ -2015,13 +2020,13 @@
 - neko_id: initial_d
   level: 0
   algo: duration
-  filters: *213
+  filters: *218
   threshold: 0.01
-  metadata: *214
+  metadata: *219
 - neko_id: love_live
   level: 1
   algo: duration
-  filters: &215
+  filters: &220
     franchise: love_live
     not_anime_ids:
     - 21853
@@ -2039,12 +2044,12 @@
     - 52011
     - 57236
   threshold: 95.2%
-  metadata: &216
+  metadata: &221
     title_ru: Живая любовь!
     title_en: Love Live!
     image: "/assets/achievements/anime/franchise/love_live.jpg"
     topic_id: 247360
-  generator: &217
+  generator: &222
     not_ignored_ids:
     - 14951
     - 12637
@@ -2079,38 +2084,38 @@
 - neko_id: love_live
   level: 0
   algo: duration
-  filters: *215
+  filters: *220
   threshold: 0.01
-  metadata: *216
-  generator: *217
+  metadata: *221
+  generator: *222
 - neko_id: golden_kamuy
   level: 1
   algo: duration
-  filters: &218
+  filters: &223
     franchise: golden_kamuy
   threshold: 95%
-  metadata: &219
+  metadata: &224
     title_ru: Золотое божество
     title_en: Golden Kamuy
     image: "/assets/achievements/anime/franchise/golden_kamuy.jpg"
     topic_id: 247360
-  generator: &220
+  generator: &225
     ignore_latest_ids:
     - 37755
 - neko_id: golden_kamuy
   level: 0
   algo: duration
-  filters: *218
+  filters: *223
   threshold: 0.01
-  metadata: *219
-  generator: *220
+  metadata: *224
+  generator: *225
 - neko_id: non_non_biyori
   level: 1
   algo: duration
-  filters: &221
+  filters: &226
     franchise: non_non_biyori
   threshold: 95%
-  metadata: &222
+  metadata: &227
     title_ru: Деревенская глубинка
     title_en: Non Non Biyori
     image: "/assets/achievements/anime/franchise/non_non_biyori.jpg"
@@ -2118,43 +2123,43 @@
 - neko_id: non_non_biyori
   level: 0
   algo: duration
-  filters: *221
+  filters: *226
   threshold: 0.01
-  metadata: *222
+  metadata: *227
 - neko_id: ashita_no_joe
   level: 1
   algo: duration
-  filters: &223
+  filters: &228
     franchise: ashita_no_joe
     not_anime_ids:
     - 2920
     - 2922
     - 37703
   threshold: 94%
-  metadata: &224
+  metadata: &229
     title_ru: Завтрашний Джо
     title_en: Ashita no Joe
     image: "/assets/achievements/anime/franchise/ashita_no_joe.jpg"
     topic_id: 247360
-  generator: &225
+  generator: &230
     threshold: 94%
 - neko_id: ashita_no_joe
   level: 0
   algo: duration
-  filters: *223
+  filters: *228
   threshold: 0.01
-  metadata: *224
-  generator: *225
+  metadata: *229
+  generator: *230
 - neko_id: quanzhi_fashi
   level: 1
   algo: duration
-  filters: &226
+  filters: &231
     franchise: quanzhi_fashi
     not_anime_ids:
     - 44627
     - 44628
   threshold: 100%
-  metadata: &227
+  metadata: &232
     title_ru: Маг на полную ставку
     title_en: Quanzhi Fashi
     image: "/assets/achievements/anime/franchise/quanzhi_fashi.jpg"
@@ -2162,13 +2167,13 @@
 - neko_id: quanzhi_fashi
   level: 0
   algo: duration
-  filters: *226
+  filters: *231
   threshold: 0.01
-  metadata: *227
+  metadata: *232
 - neko_id: sailor_moon
   level: 1
   algo: duration
-  filters: &228
+  filters: &233
     franchise: sailor_moon
     not_anime_ids:
     - 8756
@@ -2177,12 +2182,12 @@
     - 50239
     - 55637
   threshold: 90%
-  metadata: &229
+  metadata: &234
     title_ru: Красавица-воин Сейлор Мун
     title_en: Bishoujo Senshi Sailor Moon
     image: "/assets/achievements/anime/franchise/sailor_moon.jpg"
     topic_id: 247360
-  generator: &230
+  generator: &235
     ignore_latest_ids:
     - 40024
     - 40429
@@ -2192,19 +2197,19 @@
 - neko_id: sailor_moon
   level: 0
   algo: duration
-  filters: *228
+  filters: *233
   threshold: 0.01
-  metadata: *229
-  generator: *230
+  metadata: *234
+  generator: *235
 - neko_id: junjou_romantica
   level: 1
   algo: duration
-  filters: &231
+  filters: &236
     franchise: junjou_romantica
     not_anime_ids:
     - 6553
   threshold: 95%
-  metadata: &232
+  metadata: &237
     title_ru: Чистая романтика
     title_en: Junjou Romantica
     image: "/assets/achievements/anime/franchise/junjou_romantica.jpg"
@@ -2212,13 +2217,13 @@
 - neko_id: junjou_romantica
   level: 0
   algo: duration
-  filters: *231
+  filters: *236
   threshold: 0.01
-  metadata: *232
+  metadata: *237
 - neko_id: pokemon
   level: 1
   algo: duration
-  filters: &233
+  filters: &238
     franchise: pokemon
     not_anime_ids:
     - 11009
@@ -2260,49 +2265,49 @@
     - 56064
     - 57199
   threshold: 93.7%
-  metadata: &234
+  metadata: &239
     title_ru: Покемон
     title_en: Pokemon
     image: "/assets/achievements/anime/franchise/pokemon.jpg"
     topic_id: 247360
-  generator: &235
+  generator: &240
     ignore_latest_ids:
     - 37966
 - neko_id: pokemon
   level: 0
   algo: duration
-  filters: *233
+  filters: *238
   threshold: 0.01
-  metadata: *234
-  generator: *235
+  metadata: *239
+  generator: *240
 - neko_id: karakai_jouzu_no_takagi_san
   level: 1
   algo: duration
-  filters: &236
+  filters: &241
     franchise: karakai_jouzu_no_takagi_san
   threshold: 100%
-  metadata: &237
+  metadata: &242
     title_ru: Озорная Такаги
     title_en: Karakai Jouzu no Takagi-san
     image: "/assets/achievements/anime/franchise/karakai_jouzu_no_takagi_san.jpg"
     topic_id: 247360
-  generator: &238
+  generator: &243
     ignore_latest_ids:
     - 49722
 - neko_id: karakai_jouzu_no_takagi_san
   level: 0
   algo: duration
-  filters: *236
+  filters: *241
   threshold: 0.01
-  metadata: *237
-  generator: *238
+  metadata: *242
+  generator: *243
 - neko_id: working
   level: 1
   algo: duration
-  filters: &239
+  filters: &244
     franchise: working
   threshold: 95.8%
-  metadata: &240
+  metadata: &245
     title_ru: Работа!!
     title_en: Working!!
     image: "/assets/achievements/anime/franchise/working.jpg"
@@ -2310,18 +2315,18 @@
 - neko_id: working
   level: 0
   algo: duration
-  filters: *239
+  filters: *244
   threshold: 0.01
-  metadata: *240
+  metadata: *245
 - neko_id: honzuki_no_gekokujou
   level: 1
   algo: duration
-  filters: &241
+  filters: &246
     franchise: honzuki_no_gekokujou
     not_anime_ids:
     - 51616
   threshold: 100%
-  metadata: &242
+  metadata: &247
     title_ru: Власть книжного червя
     title_en: Honzuki no Gekokujou
     image: "/assets/achievements/anime/franchise/honzuki_no_gekokujou.jpg"
@@ -2329,44 +2334,44 @@
 - neko_id: honzuki_no_gekokujou
   level: 0
   algo: duration
-  filters: *241
+  filters: *246
   threshold: 0.01
-  metadata: *242
+  metadata: *247
 - neko_id: baka_to_test_to_shoukanjuu
   level: 1
   algo: duration
-  filters: &243
+  filters: &248
     franchise: baka_to_test_to_shoukanjuu
     not_anime_ids:
     - 10834
     - 24727
     - 31298
   threshold: 98%
-  metadata: &244
+  metadata: &249
     title_ru: Дурни, тесты, аватары
     title_en: Baka to Test to Shoukanjuu
     image: "/assets/achievements/anime/franchise/baka_to_test_to_shoukanjuu.jpg"
     topic_id: 247360
-  generator: &245
+  generator: &250
     threshold: 98%
 - neko_id: baka_to_test_to_shoukanjuu
   level: 0
   algo: duration
-  filters: *243
+  filters: *248
   threshold: 0.01
-  metadata: *244
-  generator: *245
+  metadata: *249
+  generator: *250
 - neko_id: arslan_senki
   level: 1
   algo: duration
-  filters: &246
+  filters: &251
     franchise: arslan_senki
     not_anime_ids:
     - 30953
     - 31128
     - 36498
   threshold: 97.8%
-  metadata: &247
+  metadata: &252
     title_ru: Сказание об Арслане
     title_en: Arslan Senki
     image: "/assets/achievements/anime/franchise/arslan_senki.jpg"
@@ -2374,16 +2379,16 @@
 - neko_id: arslan_senki
   level: 0
   algo: duration
-  filters: *246
+  filters: *251
   threshold: 0.01
-  metadata: *247
+  metadata: *252
 - neko_id: ushio_to_tora
   level: 1
   algo: duration
-  filters: &248
+  filters: &253
     franchise: ushio_to_tora
   threshold: 100%
-  metadata: &249
+  metadata: &254
     title_ru: Усио и Тора
     title_en: Ushio to Tora
     image: "/assets/achievements/anime/franchise/ushio_to_tora.jpg"
@@ -2391,18 +2396,18 @@
 - neko_id: ushio_to_tora
   level: 0
   algo: duration
-  filters: *248
+  filters: *253
   threshold: 0.01
-  metadata: *249
+  metadata: *254
 - neko_id: jigoku_shoujo
   level: 1
   algo: duration
-  filters: &250
+  filters: &255
     franchise: jigoku_shoujo
     not_anime_ids:
     - 40667
   threshold: 100%
-  metadata: &251
+  metadata: &256
     title_ru: Адская девочка
     title_en: Jigoku Shoujo
     image: "/assets/achievements/anime/franchise/jigoku_shoujo.jpg"
@@ -2410,23 +2415,23 @@
 - neko_id: jigoku_shoujo
   level: 0
   algo: duration
-  filters: *250
+  filters: *255
   threshold: 0.01
-  metadata: *251
+  metadata: *256
 - neko_id: uta_no_prince_sama
   level: 1
   algo: duration
-  filters: &252
+  filters: &257
     franchise: uta_no_prince_sama
     not_anime_ids:
     - 39644
   threshold: 95%
-  metadata: &253
+  metadata: &258
     title_ru: Поющий принц
     title_en: Uta no☆Prince-sama♪
     image: "/assets/achievements/anime/franchise/uta_no_prince_sama.jpg"
     topic_id: 247360
-  generator: &254
+  generator: &259
     ignore_latest_ids:
     - 35645
     - 48573
@@ -2437,14 +2442,14 @@
 - neko_id: uta_no_prince_sama
   level: 0
   algo: duration
-  filters: *252
+  filters: *257
   threshold: 0.01
-  metadata: *253
-  generator: *254
+  metadata: *258
+  generator: *259
 - neko_id: shakugan_no_shana
   level: 1
   algo: duration
-  filters: &255
+  filters: &260
     franchise: shakugan_no_shana
     not_anime_ids:
     - 1815
@@ -2453,12 +2458,12 @@
     - 17551
     - 28603
   threshold: 95%
-  metadata: &256
+  metadata: &261
     title_ru: Пламенный взор Шаны
     title_en: Shakugan no Shana
     image: "/assets/achievements/anime/franchise/shakugan_no_shana.png"
     topic_id: 247360
-  generator: &257
+  generator: &262
     not_ignored_ids:
     - 1066
     - 3221
@@ -2467,41 +2472,41 @@
 - neko_id: shakugan_no_shana
   level: 0
   algo: duration
-  filters: *255
+  filters: *260
   threshold: 0.01
-  metadata: *256
-  generator: *257
+  metadata: *261
+  generator: *262
 - neko_id: hibike_euphonium
   level: 1
   algo: duration
-  filters: &258
+  filters: &263
     franchise: hibike_euphonium
     not_anime_ids:
     - 31989
     - 35082
     - 37577
   threshold: 85%
-  metadata: &259
+  metadata: &264
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
     image: "/assets/achievements/anime/franchise/hibike_euphonium.png"
     topic_id: 247360
-  generator: &260
+  generator: &265
     threshold: 85%
 - neko_id: hibike_euphonium
   level: 0
   algo: duration
-  filters: *258
+  filters: *263
   threshold: 0.01
-  metadata: *259
-  generator: *260
+  metadata: *264
+  generator: *265
 - neko_id: hajime_no_ippo
   level: 1
   algo: duration
-  filters: &261
+  filters: &266
     franchise: hajime_no_ippo
   threshold: 96.2%
-  metadata: &262
+  metadata: &267
     title_ru: Первый шаг
     title_en: Hajime no Ippo
     image: "/assets/achievements/anime/franchise/hajime_no_ippo.jpg"
@@ -2509,16 +2514,16 @@
 - neko_id: hajime_no_ippo
   level: 0
   algo: duration
-  filters: *261
+  filters: *266
   threshold: 0.01
-  metadata: *262
+  metadata: *267
 - neko_id: xxxholic
   level: 1
   algo: duration
-  filters: &263
+  filters: &268
     franchise: xxxholic
   threshold: 100%
-  metadata: &264
+  metadata: &269
     title_ru: Триплексоголик
     title_en: xxxHOLiC
     image: "/assets/achievements/anime/franchise/xxxholic.jpg"
@@ -2526,13 +2531,13 @@
 - neko_id: xxxholic
   level: 0
   algo: duration
-  filters: *263
+  filters: *268
   threshold: 0.01
-  metadata: *264
+  metadata: *269
 - neko_id: persona
   level: 1
   algo: duration
-  filters: &265
+  filters: &270
     franchise: persona
     not_anime_ids:
     - 14267
@@ -2541,7 +2546,7 @@
     - 32735
     - 38937
   threshold: 95%
-  metadata: &266
+  metadata: &271
     title_ru: Персона
     title_en: Persona
     image: "/assets/achievements/anime/franchise/persona.jpg"
@@ -2549,39 +2554,40 @@
 - neko_id: persona
   level: 0
   algo: duration
-  filters: *265
+  filters: *270
   threshold: 0.01
-  metadata: *266
+  metadata: *271
 - neko_id: rozen_maiden
   level: 1
   algo: duration
-  filters: &267
+  filters: &272
     franchise: rozen_maiden
   threshold: 94.1%
-  metadata: &268
+  metadata: &273
     title_ru: Девы Розена
     title_en: Rozen Maiden
     image: "/assets/achievements/anime/franchise/rozen_maiden.jpg"
     topic_id: 247360
-  generator: 
+  generator: &274
     threshold: 94.1%
 - neko_id: rozen_maiden
   level: 0
   algo: duration
-  filters: *267
+  filters: *272
   threshold: 0.01
-  metadata: *268
+  metadata: *273
+  generator: *274
 - neko_id: sayonara_zetsubou_sensei
   level: 1
   algo: duration
-  filters: &269
+  filters: &275
     franchise: sayonara_zetsubou_sensei
     not_anime_ids:
     - 3674
     - 8317
     - 42972
   threshold: 95%
-  metadata: &270
+  metadata: &276
     title_ru: Прощай, унылый учитель
     title_en: Sayonara Zetsubou Sensei
     image: "/assets/achievements/anime/franchise/sayonara_zetsubou_sensei.jpg"
@@ -2589,18 +2595,18 @@
 - neko_id: sayonara_zetsubou_sensei
   level: 0
   algo: duration
-  filters: *269
+  filters: *275
   threshold: 0.01
-  metadata: *270
+  metadata: *276
 - neko_id: amagami_ss
   level: 1
   algo: duration
-  filters: &271
+  filters: &277
     franchise: amagami_ss
     not_anime_ids:
     - 15951
   threshold: 96.6%
-  metadata: &272
+  metadata: &278
     title_ru: Нежный укус
     title_en: Amagami SS
     image: "/assets/achievements/anime/franchise/amagami_ss.jpg"
@@ -2608,18 +2614,18 @@
 - neko_id: amagami_ss
   level: 0
   algo: duration
-  filters: *271
+  filters: *277
   threshold: 0.01
-  metadata: *272
+  metadata: *278
 - neko_id: chihayafuru
   level: 1
   algo: duration
-  filters: &273
+  filters: &279
     franchise: chihayafuru
     not_anime_ids:
     - 41105
   threshold: 100%
-  metadata: &274
+  metadata: &280
     title_ru: Яркая Тихая
     title_en: Chihayafuru
     image: "/assets/achievements/anime/franchise/chihayafuru.jpg"
@@ -2627,18 +2633,18 @@
 - neko_id: chihayafuru
   level: 0
   algo: duration
-  filters: *273
+  filters: *279
   threshold: 0.01
-  metadata: *274
+  metadata: *280
 - neko_id: negima
   level: 1
   algo: duration
-  filters: &275
+  filters: &281
     franchise: negima
     not_anime_ids:
     - 34450
   threshold: 95%
-  metadata: &276
+  metadata: &282
     title_ru: Волшебный учитель Нэгима!
     title_en: Mahou Sensei Negima!
     image: "/assets/achievements/anime/franchise/negima.jpg"
@@ -2646,13 +2652,13 @@
 - neko_id: negima
   level: 0
   algo: duration
-  filters: *275
+  filters: *281
   threshold: 0.01
-  metadata: *276
+  metadata: *282
 - neko_id: gundam
   level: 1
   algo: duration
-  filters: &277
+  filters: &283
     franchise: gundam
     not_anime_ids:
     - 83
@@ -2715,12 +2721,12 @@
     - 55283
     - 55404
   threshold: 86.8%
-  metadata: &278
+  metadata: &284
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
     image: "/assets/achievements/anime/franchise/gundam.jpg"
     topic_id: 247360
-  generator: &279
+  generator: &285
     ignore_latest_ids:
     - 38714
     - 37765
@@ -2737,14 +2743,14 @@
 - neko_id: gundam
   level: 0
   algo: duration
-  filters: *277
+  filters: *283
   threshold: 0.01
-  metadata: *278
-  generator: *279
+  metadata: *284
+  generator: *285
 - neko_id: dragon_ball
   level: 1
   algo: duration
-  filters: &280
+  filters: &286
     franchise: dragon_ball
     not_anime_ids:
     - 6714
@@ -2759,12 +2765,12 @@
     - 48617
     - 52282
   threshold: 95.2%
-  metadata: &281
+  metadata: &287
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
     image: "/assets/achievements/anime/franchise/dragon_ball.png"
     topic_id: 247360
-  generator: &282
+  generator: &288
     ignore_latest_ids:
     - 48903
     not_ignored_ids:
@@ -2772,19 +2778,19 @@
 - neko_id: dragon_ball
   level: 0
   algo: duration
-  filters: *280
+  filters: *286
   threshold: 0.01
-  metadata: *281
-  generator: *282
+  metadata: *287
+  generator: *288
 - neko_id: hakuouki
   level: 1
   algo: duration
-  filters: &283
+  filters: &289
     franchise: hakuouki
     not_anime_ids:
     - 9723
   threshold: 95%
-  metadata: &284
+  metadata: &290
     title_ru: Сказание о демонах сакуры
     title_en: Hakuouki
     image: "/assets/achievements/anime/franchise/hakuouki.jpg"
@@ -2792,33 +2798,33 @@
 - neko_id: hakuouki
   level: 0
   algo: duration
-  filters: *283
+  filters: *289
   threshold: 0.01
-  metadata: *284
+  metadata: *290
 - neko_id: hoozuki_no_reitetsu
   level: 1
   algo: duration
-  filters: &285
+  filters: &291
     franchise: hoozuki_no_reitetsu
   threshold: 92%
-  metadata: &286
+  metadata: &292
     title_ru: Хладнокровный Хозуки
     title_en: Hoozuki no Reitetsu
     image: "/assets/achievements/anime/franchise/hoozuki_no_reitetsu.jpg"
     topic_id: 247360
-  generator: &287
+  generator: &293
     threshold: 92%
 - neko_id: hoozuki_no_reitetsu
   level: 0
   algo: duration
-  filters: *285
+  filters: *291
   threshold: 0.01
-  metadata: *286
-  generator: *287
+  metadata: *292
+  generator: *293
 - neko_id: baku_tech_bakugan
   level: 1
   algo: duration
-  filters: &288
+  filters: &294
     franchise: baku_tech_bakugan
     not_anime_ids:
     - 13143
@@ -2826,7 +2832,7 @@
     - 33708
     - 40395
   threshold: 90%
-  metadata: &289
+  metadata: &295
     title_ru: Бакуган
     title_en: Bakugan
     image: "/assets/achievements/anime/franchise/baku_tech_bakugan.jpg"
@@ -2834,19 +2840,19 @@
 - neko_id: baku_tech_bakugan
   level: 0
   algo: duration
-  filters: *288
+  filters: *294
   threshold: 0.01
-  metadata: *289
+  metadata: *295
 - neko_id: yuru_yuri
   level: 1
   algo: duration
-  filters: &290
+  filters: &296
     franchise: yuru_yuri
     not_anime_ids:
     - 12665
     - 40369
   threshold: 95%
-  metadata: &291
+  metadata: &297
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
     image: "/assets/achievements/anime/franchise/yuru_yuri.jpg"
@@ -2854,18 +2860,18 @@
 - neko_id: yuru_yuri
   level: 0
   algo: duration
-  filters: *290
+  filters: *296
   threshold: 0.01
-  metadata: *291
+  metadata: *297
 - neko_id: yi_ren_zhi_xia
   level: 1
   algo: duration
-  filters: &292
+  filters: &298
     franchise: yi_ren_zhi_xia
     not_anime_ids:
     - 37090
   threshold: 100%
-  metadata: &293
+  metadata: &299
     title_ru: 'Один из отвергнутых: Изгой'
     title_en: 'Hitori no Shita: The Outcast'
     image: "/assets/achievements/anime/franchise/yi_ren_zhi_xia.jpg"
@@ -2873,13 +2879,13 @@
 - neko_id: yi_ren_zhi_xia
   level: 0
   algo: duration
-  filters: *292
+  filters: *298
   threshold: 0.01
-  metadata: *293
+  metadata: *299
 - neko_id: tenchi_muyou
   level: 1
   algo: duration
-  filters: &294
+  filters: &300
     franchise: tenchi_muyou
     not_anime_ids:
     - 1503
@@ -2888,7 +2894,7 @@
     - 37789
     - 40779
   threshold: 90%
-  metadata: &295
+  metadata: &301
     title_ru: Тэнти — лишний!
     title_en: Tenchi Muyou!
     image: "/assets/achievements/anime/franchise/tenchi_muyou.jpg"
@@ -2896,13 +2902,13 @@
 - neko_id: tenchi_muyou
   level: 0
   algo: duration
-  filters: *294
+  filters: *300
   threshold: 0.01
-  metadata: *295
+  metadata: *301
 - neko_id: lupin_iii
   level: 1
   algo: duration
-  filters: &296
+  filters: &302
     franchise: lupin_iii
     not_anime_ids:
     - 5343
@@ -2913,90 +2919,90 @@
     - 53109
     - 53183
   threshold: 80%
-  metadata: &297
+  metadata: &303
     title_ru: Люпен III
     title_en: Lupin III
     image: "/assets/achievements/anime/franchise/lupin_iii.png"
     topic_id: 247360
-  generator: &298
+  generator: &304
     ignore_latest_ids:
     - 39487
     - 40082
 - neko_id: lupin_iii
   level: 0
   algo: duration
-  filters: *296
+  filters: *302
   threshold: 0.01
-  metadata: *297
-  generator: *298
+  metadata: *303
+  generator: *304
 - neko_id: yowamushi_pedal
   level: 1
   algo: duration
-  filters: &299
+  filters: &305
     franchise: yowamushi_pedal
     not_anime_ids:
     - 25755
     - 30790
     - 35880
   threshold: 95%
-  metadata: &300
+  metadata: &306
     title_ru: Трусливый велосипедист
     title_en: Yowamushi Pedal
     image: "/assets/achievements/anime/franchise/yowamushi_pedal.jpg"
     topic_id: 247360
+- neko_id: yowamushi_pedal
+  level: 0
+  algo: duration
+  filters: *305
+  threshold: 0.01
+  metadata: *306
 - neko_id: terra_formars
   level: 1
   algo: duration
-  filters: &301
+  filters: &307
     franchise: terra_formars
   threshold: 100%
-  metadata: &302
+  metadata: &308
     title_ru: Терраформирование
     title_en: Terra Formars
     image: "/assets/achievements/anime/franchise/terra_formars.jpg"
     topic_id: 247360
-- neko_id: yowamushi_pedal
-  level: 0
-  algo: duration
-  filters: *299
-  threshold: 0.01
-  metadata: *300
 - neko_id: terra_formars
   level: 0
   algo: duration
-  filters: *301
+  filters: *307
   threshold: 0.01
-  metadata: *302
+  metadata: *308
 - neko_id: hetalia
   level: 1
   algo: duration
-  filters: &303
+  filters: &309
     franchise: hetalia
   threshold: 90%
-  metadata: &304
+  metadata: &310
     title_ru: Хеталия
     title_en: Hetalia
     image: "/assets/achievements/anime/franchise/hetalia.jpg"
     topic_id: 247360
-  generator: &305
+  generator: &311
     threshold: 90%
 - neko_id: hetalia
   level: 0
   algo: duration
-  filters: *303
+  filters: *309
   threshold: 0.01
-  metadata: *304
-  generator: *305
+  metadata: *310
+  generator: *311
 - neko_id: garo
   level: 1
   algo: duration
-  filters: &306
+  filters: &312
     franchise: garo
     not_anime_ids:
     - 33846
     - 34613
   threshold: 95%
-  metadata: &307
+  metadata: &313
     title_ru: Гаро
     title_en: Garo
     image: "/assets/achievements/anime/franchise/garo.jpg"
@@ -3004,39 +3010,39 @@
 - neko_id: garo
   level: 0
   algo: duration
-  filters: *306
+  filters: *312
   threshold: 0.01
-  metadata: *307
+  metadata: *313
 - neko_id: nodame_cantabile
   level: 1
   algo: duration
-  filters: &308
+  filters: &314
     franchise: nodame_cantabile
   threshold: 94.2%
-  metadata: &309
+  metadata: &315
     title_ru: Нодамэ Кантабиле
     title_en: Nodame Cantabile
     image: "/assets/achievements/anime/franchise/nodame_cantabile.jpg"
     topic_id: 247360
-  generator: &310
+  generator: &316
     not_ignored_ids:
     - 5656
 - neko_id: nodame_cantabile
   level: 0
   algo: duration
-  filters: *308
+  filters: *314
   threshold: 0.01
-  metadata: *309
-  generator: *310
+  metadata: *315
+  generator: *316
 - neko_id: inuyasha
   level: 1
   algo: duration
-  filters: &311
+  filters: &317
     franchise: inuyasha
     not_anime_ids:
     - 31133
   threshold: 93.3%
-  metadata: &312
+  metadata: &318
     title_ru: Инуяся
     title_en: InuYasha
     image: "/assets/achievements/anime/franchise/inuyasha.jpg"
@@ -3044,20 +3050,20 @@
 - neko_id: inuyasha
   level: 0
   algo: duration
-  filters: *311
+  filters: *317
   threshold: 0.01
-  metadata: *312
+  metadata: *318
 - neko_id: utawarerumono
   level: 1
   algo: duration
-  filters: &313
+  filters: &319
     franchise: utawarerumono
     not_anime_ids:
     - 6226
     - 6743
     - 33208
   threshold: 96%
-  metadata: &314
+  metadata: &320
     title_ru: Прославленный
     title_en: Utawarerumono
     image: "/assets/achievements/anime/franchise/utawarerumono.jpg"
@@ -3065,13 +3071,13 @@
 - neko_id: utawarerumono
   level: 0
   algo: duration
-  filters: *313
+  filters: *319
   threshold: 0.01
-  metadata: *314
+  metadata: *320
 - neko_id: detective_conan
   level: 1
   algo: duration
-  filters: &315
+  filters: &321
     franchise: detective_conan
     not_anime_ids:
     - 1369
@@ -3102,12 +3108,12 @@
     - 55134
     - 57441
   threshold: 93.3%
-  metadata: &316
+  metadata: &322
     title_ru: Детектив Конан
     title_en: Detective Conan
     image: "/assets/achievements/anime/franchise/detective_conan.jpg"
     topic_id: 247360
-  generator: &317
+  generator: &323
     ignore_latest_ids:
     - 38770
     - 49320
@@ -3119,22 +3125,22 @@
 - neko_id: detective_conan
   level: 0
   algo: duration
-  filters: *315
+  filters: *321
   threshold: 0.01
-  metadata: *316
-  generator: *317
+  metadata: *322
+  generator: *323
 - neko_id: ginga_eiyuu_densetsu
   level: 1
   algo: duration
-  filters: &318
+  filters: &324
     franchise: ginga_eiyuu_densetsu
   threshold: 90.9%
-  metadata: &319
+  metadata: &325
     title_ru: Легенда о героях Галактики
     title_en: Ginga Eiyuu Densetsu
     image: "/assets/achievements/anime/franchise/ginga_eiyuu_densetsu.jpg"
     topic_id: 247360
-  generator: &320
+  generator: &326
     ignore_latest_ids:
     - 36371
     - 36370
@@ -3144,14 +3150,14 @@
 - neko_id: ginga_eiyuu_densetsu
   level: 0
   algo: duration
-  filters: *318
+  filters: *324
   threshold: 0.01
-  metadata: *319
-  generator: *320
+  metadata: *325
+  generator: *326
 - neko_id: macross
   level: 1
   algo: duration
-  filters: &321
+  filters: &327
     franchise: macross
     not_anime_ids:
     - 1211
@@ -3167,29 +3173,29 @@
     - 38676
     - 42748
   threshold: 95%
-  metadata: &322
+  metadata: &328
     title_ru: Макросс
     title_en: Macross
     image: "/assets/achievements/anime/franchise/macross.jpg"
     topic_id: 247360
-  generator: &323
+  generator: &329
     ignore_latest_ids:
     - 38373
     - 47409
 - neko_id: macross
   level: 0
   algo: duration
-  filters: *321
+  filters: *327
   threshold: 0.01
-  metadata: *322
-  generator: *323
+  metadata: *328
+  generator: *329
 - neko_id: gochuumon_wa_usagi_desu_ka
   level: 1
   algo: duration
-  filters: &324
+  filters: &330
     franchise: gochuumon_wa_usagi_desu_ka
   threshold: 100%
-  metadata: &325
+  metadata: &331
     title_ru: Заказывали кролика?
     title_en: Gochuumon wa Usagi Desu ka?
     image: "/assets/achievements/anime/franchise/gochuumon_wa_usagi_desu_ka.jpg"
@@ -3197,47 +3203,54 @@
 - neko_id: gochuumon_wa_usagi_desu_ka
   level: 0
   algo: duration
-  filters: *324
+  filters: *330
   threshold: 0.01
-  metadata: *325
+  metadata: *331
 - neko_id: little_busters
   level: 1
   algo: duration
-  filters: &326
+  filters: &332
     franchise: little_busters
   threshold: 100%
-  metadata: &327
+  metadata: &333
     title_ru: Маленькие проказники!
     title_en: Little Busters!
     image: "/assets/achievements/anime/franchise/little_busters.jpg"
     topic_id: 247360
-  generator: &328
+  generator: &334
     ignore_latest_ids:
     - 35960
 - neko_id: little_busters
   level: 0
   algo: duration
-  filters: *326
+  filters: *332
   threshold: 0.01
-  metadata: *327
-  generator: *328
+  metadata: *333
+  generator: *334
 - neko_id: kingdom
   level: 1
   algo: duration
-  filters: &331
+  filters: &335
     franchise: kingdom
   threshold: 98.5%
-  metadata: &332
+  metadata: &336
     title_ru: Царство
     title_en: Kingdom
     image: "/assets/achievements/anime/franchise/kingdom.jpg"
     topic_id: 247360
-  generator: 
+  generator: &337
     threshold: 98.5%
+- neko_id: kingdom
+  level: 0
+  algo: duration
+  filters: *335
+  threshold: 0.01
+  metadata: *336
+  generator: *337
 - neko_id: ginga_tetsudou
   level: 1
   algo: duration
-  filters: &329
+  filters: &338
     franchise: ginga_tetsudou
     not_anime_ids:
     - 6653
@@ -3257,7 +3270,7 @@
     - 56972
     - 57602
   threshold: 90%
-  metadata: &330
+  metadata: &339
     title_ru: Галактический экспресс 999
     title_en: Ginga Tetsudou 999
     image: "/assets/achievements/anime/franchise/ginga_tetsudou.jpg"
@@ -3265,49 +3278,43 @@
 - neko_id: ginga_tetsudou
   level: 0
   algo: duration
-  filters: *329
+  filters: *338
   threshold: 0.01
-  metadata: *330
-- neko_id: kingdom
-  level: 0
-  algo: duration
-  filters: *331
-  threshold: 0.01
-  metadata: *332
+  metadata: *339
 - neko_id: eureka_seven
   level: 1
   algo: duration
-  filters: &333
+  filters: &340
     franchise: eureka_seven
     not_anime_ids:
     - 1631
     - 15979
     - 55328
   threshold: 95%
-  metadata: &334
+  metadata: &341
     title_ru: Эврика 7
     title_en: Eureka Seven
     image: "/assets/achievements/anime/franchise/eureka_seven.jpg"
     topic_id: 247360
-  generator: &335
+  generator: &342
     ignore_latest_ids:
     - 35136
 - neko_id: eureka_seven
   level: 0
   algo: duration
-  filters: *333
+  filters: *340
   threshold: 0.01
-  metadata: *334
-  generator: *335
+  metadata: *341
+  generator: *342
 - neko_id: slayers
   level: 1
   algo: duration
-  filters: &336
+  filters: &343
     franchise: slayers
     not_anime_ids:
     - 40112
   threshold: 95%
-  metadata: &337
+  metadata: &344
     title_ru: Рубаки
     title_en: Slayers
     image: "/assets/achievements/anime/franchise/slayers.jpg"
@@ -3315,13 +3322,13 @@
 - neko_id: slayers
   level: 0
   algo: duration
-  filters: *336
+  filters: *343
   threshold: 0.01
-  metadata: *337
+  metadata: *344
 - neko_id: schwarzesmarken
   level: 1
   algo: duration
-  filters: &338
+  filters: &345
     franchise: schwarzesmarken
     not_anime_ids:
     - 16335
@@ -3329,7 +3336,7 @@
     - 54748
     - 54749
   threshold: 100%
-  metadata: &339
+  metadata: &346
     title_ru: 'Мув-Лув: Альтернатива'
     title_en: Muv-Luv Alternative
     image: "/assets/achievements/anime/franchise/schwarzesmarken.jpg"
@@ -3337,86 +3344,86 @@
 - neko_id: schwarzesmarken
   level: 0
   algo: duration
-  filters: *338
+  filters: *345
   threshold: 0.01
-  metadata: *339
+  metadata: *346
 - neko_id: dog_days
   level: 1
   algo: duration
-  filters: &340
+  filters: &347
     franchise: dog_days
     not_anime_ids:
     - 29413
     - 31967
   threshold: 100%
-  metadata: &341
+  metadata: &348
     title_ru: Собачьи дни
     title_en: Dog Days
     image: "/assets/achievements/anime/franchise/dog_days.jpg"
     topic_id: 247360
-  generator: &342
+  generator: &349
     threshold: 100%
 - neko_id: dog_days
   level: 0
   algo: duration
-  filters: *340
+  filters: *347
   threshold: 0.01
-  metadata: *341
-  generator: *342
+  metadata: *348
+  generator: *349
 - neko_id: brave_witches
   level: 1
   algo: duration
-  filters: &343
+  filters: &350
     franchise: brave_witches
     not_anime_ids:
     - 52748
   threshold: 95%
-  metadata: &344
+  metadata: &351
     title_ru: Штурмовые ведьмы
     title_en: Strike Witches
     image: "/assets/achievements/anime/franchise/brave_witches.jpg"
     topic_id: 247360
-  generator: &345
+  generator: &352
     ignore_latest_ids:
     - 39987
 - neko_id: brave_witches
   level: 0
   algo: duration
-  filters: *343
+  filters: *350
   threshold: 0.01
-  metadata: *344
-  generator: *345
+  metadata: *351
+  generator: *352
 - neko_id: selector_spread_wixoss
   level: 1
   algo: duration
-  filters: &346
+  filters: &353
     franchise: selector_spread_wixoss
     not_anime_ids:
     - 27613
     - 36083
   threshold: 100%
-  metadata: &347
+  metadata: &354
     title_ru: WIXOSS
     title_en: WIXOSS
     image: "/assets/achievements/anime/franchise/selector_spread_wixoss.jpg"
     topic_id: 247360
-  generator: &348
+  generator: &355
     not_ignored_ids:
     - 31280
 - neko_id: selector_spread_wixoss
   level: 0
   algo: duration
-  filters: *346
+  filters: *353
   threshold: 0.01
-  metadata: *347
-  generator: *348
+  metadata: *354
+  generator: *355
 - neko_id: diamond_no_ace
   level: 1
   algo: duration
-  filters: &349
+  filters: &356
     franchise: diamond_no_ace
   threshold: 98.9%
-  metadata: &350
+  metadata: &357
     title_ru: Путь аса
     title_en: Diamond no Ace
     image: "/assets/achievements/anime/franchise/diamond_no_ace.jpg"
@@ -3424,18 +3431,18 @@
 - neko_id: diamond_no_ace
   level: 0
   algo: duration
-  filters: *349
+  filters: *356
   threshold: 0.01
-  metadata: *350
+  metadata: *357
 - neko_id: tiger_bunny
   level: 1
   algo: duration
-  filters: &351
+  filters: &358
     franchise: tiger_bunny
     not_anime_ids:
     - 30178
   threshold: 94.9%
-  metadata: &352
+  metadata: &359
     title_ru: Тигр и кролик
     title_en: Tiger & Bunny
     image: "/assets/achievements/anime/franchise/tiger_bunny.jpg"
@@ -3443,39 +3450,39 @@
 - neko_id: tiger_bunny
   level: 0
   algo: duration
-  filters: *351
+  filters: *358
   threshold: 0.01
-  metadata: *352
+  metadata: *359
 - neko_id: ikkitousen
   level: 1
   algo: duration
-  filters: &353
+  filters: &360
     franchise: ikkitousen
   threshold: 95%
-  metadata: &354
+  metadata: &361
     title_ru: Сила тысячи
     title_en: Ikkitousen
     image: "/assets/achievements/anime/franchise/ikkitousen.jpg"
     topic_id: 247360
-  generator: &355
+  generator: &362
     not_ignored_ids:
     - 8507
 - neko_id: ikkitousen
   level: 0
   algo: duration
-  filters: *353
+  filters: *360
   threshold: 0.01
-  metadata: *354
-  generator: *355
+  metadata: *361
+  generator: *362
 - neko_id: sonic
   level: 1
   algo: duration
-  filters: &356
+  filters: &363
     franchise: sonic
     not_anime_ids:
     - 10263
   threshold: 100%
-  metadata: &357
+  metadata: &364
     title_ru: Соник
     title_en: Sonic
     image: "/assets/achievements/anime/franchise/sonic.jpg"
@@ -3483,13 +3490,13 @@
 - neko_id: sonic
   level: 0
   algo: duration
-  filters: *356
+  filters: *363
   threshold: 0.01
-  metadata: *357
+  metadata: *364
 - neko_id: osomatsu_san
   level: 1
   algo: duration
-  filters: &358
+  filters: &365
     franchise: osomatsu_san
     not_anime_ids:
     - 6468
@@ -3519,12 +3526,12 @@
     - 48409
     - 51266
   threshold: 90%
-  metadata: &359
+  metadata: &366
     title_ru: Осомацу
     title_en: Osomatsu
     image: "/assets/achievements/anime/franchise/osomatsu_san.jpg"
     topic_id: 247360
-  generator: &360
+  generator: &367
     ignore_latest_ids:
     - 38201
     - 49119
@@ -3532,17 +3539,17 @@
 - neko_id: osomatsu_san
   level: 0
   algo: duration
-  filters: *358
+  filters: *365
   threshold: 0.01
-  metadata: *359
-  generator: *360
+  metadata: *366
+  generator: *367
 - neko_id: minami_ke
   level: 1
   algo: duration
-  filters: &361
+  filters: &368
     franchise: minami_ke
   threshold: 95%
-  metadata: &362
+  metadata: &369
     title_ru: Сёстры Минами
     title_en: Minami-ke
     image: "/assets/achievements/anime/franchise/minami_ke.jpg"
@@ -3550,19 +3557,19 @@
 - neko_id: minami_ke
   level: 0
   algo: duration
-  filters: *361
+  filters: *368
   threshold: 0.01
-  metadata: *362
+  metadata: *369
 - neko_id: slam_dunk
   level: 1
   algo: duration
-  filters: &363
+  filters: &370
     franchise: slam_dunk
     not_anime_ids:
     - 45649
     - 52159
   threshold: 98.7%
-  metadata: &364
+  metadata: &371
     title_ru: Слэм-данк
     title_en: Slam Dunk
     image: "/assets/achievements/anime/franchise/slam_dunk.jpg"
@@ -3571,19 +3578,19 @@
 - neko_id: slam_dunk
   level: 0
   algo: duration
-  filters: *363
+  filters: *370
   threshold: 0.01
-  metadata: *364
+  metadata: *371
   generator:
 - neko_id: yozakura_quartet
   level: 1
   algo: duration
-  filters: &365
+  filters: &372
     franchise: yozakura_quartet
     not_anime_ids:
     - 32861
   threshold: 99.2%
-  metadata: &366
+  metadata: &373
     title_ru: Вишнёвый квартет
     title_en: Yozakura Quartet
     image: "/assets/achievements/anime/franchise/yozakura_quartet.png"
@@ -3591,16 +3598,16 @@
 - neko_id: yozakura_quartet
   level: 0
   algo: duration
-  filters: *365
+  filters: *372
   threshold: 0.01
-  metadata: *366
+  metadata: *373
 - neko_id: koneko_no_chi
   level: 1
   algo: duration
-  filters: &367
+  filters: &374
     franchise: koneko_no_chi
   threshold: 100%
-  metadata: &368
+  metadata: &375
     title_ru: Милый дом Чи
     title_en: Chi's Sweet Home
     image: "/assets/achievements/anime/franchise/koneko_no_chi.jpg"
@@ -3608,16 +3615,16 @@
 - neko_id: koneko_no_chi
   level: 0
   algo: duration
-  filters: *367
+  filters: *374
   threshold: 0.01
-  metadata: *368
+  metadata: *375
 - neko_id: tsubasa
   level: 1
   algo: duration
-  filters: &369
+  filters: &376
     franchise: tsubasa
   threshold: 100%
-  metadata: &370
+  metadata: &377
     title_ru: Хроника крыльев
     title_en: Tsubasa Chronicle
     image: "/assets/achievements/anime/franchise/tsubasa.jpg"
@@ -3625,13 +3632,13 @@
 - neko_id: tsubasa
   level: 0
   algo: duration
-  filters: *369
+  filters: *376
   threshold: 0.01
-  metadata: *370
+  metadata: *377
 - neko_id: black_jack
   level: 1
   algo: duration
-  filters: &371
+  filters: &378
     franchise: black_jack
     not_anime_ids:
     - 4941
@@ -3639,7 +3646,7 @@
     - 18669
     - 42400
   threshold: 95%
-  metadata: &372
+  metadata: &379
     title_ru: Черный Джек
     title_en: Black Jack
     image: "/assets/achievements/anime/franchise/black_jack.jpg"
@@ -3647,16 +3654,16 @@
 - neko_id: black_jack
   level: 0
   algo: duration
-  filters: *371
+  filters: *378
   threshold: 0.01
-  metadata: *372
+  metadata: *379
 - neko_id: aa_megami_sama
   level: 1
   algo: duration
-  filters: &373
+  filters: &380
     franchise: aa_megami_sama
   threshold: 93.8%
-  metadata: &374
+  metadata: &381
     title_ru: Моя богиня!
     title_en: Aa! Megami-sama!
     image: "/assets/achievements/anime/franchise/aa_megami_sama.jpg"
@@ -3664,18 +3671,18 @@
 - neko_id: aa_megami_sama
   level: 0
   algo: duration
-  filters: *373
+  filters: *380
   threshold: 0.01
-  metadata: *374
+  metadata: *381
 - neko_id: cardcaptor_sakura
   level: 1
   algo: duration
-  filters: &375
+  filters: &382
     franchise: cardcaptor_sakura
     not_anime_ids:
     - 37595
   threshold: 97.9%
-  metadata: &376
+  metadata: &383
     title_ru: Сакура — собирательница карт
     title_en: Cardcaptor Sakura
     image: "/assets/achievements/anime/franchise/cardcaptor_sakura.jpg"
@@ -3683,18 +3690,18 @@
 - neko_id: cardcaptor_sakura
   level: 0
   algo: duration
-  filters: *375
+  filters: *382
   threshold: 0.01
-  metadata: *376
+  metadata: *383
 - neko_id: genshiken
   level: 1
   algo: duration
-  filters: &377
+  filters: &384
     franchise: genshiken
     not_anime_ids:
     - 7882
   threshold: 95%
-  metadata: &378
+  metadata: &385
     title_ru: Гэнсикэн
     title_en: Genshiken
     image: "/assets/achievements/anime/franchise/genshiken.jpg"
@@ -3702,37 +3709,37 @@
 - neko_id: genshiken
   level: 0
   algo: duration
-  filters: *377
+  filters: *384
   threshold: 0.01
-  metadata: *378
+  metadata: *385
 - neko_id: school_rumble
   level: 1
   algo: duration
-  filters: &379
+  filters: &386
     franchise: school_rumble
   threshold: 100%
-  metadata: &380
+  metadata: &387
     title_ru: Школьный переполох
     title_en: School Rumble
     image: "/assets/achievements/anime/franchise/school_rumble.jpg"
     topic_id: 247360
-  generator: &381
+  generator: &388
     not_ignored_ids:
     - 4015
 - neko_id: school_rumble
   level: 0
   algo: duration
-  filters: *379
+  filters: *386
   threshold: 0.01
-  metadata: *380
-  generator: *381
+  metadata: *387
+  generator: *388
 - neko_id: zhen_hun_jie
   level: 1
   algo: duration
-  filters: &382
+  filters: &389
     franchise: zhen_hun_jie
   threshold: 100%
-  metadata: &383
+  metadata: &390
     title_ru: Улица демонов
     title_en: Zhen Hun Jie
     image: "/assets/achievements/anime/franchise/zhen_hun_jie.jpg"
@@ -3740,19 +3747,19 @@
 - neko_id: zhen_hun_jie
   level: 0
   algo: duration
-  filters: *382
+  filters: *389
   threshold: 0.01
-  metadata: *383
+  metadata: *390
 - neko_id: jashin_chan_dropkick
   level: 1
   algo: duration
-  filters: &384
+  filters: &391
     franchise: jashin_chan_dropkick
     not_anime_ids:
     - 52006
     - 52649
   threshold: 97.2%
-  metadata: &385
+  metadata: &392
     title_ru: Дропкик злого духа
     title_en: Jashin-chan Dropkick
     image: "/assets/achievements/anime/franchise/jashin_chan_dropkick.jpg"
@@ -3760,19 +3767,19 @@
 - neko_id: jashin_chan_dropkick
   level: 0
   algo: duration
-  filters: *384
+  filters: *391
   threshold: 0.01
-  metadata: *385
+  metadata: *392
 - neko_id: uma_musume
   level: 1
   algo: duration
-  filters: &386
+  filters: &393
     franchise: uma_musume
     not_anime_ids:
     - 34453
     - 55392
   threshold: 85.7%
-  metadata: &387
+  metadata: &394
     title_ru: Девушки-пони
     title_en: Uma Musume
     image: "/assets/achievements/anime/franchise/uma_musume.jpg"
@@ -3780,18 +3787,18 @@
 - neko_id: uma_musume
   level: 0
   algo: duration
-  filters: *386
+  filters: *393
   threshold: 0.01
-  metadata: *387
+  metadata: *394
 - neko_id: hayate_no_gotoku
   level: 1
   algo: duration
-  filters: &388
+  filters: &395
     franchise: hayate_no_gotoku
     not_anime_ids:
     - 52687
   threshold: 95%
-  metadata: &389
+  metadata: &396
     title_ru: Боевой дворецкий Хаятэ!
     title_en: Hayate no Gotoku!
     image: "/assets/achievements/anime/franchise/hayate_no_gotoku.jpg"
@@ -3799,16 +3806,16 @@
 - neko_id: hayate_no_gotoku
   level: 0
   algo: duration
-  filters: *388
+  filters: *395
   threshold: 0.01
-  metadata: *389
+  metadata: *396
 - neko_id: aggressive_retsuko
   level: 1
   algo: duration
-  filters: &390
+  filters: &397
     franchise: aggressive_retsuko
   threshold: 95%
-  metadata: &391
+  metadata: &398
     title_ru: Агрессивная Рэцуко
     title_en: Aggressive Retsuko
     image: "/assets/achievements/anime/franchise/aggressive_retsuko.jpg"
@@ -3816,13 +3823,13 @@
 - neko_id: aggressive_retsuko
   level: 0
   algo: duration
-  filters: *390
+  filters: *397
   threshold: 0.01
-  metadata: *391
+  metadata: *398
 - neko_id: idolmaster
   level: 1
   algo: duration
-  filters: &392
+  filters: &399
     franchise: idolmaster
     not_anime_ids:
     - 3406
@@ -3850,7 +3857,7 @@
     - 55393
     - 55517
   threshold: 86.4%
-  metadata: &393
+  metadata: &400
     title_ru: Идолмастер
     title_en: The iDOLM@STER
     image: "/assets/achievements/anime/franchise/idolmaster.jpg"
@@ -3858,20 +3865,20 @@
 - neko_id: idolmaster
   level: 0
   algo: duration
-  filters: *392
+  filters: *399
   threshold: 0.01
-  metadata: *393
+  metadata: *400
 - neko_id: sengoku_basara
   level: 1
   algo: duration
-  filters: &394
+  filters: &401
     franchise: sengoku_basara
     not_anime_ids:
     - 7857
     - 9630
     - 18549
   threshold: 95%
-  metadata: &395
+  metadata: &402
     title_ru: Эпоха смут
     title_en: Sengoku Basara
     image: "/assets/achievements/anime/franchise/sengoku_basara.jpg"
@@ -3879,37 +3886,37 @@
 - neko_id: sengoku_basara
   level: 0
   algo: duration
-  filters: *394
+  filters: *401
   threshold: 0.01
-  metadata: *395
+  metadata: *402
 - neko_id: touken_ranbu
   level: 1
   algo: duration
-  filters: &396
+  filters: &403
     franchise: touken_ranbu
     not_anime_ids:
     - 36444
     - 40124
   threshold: 100%
-  metadata: &397
+  metadata: &404
     title_ru: Танец мечей
     title_en: Touken Ranbu
     image: "/assets/achievements/anime/franchise/touken_ranbu.jpg"
     topic_id: 247360
-  generator: &398
+  generator: &405
     ignore_latest_ids:
     - 36419
 - neko_id: touken_ranbu
   level: 0
   algo: duration
-  filters: *396
+  filters: *403
   threshold: 0.01
-  metadata: *397
-  generator: *398
+  metadata: *404
+  generator: *405
 - neko_id: tennis_no_ouji_sama
   level: 1
   algo: duration
-  filters: &399
+  filters: &406
     franchise: tennis_no_ouji_sama
     not_anime_ids:
     - 5996
@@ -3923,54 +3930,54 @@
     - 36952
     - 42602
   threshold: 90%
-  metadata: &400
+  metadata: &407
     title_ru: Принц тенниса
     title_en: Tennis no Ouji-sama
     image: "/assets/achievements/anime/franchise/tennis_no_ouji_sama.jpg"
     topic_id: 247360
-  generator: &401
+  generator: &408
     ignore_latest_ids:
     - 38882
 - neko_id: tennis_no_ouji_sama
   level: 0
   algo: duration
-  filters: *399
+  filters: *406
   threshold: 0.01
-  metadata: *400
-  generator: *401
+  metadata: *407
+  generator: *408
 - neko_id: kiniro_no_corda
   level: 1
   algo: duration
-  filters: &402
+  filters: &409
     franchise: kiniro_no_corda
   threshold: 100%
-  metadata: &403
+  metadata: &410
     title_ru: Золотая струна
     title_en: Kiniro no Corda
     image: "/assets/achievements/anime/franchise/kiniro_no_corda.jpg"
     topic_id: 247360
-  generator: &404
+  generator: &411
     threshold: 100%
 - neko_id: kiniro_no_corda
   level: 0
   algo: duration
-  filters: *402
+  filters: *409
   threshold: 0.01
-  metadata: *403
-  generator: *404
+  metadata: *410
+  generator: *411
 - neko_id: urusei_yatsura
   level: 1
   algo: duration
-  filters: &405
+  filters: &412
     franchise: urusei_yatsura
     not_anime_ids:
     - 53402
     - 53433
-  generator: &406
+  generator: &413
     not_ignored_ids:
     - 1481
   threshold: 93.3%
-  metadata: &407
+  metadata: &414
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
     image: "/assets/achievements/anime/franchise/urusei_yatsura.jpg"
@@ -3978,21 +3985,21 @@
 - neko_id: urusei_yatsura
   level: 0
   algo: duration
-  filters: *405
-  generator: *406
+  filters: *412
+  generator: *413
   threshold: 0.01
-  metadata: *407
+  metadata: *414
 - neko_id: gatchaman
   level: 1
   algo: duration
-  filters: &408
+  filters: &415
     franchise: gatchaman
     not_anime_ids:
     - 3153
     - 31517
     - 38705
   threshold: 92.1%
-  metadata: &409
+  metadata: &416
     title_ru: Гатчамен
     title_en: Gatchaman
     image: "/assets/achievements/anime/franchise/gatchaman.jpg"
@@ -4000,19 +4007,19 @@
 - neko_id: gatchaman
   level: 0
   algo: duration
-  filters: *408
+  filters: *415
   threshold: 0.01
-  metadata: *409
+  metadata: *416
 - neko_id: aquarion
   level: 1
   algo: duration
-  filters: &410
+  filters: &417
     franchise: aquarion
     not_anime_ids:
     - 6032
     - 16415
   threshold: 98.7%
-  metadata: &411
+  metadata: &418
     title_ru: Акварион
     title_en: Sousei no Aquarion
     image: "/assets/achievements/anime/franchise/aquarion.jpg"
@@ -4020,20 +4027,20 @@
 - neko_id: aquarion
   level: 0
   algo: duration
-  filters: *410
+  filters: *417
   threshold: 0.01
-  metadata: *411
+  metadata: *418
 - neko_id: hack
   level: 1
   algo: duration
-  filters: &412
+  filters: &419
     franchise: hack
     not_anime_ids:
     - 1994
     - 10390
     - 36646
   threshold: 95%
-  metadata: &413
+  metadata: &420
     title_ru: ".хак//"
     title_en: ".hack//"
     image: "/assets/achievements/anime/franchise/hack.jpg"
@@ -4041,19 +4048,19 @@
 - neko_id: hack
   level: 0
   algo: duration
-  filters: *412
+  filters: *419
   threshold: 0.01
-  metadata: *413
+  metadata: *420
 - neko_id: major
   level: 1
   algo: duration
-  filters: &414
+  filters: &421
     franchise: major
     not_anime_ids:
     - 32324
     - 52616
   threshold: 90%
-  metadata: &415
+  metadata: &422
     title_ru: Мэйджор
     title_en: Major
     image: "/assets/achievements/anime/franchise/major.jpg"
@@ -4061,16 +4068,16 @@
 - neko_id: major
   level: 0
   algo: duration
-  filters: *414
+  filters: *421
   threshold: 0.01
-  metadata: *415
+  metadata: *422
 - neko_id: teekyuu
   level: 1
   algo: duration
-  filters: &416
+  filters: &423
     franchise: teekyuu
   threshold: 89.6%
-  metadata: &417
+  metadata: &424
     title_ru: Теннис
     title_en: Teekyuu
     image: "/assets/achievements/anime/franchise/teekyuu.jpg"
@@ -4078,13 +4085,13 @@
 - neko_id: teekyuu
   level: 0
   algo: duration
-  filters: *416
+  filters: *423
   threshold: 0.01
-  metadata: *417
+  metadata: *424
 - neko_id: inazuma_eleven
   level: 1
   algo: duration
-  filters: &418
+  filters: &425
     franchise: inazuma_eleven
     not_anime_ids:
     - 12585
@@ -4096,7 +4103,7 @@
     - 51156
     - 51221
   threshold: 90%
-  metadata: &419
+  metadata: &426
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
     image: "/assets/achievements/anime/franchise/inazuma_eleven.jpg"
@@ -4104,43 +4111,43 @@
 - neko_id: inazuma_eleven
   level: 0
   algo: duration
-  filters: *418
+  filters: *425
   threshold: 0.01
-  metadata: *419
+  metadata: *426
 - neko_id: doupo_cangqiong
   level: 1
   algo: duration
-  filters: &420
+  filters: &427
     franchise: doupo_cangqiong
     not_anime_ids:
     - 47548
     - 52479
   threshold: 97%
-  metadata: &421
+  metadata: &428
     title_ru: Расколотая битвой синева небес
     title_en: Doupo Cangqiong
     image: "/assets/achievements/anime/franchise/doupo_cangqiong.jpg"
     topic_id: 247360
-  generator: &422
+  generator: &429
     threshold: 97%
 - neko_id: doupo_cangqiong
   level: 0
   algo: duration
-  filters: *420
+  filters: *427
   threshold: 0.01
-  metadata: *421
-  generator: *422
+  metadata: *428
+  generator: *429
 - neko_id: yuu_yuu_hakusho
   level: 1
   algo: duration
-  filters: &423
+  filters: &430
     franchise: yuu_yuu_hakusho
     not_anime_ids:
     - 2125
     - 2126
     - 6964
   threshold: 98.2%
-  metadata: &424
+  metadata: &431
     title_ru: Отчёт о буйстве духов
     title_en: Yuu☆Yuu☆Hakusho
     image: "/assets/achievements/anime/franchise/yuu_yuu_hakusho.jpg"
@@ -4148,16 +4155,16 @@
 - neko_id: yuu_yuu_hakusho
   level: 0
   algo: duration
-  filters: *423
+  filters: *430
   threshold: 0.01
-  metadata: *424
+  metadata: *431
 - neko_id: hokuto_no_ken
   level: 1
   algo: duration
-  filters: &425
+  filters: &432
     franchise: hokuto_no_ken
   threshold: 90%
-  metadata: &426
+  metadata: &433
     title_ru: Кулак Северной звезды
     title_en: Hokuto no Ken
     image: "/assets/achievements/anime/franchise/hokuto_no_ken.png"
@@ -4165,13 +4172,13 @@
 - neko_id: hokuto_no_ken
   level: 0
   algo: duration
-  filters: *425
+  filters: *432
   threshold: 0.01
-  metadata: *426
+  metadata: *433
 - neko_id: uchuu_senkan_yamato
   level: 1
   algo: duration
-  filters: &427
+  filters: &434
     franchise: uchuu_senkan_yamato
     not_anime_ids:
     - 711
@@ -4182,49 +4189,49 @@
     - 53604
     - 53625
   threshold: 95%
-  metadata: &428
+  metadata: &435
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
     image: "/assets/achievements/anime/franchise/uchuu_senkan_yamato.jpg"
     topic_id: 247360
-  generator: &429
+  generator: &436
     ignore_latest_ids:
     - 40389
     - 50706
 - neko_id: uchuu_senkan_yamato
   level: 0
   algo: duration
-  filters: *427
+  filters: *434
   threshold: 0.01
-  metadata: *428
-  generator: *429
+  metadata: *435
+  generator: *436
 - neko_id: majutsushi_orphen
   level: 1
   algo: duration
-  filters: &430
+  filters: &437
     franchise: majutsushi_orphen
   threshold: 95%
-  metadata: &431
+  metadata: &438
     title_ru: Волшебник-воин Орфен
     title_en: Majutsushi Orphen
     image: "/assets/achievements/anime/franchise/majutsushi_orphen.jpg"
     topic_id: 247360
-  generator: &432
+  generator: &439
     threshold: 95%
 - neko_id: majutsushi_orphen
   level: 0
   algo: duration
-  filters: *430
+  filters: *437
   threshold: 0.01
-  metadata: *431
-  generator: *432
+  metadata: *438
+  generator: *439
 - neko_id: bastard
   level: 1
   algo: duration
-  filters: &433
+  filters: &440
     franchise: bastard
   threshold: 100%
-  metadata: &434
+  metadata: &441
     title_ru: Ублюдок!!
     title_en: Bastard!!
     image: "/assets/achievements/anime/franchise/bastard.jpg"
@@ -4232,38 +4239,38 @@
 - neko_id: bastard
   level: 0
   algo: duration
-  filters: *433
+  filters: *440
   threshold: 0.01
-  metadata: *434
+  metadata: *441
 - neko_id: aria
   level: 1
   algo: duration
-  filters: &435
+  filters: &442
     franchise: aria
     not_anime_ids:
     - 5196
     - 54062
   threshold: 93.8%
-  metadata: &436
+  metadata: &443
     title_ru: Ария
     title_en: Aria
     image: "/assets/achievements/anime/franchise/aria.jpg"
     topic_id: 247360
-  generator: &437
+  generator: &444
     ignore_latest_ids:
     - 41674
     - 48411
 - neko_id: aria
   level: 0
   algo: duration
-  filters: *435
+  filters: *442
   threshold: 0.01
-  metadata: *436
-  generator: *437
+  metadata: *443
+  generator: *444
 - neko_id: bang_dream
   level: 1
   algo: duration
-  filters: &438
+  filters: &445
     franchise: bang_dream
     not_anime_ids:
     - 40838
@@ -4284,12 +4291,12 @@
     - 55378
     - 55883
   threshold: 92.4%
-  metadata: &439
+  metadata: &446
     title_ru: Ура мечте!
     title_en: BanG Dream!
     image: "/assets/achievements/anime/franchise/bang_dream.jpg"
     topic_id: 247360
-  generator: &440
+  generator: &447
     not_ignored_ids:
     - 38986
     - 38392
@@ -4327,19 +4334,19 @@
 - neko_id: bang_dream
   level: 0
   algo: duration
-  filters: *438
+  filters: *445
   threshold: 0.01
-  metadata: *439
-  generator: *440
+  metadata: *446
+  generator: *447
 - neko_id: puso_ni_comi
   level: 1
   algo: duration
-  filters: &441
+  filters: &448
     franchise: puso_ni_comi
     not_anime_ids:
     - 40948
   threshold: 100%
-  metadata: &442
+  metadata: &449
     title_ru: Фантастическая Звезда Онлайн
     title_en: Phantasy Star Online
     image: "/assets/achievements/anime/franchise/puso_ni_comi.jpg"
@@ -4347,13 +4354,13 @@
 - neko_id: puso_ni_comi
   level: 0
   algo: duration
-  filters: *441
+  filters: *448
   threshold: 0.01
-  metadata: *442
+  metadata: *449
 - neko_id: idolish7
   level: 1
   algo: duration
-  filters: &443
+  filters: &450
     franchise: idolish7
     not_anime_ids:
     - 37710
@@ -4368,12 +4375,12 @@
     - 56493
     - 56682
   threshold: 90.9%
-  metadata: &444
+  metadata: &451
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
     image: "/assets/achievements/anime/franchise/idolish7.jpg"
     topic_id: 247360
-  generator: &445
+  generator: &452
     not_ignored_ids:
     - 32446
     - 32030
@@ -4404,14 +4411,14 @@
 - neko_id: idolish7
   level: 0
   algo: duration
-  filters: *443
+  filters: *450
   threshold: 0.01
-  metadata: *444
-  generator: *445
+  metadata: *451
+  generator: *452
 - neko_id: atom
   level: 1
   algo: duration
-  filters: &446
+  filters: &453
     franchise: atom
     not_anime_ids:
     - 2747
@@ -4431,25 +4438,25 @@
     - 40377
     - 54081
   threshold: 95%
-  metadata: &447
+  metadata: &454
     title_ru: Могучий Атом
     title_en: Tetsuwan Atom
     image: "/assets/achievements/anime/franchise/atom.jpg"
     topic_id: 247360
-  generator: &448
+  generator: &455
     not_ignored_ids:
     - 17961
 - neko_id: atom
   level: 0
   algo: duration
-  filters: *446
+  filters: *453
   threshold: 0.01
-  metadata: *447
-  generator: *448
+  metadata: *454
+  generator: *455
 - neko_id: yu_gi_oh
   level: 1
   algo: duration
-  filters: &449
+  filters: &456
     franchise: yu_gi_oh
     not_anime_ids:
     - 5298
@@ -4459,24 +4466,24 @@
     - 32346
     - 33997
   threshold: 87.7%
-  metadata: &450
+  metadata: &457
     title_ru: Югио!
     title_en: Yu☆Gi☆Oh!
     image: "/assets/achievements/anime/franchise/yu_gi_oh.png"
     topic_id: 247360
-  generator: &451
+  generator: &458
     threshold: 87.7%
 - neko_id: yu_gi_oh
   level: 0
   algo: duration
-  filters: *449
+  filters: *456
   threshold: 0.01
-  metadata: *450
-  generator: *451
+  metadata: *457
+  generator: *458
 - neko_id: mahou_shoujo_lyrical_nanoha
   level: 1
   algo: duration
-  filters: &452
+  filters: &459
     franchise: mahou_shoujo_lyrical_nanoha
     not_anime_ids:
     - 176
@@ -4488,7 +4495,7 @@
     - 37933
     - 37934
   threshold: 95%
-  metadata: &453
+  metadata: &460
     title_ru: Лиричная волшебница Наноха
     title_en: Mahou Shoujo Lyrical Nanoha
     image: "/assets/achievements/anime/franchise/mahou_shoujo_lyrical_nanoha.jpg"
@@ -4496,20 +4503,20 @@
 - neko_id: mahou_shoujo_lyrical_nanoha
   level: 0
   algo: duration
-  filters: *452
+  filters: *459
   threshold: 0.01
-  metadata: *453
+  metadata: *460
 - neko_id: show_by_rock
   level: 1
   algo: duration
-  filters: &454
+  filters: &461
     franchise: show_by_rock
     not_anime_ids:
     - 31072
     - 31073
     - 33855
   threshold: 100%
-  metadata: &455
+  metadata: &462
     title_ru: Рок-шоу!
     title_en: Show By Rock!!
     image: "/assets/achievements/anime/franchise/show_by_rock.jpg"
@@ -4517,16 +4524,16 @@
 - neko_id: show_by_rock
   level: 0
   algo: duration
-  filters: *454
+  filters: *461
   threshold: 0.01
-  metadata: *455
+  metadata: *462
 - neko_id: huyao_xiao_hongniang
   level: 1
   algo: duration
-  filters: &456
+  filters: &463
     franchise: huyao_xiao_hongniang
   threshold: 95%
-  metadata: &457
+  metadata: &464
     title_ru: 'Сводники духов: Лисьи свахи'
     title_en: Huyao Xiao Hongniang
     image: "/assets/achievements/anime/franchise/huyao_xiao_hongniang.jpg"
@@ -4534,60 +4541,60 @@
 - neko_id: huyao_xiao_hongniang
   level: 0
   algo: duration
-  filters: *456
+  filters: *463
   threshold: 0.01
-  metadata: *457
+  metadata: *464
 - neko_id: yao_shen_ji
   level: 1
   algo: duration
-  filters: &458
+  filters: &465
     franchise: yao_shen_ji
   threshold: 99%
-  metadata: &459
+  metadata: &466
     title_ru: Сказания о демонах и богах
     title_en: Yao Shen Ji
     image: "/assets/achievements/anime/franchise/yao_shen_ji.jpg"
     topic_id: 247360
-  generator: &460
+  generator: &467
     threshold: 99%
 - neko_id: yao_shen_ji
   level: 0
   algo: duration
-  filters: *458
+  filters: *465
   threshold: 0.01
-  metadata: *459
-  generator: *460
+  metadata: *466
+  generator: *467
 - neko_id: toriko
   level: 1
   algo: duration
-  filters: &461
+  filters: &468
     franchise: toriko
     not_anime_ids:
     - 11787
   threshold: 100%
-  metadata: &462
+  metadata: &469
     title_ru: Торико
     title_en: Toriko
     image: "/assets/achievements/anime/franchise/toriko.jpg"
     topic_id: 247360
-  generator: &463
+  generator: &470
     threshold: 100%
 - neko_id: toriko
   level: 0
   algo: duration
-  filters: *461
+  filters: *468
   threshold: 0.01
-  metadata: *462
-  generator: *463
+  metadata: *469
+  generator: *470
 - neko_id: uchuu_kyoudai
   level: 1
   algo: duration
-  filters: &464
+  filters: &471
     franchise: uchuu_kyoudai
     not_anime_ids:
     - 53938
   threshold: 100%
-  metadata: &465
+  metadata: &472
     title_ru: Космические братья
     title_en: Uchuu Kyoudai
     image: "/assets/achievements/anime/franchise/uchuu_kyoudai.jpg"
@@ -4595,16 +4602,16 @@
 - neko_id: uchuu_kyoudai
   level: 0
   algo: duration
-  filters: *464
+  filters: *471
   threshold: 0.01
-  metadata: *465
+  metadata: *472
 - neko_id: queen_s_blade
   level: 1
   algo: duration
-  filters: &466
+  filters: &473
     franchise: queen_s_blade
   threshold: 91.9%
-  metadata: &467
+  metadata: &474
     title_ru: Клинок королевы
     title_en: Queen's Blade
     image: "/assets/achievements/anime/franchise/queen_s_blade.jpg"
@@ -4612,18 +4619,18 @@
 - neko_id: queen_s_blade
   level: 0
   algo: duration
-  filters: *466
+  filters: *473
   threshold: 0.01
-  metadata: *467
+  metadata: *474
 - neko_id: mobile_police_patlabor
   level: 1
   algo: duration
-  filters: &468
+  filters: &475
     franchise: mobile_police_patlabor
     not_anime_ids:
     - 54399
   threshold: 95%
-  metadata: &469
+  metadata: &476
     title_ru: Полиция будущего
     title_en: Kidou Keisatsu Patlabor
     image: "/assets/achievements/anime/franchise/mobile_police_patlabor.jpg"
@@ -4631,18 +4638,18 @@
 - neko_id: mobile_police_patlabor
   level: 0
   algo: duration
-  filters: *468
+  filters: *475
   threshold: 0.01
-  metadata: *469
+  metadata: *476
 - neko_id: cardfight_vanguard
   level: 1
   algo: duration
-  filters: &470
+  filters: &477
     franchise: cardfight_vanguard
     not_anime_ids:
     - 31410
   threshold: 80%
-  metadata: &471
+  metadata: &478
     title_ru: Карточные бои Авангарда
     title_en: Cardfight!! Vanguard
     image: "/assets/achievements/anime/franchise/cardfight_vanguard.jpg"
@@ -4650,13 +4657,13 @@
 - neko_id: cardfight_vanguard
   level: 0
   algo: duration
-  filters: *470
+  filters: *477
   threshold: 0.01
-  metadata: *471
+  metadata: *478
 - neko_id: senki_zesshou_symphogear
   level: 1
   algo: duration
-  filters: &472
+  filters: &479
     franchise: senki_zesshou_symphogear
     not_anime_ids:
     - 20843
@@ -4664,7 +4671,7 @@
     - 36692
     - 40659
   threshold: 100%
-  metadata: &473
+  metadata: &480
     title_ru: Песня боевых принцесс
     title_en: Senki Zesshou Symphogear
     image: "/assets/achievements/anime/franchise/senki_zesshou_symphogear.jpg"
@@ -4672,16 +4679,16 @@
 - neko_id: senki_zesshou_symphogear
   level: 0
   algo: duration
-  filters: *472
+  filters: *479
   threshold: 0.01
-  metadata: *473
+  metadata: *480
 - neko_id: marvel
   level: 1
   algo: duration
-  filters: &474
+  filters: &481
     franchise: marvel
   threshold: 95%
-  metadata: &475
+  metadata: &482
     title_ru: Марвел
     title_en: Marvel
     image: "/assets/achievements/anime/franchise/marvel.jpg"
@@ -4689,16 +4696,16 @@
 - neko_id: marvel
   level: 0
   algo: duration
-  filters: *474
+  filters: *481
   threshold: 0.01
-  metadata: *475
+  metadata: *482
 - neko_id: binan_koukou_chikyuu_boueibu_love
   level: 1
   algo: duration
-  filters: &476
+  filters: &483
     franchise: binan_koukou_chikyuu_boueibu_love
   threshold: 100%
-  metadata: &477
+  metadata: &484
     title_ru: Красавцы из клуба защитников Земли
     title_en: Binan Koukou Chikyuu Boueibu
     image: "/assets/achievements/anime/franchise/binan_koukou_chikyuu_boueibu_love.jpg"
@@ -4706,20 +4713,20 @@
 - neko_id: binan_koukou_chikyuu_boueibu_love
   level: 0
   algo: duration
-  filters: *476
+  filters: *483
   threshold: 0.01
-  metadata: *477
+  metadata: *484
 - neko_id: yuki_yuna_is_a_hero
   level: 1
   algo: duration
-  filters: &478
+  filters: &485
     franchise: yuki_yuna_is_a_hero
     not_anime_ids:
     - 32826
     - 34284
     - 36798
   threshold: 95%
-  metadata: &479
+  metadata: &486
     title_ru: Герой Юки Юна
     title_en: Yuuki Yuuna wa Yuusha de Aru
     image: "/assets/achievements/anime/franchise/yuki_yuna_is_a_hero.jpg"
@@ -4727,16 +4734,16 @@
 - neko_id: yuki_yuna_is_a_hero
   level: 0
   algo: duration
-  filters: *478
+  filters: *485
   threshold: 0.01
-  metadata: *479
+  metadata: *486
 - neko_id: guyver
   level: 1
   algo: duration
-  filters: &480
+  filters: &487
     franchise: guyver
   threshold: 100%
-  metadata: &481
+  metadata: &488
     title_ru: Гайвер
     title_en: Guyver
     image: "/assets/achievements/anime/franchise/guyver.jpg"
@@ -4744,20 +4751,20 @@
 - neko_id: guyver
   level: 0
   algo: duration
-  filters: *480
+  filters: *487
   threshold: 0.01
-  metadata: *481
+  metadata: *488
 - neko_id: saint_seiya
   level: 1
   algo: duration
-  filters: &482
+  filters: &489
     franchise: saint_seiya
     not_anime_ids:
     - 6153
     - 6154
     - 35326
   threshold: 90%
-  metadata: &483
+  metadata: &490
     title_ru: Рыцари Зодиака
     title_en: Saint Seiya
     image: "/assets/achievements/anime/franchise/saint_seiya.jpg"
@@ -4765,57 +4772,57 @@
 - neko_id: saint_seiya
   level: 0
   algo: duration
-  filters: *482
+  filters: *489
   threshold: 0.01
-  metadata: *483
+  metadata: *490
 - neko_id: fushigi_yuugi
   level: 1
   algo: duration
-  filters: &484
+  filters: &491
     franchise: fushigi_yuugi
     not_anime_ids:
     - 27567
   threshold: 100%
-  metadata: &485
+  metadata: &492
     title_ru: Таинственная игра
     title_en: Fushigi Yuugi
     image: "/assets/achievements/anime/franchise/fushigi_yuugi.jpg"
     topic_id: 247360
-  generator: &486
+  generator: &493
     threshold: 100%
 - neko_id: fushigi_yuugi
   level: 0
   algo: duration
-  filters: *484
+  filters: *491
   threshold: 0.01
-  metadata: *485
-  generator: *486
+  metadata: *492
+  generator: *493
 - neko_id: ookiku_furikabutte
   level: 1
   algo: duration
-  filters: &487
+  filters: &494
     franchise: ookiku_furikabutte
     not_anime_ids:
     - 8423
   threshold: 100%
-  metadata: &488
+  metadata: &495
     title_ru: Замахнись сильнее
     title_en: Ookiku Furikabutte
     image: "/assets/achievements/anime/franchise/ookiku_furikabutte.jpg"
     topic_id: 247360
-  generator: &489
+  generator: &496
     threshold: 100%
 - neko_id: ookiku_furikabutte
   level: 0
   algo: duration
-  filters: *487
+  filters: *494
   threshold: 0.01
-  metadata: *488
-  generator: *489
+  metadata: *495
+  generator: *496
 - neko_id: digimon
   level: 1
   algo: duration
-  filters: &490
+  filters: &497
     franchise: digimon
     not_anime_ids:
     - 4712
@@ -4823,26 +4830,26 @@
     - 53265
     - 54282
   threshold: 93%
-  metadata: &491
+  metadata: &498
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
     image: "/assets/achievements/anime/franchise/digimon.jpg"
     topic_id: 247360
-  generator: &492
+  generator: &499
     ignore_latest_ids:
     - 38088
     - 49523
 - neko_id: digimon
   level: 0
   algo: duration
-  filters: *490
+  filters: *497
   threshold: 0.01
-  metadata: *491
-  generator: *492
+  metadata: *498
+  generator: *499
 - neko_id: muumin
   level: 1
   algo: duration
-  filters: &493
+  filters: &500
     franchise: muumin
     not_anime_ids:
     - 8234
@@ -4852,7 +4859,7 @@
     - 53964
     - 53965
   threshold: 99.9%
-  metadata: &494
+  metadata: &501
     title_ru: Муми-тролли
     title_en: Tanoshii Muumin Ikka
     image: "/assets/achievements/anime/franchise/muumin.jpg"
@@ -4860,16 +4867,16 @@
 - neko_id: muumin
   level: 0
   algo: duration
-  filters: *493
+  filters: *500
   threshold: 0.01
-  metadata: *494
+  metadata: *501
 - neko_id: saiyuki
   level: 1
   algo: duration
-  filters: &495
+  filters: &502
     franchise: saiyuki
   threshold: 95%
-  metadata: &496
+  metadata: &503
     title_ru: Саюки
     title_en: Saiyuuki
     image: "/assets/achievements/anime/franchise/saiyuki.jpg"
@@ -4877,16 +4884,16 @@
 - neko_id: saiyuki
   level: 0
   algo: duration
-  filters: *495
+  filters: *502
   threshold: 0.01
-  metadata: *496
+  metadata: *503
 - neko_id: yama_no_susume
   level: 1
   algo: duration
-  filters: &497
+  filters: &504
     franchise: yama_no_susume
   threshold: 95%
-  metadata: &498
+  metadata: &505
     title_ru: Манящие горы
     title_en: Yama no Susume
     image: "/assets/achievements/anime/franchise/yama_no_susume.jpg"
@@ -4894,13 +4901,13 @@
 - neko_id: yama_no_susume
   level: 0
   algo: duration
-  filters: *497
+  filters: *504
   threshold: 0.01
-  metadata: *498
+  metadata: *505
 - neko_id: beyblade
   level: 1
   algo: duration
-  filters: &499
+  filters: &506
     franchise: beyblade
     not_anime_ids:
     - 8410
@@ -4908,7 +4915,7 @@
     - 13231
     - 21479
   threshold: 80%
-  metadata: &500
+  metadata: &507
     title_ru: Бейблэйд
     title_en: Beyblade
     image: "/assets/achievements/anime/franchise/beyblade.jpg"
@@ -4916,13 +4923,13 @@
 - neko_id: beyblade
   level: 0
   algo: duration
-  filters: *499
+  filters: *506
   threshold: 0.01
-  metadata: *500
+  metadata: *507
 - neko_id: pretty_cure
   level: 1
   algo: duration
-  filters: &501
+  filters: &508
     franchise: pretty_cure
     not_anime_ids:
     - 10736
@@ -4931,12 +4938,12 @@
     - 33669
     - 37051
   threshold: 91.4%
-  metadata: &502
+  metadata: &509
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
     image: "/assets/achievements/anime/franchise/pretty_cure.jpg"
     topic_id: 247360
-  generator: &503
+  generator: &510
     ignore_latest_ids:
     - 38850
     - 42422
@@ -4947,20 +4954,20 @@
 - neko_id: pretty_cure
   level: 0
   algo: duration
-  filters: *501
+  filters: *508
   threshold: 0.01
-  metadata: *502
-  generator: *503
+  metadata: *509
+  generator: *510
 - neko_id: ad_police
   level: 1
   algo: duration
-  filters: &504
+  filters: &511
     franchise: ad_police
     not_anime_ids:
     - 5036
     - 5043
   threshold: 100%
-  metadata: &505
+  metadata: &512
     title_ru: Кризис каждый день
     title_en: Bubblegum Crisis
     image: "/assets/achievements/anime/franchise/ad_police.jpg"
@@ -4968,35 +4975,35 @@
 - neko_id: ad_police
   level: 0
   algo: duration
-  filters: *504
+  filters: *511
   threshold: 0.01
-  metadata: *505
+  metadata: *512
 - neko_id: city_hunter
   level: 1
   algo: duration
-  filters: &506
+  filters: &513
     franchise: city_hunter
   threshold: 90%
-  metadata: &507
+  metadata: &514
     title_ru: Городской охотник
     title_en: City Hunter
     image: "/assets/achievements/anime/franchise/city_hunter.jpg"
     topic_id: 247360
-  generator: &508
+  generator: &515
     ignore_latest_ids:
     - 37516
     - 51585
 - neko_id: city_hunter
   level: 0
   algo: duration
-  filters: *506
+  filters: *513
   threshold: 0.01
-  metadata: *507
-  generator: *508
+  metadata: *514
+  generator: *515
 - neko_id: ranma
   level: 1
   algo: duration
-  filters: &509
+  filters: &516
     franchise: ranma
     not_anime_ids:
     - 10819
@@ -5005,7 +5012,7 @@
     - 10824
     - 10825
   threshold: 96%
-  metadata: &510
+  metadata: &517
     title_ru: Ранма ½
     title_en: Ranma ½
     image: "/assets/achievements/anime/franchise/ranma.jpg"
@@ -5013,16 +5020,16 @@
 - neko_id: ranma
   level: 0
   algo: duration
-  filters: *509
+  filters: *516
   threshold: 0.01
-  metadata: *510
+  metadata: *517
 - neko_id: taiho_shichau_zo
   level: 1
   algo: duration
-  filters: &511
+  filters: &518
     franchise: taiho_shichau_zo
   threshold: 95%
-  metadata: &512
+  metadata: &519
     title_ru: Вы арестованы!
     title_en: Taiho Shichau zo
     image: "/assets/achievements/anime/franchise/taiho_shichau_zo.jpg"
@@ -5030,19 +5037,19 @@
 - neko_id: taiho_shichau_zo
   level: 0
   algo: duration
-  filters: *511
+  filters: *518
   threshold: 0.01
-  metadata: *512
+  metadata: *519
 - neko_id: mai_hime
   level: 1
   algo: duration
-  filters: &513
+  filters: &520
     franchise: mai_hime
     not_anime_ids:
     - 673
     - 8518
   threshold: 97.8%
-  metadata: &514
+  metadata: &521
     title_ru: Май-Химэ
     title_en: Mai-HiME
     image: "/assets/achievements/anime/franchise/mai_hime.jpg"
@@ -5050,13 +5057,13 @@
 - neko_id: mai_hime
   level: 0
   algo: duration
-  filters: *513
+  filters: *520
   threshold: 0.01
-  metadata: *514
+  metadata: *521
 - neko_id: maria_sama
   level: 1
   algo: duration
-  filters: &515
+  filters: &522
     franchise: maria_sama
     not_anime_ids:
     - 2954
@@ -5064,7 +5071,7 @@
     - 3469
     - 6299
   threshold: 100%
-  metadata: &516
+  metadata: &523
     title_ru: Дева Мария смотрит за вами
     title_en: Maria-sama ga Miteru
     image: "/assets/achievements/anime/franchise/maria_sama.jpg"
@@ -5072,19 +5079,19 @@
 - neko_id: maria_sama
   level: 0
   algo: duration
-  filters: *515
+  filters: *522
   threshold: 0.01
-  metadata: *516
+  metadata: *523
 - neko_id: starmyu
   level: 1
   algo: duration
-  filters: &517
+  filters: &524
     franchise: starmyu
     not_anime_ids:
     - 35774
     - 40431
   threshold: 100%
-  metadata: &518
+  metadata: &525
     title_ru: Музыкальная школа звёзд
     title_en: Starmyu
     image: "/assets/achievements/anime/franchise/starmyu.jpg"
@@ -5092,42 +5099,42 @@
 - neko_id: starmyu
   level: 0
   algo: duration
-  filters: *517
+  filters: *524
   threshold: 0.01
-  metadata: *518
+  metadata: *525
 - neko_id: soukyuu_no_fafner
   level: 1
   algo: duration
-  filters: &519
+  filters: &526
     franchise: soukyuu_no_fafner
     not_anime_ids:
     - 9494
   threshold: 95%
-  metadata: &520
+  metadata: &527
     title_ru: Небесный Фафнир
     title_en: Soukyuu no Fafner
     image: "/assets/achievements/anime/franchise/soukyuu_no_fafner.jpg"
     topic_id: 247360
-  generator: &521
+  generator: &528
     ignore_latest_ids:
     - 41714
     - 50675
 - neko_id: soukyuu_no_fafner
   level: 0
   algo: duration
-  filters: *519
+  filters: *526
   threshold: 0.01
-  metadata: *520
-  generator: *521
+  metadata: *527
+  generator: *528
 - neko_id: saki
   level: 1
   algo: duration
-  filters: &522
+  filters: &529
     franchise: saki
     not_anime_ids:
     - 7759
   threshold: 90.3%
-  metadata: &523
+  metadata: &530
     title_ru: Саки
     title_en: Saki
     image: "/assets/achievements/anime/franchise/saki.jpg"
@@ -5135,60 +5142,61 @@
 - neko_id: saki
   level: 0
   algo: duration
-  filters: *522
+  filters: *529
   threshold: 0.01
-  metadata: *523
+  metadata: *530
 - neko_id: seikai_no_senki
   level: 1
   algo: duration
-  filters: &524
+  filters: &531
     franchise: seikai_no_senki
     not_anime_ids:
     - 399
     - 1381
     - 39333
   threshold: 97.5%
-  metadata: &525
+  metadata: &532
     title_ru: Звёздный герб
     title_en: Seikai no Monshou
     image: "/assets/achievements/anime/franchise/seikai_no_senki.png"
     topic_id: 247360
-  generator: 
+  generator: &533
     threshold: 97.5%
 - neko_id: seikai_no_senki
   level: 0
   algo: duration
-  filters: *524
+  filters: *531
   threshold: 0.01
-  metadata: *525
+  metadata: *532
+  generator: *533
 - neko_id: aikatsu
   level: 1
   algo: duration
-  filters: &526
+  filters: &534
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 95%
-  metadata: &527
+  threshold: 95.7%
+  metadata: &535
     title_ru: Айкацу!
     title_en: Aikatsu!
     image: "/assets/achievements/anime/franchise/aikatsu.jpg"
     topic_id: 247360
-  generator: &528
+  generator: &536
     ignore_latest_ids:
     - 52992
     - 53499
 - neko_id: aikatsu
   level: 0
   algo: duration
-  filters: *526
+  filters: *534
   threshold: 0.01
-  metadata: *527
-  generator: *528
+  metadata: *535
+  generator: *536
 - neko_id: glass_no_kamen
   level: 1
   algo: duration
-  filters: &529
+  filters: &537
     franchise: glass_no_kamen
     not_anime_ids:
     - 17707
@@ -5196,7 +5204,7 @@
     - 34336
     - 35070
   threshold: 100%
-  metadata: &530
+  metadata: &538
     title_ru: Стеклянная маска
     title_en: Glass no Kamen
     image: "/assets/achievements/anime/franchise/glass_no_kamen.jpg"
@@ -5204,13 +5212,13 @@
 - neko_id: glass_no_kamen
   level: 0
   algo: duration
-  filters: *529
+  filters: *537
   threshold: 0.01
-  metadata: *530
+  metadata: *538
 - neko_id: angelique
   level: 1
   algo: duration
-  filters: &531
+  filters: &539
     franchise: angelique
     not_anime_ids:
     - 2535
@@ -5218,7 +5226,7 @@
     - 5783
     - 8180
   threshold: 95%
-  metadata: &532
+  metadata: &540
     title_ru: Анжелика
     title_en: Angelique
     image: "/assets/achievements/anime/franchise/angelique.jpg"
@@ -5226,19 +5234,19 @@
 - neko_id: angelique
   level: 0
   algo: duration
-  filters: *531
+  filters: *539
   threshold: 0.01
-  metadata: *532
+  metadata: *540
 - neko_id: lodoss_tou_senki
   level: 1
   algo: duration
-  filters: &533
+  filters: &541
     franchise: lodoss_tou_senki
     not_anime_ids:
     - 2840
     - 23229
   threshold: 100%
-  metadata: &534
+  metadata: &542
     title_ru: Летопись войн острова Лодосс
     title_en: Lodoss-tou Senki
     image: "/assets/achievements/anime/franchise/lodoss_tou_senki.jpg"
@@ -5246,19 +5254,19 @@
 - neko_id: lodoss_tou_senki
   level: 0
   algo: duration
-  filters: *533
+  filters: *541
   threshold: 0.01
-  metadata: *534
+  metadata: *542
 - neko_id: d_c
   level: 1
   algo: duration
-  filters: &535
+  filters: &543
     franchise: d_c
     not_anime_ids:
     - 4508
     - 17020
   threshold: 95%
-  metadata: &536
+  metadata: &544
     title_ru: С начала
     title_en: Da Capo
     image: "/assets/achievements/anime/franchise/d_c.png"
@@ -5266,41 +5274,41 @@
 - neko_id: d_c
   level: 0
   algo: duration
-  filters: *535
+  filters: *543
   threshold: 0.01
-  metadata: *536
+  metadata: *544
 - neko_id: stitch
   level: 1
   algo: duration
-  filters: &537
+  filters: &545
     franchise: stitch
     not_anime_ids:
     - 28921
     - 31238
   threshold: 95.2%
-  metadata: &538
+  metadata: &546
     title_ru: Стич
     title_en: Stitch
     image: "/assets/achievements/anime/franchise/stitch.jpg"
     topic_id: 247360
-  generator: &539
+  generator: &547
     not_ignored_ids:
     - 25889
     - 25891
 - neko_id: stitch
   level: 0
   algo: duration
-  filters: *537
+  filters: *545
   threshold: 0.01
-  metadata: *538
-  generator: *539
+  metadata: *546
+  generator: *547
 - neko_id: xingchen_bian
   level: 1
   algo: duration
-  filters: &540
+  filters: &548
     franchise: xingchen_bian
   threshold: 95%
-  metadata: &541
+  metadata: &549
     title_ru: Дорогой звёзд
     title_en: Xingchen Bian
     image: "/assets/achievements/anime/franchise/xingchen_bian.jpg"
@@ -5308,18 +5316,18 @@
 - neko_id: xingchen_bian
   level: 0
   algo: duration
-  filters: *540
+  filters: *548
   threshold: 0.01
-  metadata: *541
+  metadata: *549
 - neko_id: tsukipro_the_animation
   level: 1
   algo: duration
-  filters: &542
+  filters: &550
     franchise: tsukipro_the_animation
     not_anime_ids:
     - 43288
   threshold: 100%
-  metadata: &543
+  metadata: &551
     title_ru: Лунная песнь
     title_en: Tsukiuta
     image: "/assets/achievements/anime/franchise/tsukipro_the_animation.jpg"
@@ -5327,18 +5335,18 @@
 - neko_id: tsukipro_the_animation
   level: 0
   algo: duration
-  filters: *542
+  filters: *550
   threshold: 0.01
-  metadata: *543
+  metadata: *551
 - neko_id: danball_senki
   level: 1
   algo: duration
-  filters: &544
+  filters: &552
     franchise: danball_senki
     not_anime_ids:
     - 15785
   threshold: 99.7%
-  metadata: &545
+  metadata: &553
     title_ru: Хроники карточных битв
     title_en: Danball Senki
     image: "/assets/achievements/anime/franchise/danball_senki.jpg"
@@ -5346,13 +5354,13 @@
 - neko_id: danball_senki
   level: 0
   algo: duration
-  filters: *544
+  filters: *552
   threshold: 0.01
-  metadata: *545
+  metadata: *553
 - neko_id: gegege_no_kitarou
   level: 1
   algo: duration
-  filters: &546
+  filters: &554
     franchise: gegege_no_kitarou
     not_anime_ids:
     - 2165
@@ -5372,30 +5380,30 @@
     - 55041
     - 57107
   threshold: 95%
-  metadata: &547
+  metadata: &555
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
     image: "/assets/achievements/anime/franchise/gegege_no_kitarou.jpg"
     topic_id: 247360
-  generator: &548
+  generator: &556
     ignore_latest_ids:
     - 48426
 - neko_id: gegege_no_kitarou
   level: 0
   algo: duration
-  filters: *546
+  filters: *554
   threshold: 0.01
-  metadata: *547
-  generator: *548
+  metadata: *555
+  generator: *556
 - neko_id: tamayura
   level: 1
   algo: duration
-  filters: &549
+  filters: &557
     franchise: tamayura
     not_anime_ids:
     - 25169
   threshold: 94.7%
-  metadata: &550
+  metadata: &558
     title_ru: Тамаюра
     title_en: Tamayura
     image: "/assets/achievements/anime/franchise/tamayura.jpg"
@@ -5403,20 +5411,20 @@
 - neko_id: tamayura
   level: 0
   algo: duration
-  filters: *549
+  filters: *557
   threshold: 0.01
-  metadata: *550
+  metadata: *558
 - neko_id: hidamari_sketch
   level: 1
   algo: duration
-  filters: &551
+  filters: &559
     franchise: hidamari_sketch
     not_anime_ids:
     - 28911
     - 28913
     - 28915
   threshold: 95%
-  metadata: &552
+  metadata: &560
     title_ru: Наброски Хидамари
     title_en: Hidamari Sketch
     image: "/assets/achievements/anime/franchise/hidamari_sketch.jpg"
@@ -5424,16 +5432,16 @@
 - neko_id: hidamari_sketch
   level: 0
   algo: duration
-  filters: *551
+  filters: *559
   threshold: 0.01
-  metadata: *552
+  metadata: *560
 - neko_id: ze_tian_ji
   level: 1
   algo: duration
-  filters: &553
+  filters: &561
     franchise: ze_tian_ji
   threshold: 100%
-  metadata: &554
+  metadata: &562
     title_ru: Путь выбора
     title_en: Ze Tian Ji
     image: "/assets/achievements/anime/franchise/ze_tian_ji.jpg"
@@ -5441,13 +5449,13 @@
 - neko_id: ze_tian_ji
   level: 0
   algo: duration
-  filters: *553
+  filters: *561
   threshold: 0.01
-  metadata: *554
+  metadata: *562
 - neko_id: pripara
   level: 1
   algo: duration
-  filters: &555
+  filters: &563
     franchise: pripara
     not_anime_ids:
     - 21707
@@ -5460,7 +5468,7 @@
     - 38648
     - 40543
   threshold: 89.6%
-  metadata: &556
+  metadata: &564
     title_ru: При Пара
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
@@ -5468,19 +5476,19 @@
 - neko_id: pripara
   level: 0
   algo: duration
-  filters: *555
+  filters: *563
   threshold: 0.01
-  metadata: *556
+  metadata: *564
 - neko_id: kimagure_orange_road
   level: 1
   algo: duration
-  filters: &557
+  filters: &565
     franchise: kimagure_orange_road
     not_anime_ids:
     - 14059
     - 41041
   threshold: 100%
-  metadata: &558
+  metadata: &566
     title_ru: Капризы Апельсиновой улицы
     title_en: Kimagure Orange☆Road
     image: "/assets/achievements/anime/franchise/kimagure_orange_road.jpg"
@@ -5488,38 +5496,38 @@
 - neko_id: kimagure_orange_road
   level: 0
   algo: duration
-  filters: *557
+  filters: *565
   threshold: 0.01
-  metadata: *558
+  metadata: *566
 - neko_id: wan_jie_xian_zong
   level: 1
   algo: duration
-  filters: &559
+  filters: &567
     franchise: wan_jie_xian_zong
   threshold: 99%
-  metadata: &560
+  metadata: &568
     title_ru: Страна десяти тысяч чудес
     title_en: Wan Jie Xian Zong
     image: "/assets/achievements/anime/franchise/wan_jie_xian_zong.jpg"
     topic_id: 247360
-  generator: &561
+  generator: &569
     threshold: 99%
 - neko_id: wan_jie_xian_zong
   level: 0
   algo: duration
-  filters: *559
+  filters: *567
   threshold: 0.01
-  metadata: *560
-  generator: *561
+  metadata: *568
+  generator: *569
 - neko_id: a_mortal_s_journey
   level: 1
   algo: duration
-  filters: &562
+  filters: &570
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
   threshold: 100%
-  metadata: &563
+  metadata: &571
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
     image: "/assets/achievements/anime/franchise/a_mortal_s_journey.jpg"
@@ -5527,18 +5535,18 @@
 - neko_id: a_mortal_s_journey
   level: 0
   algo: duration
-  filters: *562
+  filters: *570
   threshold: 0.01
-  metadata: *563
+  metadata: *571
 - neko_id: street_fighter_ii
   level: 1
   algo: duration
-  filters: &564
+  filters: &572
     franchise: street_fighter_ii
     not_anime_ids:
     - 30042
   threshold: 95%
-  metadata: &565
+  metadata: &573
     title_ru: Уличный боец
     title_en: Street Fighter
     image: "/assets/achievements/anime/franchise/street_fighter_ii.jpg"
@@ -5546,19 +5554,19 @@
 - neko_id: street_fighter_ii
   level: 0
   algo: duration
-  filters: *564
+  filters: *572
   threshold: 0.01
-  metadata: *565
+  metadata: *573
 - neko_id: harukanaru_toki_no_naka_de
   level: 1
   algo: duration
-  filters: &566
+  filters: &574
     franchise: harukanaru_toki_no_naka_de
     not_anime_ids:
     - 4190
     - 30145
   threshold: 95%
-  metadata: &567
+  metadata: &575
     title_ru: В далёкие времена
     title_en: Harukanaru Toki no Naka de
     image: "/assets/achievements/anime/franchise/harukanaru_toki_no_naka_de.jpg"
@@ -5566,18 +5574,18 @@
 - neko_id: harukanaru_toki_no_naka_de
   level: 0
   algo: duration
-  filters: *566
+  filters: *574
   threshold: 0.01
-  metadata: *567
+  metadata: *575
 - neko_id: sakura_taisen
   level: 1
   algo: duration
-  filters: &568
+  filters: &576
     franchise: sakura_taisen
     not_anime_ids:
     - 15127
   threshold: 95%
-  metadata: &569
+  metadata: &577
     title_ru: 'Сакура: Война миров'
     title_en: Sakura Taisen
     image: "/assets/achievements/anime/franchise/sakura_taisen.jpg"
@@ -5585,16 +5593,16 @@
 - neko_id: sakura_taisen
   level: 0
   algo: duration
-  filters: *568
+  filters: *576
   threshold: 0.01
-  metadata: *569
+  metadata: *577
 - neko_id: cutey_honey
   level: 1
   algo: duration
-  filters: &570
+  filters: &578
     franchise: cutey_honey
   threshold: 95%
-  metadata: &571
+  metadata: &579
     title_ru: Милашка Хани
     title_en: Cutey Honey
     image: "/assets/achievements/anime/franchise/cutey_honey.jpg"
@@ -5602,13 +5610,13 @@
 - neko_id: cutey_honey
   level: 0
   algo: duration
-  filters: *570
+  filters: *578
   threshold: 0.01
-  metadata: *571
+  metadata: *579
 - neko_id: ojamajo_doremi
   level: 1
   algo: duration
-  filters: &572
+  filters: &580
     franchise: ojamajo_doremi
     not_anime_ids:
     - 12591
@@ -5616,7 +5624,7 @@
     - 49671
     - 50848
   threshold: 96.8%
-  metadata: &573
+  metadata: &581
     title_ru: Невезучая ведьма Дореми
     title_en: Ojamajo Doremi
     image: "/assets/achievements/anime/franchise/ojamajo_doremi.jpg"
@@ -5624,20 +5632,20 @@
 - neko_id: ojamajo_doremi
   level: 0
   algo: duration
-  filters: *572
+  filters: *580
   threshold: 0.01
-  metadata: *573
+  metadata: *581
 - neko_id: koihime_musou
   level: 1
   algo: duration
-  filters: &574
+  filters: &582
     franchise: koihime_musou
     not_anime_ids:
     - 15015
     - 15093
     - 15095
   threshold: 95%
-  metadata: &575
+  metadata: &583
     title_ru: Несравненная принцесса любви
     title_en: Koihime†Musou
     image: "/assets/achievements/anime/franchise/koihime_musou.jpg"
@@ -5645,36 +5653,36 @@
 - neko_id: koihime_musou
   level: 0
   algo: duration
-  filters: *574
+  filters: *582
   threshold: 0.01
-  metadata: *575
+  metadata: *583
 - neko_id: wu_geng_ji
   level: 1
   algo: duration
-  filters: &576
+  filters: &584
     franchise: wu_geng_ji
   threshold: 98%
-  metadata: &577
+  metadata: &585
     title_ru: Легенды и герои
     title_en: Wu Geng Ji
     image: "/assets/achievements/anime/franchise/wu_geng_ji.jpg"
     topic_id: 247360
-  generator: &578
+  generator: &586
     threshold: 98%
 - neko_id: wu_geng_ji
   level: 0
   algo: duration
-  filters: *576
+  filters: *584
   threshold: 0.01
-  metadata: *577
-  generator: *578
+  metadata: *585
+  generator: *586
 - neko_id: kindaichi_shounen_no_jikenbo
   level: 1
   algo: duration
-  filters: &579
+  filters: &587
     franchise: kindaichi_shounen_no_jikenbo
   threshold: 93.4%
-  metadata: &580
+  metadata: &588
     title_ru: Дело ведет юный детектив Киндаити
     title_en: Kindaichi Shounen no Jikenbo
     image: "/assets/achievements/anime/franchise/kindaichi_shounen_no_jikenbo.jpg"
@@ -5682,13 +5690,13 @@
 - neko_id: kindaichi_shounen_no_jikenbo
   level: 0
   algo: duration
-  filters: *579
+  filters: *587
   threshold: 0.01
-  metadata: *580
+  metadata: *588
 - neko_id: votoms_finder
   level: 1
   algo: duration
-  filters: &581
+  filters: &589
     franchise: votoms_finder
     not_anime_ids:
     - 7536
@@ -5697,7 +5705,7 @@
     - 12441
     - 49936
   threshold: 95%
-  metadata: &582
+  metadata: &590
     title_ru: Бронированные воины Вотомы
     title_en: Soukou Kihei Votoms
     image: "/assets/achievements/anime/franchise/votoms_finder.jpg"
@@ -5705,23 +5713,23 @@
 - neko_id: votoms_finder
   level: 0
   algo: duration
-  filters: *581
+  filters: *589
   threshold: 0.01
-  metadata: *582
+  metadata: *590
 - neko_id: touch
   level: 1
   algo: duration
-  filters: &583
+  filters: &591
     franchise: touch
     not_anime_ids:
     - 39352
-  generator: &584
+  generator: &592
     not_ignored_ids:
     - 2491
     - 2492
     - 2493
   threshold: 95%
-  metadata: &585
+  metadata: &593
     title_ru: Касание
     title_en: Touch
     image: "/assets/achievements/anime/franchise/touch.jpg"
@@ -5729,17 +5737,17 @@
 - neko_id: touch
   level: 0
   algo: duration
-  filters: *583
-  generator: *584
+  filters: *591
+  generator: *592
   threshold: 0.01
-  metadata: *585
+  metadata: *593
 - neko_id: futari_wa_milky_holmes
   level: 1
   algo: duration
-  filters: &586
+  filters: &594
     franchise: futari_wa_milky_holmes
   threshold: 95%
-  metadata: &587
+  metadata: &595
     title_ru: Детективное агентство Милки Холмс
     title_en: Tantei Opera Milky Holmes
     image: "/assets/achievements/anime/franchise/futari_wa_milky_holmes.png"
@@ -5747,16 +5755,16 @@
 - neko_id: futari_wa_milky_holmes
   level: 0
   algo: duration
-  filters: *586
+  filters: *594
   threshold: 0.01
-  metadata: *587
+  metadata: *595
 - neko_id: space_cobra
   level: 1
   algo: duration
-  filters: &588
+  filters: &596
     franchise: space_cobra
   threshold: 98.3%
-  metadata: &589
+  metadata: &597
     title_ru: Космические приключения Кобры
     title_en: Cobra
     image: "/assets/achievements/anime/franchise/space_cobra.jpg"
@@ -5764,20 +5772,20 @@
 - neko_id: space_cobra
   level: 0
   algo: duration
-  filters: *588
+  filters: *596
   threshold: 0.01
-  metadata: *589
+  metadata: *597
 - neko_id: captain_tsubasa
   level: 1
   algo: duration
-  filters: &590
+  filters: &598
     franchise: captain_tsubasa
     not_anime_ids:
     - 1674
     - 39226
     - 39227
   threshold: 96.1%
-  metadata: &591
+  metadata: &599
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
     image: "/assets/achievements/anime/franchise/captain_tsubasa.jpg"
@@ -5785,13 +5793,13 @@
 - neko_id: captain_tsubasa
   level: 0
   algo: duration
-  filters: *590
+  filters: *598
   threshold: 0.01
-  metadata: *591
+  metadata: *599
 - neko_id: transformers
   level: 1
   algo: duration
-  filters: &592
+  filters: &600
     franchise: transformers
     not_anime_ids:
     - 6511
@@ -5803,7 +5811,7 @@
     - 39102
     - 39162
   threshold: 99.3%
-  metadata: &593
+  metadata: &601
     title_ru: Трансформеры
     title_en: Transformers
     image: "/assets/achievements/anime/franchise/transformers.jpg"
@@ -5811,13 +5819,13 @@
 - neko_id: transformers
   level: 0
   algo: duration
-  filters: *592
+  filters: *600
   threshold: 0.01
-  metadata: *593
+  metadata: *601
 - neko_id: cyborg
   level: 1
   algo: duration
-  filters: &594
+  filters: &602
     franchise: cyborg
     not_anime_ids:
     - 8394
@@ -5827,7 +5835,7 @@
     - 33163
     - 40250
   threshold: 95%
-  metadata: &595
+  metadata: &603
     title_ru: Киборг 009
     title_en: Cyborg 009
     image: "/assets/achievements/anime/franchise/cyborg.jpg"
@@ -5835,16 +5843,16 @@
 - neko_id: cyborg
   level: 0
   algo: duration
-  filters: *594
+  filters: *602
   threshold: 0.01
-  metadata: *595
+  metadata: *603
 - neko_id: dirty_pair
   level: 1
   algo: duration
-  filters: &596
+  filters: &604
     franchise: dirty_pair
   threshold: 95%
-  metadata: &597
+  metadata: &605
     title_ru: Грязная парочка
     title_en: Dirty Pair
     image: "/assets/achievements/anime/franchise/dirty_pair.jpg"
@@ -5852,16 +5860,16 @@
 - neko_id: dirty_pair
   level: 0
   algo: duration
-  filters: *596
+  filters: *604
   threshold: 0.01
-  metadata: *597
+  metadata: *605
 - neko_id: ling_yu
   level: 1
   algo: duration
-  filters: &598
+  filters: &606
     franchise: ling_yu
   threshold: 100%
-  metadata: &599
+  metadata: &607
     title_ru: Край основателей
     title_en: Ling Yu
     image: "/assets/achievements/anime/franchise/ling_yu.jpg"
@@ -5869,19 +5877,19 @@
 - neko_id: ling_yu
   level: 0
   algo: duration
-  filters: *598
+  filters: *606
   threshold: 0.01
-  metadata: *599
+  metadata: *607
 - neko_id: to_heart
   level: 1
   algo: duration
-  filters: &600
+  filters: &608
     franchise: to_heart
     not_anime_ids:
     - 1624
     - 3977
   threshold: 95%
-  metadata: &601
+  metadata: &609
     title_ru: Для сердца
     title_en: To Heart
     image: "/assets/achievements/anime/franchise/to_heart.jpg"
@@ -5889,16 +5897,16 @@
 - neko_id: to_heart
   level: 0
   algo: duration
-  filters: *600
+  filters: *608
   threshold: 0.01
-  metadata: *601
+  metadata: *609
 - neko_id: el_hazard
   level: 1
   algo: duration
-  filters: &602
+  filters: &610
     franchise: el_hazard
   threshold: 100%
-  metadata: &603
+  metadata: &611
     title_ru: Эль-Хазард
     title_en: El Hazard
     image: "/assets/achievements/anime/franchise/el_hazard.jpg"
@@ -5906,13 +5914,13 @@
 - neko_id: el_hazard
   level: 0
   algo: duration
-  filters: *602
+  filters: *610
   threshold: 0.01
-  metadata: *603
+  metadata: *611
 - neko_id: time_bokan
   level: 1
   algo: duration
-  filters: &604
+  filters: &612
     franchise: time_bokan
     not_anime_ids:
     - 3915
@@ -5927,31 +5935,31 @@
     - 29739
     - 39707
   threshold: 91.2%
-  metadata: &605
+  metadata: &613
     title_ru: Приключения во времени
     title_en: Time Bokan
     image: "/assets/achievements/anime/franchise/time_bokan.jpg"
     topic_id: 247360
-  generator: &606
+  generator: &614
     not_ignored_ids:
     - 3008
 - neko_id: time_bokan
   level: 0
   algo: duration
-  filters: *604
+  filters: *612
   threshold: 0.01
-  metadata: *605
-  generator: *606
+  metadata: *613
+  generator: *614
 - neko_id: xia_lan
   level: 1
   algo: duration
-  filters: &607
+  filters: &615
     franchise: xia_lan
     not_anime_ids:
     - 34129
     - 44606
   threshold: 90%
-  metadata: &608
+  metadata: &616
     title_ru: Портрет Цзянху
     title_en: Hua Jianghu
     image: "/assets/achievements/anime/franchise/xia_lan.jpg"
@@ -5959,13 +5967,13 @@
 - neko_id: xia_lan
   level: 0
   algo: duration
-  filters: *607
+  filters: *615
   threshold: 0.01
-  metadata: *608
+  metadata: *616
 - neko_id: ultraman
   level: 1
   algo: duration
-  filters: &609
+  filters: &617
     franchise: ultraman
     not_anime_ids:
     - 6731
@@ -5974,28 +5982,28 @@
     - 39309
     - 55949
   threshold: 95%
-  metadata: &610
+  metadata: &618
     title_ru: Ультрамен
     title_en: Ultraman
     image: "/assets/achievements/anime/franchise/ultraman.jpg"
     topic_id: 247360
-  generator: &611
+  generator: &619
     not_ignored_ids:
     - 8753
 - neko_id: ultraman
   level: 0
   algo: duration
-  filters: *609
+  filters: *617
   threshold: 0.01
-  metadata: *610
-  generator: *611
+  metadata: *618
+  generator: *619
 - neko_id: di_gi_charat
   level: 1
   algo: duration
-  filters: &612
+  filters: &620
     franchise: di_gi_charat
   threshold: 93.9%
-  metadata: &613
+  metadata: &621
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
     image: "/assets/achievements/anime/franchise/di_gi_charat.jpg"
@@ -6003,18 +6011,18 @@
 - neko_id: di_gi_charat
   level: 0
   algo: duration
-  filters: *612
+  filters: *620
   threshold: 0.01
-  metadata: *613
+  metadata: *621
 - neko_id: konjiki_no_gash_bell
   level: 1
   algo: duration
-  filters: &614
+  filters: &622
     franchise: konjiki_no_gash_bell
     not_anime_ids:
     - 52605
   threshold: 99.5%
-  metadata: &615
+  metadata: &623
     title_ru: Златовласый Гаш Белл
     title_en: Konjiki no Gash Bell
     image: "/assets/achievements/anime/franchise/konjiki_no_gash_bell.jpg"
@@ -6022,13 +6030,13 @@
 - neko_id: konjiki_no_gash_bell
   level: 0
   algo: duration
-  filters: *614
+  filters: *622
   threshold: 0.01
-  metadata: *615
+  metadata: *623
 - neko_id: jewelpet
   level: 1
   algo: duration
-  filters: &616
+  filters: &624
     franchise: jewelpet
     not_anime_ids:
     - 6008
@@ -6036,25 +6044,25 @@
     - 38539
     - 40808
   threshold: 90%
-  metadata: &617
+  metadata: &625
     title_ru: Свет драгоценных зверушек
     title_en: Jewelpet
     image: "/assets/achievements/anime/franchise/jewelpet.jpg"
     topic_id: 247360
-  generator: &618
+  generator: &626
     ignore_latest_ids:
     - 40813
 - neko_id: jewelpet
   level: 0
   algo: duration
-  filters: *616
+  filters: *624
   threshold: 0.01
-  metadata: *617
-  generator: *618
+  metadata: *625
+  generator: *626
 - neko_id: mazinkaiser
   level: 1
   algo: duration
-  filters: &619
+  filters: &627
     franchise: mazinkaiser
     not_anime_ids:
     - 3898
@@ -6064,7 +6072,7 @@
     - 51431
     - 51432
   threshold: 92.4%
-  metadata: &620
+  metadata: &628
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
     image: "/assets/achievements/anime/franchise/mazinkaiser.jpg"
@@ -6072,16 +6080,16 @@
 - neko_id: mazinkaiser
   level: 0
   algo: duration
-  filters: *619
+  filters: *627
   threshold: 0.01
-  metadata: *620
+  metadata: *628
 - neko_id: jigoku_sensei_nube
   level: 1
   algo: duration
-  filters: &621
+  filters: &629
     franchise: jigoku_sensei_nube
   threshold: 100%
-  metadata: &622
+  metadata: &630
     title_ru: Адский учитель Нубэ
     title_en: Jigoku Sensei Nube
     image: "/assets/achievements/anime/franchise/jigoku_sensei_nube.jpg"
@@ -6089,19 +6097,19 @@
 - neko_id: jigoku_sensei_nube
   level: 0
   algo: duration
-  filters: *621
+  filters: *629
   threshold: 0.01
-  metadata: *622
+  metadata: *630
 - neko_id: dragon_quest
   level: 1
   algo: duration
-  filters: &623
+  filters: &631
     franchise: dragon_quest
     not_anime_ids:
     - 36112
     - 49228
   threshold: 96.7%
-  metadata: &624
+  metadata: &632
     title_ru: Драгон Квест
     title_en: Dragon Quest
     image: "/assets/achievements/anime/franchise/dragon_quest.jpg"
@@ -6109,16 +6117,16 @@
 - neko_id: dragon_quest
   level: 0
   algo: duration
-  filters: *623
+  filters: *631
   threshold: 0.01
-  metadata: *624
+  metadata: *632
 - neko_id: saber_marionette_j
   level: 1
   algo: duration
-  filters: &625
+  filters: &633
     franchise: saber_marionette_j
   threshold: 100%
-  metadata: &626
+  metadata: &634
     title_ru: Воины-марионетки Джей
     title_en: Saber Marionette J
     image: "/assets/achievements/anime/franchise/saber_marionette_j.jpg"
@@ -6126,13 +6134,13 @@
 - neko_id: saber_marionette_j
   level: 0
   algo: duration
-  filters: *625
+  filters: *633
   threshold: 0.01
-  metadata: *626
+  metadata: *634
 - neko_id: jungle_taitei
   level: 1
   algo: duration
-  filters: &627
+  filters: &635
     franchise: jungle_taitei
     not_anime_ids:
     - 1572
@@ -6140,7 +6148,7 @@
     - 20381
     - 42399
   threshold: 92.9%
-  metadata: &628
+  metadata: &636
     title_ru: Император джунглей
     title_en: Jungle Taitei
     image: "/assets/achievements/anime/franchise/jungle_taitei.jpg"
@@ -6148,19 +6156,19 @@
 - neko_id: jungle_taitei
   level: 0
   algo: duration
-  filters: *627
+  filters: *635
   threshold: 0.01
-  metadata: *628
+  metadata: *636
 - neko_id: getter_robo
   level: 1
   algo: duration
-  filters: &629
+  filters: &637
     franchise: getter_robo
     not_anime_ids:
     - 5292
     - 42153
   threshold: 95%
-  metadata: &630
+  metadata: &638
     title_ru: Робот Геттер
     title_en: Getter Robo
     image: "/assets/achievements/anime/franchise/getter_robo.jpg"
@@ -6168,16 +6176,16 @@
 - neko_id: getter_robo
   level: 0
   algo: duration
-  filters: *629
+  filters: *637
   threshold: 0.01
-  metadata: *630
+  metadata: *638
 - neko_id: shaonian_ge_xing
   level: 1
   algo: duration
-  filters: &631
+  filters: &639
     franchise: shaonian_ge_xing
   threshold: 98.4%
-  metadata: &632
+  metadata: &640
     title_ru: Ювенильная песня
     title_en: Shaonian Ge Xing
     image: "/assets/achievements/anime/franchise/shaonian_ge_xing.jpg"
@@ -6185,16 +6193,16 @@
 - neko_id: shaonian_ge_xing
   level: 0
   algo: duration
-  filters: *631
+  filters: *639
   threshold: 0.01
-  metadata: *632
+  metadata: *640
 - neko_id: galaxy_angel
   level: 1
   algo: duration
-  filters: &633
+  filters: &641
     franchise: galaxy_angel
   threshold: 95%
-  metadata: &634
+  metadata: &642
     title_ru: Галактический ангел
     title_en: Galaxy Angel
     image: "/assets/achievements/anime/franchise/galaxy_angel.jpg"
@@ -6202,13 +6210,13 @@
 - neko_id: galaxy_angel
   level: 0
   algo: duration
-  filters: *633
+  filters: *641
   threshold: 0.01
-  metadata: *634
+  metadata: *642
 - neko_id: yoligongju_loopy
   level: 1
   algo: duration
-  filters: &635
+  filters: &643
     franchise: yoligongju_loopy
     not_anime_ids:
     - 6524
@@ -6221,7 +6229,7 @@
     - 48250
     - 56909
   threshold: 95%
-  metadata: &636
+  metadata: &644
     title_ru: Пингвинёнок Пороро
     title_en: Porong Porong Pororo
     image: "/assets/achievements/anime/franchise/yoligongju_loopy.jpg"
@@ -6229,16 +6237,16 @@
 - neko_id: yoligongju_loopy
   level: 0
   algo: duration
-  filters: *635
+  filters: *643
   threshold: 0.01
-  metadata: *636
+  metadata: *644
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &637
+  filters: &645
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &638
+  metadata: &646
     title_ru: Властелин властелинов Рыцарь Рю
     title_en: Haou Daikei Ryuu Knight
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
@@ -6246,6 +6254,6 @@
 - neko_id: haou_daikei_ryuu_knight
   level: 0
   algo: duration
-  filters: *637
+  filters: *645
   threshold: 0.01
-  metadata: *638
+  metadata: *646
