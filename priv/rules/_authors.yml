@@ -1328,7 +1328,7 @@
   metadata: &77
     title_ru: Синдзи Арамаки
     title_en: Shinji Aramaki
-    image: "/assets/achievements/anime/author/shinji_aramaki.jpg"
+    image: https://i.imgur.com/ZHpS2KS.jpeg
     border_color: "#02ACF4"
     topic_id: 276032
   generator: &78
