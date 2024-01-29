@@ -4649,6 +4649,10 @@
     franchise: cardfight_vanguard
     not_anime_ids:
     - 31410
+    - 57835
+    - 57846
+    - 56118
+    - 56119
   threshold: 80%
   metadata: &478
     title_ru: Карточные бои Авангарда
