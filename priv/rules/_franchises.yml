@@ -2879,6 +2879,9 @@
     title_en: 'Hitori no Shita: The Outcast'
     image: "/assets/achievements/anime/franchise/yi_ren_zhi_xia.jpg"
     topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 58056
 - neko_id: yi_ren_zhi_xia
   level: 0
   algo: duration
