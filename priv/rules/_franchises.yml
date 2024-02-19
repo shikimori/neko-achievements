@@ -2873,7 +2873,7 @@
     franchise: yi_ren_zhi_xia
     not_anime_ids:
     - 37090
-  threshold: 100%
+  threshold: 95.7%
   metadata: &299
     title_ru: 'Один из отвергнутых: Изгой'
     title_en: 'Hitori no Shita: The Outcast'
