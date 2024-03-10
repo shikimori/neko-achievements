@@ -5390,6 +5390,7 @@
     - 53968
     - 55041
     - 57107
+    - 58331
   threshold: 95%
   metadata: &556
     title_ru: Щелкунчик Китаро
@@ -6268,3 +6269,25 @@
   filters: *646
   threshold: 0.01
   metadata: *647
+- neko_id: xian_wang_de_richang_shenghuo
+  level: 1
+  algo: duration
+  filters: 
+    franchise: xian_wang_de_richang_shenghuo
+  threshold: 100%
+  metadata: 
+    title_ru: Повседневная жизнь бессмертного короля
+    title_en: Xian Wang de Richang Shenghuo
+    image: https://desu.shikimori.one/system/user_images/original/45319/2538007.jpg
+    topic_id: 247360
+- neko_id: xi_xing_ji
+  level: 1
+  algo: duration
+  filters: 
+    franchise: xi_xing_ji
+  threshold: 100%
+  metadata: 
+    title_ru: Путешествие на Запад
+    title_en: Xi Xing Ji
+    image: https://desu.shikimori.one/system/user_images/original/45319/2538351.jpg
+    topic_id: 247360
