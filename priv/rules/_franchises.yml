@@ -1187,7 +1187,7 @@
     - 56015
     - 57556
     - 58015
-  threshold: 97.7%
+  threshold: 96.2%
   metadata: &124
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1349,7 +1349,7 @@
     - 49402
     - 54860
     - 55316
-  threshold: 95%
+  threshold: 92.6%
   metadata: &143
     title_ru: Призрак в доспехах
     title_en: Ghost in the Shell
@@ -1993,7 +1993,7 @@
     - 38112
     - 38361
     - 46089
-  threshold: 94.1%
+  threshold: 92.2%
   metadata: &217
     title_ru: Сказания
     title_en: Tales of
@@ -2773,7 +2773,7 @@
     - 38653
     - 48617
     - 52282
-  threshold: 95.2%
+  threshold: 94.9%
   metadata: &287
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -3120,7 +3120,7 @@
     - 53976
     - 55134
     - 57441
-  threshold: 93.3%
+  threshold: 92.9%
   metadata: &323
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3675,7 +3675,7 @@
   algo: duration
   filters: &381
     franchise: aa_megami_sama
-  threshold: 93.8%
+  threshold: 95%
   metadata: &382
     title_ru: Моя богиня!
     title_en: Aa! Megami-sama!
@@ -3771,7 +3771,7 @@
     not_anime_ids:
     - 52006
     - 52649
-  threshold: 97.2%
+  threshold: 94.5%
   metadata: &393
     title_ru: Дропкик злого духа
     title_en: Jashin-chan Dropkick
@@ -4927,7 +4927,7 @@
   algo: duration
   filters: &507
     franchise: city_hunter
-  threshold: 90.8%
+  threshold: 90%
   metadata: &508
     title_ru: Городской охотник
     title_en: City Hunter
@@ -5994,7 +5994,7 @@
   algo: duration
   filters: &618
     franchise: di_gi_charat
-  threshold: 93.8%
+  threshold: 92.8%
   metadata: &619
     title_ru: Ди-Ги Карат
     title_en: Di Gi Charat
