@@ -837,6 +837,7 @@
     - 40761
     - 40982
     - 49633
+    - 57691
   threshold: 90%
   metadata: &88
     title_ru: Судьба
@@ -1570,6 +1571,8 @@
     - 48436
     - 54761
     - 56544
+    - 57670
+    - 58091
   threshold: 90%
   metadata: &167
     title_ru: Гинтама
@@ -2267,6 +2270,9 @@
     - 57199
     - 57595
     - 57596
+    - 58247
+    - 58248
+    - 55074
   threshold: 93.9%
   metadata: &239
     title_ru: Покемон
@@ -4869,6 +4875,7 @@
     - 53963
     - 53964
     - 53965
+    - 57994
   threshold: 99.9%
   metadata: &502
     title_ru: Муми-тролли
@@ -5935,7 +5942,6 @@
   filters: &613
     franchise: xia_lan
     not_anime_ids:
-    - 34129
     - 44606
   threshold: 90%
   metadata: &614
