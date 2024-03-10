@@ -6278,22 +6278,34 @@
 - neko_id: xian_wang_de_richang_shenghuo
   level: 1
   algo: duration
-  filters: 
+  filters: &648
     franchise: xian_wang_de_richang_shenghuo
   threshold: 100%
-  metadata: 
+  metadata: &649
     title_ru: Повседневная жизнь бессмертного короля
     title_en: Xian Wang de Richang Shenghuo
-    image: https://desu.shikimori.one/system/user_images/original/45319/2538007.jpg
+    image: "/assets/achievements/anime/franchise/xian_wang_de_richang_shenghuo.jpg"
     topic_id: 247360
+- neko_id: xian_wang_de_richang_shenghuo
+  level: 0
+  algo: duration
+  filters: *648
+  threshold: 0.01
+  metadata: *649
 - neko_id: xi_xing_ji
   level: 1
   algo: duration
-  filters: 
+  filters: &650
     franchise: xi_xing_ji
-  threshold: 100%
-  metadata: 
+  threshold: 95%
+  metadata: &651
     title_ru: Путешествие на Запад
     title_en: Xi Xing Ji
-    image: https://desu.shikimori.one/system/user_images/original/45319/2538351.jpg
+    image: "/assets/achievements/anime/franchise/xi_xing_ji.jpg"
     topic_id: 247360
+- neko_id: xi_xing_ji
+  level: 0
+  algo: duration
+  filters: *650
+  threshold: 0.01
+  metadata: *651
