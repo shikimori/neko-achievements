@@ -3554,7 +3554,6 @@
   filters: &362
     franchise: slam_dunk
     not_anime_ids:
-    - 45649
     - 52159
   threshold: 98.7%
   metadata: &363
