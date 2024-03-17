@@ -1182,6 +1182,7 @@
     - 56015
     - 57556
     - 58015
+    - 58307
   threshold: 96.2%
   metadata: &120
     title_ru: Ван-Пис
@@ -3544,7 +3545,6 @@
     - 37818
     - 38001
     - 38087
-    - 39339
     - 48409
     - 51266
   threshold: 90%
@@ -3571,7 +3571,6 @@
   filters: &364
     franchise: slam_dunk
     not_anime_ids:
-    - 45649
     - 52159
   threshold: 98.7%
   metadata: &365
@@ -5406,6 +5405,8 @@
     - 55041
     - 57107
     - 58331
+    - 58345
+    - 58346
   threshold: 95%
   metadata: &550
     title_ru: Щелкунчик Китаро
