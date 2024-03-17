@@ -3558,6 +3558,8 @@
     - 38201
     - 49119
     - 49120
+    not_ignored_ids:
+    - 39339
 - neko_id: osomatsu_san
   level: 0
   algo: duration
@@ -3579,6 +3581,8 @@
     image: "/assets/achievements/anime/franchise/slam_dunk.jpg"
     topic_id: 247360
   generator:
+    not_ignored_ids:
+    - 45649
 - neko_id: slam_dunk
   level: 0
   algo: duration
