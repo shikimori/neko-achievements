@@ -2877,6 +2877,9 @@
     title_en: Yuru Yuri
     image: "/assets/achievements/anime/franchise/yuru_yuri.jpg"
     topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 56175
 - neko_id: yuru_yuri
   level: 0
   algo: duration
