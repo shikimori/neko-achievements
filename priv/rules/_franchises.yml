@@ -2078,6 +2078,7 @@
     - 52010
     - 52011
     - 57236
+    - 58374
   threshold: 95.2%
   metadata: &221
     title_ru: Живая любовь!
@@ -2281,9 +2282,12 @@
     - 57199
     - 57595
     - 57596
+    - 58087
+    - 58140
+    - 58244
     - 58247
     - 58248
-  threshold: 93.9%
+  threshold: 94.1%
   metadata: &236
     title_ru: Покемон
     title_en: Pokemon
@@ -2738,7 +2742,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 85.9%
+  threshold: 86%
   metadata: &280
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2888,7 +2892,7 @@
     franchise: yi_ren_zhi_xia
     not_anime_ids:
     - 37090
-  threshold: 95.7%
+  threshold: 95%
   metadata: &295
     title_ru: 'Один из отвергнутых: Изгой'
     title_en: 'Hitori no Shita: The Outcast'
@@ -3129,7 +3133,7 @@
     - 53976
     - 55134
     - 57441
-  threshold: 92.9%
+  threshold: 93%
   metadata: &319
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3254,7 +3258,7 @@
   algo: duration
   filters: &332
     franchise: kingdom
-  threshold: 97.7%
+  threshold: 95%
   metadata: &333
     title_ru: Царство
     title_en: Kingdom
@@ -4351,6 +4355,8 @@
     - 55297
     - 55378
     - 55883
+    - 56889
+    - 58428
   threshold: 92.4%
   metadata: &446
     title_ru: Ура мечте!
@@ -4488,6 +4494,7 @@
     - 21595
     - 32346
     - 33997
+    - 58018
   threshold: 87.7%
   metadata: &454
     title_ru: Югио!
@@ -5556,7 +5563,7 @@
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
-  threshold: 100%
+  threshold: 98%
   metadata: &567
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
@@ -5840,7 +5847,7 @@
     - 1674
     - 39226
     - 39227
-  threshold: 96.1%
+  threshold: 96.2%
   metadata: &597
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
