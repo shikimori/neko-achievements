@@ -4,6 +4,10 @@
   algo: count
   threshold: 50
   filters:
+    genre_v2_ids:
+      - 119
+      - 140
+    or:
     anime_ids:
       - 10012
       - 10165
