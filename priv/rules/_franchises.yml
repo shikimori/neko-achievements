@@ -714,6 +714,7 @@
     not_anime_ids:
     - 54171
     - 56442
+    - 51060
   threshold: 96.4%
   metadata: &75
     title_ru: Блич
