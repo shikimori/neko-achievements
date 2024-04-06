@@ -11,6 +11,7 @@ defmodule Neko.Rule.Filters do
   def filter_animes(animes, filters) do
     animes
     |> filter_by_genre_ids(filters["genre_ids"])
+    |> filter_by_genre_v2_ids(filters["genre_v2_ids"])
     |> filter_by_anime_ids(filters["anime_ids"])
     |> reject_by_anime_ids(filters["not_anime_ids"])
     |> filter_by_year_lte(filters["year_lte"])
@@ -27,6 +28,16 @@ defmodule Neko.Rule.Filters do
     animes
     |> Enum.reject(&is_nil(&1.genre_ids))
     |> Enum.filter(&lists_overlap?(&1.genre_ids, genre_ids))
+  end
+
+  defp filter_by_genre_v2_ids(animes, nil) do
+    animes
+  end
+
+  defp filter_by_genre_v2_ids(animes, genre_v2_ids) do
+    animes
+    |> Enum.reject(&is_nil(&1.genre_v2_ids))
+    |> Enum.filter(&lists_overlap?(&1.genre_v2_ids, genre_v2_ids))
   end
 
   # it's faster than !Enum.empty?(list_1 -- (list_1 -- list_2)),

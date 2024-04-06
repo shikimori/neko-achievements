@@ -4,6 +4,7 @@ defmodule Neko.Anime do
   defstruct ~w(
     id
     genre_ids
+    genre_v2_ids
     year
     episodes
     duration
