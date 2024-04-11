@@ -3987,7 +3987,7 @@
     not_anime_ids:
     - 36444
     - 40124
-  threshold: 100%
+  threshold: 98%
   metadata: &408
     title_ru: Танец мечей
     title_en: Touken Ranbu
