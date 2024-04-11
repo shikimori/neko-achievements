@@ -159,7 +159,7 @@
   algo: duration
   filters: &16
     franchise: konosuba
-  threshold: 100%
+  threshold: 95%
   metadata: &17
     title_ru: Этот замечательный мир!
     title_en: KonoSuba
