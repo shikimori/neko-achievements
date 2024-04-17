@@ -4,8 +4,10 @@
   algo: count
   threshold: 50
   filters:
-    genre_ids:
+    genre_v2_ids:
       - 22
+      - 151
+      - 107
   metadata:
     title_ru: Сталкер
     text_ru: Почему ты меня не замечаешь?
