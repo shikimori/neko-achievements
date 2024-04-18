@@ -1184,6 +1184,7 @@
     - 57556
     - 58015
     - 58307
+    - 58663
   threshold: 96.2%
   metadata: &120
     title_ru: Ван-Пис
@@ -5586,8 +5587,6 @@
   algo: duration
   filters: &569
     franchise: street_fighter_ii
-    not_anime_ids:
-    - 30042
   threshold: 95%
   metadata: &570
     title_ru: Уличный боец
@@ -6082,7 +6081,6 @@
   filters: &621
     franchise: jewelpet
     not_anime_ids:
-    - 6008
     - 36757
     - 38539
     - 40808
