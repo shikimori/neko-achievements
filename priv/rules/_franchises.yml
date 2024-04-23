@@ -574,7 +574,7 @@
   algo: duration
   filters: &60
     franchise: mushoku_tensei
-  threshold: 94.4%
+  threshold: 94.8%
   metadata: &61
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
@@ -696,6 +696,7 @@
     - 32870
     - 32871
     - 35327
+    - 55374
   threshold: 92.8%
   metadata: &73
     title_ru: Баскетбол Куроко
@@ -1081,7 +1082,7 @@
     - 31448
     - 35631
     - 50097
-  threshold: 94.7%
+  threshold: 95%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
@@ -2291,7 +2292,8 @@
     - 58244
     - 58247
     - 58248
-  threshold: 94.1%
+    - 58288
+  threshold: 94.2%
   metadata: &236
     title_ru: Покемон
     title_en: Pokemon
@@ -2512,7 +2514,7 @@
     - 31989
     - 35082
     - 37577
-  threshold: 93.5%
+  threshold: 94%
   metadata: &261
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -2874,7 +2876,7 @@
     not_anime_ids:
     - 12665
     - 40369
-  threshold: 91.1%
+  threshold: 91%
   metadata: &292
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
@@ -3138,7 +3140,7 @@
     - 53976
     - 55134
     - 57441
-  threshold: 93.3%
+  threshold: 93%
   metadata: &319
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3713,7 +3715,7 @@
     franchise: cardcaptor_sakura
     not_anime_ids:
     - 37595
-  threshold: 97.9%
+  threshold: 98%
   metadata: &380
     title_ru: Сакура — собирательница карт
     title_en: Cardcaptor Sakura
@@ -3888,7 +3890,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 86.4%
+  threshold: 86.7%
   metadata: &397
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3932,7 +3934,7 @@
   generator: &401
     not_ignored_ids:
     - 1481
-  threshold: 92%
+  threshold: 92.1%
   metadata: &402
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -4998,7 +5000,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.5%
+  threshold: 91.6%
   metadata: &509
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5508,7 +5510,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 88.3%
+  threshold: 87.8%
   metadata: &560
     title_ru: При Пара
     title_en: PriPara
@@ -5610,7 +5612,7 @@
     - 49670
     - 49671
     - 50848
-  threshold: 96.8%
+  threshold: 96.7%
   metadata: &572
     title_ru: Невезучая ведьма Дореми
     title_en: Ojamajo Doremi
@@ -5853,7 +5855,7 @@
     - 1674
     - 39226
     - 39227
-  threshold: 96.2%
+  threshold: 96.3%
   metadata: &598
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
@@ -6208,7 +6210,7 @@
   algo: duration
   filters: &634
     franchise: shaonian_ge_xing
-  threshold: 98.4%
+  threshold: 95%
   metadata: &635
     title_ru: Ювенильная песня
     title_en: Shaonian Ge Xing
