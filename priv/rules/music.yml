@@ -4,8 +4,10 @@
   algo: count
   threshold: 20
   filters:
-    genre_ids:
+    genre_v2_ids:
       - 19
+      - 145
+      - 150
   metadata:
     title_ru: Звуки музыки
     text_ru: Они раскрашивают этот мир в яркие цвета.
@@ -21,7 +23,7 @@
   metadata:
     title_ru: Там, где слова бессильны
     text_ru: Музыка – это язык, на котором душа общается с душою, стирая границы условностей.
-    title_en: Where words are powerless.
+    title_en: Where words are powerless
     text_en: Music is a language in which the soul communicates with the soul, erasing the boundaries of convention.
     image: /assets/achievements/anime/music_2.jpg
     border_color: "#9DB1CC"
