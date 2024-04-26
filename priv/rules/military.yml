@@ -10,7 +10,7 @@
     title_ru: Новобранец
     text_ru: Зачислены на военную службу в очередной призыв.
     title_en: The Rookie
-    text_en: Enlisted in the regular draft
+    text_en: Enlisted in the regular draft.
     image: /assets/achievements/anime/military_1.png
     border_color: "#006400"
     topic_id: 222037
