@@ -737,7 +737,7 @@
     franchise: psycho_pass
     not_anime_ids:
     - 17901
-  threshold: 92.8%
+  threshold: 95%
   metadata: &77
     title_ru: Психопаспорт
     title_en: Psycho-Pass
