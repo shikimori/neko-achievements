@@ -384,7 +384,7 @@
     - 40836
     - 41075
     - 54249
-  threshold: 95%
+  threshold: 86.8%
   metadata: &38
     title_ru: Код Гиас
     title_en: Code Geass
@@ -393,7 +393,7 @@
   generator: &39
     ignore_latest_ids:
     - 34437
-    - 49877
+    - 56835
     not_ignored_ids:
     - 34439
     - 34440
