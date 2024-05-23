@@ -4003,6 +4003,7 @@
   generator: &408
     ignore_latest_ids:
     - 36419
+    - 58894
 - neko_id: touken_ranbu
   level: 0
   algo: duration
