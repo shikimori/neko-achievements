@@ -5394,6 +5394,9 @@
     title_en: Tsukiuta
     image: "/assets/achievements/anime/franchise/tsukipro_the_animation.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 51539
 - neko_id: tsukipro_the_animation
   level: 0
   algo: duration
