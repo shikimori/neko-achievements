@@ -640,6 +640,7 @@
   generator: &67
     ignore_latest_ids:
     - 52742
+    - 58967
 - neko_id: haikyuu
   level: 0
   algo: duration
