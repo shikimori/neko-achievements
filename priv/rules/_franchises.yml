@@ -640,6 +640,7 @@
   generator: &67
     ignore_latest_ids:
     - 52742
+    - 58967
 - neko_id: haikyuu
   level: 0
   algo: duration
@@ -698,6 +699,7 @@
     - 32871
     - 35327
     - 55374
+    - 58925
   threshold: 92.8%
   metadata: &73
     title_ru: Баскетбол Куроко
@@ -2294,6 +2296,7 @@
     - 58247
     - 58248
     - 58288
+    - 58912
   threshold: 94.2%
   metadata: &236
     title_ru: Покемон
@@ -5393,6 +5396,9 @@
     title_en: Tsukiuta
     image: "/assets/achievements/anime/franchise/tsukipro_the_animation.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 51539
 - neko_id: tsukipro_the_animation
   level: 0
   algo: duration
