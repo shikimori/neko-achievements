@@ -384,7 +384,7 @@
     - 40836
     - 41075
     - 54249
-  threshold: 86.8%
+  threshold: 95%
   metadata: &38
     title_ru: Код Гиас
     title_en: Code Geass
@@ -529,7 +529,7 @@
   algo: duration
   filters: &54
     franchise: mushoku_tensei
-  threshold: 94.8%
+  threshold: 95.4%
   metadata: &55
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
@@ -631,7 +631,7 @@
     - 35111
     - 35321
     - 40372
-  threshold: 90.6%
+  threshold: 94.1%
   metadata: &66
     title_ru: Волейбол!!
     title_en: Haikyuu!!
@@ -1085,7 +1085,7 @@
     - 31448
     - 35631
     - 50097
-  threshold: 95%
+  threshold: 95.4%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
@@ -2488,7 +2488,7 @@
     - 31989
     - 35082
     - 37577
-  threshold: 94%
+  threshold: 94.8%
   metadata: &258
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -3144,7 +3144,7 @@
     - 53976
     - 55134
     - 57441
-  threshold: 93%
+  threshold: 92.8%
   metadata: &319
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3560,7 +3560,7 @@
     - 38087
     - 48409
     - 51266
-  threshold: 92%
+  threshold: 91.9%
   metadata: &362
     title_ru: Осомацу
     title_en: Osomatsu
@@ -3816,7 +3816,7 @@
     not_anime_ids:
     - 34453
     - 55392
-  threshold: 85.7%
+  threshold: 86.9%
   metadata: &391
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -3894,7 +3894,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 86.7%
+  threshold: 87.2%
   metadata: &397
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -3917,7 +3917,7 @@
   generator: &399
     not_ignored_ids:
     - 1481
-  threshold: 92.1%
+  threshold: 92.3%
   metadata: &400
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -3997,7 +3997,7 @@
     not_anime_ids:
     - 36444
     - 40124
-  threshold: 98%
+  threshold: 100%
   metadata: &407
     title_ru: Танец мечей
     title_en: Touken Ranbu
@@ -4433,7 +4433,7 @@
     - 55617
     - 56493
     - 56682
-  threshold: 90.9%
+  threshold: 98.1%
   metadata: &449
     title_ru: Семёрка идолов
     title_en: IDOLiSH7
@@ -5501,7 +5501,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 87.8%
+  threshold: 87%
   metadata: &558
     title_ru: При Пара
     title_en: PriPara
@@ -5863,7 +5863,7 @@
     - 1674
     - 39226
     - 39227
-  threshold: 96.3%
+  threshold: 96.4%
   metadata: &598
     title_ru: Капитан Цубаса
     title_en: Captain Tsubasa
