@@ -6399,6 +6399,21 @@
   algo: duration
   filters:
     franchise: fantastica
+    not_anime_ids:
+    - 58376
+    - 57416
+    - 58375
+    - 58377
+    - 44137
+    - 44140
+    - 44135
+    - 40439
+    - 34677
+    - 34676
+    - 32821
+    - 32820
+    - 37098
+    - 32819
   threshold: 100%
   metadata:
     title_ru: Медведи-соседи
