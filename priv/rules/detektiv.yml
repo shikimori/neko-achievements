@@ -2,10 +2,15 @@
   neko_id: detektiv
   level: 1
   algo: count
-  threshold: 25
+  threshold: 15
   filters:
     genre_v2_ids:
       - 39
+    or:
+      anime_ids:
+        - 1535
+        - 2994
+        - 49519
   metadata:
     title_ru: Народный дружинник
     text_ru: На улицах неспокойно. Нельзя терять бдительности.
@@ -17,7 +22,7 @@
 
 - <<: *defaults
   level: 2
-  threshold: 40
+  threshold: 25
   metadata:
     title_ru: Первое дело
     text_ru: Было непросто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
@@ -28,7 +33,7 @@
 
 - <<: *defaults
   level: 3
-  threshold: 60
+  threshold: 45
   metadata:
     title_ru: За семью печатями
     text_ru: Мэтры детективного дела обращаются к вам за советами.
@@ -39,7 +44,7 @@
 
 - <<: *defaults
   level: 4
-  threshold: 100
+  threshold: 80
   metadata:
     title_ru: Великий детектив
     text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
