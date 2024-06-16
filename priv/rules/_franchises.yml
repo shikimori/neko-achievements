@@ -6287,6 +6287,12 @@
     - 48245
     - 48250
     - 56909
+    - 59006
+    - 59014
+    - 59022
+    - 58992
+    - 58993
+    - 59007
   threshold: 95%
   metadata: &643
     title_ru: Пингвинёнок Пороро
@@ -6333,3 +6339,98 @@
   filters: *646
   threshold: 0.01
   metadata: *647
+- neko_id: jiu_tian_xuan_di_jue
+  level: 1
+  algo: duration
+  filters:
+    franchise: jiu_tian_xuan_di_jue
+  threshold: 100%
+  metadata:
+    title_ru: Тайна императора девяти небес
+    title_en: Jiu Tian Xuan Di Jue
+    image: https://desu.shikimori.one/system/user_images_h/original/5617c78fb282a8dba9b91398/be2e7084831ca71e2b554a930e8b68419c644dabd64e8de5e6016145a3f8eecc.jpg
+    topic_id: 247360
+- neko_id: beryl_and_sapphire
+  level: 1
+  algo: duration
+  filters:
+    franchise: beryl_and_sapphire
+  threshold: 100%
+  metadata:
+    title_ru: Берилл и Сапфир
+    title_en: Xiao Lu He Xiao Lan
+    image: https://desu.shikimori.one/system/user_images_h/original/d6fc953f8149fc30be2e4339/f58f4570611b08612f4fb246a0c44313ef4284406ffc713cd0ba42af6e3cae11.jpg
+    topic_id: 247360
+- neko_id: betterman
+  level: 1
+  algo: duration
+  filters: 
+    franchise: betterman
+    not_anime_ids:
+    - 52384
+    - 52383
+  threshold: 100%
+  metadata:
+    title_ru: Храбрый Экскайзер
+    title_en: Yuusha Exkaiser
+    image: https://desu.shikimori.one/system/user_images_h/original/1adfb2773865f186e03bfce3/e5953b81867b6ee19e0581445125cb1adb7c3d1b3f89ec7cb0287b1a4f0dc5d0.jpg
+    topic_id: 247360
+- neko_id: hello_kitty
+  level: 1
+  algo: duration
+  filters:
+    franchise: hello_kitty
+    not_anime_ids:
+    - 32622
+    - 22455
+    - 22497
+    - 18587
+    - 22441
+    - 22439
+    - 11521
+  threshold: 100%
+  metadata:
+    title_ru: Привет, Китти
+    title_en: Hello Kitty
+    image: https://desu.shikimori.one/system/user_images_h/original/5617c78fb282a8dba9b91398/ee23ece21c65486224e29db3cdf95c470e2d36d8fec06cd6b8d1d1d6b002dd08.jpg
+    topic_id: 247360
+- neko_id: fantastica
+  level: 1
+  algo: duration
+  filters:
+    franchise: fantastica
+    not_anime_ids:
+    - 58376
+    - 57416
+    - 58375
+    - 58377
+    - 44137
+    - 44140
+    - 44135
+    - 40439
+    - 34677
+    - 34676
+    - 32821
+    - 32820
+    - 37098
+    - 32819
+  threshold: 100%
+  metadata:
+    title_ru: Медведи-соседи
+    title_en: Xiong Chumo
+    image: https://desu.shikimori.one/system/user_images_h/original/5617c78fb282a8dba9b91398/284590166464cc72dea96a6b45976cfa8962c7a8482e46765c6f530cdc5a8f4d.jpg
+    topic_id: 247360
+- neko_id: bai_yao_pu
+  level: 1
+  algo: duration
+  filters: &646
+    franchise: bai_yao_pu
+    not_anime_ids:
+    - 32622
+  threshold: 100%
+  metadata:
+    title_ru: Руководство сотен демонов
+    title_en: Bai Yao Pu
+    image: https://desu.shikimori.one/system/user_images/original/498922/2513726.jpg
+    topic_id: 247360    
+
