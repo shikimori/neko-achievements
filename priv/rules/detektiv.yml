@@ -11,7 +11,7 @@
     text_ru: На улицах неспокойно. Нельзя терять бдительности.
     title_en: People's vigilant
     text_en: The streets are turbulent. Can't let our guard down
-    image: /assets/achievements/anime/police_1.jpg
+    image: /assets/achievements/anime/detektiv_1.jpg
     border_color: "#B03F35"
     topic_id: 222047
 
@@ -23,7 +23,7 @@
     text_ru: Было непросто, но вы смогли поймать своего первого преступника. Поздравляем, продолжайте в том же духе!
     title_en: First case
     text_en: It wasn't easy, but you managed to catch your first offender. Congratulations, keep up the good work!
-    image: /assets/achievements/anime/mystery_1.jpg
+    image: /assets/achievements/anime/detektiv_2.jpg
     border_color: "#4c514a"
 
 - <<: *defaults
@@ -34,7 +34,7 @@
     text_ru: Мэтры детективного дела обращаются к вам за советами.
     title_en: Behind the Seven Seals
     text_en: The masters of detective work turn to you for advice.
-    image: /assets/achievements/anime/mystery_3.jpg
+    image: /assets/achievements/anime/detektivy_3.jpg
     border_color: "#3D2B1F"
 
 - <<: *defaults
@@ -45,5 +45,5 @@
     text_ru: Интересных дел катастрофически мало! На поприще детектива вы добились всего.
     title_en: The Grand Detective
     text_en: Interesting cases are disastrously few! In the field of detective you have achieved everything.
-    image: /assets/achievements/anime/mystery_4.gif
+    image: /assets/achievements/anime/detektiv_4.gif
     border_color: "#919192"
