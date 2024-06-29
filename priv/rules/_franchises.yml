@@ -528,7 +528,7 @@
   algo: duration
   filters: &54
     franchise: mushoku_tensei
-  threshold: 95.4%
+  threshold: 95.6%
   metadata: &55
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
@@ -962,7 +962,7 @@
     not_anime_ids:
     - 6163
     - 8068
-  threshold: 95%
+  threshold: 90%
   metadata: &99
     title_ru: Тёмный дворецкий
     title_en: Kuroshitsuji
@@ -1084,7 +1084,7 @@
     - 31448
     - 35631
     - 50097
-  threshold: 95.4%
+  threshold: 95.6%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
@@ -2086,7 +2086,7 @@
     - 52011
     - 57236
     - 58374
-  threshold: 95.2%
+  threshold: 95.3%
   metadata: &221
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2485,7 +2485,7 @@
     - 31989
     - 35082
     - 37577
-  threshold: 94.8%
+  threshold: 95%
   metadata: &258
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -2746,7 +2746,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 86%
+  threshold: 86.5%
   metadata: &279
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2877,7 +2877,7 @@
     not_anime_ids:
     - 12665
     - 40369
-  threshold: 91%
+  threshold: 91.3%
   metadata: &292
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
@@ -3555,6 +3555,7 @@
     - 37818
     - 38001
     - 38087
+    - 48409
     - 51266
   threshold: 91.9%
   metadata: &362
@@ -3663,6 +3664,12 @@
     title_en: Tsubasa Chronicle
     image: "/assets/achievements/anime/franchise/tsubasa.jpg"
     topic_id: 247360
+- neko_id: tsubasa
+  level: 0
+  algo: duration
+  filters: *373
+  threshold: 0.01
+  metadata: *374
 - neko_id: cardcaptor_sakura
   level: 1
   algo: duration
@@ -3676,12 +3683,6 @@
     title_en: Cardcaptor Sakura
     image: "/assets/achievements/anime/franchise/cardcaptor_sakura.jpg"
     topic_id: 247360
-- neko_id: tsubasa
-  level: 0
-  algo: duration
-  filters: *373
-  threshold: 0.01
-  metadata: *374
 - neko_id: cardcaptor_sakura
   level: 0
   algo: duration
@@ -3721,6 +3722,12 @@
     title_en: Aa! Megami-sama!
     image: "/assets/achievements/anime/franchise/aa_megami_sama.jpg"
     topic_id: 247360
+- neko_id: aa_megami_sama
+  level: 0
+  algo: duration
+  filters: *379
+  threshold: 0.01
+  metadata: *380
 - neko_id: genshiken
   level: 1
   algo: duration
@@ -3734,12 +3741,6 @@
     title_en: Genshiken
     image: "/assets/achievements/anime/franchise/genshiken.jpg"
     topic_id: 247360
-- neko_id: aa_megami_sama
-  level: 0
-  algo: duration
-  filters: *379
-  threshold: 0.01
-  metadata: *380
 - neko_id: genshiken
   level: 0
   algo: duration
@@ -3896,7 +3897,7 @@
   generator: &399
     not_ignored_ids:
     - 1481
-  threshold: 92.3%
+  threshold: 92.4%
   metadata: &400
     title_ru: Несносные пришельцы
     title_en: Urusei Yatsura
@@ -3956,7 +3957,7 @@
     - 51842
     - 55393
     - 55517
-  threshold: 87.2%
+  threshold: 87.4%
   metadata: &404
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -5241,7 +5242,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
-  threshold: 95.7%
+  threshold: 95.9%
   metadata: &534
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -5521,7 +5522,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 87%
+  threshold: 86.6%
   metadata: &562
     title_ru: При Пара
     title_en: PriPara
@@ -5557,7 +5558,7 @@
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
-  threshold: 98%
+  threshold: 96.5%
   metadata: &566
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
