@@ -2228,8 +2228,6 @@
   algo: duration
   filters: &233
     franchise: junjou_romantica
-    not_anime_ids:
-    - 6553
   threshold: 95%
   metadata: &234
     title_ru: Чистая романтика
