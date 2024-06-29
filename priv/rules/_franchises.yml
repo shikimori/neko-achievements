@@ -393,7 +393,6 @@
   generator: &39
     ignore_latest_ids:
     - 34437
-    - 56835
     not_ignored_ids:
     - 34439
     - 34440
@@ -3558,7 +3557,6 @@
     - 37818
     - 38001
     - 38087
-    - 48409
     - 51266
   threshold: 91.9%
   metadata: &362
