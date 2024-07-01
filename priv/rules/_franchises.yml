@@ -125,6 +125,8 @@
     topic_id: 247360
   generator: &13
     threshold: 96%
+    ignore_latest_ids:
+    - 59192
 - neko_id: demon_slayer
   level: 0
   algo: duration
@@ -1093,6 +1095,7 @@
   generator: &114
     ignore_latest_ids:
     - 48375
+    - 59174
 - neko_id: mahouka_koukou_no_rettousei
   level: 0
   algo: duration
@@ -2086,6 +2089,8 @@
     - 52011
     - 57236
     - 58374
+    - 58623
+    - 59190
   threshold: 95.3%
   metadata: &221
     title_ru: Живая любовь!
@@ -2491,6 +2496,9 @@
     title_en: Hibike! Euphonium
     image: "/assets/achievements/anime/franchise/hibike_euphonium.png"
     topic_id: 247360
+  generator: 
+    ignore_latest_ids:
+    - 58856
 - neko_id: hibike_euphonium
   level: 0
   algo: duration
