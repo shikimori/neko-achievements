@@ -2106,7 +2106,6 @@
     - 52011
     - 57236
     - 58374
-    - 58623
     - 59190
   threshold: 95.3%
   metadata: &223
@@ -2299,6 +2298,7 @@
     - 58248
     - 58288
     - 58912
+    - 58507
   threshold: 94.2%
   metadata: &236
     title_ru: Покемон
@@ -4765,6 +4765,9 @@
     title_en: Binan Koukou Chikyuu Boueibu
     image: "/assets/achievements/anime/franchise/binan_koukou_chikyuu_boueibu_love.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 59406
 - neko_id: binan_koukou_chikyuu_boueibu_love
   level: 0
   algo: duration
@@ -5251,6 +5254,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
+    - 59308
   threshold: 95.9%
   metadata: &535
     title_ru: Айкацу!
@@ -5537,6 +5541,9 @@
     title_en: PriPara
     image: "/assets/achievements/anime/franchise/pripara.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 59275
 - neko_id: pripara
   level: 0
   algo: duration
