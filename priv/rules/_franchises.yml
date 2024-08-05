@@ -141,6 +141,7 @@
     - 12935
     - 40971
     - 53236
+    - 59168
   threshold: 96.7%
   metadata: &15
     title_ru: Наруто
@@ -206,7 +207,7 @@
     - 43683
     - 54624
     - 57519
-  threshold: 95%
+  threshold: 94.8%
   metadata: &21
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -510,7 +511,7 @@
     franchise: hunter_x_hunter
     not_anime_ids:
     - 22049
-  threshold: 93.1%
+  threshold: 92.9%
   metadata: &53
     title_ru: Охотник х Охотник
     title_en: Hunter x Hunter
@@ -527,7 +528,7 @@
   algo: duration
   filters: &54
     franchise: mushoku_tensei
-  threshold: 95.6%
+  threshold: 95.8%
   metadata: &55
     title_ru: Реинкарнация безработного
     title_en: Mushoku Tensei
@@ -763,7 +764,7 @@
     - 246
     - 11511
     - 12121
-  threshold: 96.8%
+  threshold: 95.7%
   metadata: &80
     title_ru: Хвост Феи
     title_en: Fairy Tail
@@ -1083,7 +1084,7 @@
     - 31448
     - 35631
     - 50097
-  threshold: 95.6%
+  threshold: 95.7%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
@@ -1277,7 +1278,7 @@
   algo: duration
   filters: &131
     franchise: quanzhi_gaoshou
-  threshold: 100%
+  threshold: 98%
   metadata: &132
     title_ru: Аватар короля
     title_en: Quanzhi Gaoshou
@@ -2008,6 +2009,7 @@
     - 12725
     - 47410
     - 50846
+    - 59208
   threshold: 95%
   metadata: &214
     title_ru: Инициал Ди
@@ -2796,7 +2798,7 @@
     - 38653
     - 48617
     - 52282
-  threshold: 94.9%
+  threshold: 95%
   metadata: &283
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -3563,7 +3565,7 @@
     - 38087
     - 48409
     - 51266
-  threshold: 91.9%
+  threshold: 93%
   metadata: &363
     title_ru: Осомацу
     title_en: Osomatsu
@@ -5011,7 +5013,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.6%
+  threshold: 91.7%
   metadata: &511
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5247,6 +5249,7 @@
     franchise: aikatsu
     not_anime_ids:
     - 28723
+    - 59308
   threshold: 95.9%
   metadata: &535
     title_ru: Айкацу!
@@ -5347,6 +5350,12 @@
     title_en: Da Capo
     image: "/assets/achievements/anime/franchise/d_c.png"
     topic_id: 247360
+- neko_id: d_c
+  level: 0
+  algo: duration
+  filters: *544
+  threshold: 0.01
+  metadata: *545
 - neko_id: bai_yao_pu
   level: 1
   algo: duration
@@ -5360,12 +5369,6 @@
     title_en: Bai Yao Pu
     image: "/assets/achievements/anime/franchise/bai_yao_pu.jpg"
     topic_id: 247360
-- neko_id: d_c
-  level: 0
-  algo: duration
-  filters: *544
-  threshold: 0.01
-  metadata: *545
 - neko_id: bai_yao_pu
   level: 0
   algo: duration
@@ -5527,7 +5530,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 86.6%
+  threshold: 85.7%
   metadata: &563
     title_ru: При Пара
     title_en: PriPara
@@ -5563,7 +5566,7 @@
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
-  threshold: 96.5%
+  threshold: 96.6%
   metadata: &567
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
