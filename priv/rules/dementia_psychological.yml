@@ -4,10 +4,8 @@
   algo: count
   threshold: 25
   filters:
-    genre_ids:
-      - 5
-    or:
     genre_v2_ids:
+      - 5
       - 40
   metadata:
     title_ru: Оно существует
