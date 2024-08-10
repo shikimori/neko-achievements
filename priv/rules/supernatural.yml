@@ -4,7 +4,7 @@
   algo: count
   threshold: 60
   filters:
-    genre_ids:
+    genre_v2_ids:
       - 37
   metadata:
     title_ru: Первая встреча с духами
