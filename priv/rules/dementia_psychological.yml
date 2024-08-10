@@ -6,6 +6,8 @@
   filters:
     genre_ids:
       - 5
+    or:
+    genre_v2_ids:
       - 40
   metadata:
     title_ru: Оно существует
