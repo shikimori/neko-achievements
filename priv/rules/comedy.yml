@@ -4,7 +4,7 @@
   threshold: 70
   level: 1
   filters:
-    genre_ids:
+    genre_v2_ids:
       - 4
   metadata:
     title_ru: But then I lol'd
