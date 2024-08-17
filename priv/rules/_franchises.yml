@@ -577,8 +577,8 @@
     - 51309
     - 54050
     - 55720
-    - 58592
     - 57434
+    - 58592
   threshold: 95%
   metadata: &60
     title_ru: О моём перерождении в слизь
@@ -2300,8 +2300,8 @@
     - 58248
     - 58288
     - 58507
-    - 58912
     - 58835
+    - 58912
   threshold: 94.2%
   metadata: &236
     title_ru: Покемон
@@ -4010,7 +4010,7 @@
     not_anime_ids:
     - 36444
     - 40124
-  threshold: 100%
+  threshold: 94.8%
   metadata: &409
     title_ru: Танец мечей
     title_en: Touken Ranbu
