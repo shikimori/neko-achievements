@@ -4,7 +4,7 @@
   threshold: 40
   level: 1
   filters:
-    genre_ids:
+    genre_v2_ids:
       - 15
     or:
       anime_ids:
