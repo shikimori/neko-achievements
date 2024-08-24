@@ -5373,8 +5373,6 @@
   algo: duration
   filters: &547
     franchise: bai_yao_pu
-    not_anime_ids:
-    - 32622
   threshold: 99.9%
   metadata: &548
     title_ru: Руководство сотен демонов
@@ -6065,7 +6063,6 @@
   filters: &621
     franchise: xia_lan
     not_anime_ids:
-    - 34129
     - 44606
   threshold: 90%
   metadata: &622
