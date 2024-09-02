@@ -208,7 +208,7 @@
     - 43683
     - 54624
     - 57519
-  threshold: 94.8%
+  threshold: 94.9%
   metadata: &21
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -767,7 +767,7 @@
     - 246
     - 11511
     - 12121
-  threshold: 95.7%
+  threshold: 95.2%
   metadata: &80
     title_ru: Хвост Феи
     title_en: Fairy Tail
@@ -863,6 +863,7 @@
     - 40982
     - 49633
     - 57691
+    - 58972
     - 59465
   threshold: 90%
   metadata: &87
@@ -1243,6 +1244,8 @@
   algo: duration
   filters: &125
     franchise: black_lagoon
+    not_anime_ids:
+    - 58974
   threshold: 100%
   metadata: &126
     title_ru: Пираты «Чёрной лагуны»
@@ -1283,7 +1286,7 @@
   algo: duration
   filters: &131
     franchise: quanzhi_gaoshou
-  threshold: 98%
+  threshold: 100%
   metadata: &132
     title_ru: Аватар короля
     title_en: Quanzhi Gaoshou
@@ -2189,7 +2192,7 @@
     not_anime_ids:
     - 44627
     - 44628
-  threshold: 100%
+  threshold: 95%
   metadata: &229
     title_ru: Маг на полную ставку
     title_en: Quanzhi Fashi
@@ -2303,10 +2306,13 @@
     - 58248
     - 58288
     - 58507
+    - 58508
     - 58835
     - 58912
+    - 59372
     - 59615
-  threshold: 94.2%
+    - 59656
+  threshold: 94.8%
   metadata: &236
     title_ru: Покемон
     title_en: Pokemon
@@ -2736,6 +2742,7 @@
     - 49941
     - 50084
     - 50473
+    - 51431
     - 51569
     - 52390
     - 52520
@@ -2743,7 +2750,7 @@
     - 53603
     - 55283
     - 55404
-  threshold: 86.5%
+  threshold: 87%
   metadata: &278
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -5542,7 +5549,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 85.7%
+  threshold: 87.9%
   metadata: &564
     title_ru: При Пара
     title_en: PriPara
@@ -5582,7 +5589,7 @@
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
-  threshold: 96.6%
+  threshold: 96.8%
   metadata: &569
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
@@ -6204,7 +6211,7 @@
     - 18365
     - 51431
     - 51432
-  threshold: 92.4%
+  threshold: 92.2%
   metadata: &636
     title_ru: Мазинкайзер
     title_en: Mazinkaiser
