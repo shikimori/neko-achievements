@@ -1174,9 +1174,9 @@
     - 58015
     - 58307
     - 58663
-    - 59596
     - 59029
-  threshold: 96.2%
+    - 59596
+  threshold: 96.3%
   metadata: &118
     title_ru: Ван-Пис
     title_en: One Piece
@@ -3580,7 +3580,7 @@
     - 38001
     - 38087
     - 51266
-  threshold: 93%
+  threshold: 94.9%
   metadata: &363
     title_ru: Осомацу
     title_en: Osomatsu
@@ -6071,7 +6071,7 @@
     franchise: xia_lan
     not_anime_ids:
     - 44606
-  threshold: 90%
+  threshold: 80%
   metadata: &622
     title_ru: Портрет Цзянху
     title_en: Hua Jianghu
