@@ -4662,6 +4662,25 @@
   filters: *470
   threshold: 0.01
   metadata: *471
+- neko_id: mobile_police_patlabor
+  level: 1
+  algo: duration
+  filters: &472
+    franchise: mobile_police_patlabor
+    not_anime_ids:
+    - 54399
+  threshold: 95%
+  metadata: &473
+    title_ru: Полиция будущего
+    title_en: Kidou Keisatsu Patlabor
+    image: "/assets/achievements/anime/franchise/mobile_police_patlabor.jpg"
+    topic_id: 247360
+- neko_id: mobile_police_patlabor
+  level: 0
+  algo: duration
+  filters: *472
+  threshold: 0.01
+  metadata: *473
 - neko_id: queen_s_blade
   level: 1
   algo: duration
