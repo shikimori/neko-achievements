@@ -1175,6 +1175,7 @@
     - 58307
     - 58663
     - 59596
+    - 59029
   threshold: 96.2%
   metadata: &118
     title_ru: Ван-Пис
@@ -3578,7 +3579,6 @@
     - 37818
     - 38001
     - 38087
-    - 48409
     - 51266
   threshold: 93%
   metadata: &363
@@ -5380,8 +5380,6 @@
   algo: duration
   filters: &547
     franchise: bai_yao_pu
-    not_anime_ids:
-    - 32622
   threshold: 99.9%
   metadata: &548
     title_ru: Руководство сотен демонов
@@ -6072,7 +6070,6 @@
   filters: &621
     franchise: xia_lan
     not_anime_ids:
-    - 34129
     - 44606
   threshold: 90%
   metadata: &622
