@@ -862,7 +862,6 @@
     - 40761
     - 40982
     - 49633
-    - 57691
     - 58972
     - 59465
   threshold: 90%
@@ -3326,6 +3325,7 @@
     - 53941
     - 56972
     - 57602
+    - 59712
   threshold: 90%
   metadata: &336
     title_ru: Галактический экспресс 999
@@ -4214,6 +4214,10 @@
     title_en: Inazuma Eleven
     image: "/assets/achievements/anime/franchise/inazuma_eleven.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 59709
+    - 59710
 - neko_id: inazuma_eleven
   level: 0
   algo: duration
