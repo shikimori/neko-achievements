@@ -1175,6 +1175,7 @@
     - 58663
     - 59029
     - 59596
+    - 59801
   threshold: 96.3%
   metadata: &118
     title_ru: Ван-Пис
@@ -3479,6 +3480,7 @@
     not_anime_ids:
     - 27613
     - 36083
+    - 58816
   threshold: 100%
   metadata: &353
     title_ru: WIXOSS
@@ -3584,6 +3586,7 @@
     - 38001
     - 38087
     - 51266
+    - 59790
   threshold: 94.9%
   metadata: &363
     title_ru: Осомацу
@@ -5918,6 +5921,7 @@
     - 39101
     - 39102
     - 39162
+    - 59807
   threshold: 99.3%
   metadata: &606
     title_ru: Трансформеры
