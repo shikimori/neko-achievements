@@ -1180,6 +1180,7 @@
     - 59596
     - 59801
     - 59822
+    - 59908
   threshold: 96.3%
   metadata: &118
     title_ru: Ван-Пис
@@ -6283,7 +6284,6 @@
     not_anime_ids:
     - 1572
     - 2565
-    - 20381
     - 42399
   threshold: 92.9%
   metadata: &643
@@ -6563,3 +6563,14 @@
   filters: *668
   threshold: 0.01
   metadata: *669
+- neko_id: ookami_to_koushinryou
+  level: 1
+  algo: duration
+  filters:
+    franchise: ookami_to_koushinryou
+  threshold: 100%
+  metadata:
+    title_ru: Волчица и пряности
+    title_en: Ookami to Koushinryou
+    image: https://desu.shikimori.one/system/user_images_h/original/5617c78fb282a8dba9b91398/b3b8e18623e6d670b5a2246aa94377d33c19f4c93d64a75c4299a6cbcf241242.jpg
+    topic_id: 247360
