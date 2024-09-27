@@ -92,6 +92,7 @@
     - 41341
     - 42128
     - 53588
+    - 59968
   threshold: 95%
   metadata: &9
     title_ru: Мастера Меча Онлайн
@@ -590,6 +591,7 @@
   generator: &61
     ignore_latest_ids:
     - 49877
+    - 59971
 - neko_id: tensei_shitara_slime_datta_ken
   level: 0
   algo: duration
