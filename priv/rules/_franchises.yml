@@ -1182,9 +1182,9 @@
     - 59596
     - 59801
     - 59822
+    - 59832
     - 59908
     - 59959
-    - 59832
   threshold: 96.3%
   metadata: &118
     title_ru: Ван-Пис
@@ -6586,14 +6586,20 @@
   filters: *670
   threshold: 0.01
   metadata: *671
-- neko_id: douluo_dalu
+- neko_id: soul_land
   level: 1
   algo: duration
-  filters:
-    franchise: douluo_dalu
-  threshold: 95%
-  metadata:
+  filters: &672
+    franchise: soul_land
+  threshold: 92.9%
+  metadata: &673
     title_ru: Боевой континент
     title_en: Douluo Dalu
-    image: https://desu.shikimori.one/system/user_images_h/original/3f07817a8029e409c04f6b8b/62bca1d1444b57b471e97b293a33596d8854a761e8549fcdf3bdae8addcc9eac.jpg
+    image: "/assets/achievements/anime/franchise/soul_land.jpg"
     topic_id: 247360
+- neko_id: soul_land
+  level: 0
+  algo: duration
+  filters: *672
+  threshold: 0.01
+  metadata: *673
