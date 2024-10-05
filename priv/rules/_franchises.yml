@@ -186,7 +186,7 @@
     - 41590
     - 42364
     - 42776
-  threshold: 100%
+  threshold: 98%
   metadata: &19
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
     title_en: Re:Zero kara Hajimeru Isekai Seikatsu
@@ -209,7 +209,7 @@
     - 43683
     - 54624
     - 57519
-  threshold: 94.9%
+  threshold: 95%
   metadata: &21
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -769,7 +769,7 @@
     - 246
     - 11511
     - 12121
-  threshold: 95.2%
+  threshold: 95.3%
   metadata: &80
     title_ru: Хвост Феи
     title_en: Fairy Tail
@@ -2308,6 +2308,8 @@
     - 52897
     - 55074
     - 56064
+    - 56712
+    - 56900
     - 57199
     - 57595
     - 57596
@@ -2317,6 +2319,7 @@
     - 58247
     - 58248
     - 58288
+    - 58439
     - 58507
     - 58508
     - 58835
@@ -2324,7 +2327,7 @@
     - 59372
     - 59615
     - 59656
-  threshold: 94.8%
+  threshold: 95%
   metadata: &236
     title_ru: Покемон
     title_en: Pokemon
@@ -2828,7 +2831,7 @@
     - 38653
     - 48617
     - 52282
-  threshold: 95%
+  threshold: 94.9%
   metadata: &283
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -3853,7 +3856,7 @@
     not_anime_ids:
     - 34453
     - 55392
-  threshold: 78.6%
+  threshold: 80.1%
   metadata: &392
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -3997,7 +4000,11 @@
     - 51842
     - 55393
     - 55517
-  threshold: 87.4%
+    - 58823
+    - 58824
+    - 58825
+    - 58826
+  threshold: 86.9%
   metadata: &405
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4416,7 +4423,7 @@
     - 55883
     - 56889
     - 58428
-  threshold: 95.4%
+  threshold: 95.6%
   metadata: &449
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -5054,7 +5061,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 92%
+  threshold: 91.7%
   metadata: &513
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5569,7 +5576,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 87.9%
+  threshold: 88%
   metadata: &565
     title_ru: При Пара
     title_en: PriPara
@@ -5609,7 +5616,7 @@
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
-  threshold: 96.8%
+  threshold: 96.9%
   metadata: &570
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
@@ -6289,7 +6296,7 @@
     - 1572
     - 2565
     - 42399
-  threshold: 93.2%
+  threshold: 93.3%
   metadata: &643
     title_ru: Император джунглей
     title_en: Jungle Taitei
@@ -6591,7 +6598,7 @@
   algo: duration
   filters: &672
     franchise: soul_land
-  threshold: 92.9%
+  threshold: 93%
   metadata: &673
     title_ru: Боевой континент
     title_en: Douluo Dalu
