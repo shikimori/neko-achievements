@@ -180,11 +180,9 @@
     franchise: re_zero
     not_anime_ids:
     - 33142
-    - 33569
     - 38389
     - 39921
     - 41590
-    - 42364
     - 42776
   threshold: 98%
   metadata: &19
@@ -3247,6 +3245,7 @@
     - 35077
     - 38676
     - 42748
+    - 58495
   threshold: 95%
   metadata: &326
     title_ru: Макросс
