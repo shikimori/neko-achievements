@@ -180,12 +180,11 @@
     franchise: re_zero
     not_anime_ids:
     - 33142
-    - 33569
     - 38389
     - 39921
     - 41590
-    - 42364
     - 42776
+    - 60012
   threshold: 98%
   metadata: &19
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
@@ -725,6 +724,7 @@
     - 51060
     - 54171
     - 56442
+    - 60048
   threshold: 96.4%
   metadata: &75
     title_ru: Блич
@@ -3247,6 +3247,7 @@
     - 35077
     - 38676
     - 42748
+    - 58495
   threshold: 95%
   metadata: &326
     title_ru: Макросс
