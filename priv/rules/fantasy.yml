@@ -6,6 +6,7 @@
   filters:
     genre_v2_ids:
       - 10
+      - 197
   metadata:
     title_ru: Попаданец
     text_ru: Первый шаг в новом мире.
