@@ -185,7 +185,7 @@
     - 41590
     - 42776
     - 60012
-  threshold: 93.4%
+  threshold: 93.8%
   metadata: &19
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
     title_en: Re:Zero kara Hajimeru Isekai Seikatsu
@@ -725,7 +725,7 @@
     - 54171
     - 56442
     - 60048
-  threshold: 96.4%
+  threshold: 95.5%
   metadata: &75
     title_ru: Блич
     title_en: Bleach
@@ -1186,7 +1186,7 @@
     - 59832
     - 59908
     - 59959
-  threshold: 96.3%
+  threshold: 96.2%
   metadata: &118
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1642,6 +1642,7 @@
     - 19727
     - 19845
     - 23363
+    - 60023
   threshold: 100%
   metadata: &169
     title_ru: Ну не может моя сестрёнка быть такой милой
@@ -1947,7 +1948,7 @@
     - 10334
     - 37537
     - 56621
-  threshold: 94%
+  threshold: 94.2%
   metadata: &204
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -2055,7 +2056,7 @@
     - 38112
     - 38361
     - 46089
-  threshold: 92.2%
+  threshold: 92.4%
   metadata: &216
     title_ru: Сказания
     title_en: Tales of
@@ -2125,7 +2126,8 @@
     - 52010
     - 52011
     - 59190
-  threshold: 92.6%
+    - 60062
+  threshold: 95%
   metadata: &223
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2767,7 +2769,7 @@
     - 55404
     - 59572
     - 59718
-  threshold: 86.5%
+  threshold: 86%
   metadata: &278
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2830,7 +2832,8 @@
     - 38653
     - 48617
     - 52282
-  threshold: 94.9%
+    - 59832
+  threshold: 94.6%
   metadata: &283
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2917,7 +2920,7 @@
     not_anime_ids:
     - 12665
     - 40369
-  threshold: 91.3%
+  threshold: 91.5%
   metadata: &293
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
@@ -3206,7 +3209,7 @@
     - 53976
     - 55134
     - 57441
-  threshold: 92.8%
+  threshold: 92.9%
   metadata: &323
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3600,7 +3603,7 @@
     - 38087
     - 51266
     - 59790
-  threshold: 94.9%
+  threshold: 95%
   metadata: &363
     title_ru: Осомацу
     title_en: Osomatsu
@@ -4004,7 +4007,7 @@
     - 58824
     - 58825
     - 58826
-  threshold: 86.9%
+  threshold: 86.3%
   metadata: &405
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4930,7 +4933,7 @@
     - 51780
     - 53265
     - 54282
-  threshold: 93%
+  threshold: 93.6%
   metadata: &499
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -5061,7 +5064,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.7%
+  threshold: 91.8%
   metadata: &513
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5131,7 +5134,7 @@
     - 10824
     - 10825
     - 60148
-  threshold: 96%
+  threshold: 95%
   metadata: &520
     title_ru: Ранма ½
     title_en: Ranma ½
@@ -6598,7 +6601,7 @@
   algo: duration
   filters: &672
     franchise: soul_land
-  threshold: 93%
+  threshold: 93.1%
   metadata: &673
     title_ru: Боевой континент
     title_en: Douluo Dalu
