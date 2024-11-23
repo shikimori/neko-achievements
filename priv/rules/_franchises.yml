@@ -3839,7 +3839,7 @@
   algo: duration
   filters: &389
     franchise: zhen_hun_jie
-  threshold: 100%
+  threshold: 98%
   metadata: &390
     title_ru: Улица демонов
     title_en: Zhen Hun Jie
