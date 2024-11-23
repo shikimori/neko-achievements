@@ -37,7 +37,7 @@ $ mix deploy
 ### elixir samples
 ```elixir
 # get neko_id rules
-Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen"))
+Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "animelist"))
 
 # get animes
 Neko.Anime.all()
@@ -45,15 +45,17 @@ Neko.Anime.all_by_id()
 
 
 # get animes matched by rule
-user_id = 1
+user_id = 919803
 Neko.UserRate.load(user_id)
 
-rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "longshounen" && &1.level == 1)) |> Enum.at(0)
+rule = Neko.Rule.CountRule.Store.all |> Enum.filter(&(&1.neko_id == "animelist" && &1.level == 14)) |> Enum.at(0)
 rule = Neko.Rule.DurationRule.Store.all |> Enum.filter(&(&1.neko_id == "darker_than_black" && &1.level == 1)) |> Enum.at(0)
 
 user_anime_ids = user_id |> Neko.UserRate.all() |> Map.values() |> Enum.map(& &1.target_id) |> MapSet.new()
-user_animes_by_id = Neko.Anime.all_by_id() |> Map.take(user_anime_ids)
-user_anime_ids |> MapSet.intersection(rule.anime_ids)
+user_animes_by_id = Neko.Anime.all_by_id() |> Map.take(MapSet.to_list(user_anime_ids))
+matched_anime_ids = user_anime_ids |> MapSet.intersection(rule.anime_ids)
+missing_anime_ids = user_anime_ids |> MapSet.difference(rule.anime_ids) |> MapSet.to_list()
+
 ```
 
 ### elixir logging
