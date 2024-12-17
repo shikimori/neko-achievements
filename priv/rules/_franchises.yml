@@ -1297,6 +1297,8 @@
   algo: duration
   filters: &131
     franchise: quanzhi_gaoshou
+    not_anime_ids:
+    - 60513
   threshold: 100%
   metadata: &132
     title_ru: Аватар короля
