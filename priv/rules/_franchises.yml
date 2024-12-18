@@ -1297,6 +1297,8 @@
   algo: duration
   filters: &131
     franchise: quanzhi_gaoshou
+    not_anime_ids:
+    - 60513
   threshold: 100%
   metadata: &132
     title_ru: Аватар короля
@@ -2523,6 +2525,7 @@
     - 31989
     - 35082
     - 37577
+    - 58856
   threshold: 91.4%
   metadata: &258
     title_ru: Звучи, эуфониум!
@@ -3005,6 +3008,7 @@
     ignore_latest_ids:
     - 39487
     - 40082
+    - 60408
 - neko_id: lupin_iii
   level: 0
   algo: duration
@@ -6609,3 +6613,14 @@
   filters: *672
   threshold: 0.01
   metadata: *673
+- neko_id: kaleido_star
+  level: 1
+  algo: duration
+  filters:
+    franchise: kaleido_star
+  threshold: 93.1%
+  metadata:
+    title_ru: Огни Пёстрой арены
+    title_en: Kaleido Star
+    image: https://desu.shikimori.one/system/user_images_h/original/5617c78fb282a8dba9b91398/b2f1b4416fb4127f13ce719d066d72299786474b5f68b7f2f87dc511e9a14ccf.jpg
+    topic_id: 247360
