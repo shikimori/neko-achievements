@@ -2526,7 +2526,7 @@
     - 35082
     - 37577
     - 58856
-  threshold: 91.4%
+  threshold: 93.2%
   metadata: &258
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -6616,11 +6616,19 @@
 - neko_id: kaleido_star
   level: 1
   algo: duration
-  filters:
+  filters: &674
     franchise: kaleido_star
-  threshold: 93.1%
-  metadata:
+    not_anime_ids:
+    - 1501
+  threshold: 100%
+  metadata: &675
     title_ru: Огни Пёстрой арены
     title_en: Kaleido Star
-    image: https://desu.shikimori.one/system/user_images_h/original/5617c78fb282a8dba9b91398/b2f1b4416fb4127f13ce719d066d72299786474b5f68b7f2f87dc511e9a14ccf.jpg
+    image: "/assets/achievements/anime/franchise/kaleido_star.jpg"
     topic_id: 247360
+- neko_id: kaleido_star
+  level: 0
+  algo: duration
+  filters: *674
+  threshold: 0.01
+  metadata: *675
