@@ -6618,17 +6618,19 @@
   algo: duration
   filters: &674
     franchise: kaleido_star
-    not_anime_ids:
-    - 1501
   threshold: 100%
   metadata: &675
     title_ru: Огни Пёстрой арены
     title_en: Kaleido Star
     image: "/assets/achievements/anime/franchise/kaleido_star.jpg"
     topic_id: 247360
+  generator: &676
+    not_ignored_ids:
+    - 1501
 - neko_id: kaleido_star
   level: 0
   algo: duration
   filters: *674
   threshold: 0.01
   metadata: *675
+  generator: *676
