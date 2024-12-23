@@ -6497,6 +6497,8 @@
     - 22455
     - 22497
     - 32622
+    - 53975
+    - 33915
   threshold: 95%
   metadata: &661
     title_ru: Привет, Китти
@@ -6634,3 +6636,14 @@
   threshold: 0.01
   metadata: *675
   generator: *676
+- neko_id: swallowed_star
+  level: 1
+  algo: duration
+  filters:
+    franchise: swallowed_star
+  threshold: 100%
+  metadata:
+    title_ru: Пожиратель звёзд
+    title_en: Tunshi Xingkong
+    image: https://dere.shikimori.one/system/user_images_h/original/3f07817a8029e409c04f6b8b/186a3e981fe4f44785a124b72fbee878d5340ea5efbf8ff2d411f4dfb4befbf7.jpg
+    topic_id: 247360
