@@ -3734,7 +3734,7 @@
   metadata: &377
     title_ru: Хроника крыльев
     title_en: Tsubasa Chronicle
-    image: https://dere.shikimori.one/system/user_images_h/original/d115e97e93c5e77446067abd/00b4c9f742c5d3146f84d20ab041bb66f4c6ed3405059d002b2f4941a9c28e7f.jpg
+    image: "/assets/achievements/anime/franchise/tsubasa.jpg"
     topic_id: 247360
 - neko_id: tsubasa
   level: 0
@@ -6420,7 +6420,7 @@
     title_en: Porong Porong Pororo
     image: "/assets/achievements/anime/franchise/yoligongju_loopy.jpg"
     topic_id: 247360
-  generator:
+  generator: &654
     ignore_latest_ids:
     - 59031
 - neko_id: yoligongju_loopy
@@ -6429,13 +6429,14 @@
   filters: *652
   threshold: 0.01
   metadata: *653
+  generator: *654
 - neko_id: jiu_tian_xuan_di_jue
   level: 1
   algo: duration
-  filters: &654
+  filters: &655
     franchise: jiu_tian_xuan_di_jue
   threshold: 95%
-  metadata: &655
+  metadata: &656
     title_ru: Тайна императора девяти небес
     title_en: Jiu Tian Xuan Di Jue
     image: "/assets/achievements/anime/franchise/jiu_tian_xuan_di_jue.jpg"
@@ -6443,16 +6444,16 @@
 - neko_id: jiu_tian_xuan_di_jue
   level: 0
   algo: duration
-  filters: *654
+  filters: *655
   threshold: 0.01
-  metadata: *655
+  metadata: *656
 - neko_id: xi_xing_ji
   level: 1
   algo: duration
-  filters: &656
+  filters: &657
     franchise: xi_xing_ji
   threshold: 95%
-  metadata: &657
+  metadata: &658
     title_ru: Путешествие на Запад
     title_en: Xi Xing Ji
     image: "/assets/achievements/anime/franchise/xi_xing_ji.jpg"
@@ -6460,13 +6461,13 @@
 - neko_id: xi_xing_ji
   level: 0
   algo: duration
-  filters: *656
+  filters: *657
   threshold: 0.01
-  metadata: *657
+  metadata: *658
 - neko_id: fantastica
   level: 1
   algo: duration
-  filters: &658
+  filters: &659
     franchise: fantastica
     not_anime_ids:
     - 32819
@@ -6479,7 +6480,7 @@
     - 44140
     - 58376
   threshold: 80%
-  metadata: &659
+  metadata: &660
     title_ru: Медведи-соседи
     title_en: Xiong Chumo
     image: "/assets/achievements/anime/franchise/fantastica.jpg"
@@ -6487,13 +6488,13 @@
 - neko_id: fantastica
   level: 0
   algo: duration
-  filters: *658
+  filters: *659
   threshold: 0.01
-  metadata: *659
+  metadata: *660
 - neko_id: hello_kitty
   level: 1
   algo: duration
-  filters: &660
+  filters: &661
     franchise: hello_kitty
     not_anime_ids:
     - 11521
@@ -6506,7 +6507,7 @@
     - 33915
     - 53975
   threshold: 95%
-  metadata: &661
+  metadata: &662
     title_ru: Привет, Китти
     title_en: Hello Kitty
     image: "/assets/achievements/anime/franchise/hello_kitty.jpg"
@@ -6514,16 +6515,16 @@
 - neko_id: hello_kitty
   level: 0
   algo: duration
-  filters: *660
+  filters: *661
   threshold: 0.01
-  metadata: *661
+  metadata: *662
 - neko_id: haou_daikei_ryuu_knight
   level: 1
   algo: duration
-  filters: &662
+  filters: &663
     franchise: haou_daikei_ryuu_knight
   threshold: 100%
-  metadata: &663
+  metadata: &664
     title_ru: Властелин властелинов Рыцарь Рю
     title_en: Haou Daikei Ryuu Knight
     image: "/assets/achievements/anime/franchise/haou_daikei_ryuu_knight.jpg"
@@ -6531,18 +6532,18 @@
 - neko_id: haou_daikei_ryuu_knight
   level: 0
   algo: duration
-  filters: *662
+  filters: *663
   threshold: 0.01
-  metadata: *663
+  metadata: *664
 - neko_id: kimi_ni_todoke
   level: 1
   algo: duration
-  filters: &664
+  filters: &665
     franchise: kimi_ni_todoke
     not_anime_ids:
     - 58978
   threshold: 96.8%
-  metadata: &665
+  metadata: &666
     title_ru: Достучаться до тебя
     title_en: Kimi ni Todoke
     image: "/assets/achievements/anime/franchise/kimi_ni_todoke.jpg"
@@ -6550,16 +6551,16 @@
 - neko_id: kimi_ni_todoke
   level: 0
   algo: duration
-  filters: *664
+  filters: *665
   threshold: 0.01
-  metadata: *665
+  metadata: *666
 - neko_id: xue_ying_ling_zhu
   level: 1
   algo: duration
-  filters: &666
+  filters: &667
     franchise: xue_ying_ling_zhu
   threshold: 100%
-  metadata: &667
+  metadata: &668
     title_ru: Лорд Сюэ Ин
     title_en: Xue Ying Ling Zhu
     image: "/assets/achievements/anime/franchise/xue_ying_ling_zhu.jpg"
@@ -6567,16 +6568,16 @@
 - neko_id: xue_ying_ling_zhu
   level: 0
   algo: duration
-  filters: *666
+  filters: *667
   threshold: 0.01
-  metadata: *667
+  metadata: *668
 - neko_id: kengan_ashura
   level: 1
   algo: duration
-  filters: &668
+  filters: &669
     franchise: kengan_ashura
   threshold: 100%
-  metadata: &669
+  metadata: &670
     title_ru: Кэнган Асура
     title_en: Kengan Ashura
     image: "/assets/achievements/anime/franchise/kengan_ashura.jpg"
@@ -6584,16 +6585,16 @@
 - neko_id: kengan_ashura
   level: 0
   algo: duration
-  filters: *668
+  filters: *669
   threshold: 0.01
-  metadata: *669
+  metadata: *670
 - neko_id: ookami_to_koushinryou
   level: 1
   algo: duration
-  filters: &670
+  filters: &671
     franchise: ookami_to_koushinryou
   threshold: 99.4%
-  metadata: &671
+  metadata: &672
     title_ru: Волчица и пряности
     title_en: Ookami to Koushinryou
     image: "/assets/achievements/anime/franchise/ookami_to_koushinryou.jpg"
@@ -6601,16 +6602,16 @@
 - neko_id: ookami_to_koushinryou
   level: 0
   algo: duration
-  filters: *670
+  filters: *671
   threshold: 0.01
-  metadata: *671
+  metadata: *672
 - neko_id: soul_land
   level: 1
   algo: duration
-  filters: &672
+  filters: &673
     franchise: soul_land
   threshold: 93.3%
-  metadata: &673
+  metadata: &674
     title_ru: Боевой континент
     title_en: Douluo Dalu
     image: "/assets/achievements/anime/franchise/soul_land.jpg"
@@ -6618,37 +6619,37 @@
 - neko_id: soul_land
   level: 0
   algo: duration
-  filters: *672
+  filters: *673
   threshold: 0.01
-  metadata: *673
+  metadata: *674
 - neko_id: kaleido_star
   level: 1
   algo: duration
-  filters: &674
+  filters: &675
     franchise: kaleido_star
   threshold: 100%
-  metadata: &675
+  metadata: &676
     title_ru: Огни Пёстрой арены
     title_en: Kaleido Star
     image: "/assets/achievements/anime/franchise/kaleido_star.jpg"
     topic_id: 247360
-  generator: &676
+  generator: &677
     not_ignored_ids:
     - 1501
 - neko_id: kaleido_star
   level: 0
   algo: duration
-  filters: *674
+  filters: *675
   threshold: 0.01
-  metadata: *675
-  generator: *676
+  metadata: *676
+  generator: *677
 - neko_id: swallowed_star
   level: 1
   algo: duration
-  filters: &677
+  filters: &678
     franchise: swallowed_star
   threshold: 97.1%
-  metadata: &678
+  metadata: &679
     title_ru: Пожиратель звёзд
     title_en: Tunshi Xingkong
     image: "/assets/achievements/anime/franchise/swallowed_star.jpg"
@@ -6656,6 +6657,6 @@
 - neko_id: swallowed_star
   level: 0
   algo: duration
-  filters: *677
+  filters: *678
   threshold: 0.01
-  metadata: *678
+  metadata: *679

@@ -355,7 +355,7 @@
   metadata: &23
     title_ru: Key
     title_en: Key
-    image: https://dere.shikimori.one/system/user_images_h/original/3f07817a8029e409c04f6b8b/87efc8dcd7cf445d53b7baef1b6fb2b286acea54afa33b4c0f312a43db174057.jpg
+    image: "/assets/achievements/anime/author/key.jpg"
     border_color: "#000000"
     topic_id: 276032
   generator: &24
