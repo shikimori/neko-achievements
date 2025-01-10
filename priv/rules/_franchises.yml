@@ -868,6 +868,7 @@
     - 49633
     - 58972
     - 59465
+    - 60660
   threshold: 90%
   metadata: &87
     title_ru: Судьба
@@ -1092,6 +1093,7 @@
     - 31448
     - 35631
     - 50097
+    - 60669
   threshold: 95.7%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
@@ -3732,7 +3734,7 @@
   metadata: &377
     title_ru: Хроника крыльев
     title_en: Tsubasa Chronicle
-    image: "/assets/achievements/anime/franchise/tsubasa.jpg"
+    image: https://dere.shikimori.one/system/user_images_h/original/d115e97e93c5e77446067abd/00b4c9f742c5d3146f84d20ab041bb66f4c6ed3405059d002b2f4941a9c28e7f.jpg
     topic_id: 247360
 - neko_id: tsubasa
   level: 0
@@ -6418,6 +6420,9 @@
     title_en: Porong Porong Pororo
     image: "/assets/achievements/anime/franchise/yoligongju_loopy.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 59031
 - neko_id: yoligongju_loopy
   level: 0
   algo: duration
