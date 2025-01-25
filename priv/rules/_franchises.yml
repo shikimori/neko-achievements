@@ -4810,7 +4810,7 @@
   algo: duration
   filters: &482
     franchise: binan_koukou_chikyuu_boueibu_love
-  threshold: 100%
+  threshold: 91.9%
   metadata: &483
     title_ru: Красавцы из клуба защитников Земли
     title_en: Binan Koukou Chikyuu Boueibu
