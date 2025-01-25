@@ -4430,9 +4430,9 @@
     - 55378
     - 55883
     - 56889
-    - 58428
     - 57754
-  threshold: 86.6%
+    - 58428
+  threshold: 85.2%
   metadata: &448
     title_ru: Ура мечте!
     title_en: BanG Dream!
