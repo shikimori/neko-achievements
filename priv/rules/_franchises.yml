@@ -3043,8 +3043,8 @@
     not_anime_ids:
     - 25755
     - 30790
-    - 35880
     - 33522
+    - 35880
   threshold: 95%
   metadata: &305
     title_ru: Трусливый велосипедист
@@ -3751,8 +3751,8 @@
     - 4941
     - 7229
     - 18669
-    - 42400
     - 35859
+    - 42400
   threshold: 95%
   metadata: &378
     title_ru: Черный Джек
@@ -4433,9 +4433,9 @@
     - 55378
     - 55883
     - 56889
-    - 58428
     - 57754
-  threshold: 86.6%
+    - 58428
+  threshold: 85.2%
   metadata: &448
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4813,7 +4813,7 @@
   algo: duration
   filters: &482
     franchise: binan_koukou_chikyuu_boueibu_love
-  threshold: 100%
+  threshold: 91.9%
   metadata: &483
     title_ru: Красавцы из клуба защитников Земли
     title_en: Binan Koukou Chikyuu Boueibu
